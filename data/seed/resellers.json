@@ -1,0 +1,52 @@
+{
+	"resellers": [
+		{
+			"id": "alambique",
+			"name": "Alambique",
+			"url": "https://alambique.com.uy",
+			"country": "UY",
+			"price": null,
+			"sort_order": 1
+		},
+		{
+			"id": "malthaus",
+			"name": "Malthaus",
+			"url": "https://malthaus.uy",
+			"country": "UY",
+			"price": null,
+			"sort_order": 2
+		},
+		{
+			"id": "ml-uy",
+			"name": "Mercado Libre Uruguay",
+			"url": "https://listado.mercadolibre.com.uy",
+			"country": "UY",
+			"price": null,
+			"sort_order": 3
+		},
+		{
+			"id": "amazon",
+			"name": "Amazon",
+			"url": "https://www.amazon.com.br",
+			"country": "BR",
+			"price": null,
+			"sort_order": 1
+		},
+		{
+			"id": "ml-br",
+			"name": "Mercado Livre",
+			"url": "https://www.mercadolivre.com.br",
+			"country": "BR",
+			"price": null,
+			"sort_order": 2
+		},
+		{
+			"id": "imexco",
+			"name": "Imexco Importadora",
+			"url": "https://www.imexco.com.br",
+			"country": "BR",
+			"price": null,
+			"sort_order": 3
+		}
+	]
+}

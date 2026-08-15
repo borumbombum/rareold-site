@@ -1,0 +1,122 @@
+[
+  {
+    "id": "argentina-buenos-aires",
+    "origin_id": "argentina",
+    "name": "Buenos Aires",
+    "sort_order": 0
+  },
+  {
+    "id": "argentina-mendoza",
+    "origin_id": "argentina",
+    "name": "Mendoza",
+    "sort_order": 1
+  },
+  {
+    "id": "argentina-patagonia",
+    "origin_id": "argentina",
+    "name": "Patagonia",
+    "sort_order": 2
+  },
+  {
+    "id": "canada-canadian-whisky",
+    "origin_id": "canada",
+    "name": "Canadian Whisky",
+    "sort_order": 3
+  },
+  {
+    "id": "india-bangalore",
+    "origin_id": "india",
+    "name": "Bangalore",
+    "sort_order": 4
+  },
+  {
+    "id": "ireland-cork",
+    "origin_id": "ireland",
+    "name": "Cork",
+    "sort_order": 5
+  },
+  {
+    "id": "ireland-dublin",
+    "origin_id": "ireland",
+    "name": "Dublin",
+    "sort_order": 6
+  },
+  {
+    "id": "ireland-kerry",
+    "origin_id": "ireland",
+    "name": "Kerry",
+    "sort_order": 7
+  },
+  {
+    "id": "ireland-waterford",
+    "origin_id": "ireland",
+    "name": "Waterford",
+    "sort_order": 8
+  },
+  {
+    "id": "ireland-wicklow",
+    "origin_id": "ireland",
+    "name": "Wicklow",
+    "sort_order": 9
+  },
+  {
+    "id": "japan-honshu",
+    "origin_id": "japan",
+    "name": "Honshu",
+    "sort_order": 10
+  },
+  {
+    "id": "other-taiwan",
+    "origin_id": "other",
+    "name": "Taiwan",
+    "sort_order": 11
+  },
+  {
+    "id": "other-wales",
+    "origin_id": "other",
+    "name": "Wales",
+    "sort_order": 12
+  },
+  {
+    "id": "scotland-blended-scotch",
+    "origin_id": "scotland",
+    "name": "Blended Scotch",
+    "sort_order": 13
+  },
+  {
+    "id": "scotland-highlands",
+    "origin_id": "scotland",
+    "name": "Highlands",
+    "sort_order": 14
+  },
+  {
+    "id": "scotland-islands",
+    "origin_id": "scotland",
+    "name": "Islands",
+    "sort_order": 15
+  },
+  {
+    "id": "scotland-islay",
+    "origin_id": "scotland",
+    "name": "Islay",
+    "sort_order": 16
+  },
+  {
+    "id": "scotland-lowlands",
+    "origin_id": "scotland",
+    "name": "Lowlands",
+    "sort_order": 17
+  },
+  {
+    "id": "scotland-speyside",
+    "origin_id": "scotland",
+    "name": "Speyside",
+    "sort_order": 18
+  },
+  {
+    "id": "usa-kentucky",
+    "origin_id": "usa",
+    "name": "Kentucky",
+    "sort_order": 19
+  }
+]

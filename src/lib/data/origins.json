@@ -1,0 +1,66 @@
+[
+  {
+    "id": "scotland",
+    "name": "Scotland",
+    "name_es": "Escocia",
+    "name_pt": "Escócia",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "sort_order": 0
+  },
+  {
+    "id": "ireland",
+    "name": "Ireland",
+    "name_es": "Irlanda",
+    "name_pt": "Irlanda",
+    "flag": "🇮🇪",
+    "sort_order": 1
+  },
+  {
+    "id": "usa",
+    "name": "USA",
+    "name_es": "EE. UU.",
+    "name_pt": "EUA",
+    "flag": "🇺🇸",
+    "sort_order": 2
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "name_es": "Japón",
+    "name_pt": "Japão",
+    "flag": "🇯🇵",
+    "sort_order": 3
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "name_es": "India",
+    "name_pt": "Índia",
+    "flag": "🇮🇳",
+    "sort_order": 4
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "name_es": "Canadá",
+    "name_pt": "Canadá",
+    "flag": "🇨🇦",
+    "sort_order": 5
+  },
+  {
+    "id": "argentina",
+    "name": "Argentina",
+    "name_es": "Argentina",
+    "name_pt": "Argentina",
+    "flag": "🇦🇷",
+    "sort_order": 6
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "name_es": "Otros",
+    "name_pt": "Outros",
+    "flag": "🌍",
+    "sort_order": 7
+  }
+]

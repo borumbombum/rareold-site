@@ -1,0 +1,71 @@
+# RULES
+
+- Sites must always be ultra-fast, no shortcuts taken that is why we will use Turso and Sveltekit.
+- Login will only be via Google Login.
+- Css only with configured Tailwind classes.
+- Images will be the only thing heavily cached at client cache with 30 days TTL. The rest of things (json files) will be cached at the sveltekit runtime level so we can control cache.
+- Do one todo at a time. Study the task first and ask if you need any tokens.
+- Do not take shortcuts. Make all efficient and minimal.
+- For each new task make sure that the structure hasn't change, so you get an updated idea of the system.
+- Stop after each todo completed and report back before continuing.
+- If you consider some change might break current usage experience then query for confirmation.
+- Never push to remote without being explictly asked. Remote repo goes directly to production so its very risky to push to remote.
+
+## Task workflow
+
+Tasks live as one markdown file per task in `/todos/`. Do not track tasks anywhere else.
+
+- **File naming:** `NNN-slug.md`. The `NNN` prefix is a zero-padded 3-digit priority: lower number = higher importance = do it first. Prefixes must stay unique. Example: `todos/002-google-auth-own-turso-cubiq-detach.md`.
+- **Status:** every task file MUST start with a `Status:` line, and it must be one of:
+    - `Status: TODO` — not started, available to pick up.
+    - `Status: WORKING-AGENT-<session>` — currently being implemented by an agent. Replace `<session>` with your own session identifier.
+    - `Status: DONE` — implemented and verified. Do not touch again.
+- **Picking the next task:** read `/todos/`, list the files sorted by `NNN`, and pick the lowest `NNN` whose status is `TODO`. Never start a `DONE` task, and never start a `WORKING-AGENT-*` task unless you are taking it over (see Handoff below).
+- **Starting a task:** set the file's status to `Status: WORKING-AGENT-<your-session>` and add a `## Progress` section at the end of the file with a dated entry: your session, what you are doing, and what comes next. Read the whole task file first (Context / Requirements / Acceptance criteria); ask for tokens if anything is unclear.
+- **Progress log:** keep the `## Progress` section updated as you work, not just at the start or end. Every meaningful step gets a short entry: what was done, current state, and the next step. This is the handoff record.
+- **Handoff / token exhaustion:** if you run out of tokens mid-task, your last `## Progress` entry MUST state exactly where you left off and what the next agent should do. A replacement agent taking over a `WORKING-AGENT-*` task reads the `## Progress` log, changes the status to `Status: WORKING-AGENT-<its-session>`, and appends a handoff entry saying it is continuing.
+- **When finished:** once implemented and verified (build, lint, typecheck pass), set the status to `Status: DONE`, then pick the next `TODO` task and repeat.
+- Do not reorder, rename, or delete task files unless explicitly asked.
+
+## Localization (adding a new language)
+
+All user-facing text is locale-aware. Two kinds of content exist, and a new language must be wired into **both**:
+
+### 1. UI strings — Paraglide messages
+
+- Messages live in `messages/<locale>.json` (e.g. `es.json`, `pt.json`). `project.inlang/settings.json` defines `baseLocale` (the default) and `locales`.
+- Adding a language: create `messages/<new-locale>.json`, add it to `locales` and `urlPatterns` in `project.inlang/settings.json`, and add the `lang`/`HTML_LANG` mapping in `src/hooks.server.ts`. The build (Vite plugin) regenerates `src/lib/paraglide/` — never hand-edit those generated files.
+- Do not add message keys that only hold data (e.g. origin names). Data goes in the DB (see below). Messages are for UI chrome only.
+
+### 2. DB content — origins and product text (source of truth is Turso)
+
+Origin labels and product names/descriptions are translated columns in Turso, exported to the frontend JSON (`src/lib/data/`). Never hardcode a label map in a component.
+
+- **Turso is the sole source of truth for content.** The seed files (`data/seed/whiskies.json`, `resellers.json`) are bootstrap-only: `npm run db:sync` inserts only rows that don't exist yet (`ON CONFLICT DO NOTHING`) and never overwrites existing Turso rows. Content edits (including translations for existing rows) go to Turso via the admin UI (`/admin`) or SQL, then `npm run data:export` → build.
+- Origins: `origins` table has `name` (English canonical), plus one override column per language (`name_es`, `name_pt`, ...). `ORIGIN_META` in `scripts/db-sync.mjs` is the bootstrap source for new origins; new override columns are added via a migration in `db/migrations/` (follow the pattern of `0005_localized_content.sql`).
+- Products: `products` table has base `name`/`description` (fallback, currently Spanish = `baseLocale`) and override columns `<field>_<locale>` (`name_pt`, `description_pt`, ...). New products/locale columns for new languages are bootstrapped from `data/seed/whiskies.json`; translations for existing products are edited in Turso.
+- `src/lib/utils/l10n.ts` `l10n(item, field)` resolves `<field>_<locale>` for the active locale and falls back to the base field; `src/lib/utils/origins.ts` `originLabel()` does the same for origins. If a new locale is added, extend the `LOCALE_FIELD` map in `origins.ts` only if needed — the fallback already covers missing translations.
+- The pipeline is always: content in Turso (bootstrap via seed once, then edits via `/admin`) → `npm run data:export` (Turso → `src/lib/data/*.json`) → build. Every product must have `description_pt` (and any other language you add) or the localized content pass is incomplete.
+
+## Next tasks
+
+Current status of `/todos/`:
+
+- `000-images-webp-script.md` — DONE
+- `001-json-data-turso-migration.md` — DONE
+- `002-google-auth-own-turso-cubiq-detach.md` — DONE
+- `003-drawer-region-transition.md` — DONE
+- `004-admin-section.md` — DONE
+- `005-dark-mode-card-images-white-background.md` — DONE
+- `006-product-videos-per-country-sommeliers.md` — TODO
+- `007-desktop-search-bar-below-hero.md` — TODO
+- `008-vote-image-upload-and-location.md` — TODO
+- `009-share-button-product-page.md` — TODO
+- `010-us-site-paraglide.md` — TODO
+- `011-google-login-redirect-pkce-cookie.md` — DONE
+- `012-resellers-turso-source-of-truth.md` — DONE
+- `013-remove-public-base-url-detect-origin.md` — DONE
+- `014-favorites-love-whiskies.md` — DONE
+- `015-git-link-github-repo.md` — TODO (urgent; link `/workspace` to `github.com/borumbumbom/rareold-site` — may be executed by an outside agent)
+- `016-sitemaps-by-language.md` — TODO
+- `017-pages-cms-about.md` — TODO
