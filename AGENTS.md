@@ -66,6 +66,6 @@ Current status of `/todos/`:
 - `012-resellers-turso-source-of-truth.md` — DONE
 - `013-remove-public-base-url-detect-origin.md` — DONE
 - `014-favorites-love-whiskies.md` — DONE
-- `015-git-link-github-repo.md` — TODO (urgent; link `/workspace` to `github.com/borumbumbom/rareold-site` — may be executed by an outside agent)
+- `015-git-link-github-repo.md` — DONE
 - `016-sitemaps-by-language.md` — TODO
 - `017-pages-cms-about.md` — TODO

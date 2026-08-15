@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Link the code to the GitHub repo
 
@@ -45,3 +45,5 @@ be executed by an agent that can obtain credentials from the repo owner. Per own
 - Pushing again works without re-entering a token (gh credential helper configured).
 
 ## Progress
+
+- 2026-08-15: Done. Environment was macOS (not Debian) with `gh` already installed/authenticated as `borumbombum`. Repo `borumbombum/rareold-site` existed (public, default branch `main`, one auto-generated README commit `90e4349`). Ran `git init -b main`, set repo-local identity `Borum <borumbumbom@proton.me>`, added clean `origin` remote. Committed all 306 files (`.env`, `node_modules/`, `/.svelte-kit`, `.vercel`, `/tools`, `/data/images/raw` excluded by `.gitignore`; `.env.example` verified secret-free; 156 webp committed). Rebased onto `origin/main`, resolved the `README.md` add/add conflict in favor of the project README. Pushed `90e4349..93db65c` to `main`. Working tree clean, `main` tracks `origin/main`, no token embedded in the remote URL. Note: GitHub REST/GraphQL API returned inconsistent 404s for this repo throughout; git smart-HTTP (the authoritative path) worked and the push was confirmed by a fresh fetch.
