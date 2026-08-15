@@ -8,7 +8,6 @@
 	import Toast from '$lib/components/Toast.svelte';
 	import { beforeNavigate, afterNavigate } from '$app/navigation';
 	import { theme } from '$lib/stores/theme.svelte';
-	import { view } from '$lib/stores/view.svelte';
 	import { session } from '$lib/stores/session.svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
 	import { navigation } from '$lib/stores/navigation.svelte';
@@ -26,10 +25,6 @@
 
 	$effect(() => {
 		theme.init();
-	});
-
-	$effect(() => {
-		view.init();
 	});
 
 	$effect(() => {

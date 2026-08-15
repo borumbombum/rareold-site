@@ -9,7 +9,7 @@
 - For each new task make sure that the structure hasn't change, so you get an updated idea of the system.
 - Stop after each todo completed and report back before continuing.
 - If you consider some change might break current usage experience then query for confirmation.
-- Never push to remote without being explictly asked. Remote repo goes directly to production so its very risky to push to remote.
+- Never ask to commiit, and never push to remote without being explictly asked. Remote repo goes directly to production so its very risky to push to remote.
 
 ## Task workflow
 
@@ -69,3 +69,6 @@ Current status of `/todos/`:
 - `015-git-link-github-repo.md` — DONE
 - `016-sitemaps-by-language.md` — TODO
 - `017-pages-cms-about.md` — TODO
+- `018-view-toggle-flick.md` — DONE
+- `019-ranking-most-voted-first.md` — DONE
+- `020-vote-state-server-authoritative.md` — TODO

@@ -10,7 +10,8 @@ export const load: PageServerLoad = async ({ locals, setHeaders }) => {
 	const karmaMap = await getKarmaMap(products.map((p) => p.slug));
 
 	setHeaders({
-		'Cache-Control': 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
+		'Cache-Control': 'public, max-age=60, s-maxage=300, stale-while-revalidate=600',
+		'Vary': 'Cookie'
 	});
 
 	return {

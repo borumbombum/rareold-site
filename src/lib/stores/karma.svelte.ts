@@ -41,3 +41,23 @@ export const karmaStore = {
 		};
 	}
 };
+
+/** Fetch fresh karma from Turso (no-store) and merge it into the store.
+ *  Guarantees most-voted-first ordering reflects live votes on every mount. */
+export async function refreshKarma(slugs: string[]): Promise<void> {
+	const unique = [...new Set(slugs)].filter(Boolean);
+	if (unique.length === 0) return;
+	try {
+		const res = await fetch(`/api/karma?slugs=${encodeURIComponent(unique.join(','))}`);
+		if (!res.ok) return;
+		const data = (await res.json()) as {
+			items?: { entity_id: string; karma: number; vote_count: number }[];
+		};
+		if (!data.items) return;
+		karmaStore.refresh(
+			data.items.map((e) => ({ slug: e.entity_id, karma: e.karma, votes: e.vote_count }))
+		);
+	} catch {
+		/* keep last-known karma */
+	}
+}

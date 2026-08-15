@@ -1,10 +1,12 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
 	import { ArrowLeft, Heart, LogOut, ShieldCheck } from 'lucide-svelte';
 	import ViewToggle from '$lib/components/ViewToggle.svelte';
 	import ProductCard from '$lib/components/ProductCard.svelte';
 	import ProductRow from '$lib/components/ProductRow.svelte';
-	import { karmaStore, seedKarma } from '$lib/stores/karma.svelte';
+	import { karmaStore, refreshKarma, seedKarma } from '$lib/stores/karma.svelte';
 	import { view } from '$lib/stores/view.svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
 	import { session } from '$lib/stores/session.svelte';
@@ -17,9 +19,13 @@
 
 	seedKarma(data.countryCode, data.karma);
 
+	onMount(() => {
+		refreshKarma(data.products.map((p) => p.slug));
+	});
+
 	const homeHref = $derived(localizeHref('/', { locale: getLocale() }));
 	const country = data.countryCode as 'UY' | 'BR';
-	const mode = $derived(view.current);
+	const mode = $derived(browser ? view.current : data.view);
 
 	const saved = $derived(data.products.filter((p) => favorites.has(p.slug)));
 	const ranked = $derived(

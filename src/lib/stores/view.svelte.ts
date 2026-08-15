@@ -4,15 +4,21 @@ export type ProductView = 'grid' | 'list';
 
 const KEY = 'rareold.view';
 
-let _view = $state<ProductView>('grid');
+function readStored(): ProductView {
+	const attr = document.documentElement.getAttribute('data-view');
+	if (attr === 'grid' || attr === 'list') return attr;
+	const stored = localStorage.getItem(KEY);
+	return stored === 'grid' || stored === 'list' ? stored : 'grid';
+}
+
+let _view = $state<ProductView>(browser ? readStored() : 'grid');
 let _hydrated = false;
 
 function load(): void {
 	if (!browser || _hydrated) return;
 	_hydrated = true;
 	try {
-		const stored = localStorage.getItem(KEY) as ProductView | null;
-		if (stored === 'grid' || stored === 'list') _view = stored;
+		_view = readStored();
 	} catch {
 		/* ignore */
 	}
@@ -30,6 +36,7 @@ export const view = {
 		if (browser) {
 			try {
 				localStorage.setItem(KEY, value);
+				document.cookie = `${KEY}=${value}; path=/; samesite=lax; max-age=31536000`;
 			} catch {
 				/* ignore */
 			}

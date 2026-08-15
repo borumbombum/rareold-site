@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
 	import OriginFilters from '$lib/components/OriginFilters.svelte';
 	import ViewToggle from '$lib/components/ViewToggle.svelte';
 	import ProductCard from '$lib/components/ProductCard.svelte';
 	import ProductRow from '$lib/components/ProductRow.svelte';
-	import { karmaStore, seedKarma } from '$lib/stores/karma.svelte';
+	import { karmaStore, refreshKarma, seedKarma } from '$lib/stores/karma.svelte';
 	import { view } from '$lib/stores/view.svelte';
 	import { filters, setOrigin, setRegion } from '$lib/stores/filters.svelte';
 	import { originFlag, originKey, originLabel, regionsByOrigin } from '$lib/utils/origins';
@@ -21,20 +22,7 @@
 	const locale = $derived(getLocale());
 
 	onMount(() => {
-		const slugs = data.products.map((p) => p.slug).join(',');
-		fetch(`/api/karma?slugs=${encodeURIComponent(slugs)}`)
-			.then((r) => (r.ok ? r.json() : null))
-			.then((res) => {
-				if (!res?.items) return;
-				karmaStore.refresh(
-					res.items.map((e: { entity_id: string; karma: number; vote_count: number }) => ({
-						slug: e.entity_id,
-						karma: e.karma,
-						votes: e.vote_count
-					}))
-				);
-			})
-			.catch(() => {});
+		refreshKarma(data.products.map((p) => p.slug));
 	});
 
 	const regionsForOrigin = $derived(regionsByOrigin(data.products)[filters.origin] ?? []);
@@ -55,7 +43,7 @@
 			return an.localeCompare(bn);
 		})
 	);
-	const mode = $derived(view.current);
+	const mode = $derived(browser ? view.current : data.view);
 	const count = $derived(ranked.length);
 	const originCounts = $derived.by(() => {
 		const counts: Record<string, number> = { all: data.products.length };

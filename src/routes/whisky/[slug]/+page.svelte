@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { ArrowLeft, Store, ExternalLink } from 'lucide-svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
-	import { karmaStore, seedKarma } from '$lib/stores/karma.svelte';
+	import { karmaStore, refreshKarma, seedKarma } from '$lib/stores/karma.svelte';
 	import { originFlag, originLabel } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
 	import { formatPrice } from '$lib/utils/format';
@@ -28,19 +28,7 @@
 	const country = data.countryCode as CountryCode;
 
 	onMount(() => {
-		fetch(`/api/karma?slugs=${encodeURIComponent(slug)}`)
-			.then((r) => (r.ok ? r.json() : null))
-			.then((res) => {
-				if (!res?.items) return;
-				karmaStore.refresh(
-					res.items.map((e: { entity_id: string; karma: number; vote_count: number }) => ({
-						slug: e.entity_id,
-						karma: e.karma,
-						votes: e.vote_count
-					}))
-				);
-			})
-			.catch(() => {});
+		refreshKarma([slug]);
 	});
 
 	const specs = $derived.by(() => {
