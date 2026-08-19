@@ -5,6 +5,7 @@
 	import Drawer from '$lib/components/Drawer.svelte';
 	import LoginModal from '$lib/components/LoginModal.svelte';
 	import VideoModal from '$lib/components/VideoModal.svelte';
+	import LanguageModal from '$lib/components/LanguageModal.svelte';
 	import Toast from '$lib/components/Toast.svelte';
 	import { beforeNavigate, afterNavigate } from '$app/navigation';
 	import { theme } from '$lib/stores/theme.svelte';
@@ -61,5 +62,6 @@
 	<Drawer />
 	<LoginModal />
 	<VideoModal />
+	<LanguageModal />
 	<Toast />
 </div>

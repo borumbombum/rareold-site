@@ -5,6 +5,7 @@
 	import { filters, resetFilters, setOrigin, setRegion } from '$lib/stores/filters.svelte';
 	import { ORIGINS, originKey, originLabel, regionsByOrigin } from '$lib/utils/origins';
 	import { WHISKIES } from '$lib/data/whiskies';
+	import LanguageSwitcher from './LanguageSwitcher.svelte';
 
 	const regionsByOriginMap = $derived(regionsByOrigin(WHISKIES));
 
@@ -190,5 +191,9 @@
 				</div>
 			{/each}
 		</nav>
+
+		<div class="shrink-0 border-t border-zinc-200 px-5 py-4 dark:border-zinc-800">
+			<LanguageSwitcher />
+		</div>
 	</div>
 </div>

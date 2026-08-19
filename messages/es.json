@@ -65,5 +65,9 @@
 	"loading": "Cargando…",
 	"error_generic": "Algo salió mal. Probá de nuevo.",
 	"seo_home_title": "Rare Old — Whiskies raros votados por la comunidad",
-	"seo_product_title": "{name} — Rare Old"
+	"seo_product_title": "{name} — Rare Old",
+	"lang_title": "Idioma",
+	"lang_switch": "Cambiar idioma",
+	"lang_es": "Español",
+	"lang_pt": "Português"
 }

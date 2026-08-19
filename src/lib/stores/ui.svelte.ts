@@ -1,6 +1,7 @@
 let _loginOpen = $state(false);
 let _videoUrl = $state<string | null>(null);
 let _drawerOpen = $state(false);
+let _langOpen = $state(false);
 let _toast = $state<{ text: string; error?: boolean } | null>(null);
 let _toastTimer: ReturnType<typeof setTimeout> | null = null;
 
@@ -34,6 +35,15 @@ export const ui = {
 	},
 	toggleDrawer(): void {
 		_drawerOpen = !_drawerOpen;
+	},
+	get langOpen(): boolean {
+		return _langOpen;
+	},
+	openLang(): void {
+		_langOpen = true;
+	},
+	closeLang(): void {
+		_langOpen = false;
 	},
 	get toast(): { text: string; error?: boolean } | null {
 		return _toast;
