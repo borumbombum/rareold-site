@@ -5,7 +5,8 @@ import {
 	TURSO_AUTH_TOKEN
 } from '$env/static/private';
 import { PUBLIC_GOOGLE_CLIENT_ID } from '$env/static/public';
-import type { CountryCode, Locale, SiteContext } from '$lib/types';
+import type { CountryCode, SiteContext } from '$lib/types';
+import { LOCALE_CONFIG, type LocaleKey } from '$lib/utils/locales';
 
 export const env = {
 	authSecret: AUTH_SECRET,
@@ -36,13 +37,26 @@ export const sites: Record<CountryCode, SiteContext> = {
 		currency: 'USD',
 		currencySymbol: '$',
 		timezone: 'America/New_York'
+	},
+	JP: {
+		locale: 'ja',
+		countryCode: 'JP',
+		currency: 'JPY',
+		currencySymbol: '¥',
+		timezone: 'Asia/Tokyo'
 	}
 };
 
+const LOCALE_TO_COUNTRY: Record<LocaleKey, CountryCode> = {
+	es: 'UY',
+	pt: 'BR',
+	en: 'US',
+	ja: 'JP'
+};
+
 export function siteForLocale(locale: string): SiteContext {
-	if (locale === 'pt') return sites.BR;
-	if (locale === 'en') return sites.US;
-	return sites.UY;
+	const cc = LOCALE_TO_COUNTRY[locale as LocaleKey] ?? 'UY';
+	return sites[cc];
 }
 
 export function siteForCountry(country: CountryCode): SiteContext {

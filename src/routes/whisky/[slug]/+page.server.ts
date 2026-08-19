@@ -4,7 +4,7 @@ import { getProductBySlug, getProductVideos, getReviews, getRatingMap } from '$l
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params, locals, setHeaders }) => {
-	const locale = (locals.locale ?? 'es') as 'es' | 'pt';
+	const locale = locals.locale ?? 'es';
 	const site = siteForLocale(locale);
 
 	const product = await getProductBySlug(site, params.slug);

@@ -1,8 +1,10 @@
 import { WHISKIES } from '$lib/data/whiskies';
 import originData from '$lib/data/origins.json';
+import { LOCALE_CONFIG, LOCALES } from '$lib/utils/locales';
 
-const LOCALE_PREFIX: Record<string, string> = { es: '', pt: '/br', en: '/en' };
-const LOCALES = ['es', 'pt', 'en'] as const;
+const LOCALE_PREFIX = Object.fromEntries(
+	LOCALES.map((l) => [l, LOCALE_CONFIG[l].path])
+) as Record<string, string>;
 
 function escapeXml(s: string): string {
 	return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');

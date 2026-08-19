@@ -8,14 +8,14 @@ const SEED_DIR = resolve(ROOT, 'data/seed');
 const MIGRATIONS_DIR = resolve(ROOT, 'db/migrations');
 
 const ORIGIN_META = {
-	scotland: { name: 'Scotland', name_es: 'Escocia', name_pt: 'Escócia', flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿' },
-	ireland: { name: 'Ireland', name_es: 'Irlanda', name_pt: 'Irlanda', flag: '🇮🇪' },
-	usa: { name: 'USA', name_es: 'EE. UU.', name_pt: 'EUA', flag: '🇺🇸' },
-	japan: { name: 'Japan', name_es: 'Japón', name_pt: 'Japão', flag: '🇯🇵' },
-	india: { name: 'India', name_es: 'India', name_pt: 'Índia', flag: '🇮🇳' },
-	canada: { name: 'Canada', name_es: 'Canadá', name_pt: 'Canadá', flag: '🇨🇦' },
-	argentina: { name: 'Argentina', name_es: 'Argentina', name_pt: 'Argentina', flag: '🇦🇷' },
-	other: { name: 'Other', name_es: 'Otros', name_pt: 'Outros', flag: '🌍' }
+	scotland: { name: 'Scotland', name_es: 'Escocia', name_pt: 'Escócia', name_ja: 'スコットランド', flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿' },
+	ireland: { name: 'Ireland', name_es: 'Irlanda', name_pt: 'Irlanda', name_ja: 'アイルランド', flag: '🇮🇪' },
+	usa: { name: 'USA', name_es: 'EE. UU.', name_pt: 'EUA', name_ja: 'アメリカ', flag: '🇺🇸' },
+	japan: { name: 'Japan', name_es: 'Japón', name_pt: 'Japão', name_ja: '日本', flag: '🇯🇵' },
+	india: { name: 'India', name_es: 'India', name_pt: 'Índia', name_ja: 'インド', flag: '🇮🇳' },
+	canada: { name: 'Canada', name_es: 'Canadá', name_pt: 'Canadá', name_ja: 'カナダ', flag: '🇨🇦' },
+	argentina: { name: 'Argentina', name_es: 'Argentina', name_pt: 'Argentina', name_ja: 'アルゼンチン', flag: '🇦🇷' },
+	other: { name: 'Other', name_es: 'Otros', name_pt: 'Outros', name_ja: 'その他', flag: '🌍' }
 };
 
 const url = process.env.TURSO_URL;
@@ -76,6 +76,7 @@ const origins = [...seen]
 			name: meta?.name ?? id.charAt(0).toUpperCase() + id.slice(1),
 			name_es: meta?.name_es ?? null,
 			name_pt: meta?.name_pt ?? null,
+			name_ja: meta?.name_ja ?? null,
 			flag: meta?.flag ?? '🌍',
 			sort_order: i
 		};
@@ -128,14 +129,15 @@ for (const file of migrationFiles) {
 
 const tx = await client.transaction('write');
 
-// Turso is the sole source of truth: the seed only bootstraps data that does
-// not exist yet (INSERT ... ON CONFLICT DO NOTHING). Existing rows are never
-// overwritten here — edits happen in Turso (admin UI / SQL) and reach the
-// frontend via `npm run data:export`.
+// Turso is the sole source of truth: the seed bootstraps data that does not
+// exist yet (INSERT ... ON CONFLICT DO NOTHING). For locale columns, existing
+// rows are backfilled via ON CONFLICT DO UPDATE so new translations propagate.
+// Other edits happen in Turso (admin UI / SQL) and reach the frontend via
+// `npm run data:export`.
 const insertOrigins = origins.map((o) =>
 	stmt(
-		'INSERT INTO origins (id, name, sort_order, flag, name_es, name_pt) VALUES (?, ?, ?, ?, ?, ?) ON CONFLICT(id) DO NOTHING',
-		[o.id, o.name, o.sort_order, o.flag, o.name_es, o.name_pt]
+		'INSERT INTO origins (id, name, sort_order, flag, name_es, name_pt, name_ja) VALUES (?, ?, ?, ?, ?, ?, ?) ON CONFLICT(id) DO NOTHING',
+		[o.id, o.name, o.sort_order, o.flag, o.name_es, o.name_pt, o.name_ja]
 	)
 );
 
@@ -148,9 +150,12 @@ const insertRegions = regions.map((r) =>
 
 const insertProducts = whiskies.map((w) =>
 	stmt(
-		`INSERT INTO products (id, name, brand, description, image, video, origin_id, region_id, age, volume, abv, cask, name_pt, description_pt, name_en, description_en)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-		 ON CONFLICT(id) DO NOTHING`,
+		`INSERT INTO products (id, name, brand, description, image, video, origin_id, region_id, age, volume, abv, cask, name_pt, description_pt, name_en, description_en, name_ja, description_ja)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		 ON CONFLICT(id) DO UPDATE SET
+			name_pt = excluded.name_pt, description_pt = excluded.description_pt,
+			name_en = excluded.name_en, description_en = excluded.description_en,
+			name_ja = excluded.name_ja, description_ja = excluded.description_ja`,
 		[
 			w.slug,
 			w.name,
@@ -167,7 +172,9 @@ const insertProducts = whiskies.map((w) =>
 			w.name_pt ?? null,
 			w.description_pt ?? null,
 			w.name_en ?? null,
-			w.description_en ?? null
+			w.description_en ?? null,
+			w.name_ja ?? null,
+			w.description_ja ?? null
 		]
 	)
 );
@@ -186,19 +193,22 @@ try {
 	const pages = JSON.parse(pagesRaw);
 	insertPages = pages.map((p) =>
 		stmt(
-			`INSERT INTO pages (id, slug, title, body, title_pt, body_pt, title_en, body_en)
-			 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-			 ON CONFLICT(id) DO NOTHING`,
-			[p.id, p.slug, p.title ?? '', p.body ?? '', p.title_pt ?? null, p.body_pt ?? null, p.title_en ?? null, p.body_en ?? null]
+			`INSERT INTO pages (id, slug, title, body, title_pt, body_pt, title_en, body_en, title_ja, body_ja)
+			 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+			 ON CONFLICT(id) DO UPDATE SET
+			title_pt = excluded.title_pt, body_pt = excluded.body_pt,
+			title_en = excluded.title_en, body_en = excluded.body_en,
+			title_ja = excluded.title_ja, body_ja = excluded.body_ja`,
+			[p.id, p.slug, p.title ?? '', p.body ?? '', p.title_pt ?? null, p.body_pt ?? null, p.title_en ?? null, p.body_en ?? null, p.title_ja ?? null, p.body_ja ?? null]
 		)
 	);
 } catch { /* no pages seed file */ }
 
 await tx.batch([...insertOrigins, ...insertRegions, ...insertProducts, ...insertResellers, ...insertPages]);
 
-// Turso is the sole source of truth: this sync is strictly additive
-// (INSERT ... DO NOTHING). It never updates or deletes rows, so edits made
-// directly in Turso (or via the admin UI) are never clobbered by the build.
+// Locale columns on existing rows are backfilled (ON CONFLICT DO UPDATE for
+// _pt, _en, _ja fields) so new translations in the seed propagate. Other edits
+// happen in Turso (admin UI / SQL) and reach the frontend via data:export.
 await tx.commit();
 
 const summary = await client.execute(

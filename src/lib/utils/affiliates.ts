@@ -15,5 +15,6 @@ export const AFFILIATE_SITES: Record<CountryCode, AffiliateSite[]> = {
 		{ name: 'Malthaus', url: 'https://malthaus.uy' },
 		{ name: 'Mercado Libre Uruguay', url: 'https://www.mercadolibre.com.uy' }
 	],
-	US: []
+	US: [],
+	JP: []
 };

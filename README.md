@@ -4,12 +4,14 @@ Community-ranked rare-whisky **info** site. No checkout, cart, or shipping: ever
 
 - `/` — Spanish (Uruguay)
 - `/br` — Portuguese (Brazil)
+- `/en` — English (US)
+- `/jp` — Japanese
 
 ## Stack
 
 - SvelteKit 5 (Svelte 5 runes, `runes: true` everywhere)
 - Tailwind CSS v4 (Vite plugin)
-- Paraglide JS 2 (i18n, es/pt)
+- Paraglide JS 2 (i18n, es/pt/en/ja)
 - lucide-svelte icons
 - Vercel adapter
 
@@ -17,7 +19,7 @@ Community-ranked rare-whisky **info** site. No checkout, cart, or shipping: ever
 
 ```sh
 npm install
-npm run dev          # http://localhost:5173  (/ es, /br pt)
+npm run dev          # http://localhost:5173  (/ es, /br pt, /en en, /jp ja)
 npm run db:sync      # migrations + additive upsert from data/seed/whiskies.json into Turso
 npm run data:export  # regenerate src/lib/data/*.json from Turso
 npm run data:images  # download + convert product images to webp (one-time; see Data)
@@ -66,8 +68,8 @@ There are no online prices: `price` is null and `GET /api/prices` returns an emp
 
 ## i18n & routing
 
-- Messages live in `messages/es.json` and `messages/pt.json`. Use **snake_case** keys only — Paraglide exports identifiers (`m.key()`) only for safe key names; dotted keys become string-only exports.
-- URL prefixes are configured with `urlPatterns` in `vite.config.ts` (`/` = es, `/br` = pt). The unprefixed base-locale pattern (es) must come **last**.
+- Messages live in `messages/es.json`, `messages/pt.json`, `messages/en.json`, `messages/ja.json`. Use **snake_case** keys only — Paraglide exports identifiers (`m.key()`) only for safe key names; dotted keys become string-only exports.
+- URL prefixes are configured with `urlPatterns` in `vite.config.ts` and `project.inlang/settings.json` (`/` = es, `/br` = pt, `/en` = en, `/jp` = ja). The unprefixed base-locale pattern (es) must come **last**.
 
 ## Auth
 
@@ -103,4 +105,4 @@ Copy `.env.example` to `.env`. Variables:
 - `src/lib/components/` — header (logo, search, Instagram, theme toggle, login), product card/row, vote button, origin filters, view toggle, review section, toast, login/video modals.
 - `Modal.svelte` is the **single global modal** (centered dialog); login and video modals are thin wrappers around it and are mounted once in `+layout.svelte` alongside the toast.
 - `src/lib/stores/` — `karma`, `session`, `theme`, `ui` (modal/toast state), `view` (grid/list).
-- `src/lib/utils/` — `origins`, `affiliates`, `format`.
+- `src/lib/utils/` — `origins`, `affiliates`, `format`, `locales`.

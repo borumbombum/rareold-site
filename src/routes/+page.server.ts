@@ -3,7 +3,7 @@ import { getCatalog, getRatingMap } from '$lib/server/data';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ locals, setHeaders }) => {
-	const locale = (locals.locale ?? 'es') as 'es' | 'pt';
+	const locale = locals.locale ?? 'es';
 	const site = siteForLocale(locale);
 
 	const products = await getCatalog(site);

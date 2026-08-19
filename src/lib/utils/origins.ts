@@ -1,11 +1,14 @@
 import originData from '$lib/data/origins.json';
 import { getLocale } from '$lib/paraglide/runtime';
+import { LOCALE_CONFIG, type LocaleKey } from '$lib/utils/locales';
 
 export interface OriginRow {
 	id: string;
 	name: string;
 	name_es: string | null;
 	name_pt: string | null;
+	name_en?: string | null;
+	name_ja: string | null;
 	flag: string;
 }
 
@@ -18,17 +21,24 @@ const ROWS: OriginRow[] = (originData as OriginRow[]).map((o) => ({
 	...o,
 	name_es: o.name_es ?? null,
 	name_pt: o.name_pt ?? null,
+	name_en: o.name_en ?? null,
+	name_ja: o.name_ja ?? null,
 	flag: o.flag || '🌍'
-}));
+})) as OriginRow[];
 
 export const ORIGINS: OriginDef[] = ROWS.map((o) => ({ key: o.id, flag: o.flag }));
 
 const KNOWN = new Set(ORIGINS.map((o) => o.key));
 
-const LOCALE_FIELD: Record<string, 'name_es' | 'name_pt'> = {
-	es: 'name_es',
-	pt: 'name_pt'
-};
+function originNameField(locale: LocaleKey): keyof OriginRow {
+	const key = `name_${locale}` as keyof OriginRow;
+	if (key in ROWS[0]) return key;
+	return 'name';
+}
+
+const LOCALE_FIELD: Record<LocaleKey, keyof OriginRow> = Object.fromEntries(
+	Object.keys(LOCALE_CONFIG).map((l) => [l, originNameField(l as LocaleKey)])
+) as Record<LocaleKey, keyof OriginRow>;
 
 export function originKey(product: { origin?: string | null }): string {
 	const key = (product.origin ?? '').toLowerCase().trim();
@@ -42,9 +52,9 @@ export function originFlag(product: { origin?: string | null }): string {
 export function originLabel(key: string): string {
 	const row = ROWS.find((o) => o.id === key);
 	if (!row) return key;
-	const field = LOCALE_FIELD[getLocale()];
-	const localized = field ? row[field] : null;
-	return localized || row.name;
+	const field = LOCALE_FIELD[getLocale() as LocaleKey] ?? 'name';
+	const localized = row[field];
+	return (typeof localized === 'string' && localized) || row.name;
 }
 
 export function regionsByOrigin(
@@ -73,17 +83,17 @@ function slugify(str: string): string {
 export function originSlug(id: string, locale: string): string {
 	const row = ROWS.find((o) => o.id === id);
 	if (!row) return id;
-	const field = locale === 'es' ? 'name_es' : locale === 'pt' ? 'name_pt' : 'name';
+	const field = LOCALE_FIELD[locale as LocaleKey] ?? 'name';
 	const name = row[field] || row.name;
-	return slugify(name);
+	return slugify(String(name));
 }
 
 const SLUG_TO_ID = new Map<string, string>();
 for (const row of ROWS) {
-	for (const locale of ['es', 'pt', 'en']) {
-		const field = locale === 'es' ? 'name_es' : locale === 'pt' ? 'name_pt' : 'name';
-		const name = row[field as keyof OriginRow] || row.name;
-		SLUG_TO_ID.set(slugify(name as string), row.id);
+	for (const locale of Object.keys(LOCALE_CONFIG) as LocaleKey[]) {
+		const field = LOCALE_FIELD[locale] ?? 'name';
+		const name = row[field] || row.name;
+		SLUG_TO_ID.set(slugify(String(name)), row.id);
 	}
 }
 

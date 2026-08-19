@@ -29,7 +29,8 @@
 	const LOCALE_DESCRIPTIONS = $derived([
 		{ label: m.admin_products_desc_es(), field: 'description' as const },
 		{ label: m.admin_products_desc_pt(), field: 'description_pt' as const },
-		{ label: m.admin_products_desc_en(), field: 'description_en' as const }
+		{ label: m.admin_products_desc_en(), field: 'description_en' as const },
+		{ label: m.admin_products_desc_ja(), field: 'description_ja' as const }
 	]);
 
 	let query = $state('');
@@ -54,6 +55,8 @@
 		description_pt: string | null;
 		name_en: string | null;
 		description_en: string | null;
+		name_ja: string | null;
+		description_ja: string | null;
 	}
 
 	const filtered = $derived(
@@ -86,7 +89,9 @@
 			name_pt: null,
 			description_pt: null,
 			name_en: null,
-			description_en: null
+			description_en: null,
+			name_ja: null,
+			description_ja: null
 		};
 	}
 
@@ -110,7 +115,9 @@
 			name_pt: p.name_pt,
 			description_pt: p.description_pt,
 			name_en: p.name_en,
-			description_en: p.description_en
+			description_en: p.description_en,
+			name_ja: p.name_ja,
+			description_ja: p.description_ja
 		};
 	}
 
@@ -259,6 +266,10 @@
 			<label class="block text-sm">
 				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_name_pt()}</span>
 				<input bind:value={form.name_pt} placeholder="Nome" class={inputClass} />
+			</label>
+			<label class="block text-sm">
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_name_ja()}</span>
+				<input bind:value={form.name_ja} placeholder="名前" class={inputClass} />
 			</label>
 		</div>
 

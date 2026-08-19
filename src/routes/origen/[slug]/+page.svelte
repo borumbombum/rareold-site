@@ -19,6 +19,7 @@
 	import { m } from '$lib/paraglide/messages';
 	import { getLocale } from '$lib/paraglide/runtime';
 	import { formatNumber } from '$lib/utils/format';
+	import { LOCALE_CONFIG, LOCALES, type LocaleKey } from '$lib/utils/locales';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -80,9 +81,9 @@
 
 <svelte:head>
 	<title>{originName} — Rare Old</title>
-	<link rel="alternate" hreflang="es" href="https://borum.com.uy/origen/{originSlug(data.slug, 'es')}" />
-	<link rel="alternate" hreflang="pt" href="https://borum.com.uy/br/origem/{originSlug(data.slug, 'pt')}" />
-	<link rel="alternate" hreflang="en" href="https://borum.com.uy/en/origin/{originSlug(data.slug, 'en')}" />
+	{#each LOCALES as lc}
+		<link rel="alternate" hreflang={lc} href="https://borum.com.uy{LOCALE_CONFIG[lc].path}/origen/{originSlug(data.slug, lc)}" />
+	{/each}
 </svelte:head>
 
 <Hero

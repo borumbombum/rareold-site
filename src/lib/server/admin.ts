@@ -28,6 +28,8 @@ export interface ProductInput {
 	description_pt: string | null;
 	name_en: string | null;
 	description_en: string | null;
+	name_ja: string | null;
+	description_ja: string | null;
 }
 
 const PRODUCT_FIELDS = [
@@ -46,7 +48,9 @@ const PRODUCT_FIELDS = [
 	'name_pt',
 	'description_pt',
 	'name_en',
-	'description_en'
+	'description_en',
+	'name_ja',
+	'description_ja'
 ] as const;
 
 const PRODUCT_COLUMNS = PRODUCT_FIELDS.join(', ');
@@ -69,7 +73,9 @@ function rowToProductInput(row: Record<string, unknown>): ProductInput {
 		name_pt: row.name_pt == null ? null : String(row.name_pt),
 		description_pt: row.description_pt == null ? null : String(row.description_pt),
 		name_en: row.name_en == null ? null : String(row.name_en),
-		description_en: row.description_en == null ? null : String(row.description_en)
+		description_en: row.description_en == null ? null : String(row.description_en),
+		name_ja: row.name_ja == null ? null : String(row.name_ja),
+		description_ja: row.description_ja == null ? null : String(row.description_ja)
 	};
 }
 
@@ -118,7 +124,9 @@ function productValues(input: ProductInput): (string | number | null)[] {
 		input.name_pt,
 		input.description_pt,
 		input.name_en,
-		input.description_en
+		input.description_en,
+		input.name_ja,
+		input.description_ja
 	];
 }
 
@@ -153,7 +161,9 @@ export async function updateProduct(id: string, input: ProductInput, db: Client 
 		input.name_pt,
 		input.description_pt,
 		input.name_en,
-		input.description_en
+		input.description_en,
+		input.name_ja,
+		input.description_ja
 	];
 	await db.execute(`UPDATE products SET ${setClauses} WHERE id = ?`, [...values, id]);
 }

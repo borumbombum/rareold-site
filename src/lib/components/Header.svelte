@@ -12,10 +12,12 @@
     import LanguageSwitcher from "./LanguageSwitcher.svelte";
     import InstagramIcon from "./InstagramIcon.svelte";
     import { m } from "$lib/paraglide/messages";
+    import { LOCALE_CONFIG } from "$lib/utils/locales";
 
     const locale = $derived(getLocale());
     const homeHref = $derived(localizeHref("/", { locale }));
-    const isHome = $derived(page.url.pathname === '/' || page.url.pathname === '/br' || page.url.pathname === '/en');
+    const HOME_PATHS = Object.values(LOCALE_CONFIG).map((c) => c.path || '/') as readonly string[];
+    const isHome = $derived(HOME_PATHS.includes(page.url.pathname as string));
     const user = $derived(session.user);
     const isAuthed = $derived(session.isAuthed);
     const filterActive = $derived(filters.origin !== "all" || filters.region !== null);

@@ -1,5 +1,6 @@
-export type Locale = 'es' | 'pt' | 'en';
-export type CountryCode = 'BR' | 'UY' | 'US';
+import type { LocaleKey } from '$lib/utils/locales';
+export type Locale = LocaleKey;
+export type CountryCode = 'BR' | 'UY' | 'US' | 'JP';
 
 export interface SiteContext {
 	locale: Locale;
@@ -90,6 +91,8 @@ export interface Whisky {
 	description_pt: string | null;
 	name_en: string | null;
 	description_en: string | null;
+	name_ja: string | null;
+	description_ja: string | null;
 	resellers_uy: Reseller[];
 	resellers_br: Reseller[];
 	resellers_usa: Reseller[];

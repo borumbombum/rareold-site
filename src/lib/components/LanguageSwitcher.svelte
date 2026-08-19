@@ -3,13 +3,12 @@
 	import { ChevronDown } from '@lucide/svelte';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { m } from '$lib/paraglide/messages';
+	import { LOCALE_CONFIG } from '$lib/utils/locales';
 
 	let { compact = false }: { compact?: boolean } = $props();
 
 	const locale = $derived(getLocale());
-
-	const flag = $derived(locale === 'pt' ? '🇧🇷' : locale === 'en' ? '🇺🇸' : '🇺🇾');
-	const name = $derived(locale === 'pt' ? 'Português' : locale === 'en' ? 'English' : 'Español');
+	const localeCfg = $derived(LOCALE_CONFIG[locale] ?? LOCALE_CONFIG.es);
 </script>
 
 <button
@@ -19,7 +18,7 @@
 		? 'h-9 px-3 text-sm'
 		: 'h-9 px-3 text-sm'}"
 >
-	<span class="text-base leading-none">{flag}</span>
-	<span>{name}</span>
+	<span class="text-base leading-none">{localeCfg.flag}</span>
+	<span>{localeCfg.label}</span>
 	<ChevronDown size={14} class="shrink-0" />
 </button>

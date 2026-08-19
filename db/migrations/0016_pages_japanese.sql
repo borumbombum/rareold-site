@@ -1,0 +1,2 @@
+ALTER TABLE pages ADD COLUMN title_ja TEXT;
+ALTER TABLE pages ADD COLUMN body_ja TEXT;

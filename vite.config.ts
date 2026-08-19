@@ -14,7 +14,7 @@ export default defineConfig({
 			adapter: vercel()
 		}),
 		tailwindcss(),
-		paraglideVitePlugin({
+			paraglideVitePlugin({
 			project: './project.inlang',
 			outdir: './src/lib/paraglide',
 			emitTsDeclarations: true,
@@ -25,6 +25,7 @@ export default defineConfig({
 					localized: [
 						['pt', ':protocol://:domain(.*)::port?/br/origem/:slug'],
 						['en', ':protocol://:domain(.*)::port?/en/origin/:slug'],
+						['ja', ':protocol://:domain(.*)::port?/jp/origen/:slug'],
 						['es', ':protocol://:domain(.*)::port?/origen/:slug']
 					]
 				},
@@ -33,6 +34,7 @@ export default defineConfig({
 					localized: [
 						['pt', ':protocol://:domain(.*)::port?/br/:path(.*)?'],
 						['en', ':protocol://:domain(.*)::port?/en/:path(.*)?'],
+						['ja', ':protocol://:domain(.*)::port?/jp/:path(.*)?'],
 						['es', ':protocol://:domain(.*)::port?/:path(.*)?']
 					]
 				}

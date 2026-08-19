@@ -1,19 +1,15 @@
 <script lang="ts">
 	import { getLocale, setLocale } from '$lib/paraglide/runtime';
-	import type { Locale } from '$lib/types';
+	import { LOCALE_CONFIG, LOCALES, type LocaleKey } from '$lib/utils/locales';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { m } from '$lib/paraglide/messages';
 	import Modal from './Modal.svelte';
 
 	const locale = $derived(getLocale());
 
-	const langs: { key: Locale; flag: string; label: string }[] = [
-		{ key: 'es', flag: '🇺🇾', label: 'Español' },
-		{ key: 'pt', flag: '🇧🇷', label: 'Português' },
-		{ key: 'en', flag: '🇺🇸', label: 'English' }
-	];
+	const langs = LOCALES.map((key) => ({ key, ...LOCALE_CONFIG[key] }));
 
-	function pick(l: Locale) {
+	function pick(l: LocaleKey) {
 		if (l === locale) return;
 		setLocale(l);
 	}

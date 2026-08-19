@@ -5,10 +5,10 @@ import { listFavoriteIds } from '$lib/server/favorites';
 import { getRatingMap } from '$lib/server/data';
 import { getWhiskyBySlug } from '$lib/data/whiskies';
 import { siteForLocale } from '$lib/server/env';
-import type { Whisky } from '$lib/types';
+import type { Locale, Whisky } from '$lib/types';
 
 export const load = async ({ params, locals, cookies }) => {
-	const locale = (locals.locale ?? 'es') as 'es' | 'pt';
+	const locale = (locals.locale ?? 'es') as Locale;
 	const site = siteForLocale(locale);
 	const user = await getSessionUser(cookies);
 	if (!user || user.id !== params.userId) {

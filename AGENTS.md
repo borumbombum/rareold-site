@@ -29,22 +29,27 @@ Tasks live as one markdown file per task in `/todos/`. Do not track tasks anywhe
 
 ## Localization (adding a new language)
 
-All user-facing text is locale-aware. Two kinds of content exist, and a new language must be wired into **both**:
+All user-facing text is locale-aware. Two kinds of content exist, and a new language must be wired into **both**. To add a language:
+
+1. **`src/lib/utils/locales.ts`** — add one entry to `LOCALE_CONFIG`. This is the **single source of truth**: `hooks.server.ts`, `LanguageModal`, `LanguageSwitcher`, `Header`, sitemaps, `origins.ts`, route loaders, and `types.ts` all derive from it. No other hardcoded locale maps need editing.
+2. **UI strings** — create `messages/<new-locale>.json` and register the locale in `project.inlang/settings.json` (`locales` array + `urlPatterns`).
+3. **Vite plugin** — add `['xx', ':protocol://:domain(.*)::port?/xx/:path(.*)?']` to both `urlPatterns` blocks in `vite.config.ts` (paraglide plugin). Add a mapping for any route-specific patterns (e.g. `/origen/` → `/xx/slug/`).
+4. **DB columns** — add `<field>_<locale>` columns via migration in `db/migrations/` and bootstrap data in `ORIGIN_META` (`scripts/db-sync.mjs`) + `data/seed/whiskies.json`.
 
 ### 1. UI strings — Paraglide messages
 
 - Messages live in `messages/<locale>.json` (e.g. `es.json`, `pt.json`). `project.inlang/settings.json` defines `baseLocale` (the default) and `locales`.
-- Adding a language: create `messages/<new-locale>.json`, add it to `locales` and `urlPatterns` in `project.inlang/settings.json`, and add the `lang`/`HTML_LANG` mapping in `src/hooks.server.ts`. The build (Vite plugin) regenerates `src/lib/paraglide/` — never hand-edit those generated files.
+- Adding a language: create `messages/<new-locale>.json`, add it to `locales` and `urlPatterns` in `project.inlang/settings.json`. The build (Vite plugin) regenerates `src/lib/paraglide/` — never hand-edit those generated files.
 - Do not add message keys that only hold data (e.g. origin names). Data goes in the DB (see below). Messages are for UI chrome only.
 
 ### 2. DB content — origins and product text (source of truth is Turso)
 
 Origin labels and product names/descriptions are translated columns in Turso, exported to the frontend JSON (`src/lib/data/`). Never hardcode a label map in a component.
 
-- **Turso is the sole source of truth for content.** The seed files (`data/seed/whiskies.json`, `resellers.json`) are bootstrap-only: `npm run db:sync` inserts only rows that don't exist yet (`ON CONFLICT DO NOTHING`) and never overwrites existing Turso rows. Content edits (including translations for existing rows) go to Turso via the admin UI (`/admin`) or SQL, then `npm run data:export` → build.
+- **Turso is the sole source of truth for content.** The seed files (`data/seed/whiskies.json`, `resellers.json`) are bootstrap-only: `npm run db:sync` inserts rows that don't exist yet (`ON CONFLICT DO NOTHING`) and backfills locale columns on existing rows (`ON CONFLICT DO UPDATE` for `_pt`, `_en`, `_ja` fields). Content edits go to Turso via the admin UI (`/admin`) or SQL, then `npm run data:export` → build.
 - Origins: `origins` table has `name` (English canonical), plus one override column per language (`name_es`, `name_pt`, ...). `ORIGIN_META` in `scripts/db-sync.mjs` is the bootstrap source for new origins; new override columns are added via a migration in `db/migrations/` (follow the pattern of `0005_localized_content.sql`).
 - Products: `products` table has base `name`/`description` (fallback, currently Spanish = `baseLocale`) and override columns `<field>_<locale>` (`name_pt`, `description_pt`, ...). New products/locale columns for new languages are bootstrapped from `data/seed/whiskies.json`; translations for existing products are edited in Turso.
-- `src/lib/utils/l10n.ts` `l10n(item, field)` resolves `<field>_<locale>` for the active locale and falls back to the base field; `src/lib/utils/origins.ts` `originLabel()` does the same for origins. If a new locale is added, extend the `LOCALE_FIELD` map in `origins.ts` only if needed — the fallback already covers missing translations.
+- `src/lib/utils/l10n.ts` `l10n(item, field)` resolves `<field>_<locale>` for the active locale and falls back to the base field; `src/lib/utils/origins.ts` `originLabel()` does the same for origins. `LOCALE_FIELD` in `origins.ts` is auto-derived from `LOCALE_CONFIG` — no manual extension needed when adding a new locale.
 - The pipeline is always: content in Turso (bootstrap via seed once, then edits via `/admin`) → `npm run data:export` (Turso → `src/lib/data/*.json`) → build. Every product must have `description_pt` (and any other language you add) or the localized content pass is incomplete.
 
 ## Toast notifications
@@ -89,3 +94,5 @@ Current status of `/todos/`:
 - `027-homepage-latest-activity-feed.md` — TODO
 - `028-unify-voting-star-ratings.md` — DONE
 - `029-heart-animation-favorite-button.md` — TODO
+- `030-canonical-hreflang-og-meta-seo-tags.md` — TODO
+- `031-translate-product-descriptions-en.md` — TODO HIGH PRIORITY

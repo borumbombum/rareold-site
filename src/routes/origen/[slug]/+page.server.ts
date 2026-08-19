@@ -7,7 +7,7 @@ import { localizeHref } from '$lib/paraglide/runtime';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params, locals, setHeaders }) => {
-	const locale = (locals.locale ?? 'es') as 'es' | 'pt' | 'en';
+	const locale = locals.locale ?? 'es';
 	const site = siteForLocale(locale);
 	const slug = params.slug;
 

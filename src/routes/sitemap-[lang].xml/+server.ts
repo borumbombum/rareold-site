@@ -1,8 +1,10 @@
 import { error } from '@sveltejs/kit';
 import { buildLocaleSitemap } from '$lib/server/sitemap';
+import { LOCALES } from '$lib/utils/locales';
+import type { Locale } from '$lib/types';
 
 const CACHE = 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400';
-const VALID = new Set(['es', 'pt', 'en']);
+const VALID = new Set<string>(LOCALES);
 
 export const prerender = false;
 

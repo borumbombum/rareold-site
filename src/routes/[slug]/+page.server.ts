@@ -6,7 +6,7 @@ import type { PageServerLoad } from './$types';
 export const prerender = false;
 
 export const load: PageServerLoad = async ({ params, locals }) => {
-	const locale = (locals.locale ?? 'es') as 'es' | 'pt' | 'en';
+	const locale = locals.locale ?? 'es';
 	const page = await getPageBySlug(params.slug);
 	if (!page) throw error(404, 'Page not found');
 	return {

@@ -49,7 +49,7 @@ const resellersFor = (productId, country) => {
 
 const productsRes = await client.execute(
 	`SELECT p.id, p.name, p.brand, p.description, p.image, p.video, p.origin_id, r.name AS region_name,
-	        p.age, p.volume, p.abv, p.cask, p.name_pt, p.description_pt, p.name_en, p.description_en
+	        p.age, p.volume, p.abv, p.cask, p.name_pt, p.description_pt, p.name_en, p.description_en, p.name_ja, p.description_ja
 	 FROM products p
 	 LEFT JOIN regions r ON r.id = p.region_id
 	 ORDER BY p.name COLLATE NOCASE`
@@ -74,6 +74,8 @@ const whiskies = productsRes.rows.map((row) => {
 		description_pt: row.description_pt ?? null,
 		name_en: row.name_en ?? null,
 		description_en: row.description_en ?? null,
+		name_ja: row.name_ja ?? null,
+		description_ja: row.description_ja ?? null,
 		resellers_uy: resellersFor(row.id, 'UY'),
 		resellers_br: resellersFor(row.id, 'BR'),
 		resellers_usa: resellersFor(row.id, 'US')
@@ -81,7 +83,7 @@ const whiskies = productsRes.rows.map((row) => {
 });
 
 const originsRes = await client.execute(
-	'SELECT id, name, sort_order, flag, name_es, name_pt FROM origins ORDER BY sort_order'
+	'SELECT id, name, sort_order, flag, name_es, name_pt, name_ja FROM origins ORDER BY sort_order'
 );
 const regionsRes = await client.execute(
 	'SELECT id, origin_id, name, sort_order FROM regions ORDER BY sort_order, name COLLATE NOCASE'
@@ -92,6 +94,7 @@ const origins = originsRes.rows.map((r) => ({
 	name: r.name,
 	name_es: r.name_es ?? null,
 	name_pt: r.name_pt ?? null,
+	name_ja: r.name_ja ?? null,
 	flag: r.flag ?? '🌍',
 	sort_order: r.sort_order
 }));
@@ -124,6 +127,8 @@ try {
 		body_pt: r.body_pt ?? null,
 		title_en: r.title_en ?? null,
 		body_en: r.body_en ?? null,
+		title_ja: r.title_ja ?? null,
+		body_ja: r.body_ja ?? null,
 		created_at: String(r.created_at ?? ''),
 		updated_at: String(r.updated_at ?? '')
 	}));
