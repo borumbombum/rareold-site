@@ -1,6 +1,6 @@
 import { json } from '@sveltejs/kit';
 import { insertReview } from '$lib/server/reviews';
-import { getReviews as getCachedReviews, invalidateReviews } from '$lib/server/data';
+import { getReviews as getCachedReviews, invalidateReviews, invalidateRating } from '$lib/server/data';
 import { getSessionUser } from '$lib/server/session';
 import type { CountryCode } from '$lib/types';
 
@@ -36,6 +36,7 @@ export async function POST({ request, cookies }) {
 			country
 		});
 		invalidateReviews(country, productId);
+		invalidateRating();
 		return json(review, { headers: { 'Cache-Control': 'no-store' } });
 	} catch (e) {
 		return json({ error: (e as Error).message || 'review failed' }, { status: 400 });

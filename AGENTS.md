@@ -87,4 +87,5 @@ Current status of `/todos/`:
 - `025-schema-org-product-reviews.md` — TODO
 - `026-user-profile-favorites-voted-reviews.md` — TODO
 - `027-homepage-latest-activity-feed.md` — TODO
-- `028-unify-voting-star-ratings.md` — **TODO [HIGH PRIORITY — pick this FIRST]**
+- `028-unify-voting-star-ratings.md` — DONE
+- `029-heart-animation-favorite-button.md` — TODO

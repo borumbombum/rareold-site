@@ -46,7 +46,7 @@
 	{#each ORIGINS as origin}
 		<button
 			onclick={() => onSelect(origin.key)}
-			class="w-32 shrink-0 snap-start rounded-2xl border px-5 py-3.5 text-center transition {selected === origin.key
+			class="w-32 shrink-0 snap-start rounded-2xl border px-5 py-3.5 text-left transition {selected === origin.key
 				? 'border-zinc-900 bg-zinc-900 text-white shadow-sm dark:border-white dark:bg-white dark:text-zinc-900'
 				: 'border-zinc-200 bg-white text-zinc-800 hover:border-zinc-400 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:border-zinc-600'}"
 		>

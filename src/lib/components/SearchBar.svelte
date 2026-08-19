@@ -162,7 +162,7 @@
 			bind:value={query}
 			onfocus={() => (focused = true)}
 			onkeydown={onKeydown}
-			placeholder={m.search_placeholder()}
+			placeholder={m.search_placeholder({ count: WHISKIES.length })}
 			aria-label={m.search_label()}
 			role="combobox"
 			aria-expanded={focused && results.length > 0}

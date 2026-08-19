@@ -1,5 +1,5 @@
 import { siteForLocale } from '$lib/server/env';
-import { getCatalog, getKarmaMap } from '$lib/server/data';
+import { getCatalog, getRatingMap } from '$lib/server/data';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ locals, setHeaders }) => {
@@ -7,7 +7,7 @@ export const load: PageServerLoad = async ({ locals, setHeaders }) => {
 	const site = siteForLocale(locale);
 
 	const products = await getCatalog(site);
-	const karmaMap = await getKarmaMap(products.map((p) => p.slug));
+	const ratingMap = await getRatingMap(products.map((p) => p.slug));
 
 	setHeaders({
 		'Cache-Control': 'public, max-age=60, s-maxage=300, stale-while-revalidate=600',
@@ -18,10 +18,10 @@ export const load: PageServerLoad = async ({ locals, setHeaders }) => {
 		locale,
 		countryCode: site.countryCode,
 		products,
-		karma: [...karmaMap.values()].map((e) => ({
+		rating: [...ratingMap.values()].map((e) => ({
 			slug: e.entity_id,
-			karma: e.karma,
-			votes: e.vote_count
+			avg_rating: e.avg_rating,
+			review_count: e.review_count
 		}))
 	};
 };

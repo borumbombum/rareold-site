@@ -6,6 +6,7 @@
     import { m } from "$lib/paraglide/messages";
     import { Shuffle, TrendingUp } from "@lucide/svelte";
     import SearchBar from "./SearchBar.svelte";
+    import Bubbles from "./Bubbles.svelte";
 
     let { title, subtitle }: { title: string; subtitle: string } = $props();
 
@@ -32,6 +33,7 @@
 </script>
 
 <section class="relative min-h-112.5 flex items-center justify-center">
+    <!-- <Bubbles /> -->
     <img src={imgSrc} alt="" class="absolute inset-0 w-full h-full object-cover object-center" onerror={handleError} />
     <div
         class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.55)_0%,rgba(0,0,0,0.75)_100%),linear-gradient(to_top,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0)_50%)]"

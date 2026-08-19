@@ -1,10 +1,11 @@
 import { invalidateCache } from './cache';
 import { getKarmaMap as dbGetKarmaMap } from './votes';
+import { getRatingMap as dbGetRatingMap } from './reviews';
 import { listReviews as dbListReviews } from './reviews';
 import { listProductVideos as dbListProductVideos } from './videos';
 import { cached } from './cache';
 import { WHISKIES, getWhiskyBySlug } from '$lib/data/whiskies';
-import type { EntityKarma, ProductVideo, Review, SiteContext, Whisky } from '$lib/types';
+import type { EntityKarma, EntityRating, ProductVideo, Review, SiteContext, Whisky } from '$lib/types';
 
 export interface PriceEntry {
 	slug: string;
@@ -38,6 +39,17 @@ export async function getKarmaMap(slugs: string[]): Promise<Map<string, EntityKa
 
 export function invalidateKarma(): void {
 	invalidateCache('karma');
+}
+
+/** Star ratings for a set of product IDs from the product_ratings view. Cached ~60s. */
+export async function getRatingMap(productIds: string[]): Promise<Map<string, EntityRating>> {
+	const unique = [...new Set(productIds)].filter(Boolean);
+	if (unique.length === 0) return new Map();
+	return cached('rating', 60_000, () => dbGetRatingMap(unique));
+}
+
+export function invalidateRating(): void {
+	invalidateCache('rating');
 }
 
 /** Reviews for a product from Turso. Cached ~5min. */

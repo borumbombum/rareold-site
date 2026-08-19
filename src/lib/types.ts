@@ -16,6 +16,13 @@ export interface EntityKarma {
 	vote_count: number;
 }
 
+export interface EntityRating {
+	entity_id: string;
+	rank: number;
+	avg_rating: number;
+	review_count: number;
+}
+
 export interface Review {
 	id: string;
 	product_id: string;

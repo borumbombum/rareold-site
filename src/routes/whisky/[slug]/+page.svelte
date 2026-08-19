@@ -1,15 +1,14 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { ArrowLeft, Store, ExternalLink, Share2, Play } from '@lucide/svelte';
+	import { ArrowLeft, Store, ExternalLink, Share2, Play, Star } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
-	import { karmaStore, refreshKarma, seedKarma } from '$lib/stores/karma.svelte';
+	import { ratingStore, refreshRating, seedRating } from '$lib/stores/rating.svelte';
 	import { originFlag, originLabel } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
 	import { formatPrice } from '$lib/utils/format';
 	import { resellersFor } from '$lib/utils/resellers';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { m } from '$lib/paraglide/messages';
-	import VoteButton from '$lib/components/VoteButton.svelte';
 	import FavoriteButton from '$lib/components/FavoriteButton.svelte';
 	import PlayButton from '$lib/components/PlayButton.svelte';
 	import ReviewSection from '$lib/components/ReviewSection.svelte';
@@ -18,7 +17,7 @@
 
 	let { data }: { data: PageData } = $props();
 
-	seedKarma(data.countryCode, data.karma);
+	seedRating(data.countryCode, data.rating);
 	const product = data.product;
 	const videos = data.videos ?? [];
 	const slug = product.slug;
@@ -30,8 +29,15 @@
 	const country = data.countryCode as CountryCode;
 
 	onMount(() => {
-		refreshKarma([slug]);
+		refreshRating([slug]);
 	});
+
+	const ratingEntry = $derived(ratingStore.get(slug));
+	const avgRating = $derived(ratingEntry.avg_rating);
+	const reviewCount = $derived(ratingEntry.review_count);
+
+	const fullStars = $derived(Math.floor(avgRating));
+	const hasHalf = $derived(avgRating - fullStars >= 0.3);
 
 	async function share() {
 		const url = window.location.origin + localizeHref(`/whisky/${slug}`);
@@ -62,7 +68,6 @@
 
 	const resellers = $derived(resellersFor(product, country));
 	const resellerCurrency = $derived(country === 'BR' ? 'BRL' : 'UYU');
-	const votes = $derived(karmaStore.get(slug).votes);
 </script>
 
 <svelte:head>
@@ -116,18 +121,29 @@
 
 			<div class="mt-6 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-zinc-200 bg-zinc-50 px-5 py-4 dark:border-zinc-800 dark:bg-zinc-900">
 				<div class="flex flex-wrap items-center gap-3">
-					<VoteButton {slug} {country} alwaysShowLabel />
 					<FavoriteButton {slug} />
 				</div>
 				<div class="text-right">
-					<span class="block text-3xl font-semibold leading-none text-zinc-900 dark:text-white">
-						{votes}
-					</span>
+					<div class="flex items-center justify-end gap-1">
+						{#each [1, 2, 3, 4, 5] as n}
+							<Star
+								size={22}
+								class={n <= fullStars
+									? 'text-amber-500'
+									: n === fullStars + 1 && hasHalf
+										? 'text-amber-500'
+										: 'text-zinc-300 dark:text-zinc-700'}
+								fill="currentColor"
+							/>
+						{/each}
+					</div>
 					<span class="mt-1 block text-sm text-zinc-500 dark:text-zinc-400">
-						{m.votes()}
+						{avgRating > 0 ? avgRating.toFixed(1) : '—'} · {reviewCount} {m.reviews_count()}
 					</span>
 				</div>
 			</div>
+
+			<ReviewSection productId={product.id} countryCode={country} initial={data.reviews} />
 
 			<section class="mt-8">
 				<h2 class="flex items-center gap-2 font-display text-xl font-semibold text-zinc-900 dark:text-white">
@@ -218,8 +234,6 @@
 					</dl>
 				</section>
 			{/if}
-
-			<ReviewSection productId={product.id} countryCode={country} initial={data.reviews} />
 		</div>
 	</div>
 </div>

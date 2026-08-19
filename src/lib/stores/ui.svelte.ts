@@ -4,6 +4,13 @@ let _drawerOpen = $state(false);
 let _langOpen = $state(false);
 let _toast = $state<{ text: string; error?: boolean } | null>(null);
 let _toastTimer: ReturnType<typeof setTimeout> | null = null;
+let _reviewProduct = $state<{
+	slug: string;
+	productName: string;
+	productImage: string | null;
+	country: string;
+	existingReview?: { score: number; comment: string | null };
+} | null>(null);
 
 export const ui = {
 	get loginOpen(): boolean {
@@ -54,5 +61,17 @@ export const ui = {
 		_toastTimer = setTimeout(() => {
 			_toast = null;
 		}, 2600);
+	},
+	get reviewOpen(): boolean {
+		return _reviewProduct !== null;
+	},
+	get reviewProduct(): typeof _reviewProduct {
+		return _reviewProduct;
+	},
+	openReview(data: typeof _reviewProduct): void {
+		_reviewProduct = data;
+	},
+	closeReview(): void {
+		_reviewProduct = null;
 	}
 };

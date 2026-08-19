@@ -1,7 +1,7 @@
 import { randomUUID } from 'node:crypto';
 import type { Client } from '@libsql/client';
 import { turso } from './turso';
-import type { CountryCode, Review } from '$lib/types';
+import type { CountryCode, EntityRating, Review } from '$lib/types';
 
 export interface NewReview {
 	product_id: string;
@@ -29,6 +29,7 @@ export async function listReviews(
 	return res.rows.map(rowToReview);
 }
 
+/** Upsert a review (one per user per product). Returns the saved review. */
 export async function insertReview(
 	input: NewReview,
 	db: Client = turso
@@ -37,7 +38,11 @@ export async function insertReview(
 	const createdAt = new Date().toISOString();
 	await db.execute(
 		`INSERT INTO reviews (id, product_id, user_id, user_name, score, comment, country, created_at)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+		 ON CONFLICT(product_id, user_id) DO UPDATE SET
+			score = excluded.score,
+			comment = excluded.comment,
+			created_at = excluded.created_at`,
 		[
 			id,
 			input.product_id,
@@ -60,6 +65,50 @@ export async function insertReview(
 		created_at: createdAt,
 		is_verified_purchase: false
 	};
+}
+
+/** Get average rating and review count for a set of product IDs. */
+export async function getRatingMap(
+	productIds: string[],
+	db: Client = turso
+): Promise<Map<string, EntityRating>> {
+	const unique = [...new Set(productIds)].filter(Boolean);
+	if (unique.length === 0) return new Map();
+	const placeholders = unique.map(() => '?').join(', ');
+	const res = await db.execute(
+		`SELECT product_id, avg_rating, review_count FROM product_ratings
+		 WHERE product_id IN (${placeholders})`,
+		unique
+	);
+	const entries: EntityRating[] = res.rows.map((row, i) => ({
+		entity_id: String(row.product_id),
+		rank: i + 1,
+		avg_rating: Number(row.avg_rating ?? 0),
+		review_count: Number(row.review_count ?? 0)
+	}));
+	entries.sort((a, b) => b.avg_rating - a.avg_rating || b.review_count - a.review_count || a.entity_id.localeCompare(b.entity_id));
+	entries.forEach((e, i) => {
+		e.rank = i + 1;
+	});
+	return new Map(entries.map((e) => [e.entity_id, e]));
+}
+
+/** Get product_ids the user has reviewed. */
+export async function getUserReviewedSlugs(
+	userId: string,
+	slugs?: string[],
+	db: Client = turso
+): Promise<string[]> {
+	let query = 'SELECT DISTINCT product_id FROM reviews WHERE user_id = ?';
+	const params: (string | number)[] = [userId];
+	if (slugs && slugs.length > 0) {
+		const unique = [...new Set(slugs)].filter(Boolean);
+		const placeholders = unique.map(() => '?').join(', ');
+		query += ` AND product_id IN (${placeholders})`;
+		params.push(...unique);
+	}
+	const res = await db.execute(query, params);
+	return res.rows.map((r) => String(r.product_id));
 }
 
 function rowToReview(row: Record<string, unknown>): Review {

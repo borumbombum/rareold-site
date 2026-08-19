@@ -2,7 +2,7 @@ import { redirect } from '@sveltejs/kit';
 import { localizeHref } from '$lib/paraglide/runtime';
 import { getSessionUser } from '$lib/server/session';
 import { listFavoriteIds } from '$lib/server/favorites';
-import { getKarmaMap } from '$lib/server/data';
+import { getRatingMap } from '$lib/server/data';
 import { getWhiskyBySlug } from '$lib/data/whiskies';
 import { siteForLocale } from '$lib/server/env';
 import type { Whisky } from '$lib/types';
@@ -19,17 +19,17 @@ export const load = async ({ params, locals, cookies }) => {
 	const products = slugs
 		.map((s) => getWhiskyBySlug(s))
 		.filter((p): p is Whisky => Boolean(p));
-	const karmaMap = await getKarmaMap(slugs);
+	const ratingMap = await getRatingMap(slugs);
 
 	return {
 		locale,
 		countryCode: site.countryCode,
 		user,
 		products,
-		karma: [...karmaMap.values()].map((e) => ({
+		rating: [...ratingMap.values()].map((e) => ({
 			slug: e.entity_id,
-			karma: e.karma,
-			votes: e.vote_count
+			avg_rating: e.avg_rating,
+			review_count: e.review_count
 		}))
 	};
 };

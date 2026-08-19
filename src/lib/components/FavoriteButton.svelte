@@ -3,14 +3,17 @@
 	import { ui } from '$lib/stores/ui.svelte';
 	import { session } from '$lib/stores/session.svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
+	import { navigation } from '$lib/stores/navigation.svelte';
 	import { m } from '$lib/paraglide/messages';
 
 	let {
 		slug,
-		size = 'md'
+		size = 'md',
+		showLabel = true
 	}: {
 		slug: string;
 		size?: 'sm' | 'md';
+		showLabel?: boolean;
 	} = $props();
 
 	let busy = $state(false);
@@ -33,6 +36,7 @@
 		}
 		const next = !isFav;
 		busy = true;
+		navigation.setLoading(true);
 		if (next) favorites.add(slug);
 		else favorites.remove(slug);
 		try {
@@ -54,6 +58,7 @@
 			ui.showToast(m.error_generic(), true);
 		} finally {
 			busy = false;
+			navigation.setLoading(false);
 		}
 	}
 </script>
@@ -68,4 +73,7 @@
 		: 'border-zinc-200 text-zinc-600 hover:border-zinc-300 hover:text-zinc-900 dark:border-zinc-800 dark:text-zinc-400 dark:hover:border-zinc-700 dark:hover:text-white'}"
 >
 	<Heart size={iconSize} fill={isFav ? 'currentColor' : 'none'} />
+	{#if showLabel}
+		<span>{isFav ? m.favorite_remove() : m.favorite_add()}</span>
+	{/if}
 </button>

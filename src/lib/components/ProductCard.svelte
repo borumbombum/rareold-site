@@ -5,7 +5,7 @@
 	import { originFlag, originKey, originLabel } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
 	import { resellersFor } from '$lib/utils/resellers';
-	import { karmaStore } from '$lib/stores/karma.svelte';
+	import { ratingStore } from '$lib/stores/rating.svelte';
 	import VoteButton from './VoteButton.svelte';
 	import FavoriteButton from './FavoriteButton.svelte';
 	import PlayButton from './PlayButton.svelte';
@@ -29,7 +29,9 @@
 	const originKeyLabel = $derived(originKey(product));
 	const name = $derived(l10n(product, 'name') ?? product.name);
 	const storesCount = $derived(resellersFor(product, country).length);
-	const voteCount = $derived(karmaStore.get(slug).votes);
+	const ratingEntry = $derived(ratingStore.get(slug));
+	const avgRating = $derived(ratingEntry.avg_rating);
+	const reviewCount = $derived(ratingEntry.review_count);
 </script>
 
 <article
@@ -53,10 +55,12 @@
 			#{rank}
 		</span>
 
-		<span class="absolute right-3 top-3 inline-flex items-center gap-1 rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold text-zinc-900 backdrop-blur dark:bg-zinc-900/90 dark:text-white">
-			<Star size={12} />
-			{formatNumber(voteCount, locale)}
-		</span>
+		{#if avgRating > 0}
+			<span class="absolute right-3 top-3 inline-flex items-center gap-1 rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold text-zinc-900 backdrop-blur dark:bg-zinc-900/90 dark:text-white">
+				<Star size={12} class="text-amber-500" fill="currentColor" />
+				{avgRating.toFixed(1)}
+			</span>
+		{/if}
 
 		{#if product.video}
 			<PlayButton url={product.video} className="absolute right-3 top-14" />
@@ -73,8 +77,8 @@
 		</a>
 
 		<div class="flex items-center gap-1.5">
-			<VoteButton {slug} {country} size="sm" />
-			<FavoriteButton {slug} size="sm" />
+			<VoteButton {slug} {country} productName={name} productImage={product.image} size="sm" />
+			<FavoriteButton {slug} size="sm" showLabel={false} />
 		</div>
 
 		{#if product.brand}

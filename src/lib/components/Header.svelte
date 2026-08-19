@@ -68,7 +68,9 @@
                 <span class="hidden md:inline">{m.nav_instagram()}</span>
             </a>
 
-            <ThemeToggle />
+            <div class="hidden sm:block">
+                <ThemeToggle />
+            </div>
 
             <div class="hidden sm:block">
                 <LanguageSwitcher compact />

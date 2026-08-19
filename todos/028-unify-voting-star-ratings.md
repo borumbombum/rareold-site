@@ -1,4 +1,4 @@
-Status: TODO [HIGH PRIORITY — pick this task FIRST before any other TODO]
+Status: DONE
 
 # Unify voting: star ratings replace up/down votes
 
@@ -176,4 +176,23 @@ ratingStore.get(b.slug).avg_rating - ratingStore.get(a.slug).avg_rating
 - `npm run check`, `npm test`, `npm run build` pass
 
 ## Progress
+
+### 2026-08-19 — Implementation complete
+
+All steps implemented and verified:
+
+1. **DB migration** `0014_unify_votes.sql` — unique index on `(user_id, product_id)`, `product_ratings` view
+2. **Server reviews.ts** — `getRatingMap()`, upsert in `insertReview()`, `getUserReviewedSlugs()`
+3. **Server data.ts** — `getRatingMap()` cached 60s, `invalidateRating()`
+4. **Rating API** `/api/rating` — returns `{ items, reviewed }` (replaces `/api/karma`)
+5. **Types** — `EntityRating` added to `types.ts`
+6. **Client stores** — `rating.svelte.ts` (replaces karma.svelte.ts), `reviewed.svelte.ts` (replaces voted.svelte.ts), `ui.svelte.ts` (review modal state)
+7. **ReviewModal** — star picker + comment, upsert on submit, toast feedback
+8. **VoteButton** — opens ReviewModal (shows "Votar" or "Cambiar voto")
+9. **Product page** — 5 amber stars + review count in data box, VoteButton removed, ReviewSection stays below
+10. **Product cards/rows/compact** — show avg rating with amber star, VoteButton in compact view
+11. **Ranking sort** — avg_rating primary, review_count tiebreaker, alphabetical fallback
+12. **Messages** — `vote_change`, `reviews_count` added to es/pt/en
+13. **Tests** — 55/55 pass (3 new tests: upsert, getRatingMap, getUserReviewedSlugs)
+14. **Verify** — svelte-check 0 errors, build pass, 55/55 tests pass
 

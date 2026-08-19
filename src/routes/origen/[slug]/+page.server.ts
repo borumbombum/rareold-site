@@ -1,6 +1,6 @@
 import { error, redirect } from '@sveltejs/kit';
 import { siteForLocale } from '$lib/server/env';
-import { getCatalog, getKarmaMap } from '$lib/server/data';
+import { getCatalog, getRatingMap } from '$lib/server/data';
 import originData from '$lib/data/origins.json';
 import { resolveOriginSlug, originSlug } from '$lib/utils/origins';
 import { localizeHref } from '$lib/paraglide/runtime';
@@ -24,7 +24,7 @@ export const load: PageServerLoad = async ({ params, locals, setHeaders }) => {
 
 	const allProducts = await getCatalog(site);
 	const products = allProducts.filter((p) => p.origin === canonicalId);
-	const karmaMap = await getKarmaMap(products.map((p) => p.slug));
+	const ratingMap = await getRatingMap(products.map((p) => p.slug));
 
 	setHeaders({
 		'Cache-Control': 'public, max-age=60, s-maxage=300, stale-while-revalidate=600',
@@ -37,10 +37,10 @@ export const load: PageServerLoad = async ({ params, locals, setHeaders }) => {
 		products,
 		origin,
 		slug: canonicalId,
-		karma: [...karmaMap.values()].map((e) => ({
+		rating: [...ratingMap.values()].map((e) => ({
 			slug: e.entity_id,
-			karma: e.karma,
-			votes: e.vote_count
+			avg_rating: e.avg_rating,
+			review_count: e.review_count
 		}))
 	};
 };

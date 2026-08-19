@@ -9,7 +9,7 @@
     import ProductCard from "$lib/components/ProductCard.svelte";
     import ProductRow from "$lib/components/ProductRow.svelte";
     import ProductCompact from "$lib/components/ProductCompact.svelte";
-    import { karmaStore, refreshKarma, seedKarma } from "$lib/stores/karma.svelte";
+    import { ratingStore, refreshRating, seedRating } from "$lib/stores/rating.svelte";
     import { view } from "$lib/stores/view.svelte";
     import { filters, setOrigin, setRegion } from "$lib/stores/filters.svelte";
     import { originFlag, originKey, originLabel, originSlug, regionsByOrigin } from "$lib/utils/origins";
@@ -21,11 +21,11 @@
 
     let { data }: { data: PageData } = $props();
 
-    seedKarma(data.countryCode, data.karma);
+    seedRating(data.countryCode, data.rating);
     const locale = $derived(getLocale());
 
     onMount(() => {
-        refreshKarma(data.products.map((p) => p.slug));
+        refreshRating(data.products.map((p) => p.slug));
     });
 
     const regionsForOrigin = $derived(regionsByOrigin(data.products)[filters.origin] ?? []);
@@ -39,8 +39,10 @@
     );
     const ranked = $derived(
         [...filtered].sort((a, b) => {
-            const diff = karmaStore.get(b.slug).karma - karmaStore.get(a.slug).karma;
+            const diff = ratingStore.get(b.slug).avg_rating - ratingStore.get(a.slug).avg_rating;
             if (diff !== 0) return diff;
+            const diffCount = ratingStore.get(b.slug).review_count - ratingStore.get(a.slug).review_count;
+            if (diffCount !== 0) return diffCount;
             const an = l10n(a, "name") ?? a.name;
             const bn = l10n(b, "name") ?? b.name;
             return an.localeCompare(bn);
