@@ -60,3 +60,33 @@ export function regionsByOrigin(
 	for (const key of Object.keys(map)) map[key].sort((a, b) => a.localeCompare(b));
 	return map;
 }
+
+function slugify(str: string): string {
+	return str
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-+|-+$/g, '');
+}
+
+export function originSlug(id: string, locale: string): string {
+	const row = ROWS.find((o) => o.id === id);
+	if (!row) return id;
+	const field = locale === 'es' ? 'name_es' : locale === 'pt' ? 'name_pt' : 'name';
+	const name = row[field] || row.name;
+	return slugify(name);
+}
+
+const SLUG_TO_ID = new Map<string, string>();
+for (const row of ROWS) {
+	for (const locale of ['es', 'pt', 'en']) {
+		const field = locale === 'es' ? 'name_es' : locale === 'pt' ? 'name_pt' : 'name';
+		const name = row[field as keyof OriginRow] || row.name;
+		SLUG_TO_ID.set(slugify(name as string), row.id);
+	}
+}
+
+export function resolveOriginSlug(slug: string): string | null {
+	return SLUG_TO_ID.get(slug) ?? null;
+}

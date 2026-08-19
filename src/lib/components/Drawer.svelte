@@ -1,9 +1,11 @@
 <script lang="ts">
 	import { ChevronDown, X } from '@lucide/svelte';
+	import { goto } from '$app/navigation';
+	import { localizeHref, getLocale } from '$lib/paraglide/runtime';
 	import { m } from '$lib/paraglide/messages';
 	import { ui } from '$lib/stores/ui.svelte';
-	import { filters, resetFilters, setOrigin, setRegion } from '$lib/stores/filters.svelte';
-	import { ORIGINS, originKey, originLabel, regionsByOrigin } from '$lib/utils/origins';
+	import { filters, setRegion } from '$lib/stores/filters.svelte';
+	import { ORIGINS, originKey, originLabel, originSlug, regionsByOrigin } from '$lib/utils/origins';
 	import { WHISKIES } from '$lib/data/whiskies';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
 
@@ -36,14 +38,18 @@
 	}
 
 	function pickOrigin(key: string) {
-		setOrigin(key);
+		if (key === 'all') {
+			goto(localizeHref('/'));
+		} else {
+			goto(localizeHref(`/origen/${originSlug(key, getLocale())}`));
+		}
 		expanded = null;
 		ui.closeDrawer();
 	}
 
 	function pickRegion(key: string, region: string | null) {
-		setOrigin(key);
 		setRegion(region);
+		goto(localizeHref(`/origen/${originSlug(key, getLocale())}`));
 		expanded = null;
 		ui.closeDrawer();
 	}
@@ -93,23 +99,23 @@
 			</button>
 		</div>
 
-		{#if filters.origin !== 'all' || filters.region}
-			<div class="flex items-center justify-between gap-3 border-b border-zinc-200 px-5 py-3 dark:border-zinc-800">
-				<p class="text-sm font-medium text-zinc-700 dark:text-zinc-300">
-					{ORIGINS.find((o) => o.key === filters.origin)?.flag ?? '🌍'}
-					{originLabel(filters.origin)}
-					{#if filters.region}
-						<span class="text-zinc-400">· {filters.region}</span>
-					{/if}
-				</p>
-				<button
-					onclick={() => resetFilters()}
-					class="shrink-0 text-xs font-medium text-zinc-500 underline-offset-2 hover:underline dark:text-zinc-400"
-				>
-					{m.drawer_clear()}
-				</button>
-			</div>
-		{/if}
+	{#if filters.origin !== 'all' || filters.region}
+		<div class="flex items-center justify-between gap-3 border-b border-zinc-200 px-5 py-3 dark:border-zinc-800">
+			<p class="text-sm font-medium text-zinc-700 dark:text-zinc-300">
+				{ORIGINS.find((o) => o.key === filters.origin)?.flag ?? '🌍'}
+				{originLabel(filters.origin)}
+				{#if filters.region}
+					<span class="text-zinc-400">· {filters.region}</span>
+				{/if}
+			</p>
+			<button
+				onclick={() => { goto(localizeHref('/')); ui.closeDrawer(); }}
+				class="shrink-0 text-xs font-medium text-zinc-500 underline-offset-2 hover:underline dark:text-zinc-400"
+			>
+				{m.drawer_clear()}
+			</button>
+		</div>
+	{/if}
 
 		<nav class="flex-1 overflow-y-auto px-2 py-2">
 			<button

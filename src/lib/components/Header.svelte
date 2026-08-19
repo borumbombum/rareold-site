@@ -37,7 +37,8 @@
             {/if}
         </button>
 
-        <a href={homeHref} class="font-display text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">
+        <a href={homeHref} class="flex items-center gap-2 font-display text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">
+            <img src="/images/logo-image.png" alt="" class="h-8 w-8 rounded-lg object-cover" />
             Rare
             <span class="text-accent">Old</span>
         </a>

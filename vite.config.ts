@@ -21,6 +21,14 @@ export default defineConfig({
 			strategy: ['url', 'cookie', 'baseLocale'],
 			urlPatterns: [
 				{
+					pattern: ':protocol://:domain(.*)::port?/origen/:slug',
+					localized: [
+						['pt', ':protocol://:domain(.*)::port?/br/origem/:slug'],
+						['en', ':protocol://:domain(.*)::port?/en/origin/:slug'],
+						['es', ':protocol://:domain(.*)::port?/origen/:slug']
+					]
+				},
+				{
 					pattern: ':protocol://:domain(.*)::port?/:path(.*)?',
 					localized: [
 						['pt', ':protocol://:domain(.*)::port?/br/:path(.*)?'],

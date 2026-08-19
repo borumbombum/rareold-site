@@ -147,5 +147,8 @@
 	"admin_users_promote_title": "Promover a administrador",
 	"admin_users_confirm_delete": "Excluir este usuário?",
 	"admin_users_empty": "Nenhum usuário ainda.",
-	"admin_users_delete": "Excluir"
+	"admin_users_delete": "Excluir",
+	"origin_page_title": "Whiskies da {origin}",
+	"origin_page_subtitle": "Descubra os melhores whiskies da {origin}.",
+	"origin_back": "Voltar para todos os whiskies"
 }

@@ -1,6 +1,9 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import { browser } from "$app/environment";
+    import { goto } from "$app/navigation";
+    import { localizeHref } from "$lib/paraglide/runtime";
+    import Hero from "$lib/components/Hero.svelte";
     import OriginFilters from "$lib/components/OriginFilters.svelte";
     import ViewToggle from "$lib/components/ViewToggle.svelte";
     import ProductCard from "$lib/components/ProductCard.svelte";
@@ -8,7 +11,7 @@
     import { karmaStore, refreshKarma, seedKarma } from "$lib/stores/karma.svelte";
     import { view } from "$lib/stores/view.svelte";
     import { filters, setOrigin, setRegion } from "$lib/stores/filters.svelte";
-    import { originFlag, originKey, originLabel, regionsByOrigin } from "$lib/utils/origins";
+    import { originFlag, originKey, originLabel, originSlug, regionsByOrigin } from "$lib/utils/origins";
     import { l10n } from "$lib/utils/l10n";
     import { X } from "@lucide/svelte";
     import { m } from "$lib/paraglide/messages";
@@ -24,9 +27,6 @@
     onMount(() => {
         refreshKarma(data.products.map((p) => p.slug));
     });
-
-    // swap for your real hero image (from data, a CMS field, static asset, whatever)
-    const heroImageUrl = "/images/whisky.webp";
 
     const regionsForOrigin = $derived(regionsByOrigin(data.products)[filters.origin] ?? []);
 
@@ -62,18 +62,12 @@
     <title>{m.seo_home_title()}</title>
 </svelte:head>
 
-<section class="hero">
-    <div class="hero__bg" style="background-image: url('{heroImageUrl}')"></div>
-    <div class="hero__overlay"></div>
-
-    <div class="hero__content mx-auto max-w-7xl px-6 w-full">
-        <h1 class="hero__title font-display leading-[100%]">{m.ranking_title()}</h1>
-        <p class="hero__subtitle">{m.ranking_subtitle()}</p>
-        <p class="hero__count">
-            {m.products_count({ count: formatNumber(count, locale) })}
-        </p>
-    </div>
-</section>
+<Hero
+    imageUrl="/images/whisky.webp"
+    title={m.ranking_title()}
+    subtitle={m.ranking_subtitle()}
+    count={m.products_count({ count: formatNumber(count, locale) })}
+/>
 
 <section class="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
     <div class="flex flex-col gap-6 pt-10">
@@ -89,7 +83,13 @@
             counts={originCounts}
             regions={regionsForOrigin}
             selectedRegion={filters.region}
-            onSelect={(k) => setOrigin(k)}
+            onSelect={(k) => {
+                if (k === "all") {
+                    setOrigin("all");
+                } else {
+                    goto(localizeHref(`/origen/${originSlug(k, locale)}`));
+                }
+            }}
             onSelectRegion={setRegion}
         />
 
@@ -127,80 +127,3 @@
         {/if}
     </div>
 </section>
-
-<style>
-    .hero {
-        position: relative;
-        min-height: 380px;
-        display: flex;
-        align-items: flex-end;
-        overflow: hidden;
-    }
-
-    @media (min-width: 640px) {
-        .hero {
-            min-height: 460px;
-        }
-    }
-
-    .hero__bg {
-        position: absolute;
-        inset: 0;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .hero__overlay {
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(
-                to right,
-                rgba(0, 0, 0, 0.8) 0%,
-                rgba(0, 0, 0, 0.6) 28%,
-                rgba(0, 0, 0, 0.2) 58%,
-                rgba(0, 0, 0, 0) 85%
-            ),
-            linear-gradient(to top, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 40%);
-    }
-
-    .hero__content {
-        position: relative;
-        z-index: 1;
-        padding-top: 2rem;
-        padding-bottom: 2.5rem;
-    }
-
-    @media (min-width: 640px) {
-        .hero__content {
-            padding-top: 2.5rem;
-            padding-bottom: 3.5rem;
-        }
-    }
-
-    .hero__title {
-        font-weight: 600;
-        letter-spacing: -0.02em;
-        font-size: 2.25rem;
-        color: #ffffff;
-        text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
-    }
-
-    @media (min-width: 640px) {
-        .hero__title {
-            font-size: 3rem;
-        }
-    }
-
-    .hero__subtitle {
-        margin-top: 0.75rem;
-        font-size: 1rem;
-        color: rgba(255, 255, 255, 0.85);
-    }
-
-    .hero__count {
-        margin-top: 0.5rem;
-        font-size: 0.875rem;
-        color: rgba(255, 255, 255, 0.6);
-    }
-</style>
