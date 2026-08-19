@@ -1,4 +1,4 @@
-Status: TODO
+Status: SUPERSEDED by 023-rss-robots-sitemap-link-verification.md
 
 # Sitemaps organized by language
 
