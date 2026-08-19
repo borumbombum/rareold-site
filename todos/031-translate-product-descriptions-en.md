@@ -1,4 +1,4 @@
-Status: TODO HIGH PRIORITY
+Status: DONE
 
 # Translate all product descriptions to English
 
