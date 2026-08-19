@@ -42,7 +42,9 @@ const baseProduct = {
 	abv: 46,
 	cask: 'Ex-Bourbon',
 	name_pt: null,
-	description_pt: null
+	description_pt: null,
+	name_en: null,
+	description_en: null
 };
 
 describe('admin products', () => {

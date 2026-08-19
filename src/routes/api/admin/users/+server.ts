@@ -1,5 +1,5 @@
 import { json } from '@sveltejs/kit';
-import { getAdmin, listUsers, setUserRole } from '$lib/server/admin';
+import { getAdmin, listUsers, setUserRole, deleteUser } from '$lib/server/admin';
 
 export async function GET({ cookies }) {
 	if (!(await getAdmin(cookies))) return json({ error: 'forbidden' }, { status: 403 });
@@ -25,5 +25,19 @@ export async function PUT({ request, cookies }) {
 		return json({ ok: true });
 	} catch (e) {
 		return json({ error: (e as Error).message || 'update failed' }, { status: 400 });
+	}
+}
+
+export async function DELETE({ request, cookies }) {
+	const admin = await getAdmin(cookies);
+	if (!admin) return json({ error: 'forbidden' }, { status: 403 });
+	const body = (await request.json().catch(() => ({}))) as { id?: string };
+	if (!body.id) return json({ error: 'missing_required' }, { status: 400 });
+	if (body.id === admin.id) return json({ error: 'cannot_delete_self' }, { status: 400 });
+	try {
+		await deleteUser(body.id);
+		return json({ ok: true });
+	} catch (e) {
+		return json({ error: (e as Error).message || 'delete failed' }, { status: 400 });
 	}
 }

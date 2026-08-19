@@ -32,7 +32,9 @@ function parseProduct(body: Record<string, unknown>): ProductInput | null {
 		abv: num(body.abv),
 		cask: str(body.cask),
 		name_pt: str(body.name_pt),
-		description_pt: str(body.description_pt)
+		description_pt: str(body.description_pt),
+		name_en: str(body.name_en),
+		description_en: str(body.description_en)
 	};
 }
 

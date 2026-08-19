@@ -22,13 +22,14 @@ export async function upsertUser(claims: GoogleClaims, db: Client = turso): Prom
 	const loginType = claims.login_type ?? 'google';
 	const role = claims.role ?? 'user';
 	await db.execute(
-		`INSERT INTO users (id, email, name, avatar, login_type, role)
-		 VALUES (?, ?, ?, ?, ?, ?)
+		`INSERT INTO users (id, email, name, avatar, login_type, role, last_login)
+		 VALUES (?, ?, ?, ?, ?, ?, strftime('%Y-%m-%dT%H:%M:%fZ', 'now'))
 		 ON CONFLICT(id) DO UPDATE SET
 			email = excluded.email,
 			name = excluded.name,
 			avatar = excluded.avatar,
 			role = excluded.role,
+			last_login = strftime('%Y-%m-%dT%H:%M:%fZ', 'now'),
 			updated_at = strftime('%Y-%m-%dT%H:%M:%fZ', 'now')`,
 		[claims.sub, claims.email, claims.name ?? '', claims.picture ?? '', loginType, role]
 	);

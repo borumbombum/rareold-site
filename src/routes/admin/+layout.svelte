@@ -6,12 +6,12 @@
 
 	let { children }: { children: Snippet } = $props();
 
-	const links = [
-		{ href: '/admin', label: 'Dashboard' },
-		{ href: '/admin/products', label: 'Products' },
-		{ href: '/admin/reviews', label: 'Reviews' },
-		{ href: '/admin/users', label: 'Users' }
-	];
+	const links = $derived([
+		{ href: '/admin', label: m.admin_nav_dashboard() },
+		{ href: '/admin/products', label: m.admin_nav_products() },
+		{ href: '/admin/reviews', label: m.admin_nav_reviews() },
+		{ href: '/admin/users', label: m.admin_nav_users() }
+	]);
 
 	const isActive = (href: string) =>
 		page.url.pathname === href || (href !== '/admin' && page.url.pathname.startsWith(href));
@@ -24,7 +24,7 @@
 				<span class="grid h-8 w-8 place-items-center rounded-lg bg-zinc-900 text-white dark:bg-white dark:text-zinc-900">
 					<ShieldCheck size={16} />
 				</span>
-				<span class="font-display text-sm font-semibold text-zinc-900 dark:text-white">Admin</span>
+				<span class="font-display text-sm font-semibold text-zinc-900 dark:text-white">{m.admin_title()}</span>
 			</div>
 			<nav class="flex items-center gap-1">
 				{#each links as link (link.href)}

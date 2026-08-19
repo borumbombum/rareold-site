@@ -1,22 +1,23 @@
 <script lang="ts">
 	import { Trophy } from '@lucide/svelte';
+	import { m } from '$lib/paraglide/messages';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
 
 	const counts = $derived([
-		{ label: 'Products', value: data.stats.counts.products },
-		{ label: 'Users', value: data.stats.counts.users },
-		{ label: 'Reviews', value: data.stats.counts.reviews },
-		{ label: 'Votes', value: data.stats.counts.votes }
+		{ label: m.admin_stat_products(), value: data.stats.counts.products },
+		{ label: m.admin_stat_users(), value: data.stats.counts.users },
+		{ label: m.admin_stat_reviews(), value: data.stats.counts.reviews },
+		{ label: m.admin_stat_votes(), value: data.stats.counts.votes }
 	]);
 </script>
 
 <svelte:head>
-	<title>Admin — Dashboard</title>
+	<title>{m.admin_title()} — {m.admin_dashboard_title()}</title>
 </svelte:head>
 
-<h1 class="font-display text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">Dashboard</h1>
+<h1 class="font-display text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">{m.admin_dashboard_title()}</h1>
 
 <div class="mt-5 grid grid-cols-2 gap-3 md:grid-cols-4">
 	{#each counts as c (c.label)}
@@ -29,20 +30,20 @@
 
 <h2 class="mt-8 flex items-center gap-2 font-display text-base font-semibold text-zinc-900 dark:text-white">
 	<Trophy size={18} class="text-amber-500" />
-	Top whiskies by karma
+	{m.admin_top_karma()}
 </h2>
 
 <div class="mt-3 overflow-x-auto rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
 	{#if data.stats.top.length === 0}
-		<p class="px-5 py-8 text-center text-sm text-zinc-500 dark:text-zinc-400">No votes yet.</p>
+		<p class="px-5 py-8 text-center text-sm text-zinc-500 dark:text-zinc-400">{m.admin_no_votes()}</p>
 	{:else}
 		<table class="w-full min-w-[480px] text-left text-sm">
 			<thead class="border-b border-zinc-200 text-xs uppercase tracking-wide text-zinc-500 dark:border-zinc-800 dark:text-zinc-400">
 				<tr>
 					<th class="px-5 py-3 font-medium">#</th>
-					<th class="px-5 py-3 font-medium">Whisky</th>
-					<th class="px-5 py-3 text-right font-medium">Karma</th>
-					<th class="px-5 py-3 text-right font-medium">Votes</th>
+					<th class="px-5 py-3 font-medium">{m.admin_table_whisky()}</th>
+					<th class="px-5 py-3 text-right font-medium">{m.admin_table_karma()}</th>
+					<th class="px-5 py-3 text-right font-medium">{m.admin_table_votes()}</th>
 				</tr>
 			</thead>
 			<tbody class="divide-y divide-zinc-100 dark:divide-zinc-800">

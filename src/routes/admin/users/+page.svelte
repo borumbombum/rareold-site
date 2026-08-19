@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { ShieldCheck, ShieldOff } from '@lucide/svelte';
+	import { ShieldCheck, ShieldOff, Trash2 } from '@lucide/svelte';
+	import { m } from '$lib/paraglide/messages';
+	import { invalidateAll } from '$app/navigation';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -20,17 +22,33 @@
 			if (target) target.role = next;
 		} else {
 			const body = await res.json().catch(() => ({}));
-			error = (body as { error?: string }).error ?? 'Update failed.';
+			error = (body as { error?: string }).error ?? '';
+		}
+	}
+
+	async function remove(id: string) {
+		if (!confirm(m.admin_users_confirm_delete())) return;
+		error = '';
+		const res = await fetch('/api/admin/users', {
+			method: 'DELETE',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ id })
+		});
+		if (res.ok) {
+			rows = rows.filter((u) => u.id !== id);
+		} else {
+			const body = await res.json().catch(() => ({}));
+			error = (body as { error?: string }).error ?? '';
 		}
 	}
 </script>
 
 <svelte:head>
-	<title>Admin — Users</title>
+	<title>{m.admin_title()} — {m.admin_users_title()}</title>
 </svelte:head>
 
-<h1 class="font-display text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">Users</h1>
-<p class="mt-1 text-sm text-zinc-500 dark:text-zinc-400">Promote or demote admin access. Admins are set in Turso; the first one must be updated via SQL.</p>
+<h1 class="font-display text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">{m.admin_users_title()}</h1>
+<p class="mt-1 text-sm text-zinc-500 dark:text-zinc-400">{m.admin_users_subtitle()}</p>
 
 {#if error}
 	<p class="mt-4 text-sm font-medium text-red-600 dark:text-red-400">{error}</p>
@@ -40,11 +58,11 @@
 	<table class="w-full min-w-[640px] text-left text-sm">
 		<thead class="border-b border-zinc-200 text-xs uppercase tracking-wide text-zinc-500 dark:border-zinc-800 dark:text-zinc-400">
 			<tr>
-				<th class="px-4 py-3 font-medium">User</th>
-				<th class="px-4 py-3 font-medium">Email</th>
-				<th class="px-4 py-3 font-medium">Login</th>
-				<th class="px-4 py-3 font-medium">Role</th>
-				<th class="px-4 py-3 text-right font-medium">Actions</th>
+				<th class="px-4 py-3 font-medium">{m.admin_table_user()}</th>
+				<th class="px-4 py-3 font-medium">{m.admin_table_email()}</th>
+				<th class="px-4 py-3 font-medium">{m.admin_table_login()}</th>
+				<th class="px-4 py-3 font-medium">{m.admin_table_role()}</th>
+				<th class="px-4 py-3 text-right font-medium">{m.admin_table_actions()}</th>
 			</tr>
 		</thead>
 		<tbody class="divide-y divide-zinc-100 dark:divide-zinc-800">
@@ -72,27 +90,35 @@
 						</span>
 					</td>
 					<td class="px-4 py-2.5">
-						<div class="flex justify-end">
+						<div class="flex justify-end gap-1">
 							<button
 								onclick={() => toggle(u.id, u.role as 'admin' | 'user')}
 								disabled={u.id === data.admin.id}
-								title={u.id === data.admin.id ? 'Cannot change your own role' : u.role === 'admin' ? 'Demote to user' : 'Promote to admin'}
+								title={u.id === data.admin.id ? m.admin_users_cannot_change_own() : u.role === 'admin' ? m.admin_users_demote_title() : m.admin_users_promote_title()}
 								class="inline-flex items-center gap-1.5 rounded-lg border border-zinc-200 px-2.5 py-1.5 text-xs font-medium text-zinc-600 transition hover:bg-zinc-100 disabled:cursor-not-allowed disabled:opacity-40 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
 							>
 								{#if u.role === 'admin'}
 									<ShieldOff size={13} />
-									Demote
+									{m.admin_users_demote()}
 								{:else}
 									<ShieldCheck size={13} />
-									Promote
+									{m.admin_users_promote()}
 								{/if}
+							</button>
+							<button
+								onclick={() => remove(u.id)}
+								disabled={u.id === data.admin.id}
+								title={m.admin_users_delete()}
+								class="grid h-8 w-8 place-items-center rounded-lg text-zinc-500 transition hover:bg-red-50 hover:text-red-600 dark:hover:bg-red-950 disabled:cursor-not-allowed disabled:opacity-40"
+							>
+								<Trash2 size={14} />
 							</button>
 						</div>
 					</td>
 				</tr>
 			{:else}
 				<tr>
-					<td colspan="5" class="px-4 py-8 text-center text-zinc-500 dark:text-zinc-400">No users yet.</td>
+					<td colspan="5" class="px-4 py-8 text-center text-zinc-500 dark:text-zinc-400">{m.admin_users_empty()}</td>
 				</tr>
 			{/each}
 		</tbody>

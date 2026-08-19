@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
 	import { Plus, Pencil, Trash2, X } from '@lucide/svelte';
+	import { m } from '$lib/paraglide/messages';
 	import originData from '$lib/data/origins.json';
 	import regionData from '$lib/data/regions.json';
 	import TiptapEditor from './TiptapEditor.svelte';
@@ -25,10 +26,11 @@
 	const inputClass =
 		'w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 dark:border-zinc-700 dark:bg-zinc-900 dark:text-white';
 
-	const LOCALE_DESCRIPTIONS = [
-		{ label: 'Descripción (ES)', field: 'description' },
-		{ label: 'Descrição (PT)', field: 'description_pt' }
-	] as const;
+	const LOCALE_DESCRIPTIONS = $derived([
+		{ label: m.admin_products_desc_es(), field: 'description' as const },
+		{ label: m.admin_products_desc_pt(), field: 'description_pt' as const },
+		{ label: m.admin_products_desc_en(), field: 'description_en' as const }
+	]);
 
 	let query = $state('');
 	let form = $state<Partial<ProductForm> | null>(null);
@@ -50,6 +52,8 @@
 		cask: string | null;
 		name_pt: string | null;
 		description_pt: string | null;
+		name_en: string | null;
+		description_en: string | null;
 	}
 
 	const filtered = $derived(
@@ -80,7 +84,9 @@
 			abv: null,
 			cask: null,
 			name_pt: null,
-			description_pt: null
+			description_pt: null,
+			name_en: null,
+			description_en: null
 		};
 	}
 
@@ -102,7 +108,9 @@
 			abv: p.abv,
 			cask: p.cask,
 			name_pt: p.name_pt,
-			description_pt: p.description_pt
+			description_pt: p.description_pt,
+			name_en: p.name_en,
+			description_en: p.description_en
 		};
 	}
 
@@ -110,7 +118,7 @@
 		if (busy || !form) return;
 		error = '';
 		if (!form.name?.trim()) {
-			error = 'Name is required.';
+			error = m.admin_products_name_required();
 			return;
 		}
 		busy = true;
@@ -129,38 +137,38 @@
 			);
 			if (!res.ok) {
 				const body = await res.json().catch(() => ({}));
-				error = (body as { error?: string }).error ?? 'Save failed.';
+				error = (body as { error?: string }).error ?? m.admin_products_save_failed();
 				return;
 			}
 			form = null;
 			await invalidateAll();
 		} catch {
-			error = 'Network error.';
+			error = m.admin_products_network_error();
 		} finally {
 			busy = false;
 		}
 	}
 
 	async function remove(id: string) {
-		if (!confirm('Delete this product?')) return;
+		if (!confirm(m.admin_products_confirm_delete())) return;
 		const res = await fetch(`/api/admin/products?id=${encodeURIComponent(id)}`, { method: 'DELETE' });
 		if (res.ok) await invalidateAll();
 	}
 </script>
 
 <svelte:head>
-	<title>Admin — Products</title>
+	<title>{m.admin_title()} — {m.admin_products_title()}</title>
 </svelte:head>
 
 <div class="flex flex-wrap items-center justify-between gap-3">
 	<div>
-		<h1 class="font-display text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">Products</h1>
-		<p class="mt-1 text-sm text-zinc-500 dark:text-zinc-400">{data.products.length} in catalog</p>
+		<h1 class="font-display text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">{m.admin_products_title()}</h1>
+		<p class="mt-1 text-sm text-zinc-500 dark:text-zinc-400">{m.admin_products_count({ count: data.products.length })}</p>
 	</div>
 	<div class="flex items-center gap-2">
 		<input
 			type="search"
-			placeholder="Search…"
+			placeholder={m.admin_products_search()}
 			bind:value={query}
 			class="{inputClass} w-44 sm:w-56"
 		/>
@@ -169,7 +177,7 @@
 			class="inline-flex items-center gap-1.5 rounded-lg bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
 		>
 			<Plus size={15} />
-			New
+			{m.admin_products_new()}
 		</button>
 	</div>
 </div>
@@ -178,12 +186,12 @@
 	<div class="mt-5 rounded-2xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900">
 		<div class="flex items-center justify-between">
 			<h2 class="font-display text-base font-semibold text-zinc-900 dark:text-white">
-				{isNew ? 'New product' : `Edit: ${form.name ?? ''}`}
+				{isNew ? m.admin_products_new_title() : `${m.admin_products_edit_title()} ${form.name ?? ''}`}
 			</h2>
 			<button
 				onclick={() => (form = null)}
 				class="grid h-8 w-8 place-items-center rounded-full text-zinc-500 transition hover:bg-zinc-100 dark:hover:bg-zinc-800"
-				aria-label="Close"
+				aria-label={m.drawer_close()}
 			>
 				<X size={16} />
 			</button>
@@ -191,27 +199,27 @@
 
 		<div class="mt-4 grid grid-cols-1 gap-4 md:grid-cols-3">
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Slug (id)</span>
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_slug()}</span>
 				<input bind:value={form.id} disabled={!isNew} placeholder="slug" class="{inputClass} disabled:opacity-50" />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Name *</span>
-				<input bind:value={form.name} placeholder="Name" class={inputClass} />
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_name()}</span>
+				<input bind:value={form.name} placeholder={m.admin_products_name()} class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Brand</span>
-				<input bind:value={form.brand} placeholder="Brand" class={inputClass} />
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_brand()}</span>
+				<input bind:value={form.brand} placeholder={m.admin_products_brand()} class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Image URL</span>
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_image_url()}</span>
 				<input bind:value={form.image} placeholder="https://…" class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Video URL</span>
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_video_url()}</span>
 				<input bind:value={form.video} placeholder="https://…" class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Origin</span>
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_origin()}</span>
 				<select bind:value={form.origin_id} class={inputClass}>
 					<option value={null}>—</option>
 					{#each ORIGINS as o (o.id)}
@@ -220,7 +228,7 @@
 				</select>
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Region</span>
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_region()}</span>
 				<select bind:value={form.region_id} class={inputClass}>
 					<option value={null}>—</option>
 					{#each regionsFor(form.origin_id) as r (r.id)}
@@ -229,23 +237,27 @@
 				</select>
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Age</span>
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_age()}</span>
 				<input type="number" bind:value={form.age} placeholder="12" class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Volume</span>
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_volume()}</span>
 				<input bind:value={form.volume} placeholder="700 ml" class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">ABV</span>
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_abv()}</span>
 				<input type="number" step="0.1" bind:value={form.abv} placeholder="43" class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Cask</span>
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_cask()}</span>
 				<input bind:value={form.cask} placeholder="Ex-Bourbon" class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">Name (PT)</span>
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_name_en()}</span>
+				<input bind:value={form.name_en} placeholder="Name" class={inputClass} />
+			</label>
+			<label class="block text-sm">
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_name_pt()}</span>
 				<input bind:value={form.name_pt} placeholder="Nome" class={inputClass} />
 			</label>
 		</div>
@@ -256,7 +268,7 @@
 					<span class="mb-1 block text-sm font-medium text-zinc-600 dark:text-zinc-300">{d.label}</span>
 					<TiptapEditor
 						value={form[d.field] ?? null}
-						placeholder="Write the description…"
+						placeholder={m.admin_products_desc_placeholder()}
 						onchange={(html) => {
 							if (form) form[d.field] = html;
 						}}
@@ -275,13 +287,13 @@
 				disabled={busy}
 				class="rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-zinc-700 disabled:opacity-60 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
 			>
-				{busy ? 'Saving…' : 'Save'}
+				{busy ? m.admin_products_saving() : m.admin_products_save()}
 			</button>
 			<button
 				onclick={() => (form = null)}
 				class="rounded-lg border border-zinc-200 px-4 py-2 text-sm font-medium text-zinc-600 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
 			>
-				Cancel
+				{m.admin_products_cancel()}
 			</button>
 		</div>
 	</div>
@@ -291,12 +303,12 @@
 	<table class="w-full min-w-[640px] text-left text-sm">
 		<thead class="border-b border-zinc-200 text-xs uppercase tracking-wide text-zinc-500 dark:border-zinc-800 dark:text-zinc-400">
 			<tr>
-				<th class="px-4 py-3 font-medium">Name</th>
-				<th class="px-4 py-3 font-medium">Brand</th>
-				<th class="px-4 py-3 font-medium">Origin</th>
-				<th class="px-4 py-3 text-right font-medium">Karma</th>
-				<th class="px-4 py-3 text-right font-medium">Votes</th>
-				<th class="px-4 py-3 text-right font-medium">Actions</th>
+				<th class="px-4 py-3 font-medium">{m.admin_table_name()}</th>
+				<th class="px-4 py-3 font-medium">{m.admin_table_brand()}</th>
+				<th class="px-4 py-3 font-medium">{m.admin_table_origin()}</th>
+				<th class="px-4 py-3 text-right font-medium">{m.admin_table_karma()}</th>
+				<th class="px-4 py-3 text-right font-medium">{m.admin_table_votes()}</th>
+				<th class="px-4 py-3 text-right font-medium">{m.admin_table_actions()}</th>
 			</tr>
 		</thead>
 		<tbody class="divide-y divide-zinc-100 dark:divide-zinc-800">
@@ -311,14 +323,14 @@
 						<div class="flex justify-end gap-1">
 							<button
 								onclick={() => openEdit(p.id)}
-								title="Edit"
+								title={m.admin_products_edit()}
 								class="grid h-8 w-8 place-items-center rounded-lg text-zinc-500 transition hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-white"
 							>
 								<Pencil size={15} />
 							</button>
 							<button
 								onclick={() => remove(p.id)}
-								title="Delete"
+								title={m.admin_products_delete()}
 								class="grid h-8 w-8 place-items-center rounded-lg text-zinc-500 transition hover:bg-red-50 hover:text-red-600 dark:hover:bg-red-950"
 							>
 								<Trash2 size={15} />
@@ -328,7 +340,7 @@
 				</tr>
 			{:else}
 				<tr>
-					<td colspan="6" class="px-4 py-8 text-center text-zinc-500 dark:text-zinc-400">No products found.</td>
+					<td colspan="6" class="px-4 py-8 text-center text-zinc-500 dark:text-zinc-400">{m.admin_products_empty()}</td>
 				</tr>
 			{/each}
 		</tbody>

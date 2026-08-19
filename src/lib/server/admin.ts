@@ -26,6 +26,8 @@ export interface ProductInput {
 	cask: string | null;
 	name_pt: string | null;
 	description_pt: string | null;
+	name_en: string | null;
+	description_en: string | null;
 }
 
 const PRODUCT_FIELDS = [
@@ -42,7 +44,9 @@ const PRODUCT_FIELDS = [
 	'abv',
 	'cask',
 	'name_pt',
-	'description_pt'
+	'description_pt',
+	'name_en',
+	'description_en'
 ] as const;
 
 const PRODUCT_COLUMNS = PRODUCT_FIELDS.join(', ');
@@ -63,7 +67,9 @@ function rowToProductInput(row: Record<string, unknown>): ProductInput {
 		abv: row.abv == null ? null : Number(row.abv),
 		cask: row.cask == null ? null : String(row.cask),
 		name_pt: row.name_pt == null ? null : String(row.name_pt),
-		description_pt: row.description_pt == null ? null : String(row.description_pt)
+		description_pt: row.description_pt == null ? null : String(row.description_pt),
+		name_en: row.name_en == null ? null : String(row.name_en),
+		description_en: row.description_en == null ? null : String(row.description_en)
 	};
 }
 
@@ -95,58 +101,61 @@ export async function getProduct(id: string, db: Client = turso): Promise<Produc
 	return row ? rowToProductInput(row) : null;
 }
 
+function productValues(input: ProductInput): (string | number | null)[] {
+	return [
+		input.id,
+		input.name,
+		input.brand ?? '',
+		input.description,
+		input.image,
+		input.video,
+		input.origin_id,
+		input.region_id,
+		input.age,
+		input.volume,
+		input.abv,
+		input.cask,
+		input.name_pt,
+		input.description_pt,
+		input.name_en,
+		input.description_en
+	];
+}
+
 export async function createProduct(input: ProductInput, db: Client = turso): Promise<void> {
+	const cols = PRODUCT_FIELDS.join(', ');
+	const placeholders = PRODUCT_FIELDS.map(() => '?').join(', ');
+	const onConflict = PRODUCT_FIELDS.filter((c) => c !== 'id')
+		.map((c) => `${c} = excluded.${c}`)
+		.join(', ');
 	await db.execute(
-		`INSERT INTO products (${PRODUCT_COLUMNS}) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-		 ON CONFLICT(id) DO UPDATE SET
-			name = excluded.name, brand = excluded.brand, description = excluded.description,
-			image = excluded.image, video = excluded.video, origin_id = excluded.origin_id,
-			region_id = excluded.region_id, age = excluded.age, volume = excluded.volume,
-			abv = excluded.abv, cask = excluded.cask,
-			name_pt = excluded.name_pt, description_pt = excluded.description_pt`,
-		[
-			input.id,
-			input.name,
-			input.brand ?? '',
-			input.description,
-			input.image,
-			input.video,
-			input.origin_id,
-			input.region_id,
-			input.age,
-			input.volume,
-			input.abv,
-			input.cask,
-			input.name_pt,
-			input.description_pt
-		]
+		`INSERT INTO products (${cols}) VALUES (${placeholders})
+		 ON CONFLICT(id) DO UPDATE SET ${onConflict}`,
+		productValues(input)
 	);
 }
 
 export async function updateProduct(id: string, input: ProductInput, db: Client = turso): Promise<void> {
-	await db.execute(
-		`UPDATE products SET
-			name = ?, brand = ?, description = ?, image = ?, video = ?, origin_id = ?,
-			region_id = ?, age = ?, volume = ?, abv = ?, cask = ?,
-			name_pt = ?, description_pt = ?
-		 WHERE id = ?`,
-		[
-			input.name,
-			input.brand ?? '',
-			input.description,
-			input.image,
-			input.video,
-			input.origin_id,
-			input.region_id,
-			input.age,
-			input.volume,
-			input.abv,
-			input.cask,
-			input.name_pt,
-			input.description_pt,
-			id
-		]
-	);
+	const updateFields = PRODUCT_FIELDS.filter((c) => c !== 'id');
+	const setClauses = updateFields.map((c) => `${c} = ?`).join(', ');
+	const values = [
+		input.name,
+		input.brand ?? '',
+		input.description,
+		input.image,
+		input.video,
+		input.origin_id,
+		input.region_id,
+		input.age,
+		input.volume,
+		input.abv,
+		input.cask,
+		input.name_pt,
+		input.description_pt,
+		input.name_en,
+		input.description_en
+	];
+	await db.execute(`UPDATE products SET ${setClauses} WHERE id = ?`, [...values, id]);
 }
 
 export async function deleteProduct(id: string, db: Client = turso): Promise<void> {
@@ -249,12 +258,13 @@ export interface AdminUser {
 	role: string;
 	login_type: string;
 	created_at: string;
+	last_login: string | null;
 }
 
 export async function listUsers(db: Client = turso): Promise<AdminUser[]> {
 	const res = await db.execute(
-		`SELECT id, email, name, avatar, role, login_type, created_at
-		 FROM users ORDER BY created_at DESC, name COLLATE NOCASE`
+		`SELECT id, email, name, avatar, role, login_type, created_at, last_login
+		 FROM users ORDER BY last_login DESC NULLS LAST, name COLLATE NOCASE`
 	);
 	return res.rows.map((row) => ({
 		id: String(row.id),
@@ -263,8 +273,13 @@ export async function listUsers(db: Client = turso): Promise<AdminUser[]> {
 		avatar: String(row.avatar ?? ''),
 		role: String(row.role ?? 'user'),
 		login_type: String(row.login_type ?? 'google'),
-		created_at: String(row.created_at ?? '')
+		created_at: String(row.created_at ?? ''),
+		last_login: row.last_login == null ? null : String(row.last_login)
 	}));
+}
+
+export async function deleteUser(userId: string, db: Client = turso): Promise<void> {
+	await db.execute('DELETE FROM users WHERE id = ?', [userId]);
 }
 
 export async function setUserRole(
