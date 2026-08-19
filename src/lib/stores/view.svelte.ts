@@ -1,14 +1,14 @@
 import { browser } from '$app/environment';
 
-export type ProductView = 'grid' | 'list';
+export type ProductView = 'grid' | 'list' | 'compact';
 
 const KEY = 'rareold.view';
 
 function readStored(): ProductView {
 	const attr = document.documentElement.getAttribute('data-view');
-	if (attr === 'grid' || attr === 'list') return attr;
+	if (attr === 'grid' || attr === 'list' || attr === 'compact') return attr;
 	const stored = localStorage.getItem(KEY);
-	return stored === 'grid' || stored === 'list' ? stored : 'grid';
+	return stored === 'grid' || stored === 'list' || stored === 'compact' ? stored : 'grid';
 }
 
 let _view = $state<ProductView>(browser ? readStored() : 'grid');

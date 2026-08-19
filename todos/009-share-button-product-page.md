@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Share button on product pages (Web Share API)
 

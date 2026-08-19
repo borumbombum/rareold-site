@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Server-authoritative "voted" state (fixes yellow buttons after logout)
 

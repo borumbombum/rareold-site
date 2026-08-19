@@ -1,15 +1,12 @@
 import { getLocale } from '$lib/paraglide/runtime';
-import type { Whisky } from '$lib/types';
 
-type LocalizedField = 'name' | 'description';
+type LocalizedField = 'name' | 'description' | 'title' | 'body';
 
-/**
- * Locale-specific text with fallback to the base (source-language) field.
- * Override columns follow `<field>_<locale>` (e.g. `name_pt`, `description_pt`).
- */
-export function l10n(item: Whisky, field: LocalizedField): string | null {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function l10n(item: any, field: LocalizedField): string | null {
 	const locale = getLocale();
-	const key = `${field}_${locale}` as keyof Whisky;
+	const key = `${field}_${locale}`;
 	const value = item[key] as string | null | undefined;
-	return value != null && value.trim() !== '' ? value : item[field];
+	const base = item[field] as string | null | undefined;
+	return value != null && value.trim() !== '' ? value : (base ?? null);
 }

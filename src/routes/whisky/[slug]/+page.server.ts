@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 import { siteForLocale } from '$lib/server/env';
-import { getKarmaMap, getProductBySlug, getReviews } from '$lib/server/data';
+import { getKarmaMap, getProductBySlug, getProductVideos, getReviews } from '$lib/server/data';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params, locals, setHeaders }) => {
@@ -11,9 +11,10 @@ export const load: PageServerLoad = async ({ params, locals, setHeaders }) => {
 	if (!product) error(404, 'Product not found');
 
 	const entityId = product.slug;
-	const [karmaMap, reviews] = await Promise.all([
+	const [karmaMap, reviews, videos] = await Promise.all([
 		getKarmaMap([entityId]),
-		getReviews(product.id, site.countryCode)
+		getReviews(product.id, site.countryCode),
+		getProductVideos(product.id)
 	]);
 	const karma = karmaMap.get(entityId);
 
@@ -24,6 +25,7 @@ export const load: PageServerLoad = async ({ params, locals, setHeaders }) => {
 	return {
 		countryCode: site.countryCode,
 		product,
+		videos,
 		karma: karma
 			? [{ slug: entityId, karma: karma.karma, votes: karma.vote_count }]
 			: [],

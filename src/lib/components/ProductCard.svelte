@@ -1,10 +1,11 @@
 <script lang="ts">
-	import { ArrowRight, Store } from '@lucide/svelte';
+	import { ArrowRight, Store, Star } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { formatNumber } from '$lib/utils/format';
 	import { originFlag, originKey, originLabel } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
 	import { resellersFor } from '$lib/utils/resellers';
+	import { karmaStore } from '$lib/stores/karma.svelte';
 	import VoteButton from './VoteButton.svelte';
 	import FavoriteButton from './FavoriteButton.svelte';
 	import PlayButton from './PlayButton.svelte';
@@ -28,6 +29,7 @@
 	const originKeyLabel = $derived(originKey(product));
 	const name = $derived(l10n(product, 'name') ?? product.name);
 	const storesCount = $derived(resellersFor(product, country).length);
+	const voteCount = $derived(karmaStore.get(slug).votes);
 </script>
 
 <article
@@ -51,8 +53,13 @@
 			#{rank}
 		</span>
 
+		<span class="absolute right-3 top-3 inline-flex items-center gap-1 rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold text-zinc-900 backdrop-blur dark:bg-zinc-900/90 dark:text-white">
+			<Star size={12} />
+			{formatNumber(voteCount, locale)}
+		</span>
+
 		{#if product.video}
-			<PlayButton url={product.video} className="absolute right-3 top-3" />
+			<PlayButton url={product.video} className="absolute right-3 top-14" />
 		{/if}
 	</a>
 
@@ -61,14 +68,13 @@
 			{flag} {originLabel(originKeyLabel)}
 		</p>
 
-		<div class="flex items-start justify-between gap-2">
-			<a href={href} class="font-display min-w-0 flex-1 text-base font-semibold leading-snug text-zinc-900 hover:underline dark:text-white">
-				{name}
-			</a>
-			<div class="flex shrink-0 flex-col items-end gap-1.5 sm:flex-row sm:items-center">
-				<VoteButton {slug} {country} label={m.vote()} />
-				<FavoriteButton {slug} />
-			</div>
+		<a href={href} class="font-display min-w-0 block text-base font-semibold leading-snug text-zinc-900 hover:underline dark:text-white">
+			{name}
+		</a>
+
+		<div class="flex items-center gap-1.5">
+			<VoteButton {slug} {country} size="sm" />
+			<FavoriteButton {slug} size="sm" />
 		</div>
 
 		{#if product.brand}

@@ -6,6 +6,8 @@ import {
 	type RemoteJWKSet,
 	type JWTPayload
 } from 'jose';
+import { schnorr } from '@noble/curves/secp256k1.js';
+import { bytesToHex, hexToBytes } from '@noble/hashes/utils.js';
 import type { Client } from '@libsql/client';
 import { env } from './env';
 import { turso } from './turso';
@@ -134,6 +136,50 @@ export async function loginWithDemo(
 		name: 'Demo User',
 		picture: '',
 		login_type: 'mock'
+	};
+	const user = await upsertUser(claims, db);
+	const access_token = await issueToken(user.id);
+	return { access_token, user };
+}
+
+/** Nostr NIP-07 login: verify the signed event, persist the user, issue our JWT. */
+export async function loginWithNostr(
+	pubkey: string,
+	signedEvent: any,
+	origin: string,
+	db: Client = turso
+): Promise<{ access_token: string; user: UserData }> {
+	if (!pubkey || typeof pubkey !== 'string' || !/^[0-9a-f]{64}$/i.test(pubkey)) {
+		throw new AuthError('invalid_nostr_pubkey');
+	}
+	if (!signedEvent || typeof signedEvent !== 'object') {
+		throw new AuthError('invalid_nostr_event');
+	}
+
+	const { kind, created_at, tags, content, sig, id } = signedEvent;
+
+	if (kind !== 27235) throw new AuthError('invalid_nostr_kind');
+	if (!created_at || typeof created_at !== 'number') throw new AuthError('invalid_nostr_event');
+
+	const nowSec = Math.floor(Date.now() / 1000);
+	if (Math.abs(nowSec - created_at) > 300) throw new AuthError('stale_nostr_event');
+
+	const uTag = tags?.find((t: any[]) => t[0] === 'u');
+	const methodTag = tags?.find((t: any[]) => t[0] === 'method');
+	if (!uTag || uTag[1] !== origin) throw new AuthError('invalid_nostr_tags');
+	if (!methodTag || methodTag[1] !== 'GET') throw new AuthError('invalid_nostr_tags');
+
+	if (signedEvent.pubkey !== pubkey) throw new AuthError('invalid_nostr_event');
+
+	const validSig = schnorr.verify(hexToBytes(sig), hexToBytes(id), hexToBytes(pubkey));
+	if (!validSig) throw new AuthError('invalid_nostr_signature');
+
+	const claims: GoogleClaims = {
+		sub: pubkey,
+		email: '',
+		name: content || 'Nostr User',
+		picture: '',
+		login_type: 'nostr'
 	};
 	const user = await upsertUser(claims, db);
 	const access_token = await issueToken(user.id);

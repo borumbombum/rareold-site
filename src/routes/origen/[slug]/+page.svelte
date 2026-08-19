@@ -3,15 +3,17 @@
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
 	import { localizeHref } from '$lib/paraglide/runtime';
+	import { WHISKIES } from '$lib/data/whiskies';
 	import Hero from '$lib/components/Hero.svelte';
 	import OriginFilters from '$lib/components/OriginFilters.svelte';
 	import ViewToggle from '$lib/components/ViewToggle.svelte';
 	import ProductCard from '$lib/components/ProductCard.svelte';
 	import ProductRow from '$lib/components/ProductRow.svelte';
+	import ProductCompact from '$lib/components/ProductCompact.svelte';
 	import { karmaStore, refreshKarma, seedKarma } from '$lib/stores/karma.svelte';
 	import { view } from '$lib/stores/view.svelte';
 	import { filters, setRegion, resetFilters } from '$lib/stores/filters.svelte';
-	import { originFlag, originLabel, originSlug, regionsByOrigin } from '$lib/utils/origins';
+	import { originFlag, originKey, originLabel, originSlug, regionsByOrigin } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
 	import { X, ArrowLeft } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
@@ -39,6 +41,15 @@
 	const originName = $derived(originLabel(data.slug));
 
 	const backHref = $derived(localizeHref('/'));
+
+	const originCounts = $derived.by(() => {
+		const counts: Record<string, number> = { all: WHISKIES.length };
+		for (const p of WHISKIES) {
+			const k = originKey(p);
+			counts[k] = (counts[k] ?? 0) + 1;
+		}
+		return counts;
+	});
 
 	onMount(() => {
 		refreshKarma(data.products.map((p) => p.slug));
@@ -94,7 +105,7 @@
 
 		<OriginFilters
 			selected={data.slug}
-			counts={{}}
+			counts={originCounts}
 			regions={regionsForOrigin}
 			selectedRegion={filters.region}
 			onSelect={(k) => {
@@ -133,10 +144,16 @@
 					<ProductCard {product} rank={i + 1} country={data.countryCode} />
 				{/each}
 			</div>
-		{:else}
+		{:else if mode === 'list'}
 			<div class="flex flex-col gap-3">
 				{#each ranked as product, i (product.slug)}
 					<ProductRow {product} rank={i + 1} country={data.countryCode} />
+				{/each}
+			</div>
+		{:else}
+			<div class="divide-y divide-zinc-100 dark:divide-zinc-800">
+				{#each ranked as product, i (product.slug)}
+					<ProductCompact {product} rank={i + 1} country={data.countryCode} />
 				{/each}
 			</div>
 		{/if}

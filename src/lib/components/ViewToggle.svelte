@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { LayoutGrid, List } from '@lucide/svelte';
+	import { LayoutGrid, List, AlignJustify } from '@lucide/svelte';
 	import { view } from '$lib/stores/view.svelte';
 	import { m } from '$lib/paraglide/messages';
 	import type { ProductView } from '$lib/stores/view.svelte';
@@ -23,5 +23,13 @@
 		class="grid h-8 w-8 place-items-center rounded-full transition {current === 'list' ? 'bg-zinc-900 text-white dark:bg-white dark:text-zinc-900' : 'text-zinc-500 hover:text-zinc-900 dark:hover:text-white'}"
 	>
 		<List size={15} />
+	</button>
+	<button
+		onclick={() => view.set('compact')}
+		title={m.view_compact()}
+		aria-pressed={current === 'compact'}
+		class="grid h-8 w-8 place-items-center rounded-full transition {current === 'compact' ? 'bg-zinc-900 text-white dark:bg-white dark:text-zinc-900' : 'text-zinc-500 hover:text-zinc-900 dark:hover:text-white'}"
+	>
+		<AlignJustify size={15} />
 	</button>
 </div>

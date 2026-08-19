@@ -6,6 +6,7 @@
 	import ViewToggle from '$lib/components/ViewToggle.svelte';
 	import ProductCard from '$lib/components/ProductCard.svelte';
 	import ProductRow from '$lib/components/ProductRow.svelte';
+	import ProductCompact from '$lib/components/ProductCompact.svelte';
 	import { karmaStore, refreshKarma, seedKarma } from '$lib/stores/karma.svelte';
 	import { view } from '$lib/stores/view.svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';
@@ -111,19 +112,25 @@
 		</div>
 
 		<div class="mt-4">
-			{#if mode === 'grid'}
-				<div class="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
-					{#each ranked as product, i (product.slug)}
-						<ProductCard product={product} rank={i + 1} country={country} />
-					{/each}
-				</div>
-			{:else}
-				<div class="flex flex-col gap-3">
-					{#each ranked as product, i (product.slug)}
-						<ProductRow product={product} rank={i + 1} country={country} />
-					{/each}
-				</div>
-			{/if}
+		{#if mode === 'grid'}
+			<div class="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
+				{#each ranked as product, i (product.slug)}
+					<ProductCard product={product} rank={i + 1} country={country} />
+				{/each}
+			</div>
+		{:else if mode === 'list'}
+			<div class="flex flex-col gap-3">
+				{#each ranked as product, i (product.slug)}
+					<ProductRow product={product} rank={i + 1} country={country} />
+				{/each}
+			</div>
+		{:else}
+			<div class="divide-y divide-zinc-100 dark:divide-zinc-800">
+				{#each ranked as product, i (product.slug)}
+					<ProductCompact product={product} rank={i + 1} country={country} />
+				{/each}
+			</div>
+		{/if}
 		</div>
 	{/if}
 </div>

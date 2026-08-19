@@ -5,11 +5,25 @@
 	import { favorites } from '$lib/stores/favorites.svelte';
 	import { m } from '$lib/paraglide/messages';
 
-	let { slug }: { slug: string } = $props();
+	let {
+		slug,
+		size = 'md'
+	}: {
+		slug: string;
+		size?: 'sm' | 'md';
+	} = $props();
 
 	let busy = $state(false);
 
 	const isFav = $derived(favorites.has(slug));
+
+	const sizeClasses = $derived(
+		size === 'sm'
+			? 'gap-1 px-2 py-1 text-xs'
+			: 'gap-1.5 px-3 py-1.5 text-sm'
+	);
+
+	const iconSize = $derived(size === 'sm' ? 14 : 18);
 
 	async function toggle() {
 		if (busy) return;
@@ -49,9 +63,9 @@
 	disabled={busy}
 	title={m.favorite()}
 	aria-pressed={isFav}
-	class="inline-flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm font-medium transition disabled:opacity-60 md:px-4 md:py-2 md:text-base {isFav
+	class="inline-flex shrink-0 items-center rounded-full border font-medium transition disabled:opacity-60 {sizeClasses} {isFav
 		? 'border-rose-400 bg-rose-400 text-white'
 		: 'border-zinc-200 text-zinc-600 hover:border-zinc-300 hover:text-zinc-900 dark:border-zinc-800 dark:text-zinc-400 dark:hover:border-zinc-700 dark:hover:text-white'}"
 >
-	<Heart size={18} fill={isFav ? 'currentColor' : 'none'} />
+	<Heart size={iconSize} fill={isFav ? 'currentColor' : 'none'} />
 </button>

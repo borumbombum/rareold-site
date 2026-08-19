@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Admin-managed pages (CMS) with an About us page
 

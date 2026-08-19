@@ -10,7 +10,8 @@
 		{ href: '/admin', label: m.admin_nav_dashboard() },
 		{ href: '/admin/products', label: m.admin_nav_products() },
 		{ href: '/admin/reviews', label: m.admin_nav_reviews() },
-		{ href: '/admin/users', label: m.admin_nav_users() }
+		{ href: '/admin/users', label: m.admin_nav_users() },
+		{ href: '/admin/pages', label: m.admin_nav_pages() }
 	]);
 
 	const isActive = (href: string) =>

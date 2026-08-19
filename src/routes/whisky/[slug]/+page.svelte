@@ -1,12 +1,13 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { ArrowLeft, Store, ExternalLink } from '@lucide/svelte';
+	import { ArrowLeft, Store, ExternalLink, Share2, Play } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { karmaStore, refreshKarma, seedKarma } from '$lib/stores/karma.svelte';
 	import { originFlag, originLabel } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
 	import { formatPrice } from '$lib/utils/format';
 	import { resellersFor } from '$lib/utils/resellers';
+	import { ui } from '$lib/stores/ui.svelte';
 	import { m } from '$lib/paraglide/messages';
 	import VoteButton from '$lib/components/VoteButton.svelte';
 	import FavoriteButton from '$lib/components/FavoriteButton.svelte';
@@ -19,6 +20,7 @@
 
 	seedKarma(data.countryCode, data.karma);
 	const product = data.product;
+	const videos = data.videos ?? [];
 	const slug = product.slug;
 	const locale = $derived(getLocale());
 	const flag = $derived(originFlag(product));
@@ -30,6 +32,23 @@
 	onMount(() => {
 		refreshKarma([slug]);
 	});
+
+	async function share() {
+		const url = window.location.origin + localizeHref(`/whisky/${slug}`);
+		try {
+			if (navigator.share) {
+				await navigator.share({ title: name, text: description?.slice(0, 160) ?? '', url });
+			} else {
+				await navigator.clipboard.writeText(url);
+				ui.showToast(m.share_copied());
+			}
+		} catch {
+			try {
+				await navigator.clipboard.writeText(url);
+				ui.showToast(m.share_copied());
+			} catch {}
+		}
+	}
 
 	const specs = $derived.by(() => {
 		const list: { label: string; value: string }[] = [];
@@ -74,6 +93,13 @@
 				{#if product.video}
 					<PlayButton url={product.video} className="absolute right-4 top-4" />
 				{/if}
+				<button
+					onclick={share}
+					class="absolute right-4 bottom-4 grid h-10 w-10 place-items-center rounded-full bg-white/90 text-zinc-700 shadow-sm backdrop-blur transition hover:bg-white hover:text-zinc-900 dark:bg-zinc-900/90 dark:text-zinc-300 dark:hover:bg-zinc-900 dark:hover:text-white {product.video ? 'top-16' : 'top-4'}"
+					aria-label={m.share()}
+				>
+					<Share2 size={18} />
+				</button>
 			</div>
 		</div>
 
@@ -90,7 +116,7 @@
 
 			<div class="mt-6 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-zinc-200 bg-zinc-50 px-5 py-4 dark:border-zinc-800 dark:bg-zinc-900">
 				<div class="flex flex-wrap items-center gap-3">
-					<VoteButton {slug} {country} label={m.vote()} alwaysShowLabel />
+					<VoteButton {slug} {country} alwaysShowLabel />
 					<FavoriteButton {slug} />
 				</div>
 				<div class="text-right">
@@ -133,6 +159,32 @@
 					{/each}
 				</div>
 			</section>
+
+			{#if videos.length > 0}
+				<section class="mt-8">
+					<h2 class="flex items-center gap-2 font-display text-xl font-semibold text-zinc-900 dark:text-white">
+						<Play size={20} class="text-accent" />
+						{m.sommelier_videos_title()}
+					</h2>
+					<p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">{m.sommelier_videos_note()}</p>
+					<div class="mt-4 flex flex-col gap-3">
+						{#each videos as v (v.url)}
+							<button
+								onclick={() => ui.openVideo(v.url)}
+								class="group flex items-center gap-4 rounded-2xl border border-zinc-200 px-4 py-3.5 transition hover:border-zinc-300 hover:shadow-md dark:border-zinc-800 dark:hover:border-zinc-700 text-left"
+							>
+								<span class="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-zinc-100 text-zinc-500 group-hover:bg-accent group-hover:text-white dark:bg-zinc-800 dark:text-zinc-400">
+									<Play size={18} />
+								</span>
+								<div class="min-w-0">
+									<p class="text-sm font-medium text-zinc-900 dark:text-white truncate">{v.label || v.url}</p>
+									<p class="text-xs text-zinc-500 dark:text-zinc-400">{v.country}</p>
+								</div>
+							</button>
+						{/each}
+					</div>
+				</section>
+			{/if}
 
 			{#if description}
 				<section class="mt-8">

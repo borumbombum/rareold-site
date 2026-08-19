@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # US site — Paraglide locale `us` (/us)
 

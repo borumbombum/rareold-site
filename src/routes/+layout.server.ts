@@ -10,6 +10,7 @@ export async function load({ cookies }): Promise<{
 }> {
 	const user = await getSessionUser(cookies);
 	const favorites = user ? await listFavoriteIds(user.id) : [];
-	const view: ProductView = cookies.get('rareold.view') === 'list' ? 'list' : 'grid';
+	const v = cookies.get('rareold.view');
+	const view: ProductView = v === 'list' || v === 'compact' ? v : 'grid';
 	return { user, favorites, view };
 }

@@ -1,10 +1,11 @@
 <script lang="ts">
-	import { ArrowRight, Store } from '@lucide/svelte';
+	import { ArrowRight, Store, Star } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { formatNumber } from '$lib/utils/format';
 	import { originFlag } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
 	import { resellersFor } from '$lib/utils/resellers';
+	import { karmaStore } from '$lib/stores/karma.svelte';
 	import VoteButton from './VoteButton.svelte';
 	import FavoriteButton from './FavoriteButton.svelte';
 	import PlayButton from './PlayButton.svelte';
@@ -27,6 +28,7 @@
 	const flag = $derived(originFlag(product));
 	const name = $derived(l10n(product, 'name') ?? product.name);
 	const storesCount = $derived(resellersFor(product, country).length);
+	const voteCount = $derived(karmaStore.get(slug).votes);
 </script>
 
 <article
@@ -53,18 +55,12 @@
 	</a>
 
 	<div class="min-w-0 flex-1">
-		<div class="flex items-center justify-between gap-2 sm:gap-3">
-			<a
-				href={href}
-				class="font-display min-w-0 flex-1 text-sm font-semibold text-zinc-900 hover:underline dark:text-white"
-			>
-				{flag} {name}
-			</a>
-			<div class="flex shrink-0 flex-col items-end gap-1.5 sm:flex-row sm:items-center">
-				<VoteButton {slug} {country} label={m.vote()} />
-				<FavoriteButton {slug} />
-			</div>
-		</div>
+		<a
+			href={href}
+			class="font-display min-w-0 block text-sm font-semibold text-zinc-900 hover:underline dark:text-white"
+		>
+			{flag} {name}
+		</a>
 		<p class="mt-0.5 text-xs text-zinc-500 dark:text-zinc-400">{product.brand}</p>
 		<p class="mt-1.5 flex items-center gap-1.5 text-xs text-zinc-400">
 			<Store size={12} />
@@ -72,7 +68,13 @@
 		</p>
 	</div>
 
-	<div class="flex shrink-0 items-center">
+	<div class="flex shrink-0 items-center gap-1.5">
+		<span class="inline-flex items-center gap-1 text-xs text-zinc-400 tabular-nums">
+			<Star size={12} />
+			{formatNumber(voteCount, locale)}
+		</span>
+		<VoteButton {slug} {country} />
+		<FavoriteButton {slug} />
 		<a
 			href={href}
 			class="grid h-9 w-9 place-items-center rounded-full bg-zinc-900 text-white transition hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"

@@ -1,9 +1,10 @@
 import { invalidateCache } from './cache';
 import { getKarmaMap as dbGetKarmaMap } from './votes';
 import { listReviews as dbListReviews } from './reviews';
+import { listProductVideos as dbListProductVideos } from './videos';
 import { cached } from './cache';
 import { WHISKIES, getWhiskyBySlug } from '$lib/data/whiskies';
-import type { EntityKarma, Review, SiteContext, Whisky } from '$lib/types';
+import type { EntityKarma, ProductVideo, Review, SiteContext, Whisky } from '$lib/types';
 
 export interface PriceEntry {
 	slug: string;
@@ -48,6 +49,15 @@ export async function getReviews(productId: string, country: string): Promise<Re
 
 export function invalidateReviews(country: string, productId: string): void {
 	invalidateCache(`reviews:${country}:${productId}`);
+}
+
+/** Product videos (sommelier country-specific). Cached ~5min. */
+export async function getProductVideos(productId: string): Promise<ProductVideo[]> {
+	return cached(`videos:${productId}`, 300_000, () => dbListProductVideos(productId));
+}
+
+export function invalidateProductVideos(productId: string): void {
+	invalidateCache(`videos:${productId}`);
 }
 
 /** No online prices are published — always empty. */

@@ -1,5 +1,6 @@
 <script lang="ts">
     import { PUBLIC_INSTAGRAM_URL } from "$env/static/public";
+    import { page } from "$app/state";
     import { getLocale } from "$lib/paraglide/runtime";
     import { localizeHref } from "$lib/paraglide/runtime";
     import { session } from "$lib/stores/session.svelte";
@@ -14,6 +15,7 @@
 
     const locale = $derived(getLocale());
     const homeHref = $derived(localizeHref("/", { locale }));
+    const isHome = $derived(page.url.pathname === '/' || page.url.pathname === '/br' || page.url.pathname === '/en');
     const user = $derived(session.user);
     const isAuthed = $derived(session.isAuthed);
     const filterActive = $derived(filters.origin !== "all" || filters.region !== null);
@@ -37,17 +39,24 @@
             {/if}
         </button>
 
-        <a href={homeHref} class="flex items-center gap-2 font-display text-xl font-semibold tracking-tight text-zinc-900 dark:text-white">
-            <img src="/images/logo-image.png" alt="" class="h-8 w-8 rounded-lg object-cover" />
-            Rare
-            <span class="text-accent">Old</span>
+        <a href={homeHref} class="flex items-center">
+            <img src="/images/rareold-logo.svg" alt="Rare Old" class="h-6 w-auto" />
         </a>
 
-        <div class="order-2 w-full sm:order-none sm:w-auto sm:flex-1 sm:w-full">
-            <SearchBar />
-        </div>
+        {#if !isHome}
+            <div class="order-2 w-full sm:order-none sm:w-auto sm:flex-1 sm:max-w-2xl">
+                <SearchBar />
+            </div>
+        {/if}
 
         <div class="ml-auto flex items-center gap-2 sm:gap-3">
+            <a
+                href={localizeHref('/about', { locale })}
+                class="hidden text-sm font-medium text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white md:inline-flex"
+            >
+                {m.nav_about()}
+            </a>
+
             <a
                 href={PUBLIC_INSTAGRAM_URL}
                 target="_blank"

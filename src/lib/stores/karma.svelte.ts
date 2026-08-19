@@ -52,11 +52,17 @@ export async function refreshKarma(slugs: string[]): Promise<void> {
 		if (!res.ok) return;
 		const data = (await res.json()) as {
 			items?: { entity_id: string; karma: number; vote_count: number }[];
+			voted?: string[];
 		};
-		if (!data.items) return;
-		karmaStore.refresh(
-			data.items.map((e) => ({ slug: e.entity_id, karma: e.karma, votes: e.vote_count }))
-		);
+		if (data.items) {
+			karmaStore.refresh(
+				data.items.map((e) => ({ slug: e.entity_id, karma: e.karma, votes: e.vote_count }))
+			);
+		}
+		if (data.voted) {
+			const { votedStore } = await import('./voted.svelte');
+			votedStore.refresh(data.voted);
+		}
 	} catch {
 		/* keep last-known karma */
 	}

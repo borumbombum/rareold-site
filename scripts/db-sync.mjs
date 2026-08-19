@@ -179,7 +179,22 @@ const insertResellers = resellers.map((r) =>
 	)
 );
 
-await tx.batch([...insertOrigins, ...insertRegions, ...insertProducts, ...insertResellers]);
+let insertPages = [];
+const pagesFile = resolve(SEED_DIR, 'pages.json');
+try {
+	const pagesRaw = await readFile(pagesFile, 'utf8');
+	const pages = JSON.parse(pagesRaw);
+	insertPages = pages.map((p) =>
+		stmt(
+			`INSERT INTO pages (id, slug, title, body, title_pt, body_pt, title_en, body_en)
+			 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+			 ON CONFLICT(id) DO NOTHING`,
+			[p.id, p.slug, p.title ?? '', p.body ?? '', p.title_pt ?? null, p.body_pt ?? null, p.title_en ?? null, p.body_en ?? null]
+		)
+	);
+} catch { /* no pages seed file */ }
+
+await tx.batch([...insertOrigins, ...insertRegions, ...insertProducts, ...insertResellers, ...insertPages]);
 
 // Turso is the sole source of truth: this sync is strictly additive
 // (INSERT ... DO NOTHING). It never updates or deletes rows, so edits made

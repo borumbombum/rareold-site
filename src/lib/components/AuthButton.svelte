@@ -3,9 +3,15 @@
 	import { session } from '$lib/stores/session.svelte';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { m } from '$lib/paraglide/messages';
+	import { isNip07Available, getNostrPubkey, signNostrChallenge } from '$lib/utils/nostr';
 
 	const hasGoogle = Boolean(PUBLIC_GOOGLE_CLIENT_ID);
 	let busy = $state(false);
+	let hasNostrExtension = $state(false);
+
+	if (typeof window !== 'undefined') {
+		hasNostrExtension = isNip07Available();
+	}
 
 	function loginWithGoogle() {
 		if (typeof window === 'undefined') return;
@@ -27,6 +33,32 @@
 			}
 		} catch {
 			ui.showToast(m.error_generic(), true);
+		} finally {
+			busy = false;
+		}
+	}
+
+	async function loginNostr() {
+		busy = true;
+		try {
+			const pubkey = await getNostrPubkey();
+			const origin = window.location.origin;
+			const event = await signNostrChallenge(origin);
+			const res = await fetch('/api/auth/nostr', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ pubkey, event })
+			});
+			const data = await res.json();
+			if (data.user) {
+				session.setUser(data.user);
+				ui.closeLogin();
+				ui.showToast(m.login_nostr());
+			} else {
+				ui.showToast(data.error || m.error_generic(), true);
+			}
+		} catch (e) {
+			ui.showToast(String(e), true);
 		} finally {
 			busy = false;
 		}
@@ -60,5 +92,15 @@
 		<p class="text-center text-xs text-zinc-400">
 			Modo demo — Google login se activa con <code class="rounded bg-zinc-100 px-1 dark:bg-zinc-800">PUBLIC_GOOGLE_CLIENT_ID</code>.
 		</p>
+	{/if}
+	{#if hasNostrExtension}
+		<button
+			onclick={loginNostr}
+			disabled={busy}
+			class="flex w-full items-center justify-center gap-3 rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm font-medium text-zinc-800 transition hover:bg-zinc-50 disabled:opacity-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800"
+		>
+			<span class="text-lg">⚡</span>
+			{m.login_nostr()}
+		</button>
 	{/if}
 </div>

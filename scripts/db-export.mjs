@@ -8,6 +8,7 @@ const DATA_DIR = resolve(ROOT, 'src/lib/data');
 const WHISKIES_FILE = resolve(DATA_DIR, 'whiskies.json');
 const ORIGINS_FILE = resolve(DATA_DIR, 'origins.json');
 const REGIONS_FILE = resolve(DATA_DIR, 'regions.json');
+const PAGES_FILE = resolve(DATA_DIR, 'pages.json');
 
 const url = process.env.TURSO_URL;
 const authToken = process.env.TURSO_AUTH_TOKEN;
@@ -110,7 +111,27 @@ const data = {
 await writeFile(WHISKIES_FILE, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 await writeFile(ORIGINS_FILE, `${JSON.stringify(origins, null, 2)}\n`, 'utf8');
 await writeFile(REGIONS_FILE, `${JSON.stringify(regions, null, 2)}\n`, 'utf8');
+
+let pagesCount = 0;
+try {
+	const pagesRes = await client.execute('SELECT * FROM pages ORDER BY updated_at DESC');
+	const pages = pagesRes.rows.map((r) => ({
+		id: String(r.id),
+		slug: String(r.slug),
+		title: String(r.title ?? ''),
+		body: String(r.body ?? ''),
+		title_pt: r.title_pt ?? null,
+		body_pt: r.body_pt ?? null,
+		title_en: r.title_en ?? null,
+		body_en: r.body_en ?? null,
+		created_at: String(r.created_at ?? ''),
+		updated_at: String(r.updated_at ?? '')
+	}));
+	await writeFile(PAGES_FILE, `${JSON.stringify(pages, null, 2)}\n`, 'utf8');
+	pagesCount = pages.length;
+} catch { /* pages table may not exist yet */ }
+
 console.log(
-	`[db-export] Wrote ${whiskies.length} whiskies, ${origins.length} origins, ${regions.length} regions to ${DATA_DIR}`
+	`[db-export] Wrote ${whiskies.length} whiskies, ${origins.length} origins, ${regions.length} regions, ${pagesCount} pages to ${DATA_DIR}`
 );
 client.close();

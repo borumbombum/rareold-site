@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Big search bar below the ranking title hero on desktop
 

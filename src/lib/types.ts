@@ -58,6 +58,12 @@ export interface Reseller {
 	price: number | null;
 }
 
+export interface ProductVideo {
+	country: CountryCode;
+	url: string;
+	label: string;
+}
+
 /** A whisky from the build-time JSON catalog (see src/lib/data/whiskies.json). */
 export interface Whisky {
 	id: string;
@@ -80,4 +86,5 @@ export interface Whisky {
 	resellers_uy: Reseller[];
 	resellers_br: Reseller[];
 	resellers_usa: Reseller[];
+	videos?: ProductVideo[];
 }

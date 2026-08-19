@@ -3,11 +3,12 @@
     import { browser } from "$app/environment";
     import { goto } from "$app/navigation";
     import { localizeHref } from "$lib/paraglide/runtime";
-    import Hero from "$lib/components/Hero.svelte";
+    import HeroHome from "$lib/components/HeroHome.svelte";
     import OriginFilters from "$lib/components/OriginFilters.svelte";
     import ViewToggle from "$lib/components/ViewToggle.svelte";
     import ProductCard from "$lib/components/ProductCard.svelte";
     import ProductRow from "$lib/components/ProductRow.svelte";
+    import ProductCompact from "$lib/components/ProductCompact.svelte";
     import { karmaStore, refreshKarma, seedKarma } from "$lib/stores/karma.svelte";
     import { view } from "$lib/stores/view.svelte";
     import { filters, setOrigin, setRegion } from "$lib/stores/filters.svelte";
@@ -16,7 +17,6 @@
     import { X } from "@lucide/svelte";
     import { m } from "$lib/paraglide/messages";
     import { getLocale } from "$lib/paraglide/runtime";
-    import { formatNumber } from "$lib/utils/format";
     import type { PageData } from "./$types";
 
     let { data }: { data: PageData } = $props();
@@ -62,14 +62,12 @@
     <title>{m.seo_home_title()}</title>
 </svelte:head>
 
-<Hero
-    imageUrl="/images/whisky.webp"
+<HeroHome
     title={m.ranking_title()}
     subtitle={m.ranking_subtitle()}
-    count={m.products_count({ count: formatNumber(count, locale) })}
 />
 
-<section class="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
+<section id="ranking" class="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
     <div class="flex flex-col gap-6 pt-10">
         <div class="flex items-center justify-between gap-4">
             <p class="font-display text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
@@ -118,10 +116,16 @@
                     <ProductCard {product} rank={i + 1} country={data.countryCode} />
                 {/each}
             </div>
-        {:else}
+        {:else if mode === "list"}
             <div class="flex flex-col gap-3">
                 {#each ranked as product, i (product.slug)}
                     <ProductRow {product} rank={i + 1} country={data.countryCode} />
+                {/each}
+            </div>
+        {:else}
+            <div class="divide-y divide-zinc-100 dark:divide-zinc-800">
+                {#each ranked as product, i (product.slug)}
+                    <ProductCompact {product} rank={i + 1} country={data.countryCode} />
                 {/each}
             </div>
         {/if}

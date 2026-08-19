@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # RSS feed, robots.txt, sitemaps by language, and link verification
 

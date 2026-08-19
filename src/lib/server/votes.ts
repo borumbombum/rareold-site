@@ -33,6 +33,24 @@ export async function applyVote(input: VoteInput, db: Client = turso): Promise<v
 	);
 }
 
+/** Get entity_ids the user has a non-zero vote on. */
+export async function getUserVotedSlugs(
+	userId: string,
+	slugs?: string[],
+	db: Client = turso
+): Promise<string[]> {
+	let query = 'SELECT DISTINCT entity_id FROM votes WHERE user_id = ? AND value != 0';
+	const params: (string | number)[] = [userId];
+	if (slugs && slugs.length > 0) {
+		const unique = [...new Set(slugs)].filter(Boolean);
+		const placeholders = unique.map(() => '?').join(', ');
+		query += ` AND entity_id IN (${placeholders})`;
+		params.push(...unique);
+	}
+	const res = await db.execute(query, params);
+	return res.rows.map((r) => String(r.entity_id));
+}
+
 /** Karma for a set of entity ids, ranked best-first. */
 export async function getKarmaMap(
 	slugs: string[],

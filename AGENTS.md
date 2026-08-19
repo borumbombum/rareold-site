@@ -20,7 +20,7 @@ Tasks live as one markdown file per task in `/todos/`. Do not track tasks anywhe
     - `Status: TODO` — not started, available to pick up.
     - `Status: WORKING-AGENT-<session>` — currently being implemented by an agent. Replace `<session>` with your own session identifier.
     - `Status: DONE` — implemented and verified. Do not touch again.
-- **Picking the next task:** read `/todos/`, list the files sorted by `NNN`, and pick the lowest `NNN` whose status is `TODO`. Never start a `DONE` task, and never start a `WORKING-AGENT-*` task unless you are taking it over (see Handoff below).
+- **Picking the next task:** read `/todos/`, list the files sorted by `NNN`, and pick the lowest `NNN` whose status is `TODO`. **Exception:** if any task has `HIGH PRIORITY` in its status line, pick that one first regardless of NNN number. Never start a `DONE` task, and never start a `WORKING-AGENT-*` task unless you are taking it over (see Handoff below).
 - **Starting a task:** set the file's status to `Status: WORKING-AGENT-<your-session>` and add a `## Progress` section at the end of the file with a dated entry: your session, what you are doing, and what comes next. Read the whole task file first (Context / Requirements / Acceptance criteria); ask for tokens if anything is unclear.
 - **Progress log:** keep the `## Progress` section updated as you work, not just at the start or end. Every meaningful step gets a short entry: what was done, current state, and the next step. This is the handoff record.
 - **Handoff / token exhaustion:** if you run out of tokens mid-task, your last `## Progress` entry MUST state exactly where you left off and what the next agent should do. A replacement agent taking over a `WORKING-AGENT-*` task reads the `## Progress` log, changes the status to `Status: WORKING-AGENT-<its-session>`, and appends a handoff entry saying it is continuing.
@@ -47,6 +47,15 @@ Origin labels and product names/descriptions are translated columns in Turso, ex
 - `src/lib/utils/l10n.ts` `l10n(item, field)` resolves `<field>_<locale>` for the active locale and falls back to the base field; `src/lib/utils/origins.ts` `originLabel()` does the same for origins. If a new locale is added, extend the `LOCALE_FIELD` map in `origins.ts` only if needed — the fallback already covers missing translations.
 - The pipeline is always: content in Turso (bootstrap via seed once, then edits via `/admin`) → `npm run data:export` (Turso → `src/lib/data/*.json`) → build. Every product must have `description_pt` (and any other language you add) or the localized content pass is incomplete.
 
+## Toast notifications
+
+Use `ui.showToast()` from `$lib/stores/ui.svelte` to show temporary user feedback. Toasts auto-dismiss after ~2.6 seconds.
+
+- **Success:** `ui.showToast('Saved!')` — dark background, CheckCircle icon.
+- **Error:** `ui.showToast('Something went wrong', true)` — red background, AlertCircle icon.
+
+Already used in VoteButton, FavoriteButton, AuthButton, LanguageSwitcher, ShareButton, etc. Always prefer `showToast` over alerts or console.log for user-facing feedback.
+
 ## Next tasks
 
 Current status of `/todos/`:
@@ -57,18 +66,25 @@ Current status of `/todos/`:
 - `003-drawer-region-transition.md` — DONE
 - `004-admin-section.md` — DONE
 - `005-dark-mode-card-images-white-background.md` — DONE
-- `006-product-videos-per-country-sommeliers.md` — TODO
-- `007-desktop-search-bar-below-hero.md` — TODO
+- `006-product-videos-per-country-sommeliers.md` — DONE
+- `007-desktop-search-bar-below-hero.md` — DONE
 - `008-vote-image-upload-and-location.md` — TODO
-- `009-share-button-product-page.md` — TODO
-- `010-us-site-paraglide.md` — TODO
+- `009-share-button-product-page.md` — DONE
+- `010-us-site-paraglide.md` — DONE
 - `011-google-login-redirect-pkce-cookie.md` — DONE
 - `012-resellers-turso-source-of-truth.md` — DONE
 - `013-remove-public-base-url-detect-origin.md` — DONE
 - `014-favorites-love-whiskies.md` — DONE
 - `015-git-link-github-repo.md` — DONE
-- `016-sitemaps-by-language.md` — TODO
-- `017-pages-cms-about.md` — TODO
+- `016-sitemaps-by-language.md` — SUPERSEDED by 023
+- `017-pages-cms-about.md` — DONE
 - `018-view-toggle-flick.md` — DONE
 - `019-ranking-most-voted-first.md` — DONE
-- `020-vote-state-server-authoritative.md` — TODO
+- `020-vote-state-server-authoritative.md` — DONE
+- `022-nostr-login-nip07-desktop.md` — DONE
+- `023-rss-robots-sitemap-link-verification.md` — DONE
+- `024-compact-view-product-grid.md` — DONE
+- `025-schema-org-product-reviews.md` — TODO
+- `026-user-profile-favorites-voted-reviews.md` — TODO
+- `027-homepage-latest-activity-feed.md` — TODO
+- `028-unify-voting-star-ratings.md` — **TODO [HIGH PRIORITY — pick this FIRST]**

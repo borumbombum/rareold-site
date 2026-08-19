@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Nostr login via NIP-07 (desktop only)
 
