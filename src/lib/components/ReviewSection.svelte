@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { BadgeCheck, Star } from 'lucide-svelte';
+	import { BadgeCheck, Star } from '@lucide/svelte';
 	import { onMount } from 'svelte';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { session } from '$lib/stores/session.svelte';

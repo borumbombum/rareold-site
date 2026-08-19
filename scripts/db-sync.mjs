@@ -148,8 +148,8 @@ const insertRegions = regions.map((r) =>
 
 const insertProducts = whiskies.map((w) =>
 	stmt(
-		`INSERT INTO products (id, name, brand, description, image, video, origin_id, region_id, age, volume, abv, cask, name_pt, description_pt)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		`INSERT INTO products (id, name, brand, description, image, video, origin_id, region_id, age, volume, abv, cask, name_pt, description_pt, name_en, description_en)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		 ON CONFLICT(id) DO NOTHING`,
 		[
 			w.slug,
@@ -165,7 +165,9 @@ const insertProducts = whiskies.map((w) =>
 			w.abv,
 			w.cask,
 			w.name_pt ?? null,
-			w.description_pt ?? null
+			w.description_pt ?? null,
+			w.name_en ?? null,
+			w.description_en ?? null
 		]
 	)
 );

@@ -5,7 +5,7 @@
 	import { WHISKIES } from '$lib/data/whiskies';
 	import { ORIGINS, originLabel } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
-	import { Search } from 'lucide-svelte';
+	import { Search } from '@lucide/svelte';
 	import type { Whisky } from '$lib/types';
 
 	const flagMap = new Map(ORIGINS.map((o) => [o.key, o.flag]));

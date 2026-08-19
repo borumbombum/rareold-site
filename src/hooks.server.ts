@@ -4,7 +4,8 @@ import { getTextDirection } from '$lib/paraglide/runtime';
 
 const HTML_LANG: Record<string, string> = {
 	es: 'es-UY',
-	pt: 'pt-BR'
+	pt: 'pt-BR',
+	en: 'en-US'
 };
 
 const paraglideHandle: Handle = ({ event, resolve }) =>

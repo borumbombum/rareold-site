@@ -12,8 +12,7 @@ function load(): void {
 	_hydrated = true;
 	try {
 		const stored = localStorage.getItem(KEY) as Theme | null;
-		_theme =
-			stored ?? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+		_theme = stored ?? 'light';
 	} catch {
 		_theme = 'light';
 	}

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ChevronDown, X } from 'lucide-svelte';
+	import { ChevronDown, X } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { filters, resetFilters, setOrigin, setRegion } from '$lib/stores/filters.svelte';

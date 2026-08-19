@@ -48,7 +48,7 @@ const resellersFor = (productId, country) => {
 
 const productsRes = await client.execute(
 	`SELECT p.id, p.name, p.brand, p.description, p.image, p.video, p.origin_id, r.name AS region_name,
-	        p.age, p.volume, p.abv, p.cask, p.name_pt, p.description_pt
+	        p.age, p.volume, p.abv, p.cask, p.name_pt, p.description_pt, p.name_en, p.description_en
 	 FROM products p
 	 LEFT JOIN regions r ON r.id = p.region_id
 	 ORDER BY p.name COLLATE NOCASE`
@@ -71,6 +71,8 @@ const whiskies = productsRes.rows.map((row) => {
 		cask: row.cask ?? null,
 		name_pt: row.name_pt ?? null,
 		description_pt: row.description_pt ?? null,
+		name_en: row.name_en ?? null,
+		description_en: row.description_en ?? null,
 		resellers_uy: resellersFor(row.id, 'UY'),
 		resellers_br: resellersFor(row.id, 'BR'),
 		resellers_usa: resellersFor(row.id, 'US')

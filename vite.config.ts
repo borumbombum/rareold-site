@@ -24,6 +24,7 @@ export default defineConfig({
 					pattern: ':protocol://:domain(.*)::port?/:path(.*)?',
 					localized: [
 						['pt', ':protocol://:domain(.*)::port?/br/:path(.*)?'],
+						['en', ':protocol://:domain(.*)::port?/en/:path(.*)?'],
 						['es', ':protocol://:domain(.*)::port?/:path(.*)?']
 					]
 				}

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
-	import { Plus, Pencil, Trash2, X } from 'lucide-svelte';
+	import { Plus, Pencil, Trash2, X } from '@lucide/svelte';
 	import originData from '$lib/data/origins.json';
 	import regionData from '$lib/data/regions.json';
 	import TiptapEditor from './TiptapEditor.svelte';

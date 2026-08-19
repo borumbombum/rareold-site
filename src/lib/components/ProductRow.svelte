@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ArrowRight, Store } from 'lucide-svelte';
+	import { ArrowRight, Store } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { formatNumber } from '$lib/utils/format';
 	import { originFlag } from '$lib/utils/origins';

@@ -1,4 +1,4 @@
-# Rare Old
+# Old Rare
 
 Community-ranked rare-whisky **info** site. No checkout, cart, or shipping: every product has a static list of retail/partner links ("Dónde comprar / Onde comprar") plus specs and user reviews/votes.
 
@@ -54,15 +54,15 @@ There are no online prices: `price` is null and `GET /api/prices` returns an emp
 - **Detail `/whisky/[slug]`**: image, vote button + vote count, description, specs table (region, age, ABV, volume, cask when present), "Dónde comprar" store list (prices hidden until real data exists), and reviews.
 - **Global search** (in the header): type-ahead over the build-time preloaded catalog (matches name, brand, origin + translated origin label, and region). Arrow keys move the selection, Enter opens the result, Esc closes. Results link to the current locale's detail URL.
 - **APIs**:
-  - `POST /api/vote` — vote (`+1`/`-1`) by `slug`; authenticates via the session cookie, upserts the vote and recomputes karma in Turso.
-  - `GET /api/karma?slugs=a,b,c` — live karma from Turso, `no-store` (fetched client-side after page load).
-  - `GET/POST /api/reviews` — Turso-backed, `no-store`; POST authenticates via the session cookie.
-  - `GET /api/prices?country=UY|BR` — per-site prices, `no-store`.
-  - `GET /api/auth/login?next=/…` — start Google login (redirects to Google).
-  - `GET /api/auth/callback?code&state` — Google redirects back here; exchanges the code and sets the session cookie.
-  - `GET /api/auth/me` — current user from the session cookie (`{user}` or `{user: null}`).
-  - `POST /api/auth/logout` — clears the session cookie.
-  - `POST /api/auth/mock` — demo login; sets a real session cookie for a `demo` user in Turso.
+    - `POST /api/vote` — vote (`+1`/`-1`) by `slug`; authenticates via the session cookie, upserts the vote and recomputes karma in Turso.
+    - `GET /api/karma?slugs=a,b,c` — live karma from Turso, `no-store` (fetched client-side after page load).
+    - `GET/POST /api/reviews` — Turso-backed, `no-store`; POST authenticates via the session cookie.
+    - `GET /api/prices?country=UY|BR` — per-site prices, `no-store`.
+    - `GET /api/auth/login?next=/…` — start Google login (redirects to Google).
+    - `GET /api/auth/callback?code&state` — Google redirects back here; exchanges the code and sets the session cookie.
+    - `GET /api/auth/me` — current user from the session cookie (`{user}` or `{user: null}`).
+    - `POST /api/auth/logout` — clears the session cookie.
+    - `POST /api/auth/mock` — demo login; sets a real session cookie for a `demo` user in Turso.
 
 ## i18n & routing
 
@@ -85,12 +85,12 @@ Login is a **full-page redirect** to Google — no popup, no GSI script. Flow:
 
 Copy `.env.example` to `.env`. Variables:
 
-| Var | Purpose |
-| --- | --- |
-| `PUBLIC_GOOGLE_CLIENT_ID` | Google OAuth client id (empty = Google login disabled). Authorized redirect URI: `https://<your-domain>/api/auth/callback` (auto-detected; set in Google Console) |
-| `GOOGLE_CLIENT_SECRET` | Google OAuth client secret (Google Console → Credentials → OAuth client → Client secret). Required at the token exchange even with PKCE. Empty = Google login disabled |
-| `AUTH_SECRET` | Secret that signs our JWTs (`openssl rand -base64 32`) |
-| `PUBLIC_INSTAGRAM_URL` | Instagram link in the header |
+| Var                             | Purpose                                                                                                                                                                             |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `PUBLIC_GOOGLE_CLIENT_ID`       | Google OAuth client id (empty = Google login disabled). Authorized redirect URI: `https://<your-domain>/api/auth/callback` (auto-detected; set in Google Console)                   |
+| `GOOGLE_CLIENT_SECRET`          | Google OAuth client secret (Google Console → Credentials → OAuth client → Client secret). Required at the token exchange even with PKCE. Empty = Google login disabled              |
+| `AUTH_SECRET`                   | Secret that signs our JWTs (`openssl rand -base64 32`)                                                                                                                              |
+| `PUBLIC_INSTAGRAM_URL`          | Instagram link in the header                                                                                                                                                        |
 | `TURSO_URL`, `TURSO_AUTH_TOKEN` | Turso database URL + token. Used at build (`db:sync`/`data:export`) **and at runtime** for live data — set all three (`TURSO_URL`, `TURSO_AUTH_TOKEN`, `AUTH_SECRET`) in Vercel too |
 
 ## Styling

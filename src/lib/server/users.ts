@@ -8,6 +8,7 @@ export interface GoogleClaims {
 	name?: string;
 	picture?: string;
 	login_type?: string;
+	role?: string;
 }
 
 export async function getUserById(id: string, db: Client = turso): Promise<UserData | null> {
@@ -19,15 +20,17 @@ export async function getUserById(id: string, db: Client = turso): Promise<UserD
 
 export async function upsertUser(claims: GoogleClaims, db: Client = turso): Promise<UserData> {
 	const loginType = claims.login_type ?? 'google';
+	const role = claims.role ?? 'user';
 	await db.execute(
-		`INSERT INTO users (id, email, name, avatar, login_type)
-		 VALUES (?, ?, ?, ?, ?)
+		`INSERT INTO users (id, email, name, avatar, login_type, role)
+		 VALUES (?, ?, ?, ?, ?, ?)
 		 ON CONFLICT(id) DO UPDATE SET
 			email = excluded.email,
 			name = excluded.name,
 			avatar = excluded.avatar,
+			role = excluded.role,
 			updated_at = strftime('%Y-%m-%dT%H:%M:%fZ', 'now')`,
-		[claims.sub, claims.email, claims.name ?? '', claims.picture ?? '', loginType]
+		[claims.sub, claims.email, claims.name ?? '', claims.picture ?? '', loginType, role]
 	);
 	const user = await getUserById(claims.sub, db);
 	if (!user) throw new Error('user upsert failed');

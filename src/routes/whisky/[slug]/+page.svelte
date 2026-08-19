@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { ArrowLeft, Store, ExternalLink } from 'lucide-svelte';
+	import { ArrowLeft, Store, ExternalLink } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { karmaStore, refreshKarma, seedKarma } from '$lib/stores/karma.svelte';
 	import { originFlag, originLabel } from '$lib/utils/origins';

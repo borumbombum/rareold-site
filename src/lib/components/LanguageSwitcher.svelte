@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { getLocale } from '$lib/paraglide/runtime';
-	import { ChevronDown } from 'lucide-svelte';
+	import { ChevronDown } from '@lucide/svelte';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { m } from '$lib/paraglide/messages';
 
@@ -8,8 +8,8 @@
 
 	const locale = $derived(getLocale());
 
-	const flag = $derived(locale === 'pt' ? '🇧🇷' : '🇺🇾');
-	const name = $derived(locale === 'pt' ? 'Português' : 'Español');
+	const flag = $derived(locale === 'pt' ? '🇧🇷' : locale === 'en' ? '🇺🇸' : '🇺🇾');
+	const name = $derived(locale === 'pt' ? 'Português' : locale === 'en' ? 'English' : 'Español');
 </script>
 
 <button

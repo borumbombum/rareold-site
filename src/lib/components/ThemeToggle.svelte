@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Moon, Sun } from 'lucide-svelte';
+	import { Moon, Sun } from '@lucide/svelte';
 	import { theme } from '$lib/stores/theme.svelte';
 
 	const isDark = $derived(theme.current === 'dark');

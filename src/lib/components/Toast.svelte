@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { AlertCircle, CheckCircle2 } from 'lucide-svelte';
+	import { AlertCircle, CheckCircle2 } from '@lucide/svelte';
 	import { ui } from '$lib/stores/ui.svelte';
 
 	const toast = $derived(ui.toast);

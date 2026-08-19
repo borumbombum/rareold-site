@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Heart } from 'lucide-svelte';
+	import { Heart } from '@lucide/svelte';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { session } from '$lib/stores/session.svelte';
 	import { favorites } from '$lib/stores/favorites.svelte';

@@ -9,7 +9,8 @@
 
 	const langs: { key: Locale; flag: string; label: string }[] = [
 		{ key: 'es', flag: '🇺🇾', label: 'Español' },
-		{ key: 'pt', flag: '🇧🇷', label: 'Português' }
+		{ key: 'pt', flag: '🇧🇷', label: 'Português' },
+		{ key: 'en', flag: '🇺🇸', label: 'English' }
 	];
 
 	function pick(l: Locale) {

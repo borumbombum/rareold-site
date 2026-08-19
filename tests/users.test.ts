@@ -49,12 +49,25 @@ describe('upsertUser', () => {
 		expect(Number(count.rows[0].n)).toBe(1);
 	});
 
-	it('keeps the role on re-login', async () => {
+	it('sets role from claims on re-login', async () => {
 		const client = await db();
 		await upsertUser({ sub: 'g1', email: 'one@example.com', name: 'One' }, client);
 		await client.execute("UPDATE users SET role = 'admin' WHERE id = 'g1'");
-		const re = await upsertUser({ sub: 'g1', email: 'one@example.com', name: 'One' }, client);
+		const re = await upsertUser(
+			{ sub: 'g1', email: 'one@example.com', name: 'One', role: 'admin' },
+			client
+		);
 		expect(re.role).toBe('admin');
+	});
+
+	it('resets role to user when claims have no admin', async () => {
+		const client = await db();
+		await upsertUser({ sub: 'g1', email: 'one@example.com', name: 'One', role: 'admin' }, client);
+		const re = await upsertUser(
+			{ sub: 'g1', email: 'one@example.com', name: 'One' },
+			client
+		);
+		expect(re.role).toBe('user');
 	});
 });
 

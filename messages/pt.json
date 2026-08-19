@@ -4,7 +4,7 @@
 	"site_description": "Descubra whiskies raros e limitados. O ranking é construído pela comunidade com seus votos.",
 	"nav_home": "Início",
 	"nav_instagram": "Instagram",
-	"search_placeholder": "Buscar whiskies…",
+	"search_placeholder": "Procurar whiskies…",
 	"search_empty": "Nada encontrado",
 	"search_label": "Buscar",
 	"view_grid": "Grade",
@@ -69,5 +69,6 @@
 	"lang_title": "Idioma",
 	"lang_switch": "Mudar idioma",
 	"lang_es": "Español",
-	"lang_pt": "Português"
+	"lang_pt": "Português",
+	"lang_en": "English"
 }

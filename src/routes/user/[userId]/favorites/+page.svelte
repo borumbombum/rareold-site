@@ -2,7 +2,7 @@
 	import { goto } from '$app/navigation';
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
-	import { ArrowLeft, Heart, LogOut, ShieldCheck } from 'lucide-svelte';
+	import { ArrowLeft, Heart, LogOut, ShieldCheck } from '@lucide/svelte';
 	import ViewToggle from '$lib/components/ViewToggle.svelte';
 	import ProductCard from '$lib/components/ProductCard.svelte';
 	import ProductRow from '$lib/components/ProductRow.svelte';

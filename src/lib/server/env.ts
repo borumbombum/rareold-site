@@ -29,11 +29,20 @@ export const sites: Record<CountryCode, SiteContext> = {
 		currency: 'BRL',
 		currencySymbol: 'R$',
 		timezone: 'America/Sao_Paulo'
+	},
+	US: {
+		locale: 'en',
+		countryCode: 'US',
+		currency: 'USD',
+		currencySymbol: '$',
+		timezone: 'America/New_York'
 	}
 };
 
 export function siteForLocale(locale: string): SiteContext {
-	return locale === 'pt' ? sites.BR : sites.UY;
+	if (locale === 'pt') return sites.BR;
+	if (locale === 'en') return sites.US;
+	return sites.UY;
 }
 
 export function siteForCountry(country: CountryCode): SiteContext {

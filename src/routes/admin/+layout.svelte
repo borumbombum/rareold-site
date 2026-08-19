@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { ShieldCheck } from 'lucide-svelte';
+	import { ShieldCheck } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
 	import type { Snippet } from 'svelte';
 

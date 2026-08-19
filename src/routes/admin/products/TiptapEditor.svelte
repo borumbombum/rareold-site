@@ -15,7 +15,7 @@
 		Link as LinkIcon,
 		Undo2,
 		Redo2
-	} from 'lucide-svelte';
+	} from '@lucide/svelte';
 
 	let {
 		value,

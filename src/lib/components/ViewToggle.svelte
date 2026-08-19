@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { LayoutGrid, List } from 'lucide-svelte';
+	import { LayoutGrid, List } from '@lucide/svelte';
 	import { view } from '$lib/stores/view.svelte';
 	import { m } from '$lib/paraglide/messages';
 	import type { ProductView } from '$lib/stores/view.svelte';

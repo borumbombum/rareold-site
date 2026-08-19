@@ -1,5 +1,5 @@
-export type Locale = 'es' | 'pt';
-export type CountryCode = 'BR' | 'UY';
+export type Locale = 'es' | 'pt' | 'en';
+export type CountryCode = 'BR' | 'UY' | 'US';
 
 export interface SiteContext {
 	locale: Locale;
@@ -75,6 +75,8 @@ export interface Whisky {
 	cask: string | null;
 	name_pt: string | null;
 	description_pt: string | null;
+	name_en: string | null;
+	description_en: string | null;
 	resellers_uy: Reseller[];
 	resellers_br: Reseller[];
 	resellers_usa: Reseller[];

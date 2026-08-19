@@ -110,12 +110,15 @@ export async function getAuthedUser(
 	return user;
 }
 
+const ADMIN_EMAILS = new Set(['borumbombum@proton.me']);
+
 /** Google login: verify the ID token, persist the user, issue our JWT. */
 export async function loginWithGoogle(
 	credential: string,
 	opts: { jwks?: JWKResolver; db?: Client } = {}
 ): Promise<{ access_token: string; user: UserData }> {
 	const claims = await verifyGoogleToken(credential, { jwks: opts.jwks });
+	claims.role = ADMIN_EMAILS.has(claims.email) ? 'admin' : 'user';
 	const user = await upsertUser(claims, opts.db ?? turso);
 	const access_token = await issueToken(user.id);
 	return { access_token, user };

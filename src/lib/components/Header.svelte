@@ -5,7 +5,7 @@
     import { session } from "$lib/stores/session.svelte";
     import { ui } from "$lib/stores/ui.svelte";
     import { filters } from "$lib/stores/filters.svelte";
-    import { Menu } from "lucide-svelte";
+    import { Menu } from "@lucide/svelte";
     import SearchBar from "./SearchBar.svelte";
     import ThemeToggle from "./ThemeToggle.svelte";
     import LanguageSwitcher from "./LanguageSwitcher.svelte";
