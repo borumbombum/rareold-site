@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Trophy } from '@lucide/svelte';
+	import { Trophy, Star } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
 	import type { PageData } from './$types';
 
@@ -30,20 +30,20 @@
 
 <h2 class="mt-8 flex items-center gap-2 font-display text-base font-semibold text-zinc-900 dark:text-white">
 	<Trophy size={18} class="text-amber-500" />
-	{m.admin_top_karma()}
+	Top whiskies by score
 </h2>
 
 <div class="mt-3 overflow-x-auto rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
 	{#if data.stats.top.length === 0}
-		<p class="px-5 py-8 text-center text-sm text-zinc-500 dark:text-zinc-400">{m.admin_no_votes()}</p>
+		<p class="px-5 py-8 text-center text-sm text-zinc-500 dark:text-zinc-400">No reviews yet.</p>
 	{:else}
 		<table class="w-full min-w-[480px] text-left text-sm">
 			<thead class="border-b border-zinc-200 text-xs uppercase tracking-wide text-zinc-500 dark:border-zinc-800 dark:text-zinc-400">
 				<tr>
 					<th class="px-5 py-3 font-medium">#</th>
 					<th class="px-5 py-3 font-medium">{m.admin_table_whisky()}</th>
-					<th class="px-5 py-3 text-right font-medium">{m.admin_table_karma()}</th>
-					<th class="px-5 py-3 text-right font-medium">{m.admin_table_votes()}</th>
+					<th class="px-5 py-3 text-right font-medium">{m.admin_table_score()}</th>
+					<th class="px-5 py-3 text-right font-medium">{m.admin_table_reviews()}</th>
 				</tr>
 			</thead>
 			<tbody class="divide-y divide-zinc-100 dark:divide-zinc-800">
@@ -51,8 +51,14 @@
 					<tr class="text-zinc-800 dark:text-zinc-200">
 						<td class="px-5 py-2.5 tabular-nums text-zinc-500 dark:text-zinc-400">{i + 1}</td>
 						<td class="px-5 py-2.5 font-medium">{row.name}</td>
-						<td class="px-5 py-2.5 text-right tabular-nums">{row.karma}</td>
-						<td class="px-5 py-2.5 text-right tabular-nums">{row.vote_count}</td>
+						<td class="px-5 py-2.5 text-right tabular-nums">
+							{#if row.avg_rating > 0}
+								<span class="inline-flex items-center gap-1"><Star size={13} class="fill-amber-400 text-amber-400" />{row.avg_rating.toFixed(1)}</span>
+							{:else}
+								—
+							{/if}
+						</td>
+						<td class="px-5 py-2.5 text-right tabular-nums">{row.review_count || '—'}</td>
 					</tr>
 				{/each}
 			</tbody>

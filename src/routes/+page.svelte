@@ -67,11 +67,7 @@
 
 <HeroHome title={m.ranking_title()} subtitle={m.ranking_subtitle()} />
 
-{#if data.activity && data.activity.length > 0}
-    <ActivityFeed items={data.activity} />
-{/if}
-
-<section id="ranking" class="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
+<section id="ranking" class="mx-auto max-w-7xl px-4 pb-24 sm:px-6 mt-2 md:mt-5">
     <div class="flex flex-col gap-6 pt-2">
         <div class="flex items-center justify-between gap-4">
             <p class="font-display text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
@@ -135,3 +131,7 @@
         {/if}
     </div>
 </section>
+
+{#if data.activity && data.activity.length > 0}
+    <ActivityFeed items={data.activity} />
+{/if}

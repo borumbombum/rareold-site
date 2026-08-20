@@ -224,7 +224,7 @@ export async function deleteReview(id: string, db: Client = turso): Promise<void
 
 export interface Stats {
 	counts: { products: number; users: number; reviews: number; votes: number };
-	top: { slug: string; name: string; karma: number; vote_count: number }[];
+	top: { slug: string; name: string; avg_rating: number; review_count: number }[];
 }
 
 export async function getStats(db: Client = turso): Promise<Stats> {
@@ -237,11 +237,12 @@ export async function getStats(db: Client = turso): Promise<Stats> {
 	);
 	const c = countsRes.rows[0];
 	const topRes = await db.execute(
-		`SELECT k.entity_id, COALESCE(p.name, k.entity_id) AS name, k.karma, k.vote_count
-		 FROM karma k
-		 LEFT JOIN products p ON p.id = k.entity_id
-		 WHERE k.karma != 0 OR k.vote_count != 0
-		 ORDER BY k.karma DESC, k.vote_count DESC
+		`SELECT p.id AS slug, COALESCE(p.name, p.id) AS name,
+		        COALESCE(pr.avg_rating, 0) AS avg_rating, COALESCE(pr.review_count, 0) AS review_count
+		 FROM products p
+		 LEFT JOIN product_ratings pr ON pr.product_id = p.id
+		 WHERE pr.review_count > 0
+		 ORDER BY pr.avg_rating DESC, pr.review_count DESC
 		 LIMIT 20`
 	);
 	return {
@@ -252,10 +253,10 @@ export async function getStats(db: Client = turso): Promise<Stats> {
 			votes: Number(c.votes ?? 0)
 		},
 		top: topRes.rows.map((row) => ({
-			slug: String(row.entity_id),
+			slug: String(row.slug),
 			name: String(row.name),
-			karma: Number(row.karma ?? 0),
-			vote_count: Number(row.vote_count ?? 0)
+			avg_rating: Number(row.avg_rating ?? 0),
+			review_count: Number(row.review_count ?? 0)
 		}))
 	};
 }
