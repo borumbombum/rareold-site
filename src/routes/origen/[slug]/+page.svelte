@@ -34,7 +34,7 @@
 		japan: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&h=900&fit=crop',
 		india: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1600&h=900&fit=crop',
 		canada: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&h=900&fit=crop',
-		argentina: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1600&h=900&fit=crop',
+		argentina: 'https://turismo.buenosaires.gob.ar/sites/turismo/files/obelisco-baverde-noche-luces1500x610.jpg',
 		other: '/images/whisky.webp'
 	};
 
