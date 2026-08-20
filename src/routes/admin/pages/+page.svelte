@@ -3,6 +3,7 @@
 	import { localizeHref } from '$lib/paraglide/runtime';
 	import { m } from '$lib/paraglide/messages';
 	import { getLocale } from '$lib/paraglide/runtime';
+	import { ui } from '$lib/stores/ui.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -29,7 +30,10 @@
 			});
 			if (res.ok) {
 				editing = null;
+				ui.showToast(m.admin_pages_saved());
 				goto(localizeHref('/admin/pages', { locale: getLocale() }));
+			} else {
+				ui.showToast(m.error_generic(), true);
 			}
 		} finally {
 			saving = false;
@@ -39,7 +43,12 @@
 	async function remove(id: string) {
 		if (!confirm('Delete page?')) return;
 		const res = await fetch(`/api/admin/pages?id=${id}`, { method: 'DELETE' });
-		if (res.ok) pages = pages.filter((p) => p.id !== id);
+		if (res.ok) {
+			pages = pages.filter((p) => p.id !== id);
+			ui.showToast(m.admin_pages_deleted());
+		} else {
+			ui.showToast(m.error_generic(), true);
+		}
 	}
 </script>
 

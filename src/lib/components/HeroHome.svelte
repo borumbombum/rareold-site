@@ -39,7 +39,7 @@
         class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.55)_0%,rgba(0,0,0,0.75)_100%),linear-gradient(to_top,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0)_50%)]"
     ></div>
 
-    <div class="relative z-10 flex flex-col items-center text-center px-6 pt-8 pb-12 w-full max-w-[42rem] sm:max-w-3xl">
+    <div class="relative z-10 flex flex-col items-center text-center px-6 pt-8 pb-6 w-full max-w-2xl sm:max-w-3xl">
         <h1
             class="font-display font-semibold tracking-tight text-4xl sm:text-5xl text-white [text-shadow:0_1px_12px_rgba(0,0,0,0.35)]"
         >

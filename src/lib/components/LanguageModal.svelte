@@ -16,11 +16,11 @@
 </script>
 
 <Modal open={ui.langOpen} onClose={() => ui.closeLang()} title={m.lang_title()} maxWidth="max-w-xs">
-	<div class="p-2">
+	<div class="grid grid-cols-2 gap-1 p-2">
 		{#each langs as lang (lang.key)}
 			<button
 				onclick={() => pick(lang.key)}
-				class="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left transition {locale === lang.key
+				class="flex items-center gap-2 rounded-xl px-3 py-2.5 text-left transition {locale === lang.key
 					? 'bg-accent/10 font-semibold text-accent'
 					: 'text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-900'}"
 			>

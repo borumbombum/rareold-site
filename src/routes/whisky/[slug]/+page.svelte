@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { ArrowLeft, Store, ExternalLink, Share2, Play, Star } from '@lucide/svelte';
+	import { ArrowLeft, ClipboardList, Store, ExternalLink, Share2, Play, Star } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { ratingStore, refreshRating, seedRating } from '$lib/stores/rating.svelte';
 	import { originFlag, originLabel } from '$lib/utils/origins';
@@ -18,17 +17,17 @@
 	let { data }: { data: PageData } = $props();
 
 	seedRating(data.countryCode, data.rating);
-	const product = data.product;
-	const videos = data.videos ?? [];
-	const slug = product.slug;
+	const product = $derived(data.product);
+	const videos = $derived(data.videos ?? []);
+	const slug = $derived(product.slug);
 	const locale = $derived(getLocale());
 	const flag = $derived(originFlag(product));
 	const name = $derived(l10n(product, 'name') ?? product.name);
 	const description = $derived(l10n(product, 'description') ?? product.description);
 	const homeHref = $derived(localizeHref('/'));
-	const country = data.countryCode as CountryCode;
+	const country = $derived(data.countryCode as CountryCode);
 
-	onMount(() => {
+	$effect(() => {
 		refreshRating([slug]);
 	});
 
@@ -119,6 +118,19 @@
 				<p class="mt-1 text-zinc-500 dark:text-zinc-400">{product.brand}</p>
 			{/if}
 
+			{#if description}
+				<section class="mt-6">
+					<h2 class="font-display text-xl font-semibold text-zinc-900 dark:text-white">
+						{m.detail_description()}
+					</h2>
+					<div
+						class="mt-2 text-zinc-600 dark:text-zinc-300 [&_p]:mt-2 [&_h2]:mt-3 [&_h2]:font-display [&_h2]:text-lg [&_h2]:font-semibold [&_ul]:mt-2 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:mt-2 [&_ol]:list-decimal [&_ol]:pl-5 [&_a]:text-accent [&_a]:underline"
+					>
+						{@html description}
+					</div>
+				</section>
+			{/if}
+
 			<div class="mt-6 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-zinc-200 bg-zinc-50 px-5 py-4 dark:border-zinc-800 dark:bg-zinc-900">
 				<div class="flex flex-wrap items-center gap-3">
 					<FavoriteButton {slug} />
@@ -142,8 +154,6 @@
 					</span>
 				</div>
 			</div>
-
-			<ReviewSection productId={product.id} countryCode={country} initial={data.reviews} />
 
 			<section class="mt-8">
 				<h2 class="flex items-center gap-2 font-display text-xl font-semibold text-zinc-900 dark:text-white">
@@ -176,6 +186,8 @@
 				</div>
 			</section>
 
+			<ReviewSection productId={product.id} countryCode={country} initial={data.reviews} />
+
 			{#if videos.length > 0}
 				<section class="mt-8">
 					<h2 class="flex items-center gap-2 font-display text-xl font-semibold text-zinc-900 dark:text-white">
@@ -202,22 +214,10 @@
 				</section>
 			{/if}
 
-			{#if description}
-				<section class="mt-8">
-					<h2 class="font-display text-xl font-semibold text-zinc-900 dark:text-white">
-						{m.detail_description()}
-					</h2>
-					<div
-						class="mt-2 text-zinc-600 dark:text-zinc-300 [&_p]:mt-2 [&_h2]:mt-3 [&_h2]:font-display [&_h2]:text-lg [&_h2]:font-semibold [&_ul]:mt-2 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:mt-2 [&_ol]:list-decimal [&_ol]:pl-5 [&_a]:text-accent [&_a]:underline"
-					>
-						{@html description}
-					</div>
-				</section>
-			{/if}
-
 			{#if specs.length > 0}
 				<section class="mt-8">
-					<h2 class="font-display text-xl font-semibold text-zinc-900 dark:text-white">
+					<h2 class="flex items-center gap-2 font-display text-xl font-semibold text-zinc-900 dark:text-white">
+						<ClipboardList size={20} class="text-accent" />
 						{m.detail_specs()}
 					</h2>
 					<dl class="mt-3 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-3">

@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
-	import { Plus, Pencil, Trash2, X } from '@lucide/svelte';
+	import { Plus, Pencil, Trash2, X, Loader2 } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
+	import { ui } from '$lib/stores/ui.svelte';
 	import originData from '$lib/data/origins.json';
 	import regionData from '$lib/data/regions.json';
 	import TiptapEditor from './TiptapEditor.svelte';
@@ -144,13 +145,17 @@
 			);
 			if (!res.ok) {
 				const body = await res.json().catch(() => ({}));
-				error = (body as { error?: string }).error ?? m.admin_products_save_failed();
+				const msg = (body as { error?: string }).error ?? m.admin_products_save_failed();
+				error = msg;
+				ui.showToast(msg, true);
 				return;
 			}
 			form = null;
+			ui.showToast(m.admin_products_saved());
 			await invalidateAll();
 		} catch {
 			error = m.admin_products_network_error();
+			ui.showToast(m.admin_products_network_error(), true);
 		} finally {
 			busy = false;
 		}
@@ -159,7 +164,12 @@
 	async function remove(id: string) {
 		if (!confirm(m.admin_products_confirm_delete())) return;
 		const res = await fetch(`/api/admin/products?id=${encodeURIComponent(id)}`, { method: 'DELETE' });
-		if (res.ok) await invalidateAll();
+		if (res.ok) {
+			ui.showToast(m.admin_products_deleted());
+			await invalidateAll();
+		} else {
+			ui.showToast(m.error_generic(), true);
+		}
 	}
 </script>
 
@@ -293,13 +303,16 @@
 		{/if}
 
 		<div class="mt-5 flex items-center gap-2">
-			<button
-				onclick={save}
-				disabled={busy}
-				class="rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-zinc-700 disabled:opacity-60 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
-			>
-				{busy ? m.admin_products_saving() : m.admin_products_save()}
-			</button>
+		<button
+			onclick={save}
+			disabled={busy}
+			class="inline-flex items-center gap-1.5 rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-zinc-700 disabled:opacity-60 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
+		>
+			{#if busy}
+				<Loader2 size={14} class="animate-spin" />
+			{/if}
+			{busy ? m.admin_products_saving() : m.admin_products_save()}
+		</button>
 			<button
 				onclick={() => (form = null)}
 				class="rounded-lg border border-zinc-200 px-4 py-2 text-sm font-medium text-zinc-600 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"

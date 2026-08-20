@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { BadgeCheck, Star } from '@lucide/svelte';
+	import { BadgeCheck, MessageSquare, Star } from '@lucide/svelte';
 	import { onMount } from 'svelte';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { session } from '$lib/stores/session.svelte';
@@ -70,8 +70,9 @@
 		'w-full rounded-xl border border-zinc-200 bg-white px-3.5 py-2.5 text-sm text-zinc-900 outline-none transition placeholder:text-zinc-400 focus:border-zinc-400 focus:ring-2 focus:ring-zinc-200 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-100 dark:focus:border-zinc-600 dark:focus:ring-zinc-800';
 </script>
 
-<section class="mt-10">
-	<h2 class="font-display text-2xl font-semibold text-zinc-900 dark:text-white">
+<section class="mt-8">
+	<h2 class="flex items-center gap-2 font-display text-xl font-semibold text-zinc-900 dark:text-white">
+		<MessageSquare size={20} class="text-accent" />
 		{m.reviews_title()}
 	</h2>
 
@@ -120,7 +121,7 @@
 
 	<div class="mt-6 flex flex-col gap-4">
 		{#if reviews.length === 0}
-			<p class="py-6 text-sm text-zinc-500 dark:text-zinc-400">{m.reviews_empty()}</p>
+			<p class="py-3 text-sm text-zinc-500 dark:text-zinc-400">{m.reviews_empty()}</p>
 		{:else}
 			{#each reviews as review (review.id)}
 				<article class="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800">

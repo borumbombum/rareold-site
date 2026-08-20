@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-08-19T21:47:04.693Z",
+  "generatedAt": "2026-08-20T02:14:03.373Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -1646,6 +1646,62 @@
       "description_en": "1 litre bottle.",
       "name_ja": "Buffalo Trace Bourbon",
       "description_ja": "1リットル入り。",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": []
+    },
+    {
+      "id": "bushmills-original",
+      "slug": "bushmills-original",
+      "name": "Bushmills Original",
+      "brand": "Bushmills",
+      "description": "Bushmills Original es el whisky irlandés insignia de la destilería más antigua con licencia del mundo, fundada en 1608. Triple destilado para una suavidad excepcional, ofrece notas de miel, vainilla y roble tostado en un whisky versátil y accesible. ABV: 40% Nariz: Fruta ligera y especias, con notas de vainilla y miel. Boca: Suave y cálida, con una textura aterciopelada y un toque de dulzura de miel. Final: Fresco y crujiente, con un toque de especias.",
+      "image": "/data/images/bushmills-original.webp",
+      "video": null,
+      "origin": "ireland",
+      "region": "Antrim",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon, Sherry",
+      "name_pt": "Bushmills Original",
+      "description_pt": "Bushmills Original é o whisky irlandês principal da destileria mais antiga com licença do mundo, fundada em 1608. Triplo destilado para uma suavidade excepcional, oferece notas de mel, baunilha e carvalho tostado em um whisky versátil e acessível. ABV: 40% Nariz: Fruta leve e especias, com notas de baunilha e mel. Boca: Suave e quente, com uma textura aveludada e um toque de doçura de mel. Final: Fresco e crocante, com um toque de especias.",
+      "name_en": "Bushmills Original",
+      "description_en": "Bushmills Original is the flagship Irish whiskey from the world's oldest licensed distillery, established in 1608. Triple-distilled for exceptional smoothness, it offers notes of honey, vanilla, and toasted oak in a versatile and approachable whiskey. ABV: 40% Nose: Light fruit and spice, with vanilla and honey notes. Palate: Smooth and warming, with a velvety texture and a touch of honey sweetness. Finish: Crisp and fresh, with a hint of spice.",
+      "name_ja": "Bushmills Original",
+      "description_ja": "ブッシュミルズ・オリジナルは、1608年創業の世界最古の免許蒸溜所によるアイリッシュウイスキーのフラッグシップ。3回蒸留による卓越した滑らかさで、ハチミツ、バニラ、トーストされたオークのノートを備えた、柔らかく飲みやすいウイスキーです。度数40% ノーズ：軽いフルーツとスパイス、バニラとハチミツのノート。パレット：スムーズで温かみのある、ベルベットのような口当たりとハチミツの甘さ。フィニッシュ：クリーンでフレッシュ、スパイスのヒントあり。",
       "resellers_uy": [
         {
           "name": "Alambique",
@@ -5945,7 +6001,7 @@
       "brand": "Old",
       "description": "Presentación de 700 ml. Madurado íntegramente en barricas ex-bourbon seleccionadas a mano y secadas al aire, el Old Pulteney de 12 años &#8216;desvergonzadamente excelente&#8217; es la expresión definitiva de la familia Old Pulteney. Elaborado tradicionalmente con técnicas que otros destiladores han abandonado hace mucho tiempo, este ganador de numerosas medallas de oro en los concursos internacionales más prestigiosos es una alta marca de agua de las bebidas espirituosas de calidad. NOTAS APARIENCIA Ámbar profundo, rojo dorado (con un ligero matiz rosado) brillando con un resplandor cobrizo. AROMA Intensidad media a alta con un toque salobre de aire marino. GUSTO Seco, de cuerpo medio y suave, con olor a miel y crema, ligeramente salado con una ligera nota especiada y un final dulce y duradero.",
       "image": "/data/images/old-pulteney-12-yo.webp",
-      "video": null,
+      "video": "https://www.youtube.com/watch?v=MvXu8xjIPeg",
       "origin": "scotland",
       "region": "Highlands",
       "age": 12,
@@ -6169,7 +6225,7 @@
       "brand": "Old",
       "description": "Presentación 700 ml. Madurado en la costa de una selección de cuatro tipos de barricas de roble americano ex-bourbon. Este whisky absorbe los matices únicos del aire salino y la influencia del mar. Es deliciosamente fragante con notas de vainilla cremosa y coco al principio, seguidas de ricos citricos de mermelada y mandarinas, dulzura de pastel de limón y una matriz picante de roble fresco. Notas de cata Nariz: Capas cremosas de vainilla y coco tostado, roble mantecoso y cáscara de naranja secas. Boca: Pasas jugosas, un toque de mango seco, caramelo liquido y especias amaderadas con un toque de cuero nuevo debajo.",
       "image": "/data/images/old-pulteney-harbour.webp",
-      "video": null,
+      "video": "https://www.youtube.com/watch?v=O4VauqQVbU0",
       "origin": "scotland",
       "region": "Highlands",
       "age": null,
@@ -7302,6 +7358,62 @@
       "description_en": "It is double-matured in old Sauvignon Blanc white wine casks after aging in American oak casks. Tamnavulin was built in 1966 in the rural village of Tomnavoulin, Scotland. Almost three decades later, it closed again. After an extensive renovation, the distillery reopened in 2007. Nose: citrus fruit and green apples with spicy, oak-laden aromas. Palate: spices with green apple and oak aromas.",
       "name_ja": "Tamnavulin Sauvignon Blanc",
       "description_ja": "American Oak樽で熟成された後、Sauvignon Blancの古いワイン樽でポストマチュレーション。Tamnavulinは1966年にスコットランドの田舎町Tomnavoulinに建設。約30年後、再び閉鎖。大規模なリノベーションの後、2007年に再開業。ノーズ：シトロスフルーツとグリーンアップルにスパイスとオークのスパイシーなアロマ。パレット：グリーンアップルとオークのアロマのあるスパイス。",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": []
+    },
+    {
+      "id": "famous-grouse",
+      "slug": "famous-grouse",
+      "name": "The Famous Grouse",
+      "brand": "The Famous Grouse",
+      "description": "The Famous Grouse es el whisky blended escocés más vendido de Escocia, elaborado con una selección de los mejores maltos y whiskies de grano. Notas de frutas confitadas, mantequilla y bizcochos de mantequilla en la nariz, con frutos secos, suaves especias y un toque de roble en el paladar. Un whisky suave y equilibrado con un final limpio y seco. ABV: 40% Nariz: Frutas confitadas, bizcochos de mantequilla y cáscara de cítricos. Boca: Frutos secos, suaves especias (canela y jengibre) y un toque de roble. Final: Suave y bien equilibrado.",
+      "image": "/data/images/famous-grouse.webp",
+      "video": null,
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Oak",
+      "name_pt": "The Famous Grouse",
+      "description_pt": "O Famous Grouse é o whisky blended escocês mais vendido da Escócia, elaborado com uma seleção dos melhores maltos e whiskies de grão. Notas de frutas cristalizadas, biscoitos amanteigados e cascas de cítricos no nariz, com frutas secas, suaves especias e um toque de carvalho no paladar. Suave e equilibrado, com um final limpo e seco. ABV: 40% Nariz: Frutas cristalizadas, biscoitos amanteigados e cascas de cítricos. Boca: Frutas secas, suaves especias (canela e gengibre) e um toque de carvalho. Final: Suave e bem equilibrado.",
+      "name_en": "The Famous Grouse",
+      "description_en": "The Famous Grouse is Scotland's best-selling blended Scotch whisky, crafted from a careful selection of the finest malts and grain whiskies. Notes of candied fruits, buttery shortbread, and citrus peel on the nose, with dried fruit, soft spices, and a hint of oak on the palate. Smooth, well-balanced, with a clean finish. ABV: 40% Nose: Candied fruits, buttery shortbread, and citrus peel. Palate: Dried fruit, soft spices (cinnamon and ginger), and a hint of oak. Finish: Smooth and well-balanced.",
+      "name_ja": "The Famous Grouse",
+      "description_ja": "フェイマス・グルスはスコットランドで最も売れているブレンデッドスコッチウイスキーで、最高のモルトと穀物ウイスキーのブレンド。ナーズにはカジツフルーツ、バターショートブレッド、シトラスキニの香り。パレットにはドライフルーツ、柔らかなスパイス、オークのヒント。スムーズでバランスが取れた、クリーンなフィニッシュ。度数40% ノーズ：カジツフルーツ、バターショートブレッド、シトラスキニ。パレット：ドライフルーツ、柔らかなスパイス（シナモンとジンジャー）、オークのヒント。フィニッシュ：スムーズでバランスが良い。",
       "resellers_uy": [
         {
           "name": "Alambique",
@@ -8702,6 +8814,62 @@
       "description_en": "The gentle, warm flavours in Northland come from the unhurried way the spirit is made and from maturation in quarter-size American oak casks. Matured and bottled on-site, Northland represents the first chapter in Wolfburn&#8217;s story. ABV: 46% Nose: initially sweet with fruit notes and a fresh sea breeze. In the background you&#8217;ll find citrus freshness and cereal hints, with just a trace of peat smoke. Palate: sweet and nutty tones dominate, with grape and honey notes in the background. Floral flavours abound, enhanced by a touch of dried fruit and spice.",
       "name_ja": "Wolfburn Northland",
       "description_ja": "Northlandに存在する穏やかで暖かい味わいは、スピリッツの製造と熟成のゆっくりとした方法から来ています。American Oakの1/4ガロン樽で熟成。その場で熟成・ボトリングされ、NorthlandはWolfburnの歴史の最初の章を表します。度数46% ノーズ：最初は甘く、フルーツと海のフレッシュな空気のノート。背景には、シトロスのフレッシュさと穀物のヒント、そしてほんの少しのピートスモーク。パレット：甘いとナッツっぽいトーンが支配し、ぶどうとハチミツの背景。フローティーな味わいが溢れ、ドライフルーツとスパイスのヒントで強調。",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": []
+    },
+    {
+      "id": "woodford-reserve",
+      "slug": "woodford-reserve",
+      "name": "Woodford Reserve",
+      "brand": "Woodford Reserve",
+      "description": "Woodford Reserve es un bourbon Kentucky straight de pequeña producción, destilado en la destilería más antigua de Kentucky, fundada en 1812. Con más de 200 notas de sabor detectables, ofrece aromas de frutas secas, menta y cacao, con un paladar rico de toffee, caramelo, chocolate y especias. Un bourbon equilibrado y elegante. ABV: 45.2% Nariz: Frutas secas, menta, naranjas cubiertas de cacao, vainilla y especias de tabaco. Boca: Rico, redondo y suave, con cítricos complejos, canela y cacao. Toffee, caramelo, chocolate y especias. Final: Aterciopelado, casi cremoso al principio con una cola larga y cálida.",
+      "image": "/data/images/woodford-reserve.webp",
+      "video": null,
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 45.2,
+      "cask": "New charred American white oak",
+      "name_pt": "Woodford Reserve",
+      "description_pt": "Woodford Reserve é um bourbon Kentucky straight de pequena produção premium, destilado na destileria mais antiga do Kentucky, fundada em 1812. Com mais de 200 notas de sabor detectáveis, oferece aromas de frutas secas, hortelã e cacau, com um paladar rico de toffee, caramelo, chocolate e especias. Um bourbon perfeitamente equilibrado e elegante. ABV: 45.2% Nariz: Frutas secas, hortelã, laranjas cobertas de cacau, baunilha e especias de tabaco. Boca: Rico, redondo e suave, com cítricos complexos, canela e cacau. Toffee, caramelo, chocolate e especias. Final: Aveludado, quase cremoso no início com uma cauda longa e quente.",
+      "name_en": "Woodford Reserve",
+      "description_en": "Woodford Reserve is a premium small-batch Kentucky straight bourbon whiskey, distilled at Kentucky's oldest distillery, founded in 1812. With over 200 detectable flavor notes, it offers aromas of dried fruit, mint, and cocoa, with a rich palate of toffee, caramel, chocolate, and spice. A perfectly balanced and elegant bourbon. ABV: 45.2% Nose: Heavy with rich dried fruit, hints of mint and oranges covered with a dusting of cocoa, faint vanilla and tobacco spice. Palate: Rich, chewy, rounded and smooth, with complex citrus, cinnamon and cocoa. Toffee, caramel, chocolate and spice notes abound. Finish: Silky smooth, almost creamy at first with a long, warm satisfying tail.",
+      "name_ja": "Woodford Reserve",
+      "description_ja": "ウッドフォード・リザーブは、1812年創業のケンタッキー最古の蒸溜所で作られるプレミアムスモールバッチケンタッキー・ストレート・バーボンウイスキー。200以上のフレーバーノートを持ち、ドライフルーツ、ミント、カカオの香りと、トフィー、カラメル、チョコレート、スパイスのリッチなパレット。完璧にバランスの取れたエレガントなバーボンです。度数45.2% ノーズ：リッチなドライフルーツ、カカオをまぶしたオレンジとミントのヒント、バニラとタバコスパイス。パレット：リチーでコクがあり、丸みのあるスムーズな口当たり。シトラス、シナモン、カカオの複雑な味わい。トフィー、カラメル、チョコレート、スパイスが広がる。フィニッシュ：シルクのような滑らかさで、最初は almost creamy、長く温かみのある満足感。",
       "resellers_uy": [
         {
           "name": "Alambique",

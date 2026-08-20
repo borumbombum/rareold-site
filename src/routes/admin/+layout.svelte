@@ -20,14 +20,14 @@
 
 <div class="min-h-screen bg-zinc-50 dark:bg-zinc-950">
 	<header class="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
-		<div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+		<div class="mx-auto flex max-w-7xl items-center justify-between gap-4 overflow-hidden px-4 py-3 sm:px-6">
 			<div class="flex items-center gap-2">
 				<span class="grid h-8 w-8 place-items-center rounded-lg bg-zinc-900 text-white dark:bg-white dark:text-zinc-900">
 					<ShieldCheck size={16} />
 				</span>
 				<span class="font-display text-sm font-semibold text-zinc-900 dark:text-white">{m.admin_title()}</span>
 			</div>
-			<nav class="flex items-center gap-1">
+			<nav class="flex items-center gap-1 overflow-x-auto">
 				{#each links as link (link.href)}
 					<a
 						href={link.href}

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Trash2 } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
+	import { ui } from '$lib/stores/ui.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -28,7 +29,12 @@
 	async function remove(id: string) {
 		if (!confirm(m.admin_reviews_confirm_delete())) return;
 		const res = await fetch(`/api/admin/reviews?id=${encodeURIComponent(id)}`, { method: 'DELETE' });
-		if (res.ok) await refresh();
+		if (res.ok) {
+			ui.showToast(m.admin_reviews_deleted());
+			await refresh();
+		} else {
+			ui.showToast(m.error_generic(), true);
+		}
 	}
 </script>
 

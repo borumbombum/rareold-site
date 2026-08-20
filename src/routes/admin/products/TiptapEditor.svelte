@@ -1,10 +1,8 @@
 <script lang="ts">
 	import { Editor } from '@tiptap/core';
 	import StarterKit from '@tiptap/starter-kit';
-	import Link from '@tiptap/extension-link';
 	import Placeholder from '@tiptap/extension-placeholder';
-	import Underline from '@tiptap/extension-underline';
-	import { untrack } from 'svelte';
+	import { onMount } from 'svelte';
 	import {
 		Bold,
 		Italic,
@@ -27,8 +25,8 @@
 		placeholder?: string;
 	} = $props();
 
-	let host = $state<HTMLDivElement | null>(null);
-	let editor = $state<Editor | null>(null);
+	let host!: HTMLDivElement;
+	let editor: Editor | null = $state(null);
 	let version = $state(0);
 
 	const active = $derived((name: string, attrs?: Record<string, unknown>) => {
@@ -36,35 +34,19 @@
 		return editor?.isActive(name, attrs) ?? false;
 	});
 
-	$effect(() => {
-		const el = host;
-		if (!el) return;
-		const initial = untrack(() => value ?? '');
+	onMount(() => {
 		const inst = new Editor({
-			element: el,
-			content: initial,
+			element: host,
+			content: value ?? '',
 			extensions: [
-				StarterKit.configure({ heading: { levels: [2, 3] } }),
-				Link.configure({ openOnClick: false }),
-				Placeholder.configure({ placeholder: untrack(() => placeholder ?? '') }),
-				Underline
+				StarterKit.configure({ heading: { levels: [2, 3] }, link: { openOnClick: false } }),
+				Placeholder.configure({ placeholder: placeholder ?? '' })
 			],
 			onUpdate: ({ editor: e }) => onchange(e.getHTML())
 		});
 		inst.on('transaction', () => version++);
 		editor = inst;
-		return () => {
-			inst.destroy();
-			editor = null;
-		};
-	});
-
-	$effect(() => {
-		const e = editor;
-		if (!e) return;
-		const next = untrack(() => value ?? '');
-		if (e.isFocused) return;
-		if (e.getHTML() !== next) e.commands.setContent(next, { emitUpdate: false });
+		return () => inst.destroy();
 	});
 
 	function cmd(fn: (e: Editor) => void) {

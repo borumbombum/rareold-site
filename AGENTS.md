@@ -96,3 +96,16 @@ Current status of `/todos/`:
 - `029-heart-animation-favorite-button.md` — TODO
 - `030-canonical-hreflang-og-meta-seo-tags.md` — TODO
 - `031-translate-product-descriptions-en.md` — TODO HIGH PRIORITY
+- `032-change-main-language-to-english.md` — TODO
+- `033-language-detector-ip-based.md` — TODO
+- `034-add-french-language.md` — TODO
+- `035-hero-video-background.md` — TODO
+- `036-whisky-sorting-filters.md` — TODO
+- `037-add-whiskies-famous-grouse-bushmills-woodford-elijah-craig.md` — TODO
+- `038-add-whiskies-highland-park-dalmore-talisker.md` — TODO
+- `039-distillery-brand-database.md` — TODO
+- `040-influencer-videos-horizontal-list.md` — TODO
+- `041-rework-origins-country-only-overflow.md` — TODO
+- `042-distillery-map-page.md` — TODO
+- `043-pages-cms-full-admin.md` — TODO
+- `044-sqlite-download-paywall.md` — TODO

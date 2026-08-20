@@ -30,6 +30,12 @@
     "sort_order": 4
   },
   {
+    "id": "ireland-antrim",
+    "origin_id": "ireland",
+    "name": "Antrim",
+    "sort_order": 5
+  },
+  {
     "id": "ireland-cork",
     "origin_id": "ireland",
     "name": "Cork",

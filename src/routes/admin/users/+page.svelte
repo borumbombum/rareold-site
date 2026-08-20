@@ -2,6 +2,7 @@
 	import { ShieldCheck, ShieldOff, Trash2 } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
 	import { invalidateAll } from '$app/navigation';
+	import { ui } from '$lib/stores/ui.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -20,9 +21,12 @@
 		if (res.ok) {
 			const target = rows.find((u) => u.id === id);
 			if (target) target.role = next;
+			ui.showToast(m.admin_users_role_changed());
 		} else {
 			const body = await res.json().catch(() => ({}));
-			error = (body as { error?: string }).error ?? '';
+			const msg = (body as { error?: string }).error ?? '';
+			error = msg;
+			ui.showToast(msg || m.error_generic(), true);
 		}
 	}
 
@@ -36,9 +40,12 @@
 		});
 		if (res.ok) {
 			rows = rows.filter((u) => u.id !== id);
+			ui.showToast(m.admin_users_deleted());
 		} else {
 			const body = await res.json().catch(() => ({}));
-			error = (body as { error?: string }).error ?? '';
+			const msg = (body as { error?: string }).error ?? '';
+			error = msg;
+			ui.showToast(msg || m.error_generic(), true);
 		}
 	}
 </script>
