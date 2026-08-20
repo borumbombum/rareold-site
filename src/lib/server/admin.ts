@@ -80,24 +80,24 @@ function rowToProductInput(row: Record<string, unknown>): ProductInput {
 }
 
 export interface AdminProduct extends ProductInput {
-	karma: number;
-	vote_count: number;
+	avg_rating: number;
+	review_count: number;
 }
 
 export async function listProducts(db: Client = turso): Promise<AdminProduct[]> {
 	const res = await db.execute(
 		`SELECT ${PRODUCT_COLUMNS_PREFIXED}, o.name AS origin_name, r.name AS region_name,
-		        COALESCE(k.karma, 0) AS karma, COALESCE(k.vote_count, 0) AS vote_count
+		        COALESCE(pr.avg_rating, 0) AS avg_rating, COALESCE(pr.review_count, 0) AS review_count
 		 FROM products p
 		 LEFT JOIN origins o ON o.id = p.origin_id
 		 LEFT JOIN regions r ON r.id = p.region_id
-		 LEFT JOIN karma k ON k.entity_id = p.id
+		 LEFT JOIN product_ratings pr ON pr.product_id = p.id
 		 ORDER BY p.name COLLATE NOCASE`
 	);
 	return res.rows.map((row) => ({
 		...rowToProductInput(row),
-		karma: Number(row.karma ?? 0),
-		vote_count: Number(row.vote_count ?? 0)
+		avg_rating: Number(row.avg_rating ?? 0),
+		review_count: Number(row.review_count ?? 0)
 	}));
 }
 

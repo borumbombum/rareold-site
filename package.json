@@ -1,7 +1,7 @@
 {
 	"name": "oldrare",
 	"private": true,
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -33,7 +33,6 @@
 	"dependencies": {
 		"@inlang/paraglide-js": "^2.23.2",
 		"@libsql/client": "^0.17.4",
-		"@libsql/linux-arm64-gnu": "^0.5.29",
 		"@lucide/svelte": "^1.32.0",
 		"@noble/curves": "^2.3.0",
 		"@tiptap/core": "^3.30.1",

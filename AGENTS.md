@@ -95,7 +95,7 @@ Current status of `/todos/`:
 - `028-unify-voting-star-ratings.md` — DONE
 - `029-heart-animation-favorite-button.md` — TODO
 - `030-canonical-hreflang-og-meta-seo-tags.md` — TODO
-- `031-translate-product-descriptions-en.md` — TODO HIGH PRIORITY
+- `031-translate-product-descriptions-en.md` — DONE
 - `032-change-main-language-to-english.md` — TODO
 - `033-language-detector-ip-based.md` — TODO
 - `034-add-french-language.md` — TODO
@@ -109,3 +109,4 @@ Current status of `/todos/`:
 - `042-distillery-map-page.md` — TODO
 - `043-pages-cms-full-admin.md` — TODO
 - `044-sqlite-download-paywall.md` — TODO
+- `045-origins-admin-crud.md` — TODO

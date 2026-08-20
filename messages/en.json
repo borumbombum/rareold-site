@@ -130,6 +130,7 @@
     "admin_table_origin": "Origin",
     "admin_table_votes": "Votes",
     "admin_table_actions": "Actions",
+    "admin_table_reviews": "Reviews",
     "admin_products_edit": "Edit",
     "admin_products_delete": "Delete",
     "admin_products_saved": "Product saved",

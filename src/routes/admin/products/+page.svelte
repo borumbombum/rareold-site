@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
-	import { Plus, Pencil, Trash2, X, Loader2 } from '@lucide/svelte';
+	import { Plus, Pencil, Trash2, X, Loader2, Star } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
 	import { ui } from '$lib/stores/ui.svelte';
 	import originData from '$lib/data/origins.json';
@@ -94,6 +94,7 @@
 			name_ja: null,
 			description_ja: null
 		};
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	function openEdit(id: string) {
@@ -120,6 +121,7 @@
 			name_ja: p.name_ja,
 			description_ja: p.description_ja
 		};
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
 	async function save() {
@@ -330,8 +332,8 @@
 				<th class="px-4 py-3 font-medium">{m.admin_table_name()}</th>
 				<th class="px-4 py-3 font-medium">{m.admin_table_brand()}</th>
 				<th class="px-4 py-3 font-medium">{m.admin_table_origin()}</th>
-				<th class="px-4 py-3 text-right font-medium">{m.admin_table_karma()}</th>
-				<th class="px-4 py-3 text-right font-medium">{m.admin_table_votes()}</th>
+				<th class="px-4 py-3 text-right font-medium">{m.admin_table_score()}</th>
+				<th class="px-4 py-3 text-right font-medium">{m.admin_table_reviews()}</th>
 				<th class="px-4 py-3 text-right font-medium">{m.admin_table_actions()}</th>
 			</tr>
 		</thead>
@@ -341,8 +343,14 @@
 					<td class="max-w-[220px] truncate px-4 py-2.5 font-medium">{p.name}</td>
 					<td class="max-w-[160px] truncate px-4 py-2.5 text-zinc-500 dark:text-zinc-400">{p.brand}</td>
 					<td class="px-4 py-2.5 text-zinc-500 dark:text-zinc-400">{p.origin_id ?? '—'}</td>
-					<td class="px-4 py-2.5 text-right tabular-nums">{p.karma}</td>
-					<td class="px-4 py-2.5 text-right tabular-nums">{p.vote_count}</td>
+				<td class="px-4 py-2.5 text-right tabular-nums">
+					{#if p.avg_rating > 0}
+						<span class="inline-flex items-center gap-1"><Star size={12} class="fill-amber-400 text-amber-400" />{p.avg_rating}</span>
+					{:else}
+						—
+					{/if}
+				</td>
+				<td class="px-4 py-2.5 text-right tabular-nums">{p.review_count || '—'}</td>
 					<td class="px-4 py-2.5">
 						<div class="flex justify-end gap-1">
 							<button
