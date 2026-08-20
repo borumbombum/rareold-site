@@ -2,6 +2,7 @@ import { invalidateCache } from './cache';
 import { getKarmaMap as dbGetKarmaMap } from './votes';
 import { getRatingMap as dbGetRatingMap } from './reviews';
 import { listReviews as dbListReviews } from './reviews';
+import { getLatestReviews as dbGetLatestReviews } from './reviews';
 import { listProductVideos as dbListProductVideos } from './videos';
 import { cached } from './cache';
 import { WHISKIES, getWhiskyBySlug } from '$lib/data/whiskies';
@@ -75,4 +76,23 @@ export function invalidateProductVideos(productId: string): void {
 /** No online prices are published — always empty. */
 export async function getFreshPrices(site: SiteContext): Promise<PriceEntry[]> {
 	return [];
+}
+
+export interface ActivityItem {
+	review: Review;
+	product: Whisky;
+}
+
+/** Latest reviews with comments joined with product data. Cached ~5min. */
+export async function getLatestActivity(limit: number): Promise<ActivityItem[]> {
+	return cached('activity', 300_000, async () => {
+		const reviews = await dbGetLatestReviews(limit);
+		return reviews
+			.map((review) => {
+				const product = getWhiskyBySlug(review.product_id);
+				if (!product) return null;
+				return { review, product };
+			})
+			.filter((item): item is ActivityItem => item !== null);
+	});
 }

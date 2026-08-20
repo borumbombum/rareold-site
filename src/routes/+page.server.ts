@@ -1,5 +1,5 @@
 import { siteForLocale } from '$lib/server/env';
-import { getCatalog, getRatingMap } from '$lib/server/data';
+import { getCatalog, getRatingMap, getLatestActivity } from '$lib/server/data';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ locals, setHeaders }) => {
@@ -7,7 +7,10 @@ export const load: PageServerLoad = async ({ locals, setHeaders }) => {
 	const site = siteForLocale(locale);
 
 	const products = await getCatalog(site);
-	const ratingMap = await getRatingMap(products.map((p) => p.slug));
+	const [ratingMap, activity] = await Promise.all([
+		getRatingMap(products.map((p) => p.slug)),
+		getLatestActivity(8)
+	]);
 
 	setHeaders({
 		'Cache-Control': 'public, max-age=60, s-maxage=300, stale-while-revalidate=600',
@@ -18,6 +21,7 @@ export const load: PageServerLoad = async ({ locals, setHeaders }) => {
 		locale,
 		countryCode: site.countryCode,
 		products,
+		activity,
 		rating: [...ratingMap.values()].map((e) => ({
 			slug: e.entity_id,
 			avg_rating: e.avg_rating,

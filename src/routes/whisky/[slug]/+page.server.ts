@@ -1,9 +1,10 @@
 import { error } from '@sveltejs/kit';
 import { siteForLocale } from '$lib/server/env';
 import { getProductBySlug, getProductVideos, getReviews, getRatingMap } from '$lib/server/data';
+import { buildProductSchema } from '$lib/server/schema';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async ({ params, locals, setHeaders }) => {
+export const load: PageServerLoad = async ({ params, locals, setHeaders, url }) => {
 	const locale = locals.locale ?? 'es';
 	const site = siteForLocale(locale);
 
@@ -18,6 +19,8 @@ export const load: PageServerLoad = async ({ params, locals, setHeaders }) => {
 	]);
 	const rating = ratingMap.get(entityId);
 
+	const schemaJson = buildProductSchema(product, reviews, url.origin);
+
 	setHeaders({
 		'Cache-Control': 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
 	});
@@ -29,6 +32,7 @@ export const load: PageServerLoad = async ({ params, locals, setHeaders }) => {
 		rating: rating
 			? [{ slug: entityId, avg_rating: rating.avg_rating, review_count: rating.review_count }]
 			: [],
-		reviews
+		reviews,
+		schemaJson
 	};
 };

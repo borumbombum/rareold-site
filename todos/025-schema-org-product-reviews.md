@@ -1,4 +1,8 @@
-Status: TODO
+Status: DONE
+
+## Progress
+
+- 2026-08-20: Starting implementation. Creating schema.ts helper and tests.
 
 # Schema.org structured data for products + reviews
 

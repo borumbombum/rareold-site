@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-08-20T02:14:03.373Z",
+  "generatedAt": "2026-08-20T17:07:27.196Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -5999,7 +5999,7 @@
       "slug": "old-pulteney-12-yo",
       "name": "Old Pulteney 12 YO",
       "brand": "Old",
-      "description": "Presentación de 700 ml. Madurado íntegramente en barricas ex-bourbon seleccionadas a mano y secadas al aire, el Old Pulteney de 12 años &#8216;desvergonzadamente excelente&#8217; es la expresión definitiva de la familia Old Pulteney. Elaborado tradicionalmente con técnicas que otros destiladores han abandonado hace mucho tiempo, este ganador de numerosas medallas de oro en los concursos internacionales más prestigiosos es una alta marca de agua de las bebidas espirituosas de calidad. NOTAS APARIENCIA Ámbar profundo, rojo dorado (con un ligero matiz rosado) brillando con un resplandor cobrizo. AROMA Intensidad media a alta con un toque salobre de aire marino. GUSTO Seco, de cuerpo medio y suave, con olor a miel y crema, ligeramente salado con una ligera nota especiada y un final dulce y duradero.",
+      "description": "<p>Presentación de 700 ml. Madurado íntegramente en barricas ex-bourbon seleccionadas a mano y secadas al aire, el Old Pulteney de 12 años ‘desvergonzadamente excelente’ es la expresión definitiva de la familia Old Pulteney. <strong>¡Un tremendo whisksy!</strong> Elaborado tradicionalmente con técnicas que otros destiladores han abandonado hace mucho tiempo, este ganador de numerosas medallas de oro en los concursos internacionales más prestigiosos es una alta marca de agua de las bebidas espirituosas de calidad. </p><p>NOTAS APARIENCIA Ámbar profundo, rojo dorado (con un ligero matiz rosado) brillando con un resplandor cobrizo. </p><p>AROMA Intensidad media a alta con un toque salobre de aire marino. </p><p>GUSTO Seco, de cuerpo medio y suave, con olor a miel y crema, ligeramente salado con una ligera nota especiada y un final dulce y duradero.</p>",
       "image": "/data/images/old-pulteney-12-yo.webp",
       "video": "https://www.youtube.com/watch?v=MvXu8xjIPeg",
       "origin": "scotland",

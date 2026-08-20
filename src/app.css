@@ -50,6 +50,21 @@
             transform: translateX(100%);
         }
     }
+
+    --animate-heart-pop: heartPop 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    @keyframes heartPop {
+        0% { transform: scale(1); }
+        15% { transform: scale(1.35); }
+        30% { transform: scale(0.9); }
+        45% { transform: scale(1.2); }
+        60% { transform: scale(1); }
+    }
+
+    @keyframes heartParticleBurst {
+        0% { opacity: 1; transform: translate(0, 0) scale(1); }
+        100% { opacity: 0; transform: translate(var(--tx), var(--ty)) scale(0); }
+    }
 }
 
 :root {
@@ -113,4 +128,14 @@
     &::-webkit-scrollbar {
         display: none;
     }
+}
+
+.heart-particle {
+    position: fixed;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    animation: heartParticleBurst 0.7s ease-out forwards;
 }

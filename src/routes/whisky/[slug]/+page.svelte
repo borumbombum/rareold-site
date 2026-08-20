@@ -38,6 +38,8 @@
 	const fullStars = $derived(Math.floor(avgRating));
 	const hasHalf = $derived(avgRating - fullStars >= 0.3);
 
+	const schemaJson = $derived(data.schemaJson);
+
 	async function share() {
 		const url = window.location.origin + localizeHref(`/whisky/${slug}`);
 		try {
@@ -75,6 +77,9 @@
 		name="description"
 		content={(description ?? '').slice(0, 160)}
 	/>
+	{#if schemaJson}
+		{@html `<script type="application/ld+json">${JSON.stringify(schemaJson)}</script>`}
+	{/if}
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6">

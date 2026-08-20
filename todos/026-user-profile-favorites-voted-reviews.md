@@ -1,4 +1,8 @@
-Status: TODO
+Status: WORKING-AGENT-main
+
+## Progress
+
+- 2026-08-20: Starting implementation. Route rename, new queries, profile page with 3 sections.
 
 # User profile page (favorites + voted + reviews)
 

@@ -1,4 +1,8 @@
-Status: TODO
+Status: WORKING-AGENT-main
+
+## Progress
+
+- 2026-08-20: Starting implementation. Adding DB query, data layer, components, homepage integration.
 
 # Homepage latest activity feed (hero → activity → filters)
 

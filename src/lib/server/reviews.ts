@@ -125,3 +125,21 @@ function rowToReview(row: Record<string, unknown>): Review {
 		is_verified_purchase: false
 	};
 }
+
+/** Latest reviews that have actual comments, most recent first. */
+export async function getLatestReviews(
+	limit: number,
+	db: Client = turso
+): Promise<Review[]> {
+	const res = await db.execute(
+		`SELECT r.id, r.product_id, r.user_id, u.name AS user_name, u.avatar AS user_avatar,
+		        r.score, r.comment, r.country, r.created_at
+		 FROM reviews r
+		 LEFT JOIN users u ON u.id = r.user_id
+		 WHERE r.comment IS NOT NULL AND r.comment != ''
+		 ORDER BY r.created_at DESC
+		 LIMIT ?`,
+		[limit]
+	);
+	return res.rows.map(rowToReview);
+}

@@ -27,6 +27,10 @@
 	let reload = $state(0);
 
 	$effect(() => {
+		reviews = initial;
+	});
+
+	$effect(() => {
 		if (reload === 0) return;
 		void load();
 	});

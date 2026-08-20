@@ -1,4 +1,8 @@
-Status: TODO
+Status: DONE
+
+## Progress
+
+- 2026-08-20: Starting implementation. Adding CSS keyframes, particle burst, and pop animation to FavoriteButton.
 
 # Heart animation effect on FavoriteButton
 

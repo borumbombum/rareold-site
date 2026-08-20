@@ -1,4 +1,8 @@
-Status: TODO
+Status: WORKING-AGENT-main
+
+## Progress
+
+- 2026-08-20: Starting implementation. Creating data/config.json, reworking HeroHome.svelte with configurable backgrounds.
 
 # Hero video background with image fallback and loading spinner
 
