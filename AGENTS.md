@@ -99,7 +99,7 @@ Current status of `/todos/`:
 - `032-change-main-language-to-english.md` — TODO
 - `033-language-detector-ip-based.md` — TODO
 - `034-add-french-language.md` — TODO
-- `035-hero-video-background.md` — TODO
+- `035-hero-video-background.md` — WORKING-AGENT-session
 - `036-whisky-sorting-filters.md` — TODO
 - `037-add-whiskies-famous-grouse-bushmills-woodford-elijah-craig.md` — TODO
 - `038-add-whiskies-highland-park-dalmore-talisker.md` — TODO

@@ -5,8 +5,10 @@
     import { setOrigin } from "$lib/stores/filters.svelte";
     import { m } from "$lib/paraglide/messages";
     import { Shuffle, TrendingUp } from "@lucide/svelte";
+    import { configuration } from "$lib/configuration";
     import SearchBar from "./SearchBar.svelte";
     import Bubbles from "./Bubbles.svelte";
+    import HeroVideo from "./HeroVideo.svelte";
 
     let { title, subtitle }: { title: string; subtitle: string } = $props();
 
@@ -14,6 +16,7 @@
 
     let imgSrc = $state("/images/whisky.webp");
     const fallback = "/images/whisky.webp";
+    let videoReady = $state(false);
 
     function handleError() {
         if (imgSrc !== fallback) imgSrc = fallback;
@@ -34,12 +37,25 @@
 
 <section class="relative min-h-112.5 flex items-center justify-center">
     <!-- <Bubbles /> -->
-    <img src={imgSrc} alt="" class="absolute inset-0 w-full h-full object-cover object-center" onerror={handleError} />
+    {#if configuration.hero.videoEnabled && configuration.hero.videoSrc}
+        <HeroVideo
+            videoSrc={configuration.hero.videoSrc}
+            startSeconds={configuration.hero.videoStartSeconds}
+            mobile={configuration.hero.mobileVideoEnabled}
+            onReady={() => { videoReady = true; }}
+        />
+    {/if}
+    <img
+        src={imgSrc}
+        alt=""
+        class="absolute inset-0 w-full h-full object-cover object-center z-10 transition-opacity duration-700 {videoReady ? 'opacity-0' : ''}"
+        onerror={handleError}
+    />
     <div
-        class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.55)_0%,rgba(0,0,0,0.75)_100%),linear-gradient(to_top,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0)_50%)]"
+        class="absolute inset-0 z-20 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.55)_0%,rgba(0,0,0,0.75)_100%),linear-gradient(to_top,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0)_50%)]"
     ></div>
 
-    <div class="relative z-10 flex flex-col items-center text-center px-6 pt-8 pb-6 w-full max-w-2xl sm:max-w-3xl">
+    <div class="relative z-30 flex flex-col items-center text-center px-6 pt-8 pb-6 w-full max-w-2xl sm:max-w-3xl">
         <h1
             class="font-display font-semibold tracking-tight text-4xl sm:text-5xl text-white [text-shadow:0_1px_12px_rgba(0,0,0,0.35)]"
         >
