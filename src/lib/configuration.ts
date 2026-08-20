@@ -1,7 +1,7 @@
 export const configuration = {
 	hero: {
 		videoEnabled: true,
-		videoSrc: '/data/videos/hero.mp4',
+		videoSrc: '/data/videos/hero-v2.mp4',
 		videoStartSeconds: 0,
 		mobileVideoEnabled: true
 	}
