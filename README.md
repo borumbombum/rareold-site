@@ -69,7 +69,7 @@ There are no online prices: `price` is null and `GET /api/prices` returns an emp
 ## i18n & routing
 
 - Messages live in `messages/es.json`, `messages/pt.json`, `messages/en.json`, `messages/ja.json`. Use **snake_case** keys only — Paraglide exports identifiers (`m.key()`) only for safe key names; dotted keys become string-only exports.
-- URL prefixes are configured with `urlPatterns` in `vite.config.ts` and `project.inlang/settings.json` (`/` = es, `/br` = pt, `/en` = en, `/jp` = ja). The unprefixed base-locale pattern (es) must come **last**.
+- URL prefixes are configured with `urlPatterns` in `vite.config.ts` and `project.inlang/settings.json` (`/` = en, `/es` = es, `/br` = pt, `/jp` = ja, `/fr` = fr). The unprefixed base-locale pattern (en) must come **last**.
 
 ## Auth
 

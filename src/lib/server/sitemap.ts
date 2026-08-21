@@ -91,8 +91,8 @@ ${enclosure}
 <channel>
   <title>Old Rare</title>
   <link>${escapeXml(origin)}</link>
-  <description>Whiskies raros. Votados por la comunidad.</description>
-  <language>es</language>
+  <description>Rare whiskies. Voted by the community.</description>
+  <language>en</language>
   <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
   <atom:link rel="self" href="${escapeXml(origin)}/feed.xml" type="application/rss+xml" />
 ${items}

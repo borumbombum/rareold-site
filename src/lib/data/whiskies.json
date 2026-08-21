@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-08-21T01:54:19.726Z",
+  "generatedAt": "2026-08-21T02:51:23.626Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -1429,7 +1429,7 @@
       "region": "Islands",
       "age": null,
       "volume": null,
-      "abv": null,
+      "abv": 55.8,
       "cask": null,
       "distillery_id": "arran",
       "name_pt": "Arran Sherry Cask",

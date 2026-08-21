@@ -24,20 +24,20 @@ export default defineConfig({
 					pattern: ':protocol://:domain(.*)::port?/origen/:slug',
 					localized: [
 						['pt', ':protocol://:domain(.*)::port?/br/origem/:slug'],
-						['en', ':protocol://:domain(.*)::port?/en/origin/:slug'],
 						['ja', ':protocol://:domain(.*)::port?/jp/origen/:slug'],
-					['fr', ':protocol://:domain(.*)::port?/fr/origine/:slug'],
-						['es', ':protocol://:domain(.*)::port?/origen/:slug']
+						['fr', ':protocol://:domain(.*)::port?/fr/origine/:slug'],
+						['es', ':protocol://:domain(.*)::port?/es/origen/:slug'],
+						['en', ':protocol://:domain(.*)::port?/origin/:slug']
 					]
 				},
 				{
 					pattern: ':protocol://:domain(.*)::port?/:path(.*)?',
 					localized: [
 						['pt', ':protocol://:domain(.*)::port?/br/:path(.*)?'],
-						['en', ':protocol://:domain(.*)::port?/en/:path(.*)?'],
 						['ja', ':protocol://:domain(.*)::port?/jp/:path(.*)?'],
-					['fr', ':protocol://:domain(.*)::port?/fr/:path(.*)?'],
-						['es', ':protocol://:domain(.*)::port?/:path(.*)?']
+						['fr', ':protocol://:domain(.*)::port?/fr/:path(.*)?'],
+						['es', ':protocol://:domain(.*)::port?/es/:path(.*)?'],
+						['en', ':protocol://:domain(.*)::port?/:path(.*)?']
 					]
 				}
 			]

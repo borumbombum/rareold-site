@@ -1,6 +1,6 @@
 {
 	"$schema": "https://inlang.com/schema/project-settings",
-	"baseLocale": "es",
+	"baseLocale": "en",
 	"locales": ["es", "pt", "en", "ja", "fr"],
 	"modules": [
 		"https://cdn.jsdelivr.net/npm/@inlang/plugin-message-format@4.4.0/dist/index.js",
@@ -13,11 +13,11 @@
 		{
 			"pattern": "/{locale}",
 			"localized": [
-				{ "locale": "es", "path": "/" },
 				{ "locale": "pt", "path": "/br" },
-				{ "locale": "en", "path": "/en" },
 				{ "locale": "ja", "path": "/jp" },
-				{ "locale": "fr", "path": "/fr" }
+				{ "locale": "fr", "path": "/fr" },
+				{ "locale": "es", "path": "/es" },
+				{ "locale": "en", "path": "/" }
 			]
 		}
 	]

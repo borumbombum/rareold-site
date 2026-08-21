@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Change main language to English, move Spanish to /es
 
@@ -26,3 +26,23 @@ Currently Spanish (es-UY) is the default/base locale with no URL prefix. English
 - No broken links in navigation, language switcher, or footer
 
 ## Progress
+
+- 2026-08-21 (ox-alpha): Starting implementation. Plan approved by user: config swap (locales.ts,
+  settings.json, vite.config.ts both blocks — unprefixed locale goes last), recompile paraglide,
+  legacy `/en/*` → stripped-path 301 redirect handle in hooks.server.ts, feed.xml language/description
+  to English, AGENTS.md + README doc touch-ups. Sitemaps/hreflang/html-lang derive from
+  LOCALE_CONFIG (verify only). DB base columns stay Spanish.
+- 2026-08-21 (ox-alpha): DONE. Changes: locales.ts (en path '', es path '/es'), settings.json
+  (baseLocale en + urlPatterns en→'/', es→'/es', unprefixed last), vite.config.ts both blocks
+  (en unprefixed `/origin/:slug` + `/:path`, es `/es/origen/:slug` + `/es/:path`), paraglide
+  recompiled, hooks.server.ts legacy redirect (`/en` and `/en/*` → 301 to stripped path, via
+  sequence() before paraglide), feed.xml language→en + English channel description, AGENTS.md +
+  README urlPatterns doc lines updated. Verified: check 2 errors / test 66+1 known / build exit 0
+  (all baseline). Preview smoke: `/` English lang="en-US", `/es/` Spanish lang="es-UY", `/br`
+  `/jp` `/fr` 200, `/en/whisky/<slug>` → 301 → `/whisky/<slug>`, `/en` → 301 → `/`,
+  sitemap-en.xml unprefixed with correct hreflang alternates, sitemap-es.xml `/es/...`,
+  feed `<language>en</language>`. No commits/pushes.
+- 2026-08-21 (ox-alpha): Follow-up — language modal listed Español first (list order derives from
+  LOCALE_CONFIG key order). Reordered keys to en, es, pt, ja, fr so English (base) is first in the
+  modal, sitemap index, and hreflang alternates. No code assumes LOCALES[0] === es (verified).
+  check/test/build at baseline; sitemap index order confirmed en-first via preview.
