@@ -53,8 +53,8 @@ export function buildProductSchema(
 			: `${origin}${product.image}`;
 	}
 
-	if (product.brand) {
-		schema.brand = { '@type': 'Brand', name: product.brand };
+	if (product.distillery) {
+		schema.brand = { '@type': 'Brand', name: product.distillery.name };
 	}
 
 	schema.category = 'Single Malt Whisky';

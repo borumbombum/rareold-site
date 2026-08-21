@@ -46,6 +46,12 @@ const [whiskiesData, resellersData] = await Promise.all([
 const whiskies = whiskiesData.whiskies;
 const resellers = resellersData.resellers;
 
+let distilleries = [];
+try {
+	const distilleriesRaw = await readFile(resolve(SEED_DIR, 'distilleries.json'), 'utf8');
+	distilleries = JSON.parse(distilleriesRaw).distilleries ?? [];
+} catch { /* no distilleries seed file */ }
+
 // Origins are derived from the catalog data, not a hardcoded list. Only
 // presentation metadata (display name, flag, sort order) lives here.
 const metaRank = new Map(Object.keys(ORIGIN_META).map((id, i) => [id, i]));
@@ -127,6 +133,15 @@ for (const file of migrationFiles) {
 	console.log(`[db-sync] Migration applied: ${file}`);
 }
 
+// products.distillery_id cannot be added by a plain migration because a
+// partially-applied run would fail on the duplicate column. Ensure it here.
+const productCols = await client.execute('PRAGMA table_info(products)');
+if (!productCols.rows.some((c) => c.name === 'distillery_id')) {
+	await client.execute('ALTER TABLE products ADD COLUMN distillery_id TEXT REFERENCES distilleries(id)');
+	await client.execute('CREATE INDEX IF NOT EXISTS idx_products_distillery ON products(distillery_id)');
+	console.log('[db-sync] Added products.distillery_id');
+}
+
 const tx = await client.transaction('write');
 
 // Turso is the sole source of truth: the seed bootstraps data that does not
@@ -148,9 +163,38 @@ const insertRegions = regions.map((r) =>
 	)
 );
 
+const insertDistilleries = distilleries.map((d) =>
+	stmt(
+		`INSERT INTO distilleries (id, slug, name, name_es, name_pt, name_en, name_ja, description, description_es, description_pt, description_en, description_ja, country, region, founded, image, website, latitude, longitude)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		 ON CONFLICT(id) DO NOTHING`,
+		[
+			d.id,
+			d.slug ?? d.id,
+			d.name,
+			d.name_es ?? null,
+			d.name_pt ?? null,
+			d.name_en ?? null,
+			d.name_ja ?? null,
+			d.description ?? null,
+			d.description_es ?? null,
+			d.description_pt ?? null,
+			d.description_en ?? null,
+			d.description_ja ?? null,
+			d.country ?? null,
+			d.region ?? null,
+			d.founded ?? null,
+			d.image ?? null,
+			d.website ?? null,
+			d.latitude ?? null,
+			d.longitude ?? null
+		]
+	)
+);
+
 const insertProducts = whiskies.map((w) =>
 	stmt(
-		`INSERT INTO products (id, name, brand, description, image, video, origin_id, region_id, age, volume, abv, cask, name_pt, description_pt, name_en, description_en, name_ja, description_ja)
+		`INSERT INTO products (id, name, description, image, video, origin_id, region_id, age, volume, abv, cask, distillery_id, name_pt, description_pt, name_en, description_en, name_ja, description_ja)
 		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		 ON CONFLICT(id) DO UPDATE SET
 			name_pt = excluded.name_pt, description_pt = excluded.description_pt,
@@ -159,7 +203,6 @@ const insertProducts = whiskies.map((w) =>
 		[
 			w.slug,
 			w.name,
-			w.brand ?? '',
 			w.description,
 			w.image,
 			w.video ?? null,
@@ -169,6 +212,7 @@ const insertProducts = whiskies.map((w) =>
 			w.volume,
 			w.abv,
 			w.cask,
+			w.distillery_id ?? null,
 			w.name_pt ?? null,
 			w.description_pt ?? null,
 			w.name_en ?? null,
@@ -204,7 +248,7 @@ try {
 	);
 } catch { /* no pages seed file */ }
 
-await tx.batch([...insertOrigins, ...insertRegions, ...insertProducts, ...insertResellers, ...insertPages]);
+await tx.batch([...insertOrigins, ...insertRegions, ...insertDistilleries, ...insertProducts, ...insertResellers, ...insertPages]);
 
 // Locale columns on existing rows are backfilled (ON CONFLICT DO UPDATE for
 // _pt, _en, _ja fields) so new translations in the seed propagate. Other edits
@@ -215,6 +259,7 @@ const summary = await client.execute(
 	`SELECT
 		(SELECT COUNT(*) FROM origins) AS origins,
 		(SELECT COUNT(*) FROM regions) AS regions,
+		(SELECT COUNT(*) FROM distilleries) AS distilleries,
 		(SELECT COUNT(*) FROM products) AS products,
 		(SELECT COUNT(*) FROM resellers) AS resellers`
 );

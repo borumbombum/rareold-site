@@ -119,8 +119,8 @@
 			<h1 class="font-display mt-1 text-3xl font-semibold tracking-tight text-zinc-900 dark:text-white sm:text-4xl">
 				{name}
 			</h1>
-			{#if product.brand}
-				<p class="mt-1 text-zinc-500 dark:text-zinc-400">{product.brand}</p>
+			{#if product.distillery}
+				<p class="mt-1 text-zinc-500 dark:text-zinc-400">{l10n(product.distillery, 'name')}</p>
 			{/if}
 
 			{#if description}

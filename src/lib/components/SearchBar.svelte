@@ -82,7 +82,8 @@
 			const region = w.region ?? '';
 			const originLabelText = originLabel(w.origin);
 			const localizedName = l10n(w, 'name') ?? w.name;
-			const haystack = `${w.name} ${localizedName} ${w.brand} ${w.origin} ${originLabelText} ${region}`;
+			const distilleryName = w.distillery ? (l10n(w.distillery, 'name') ?? w.distillery.name) : '';
+			const haystack = `${w.name} ${localizedName} ${distilleryName} ${w.origin} ${originLabelText} ${region}`;
 			if (normalize(haystack).includes(q)) {
 				out.push({ type: 'product', whisky: w });
 				if (out.length >= 8) break;
@@ -236,7 +237,7 @@
 									{l10n(result.whisky, 'name') ?? result.whisky.name}
 								</span>
 								<span class="block truncate text-xs text-zinc-500 dark:text-zinc-400">
-									{result.whisky.brand}
+									{result.whisky.distillery ? (l10n(result.whisky.distillery, 'name') ?? result.whisky.distillery.name) : ''}
 								</span>
 							</span>
 							<span class="flex shrink-0 items-center gap-1 rounded-full bg-zinc-100 px-2 py-0.5 text-[11px] font-medium text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">

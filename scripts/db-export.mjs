@@ -9,6 +9,7 @@ const WHISKIES_FILE = resolve(DATA_DIR, 'whiskies.json');
 const ORIGINS_FILE = resolve(DATA_DIR, 'origins.json');
 const REGIONS_FILE = resolve(DATA_DIR, 'regions.json');
 const PAGES_FILE = resolve(DATA_DIR, 'pages.json');
+const DISTILLERIES_FILE = resolve(DATA_DIR, 'distilleries.json');
 
 const url = process.env.TURSO_URL;
 const authToken = process.env.TURSO_AUTH_TOKEN;
@@ -48,10 +49,14 @@ const resellersFor = (productId, country) => {
 };
 
 const productsRes = await client.execute(
-	`SELECT p.id, p.name, p.brand, p.description, p.image, p.video, p.origin_id, r.name AS region_name,
-	        p.age, p.volume, p.abv, p.cask, p.name_pt, p.description_pt, p.name_en, p.description_en, p.name_ja, p.description_ja
+	`SELECT p.id, p.name, p.description, p.image, p.video, p.origin_id, r.name AS region_name,
+	        p.age, p.volume, p.abv, p.cask, p.distillery_id,
+	        d.name AS distillery_name, d.name_es AS distillery_name_es, d.name_pt AS distillery_name_pt,
+	        d.name_en AS distillery_name_en, d.name_ja AS distillery_name_ja,
+	        p.name_pt, p.description_pt, p.name_en, p.description_en, p.name_ja, p.description_ja
 	 FROM products p
 	 LEFT JOIN regions r ON r.id = p.region_id
+	 LEFT JOIN distilleries d ON d.id = p.distillery_id
 	 ORDER BY p.name COLLATE NOCASE`
 );
 
@@ -60,7 +65,16 @@ const whiskies = productsRes.rows.map((row) => {
 		id: row.id,
 		slug: row.id,
 		name: row.name,
-		brand: row.brand ?? '',
+		distillery: row.distillery_id
+			? {
+					id: row.distillery_id,
+					name: row.distillery_name ?? '',
+					name_es: row.distillery_name_es ?? null,
+					name_pt: row.distillery_name_pt ?? null,
+					name_en: row.distillery_name_en ?? null,
+					name_ja: row.distillery_name_ja ?? null
+				}
+			: null,
 		description: row.description ?? null,
 		image: row.image ?? null,
 		video: row.video ?? null,
@@ -70,6 +84,7 @@ const whiskies = productsRes.rows.map((row) => {
 		volume: row.volume ?? null,
 		abv: row.abv ?? null,
 		cask: row.cask ?? null,
+		distillery_id: row.distillery_id ?? null,
 		name_pt: row.name_pt ?? null,
 		description_pt: row.description_pt ?? null,
 		name_en: row.name_en ?? null,
@@ -105,6 +120,34 @@ const regions = regionsRes.rows.map((r) => ({
 	sort_order: r.sort_order
 }));
 
+const distilleriesRes = await client.execute(
+	`SELECT id, slug, name, name_es, name_pt, name_en, name_ja,
+	        description, description_es, description_pt, description_en, description_ja,
+	        country, region, founded, image, website, latitude, longitude
+	 FROM distilleries ORDER BY name COLLATE NOCASE`
+);
+const distilleries = distilleriesRes.rows.map((d) => ({
+	id: String(d.id),
+	slug: d.slug == null ? null : String(d.slug),
+	name: String(d.name),
+	name_es: d.name_es ?? null,
+	name_pt: d.name_pt ?? null,
+	name_en: d.name_en ?? null,
+	name_ja: d.name_ja ?? null,
+	description: d.description ?? null,
+	description_es: d.description_es ?? null,
+	description_pt: d.description_pt ?? null,
+	description_en: d.description_en ?? null,
+	description_ja: d.description_ja ?? null,
+	country: d.country == null ? null : String(d.country),
+	region: d.region == null ? null : String(d.region),
+	founded: d.founded == null ? null : Number(d.founded),
+	image: d.image == null ? null : String(d.image),
+	website: d.website == null ? null : String(d.website),
+	latitude: d.latitude == null ? null : Number(d.latitude),
+	longitude: d.longitude == null ? null : Number(d.longitude)
+}));
+
 const data = {
 	source: url,
 	generatedAt: new Date().toISOString(),
@@ -114,6 +157,7 @@ const data = {
 await writeFile(WHISKIES_FILE, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 await writeFile(ORIGINS_FILE, `${JSON.stringify(origins, null, 2)}\n`, 'utf8');
 await writeFile(REGIONS_FILE, `${JSON.stringify(regions, null, 2)}\n`, 'utf8');
+await writeFile(DISTILLERIES_FILE, `${JSON.stringify(distilleries, null, 2)}\n`, 'utf8');
 
 let pagesCount = 0;
 try {
@@ -137,6 +181,6 @@ try {
 } catch { /* pages table may not exist yet */ }
 
 console.log(
-	`[db-export] Wrote ${whiskies.length} whiskies, ${origins.length} origins, ${regions.length} regions, ${pagesCount} pages to ${DATA_DIR}`
+	`[db-export] Wrote ${whiskies.length} whiskies, ${origins.length} origins, ${regions.length} regions, ${distilleries.length} distilleries, ${pagesCount} pages to ${DATA_DIR}`
 );
 client.close();

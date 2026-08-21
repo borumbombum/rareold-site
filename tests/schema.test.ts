@@ -9,7 +9,14 @@ function makeProduct(overrides: Partial<Whisky> = {}): Whisky {
 		id: 'abc123',
 		slug: 'lagavulin-16-yo',
 		name: 'Lagavulin 16 Years Old',
-		brand: 'Lagavulin',
+		distillery: {
+			id: 'lagavulin',
+			name: 'Lagavulin Distillery',
+			name_es: null,
+			name_pt: null,
+			name_en: null,
+			name_ja: null
+		},
 		description: 'A rich and smoky Islay single malt.',
 		image: '/data/images/lagavulin-16-yo.webp',
 		video: null,
@@ -19,6 +26,7 @@ function makeProduct(overrides: Partial<Whisky> = {}): Whisky {
 		volume: '700ml',
 		abv: 43,
 		cask: 'American Oak',
+		distillery_id: null,
 		name_pt: null,
 		description_pt: null,
 		name_en: null,
@@ -63,7 +71,7 @@ describe('buildProductSchema', () => {
 		expect(schema.url).toBe(`${ORIGIN}/whisky/lagavulin-16-yo`);
 		expect(schema.description).toBe('A rich and smoky Islay single malt.');
 		expect(schema.image).toBe(`${ORIGIN}/data/images/lagavulin-16-yo.webp`);
-		expect(schema.brand).toEqual({ '@type': 'Brand', name: 'Lagavulin' });
+		expect(schema.brand).toEqual({ '@type': 'Brand', name: 'Lagavulin Distillery' });
 		expect(schema.countryOfOrigin).toEqual({ '@type': 'Country', name: 'Scotland' });
 		expect(schema.category).toBe('Single Malt Whisky');
 	});
@@ -157,8 +165,8 @@ describe('buildProductSchema', () => {
 		expect(schema.image).toBeUndefined();
 	});
 
-	it('omits brand when empty string', () => {
-		const product = makeProduct({ brand: '' });
+	it('omits brand when no distillery', () => {
+		const product = makeProduct({ distillery: null });
 		const schema = buildProductSchema(product, [], ORIGIN);
 		expect(schema.brand).toBeUndefined();
 	});

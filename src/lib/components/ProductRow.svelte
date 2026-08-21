@@ -70,7 +70,7 @@
 		>
 			{flag} {name}
 		</a>
-		<p class="mt-0.5 text-xs text-zinc-500 dark:text-zinc-400">{product.brand}</p>
+		<p class="mt-0.5 text-xs text-zinc-500 dark:text-zinc-400">{product.distillery ? l10n(product.distillery, 'name') : ''}</p>
 		<p class="mt-1.5 flex items-center gap-1.5 text-xs text-zinc-400">
 			<Store size={12} />
 			{m.stores_count({ count: formatNumber(storesCount, locale) })}

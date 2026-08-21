@@ -5,6 +5,7 @@
 	import { ui } from '$lib/stores/ui.svelte';
 	import originData from '$lib/data/origins.json';
 	import regionData from '$lib/data/regions.json';
+	import distilleryData from '$lib/data/distilleries.json';
 	import TiptapEditor from './TiptapEditor.svelte';
 	import type { PageData } from './$types';
 
@@ -20,9 +21,14 @@
 		origin_id: string;
 		name: string;
 	}
+	interface DistilleryRow {
+		id: string;
+		name: string;
+	}
 
 	const ORIGINS = originData as OriginRow[];
 	const REGIONS = regionData as RegionRow[];
+	const DISTILLERIES = (distilleryData as DistilleryRow[]).slice().sort((a, b) => a.name.localeCompare(b.name));
 
 	const inputClass =
 		'w-full rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 dark:border-zinc-700 dark:bg-zinc-900 dark:text-white';
@@ -36,13 +42,13 @@
 
 	let query = $state('');
 	let form = $state<Partial<ProductForm> | null>(null);
+	let editingId = $state<string | null>(null);
 	let busy = $state(false);
 	let error = $state('');
 
 	interface ProductForm {
 		id: string;
 		name: string;
-		brand: string;
 		description: string | null;
 		image: string | null;
 		video: string | null;
@@ -52,6 +58,7 @@
 		volume: string | null;
 		abv: number | null;
 		cask: string | null;
+		distillery_id: string | null;
 		name_pt: string | null;
 		description_pt: string | null;
 		name_en: string | null;
@@ -62,22 +69,21 @@
 
 	const filtered = $derived(
 		data.products.filter((p) =>
-			`${p.name} ${p.brand}`.toLowerCase().includes(query.trim().toLowerCase())
+			`${p.name} ${p.distillery_name ?? ''}`.toLowerCase().includes(query.trim().toLowerCase())
 		)
 	);
 
-	const isNew = $derived(form && !form.id);
-	const editingId = $derived((form?.id as string) ?? null);
+	const isNew = $derived(editingId === null);
 
 	const regionsFor = (originId: string | null | undefined) =>
 		REGIONS.filter((r) => r.origin_id === originId).sort((a, b) => a.name.localeCompare(b.name));
 
 	function openNew() {
 		error = '';
+		editingId = null;
 		form = {
 			id: '',
 			name: '',
-			brand: '',
 			description: null,
 			image: null,
 			video: null,
@@ -87,6 +93,7 @@
 			volume: null,
 			abv: null,
 			cask: null,
+			distillery_id: null,
 			name_pt: null,
 			description_pt: null,
 			name_en: null,
@@ -99,12 +106,12 @@
 
 	function openEdit(id: string) {
 		error = '';
+		editingId = id;
 		const p = data.products.find((x) => x.id === id);
 		if (!p) return;
 		form = {
 			id: p.id,
 			name: p.name,
-			brand: p.brand,
 			description: p.description,
 			image: p.image,
 			video: p.video,
@@ -114,6 +121,7 @@
 			volume: p.volume,
 			abv: p.abv,
 			cask: p.cask,
+			distillery_id: p.distillery_id,
 			name_pt: p.name_pt,
 			description_pt: p.description_pt,
 			name_en: p.name_en,
@@ -226,10 +234,6 @@
 				<input bind:value={form.name} placeholder={m.admin_products_name()} class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_brand()}</span>
-				<input bind:value={form.brand} placeholder={m.admin_products_brand()} class={inputClass} />
-			</label>
-			<label class="block text-sm">
 				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_image_url()}</span>
 				<input bind:value={form.image} placeholder="https://…" class={inputClass} />
 			</label>
@@ -270,6 +274,15 @@
 			<label class="block text-sm">
 				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_cask()}</span>
 				<input bind:value={form.cask} placeholder="Ex-Bourbon" class={inputClass} />
+			</label>
+			<label class="block text-sm">
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_distillery()}</span>
+				<select bind:value={form.distillery_id} class={inputClass}>
+					<option value={null}>—</option>
+					{#each DISTILLERIES as d (d.id)}
+						<option value={d.id}>{d.name}</option>
+					{/each}
+				</select>
 			</label>
 			<label class="block text-sm">
 				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_name_en()}</span>
@@ -326,11 +339,11 @@
 {/if}
 
 <div class="mt-5 overflow-x-auto rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
-	<table class="w-full min-w-[640px] text-left text-sm">
+	<table class="w-full min-w-[760px] text-left text-sm">
 		<thead class="border-b border-zinc-200 text-xs uppercase tracking-wide text-zinc-500 dark:border-zinc-800 dark:text-zinc-400">
 			<tr>
 				<th class="px-4 py-3 font-medium">{m.admin_table_name()}</th>
-				<th class="px-4 py-3 font-medium">{m.admin_table_brand()}</th>
+				<th class="px-4 py-3 font-medium">{m.admin_table_distillery()}</th>
 				<th class="px-4 py-3 font-medium">{m.admin_table_origin()}</th>
 				<th class="px-4 py-3 text-right font-medium">{m.admin_table_score()}</th>
 				<th class="px-4 py-3 text-right font-medium">{m.admin_table_reviews()}</th>
@@ -341,7 +354,7 @@
 			{#each filtered as p (p.id)}
 				<tr class="text-zinc-800 dark:text-zinc-200">
 					<td class="max-w-[220px] truncate px-4 py-2.5 font-medium">{p.name}</td>
-					<td class="max-w-[160px] truncate px-4 py-2.5 text-zinc-500 dark:text-zinc-400">{p.brand}</td>
+						<td class="max-w-[180px] truncate px-4 py-2.5 text-zinc-500 dark:text-zinc-400">{p.distillery_name ?? '—'}</td>
 					<td class="px-4 py-2.5 text-zinc-500 dark:text-zinc-400">{p.origin_id ?? '—'}</td>
 				<td class="px-4 py-2.5 text-right tabular-nums">
 					{#if p.avg_rating > 0}

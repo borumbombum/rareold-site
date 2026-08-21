@@ -6,7 +6,8 @@ import { getLatestReviews as dbGetLatestReviews } from './reviews';
 import { listProductVideos as dbListProductVideos } from './videos';
 import { cached } from './cache';
 import { WHISKIES, getWhiskyBySlug } from '$lib/data/whiskies';
-import type { EntityKarma, EntityRating, ProductVideo, Review, SiteContext, Whisky } from '$lib/types';
+import { DISTILLERIES, getDistilleryBySlug as lookupDistillery } from '$lib/data/distilleries';
+import type { Distillery, EntityKarma, EntityRating, ProductVideo, Review, SiteContext, Whisky } from '$lib/types';
 
 export interface PriceEntry {
 	slug: string;
@@ -29,6 +30,16 @@ export function invalidateCatalog(siteId: string): void {
 /** Look up a whisky by slug (or id) from the JSON catalog. */
 export async function getProductBySlug(site: SiteContext, slug: string): Promise<Whisky | null> {
 	return getWhiskyBySlug(slug);
+}
+
+/** All distilleries/brands from the build-time JSON. */
+export function getDistilleries(): Promise<Distillery[]> {
+	return Promise.resolve(DISTILLERIES);
+}
+
+/** Look up a distillery by slug (or id) from the JSON catalog. */
+export async function getDistilleryBySlug(site: SiteContext, slug: string): Promise<Distillery | null> {
+	return lookupDistillery(slug);
 }
 
 /** Votes/karma for a set of entity slugs, read live from Turso. Cached ~60s. */

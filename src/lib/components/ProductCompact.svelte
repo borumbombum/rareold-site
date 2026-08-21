@@ -37,7 +37,7 @@
 	<a {href} class="min-w-0 flex-1 truncate font-medium text-zinc-900 hover:underline dark:text-white">
 		{name}
 	</a>
-	<span class="hidden shrink-0 text-zinc-500 sm:inline dark:text-zinc-400">{product.brand ?? ''}</span>
+	<span class="hidden shrink-0 text-zinc-500 sm:inline dark:text-zinc-400">{product.distillery ? l10n(product.distillery, 'name') : ''}</span>
 	<span class="hidden shrink-0 text-zinc-400 md:inline">{product.region ?? ''}</span>
 	<span class="hidden shrink-0 text-zinc-400 md:inline">{product.abv != null ? `${product.abv}%` : ''}</span>
 	<span class="hidden shrink-0 text-zinc-400 md:inline">{product.age != null ? `${product.age}y` : ''}</span>

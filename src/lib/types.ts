@@ -77,7 +77,7 @@ export interface Whisky {
 	id: string;
 	slug: string;
 	name: string;
-	brand: string;
+	distillery: DistilleryRef | null;
 	description: string | null;
 	image: string | null;
 	video: string | null;
@@ -87,6 +87,7 @@ export interface Whisky {
 	volume: string | null;
 	abv: number | null;
 	cask: string | null;
+	distillery_id: string | null;
 	name_pt: string | null;
 	description_pt: string | null;
 	name_en: string | null;
@@ -97,4 +98,31 @@ export interface Whisky {
 	resellers_br: Reseller[];
 	resellers_usa: Reseller[];
 	videos?: ProductVideo[];
+}
+
+/** Slim distillery reference embedded in each exported whisky. */
+export interface DistilleryRef {
+	id: string;
+	name: string;
+	name_es: string | null;
+	name_pt: string | null;
+	name_en: string | null;
+	name_ja: string | null;
+}
+
+/** A distillery (Turso `distilleries`, exported to src/lib/data/distilleries.json). */
+export interface Distillery extends DistilleryRef {
+	slug: string | null;
+	description: string | null;
+	description_es: string | null;
+	description_pt: string | null;
+	description_en: string | null;
+	description_ja: string | null;
+	country: string | null;
+	region: string | null;
+	founded: number | null;
+	image: string | null;
+	website: string | null;
+	latitude: number | null;
+	longitude: number | null;
 }

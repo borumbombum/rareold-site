@@ -81,8 +81,8 @@
 			<FavoriteButton {slug} size="sm" showLabel={false} />
 		</div>
 
-		{#if product.brand}
-			<p class="text-xs text-zinc-500 dark:text-zinc-400">{product.brand}</p>
+		{#if product.distillery}
+			<p class="text-xs text-zinc-500 dark:text-zinc-400">{l10n(product.distillery, 'name')}</p>
 		{/if}
 
 		<div class="mt-auto flex items-center justify-between gap-2 pt-2">

@@ -14,7 +14,6 @@ export async function getAdmin(cookies: Cookies, db: Client = turso): Promise<Us
 export interface ProductInput {
 	id: string;
 	name: string;
-	brand: string;
 	description: string | null;
 	image: string | null;
 	video: string | null;
@@ -24,6 +23,7 @@ export interface ProductInput {
 	volume: string | null;
 	abv: number | null;
 	cask: string | null;
+	distillery_id: string | null;
 	name_pt: string | null;
 	description_pt: string | null;
 	name_en: string | null;
@@ -35,7 +35,6 @@ export interface ProductInput {
 const PRODUCT_FIELDS = [
 	'id',
 	'name',
-	'brand',
 	'description',
 	'image',
 	'video',
@@ -45,6 +44,7 @@ const PRODUCT_FIELDS = [
 	'volume',
 	'abv',
 	'cask',
+	'distillery_id',
 	'name_pt',
 	'description_pt',
 	'name_en',
@@ -60,7 +60,6 @@ function rowToProductInput(row: Record<string, unknown>): ProductInput {
 	return {
 		id: String(row.id),
 		name: String(row.name),
-		brand: String(row.brand ?? ''),
 		description: row.description == null ? null : String(row.description),
 		image: row.image == null ? null : String(row.image),
 		video: row.video == null ? null : String(row.video),
@@ -70,6 +69,7 @@ function rowToProductInput(row: Record<string, unknown>): ProductInput {
 		volume: row.volume == null ? null : String(row.volume),
 		abv: row.abv == null ? null : Number(row.abv),
 		cask: row.cask == null ? null : String(row.cask),
+		distillery_id: row.distillery_id == null ? null : String(row.distillery_id),
 		name_pt: row.name_pt == null ? null : String(row.name_pt),
 		description_pt: row.description_pt == null ? null : String(row.description_pt),
 		name_en: row.name_en == null ? null : String(row.name_en),
@@ -80,22 +80,27 @@ function rowToProductInput(row: Record<string, unknown>): ProductInput {
 }
 
 export interface AdminProduct extends ProductInput {
+	origin_name: string | null;
+	distillery_name: string | null;
 	avg_rating: number;
 	review_count: number;
 }
 
 export async function listProducts(db: Client = turso): Promise<AdminProduct[]> {
 	const res = await db.execute(
-		`SELECT ${PRODUCT_COLUMNS_PREFIXED}, o.name AS origin_name, r.name AS region_name,
+		`SELECT ${PRODUCT_COLUMNS_PREFIXED}, o.name AS origin_name, d.name AS distillery_name, r.name AS region_name,
 		        COALESCE(pr.avg_rating, 0) AS avg_rating, COALESCE(pr.review_count, 0) AS review_count
 		 FROM products p
 		 LEFT JOIN origins o ON o.id = p.origin_id
+		 LEFT JOIN distilleries d ON d.id = p.distillery_id
 		 LEFT JOIN regions r ON r.id = p.region_id
 		 LEFT JOIN product_ratings pr ON pr.product_id = p.id
 		 ORDER BY p.name COLLATE NOCASE`
 	);
 	return res.rows.map((row) => ({
 		...rowToProductInput(row),
+		origin_name: row.origin_name == null ? null : String(row.origin_name),
+		distillery_name: row.distillery_name == null ? null : String(row.distillery_name),
 		avg_rating: Number(row.avg_rating ?? 0),
 		review_count: Number(row.review_count ?? 0)
 	}));
@@ -111,7 +116,6 @@ function productValues(input: ProductInput): (string | number | null)[] {
 	return [
 		input.id,
 		input.name,
-		input.brand ?? '',
 		input.description,
 		input.image,
 		input.video,
@@ -121,6 +125,7 @@ function productValues(input: ProductInput): (string | number | null)[] {
 		input.volume,
 		input.abv,
 		input.cask,
+		input.distillery_id,
 		input.name_pt,
 		input.description_pt,
 		input.name_en,
@@ -148,7 +153,6 @@ export async function updateProduct(id: string, input: ProductInput, db: Client 
 	const setClauses = updateFields.map((c) => `${c} = ?`).join(', ');
 	const values = [
 		input.name,
-		input.brand ?? '',
 		input.description,
 		input.image,
 		input.video,
@@ -158,6 +162,7 @@ export async function updateProduct(id: string, input: ProductInput, db: Client 
 		input.volume,
 		input.abv,
 		input.cask,
+		input.distillery_id,
 		input.name_pt,
 		input.description_pt,
 		input.name_en,
@@ -172,6 +177,156 @@ export async function deleteProduct(id: string, db: Client = turso): Promise<voi
 	await db.execute('DELETE FROM products WHERE id = ?', [id]);
 	await db.execute('DELETE FROM karma WHERE entity_id = ?', [id]);
 	await db.execute('DELETE FROM votes WHERE entity_id = ?', [id]);
+}
+
+export interface DistilleryInput {
+	id: string;
+	slug: string | null;
+	name: string;
+	name_es: string | null;
+	name_pt: string | null;
+	name_en: string | null;
+	name_ja: string | null;
+	description: string | null;
+	description_es: string | null;
+	description_pt: string | null;
+	description_en: string | null;
+	description_ja: string | null;
+	country: string | null;
+	region: string | null;
+	founded: number | null;
+	image: string | null;
+	website: string | null;
+	latitude: number | null;
+	longitude: number | null;
+}
+
+const DISTILLERY_FIELDS = [
+	'id',
+	'slug',
+	'name',
+	'name_es',
+	'name_pt',
+	'name_en',
+	'name_ja',
+	'description',
+	'description_es',
+	'description_pt',
+	'description_en',
+	'description_ja',
+	'country',
+	'region',
+	'founded',
+	'image',
+	'website',
+	'latitude',
+	'longitude'
+] as const;
+
+function rowToDistilleryInput(row: Record<string, unknown>): DistilleryInput {
+	const str = (v: unknown): string | null => (v == null ? null : String(v));
+	const num = (v: unknown): number | null => (v == null ? null : Number(v));
+	return {
+		id: String(row.id),
+		slug: str(row.slug),
+		name: String(row.name),
+		name_es: str(row.name_es),
+		name_pt: str(row.name_pt),
+		name_en: str(row.name_en),
+		name_ja: str(row.name_ja),
+		description: str(row.description),
+		description_es: str(row.description_es),
+		description_pt: str(row.description_pt),
+		description_en: str(row.description_en),
+		description_ja: str(row.description_ja),
+		country: str(row.country),
+		region: str(row.region),
+		founded: num(row.founded),
+		image: str(row.image),
+		website: str(row.website),
+		latitude: num(row.latitude),
+		longitude: num(row.longitude)
+	};
+}
+
+export interface AdminDistillery extends DistilleryInput {
+	product_count: number;
+}
+
+export async function listDistilleries(db: Client = turso): Promise<AdminDistillery[]> {
+	const res = await db.execute(
+		`SELECT d.*, COUNT(p.id) AS product_count
+		 FROM distilleries d
+		 LEFT JOIN products p ON p.distillery_id = d.id
+		 GROUP BY d.id
+		 ORDER BY d.name COLLATE NOCASE`
+	);
+	return res.rows.map((row) => ({
+		...rowToDistilleryInput(row),
+		product_count: Number(row.product_count ?? 0)
+	}));
+}
+
+export async function getDistillery(id: string, db: Client = turso): Promise<DistilleryInput | null> {
+	const cols = DISTILLERY_FIELDS.join(', ');
+	const res = await db.execute(`SELECT ${cols} FROM distilleries WHERE id = ?`, [id]);
+	const row = res.rows[0];
+	return row ? rowToDistilleryInput(row) : null;
+}
+
+function distilleryValues(input: DistilleryInput): (string | number | null)[] {
+	return [
+		input.slug ?? input.id,
+		input.name,
+		input.name_es,
+		input.name_pt,
+		input.name_en,
+		input.name_ja,
+		input.description,
+		input.description_es,
+		input.description_pt,
+		input.description_en,
+		input.description_ja,
+		input.country,
+		input.region,
+		input.founded,
+		input.image,
+		input.website,
+		input.latitude,
+		input.longitude
+	];
+}
+
+export async function createDistillery(input: DistilleryInput, db: Client = turso): Promise<void> {
+	await db.execute(
+		`INSERT INTO distilleries (id, slug, name, name_es, name_pt, name_en, name_ja, description, description_es, description_pt, description_en, description_ja, country, region, founded, image, website, latitude, longitude)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+		[input.id, ...distilleryValues(input)]
+	);
+}
+
+export async function updateDistillery(
+	id: string,
+	input: DistilleryInput,
+	db: Client = turso
+): Promise<void> {
+	await db.execute(
+		`UPDATE distilleries SET
+			slug = ?, name = ?, name_es = ?, name_pt = ?, name_en = ?, name_ja = ?,
+			description = ?, description_es = ?, description_pt = ?, description_en = ?, description_ja = ?,
+			country = ?, region = ?, founded = ?, image = ?, website = ?, latitude = ?, longitude = ?,
+			updated_at = strftime('%Y-%m-%dT%H:%M:%fZ', 'now')
+		 WHERE id = ?`,
+		[...distilleryValues(input), id]
+	);
+}
+
+export async function deleteDistillery(id: string, db: Client = turso): Promise<void> {
+	const ref = await db.execute('SELECT COUNT(*) AS n FROM products WHERE distillery_id = ?', [id]);
+	if (Number(ref.rows[0]?.n ?? 0) > 0) {
+		throw new Error('distillery_has_products');
+	}
+	await db.execute('DELETE FROM distilleries WHERE id = ?', [id]);
 }
 
 export interface ReviewRow {

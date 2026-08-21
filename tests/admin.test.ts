@@ -31,7 +31,6 @@ afterEach(async () => {
 const baseProduct = {
 	id: 'test-whisky',
 	name: 'Test Whisky',
-	brand: 'Test Distillery',
 	description: 'A test whisky',
 	image: null,
 	video: null,
@@ -41,6 +40,7 @@ const baseProduct = {
 	volume: '700 ml',
 	abv: 46,
 	cask: 'Ex-Bourbon',
+	distillery_id: null,
 	name_pt: null,
 	description_pt: null,
 	name_en: null,
