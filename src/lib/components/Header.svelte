@@ -16,7 +16,7 @@
 
     const locale = $derived(getLocale());
     const homeHref = $derived(localizeHref("/", { locale }));
-    const HOME_PATHS = Object.values(LOCALE_CONFIG).map((c) => c.path || '/') as readonly string[];
+    const HOME_PATHS = Object.values(LOCALE_CONFIG).map((c) => c.path || "/") as readonly string[];
     const isHome = $derived(HOME_PATHS.includes(page.url.pathname as string));
     const user = $derived(session.user);
     const isAuthed = $derived(session.isAuthed);
@@ -27,7 +27,7 @@
 <header
     class="sticky top-0 z-40 border-b border-zinc-200/70 bg-white/80 backdrop-blur-md dark:border-zinc-800/70 dark:bg-zinc-950/80"
 >
-    <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-x-3 gap-y-2 px-4 py-2.5 sm:px-6">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-x-2 gap-y-2 px-3 py-2.5 sm:px-6">
         <button
             onclick={() => ui.toggleDrawer()}
             class="relative grid h-9 w-9 shrink-0 place-items-center rounded-full border border-zinc-200 text-zinc-600 transition hover:border-zinc-300 hover:text-zinc-900 dark:border-zinc-800 dark:text-zinc-300 dark:hover:border-zinc-700 dark:hover:text-white"
@@ -53,7 +53,7 @@
 
         <div class="ml-auto flex items-center gap-2 sm:gap-3">
             <a
-                href={localizeHref('/about', { locale })}
+                href={localizeHref("/about", { locale })}
                 class="hidden text-sm font-medium text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white md:inline-flex"
             >
                 {m.nav_about()}
