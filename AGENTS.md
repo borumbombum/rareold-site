@@ -52,6 +52,13 @@ Origin labels and product names/descriptions are translated columns in Turso, ex
 - `src/lib/utils/l10n.ts` `l10n(item, field)` resolves `<field>_<locale>` for the active locale and falls back to the base field; `src/lib/utils/origins.ts` `originLabel()` does the same for origins. `LOCALE_FIELD` in `origins.ts` is auto-derived from `LOCALE_CONFIG` — no manual extension needed when adding a new locale.
 - The pipeline is always: content in Turso (bootstrap via seed once, then edits via `/admin`) → `npm run data:export` (Turso → `src/lib/data/*.json`) → build. Every product must have `description_pt` (and any other language you add) or the localized content pass is incomplete.
 
+## Adding whiskies
+
+- New whiskies are added with the `add-product` skill, driven by the queue file `docs/whisky-brands-and-products-to-add.md` (format: `[whisky_name] - [distillery]`, one per line; agents take the first unticked line and tick ✅ when done).
+- Never add a whisky or distillery that already exists — the skill includes the de-dup check.
+- If the distillery doesn't exist yet, the agent creates the full record (all data via research + translations in all locales) as part of the same insert.
+- Every new product ships with influencer videos for all languages and descriptions translated to es/pt/en/ja/fr.
+
 ## Toast notifications
 
 Use `ui.showToast()` from `$lib/stores/ui.svelte` to show temporary user feedback. Toasts auto-dismiss after ~2.6 seconds.
