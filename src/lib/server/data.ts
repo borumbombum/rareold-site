@@ -3,10 +3,11 @@ import { getKarmaMap as dbGetKarmaMap } from './votes';
 import { getRatingMap as dbGetRatingMap } from './reviews';
 import { listReviews as dbListReviews } from './reviews';
 import { getLatestReviews as dbGetLatestReviews } from './reviews';
-import { listProductVideos as dbListProductVideos } from './videos';
+import { listInfluencerVideos as dbListInfluencerVideos } from './videos';
 import { cached } from './cache';
 import { WHISKIES, getWhiskyBySlug } from '$lib/data/whiskies';
 import { DISTILLERIES, getDistilleryBySlug as lookupDistillery } from '$lib/data/distilleries';
+import { LOCALES } from '$lib/utils/locales';
 import type { Distillery, EntityKarma, EntityRating, ProductVideo, Review, SiteContext, Whisky } from '$lib/types';
 
 export interface PriceEntry {
@@ -75,13 +76,15 @@ export function invalidateReviews(country: string, productId: string): void {
 	invalidateCache(`reviews:${country}:${productId}`);
 }
 
-/** Product videos (sommelier country-specific). Cached ~5min. */
-export async function getProductVideos(productId: string): Promise<ProductVideo[]> {
-	return cached(`videos:${productId}`, 300_000, () => dbListProductVideos(productId));
+/** Influencer videos for a product+language (English tops up to 4). Cached ~5min. */
+export async function getInfluencerVideos(productId: string, language: string): Promise<ProductVideo[]> {
+	return cached(`videos:${language}:${productId}`, 300_000, () =>
+		dbListInfluencerVideos(productId, language)
+	);
 }
 
-export function invalidateProductVideos(productId: string): void {
-	invalidateCache(`videos:${productId}`);
+export function invalidateInfluencerVideos(productId: string): void {
+	for (const lang of LOCALES) invalidateCache(`videos:${lang}:${productId}`);
 }
 
 /** No online prices are published — always empty. */

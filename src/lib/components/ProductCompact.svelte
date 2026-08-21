@@ -7,6 +7,8 @@
 	import { resellersFor } from '$lib/utils/resellers';
 	import { ratingStore } from '$lib/stores/rating.svelte';
 	import VoteButton from './VoteButton.svelte';
+	import PlayVideosButton from './PlayVideosButton.svelte';
+	import { videosForLocale } from '$lib/utils/videos';
 	import { m } from '$lib/paraglide/messages';
 	import type { CountryCode, Whisky } from '$lib/types';
 
@@ -29,6 +31,7 @@
 	const ratingEntry = $derived(ratingStore.get(slug));
 	const avgRating = $derived(ratingEntry.avg_rating);
 	const reviewCount = $derived(ratingEntry.review_count);
+	const videos = $derived(videosForLocale(product.videos, locale));
 </script>
 
 <div class="flex items-center gap-3 border-b border-zinc-100 py-2 text-xs dark:border-zinc-800 sm:gap-4 sm:py-2.5">
@@ -37,6 +40,7 @@
 	<a {href} class="min-w-0 flex-1 truncate font-medium text-zinc-900 hover:underline dark:text-white">
 		{name}
 	</a>
+	<PlayVideosButton {videos} size="sm" className="shrink-0" />
 	<span class="hidden shrink-0 text-zinc-500 sm:inline dark:text-zinc-400">{product.distillery ? l10n(product.distillery, 'name') : ''}</span>
 	<span class="hidden shrink-0 text-zinc-400 md:inline">{product.region ?? ''}</span>
 	<span class="hidden shrink-0 text-zinc-400 md:inline">{product.abv != null ? `${product.abv}%` : ''}</span>

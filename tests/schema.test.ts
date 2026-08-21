@@ -20,7 +20,6 @@ function makeProduct(overrides: Partial<Whisky> = {}): Whisky {
 		},
 		description: 'A rich and smoky Islay single malt.',
 		image: '/data/images/lagavulin-16-yo.webp',
-		video: null,
 		origin: 'scotland',
 		region: 'Islay',
 		age: 16,

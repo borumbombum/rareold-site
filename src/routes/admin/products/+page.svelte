@@ -1,8 +1,9 @@
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
-	import { Plus, Pencil, Trash2, X, Loader2, Star } from '@lucide/svelte';
+	import { Plus, Pencil, Trash2, X, Loader2, Star, MonitorPlay, Camera } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
 	import { ui } from '$lib/stores/ui.svelte';
+	import { LOCALE_CONFIG } from '$lib/utils/locales';
 	import originData from '$lib/data/origins.json';
 	import regionData from '$lib/data/regions.json';
 	import distilleryData from '$lib/data/distilleries.json';
@@ -52,7 +53,6 @@
 		name: string;
 		description: string | null;
 		image: string | null;
-		video: string | null;
 		origin_id: string | null;
 		region_id: string | null;
 		age: number | null;
@@ -78,6 +78,78 @@
 
 	const isNew = $derived(editingId === null);
 
+	interface AdminVideo {
+		language: string;
+		platform: 'youtube' | 'instagram';
+		url: string;
+		label: string;
+	}
+
+	const LANGS = Object.entries(LOCALE_CONFIG).map(([code, cfg]) => ({ code, ...cfg }));
+	let videoLang = $state<string>('en');
+	let videos = $state<AdminVideo[]>([]);
+	let videosBusy = $state(false);
+	let newVideoUrl = $state('');
+	let newVideoLabel = $state('');
+	let newVideoPlatform = $state<'youtube' | 'instagram'>('youtube');
+
+	const langVideos = $derived(videos.filter((v) => v.language === videoLang));
+
+	async function loadVideos(productId: string) {
+		videosBusy = true;
+		try {
+			const res = await fetch(`/api/admin/videos?productId=${encodeURIComponent(productId)}`);
+			videos = res.ok ? await res.json() : [];
+		} catch {
+			videos = [];
+		} finally {
+			videosBusy = false;
+		}
+	}
+
+	async function addVideo() {
+		if (!editingId || !newVideoUrl.trim()) return;
+		videosBusy = true;
+		try {
+			const res = await fetch('/api/admin/videos', {
+				method: 'PUT',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					productId: editingId,
+					language: videoLang,
+					platform: newVideoPlatform,
+					url: newVideoUrl.trim(),
+					label: newVideoLabel.trim()
+				})
+			});
+			if (res.ok) {
+				newVideoUrl = '';
+				newVideoLabel = '';
+				ui.showToast(m.admin_products_saved());
+				await loadVideos(editingId);
+			} else {
+				ui.showToast(m.admin_products_save_failed(), true);
+			}
+		} finally {
+			videosBusy = false;
+		}
+	}
+
+	async function removeVideo(url: string) {
+		if (!editingId) return;
+		const res = await fetch('/api/admin/videos', {
+			method: 'DELETE',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ productId: editingId, language: videoLang, url })
+		});
+		if (res.ok) {
+			ui.showToast(m.admin_products_deleted());
+			await loadVideos(editingId);
+		} else {
+			ui.showToast(m.error_generic(), true);
+		}
+	}
+
 	const regionsFor = (originId: string | null | undefined) =>
 		REGIONS.filter((r) => r.origin_id === originId).sort((a, b) => a.name.localeCompare(b.name));
 
@@ -89,7 +161,6 @@
 			name: '',
 			description: null,
 			image: null,
-			video: null,
 			origin_id: null,
 			region_id: null,
 			age: null,
@@ -119,7 +190,6 @@
 			name: p.name,
 			description: p.description,
 			image: p.image,
-			video: p.video,
 			origin_id: p.origin_id,
 			region_id: p.region_id,
 			age: p.age,
@@ -137,6 +207,7 @@
 			description_fr: p.description_fr
 		};
 		window.scrollTo({ top: 0, behavior: 'smooth' });
+		loadVideos(id);
 	}
 
 	async function save() {
@@ -245,10 +316,6 @@
 				<input bind:value={form.image} placeholder="https://…" class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_video_url()}</span>
-				<input bind:value={form.video} placeholder="https://…" class={inputClass} />
-			</label>
-			<label class="block text-sm">
 				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_origin()}</span>
 				<select bind:value={form.origin_id} class={inputClass}>
 					<option value={null}>—</option>
@@ -323,6 +390,61 @@
 				</div>
 			{/each}
 		</div>
+
+		{#if !isNew}
+			<div class="mt-6 rounded-xl border border-zinc-200 p-4 dark:border-zinc-800">
+				<div class="flex flex-wrap items-center justify-between gap-2">
+					<h3 class="font-display text-sm font-semibold text-zinc-900 dark:text-white">{m.admin_videos_title()}</h3>
+					<select bind:value={videoLang} class="{inputClass} w-auto">
+						{#each LANGS as l (l.code)}
+							<option value={l.code}>{l.flag} {l.label}</option>
+						{/each}
+					</select>
+				</div>
+
+				<ul class="mt-3 divide-y divide-zinc-100 dark:divide-zinc-800">
+					{#each langVideos as v (v.url)}
+						<li class="flex items-center gap-2 py-2 text-sm">
+							{#if v.platform === 'youtube'}
+								<MonitorPlay size={15} class="shrink-0 text-red-600" />
+							{:else}
+								<Camera size={15} class="shrink-0 text-pink-500" />
+							{/if}
+							<a href={v.url} target="_blank" rel="noopener noreferrer" class="min-w-0 flex-1 truncate text-zinc-700 hover:underline dark:text-zinc-300">
+								{v.label || v.url}
+							</a>
+							<span class="rounded bg-zinc-100 px-1.5 py-0.5 text-[10px] uppercase text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">{v.language}</span>
+							<button
+								onclick={() => removeVideo(v.url)}
+								class="grid h-7 w-7 shrink-0 place-items-center rounded-lg text-zinc-400 transition hover:bg-red-50 hover:text-red-600 dark:hover:bg-red-950"
+								title={m.admin_products_delete()}
+							>
+								<Trash2 size={14} />
+							</button>
+						</li>
+					{:else}
+						<li class="py-2 text-sm text-zinc-500 dark:text-zinc-400">{m.admin_videos_none()}</li>
+					{/each}
+				</ul>
+
+				<div class="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-[auto_1fr_1fr_auto]">
+					<select bind:value={newVideoPlatform} class={inputClass}>
+						<option value="youtube">YouTube</option>
+						<option value="instagram">Instagram</option>
+					</select>
+					<input bind:value={newVideoUrl} placeholder={m.admin_videos_url()} class={inputClass} />
+					<input bind:value={newVideoLabel} placeholder={m.admin_videos_label()} class={inputClass} />
+					<button
+						onclick={addVideo}
+						disabled={videosBusy || !newVideoUrl.trim()}
+						class="inline-flex items-center justify-center gap-1.5 rounded-lg bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition hover:bg-zinc-700 disabled:opacity-60 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
+					>
+						<Plus size={14} />
+						{m.admin_videos_add()}
+					</button>
+				</div>
+			</div>
+		{/if}
 
 		{#if error}
 			<p class="mt-4 text-sm font-medium text-red-600 dark:text-red-400">{error}</p>

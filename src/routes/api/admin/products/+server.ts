@@ -23,7 +23,6 @@ function parseProduct(body: Record<string, unknown>): ProductInput | null {
 		name,
 		description: str(body.description),
 		image: str(body.image),
-		video: str(body.video),
 		origin_id: str(body.origin_id),
 		region_id: str(body.region_id),
 		age: num(body.age),

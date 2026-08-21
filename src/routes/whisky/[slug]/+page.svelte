@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ArrowLeft, ClipboardList, Store, ExternalLink, Share2, Play, Star } from '@lucide/svelte';
+	import { ArrowLeft, ClipboardList, Store, ExternalLink, Share2, Star } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { ratingStore, refreshRating, seedRating } from '$lib/stores/rating.svelte';
 	import { originFlag, originLabel } from '$lib/utils/origins';
@@ -9,7 +9,7 @@
 	import { ui } from '$lib/stores/ui.svelte';
 	import { m } from '$lib/paraglide/messages';
 	import FavoriteButton from '$lib/components/FavoriteButton.svelte';
-	import PlayButton from '$lib/components/PlayButton.svelte';
+	import InfluencerVideos from '$lib/components/InfluencerVideos.svelte';
 	import ReviewSection from '$lib/components/ReviewSection.svelte';
 	import type { CountryCode } from '$lib/types';
 	import type { PageData } from './$types';
@@ -91,20 +91,18 @@
 		{m.detail_back()}
 	</a>
 
-	<div class="mt-6 grid gap-10 lg:grid-cols-2 lg:gap-14">
-		<div class="lg:sticky lg:top-24 lg:self-start">
+	<div class="mt-6 grid min-w-0 gap-10 lg:grid-cols-2 lg:gap-14">
+		<div class="min-w-0 lg:sticky lg:top-24 lg:self-start">
+			<InfluencerVideos {videos} />
 			<div class="relative grid aspect-square place-items-center overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50 dark:border-zinc-200 dark:bg-white">
 				{#if product.image}
 					<img src={product.image} alt={name} class="h-full w-full object-contain" />
 				{:else}
 					<span class="text-8xl opacity-60">🥃</span>
 				{/if}
-				{#if product.video}
-					<PlayButton url={product.video} className="absolute right-4 top-4" />
-				{/if}
 				<button
 					onclick={share}
-					class="absolute right-4 bottom-4 grid h-10 w-10 place-items-center rounded-full bg-white/90 text-zinc-700 shadow-sm backdrop-blur transition hover:bg-white hover:text-zinc-900 dark:bg-zinc-900/90 dark:text-zinc-300 dark:hover:bg-zinc-900 dark:hover:text-white {product.video ? 'top-16' : 'top-4'}"
+					class="absolute right-4 top-4 grid h-10 w-10 place-items-center rounded-full bg-white/90 text-zinc-700 shadow-sm backdrop-blur transition hover:bg-white hover:text-zinc-900 dark:bg-zinc-900/90 dark:text-zinc-300 dark:hover:bg-zinc-900 dark:hover:text-white"
 					aria-label={m.share()}
 				>
 					<Share2 size={18} />
@@ -191,35 +189,9 @@
 				</div>
 			</section>
 
-			<ReviewSection productId={product.id} countryCode={country} initial={data.reviews} />
+		<ReviewSection productId={product.id} countryCode={country} initial={data.reviews} />
 
-			{#if videos.length > 0}
-				<section class="mt-8">
-					<h2 class="flex items-center gap-2 font-display text-xl font-semibold text-zinc-900 dark:text-white">
-						<Play size={20} class="text-accent" />
-						{m.sommelier_videos_title()}
-					</h2>
-					<p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">{m.sommelier_videos_note()}</p>
-					<div class="mt-4 flex flex-col gap-3">
-						{#each videos as v (v.url)}
-							<button
-								onclick={() => ui.openVideo(v.url)}
-								class="group flex items-center gap-4 rounded-2xl border border-zinc-200 px-4 py-3.5 transition hover:border-zinc-300 hover:shadow-md dark:border-zinc-800 dark:hover:border-zinc-700 text-left"
-							>
-								<span class="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-zinc-100 text-zinc-500 group-hover:bg-accent group-hover:text-white dark:bg-zinc-800 dark:text-zinc-400">
-									<Play size={18} />
-								</span>
-								<div class="min-w-0">
-									<p class="text-sm font-medium text-zinc-900 dark:text-white truncate">{v.label || v.url}</p>
-									<p class="text-xs text-zinc-500 dark:text-zinc-400">{v.country}</p>
-								</div>
-							</button>
-						{/each}
-					</div>
-				</section>
-			{/if}
-
-			{#if specs.length > 0}
+		{#if specs.length > 0}
 				<section class="mt-8">
 					<h2 class="flex items-center gap-2 font-display text-xl font-semibold text-zinc-900 dark:text-white">
 						<ClipboardList size={20} class="text-accent" />

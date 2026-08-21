@@ -8,7 +8,8 @@
 	import { ratingStore } from '$lib/stores/rating.svelte';
 	import VoteButton from './VoteButton.svelte';
 	import FavoriteButton from './FavoriteButton.svelte';
-	import PlayButton from './PlayButton.svelte';
+	import PlayVideosButton from './PlayVideosButton.svelte';
+	import { videosForLocale } from '$lib/utils/videos';
 	import { m } from '$lib/paraglide/messages';
 	import type { CountryCode, Whisky } from '$lib/types';
 
@@ -31,6 +32,7 @@
 	const ratingEntry = $derived(ratingStore.get(slug));
 	const avgRating = $derived(ratingEntry.avg_rating);
 	const reviewCount = $derived(ratingEntry.review_count);
+	const videos = $derived(videosForLocale(product.videos, locale));
 </script>
 
 <article
@@ -51,9 +53,7 @@
 		{:else}
 			<span class="text-3xl opacity-60">🥃</span>
 		{/if}
-		{#if product.video}
-			<PlayButton url={product.video} size="sm" className="absolute bottom-1 right-1" />
-		{/if}
+		<PlayVideosButton {videos} size="sm" className="absolute bottom-1 right-1" />
 	</a>
 
 	{#if avgRating > 0}

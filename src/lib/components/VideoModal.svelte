@@ -1,32 +1,70 @@
 <script lang="ts">
 	import Modal from './Modal.svelte';
+	import { ChevronLeft, ChevronRight, X } from '@lucide/svelte';
+	import { m } from '$lib/paraglide/messages';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { parseVideoUrl } from '$lib/utils/format';
 
 	const url = $derived(ui.videoUrl);
 	const video = $derived(url ? parseVideoUrl(url) : null);
+	const list = $derived(ui.videoList);
+	const index = $derived(ui.videoIndex);
+	const total = $derived(list.length);
+	const label = $derived(total > 0 ? list[index].label : '');
 </script>
 
 <Modal open={Boolean(url)} onClose={() => ui.closeVideo()} bare maxWidth="max-w-2xl">
 	{#if video}
-		<div class="aspect-video w-full bg-black">
-			{#if video.provider === 'instagram'}
-				<iframe
-					src={video.embedUrl}
-					class="h-full w-full"
-					frameborder="0"
-					allowfullscreen
-					title="Video"
-				></iframe>
-			{:else}
-				<iframe
-					src={video.embedUrl}
-					class="h-full w-full"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen
-					title="Video"
-				></iframe>
+		<div class="relative">
+			<button
+				onclick={() => ui.closeVideo()}
+				aria-label={m.video_close()}
+				class="absolute -top-0 right-0 z-10 grid h-9 w-9 translate-x-3 -translate-y-3 place-items-center rounded-full bg-zinc-900/80 text-white backdrop-blur transition hover:bg-zinc-900"
+			>
+				<X size={16} />
+			</button>
+			<div class="aspect-video w-full bg-black">
+				{#if video.provider === 'instagram'}
+					<iframe
+						src={video.embedUrl}
+						class="h-full w-full"
+						frameborder="0"
+						allowfullscreen
+						title="Video"
+					></iframe>
+				{:else}
+					<iframe
+						src={video.embedUrl}
+						class="h-full w-full"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+						title="Video"
+					></iframe>
+				{/if}
+			</div>
+			{#if total > 1}
+				<div class="flex items-center justify-between gap-2 bg-white px-3 py-2 dark:bg-zinc-950">
+					<button
+						onclick={() => ui.setVideoIndex(index - 1)}
+						disabled={index === 0}
+						class="inline-flex items-center gap-1 rounded-lg px-2.5 py-1.5 text-sm font-medium text-zinc-700 transition hover:bg-zinc-100 disabled:opacity-40 dark:text-zinc-200 dark:hover:bg-zinc-800"
+					>
+						<ChevronLeft size={16} />
+						<span class="hidden sm:inline">{m.video_prev()}</span>
+					</button>
+					<span class="min-w-0 flex-1 truncate text-center text-xs text-zinc-500 dark:text-zinc-400" title={label}>
+						{#if label}{label} · {/if}{index + 1} / {total}
+					</span>
+					<button
+						onclick={() => ui.setVideoIndex(index + 1)}
+						disabled={index === total - 1}
+						class="inline-flex items-center gap-1 rounded-lg px-2.5 py-1.5 text-sm font-medium text-zinc-700 transition hover:bg-zinc-100 disabled:opacity-40 dark:text-zinc-200 dark:hover:bg-zinc-800"
+					>
+						<span class="hidden sm:inline">{m.video_next()}</span>
+						<ChevronRight size={16} />
+					</button>
+				</div>
 			{/if}
 		</div>
 	{/if}

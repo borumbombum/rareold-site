@@ -1,5 +1,5 @@
 let _loginOpen = $state(false);
-let _videoUrl = $state<string | null>(null);
+let _video = $state<{ list: { url: string; label: string }[]; index: number } | null>(null);
 let _drawerOpen = $state(false);
 let _langOpen = $state(false);
 let _toast = $state<{ text: string; error?: boolean } | null>(null);
@@ -23,13 +23,27 @@ export const ui = {
 		_loginOpen = false;
 	},
 	get videoUrl(): string | null {
-		return _videoUrl;
+		return _video ? _video.list[_video.index].url : null;
 	},
-	openVideo(url: string): void {
-		_videoUrl = url;
+	get videoList(): { url: string; label: string }[] {
+		return _video ? _video.list : [];
+	},
+	get videoIndex(): number {
+		return _video ? _video.index : 0;
+	},
+	openVideo(url: string, list?: { url: string; label: string }[]): void {
+		if (list && list.length > 1) {
+			const index = Math.max(0, list.findIndex((v) => v.url === url));
+			_video = { list, index };
+		} else {
+			_video = { list: [{ url, label: '' }], index: 0 };
+		}
+	},
+	setVideoIndex(index: number): void {
+		if (_video && index >= 0 && index < _video.list.length) _video = { ..._video, index };
 	},
 	closeVideo(): void {
-		_videoUrl = null;
+		_video = null;
 	},
 	get drawerOpen(): boolean {
 		return _drawerOpen;

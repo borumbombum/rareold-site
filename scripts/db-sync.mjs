@@ -197,8 +197,8 @@ const insertDistilleries = distilleries.map((d) =>
 
 const insertProducts = whiskies.map((w) =>
 	stmt(
-		`INSERT INTO products (id, name, description, image, video, origin_id, region_id, age, volume, abv, cask, distillery_id, name_pt, description_pt, name_en, description_en, name_ja, description_ja, name_fr, description_fr)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		`INSERT INTO products (id, name, description, image, origin_id, region_id, age, volume, abv, cask, distillery_id, name_pt, description_pt, name_en, description_en, name_ja, description_ja, name_fr, description_fr)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		 ON CONFLICT(id) DO UPDATE SET
 			name_pt = excluded.name_pt, description_pt = excluded.description_pt,
 			name_en = excluded.name_en, description_en = excluded.description_en,
@@ -209,7 +209,6 @@ const insertProducts = whiskies.map((w) =>
 			w.name,
 			w.description,
 			w.image,
-			w.video ?? null,
 			w.origin,
 			regionIdByKey.get(`${w.origin}|${w.region}`) ?? null,
 			w.age,
@@ -226,6 +225,18 @@ const insertProducts = whiskies.map((w) =>
 			w.name_fr ?? null,
 			w.description_fr ?? null
 		]
+	)
+);
+
+// Influencer videos are bootstrap-only (INSERT OR IGNORE): Turso stays the
+// source of truth once seeded. Migrated/global videos live in the seed so a
+// rebuild from scratch reproduces them.
+const insertInfluencerVideos = whiskies.flatMap((w) =>
+	(w.influencer_videos ?? []).map((v) =>
+		stmt(
+			'INSERT OR IGNORE INTO influencer_videos (product_id, language, platform, url, label, created_at) VALUES (?, ?, ?, ?, ?, ?)',
+			[w.slug, v.language, v.platform ?? 'youtube', v.url, v.label ?? '', v.created_at ?? new Date().toISOString()]
+		)
 	)
 );
 
@@ -255,7 +266,7 @@ try {
 	);
 } catch { /* no pages seed file */ }
 
-await tx.batch([...insertOrigins, ...insertRegions, ...insertDistilleries, ...insertProducts, ...insertResellers, ...insertPages]);
+await tx.batch([...insertOrigins, ...insertRegions, ...insertDistilleries, ...insertProducts, ...insertInfluencerVideos, ...insertResellers, ...insertPages]);
 
 // Locale columns on existing rows are backfilled (ON CONFLICT DO UPDATE for
 // _pt, _en, _ja fields) so new translations in the seed propagate. Other edits
@@ -268,6 +279,7 @@ const summary = await client.execute(
 		(SELECT COUNT(*) FROM regions) AS regions,
 		(SELECT COUNT(*) FROM distilleries) AS distilleries,
 		(SELECT COUNT(*) FROM products) AS products,
+		(SELECT COUNT(*) FROM influencer_videos) AS influencer_videos,
 		(SELECT COUNT(*) FROM resellers) AS resellers`
 );
 

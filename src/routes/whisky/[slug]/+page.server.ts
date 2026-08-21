@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 import { siteForLocale } from '$lib/server/env';
-import { getProductBySlug, getProductVideos, getReviews, getRatingMap } from '$lib/server/data';
+import { getProductBySlug, getInfluencerVideos, getReviews, getRatingMap } from '$lib/server/data';
 import { buildProductSchema } from '$lib/server/schema';
 import type { PageServerLoad } from './$types';
 
@@ -15,7 +15,7 @@ export const load: PageServerLoad = async ({ params, locals, setHeaders, url }) 
 	const [ratingMap, reviews, videos] = await Promise.all([
 		getRatingMap([entityId]),
 		getReviews(product.id, site.countryCode),
-		getProductVideos(product.id)
+		getInfluencerVideos(product.id, locale)
 	]);
 	const rating = ratingMap.get(entityId);
 

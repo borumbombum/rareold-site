@@ -10,6 +10,7 @@ const ORIGINS_FILE = resolve(DATA_DIR, 'origins.json');
 const REGIONS_FILE = resolve(DATA_DIR, 'regions.json');
 const PAGES_FILE = resolve(DATA_DIR, 'pages.json');
 const DISTILLERIES_FILE = resolve(DATA_DIR, 'distilleries.json');
+const INFLUENCER_VIDEOS_FILE = resolve(DATA_DIR, 'influencer_videos.json');
 
 const url = process.env.TURSO_URL;
 const authToken = process.env.TURSO_AUTH_TOKEN;
@@ -49,7 +50,7 @@ const resellersFor = (productId, country) => {
 };
 
 const productsRes = await client.execute(
-	`SELECT p.id, p.name, p.description, p.image, p.video, p.origin_id, r.name AS region_name,
+	`SELECT p.id, p.name, p.description, p.image, p.origin_id, r.name AS region_name,
 	        p.age, p.volume, p.abv, p.cask, p.distillery_id,
 	        d.name AS distillery_name, d.name_es AS distillery_name_es, d.name_pt AS distillery_name_pt,
 	        d.name_en AS distillery_name_en, d.name_ja AS distillery_name_ja, d.name_fr AS distillery_name_fr,
@@ -60,6 +61,24 @@ const productsRes = await client.execute(
 	 LEFT JOIN distilleries d ON d.id = p.distillery_id
 	 ORDER BY p.name COLLATE NOCASE`
 );
+
+let videosByProduct = new Map();
+try {
+	const allVideosRes = await client.execute(
+		'SELECT product_id, language, platform, url, label FROM influencer_videos ORDER BY product_id, language, created_at'
+	);
+	for (const r of allVideosRes.rows) {
+		const pid = String(r.product_id);
+		if (!videosByProduct.has(pid)) videosByProduct.set(pid, []);
+		videosByProduct.get(pid).push({
+			language: String(r.language),
+			platform: String(r.platform ?? 'youtube'),
+			url: String(r.url),
+			label: String(r.label ?? '')
+		});
+	}
+} catch { /* influencer_videos table may not exist yet */ }
+
 
 const whiskies = productsRes.rows.map((row) => {
 	return {
@@ -79,7 +98,6 @@ const whiskies = productsRes.rows.map((row) => {
 			: null,
 		description: row.description ?? null,
 		image: row.image ?? null,
-		video: row.video ?? null,
 		origin: row.origin_id,
 		region: row.region_name ?? null,
 		age: row.age ?? null,
@@ -97,7 +115,8 @@ const whiskies = productsRes.rows.map((row) => {
 		description_fr: row.description_fr ?? null,
 		resellers_uy: resellersFor(row.id, 'UY'),
 		resellers_br: resellersFor(row.id, 'BR'),
-		resellers_usa: resellersFor(row.id, 'US')
+		resellers_usa: resellersFor(row.id, 'US'),
+		...(videosByProduct.has(row.id) ? { videos: videosByProduct.get(row.id) } : {})
 	};
 });
 
@@ -189,7 +208,23 @@ try {
 	pagesCount = pages.length;
 } catch { /* pages table may not exist yet */ }
 
+let videosCount = 0;
+try {
+	const videosRes = await client.execute(
+		'SELECT product_id, language, platform, url, label FROM influencer_videos ORDER BY product_id, language, created_at'
+	);
+	const videos = videosRes.rows.map((r) => ({
+		product_id: String(r.product_id),
+		language: String(r.language),
+		platform: String(r.platform ?? 'youtube'),
+		url: String(r.url),
+		label: String(r.label ?? '')
+	}));
+	await writeFile(INFLUENCER_VIDEOS_FILE, `${JSON.stringify(videos, null, 2)}\n`, 'utf8');
+	videosCount = videos.length;
+} catch { /* influencer_videos table may not exist yet */ }
+
 console.log(
-	`[db-export] Wrote ${whiskies.length} whiskies, ${origins.length} origins, ${regions.length} regions, ${distilleries.length} distilleries, ${pagesCount} pages to ${DATA_DIR}`
+	`[db-export] Wrote ${whiskies.length} whiskies, ${origins.length} origins, ${regions.length} regions, ${distilleries.length} distilleries, ${pagesCount} pages, ${videosCount} influencer videos to ${DATA_DIR}`
 );
 client.close();

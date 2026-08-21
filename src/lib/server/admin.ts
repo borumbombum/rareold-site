@@ -16,7 +16,6 @@ export interface ProductInput {
 	name: string;
 	description: string | null;
 	image: string | null;
-	video: string | null;
 	origin_id: string | null;
 	region_id: string | null;
 	age: number | null;
@@ -39,7 +38,6 @@ const PRODUCT_FIELDS = [
 	'name',
 	'description',
 	'image',
-	'video',
 	'origin_id',
 	'region_id',
 	'age',
@@ -66,7 +64,6 @@ function rowToProductInput(row: Record<string, unknown>): ProductInput {
 		name: String(row.name),
 		description: row.description == null ? null : String(row.description),
 		image: row.image == null ? null : String(row.image),
-		video: row.video == null ? null : String(row.video),
 		origin_id: row.origin_id == null ? null : String(row.origin_id),
 		region_id: row.region_id == null ? null : String(row.region_id),
 		age: row.age == null ? null : Number(row.age),
@@ -124,7 +121,6 @@ function productValues(input: ProductInput): (string | number | null)[] {
 		input.name,
 		input.description,
 		input.image,
-		input.video,
 		input.origin_id,
 		input.region_id,
 		input.age,
@@ -163,7 +159,6 @@ export async function updateProduct(id: string, input: ProductInput, db: Client 
 		input.name,
 		input.description,
 		input.image,
-		input.video,
 		input.origin_id,
 		input.region_id,
 		input.age,

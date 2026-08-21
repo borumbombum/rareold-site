@@ -67,7 +67,8 @@ export interface Reseller {
 }
 
 export interface ProductVideo {
-	country: CountryCode;
+	language: string;
+	platform: 'youtube' | 'instagram';
 	url: string;
 	label: string;
 }
@@ -80,7 +81,6 @@ export interface Whisky {
 	distillery: DistilleryRef | null;
 	description: string | null;
 	image: string | null;
-	video: string | null;
 	origin: string;
 	region: string | null;
 	age: number | null;
