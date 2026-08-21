@@ -5,6 +5,7 @@
     "name_es": "Escocia",
     "name_pt": "Escócia",
     "name_ja": null,
+    "name_fr": "Écosse",
     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "sort_order": 0
   },
@@ -14,6 +15,7 @@
     "name_es": "Irlanda",
     "name_pt": "Irlanda",
     "name_ja": null,
+    "name_fr": "Irlande",
     "flag": "🇮🇪",
     "sort_order": 1
   },
@@ -23,6 +25,7 @@
     "name_es": "EE. UU.",
     "name_pt": "EUA",
     "name_ja": null,
+    "name_fr": "États-Unis",
     "flag": "🇺🇸",
     "sort_order": 2
   },
@@ -32,6 +35,7 @@
     "name_es": "Japón",
     "name_pt": "Japão",
     "name_ja": null,
+    "name_fr": "Japon",
     "flag": "🇯🇵",
     "sort_order": 3
   },
@@ -41,6 +45,7 @@
     "name_es": "India",
     "name_pt": "Índia",
     "name_ja": null,
+    "name_fr": "Inde",
     "flag": "🇮🇳",
     "sort_order": 4
   },
@@ -50,6 +55,7 @@
     "name_es": "Canadá",
     "name_pt": "Canadá",
     "name_ja": null,
+    "name_fr": "Canada",
     "flag": "🇨🇦",
     "sort_order": 5
   },
@@ -59,6 +65,7 @@
     "name_es": "Argentina",
     "name_pt": "Argentina",
     "name_ja": null,
+    "name_fr": "Argentine",
     "flag": "🇦🇷",
     "sort_order": 6
   },
@@ -68,6 +75,7 @@
     "name_es": "Otros",
     "name_pt": "Outros",
     "name_ja": null,
+    "name_fr": "Autres",
     "flag": "🌍",
     "sort_order": 7
   }

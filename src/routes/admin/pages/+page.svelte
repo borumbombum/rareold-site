@@ -12,7 +12,7 @@
 	let saving = $state(false);
 
 	function newPage() {
-		editing = { id: crypto.randomUUID(), slug: '', title: '', body: '', title_pt: '', body_pt: '', title_en: '', body_en: '', title_ja: '', body_ja: '' };
+		editing = { id: crypto.randomUUID(), slug: '', title: '', body: '', title_pt: '', body_pt: '', title_en: '', body_en: '', title_ja: '', body_ja: '', title_fr: '', body_fr: '' };
 	}
 
 	function edit(p: any) {
@@ -99,6 +99,14 @@
 				<div>
 					<label class="text-sm font-medium text-zinc-700 dark:text-zinc-300">Body (JA)</label>
 					<textarea bind:value={editing.body_ja} rows="10" class="mt-1 w-full rounded-xl border border-zinc-200 px-3 py-2 text-sm font-mono dark:border-zinc-800 dark:bg-zinc-950 dark:text-white"></textarea>
+				</div>
+				<div>
+					<label class="text-sm font-medium text-zinc-700 dark:text-zinc-300">Title (FR)</label>
+					<input bind:value={editing.title_fr} class="mt-1 w-full rounded-xl border border-zinc-200 px-3 py-2 text-sm dark:border-zinc-800 dark:bg-zinc-950 dark:text-white" />
+				</div>
+				<div>
+					<label class="text-sm font-medium text-zinc-700 dark:text-zinc-300">Body (FR)</label>
+					<textarea bind:value={editing.body_fr} rows="10" class="mt-1 w-full rounded-xl border border-zinc-200 px-3 py-2 text-sm font-mono dark:border-zinc-800 dark:bg-zinc-950 dark:text-white"></textarea>
 				</div>
 				<div class="flex gap-3">
 					<button onclick={save} disabled={saving} class="rounded-full bg-zinc-900 px-4 py-2 text-sm font-medium text-white hover:bg-zinc-700 dark:bg-white dark:text-zinc-900">

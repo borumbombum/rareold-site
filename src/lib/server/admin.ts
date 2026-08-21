@@ -30,6 +30,8 @@ export interface ProductInput {
 	description_en: string | null;
 	name_ja: string | null;
 	description_ja: string | null;
+	name_fr: string | null;
+	description_fr: string | null;
 }
 
 const PRODUCT_FIELDS = [
@@ -50,7 +52,9 @@ const PRODUCT_FIELDS = [
 	'name_en',
 	'description_en',
 	'name_ja',
-	'description_ja'
+	'description_ja',
+	'name_fr',
+	'description_fr'
 ] as const;
 
 const PRODUCT_COLUMNS = PRODUCT_FIELDS.join(', ');
@@ -75,7 +79,9 @@ function rowToProductInput(row: Record<string, unknown>): ProductInput {
 		name_en: row.name_en == null ? null : String(row.name_en),
 		description_en: row.description_en == null ? null : String(row.description_en),
 		name_ja: row.name_ja == null ? null : String(row.name_ja),
-		description_ja: row.description_ja == null ? null : String(row.description_ja)
+		description_ja: row.description_ja == null ? null : String(row.description_ja),
+		name_fr: row.name_fr == null ? null : String(row.name_fr),
+		description_fr: row.description_fr == null ? null : String(row.description_fr)
 	};
 }
 
@@ -131,7 +137,9 @@ function productValues(input: ProductInput): (string | number | null)[] {
 		input.name_en,
 		input.description_en,
 		input.name_ja,
-		input.description_ja
+		input.description_ja,
+		input.name_fr,
+		input.description_fr
 	];
 }
 
@@ -168,7 +176,9 @@ export async function updateProduct(id: string, input: ProductInput, db: Client 
 		input.name_en,
 		input.description_en,
 		input.name_ja,
-		input.description_ja
+		input.description_ja,
+		input.name_fr,
+		input.description_fr
 	];
 	await db.execute(`UPDATE products SET ${setClauses} WHERE id = ?`, [...values, id]);
 }
@@ -187,11 +197,13 @@ export interface DistilleryInput {
 	name_pt: string | null;
 	name_en: string | null;
 	name_ja: string | null;
+	name_fr: string | null;
 	description: string | null;
 	description_es: string | null;
 	description_pt: string | null;
 	description_en: string | null;
 	description_ja: string | null;
+	description_fr: string | null;
 	country: string | null;
 	region: string | null;
 	founded: number | null;
@@ -209,11 +221,13 @@ const DISTILLERY_FIELDS = [
 	'name_pt',
 	'name_en',
 	'name_ja',
+	'name_fr',
 	'description',
 	'description_es',
 	'description_pt',
 	'description_en',
 	'description_ja',
+	'description_fr',
 	'country',
 	'region',
 	'founded',
@@ -234,11 +248,13 @@ function rowToDistilleryInput(row: Record<string, unknown>): DistilleryInput {
 		name_pt: str(row.name_pt),
 		name_en: str(row.name_en),
 		name_ja: str(row.name_ja),
+		name_fr: str(row.name_fr),
 		description: str(row.description),
 		description_es: str(row.description_es),
 		description_pt: str(row.description_pt),
 		description_en: str(row.description_en),
 		description_ja: str(row.description_ja),
+		description_fr: str(row.description_fr),
 		country: str(row.country),
 		region: str(row.region),
 		founded: num(row.founded),
@@ -282,11 +298,13 @@ function distilleryValues(input: DistilleryInput): (string | number | null)[] {
 		input.name_pt,
 		input.name_en,
 		input.name_ja,
+		input.name_fr,
 		input.description,
 		input.description_es,
 		input.description_pt,
 		input.description_en,
 		input.description_ja,
+		input.description_fr,
 		input.country,
 		input.region,
 		input.founded,
@@ -299,8 +317,8 @@ function distilleryValues(input: DistilleryInput): (string | number | null)[] {
 
 export async function createDistillery(input: DistilleryInput, db: Client = turso): Promise<void> {
 	await db.execute(
-		`INSERT INTO distilleries (id, slug, name, name_es, name_pt, name_en, name_ja, description, description_es, description_pt, description_en, description_ja, country, region, founded, image, website, latitude, longitude)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+		`INSERT INTO distilleries (id, slug, name, name_es, name_pt, name_en, name_ja, name_fr, description, description_es, description_pt, description_en, description_ja, description_fr, country, region, founded, image, website, latitude, longitude)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
 		[input.id, ...distilleryValues(input)]
 	);
 }
@@ -312,8 +330,8 @@ export async function updateDistillery(
 ): Promise<void> {
 	await db.execute(
 		`UPDATE distilleries SET
-			slug = ?, name = ?, name_es = ?, name_pt = ?, name_en = ?, name_ja = ?,
-			description = ?, description_es = ?, description_pt = ?, description_en = ?, description_ja = ?,
+			slug = ?, name = ?, name_es = ?, name_pt = ?, name_en = ?, name_ja = ?, name_fr = ?,
+			description = ?, description_es = ?, description_pt = ?, description_en = ?, description_ja = ?, description_fr = ?,
 			country = ?, region = ?, founded = ?, image = ?, website = ?, latitude = ?, longitude = ?,
 			updated_at = strftime('%Y-%m-%dT%H:%M:%fZ', 'now')
 		 WHERE id = ?`,

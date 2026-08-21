@@ -52,8 +52,9 @@ const productsRes = await client.execute(
 	`SELECT p.id, p.name, p.description, p.image, p.video, p.origin_id, r.name AS region_name,
 	        p.age, p.volume, p.abv, p.cask, p.distillery_id,
 	        d.name AS distillery_name, d.name_es AS distillery_name_es, d.name_pt AS distillery_name_pt,
-	        d.name_en AS distillery_name_en, d.name_ja AS distillery_name_ja,
-	        p.name_pt, p.description_pt, p.name_en, p.description_en, p.name_ja, p.description_ja
+	        d.name_en AS distillery_name_en, d.name_ja AS distillery_name_ja, d.name_fr AS distillery_name_fr,
+	        p.name_pt, p.description_pt, p.name_en, p.description_en, p.name_ja, p.description_ja,
+	        p.name_fr, p.description_fr
 	 FROM products p
 	 LEFT JOIN regions r ON r.id = p.region_id
 	 LEFT JOIN distilleries d ON d.id = p.distillery_id
@@ -72,7 +73,8 @@ const whiskies = productsRes.rows.map((row) => {
 					name_es: row.distillery_name_es ?? null,
 					name_pt: row.distillery_name_pt ?? null,
 					name_en: row.distillery_name_en ?? null,
-					name_ja: row.distillery_name_ja ?? null
+					name_ja: row.distillery_name_ja ?? null,
+					name_fr: row.distillery_name_fr ?? null
 				}
 			: null,
 		description: row.description ?? null,
@@ -91,6 +93,8 @@ const whiskies = productsRes.rows.map((row) => {
 		description_en: row.description_en ?? null,
 		name_ja: row.name_ja ?? null,
 		description_ja: row.description_ja ?? null,
+		name_fr: row.name_fr ?? null,
+		description_fr: row.description_fr ?? null,
 		resellers_uy: resellersFor(row.id, 'UY'),
 		resellers_br: resellersFor(row.id, 'BR'),
 		resellers_usa: resellersFor(row.id, 'US')
@@ -98,7 +102,7 @@ const whiskies = productsRes.rows.map((row) => {
 });
 
 const originsRes = await client.execute(
-	'SELECT id, name, sort_order, flag, name_es, name_pt, name_ja FROM origins ORDER BY sort_order'
+	'SELECT id, name, sort_order, flag, name_es, name_pt, name_ja, name_fr FROM origins ORDER BY sort_order'
 );
 const regionsRes = await client.execute(
 	'SELECT id, origin_id, name, sort_order FROM regions ORDER BY sort_order, name COLLATE NOCASE'
@@ -110,6 +114,7 @@ const origins = originsRes.rows.map((r) => ({
 	name_es: r.name_es ?? null,
 	name_pt: r.name_pt ?? null,
 	name_ja: r.name_ja ?? null,
+	name_fr: r.name_fr ?? null,
 	flag: r.flag ?? '🌍',
 	sort_order: r.sort_order
 }));
@@ -121,8 +126,8 @@ const regions = regionsRes.rows.map((r) => ({
 }));
 
 const distilleriesRes = await client.execute(
-	`SELECT id, slug, name, name_es, name_pt, name_en, name_ja,
-	        description, description_es, description_pt, description_en, description_ja,
+	`SELECT id, slug, name, name_es, name_pt, name_en, name_ja, name_fr,
+	        description, description_es, description_pt, description_en, description_ja, description_fr,
 	        country, region, founded, image, website, latitude, longitude
 	 FROM distilleries ORDER BY name COLLATE NOCASE`
 );
@@ -134,11 +139,13 @@ const distilleries = distilleriesRes.rows.map((d) => ({
 	name_pt: d.name_pt ?? null,
 	name_en: d.name_en ?? null,
 	name_ja: d.name_ja ?? null,
+	name_fr: d.name_fr ?? null,
 	description: d.description ?? null,
 	description_es: d.description_es ?? null,
 	description_pt: d.description_pt ?? null,
 	description_en: d.description_en ?? null,
 	description_ja: d.description_ja ?? null,
+	description_fr: d.description_fr ?? null,
 	country: d.country == null ? null : String(d.country),
 	region: d.region == null ? null : String(d.region),
 	founded: d.founded == null ? null : Number(d.founded),
@@ -173,6 +180,8 @@ try {
 		body_en: r.body_en ?? null,
 		title_ja: r.title_ja ?? null,
 		body_ja: r.body_ja ?? null,
+		title_fr: r.title_fr ?? null,
+		body_fr: r.body_fr ?? null,
 		created_at: String(r.created_at ?? ''),
 		updated_at: String(r.updated_at ?? '')
 	}));

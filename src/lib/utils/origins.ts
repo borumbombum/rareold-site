@@ -9,6 +9,7 @@ export interface OriginRow {
 	name_pt: string | null;
 	name_en?: string | null;
 	name_ja: string | null;
+	name_fr?: string | null;
 	flag: string;
 }
 

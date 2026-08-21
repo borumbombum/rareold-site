@@ -1,4 +1,4 @@
-Status: WORKING-AGENT-ox-alpha
+Status: DONE
 
 # Add French (fr) as a full language with UI + product translations
 
@@ -65,3 +65,46 @@ Option A). Visitor impact is additive only.
 
 - 2026-08-21 (ox-alpha): Task rewritten with phased plan approved by user (Option A: genuine FR
   description translations in 8 batches of 20). Starting Phase 1 next.
+- 2026-08-21 (ox-alpha): Phase 1 DONE — locales.ts fr entry, settings.json locales+urlPattern,
+  vite.config.ts both blocks (/fr/origine/:slug + /fr/:path), migration 0019_french_content.sql
+  written (products/origins/pages/distilleries _fr columns). Phase 2 DONE — messages/fr.json
+  (227 keys = 222 en + lang_fr + 4 admin _fr labels), paraglide recompiled OK, db-sync.mjs
+  (ORIGIN_META name_fr, origins/distilleries/products/pages INSERTs incl. ON CONFLICT backfill),
+  db-export.mjs (all SELECTs+mappings incl. slim distillery ref), types.ts (Whisky/DistilleryRef/
+  Distillery), origins.ts OriginRow, admin.ts (ProductInput/PRODUCT_FIELDS/rowToProductInput/
+  productValues/updateProduct/DistilleryInput/DISTILLERY_FIELDS/rowToDistilleryInput/
+  distilleryValues/create+updateDistillery), pages.ts (PageRow/PageInput/upsertPage),
+  parseProduct()+parseDistillery(), admin forms products/distilleries/pages, env.ts
+  LOCALE_TO_COUNTRY fr→US (no FR country site; affects only new /fr visitors). Starting Phase 3:
+  seeds + description batches.
+- 2026-08-21 (ox-alpha): Phase 3 partial — seeds done: whiskies.json name_fr added to all 159
+  products, pages.json about page title_fr/body_fr translated. Description batch 1/8 applied
+  (20/159). Resume at batch 2. Pipeline: source dumps at /tmp/opencode/fr-src-N.json → write
+  /tmp/opencode/fr-batch-N.json → `node /tmp/opencode/apply-fr-batch.mjs N`.
+- 2026-08-21 (ox-alpha): Batches 1–8 done — all 159 products have description_fr. Seeds complete. Next: Phase 4 (db:sync → data:export → check → test → build + spot checks), then DONE.
+- 2026-08-21 (ox-alpha): Phase 4 DONE — task complete.
+  - db:sync applied migration 0019; found origins rows didn't get name_fr (their INSERT was
+    ON CONFLICT DO NOTHING, same reason name_ja is null there). Fixed db-sync.mjs origins upsert to
+    `DO UPDATE SET name_fr = excluded.name_fr` (backfills only fr; es/pt/ja untouched). Re-synced:
+    8/8 origins now export French labels (Écosse, Irlande, États-Unis, Japon, Inde, Canada,
+    Argentine, Autres).
+  - data:export: 160 whiskies — 159 with name_fr + description_fr (the 1 without is a DB-only
+    product not in the seed; falls back to base), about page title_fr/body_fr ✓.
+  - Test fixtures updated to include _fr fields (tests/admin.test.ts baseProduct,
+    tests/schema.test.ts product + distillery ref) matching existing _ja pattern.
+  - check: 2 errors / 28 warnings = pre-existing baseline. test: 66 passed, 1 failed = the known
+    pre-existing stats failure. build: exit 0.
+  - Runtime spot checks (vite preview): /fr/ 200 lang="fr-FR", switcher shows Français, origin
+    labels in French on home; /fr/whisky/smokehead-high-voltage renders FR description;
+    /fr/origine/scotland title "Écosse — Rare Old" + hreflang fr present; sitemap-fr.xml 200 with
+  320 fr/whisky URLs; /fr/about shows "À propos"; base and /en product pages unchanged (no
+  regression). No commits/pushes made.
+- 2026-08-21 (ox-alpha): Correction — coverage was 159/160, not 160/160. `whisky-new-forms-ex-bourbon`
+  (New Forms: Ex-Bourbon, London Distillery Co.) was added to Turso via admin after the seed was
+  built, so it never went through the batch pipeline. Fixed: added the full row (mirrored from
+  Turso export) + genuine FR translation (name_fr = brand name; description_fr mirrors the en HTML
+  structure: spec line, intro ×2, tasting list Nez/Bouche/Finale) to data/seed/whiskies.json.
+  db:sync backfilled only locale columns (products DO UPDATE touches _pt/_en/_ja/_fr exclusively),
+  data:export now reports 160/160 with name_fr + description_fr. check/test/build at baseline
+  (2 errors / 1 known failure / exit 0); /fr/whisky/whisky-new-forms-ex-bourbon renders the FR
+  description. Seed and DB are back in parity at 160 products.

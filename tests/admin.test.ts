@@ -46,7 +46,9 @@ const baseProduct = {
 	name_en: null,
 	description_en: null,
 	name_ja: null,
-	description_ja: null
+	description_ja: null,
+	name_fr: null,
+	description_fr: null
 };
 
 describe('admin products', () => {

@@ -51,7 +51,8 @@ const LOCALE_TO_COUNTRY: Record<LocaleKey, CountryCode> = {
 	es: 'UY',
 	pt: 'BR',
 	en: 'US',
-	ja: 'JP'
+	ja: 'JP',
+	fr: 'US'
 };
 
 export function siteForLocale(locale: string): SiteContext {

@@ -12,6 +12,8 @@ export interface PageRow {
 	body_en: string | null;
 	title_ja: string | null;
 	body_ja: string | null;
+	title_fr: string | null;
+	body_fr: string | null;
 	created_at: string;
 	updated_at: string;
 }
@@ -29,6 +31,8 @@ export async function listPages(db: Client = turso): Promise<PageRow[]> {
 		body_en: r.body_en as string | null,
 		title_ja: r.title_ja as string | null,
 		body_ja: r.body_ja as string | null,
+		title_fr: r.title_fr as string | null,
+		body_fr: r.body_fr as string | null,
 		created_at: String(r.created_at ?? ''),
 		updated_at: String(r.updated_at ?? '')
 	}));
@@ -49,6 +53,8 @@ export async function getPageBySlug(slug: string, db: Client = turso): Promise<P
 		body_en: r.body_en as string | null,
 		title_ja: r.title_ja as string | null,
 		body_ja: r.body_ja as string | null,
+		title_fr: r.title_fr as string | null,
+		body_fr: r.body_fr as string | null,
 		created_at: String(r.created_at ?? ''),
 		updated_at: String(r.updated_at ?? '')
 	};
@@ -65,13 +71,15 @@ export interface PageInput {
 	body_en?: string | null;
 	title_ja?: string | null;
 	body_ja?: string | null;
+	title_fr?: string | null;
+	body_fr?: string | null;
 }
 
 export async function upsertPage(input: PageInput, db: Client = turso): Promise<void> {
 	const ts = new Date().toISOString();
 	await db.execute(
-		`INSERT INTO pages (id, slug, title, body, title_pt, body_pt, title_en, body_en, title_ja, body_ja, created_at, updated_at)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		`INSERT INTO pages (id, slug, title, body, title_pt, body_pt, title_en, body_en, title_ja, body_ja, title_fr, body_fr, created_at, updated_at)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		 ON CONFLICT(id) DO UPDATE SET
 			slug = excluded.slug,
 			title = excluded.title,
@@ -82,6 +90,8 @@ export async function upsertPage(input: PageInput, db: Client = turso): Promise<
 			body_en = excluded.body_en,
 			title_ja = excluded.title_ja,
 			body_ja = excluded.body_ja,
+			title_fr = excluded.title_fr,
+			body_fr = excluded.body_fr,
 			updated_at = excluded.updated_at`,
 		[
 			input.id,
@@ -94,6 +104,8 @@ export async function upsertPage(input: PageInput, db: Client = turso): Promise<
 			input.body_en ?? null,
 			input.title_ja ?? null,
 			input.body_ja ?? null,
+			input.title_fr ?? null,
+			input.body_fr ?? null,
 			ts,
 			ts
 		]

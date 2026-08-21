@@ -37,7 +37,8 @@
 		{ label: m.admin_products_desc_es(), field: 'description' as const },
 		{ label: m.admin_products_desc_pt(), field: 'description_pt' as const },
 		{ label: m.admin_products_desc_en(), field: 'description_en' as const },
-		{ label: m.admin_products_desc_ja(), field: 'description_ja' as const }
+		{ label: m.admin_products_desc_ja(), field: 'description_ja' as const },
+		{ label: m.admin_products_desc_fr(), field: 'description_fr' as const }
 	]);
 
 	let query = $state('');
@@ -65,6 +66,8 @@
 		description_en: string | null;
 		name_ja: string | null;
 		description_ja: string | null;
+		name_fr: string | null;
+		description_fr: string | null;
 	}
 
 	const filtered = $derived(
@@ -99,7 +102,9 @@
 			name_en: null,
 			description_en: null,
 			name_ja: null,
-			description_ja: null
+			description_ja: null,
+			name_fr: null,
+			description_fr: null
 		};
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
@@ -127,7 +132,9 @@
 			name_en: p.name_en,
 			description_en: p.description_en,
 			name_ja: p.name_ja,
-			description_ja: p.description_ja
+			description_ja: p.description_ja,
+			name_fr: p.name_fr,
+			description_fr: p.description_fr
 		};
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
@@ -295,6 +302,10 @@
 			<label class="block text-sm">
 				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_name_ja()}</span>
 				<input bind:value={form.name_ja} placeholder="名前" class={inputClass} />
+			</label>
+			<label class="block text-sm">
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_name_fr()}</span>
+				<input bind:value={form.name_fr} placeholder="Nom" class={inputClass} />
 			</label>
 		</div>
 

@@ -94,6 +94,8 @@ export interface Whisky {
 	description_en: string | null;
 	name_ja: string | null;
 	description_ja: string | null;
+	name_fr: string | null;
+	description_fr: string | null;
 	resellers_uy: Reseller[];
 	resellers_br: Reseller[];
 	resellers_usa: Reseller[];
@@ -108,6 +110,7 @@ export interface DistilleryRef {
 	name_pt: string | null;
 	name_en: string | null;
 	name_ja: string | null;
+	name_fr: string | null;
 }
 
 /** A distillery (Turso `distilleries`, exported to src/lib/data/distilleries.json). */
@@ -118,6 +121,7 @@ export interface Distillery extends DistilleryRef {
 	description_pt: string | null;
 	description_en: string | null;
 	description_ja: string | null;
+	description_fr: string | null;
 	country: string | null;
 	region: string | null;
 	founded: number | null;

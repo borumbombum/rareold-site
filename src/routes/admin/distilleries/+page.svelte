@@ -24,7 +24,8 @@
 		{ label: m.admin_distilleries_desc_es(), field: 'description' as const },
 		{ label: m.admin_distilleries_desc_pt(), field: 'description_pt' as const },
 		{ label: m.admin_distilleries_desc_en(), field: 'description_en' as const },
-		{ label: m.admin_distilleries_desc_ja(), field: 'description_ja' as const }
+		{ label: m.admin_distilleries_desc_ja(), field: 'description_ja' as const },
+		{ label: m.admin_distilleries_desc_fr(), field: 'description_fr' as const }
 	]);
 
 	let query = $state('');
@@ -41,11 +42,13 @@
 		name_pt: string | null;
 		name_en: string | null;
 		name_ja: string | null;
+		name_fr: string | null;
 		description: string | null;
 		description_es: string | null;
 		description_pt: string | null;
 		description_en: string | null;
 		description_ja: string | null;
+		description_fr: string | null;
 		country: string | null;
 		region: string | null;
 		founded: number | null;
@@ -80,11 +83,13 @@
 			name_pt: null,
 			name_en: null,
 			name_ja: null,
+			name_fr: null,
 			description: null,
 			description_es: null,
 			description_pt: null,
 			description_en: null,
 			description_ja: null,
+			description_fr: null,
 			country: null,
 			region: null,
 			founded: null,
@@ -109,11 +114,13 @@
 			name_pt: d.name_pt,
 			name_en: d.name_en,
 			name_ja: d.name_ja,
+			name_fr: d.name_fr,
 			description: d.description,
 			description_es: d.description_es,
 			description_pt: d.description_pt,
 			description_en: d.description_en,
 			description_ja: d.description_ja,
+			description_fr: d.description_fr,
 			country: d.country,
 			region: d.region,
 			founded: d.founded,
@@ -280,6 +287,10 @@
 			<label class="block text-sm">
 				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_distilleries_name_ja()}</span>
 				<input bind:value={form.name_ja} placeholder="名前" class={inputClass} />
+			</label>
+			<label class="block text-sm">
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_distilleries_name_fr()}</span>
+				<input bind:value={form.name_fr} placeholder="Nom" class={inputClass} />
 			</label>
 		</div>
 

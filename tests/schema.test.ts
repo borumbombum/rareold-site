@@ -15,7 +15,8 @@ function makeProduct(overrides: Partial<Whisky> = {}): Whisky {
 			name_es: null,
 			name_pt: null,
 			name_en: null,
-			name_ja: null
+			name_ja: null,
+			name_fr: null
 		},
 		description: 'A rich and smoky Islay single malt.',
 		image: '/data/images/lagavulin-16-yo.webp',
@@ -33,6 +34,8 @@ function makeProduct(overrides: Partial<Whisky> = {}): Whisky {
 		description_en: null,
 		name_ja: null,
 		description_ja: null,
+		name_fr: null,
+		description_fr: null,
 		resellers_uy: [],
 		resellers_br: [],
 		resellers_usa: [],

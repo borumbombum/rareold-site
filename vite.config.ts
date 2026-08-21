@@ -26,6 +26,7 @@ export default defineConfig({
 						['pt', ':protocol://:domain(.*)::port?/br/origem/:slug'],
 						['en', ':protocol://:domain(.*)::port?/en/origin/:slug'],
 						['ja', ':protocol://:domain(.*)::port?/jp/origen/:slug'],
+					['fr', ':protocol://:domain(.*)::port?/fr/origine/:slug'],
 						['es', ':protocol://:domain(.*)::port?/origen/:slug']
 					]
 				},
@@ -35,6 +36,7 @@ export default defineConfig({
 						['pt', ':protocol://:domain(.*)::port?/br/:path(.*)?'],
 						['en', ':protocol://:domain(.*)::port?/en/:path(.*)?'],
 						['ja', ':protocol://:domain(.*)::port?/jp/:path(.*)?'],
+					['fr', ':protocol://:domain(.*)::port?/fr/:path(.*)?'],
 						['es', ':protocol://:domain(.*)::port?/:path(.*)?']
 					]
 				}

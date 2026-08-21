@@ -8,14 +8,14 @@ const SEED_DIR = resolve(ROOT, 'data/seed');
 const MIGRATIONS_DIR = resolve(ROOT, 'db/migrations');
 
 const ORIGIN_META = {
-	scotland: { name: 'Scotland', name_es: 'Escocia', name_pt: 'Escócia', name_ja: 'スコットランド', flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿' },
-	ireland: { name: 'Ireland', name_es: 'Irlanda', name_pt: 'Irlanda', name_ja: 'アイルランド', flag: '🇮🇪' },
-	usa: { name: 'USA', name_es: 'EE. UU.', name_pt: 'EUA', name_ja: 'アメリカ', flag: '🇺🇸' },
-	japan: { name: 'Japan', name_es: 'Japón', name_pt: 'Japão', name_ja: '日本', flag: '🇯🇵' },
-	india: { name: 'India', name_es: 'India', name_pt: 'Índia', name_ja: 'インド', flag: '🇮🇳' },
-	canada: { name: 'Canada', name_es: 'Canadá', name_pt: 'Canadá', name_ja: 'カナダ', flag: '🇨🇦' },
-	argentina: { name: 'Argentina', name_es: 'Argentina', name_pt: 'Argentina', name_ja: 'アルゼンチン', flag: '🇦🇷' },
-	other: { name: 'Other', name_es: 'Otros', name_pt: 'Outros', name_ja: 'その他', flag: '🌍' }
+	scotland: { name: 'Scotland', name_es: 'Escocia', name_pt: 'Escócia', name_ja: 'スコットランド', name_fr: 'Écosse', flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿' },
+	ireland: { name: 'Ireland', name_es: 'Irlanda', name_pt: 'Irlanda', name_ja: 'アイルランド', name_fr: 'Irlande', flag: '🇮🇪' },
+	usa: { name: 'USA', name_es: 'EE. UU.', name_pt: 'EUA', name_ja: 'アメリカ', name_fr: 'États-Unis', flag: '🇺🇸' },
+	japan: { name: 'Japan', name_es: 'Japón', name_pt: 'Japão', name_ja: '日本', name_fr: 'Japon', flag: '🇯🇵' },
+	india: { name: 'India', name_es: 'India', name_pt: 'Índia', name_ja: 'インド', name_fr: 'Inde', flag: '🇮🇳' },
+	canada: { name: 'Canada', name_es: 'Canadá', name_pt: 'Canadá', name_ja: 'カナダ', name_fr: 'Canada', flag: '🇨🇦' },
+	argentina: { name: 'Argentina', name_es: 'Argentina', name_pt: 'Argentina', name_ja: 'アルゼンチン', name_fr: 'Argentine', flag: '🇦🇷' },
+	other: { name: 'Other', name_es: 'Otros', name_pt: 'Outros', name_ja: 'その他', name_fr: 'Autres', flag: '🌍' }
 };
 
 const url = process.env.TURSO_URL;
@@ -83,6 +83,7 @@ const origins = [...seen]
 			name_es: meta?.name_es ?? null,
 			name_pt: meta?.name_pt ?? null,
 			name_ja: meta?.name_ja ?? null,
+			name_fr: meta?.name_fr ?? null,
 			flag: meta?.flag ?? '🌍',
 			sort_order: i
 		};
@@ -151,8 +152,8 @@ const tx = await client.transaction('write');
 // `npm run data:export`.
 const insertOrigins = origins.map((o) =>
 	stmt(
-		'INSERT INTO origins (id, name, sort_order, flag, name_es, name_pt, name_ja) VALUES (?, ?, ?, ?, ?, ?, ?) ON CONFLICT(id) DO NOTHING',
-		[o.id, o.name, o.sort_order, o.flag, o.name_es, o.name_pt, o.name_ja]
+		'INSERT INTO origins (id, name, sort_order, flag, name_es, name_pt, name_ja, name_fr) VALUES (?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT(id) DO UPDATE SET name_fr = excluded.name_fr',
+		[o.id, o.name, o.sort_order, o.flag, o.name_es, o.name_pt, o.name_ja, o.name_fr]
 	)
 );
 
@@ -165,8 +166,8 @@ const insertRegions = regions.map((r) =>
 
 const insertDistilleries = distilleries.map((d) =>
 	stmt(
-		`INSERT INTO distilleries (id, slug, name, name_es, name_pt, name_en, name_ja, description, description_es, description_pt, description_en, description_ja, country, region, founded, image, website, latitude, longitude)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		`INSERT INTO distilleries (id, slug, name, name_es, name_pt, name_en, name_ja, name_fr, description, description_es, description_pt, description_en, description_ja, description_fr, country, region, founded, image, website, latitude, longitude)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		 ON CONFLICT(id) DO NOTHING`,
 		[
 			d.id,
@@ -176,11 +177,13 @@ const insertDistilleries = distilleries.map((d) =>
 			d.name_pt ?? null,
 			d.name_en ?? null,
 			d.name_ja ?? null,
+			d.name_fr ?? null,
 			d.description ?? null,
 			d.description_es ?? null,
 			d.description_pt ?? null,
 			d.description_en ?? null,
 			d.description_ja ?? null,
+			d.description_fr ?? null,
 			d.country ?? null,
 			d.region ?? null,
 			d.founded ?? null,
@@ -194,12 +197,13 @@ const insertDistilleries = distilleries.map((d) =>
 
 const insertProducts = whiskies.map((w) =>
 	stmt(
-		`INSERT INTO products (id, name, description, image, video, origin_id, region_id, age, volume, abv, cask, distillery_id, name_pt, description_pt, name_en, description_en, name_ja, description_ja)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		`INSERT INTO products (id, name, description, image, video, origin_id, region_id, age, volume, abv, cask, distillery_id, name_pt, description_pt, name_en, description_en, name_ja, description_ja, name_fr, description_fr)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		 ON CONFLICT(id) DO UPDATE SET
 			name_pt = excluded.name_pt, description_pt = excluded.description_pt,
 			name_en = excluded.name_en, description_en = excluded.description_en,
-			name_ja = excluded.name_ja, description_ja = excluded.description_ja`,
+			name_ja = excluded.name_ja, description_ja = excluded.description_ja,
+			name_fr = excluded.name_fr, description_fr = excluded.description_fr`,
 		[
 			w.slug,
 			w.name,
@@ -218,7 +222,9 @@ const insertProducts = whiskies.map((w) =>
 			w.name_en ?? null,
 			w.description_en ?? null,
 			w.name_ja ?? null,
-			w.description_ja ?? null
+			w.description_ja ?? null,
+			w.name_fr ?? null,
+			w.description_fr ?? null
 		]
 	)
 );
@@ -237,13 +243,14 @@ try {
 	const pages = JSON.parse(pagesRaw);
 	insertPages = pages.map((p) =>
 		stmt(
-			`INSERT INTO pages (id, slug, title, body, title_pt, body_pt, title_en, body_en, title_ja, body_ja)
-			 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+			`INSERT INTO pages (id, slug, title, body, title_pt, body_pt, title_en, body_en, title_ja, body_ja, title_fr, body_fr)
+			 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 			 ON CONFLICT(id) DO UPDATE SET
 			title_pt = excluded.title_pt, body_pt = excluded.body_pt,
 			title_en = excluded.title_en, body_en = excluded.body_en,
-			title_ja = excluded.title_ja, body_ja = excluded.body_ja`,
-			[p.id, p.slug, p.title ?? '', p.body ?? '', p.title_pt ?? null, p.body_pt ?? null, p.title_en ?? null, p.body_en ?? null, p.title_ja ?? null, p.body_ja ?? null]
+			title_ja = excluded.title_ja, body_ja = excluded.body_ja,
+			title_fr = excluded.title_fr, body_fr = excluded.body_fr`,
+			[p.id, p.slug, p.title ?? '', p.body ?? '', p.title_pt ?? null, p.body_pt ?? null, p.title_en ?? null, p.body_en ?? null, p.title_ja ?? null, p.body_ja ?? null, p.title_fr ?? null, p.body_fr ?? null]
 		)
 	);
 } catch { /* no pages seed file */ }

@@ -36,7 +36,9 @@ function parseProduct(body: Record<string, unknown>): ProductInput | null {
 		name_en: str(body.name_en),
 		description_en: str(body.description_en),
 		name_ja: str(body.name_ja),
-		description_ja: str(body.description_ja)
+		description_ja: str(body.description_ja),
+		name_fr: str(body.name_fr),
+		description_fr: str(body.description_fr)
 	};
 }
 
