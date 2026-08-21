@@ -58,8 +58,18 @@
 		{/if}
 	</div>
 
-	{#if review.comment}
-		<p class="text-sm text-zinc-600 dark:text-zinc-300 line-clamp-2">{review.comment}</p>
+	{#if review.comment || review.image_url}
+		{#if review.image_url}
+			<img
+				src={review.image_url}
+				alt=""
+				loading="lazy"
+				class="max-h-40 w-full rounded-xl object-cover"
+			/>
+		{/if}
+		{#if review.comment}
+			<p class="text-sm text-zinc-600 dark:text-zinc-300 line-clamp-2">{review.comment}</p>
+		{/if}
 	{/if}
 
 	<p class="text-xs font-medium text-zinc-400 dark:text-zinc-500 group-hover:text-accent transition-colors truncate">

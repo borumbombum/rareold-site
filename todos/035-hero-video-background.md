@@ -1,4 +1,4 @@
-Status: WORKING-AGENT-session
+Status: DONE
 
 ## Progress
 
@@ -41,3 +41,5 @@ The homepage hero (`src/lib/components/HeroHome.svelte`) currently shows a stati
 - No layout shift when video loads
 - `prefers-reduced-motion` shows static image only
 - `npm run build` succeeds
+
+- 2026-08-21 (ox-alpha): Marked DONE during housekeeping — verified implemented earlier by another agent (build passed, progress log complete).

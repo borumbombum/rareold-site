@@ -1,4 +1,4 @@
-Status: WORKING-AGENT-main
+Status: DONE
 
 ## Progress
 
@@ -108,3 +108,5 @@ Add to `messages/pt.json`:
 
 ## Progress
 
+
+- 2026-08-21 (ox-alpha): Verified implemented in code (ActivityFeed.svelte + ActivityCard.svelte wired into homepage, commit 62a4ac2) and marked DONE during housekeeping.

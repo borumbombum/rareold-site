@@ -19,6 +19,10 @@
 		page.url.pathname === href || (href !== '/admin' && page.url.pathname.startsWith(href));
 </script>
 
+<svelte:head>
+	<meta name="robots" content="noindex, nofollow" />
+</svelte:head>
+
 <div class="min-h-screen bg-zinc-50 dark:bg-zinc-950">
 	<header class="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
 		<div class="mx-auto flex max-w-7xl items-center justify-between gap-4 overflow-hidden px-4 py-3 sm:px-6">

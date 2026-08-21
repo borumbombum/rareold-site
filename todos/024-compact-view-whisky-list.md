@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Compact view for whisky list
 
@@ -78,3 +78,5 @@ Add `view_compact` key in:
 
 ## Progress
 
+
+- 2026-08-21 (ox-alpha): Marked DONE during housekeeping — ProductCompact.svelte exists and is wired into home, origen and favorites pages; ViewToggle has the third toggle.

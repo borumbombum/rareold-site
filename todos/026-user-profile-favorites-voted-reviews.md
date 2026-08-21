@@ -1,4 +1,4 @@
-Status: WORKING-AGENT-main
+Status: DONE
 
 ## Progress
 
@@ -115,3 +115,5 @@ Add to `messages/pt.json`:
 
 ## Progress
 
+- 2026-08-21 (ox-alpha): Took over from stale session. Post-028 votes are star reviews, so "Votados" = getUserReviewedSlugs (rated whiskies) and "Comentarios" = reviews with comments; legacy votes-table +1/-1 enhancement dropped. Next: route move + redirect, server load, UserReviewCard, 3 sections.
+- 2026-08-21 (ox-alpha): DONE. Route moved user/[userId]/favorites -> user/[userId]; old path 301-redirects via new favorites/+page.server.ts; Header avatar links to /user/{id}. Server load: owner-only guard, Promise.all(listFavoriteIds, getUserReviewedSlugs, getUserReviews(20)), union slugs -> products + getRatingMap. New query getUserReviews in reviews.ts (REVIEW_SELECT, most recent first). New UserReviewCard.svelte (stars, date, comment, photo, coords link, product link). Page: profile header unchanged + 3 sections (Favoritos w/ ViewToggle grid/list/compact, Votados w/ ViewToggle grid/list/compact, Comentarios list). Messages voted_title/voted_empty/reviews_mine_title/reviews_mine_empty x5 locales (en/es/pt/ja/fr); paraglide recompiled. Post-028 note: votes are star reviews so Votados = rated whiskies (getUserReviewedSlugs); legacy votes-table badge enhancement dropped. Verified: check 0 errors, 82 tests pass, build OK; runtime E2E on isolated local DB — /user/{id} 200 with all 3 sections populated, anon/other-user 307 home, /user/{id}/favorites 301.

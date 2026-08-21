@@ -1,5 +1,6 @@
 import { WHISKIES } from '$lib/data/whiskies';
 import originData from '$lib/data/origins.json';
+import { DISTILLERIES } from '$lib/data/distilleries';
 import { LOCALE_CONFIG, LOCALES } from '$lib/utils/locales';
 
 const LOCALE_PREFIX = Object.fromEntries(
@@ -38,6 +39,11 @@ export function buildLocaleSitemap(origin: string, locale: string): string {
 	// Origin pages
 	for (const o of originData) {
 		urls.push(makeUrl(`${origin}${prefix}/origen/${o.id}`, origin, locale));
+	}
+
+	// Distillery pages
+	for (const d of DISTILLERIES) {
+		urls.push(makeUrl(`${origin}${prefix}/destileria/${d.slug ?? d.id}`, origin, locale));
 	}
 
 	return `<?xml version="1.0" encoding="UTF-8"?>

@@ -1,4 +1,4 @@
-Status: WORKING-AGENT-main
+Status: DONE
 
 ## Progress
 
@@ -197,3 +197,5 @@ No new message keys needed — existing `seo_home_title`, `seo_product_title`, `
 
 ## Progress
 
+- 2026-08-21 (ox-alpha): Took over from stale session. Re-baselined spec against post-032 routing (en base at /, /es, /br, /jp, /fr). Next: SEO.svelte + seo.ts helper, then page integration.
+- 2026-08-21 (ox-alpha): DONE. Created SEO.svelte (canonical/OG/Twitter/hreflang/x-default/noindex; origin via paraglide getUrlOrigin) + utils/seo.ts buildAlternates/buildHreflangAlternates. Integrated into home, product (kept JSON-LD), origin (removed hardcoded borum.com.uy hreflangs; translated slugs per locale), CMS [slug], favorites (noindex). Admin noindex once via admin/+layout.svelte. Removed duplicate global title/desc from root layout. Generated static/images/og-default.webp (1200x630). Fixed stale admin stats test (karma -> product_ratings). check 0 errors, 67 tests pass, build OK. Runtime-verified tags on /, /es/, /whisky/x, /origen/scotland, /about.

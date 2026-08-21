@@ -4,6 +4,9 @@ import { getReviews as getCachedReviews, invalidateReviews, invalidateRating } f
 import { getSessionUser } from '$lib/server/session';
 import type { CountryCode } from '$lib/types';
 
+const MAX_IMAGE_BYTES = 3 * 1024 * 1024;
+const IMAGE_TYPES = new Set(['image/jpeg', 'image/png', 'image/webp']);
+
 export async function GET({ url }) {
 	const productId = url.searchParams.get('productId');
 	const country = (url.searchParams.get('country') ?? 'UY') as CountryCode;
@@ -13,18 +16,35 @@ export async function GET({ url }) {
 }
 
 export async function POST({ request, cookies }) {
-	const body = await request.json().catch(() => ({}));
-	const { country, productId, score, comment } = body as {
-		country?: CountryCode;
-		productId?: string;
-		score?: number;
-		comment?: string;
-	};
-	if (!country || !productId || typeof score !== 'number') {
+	let body: FormData;
+	try {
+		body = await request.formData();
+	} catch {
+		return json({ error: 'missing_params' }, { status: 400 });
+	}
+
+	const country = body.get('country') as CountryCode | null;
+	const productId = (body.get('productId') as string | null)?.trim() || null;
+	const score = Number(body.get('score'));
+	const comment = ((body.get('comment') as string | null) ?? '').trim();
+	const latRaw = body.get('lat');
+	const lngRaw = body.get('lng');
+	const file = body.get('image');
+
+	if (!country || !productId || !Number.isFinite(score)) {
 		return json({ error: 'missing_params' }, { status: 400 });
 	}
 	const user = await getSessionUser(cookies);
 	if (!user) return json({ error: 'not_authed' }, { status: 401 });
+
+	let image: { data: Buffer; type: string } | null = null;
+	if (file && typeof file === 'object' && 'arrayBuffer' in file && file.size > 0) {
+		if (!IMAGE_TYPES.has(file.type)) return json({ error: 'bad_image_type' }, { status: 400 });
+		if (file.size > MAX_IMAGE_BYTES) return json({ error: 'image_too_large' }, { status: 400 });
+		image = { data: Buffer.from(await file.arrayBuffer()), type: file.type };
+	}
+	const lat = latRaw != null ? Number(latRaw) : NaN;
+	const lng = lngRaw != null ? Number(lngRaw) : NaN;
 
 	try {
 		const review = await insertReview({
@@ -33,7 +53,10 @@ export async function POST({ request, cookies }) {
 			user_name: user.name,
 			score,
 			comment,
-			country
+			country,
+			image,
+			lat: Number.isFinite(lat) ? lat : null,
+			lng: Number.isFinite(lng) ? lng : null
 		});
 		invalidateReviews(country, productId);
 		invalidateRating();

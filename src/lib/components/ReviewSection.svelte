@@ -1,11 +1,13 @@
 <script lang="ts">
-	import { BadgeCheck, MessageSquare, Star } from '@lucide/svelte';
+	import { BadgeCheck, MapPin, MessageSquare, Star } from '@lucide/svelte';
 	import { onMount } from 'svelte';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { session } from '$lib/stores/session.svelte';
 	import { m } from '$lib/paraglide/messages';
 	import { getLocale } from '$lib/paraglide/runtime';
 	import { formatDate } from '$lib/utils/format';
+	import { formatCoords } from '$lib/utils/image';
+	import ReviewAttachments from '$lib/components/ReviewAttachments.svelte';
 	import type { Review } from '$lib/types';
 
 	let {
@@ -23,6 +25,8 @@
 	let reviews = $state<Review[]>(initial);
 	let score = $state(5);
 	let comment = $state('');
+	let file = $state<File | null>(null);
+	let coords = $state<{ lat: number; lng: number } | null>(null);
 	let posting = $state(false);
 	let reload = $state(0);
 
@@ -52,13 +56,21 @@
 		}
 		posting = true;
 		try {
-			const res = await fetch('/api/reviews', {
-				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ country: countryCode, productId, score, comment })
-			});
+			const body = new FormData();
+			body.set('country', countryCode);
+			body.set('productId', productId);
+			body.set('score', String(score));
+			body.set('comment', comment);
+			if (file) body.set('image', file);
+			if (coords) {
+				body.set('lat', String(coords.lat));
+				body.set('lng', String(coords.lng));
+			}
+			const res = await fetch('/api/reviews', { method: 'POST', body });
 			if (res.ok) {
 				comment = '';
+				file = null;
+				coords = null;
 				reload++;
 			} else {
 				ui.showToast(m.error_generic(), true);
@@ -100,13 +112,14 @@
 					</button>
 				{/each}
 			</div>
-			<textarea
-				bind:value={comment}
-				placeholder={m.reviews_placeholder()}
-				rows={3}
-				class={inputCls}
-			></textarea>
-			<button
+		<textarea
+			bind:value={comment}
+			placeholder={m.reviews_placeholder()}
+			rows={3}
+			class={inputCls}
+		></textarea>
+		<ReviewAttachments bind:file bind:coords />
+		<button
 				type="submit"
 				disabled={posting}
 				class="self-end rounded-xl bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-700 disabled:opacity-50 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
@@ -161,6 +174,25 @@
 							</div>
 							{#if review.comment}
 								<p class="mt-2 text-sm text-zinc-700 dark:text-zinc-300">{review.comment}</p>
+							{/if}
+							{#if review.image_url}
+								<img
+									src={review.image_url}
+									alt=""
+									loading="lazy"
+									class="mt-2 max-h-64 w-auto rounded-xl object-cover"
+								/>
+							{/if}
+							{#if review.lat != null && review.lng != null}
+								<a
+									href="https://maps.google.com/?q={review.lat},{review.lng}"
+									target="_blank"
+									rel="noopener noreferrer"
+									class="mt-2 inline-flex items-center gap-1 text-xs text-zinc-500 transition hover:text-accent dark:text-zinc-400"
+								>
+									<MapPin size={12} />
+									{formatCoords(review.lat, review.lng)}
+								</a>
 							{/if}
 						</div>
 					</div>

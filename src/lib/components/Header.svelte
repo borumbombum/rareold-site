@@ -5,7 +5,7 @@
     import { localizeHref } from "$lib/paraglide/runtime";
     import { session } from "$lib/stores/session.svelte";
     import { ui } from "$lib/stores/ui.svelte";
-    import { filters } from "$lib/stores/filters.svelte";
+    import { filters, resetFilters } from "$lib/stores/filters.svelte";
     import { Menu } from "@lucide/svelte";
     import SearchBar from "./SearchBar.svelte";
     import ThemeToggle from "./ThemeToggle.svelte";
@@ -21,7 +21,7 @@
     const user = $derived(session.user);
     const isAuthed = $derived(session.isAuthed);
     const filterActive = $derived(filters.origin !== "all" || filters.region !== null);
-    const profileHref = $derived(user ? localizeHref(`/user/${user.id}/favorites`) : "#");
+    const profileHref = $derived(user ? localizeHref(`/user/${user.id}`) : "#");
 </script>
 
 <header
@@ -41,7 +41,7 @@
             {/if}
         </button>
 
-        <a href={homeHref} class="flex items-center">
+        <a href={homeHref} onclick={resetFilters} class="flex items-center">
             <img src="/images/rareold-logo.svg" alt="Rare Old" class="h-6 w-auto" />
         </a>
 
@@ -69,6 +69,10 @@
                 <InstagramIcon size={16} />
                 <span class="hidden md:inline">{m.nav_instagram()}</span>
             </a>
+
+            <div class="sm:hidden">
+                <LanguageSwitcher flagsOnly />
+            </div>
 
             <div class="hidden sm:block">
                 <ThemeToggle />

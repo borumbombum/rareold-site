@@ -2,7 +2,9 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
-	import { localizeHref } from '$lib/paraglide/runtime';
+	import { localizeHref, getUrlOrigin } from '$lib/paraglide/runtime';
+	import { buildAlternates } from '$lib/utils/seo';
+	import SEO from '$lib/components/SEO.svelte';
 	import { WHISKIES } from '$lib/data/whiskies';
 	import Hero from '$lib/components/Hero.svelte';
 	import OriginFilters from '$lib/components/OriginFilters.svelte';
@@ -19,7 +21,7 @@
 	import { m } from '$lib/paraglide/messages';
 	import { getLocale } from '$lib/paraglide/runtime';
 	import { formatNumber } from '$lib/utils/format';
-	import { LOCALE_CONFIG, LOCALES, type LocaleKey } from '$lib/utils/locales';
+	import type { LocaleKey } from '$lib/utils/locales';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -77,14 +79,18 @@
 	);
 	const mode = $derived(browser ? view.current : data.view);
 	const count = $derived(ranked.length);
+	const alternates = $derived(
+		buildAlternates((lc: LocaleKey) => `/origen/${originSlug(data.slug, lc)}`, getUrlOrigin())
+	);
 </script>
 
-<svelte:head>
-	<title>{originName} — Rare Old</title>
-	{#each LOCALES as lc}
-		<link rel="alternate" hreflang={lc} href="https://borum.com.uy{LOCALE_CONFIG[lc].path}/origen/{originSlug(data.slug, lc)}" />
-	{/each}
-</svelte:head>
+<SEO
+	title="{originName} — Rare Old"
+	description={m.origin_page_subtitle({ origin: originName })}
+	canonicalPath={localizeHref(`/origen/${originSlug(data.slug, locale)}`)}
+	ogImage={heroImageUrl.startsWith('/') ? getUrlOrigin() + heroImageUrl : heroImageUrl}
+	hreflangAlternates={alternates}
+/>
 
 <Hero
 	imageUrl={heroImageUrl}

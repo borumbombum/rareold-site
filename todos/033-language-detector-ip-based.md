@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Add IP-based language detector that suggests localized URL
 
@@ -53,3 +53,5 @@ geolocation API called server-side. Depends on 032 (English as base) being done 
 - 2026-08-21 (ox-alpha): Spec rewritten per user direction — dropped Vercel-header approach
   (must stay platform-agnostic), added language-proximity fallback (e.g. Portugal → `/br`),
   worst-case English, and dependency on 032 being implemented first.
+- 2026-08-21 (ox-alpha): Started. Plan: src/lib/server/geo.ts (provider-isolated resolver + country->locale map + TTL cache), wire into hooks.server.ts before paraglide, cookie rareold.detected_lang, ?lang= override, unit tests.
+- 2026-08-21 (ox-alpha): DONE. src/lib/server/geo.ts (ipwho.is resolver isolated behind resolveCountry(), GEO_IP_ENDPOINT env override, country->locale proximity map, 24h positive / 5min negative TTL cache size-capped at 10k, in-flight dedupe, private-IP guard, 1s timeout). hooks.server.ts geoHandle between legacyEnRedirect and paraglide: exact-root-only 302, GET only, bots skipped, PARAGLIDE_LOCALE/detected_lang cookies respected, prefixed paths record rareold.detected_lang, ?lang=xx forced override. Unit tests (13) cover map + resolver w/ mocked fetch. Runtime-verified: /?lang=es->302 /es/+cookie, /?lang=ja->302 /jp/, /?lang=en stays+cookie, deep links never redirect, bot UA stays, PARAGLIDE_LOCALE wins. check 0 errors, build OK.

@@ -1,4 +1,16 @@
-import type { Review, Whisky } from '$lib/types';
+import type { Distillery, Review, Whisky } from '$lib/types';
+
+interface OrganizationSchema {
+	'@context': string;
+	'@type': string;
+	name: string;
+	url: string;
+	description?: string;
+	logo?: string;
+	foundingDate?: string;
+	sameAs?: string[];
+}
+
 
 interface SchemaReview {
 	'@type': 'Review';
@@ -100,6 +112,38 @@ export function buildProductSchema(
 			...(r.comment ? { reviewBody: r.comment } : {}),
 			publisher: { '@type': 'Organization' as const, name: 'Old Rare' }
 		}));
+	}
+
+	return schema;
+}
+
+export function buildOrganizationSchema(
+	distillery: Distillery,
+	origin: string
+): OrganizationSchema {
+	const schema: OrganizationSchema = {
+		'@context': 'https://schema.org',
+		'@type': 'Organization',
+		name: distillery.name,
+		url: `${origin}/destileria/${distillery.slug ?? distillery.id}`
+	};
+
+	if (distillery.description) {
+		schema.description = distillery.description.replace(/<[^>]*>/g, '').slice(0, 5000);
+	}
+
+	if (distillery.image) {
+		schema.logo = distillery.image.startsWith('http')
+			? distillery.image
+			: `${origin}${distillery.image}`;
+	}
+
+	if (distillery.founded) {
+		schema.foundingDate = String(distillery.founded);
+	}
+
+	if (distillery.website) {
+		schema.sameAs = [distillery.website];
 	}
 
 	return schema;

@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Public distillery page (/destileria/[slug])
 
@@ -59,3 +59,5 @@ Distilleries are now real entities (039: `distilleries` table, `products.distill
 - `npm run check`, `npm test`, `npm run build` pass.
 
 ## Progress
+- 2026-08-21 (ox-alpha): Starting. Note: locales are now 5 (fr added in 034) so new messages go to all five files. Next: study distilleries.json shape, origen page pattern, vite urlPatterns, schema.ts.
+- 2026-08-21 (ox-alpha): DONE. Route destileria/[slug] (+page.server: getDistilleryBySlug(site, slug) w/ 404, products filtered by p.distillery?.id, getRatingMap, same cache headers as origen, schemaJson via new buildOrganizationSchema in server/schema.ts). vite.config.ts: /destileria/:slug urlPatterns block (en base /distillery, pt /br/destilaria, ja+fr /destileria). Hero.svelte extended with optional children snippet (meta line: flag+country, region, founded year m.destillery_founded({year}), external website link). Tasteatlas layout: desktop sticky TOC (Products + History when description exists), products section w/ ViewToggle grid/list/compact sorted by avg_rating, history @html like product page. Messages destillery_products/history/founded/website x5 locales. Sitemaps include distillery URLs per locale. Verified runtime on isolated DB: /destileria/tomatin 200 w/ 7 products ranked + JSON-LD Organization + hreflang alternates; /es/destileria/tomatin renders Spanish chrome; unknown slug 404; history shows for london-distillery-company and hides when empty; sitemap-*.xml contains destileria URLs. check 0 errors, 82 tests, build OK.

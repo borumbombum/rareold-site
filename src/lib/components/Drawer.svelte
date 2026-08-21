@@ -4,7 +4,7 @@
 	import { localizeHref, getLocale } from '$lib/paraglide/runtime';
 	import { m } from '$lib/paraglide/messages';
 	import { ui } from '$lib/stores/ui.svelte';
-	import { filters, setRegion } from '$lib/stores/filters.svelte';
+	import { filters, setRegion, resetFilters } from '$lib/stores/filters.svelte';
 	import { ORIGINS, originKey, originLabel, originSlug, regionsByOrigin } from '$lib/utils/origins';
 	import { WHISKIES } from '$lib/data/whiskies';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
@@ -40,6 +40,7 @@
 
 	function pickOrigin(key: string) {
 		if (key === 'all') {
+			resetFilters();
 			goto(localizeHref('/'));
 		} else {
 			goto(localizeHref(`/origen/${originSlug(key, getLocale())}`));

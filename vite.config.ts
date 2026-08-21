@@ -31,6 +31,16 @@ export default defineConfig({
 					]
 				},
 				{
+					pattern: ':protocol://:domain(.*)::port?/destileria/:slug',
+					localized: [
+						['pt', ':protocol://:domain(.*)::port?/br/destilaria/:slug'],
+						['ja', ':protocol://:domain(.*)::port?/jp/destileria/:slug'],
+						['fr', ':protocol://:domain(.*)::port?/fr/destileria/:slug'],
+						['es', ':protocol://:domain(.*)::port?/es/destileria/:slug'],
+						['en', ':protocol://:domain(.*)::port?/distillery/:slug']
+					]
+				},
+				{
 					pattern: ':protocol://:domain(.*)::port?/:path(.*)?',
 					localized: [
 						['pt', ':protocol://:domain(.*)::port?/br/:path(.*)?'],

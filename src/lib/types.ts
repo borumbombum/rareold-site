@@ -35,6 +35,9 @@ export interface Review {
 	country: CountryCode;
 	created_at: string;
 	is_verified_purchase?: boolean;
+	image_url?: string | null;
+	lat?: number | null;
+	lng?: number | null;
 }
 
 export interface UserData {

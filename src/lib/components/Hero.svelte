@@ -1,14 +1,18 @@
 <script lang="ts">
+	import type { Snippet } from 'svelte';
+
 	let {
 		imageUrl,
 		title,
 		subtitle,
-		count
+		count,
+		children
 	}: {
 		imageUrl: string;
 		title: string;
 		subtitle: string;
 		count?: string;
+		children?: Snippet;
 	} = $props();
 
 	let imgSrc = $derived(imageUrl);
@@ -31,6 +35,11 @@
 	<div class="hero__content mx-auto max-w-7xl px-6 w-full">
 		<h1 class="hero__title font-display leading-[100%]">{title}</h1>
 		<p class="hero__subtitle">{subtitle}</p>
+		{#if children}
+			<div class="mt-3">
+				{@render children?.()}
+			</div>
+		{/if}
 		{#if count}
 			<p class="hero__count">{count}</p>
 		{/if}

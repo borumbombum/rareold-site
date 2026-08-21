@@ -14,6 +14,7 @@ import {
 	setUserRole
 } from '$lib/server/admin';
 import { upsertUser } from '$lib/server/users';
+import { insertReview } from '$lib/server/reviews';
 
 const dbs: Client[] = [];
 
@@ -105,16 +106,19 @@ describe('admin reviews', () => {
 });
 
 describe('admin stats', () => {
-	it('reports counts and top products by karma', async () => {
+	it('reports counts and top products by rating', async () => {
 		const client = await db();
 		await createProduct(baseProduct, client);
-		await client.execute('INSERT INTO karma (entity_id, karma, vote_count) VALUES (?, ?, ?)', [
-			'test-whisky',
-			10,
-			3
-		]);
-		await upsertUser(
-			{ sub: 'u1', email: 'a@x.com', name: 'A' },
+		await upsertUser({ sub: 'u1', email: 'a@x.com', name: 'A' }, client);
+		await insertReview(
+			{
+				product_id: 'test-whisky',
+				user_id: 'u1',
+				user_name: 'A',
+				score: 4,
+				comment: '',
+				country: 'UY'
+			},
 			client
 		);
 
@@ -122,8 +126,8 @@ describe('admin stats', () => {
 		expect(stats.counts.products).toBe(1);
 		expect(stats.counts.users).toBe(1);
 		expect(stats.top[0].slug).toBe('test-whisky');
-		expect(stats.top[0].karma).toBe(10);
-		expect(stats.top[0].vote_count).toBe(3);
+		expect(stats.top[0].avg_rating).toBe(4);
+		expect(stats.top[0].review_count).toBe(1);
 	});
 });
 

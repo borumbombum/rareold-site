@@ -10,7 +10,14 @@ export interface NewReview {
 	score: number;
 	comment?: string;
 	country: CountryCode;
+	image?: { data: Buffer; type: string } | null;
+	lat?: number | null;
+	lng?: number | null;
 }
+
+const REVIEW_SELECT = `r.id, r.product_id, r.user_id, u.name AS user_name, u.avatar AS user_avatar,
+		       r.score, r.comment, r.country, r.created_at,
+		       (r.image IS NOT NULL) AS has_image, r.lat, r.lng`;
 
 export async function listReviews(
 	productId: string,
@@ -18,8 +25,7 @@ export async function listReviews(
 	db: Client = turso
 ): Promise<Review[]> {
 	const res = await db.execute(
-		`SELECT r.id, r.product_id, r.user_id, u.name AS user_name, u.avatar AS user_avatar,
-		        r.score, r.comment, r.country, r.created_at
+		`SELECT ${REVIEW_SELECT}
 		 FROM reviews r
 		 LEFT JOIN users u ON u.id = r.user_id
 		 WHERE r.product_id = ? AND (? IS NULL OR r.country = ?)
@@ -37,12 +43,16 @@ export async function insertReview(
 	const id = randomUUID();
 	const createdAt = new Date().toISOString();
 	await db.execute(
-		`INSERT INTO reviews (id, product_id, user_id, user_name, score, comment, country, created_at)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+		`INSERT INTO reviews (id, product_id, user_id, user_name, score, comment, country, created_at, image, image_type, lat, lng)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		 ON CONFLICT(product_id, user_id) DO UPDATE SET
 			score = excluded.score,
 			comment = excluded.comment,
-			created_at = excluded.created_at`,
+			created_at = excluded.created_at,
+			image = COALESCE(excluded.image, reviews.image),
+			image_type = COALESCE(excluded.image_type, reviews.image_type),
+			lat = COALESCE(excluded.lat, reviews.lat),
+			lng = COALESCE(excluded.lng, reviews.lng)`,
 		[
 			id,
 			input.product_id,
@@ -51,7 +61,11 @@ export async function insertReview(
 			input.score,
 			input.comment ?? null,
 			input.country,
-			createdAt
+			createdAt,
+			input.image?.data ?? null,
+			input.image?.type ?? null,
+			input.lat ?? null,
+			input.lng ?? null
 		]
 	);
 	return {
@@ -64,6 +78,21 @@ export async function insertReview(
 		country: input.country,
 		created_at: createdAt,
 		is_verified_purchase: false
+	};
+}
+
+/** Fetch the stored photo bytes for a review (null when it has none). */
+export async function getReviewImage(
+	id: string,
+	db: Client = turso
+): Promise<{ data: Buffer; type: string } | null> {
+	const res = await db.execute('SELECT image, image_type FROM reviews WHERE id = ?', [id]);
+	const row = res.rows[0];
+	if (!row || row.image == null) return null;
+	const bytes = row.image instanceof Uint8Array ? row.image : new Uint8Array(row.image as ArrayBuffer);
+	return {
+		data: Buffer.from(bytes),
+		type: row.image_type != null ? String(row.image_type) : 'image/jpeg'
 	};
 }
 
@@ -112,6 +141,7 @@ export async function getUserReviewedSlugs(
 }
 
 function rowToReview(row: Record<string, unknown>): Review {
+	const hasImage = Number(row.has_image ?? 0) === 1;
 	return {
 		id: String(row.id),
 		product_id: String(row.product_id),
@@ -122,7 +152,10 @@ function rowToReview(row: Record<string, unknown>): Review {
 		comment: row.comment != null ? String(row.comment) : null,
 		country: String(row.country) as CountryCode,
 		created_at: String(row.created_at),
-		is_verified_purchase: false
+		is_verified_purchase: false,
+		...(hasImage ? { image_url: `/api/reviews/${String(row.id)}/image` } : {}),
+		...(row.lat != null ? { lat: Number(row.lat) } : {}),
+		...(row.lng != null ? { lng: Number(row.lng) } : {})
 	};
 }
 
@@ -132,14 +165,31 @@ export async function getLatestReviews(
 	db: Client = turso
 ): Promise<Review[]> {
 	const res = await db.execute(
-		`SELECT r.id, r.product_id, r.user_id, u.name AS user_name, u.avatar AS user_avatar,
-		        r.score, r.comment, r.country, r.created_at
+		`SELECT ${REVIEW_SELECT}
 		 FROM reviews r
 		 LEFT JOIN users u ON u.id = r.user_id
 		 WHERE r.comment IS NOT NULL AND r.comment != ''
 		 ORDER BY r.created_at DESC
 		 LIMIT ?`,
 		[limit]
+	);
+	return res.rows.map(rowToReview);
+}
+
+/** A user's own reviews (any rating), most recent first. */
+export async function getUserReviews(
+	userId: string,
+	limit = 20,
+	db: Client = turso
+): Promise<Review[]> {
+	const res = await db.execute(
+		`SELECT ${REVIEW_SELECT}
+		 FROM reviews r
+		 LEFT JOIN users u ON u.id = r.user_id
+		 WHERE r.user_id = ?
+		 ORDER BY r.created_at DESC
+		 LIMIT ?`,
+		[userId, limit]
 	);
 	return res.rows.map(rowToReview);
 }

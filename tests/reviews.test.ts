@@ -1,7 +1,7 @@
 import { afterEach, describe, expect, it } from 'vitest';
 import type { Client } from '@libsql/client';
 import { createTestDb } from './helpers/db';
-import { insertReview, listReviews, getRatingMap, getUserReviewedSlugs } from '$lib/server/reviews';
+import { insertReview, listReviews, getRatingMap, getUserReviewedSlugs, getReviewImage } from '$lib/server/reviews';
 import { upsertUser } from '$lib/server/users';
 
 const dbs: Client[] = [];
@@ -189,5 +189,70 @@ describe('reviews', () => {
 		expect(slugs).toContain('p7');
 		expect(slugs).toContain('p8');
 		expect(slugs).toHaveLength(2);
+	});
+
+	it('persists image and location, exposing image_url and coords on read', async () => {
+		const client = await db();
+		await upsertUser({ sub: 'r9', email: 'r9@example.com', name: 'R9' }, client);
+		const photo = Buffer.from('fake-jpeg-bytes');
+		const created = await insertReview(
+			{
+				product_id: 'p9',
+				user_id: 'r9',
+				user_name: 'R9',
+				score: 4,
+				comment: 'With photo',
+				country: 'UY',
+				image: { data: photo, type: 'image/jpeg' },
+				lat: -34.90111,
+				lng: -56.16453
+			},
+			client
+		);
+
+		const list = await listReviews('p9', undefined, client);
+		expect(list[0].image_url).toBe(`/api/reviews/${created.id}/image`);
+		expect(list[0].lat).toBeCloseTo(-34.90111);
+		expect(list[0].lng).toBeCloseTo(-56.16453);
+
+		const stored = await getReviewImage(created.id, client);
+		expect(stored?.type).toBe('image/jpeg');
+		expect(Buffer.compare(stored!.data, photo)).toBe(0);
+		expect(await getReviewImage('nope', client)).toBeNull();
+	});
+
+	it('keeps the existing photo and location when a review is updated without them', async () => {
+		const client = await db();
+		await upsertUser({ sub: 'r10', email: 'r10@example.com', name: 'R10' }, client);
+		await insertReview(
+			{
+				product_id: 'p10',
+				user_id: 'r10',
+				user_name: 'R10',
+				score: 3,
+				country: 'UY',
+				image: { data: Buffer.from('one'), type: 'image/png' },
+				lat: 1.5,
+				lng: 2.5
+			},
+			client
+		);
+		await insertReview(
+			{
+				product_id: 'p10',
+				user_id: 'r10',
+				user_name: 'R10',
+				score: 5,
+				country: 'UY'
+			},
+			client
+		);
+
+		const list = await listReviews('p10', undefined, client);
+		expect(list).toHaveLength(1);
+		expect(list[0].score).toBe(5);
+		expect(list[0].image_url).toBeTruthy();
+		expect(list[0].lat).toBe(1.5);
+		expect(list[0].lng).toBe(2.5);
 	});
 });

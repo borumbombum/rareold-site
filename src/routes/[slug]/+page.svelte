@@ -1,11 +1,23 @@
 <script lang="ts">
+	import { page } from '$app/state';
+	import { localizeHref, deLocalizeHref, getUrlOrigin } from '$lib/paraglide/runtime';
+	import { buildHreflangAlternates } from '$lib/utils/seo';
+	import SEO from '$lib/components/SEO.svelte';
 	import type { PageData } from './$types';
+
 	let { data }: { data: PageData } = $props();
+
+	const basePath = $derived(deLocalizeHref(page.url.pathname));
+	const alternates = $derived(buildHreflangAlternates(basePath, getUrlOrigin()));
 </script>
 
-<svelte:head>
-	<title>{data.title} — Rare Old</title>
-</svelte:head>
+<SEO
+	title="{data.title} — Rare Old"
+	description={data.title}
+	canonicalPath={localizeHref(basePath)}
+	ogType="article"
+	hreflangAlternates={alternates}
+/>
 
 <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6">
 	<h1 class="font-display text-3xl font-semibold tracking-tight text-zinc-900 dark:text-white sm:text-4xl">

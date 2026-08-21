@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { ArrowLeft, ClipboardList, Store, ExternalLink, Share2, Star } from '@lucide/svelte';
-	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
+	import { getLocale, localizeHref, getUrlOrigin } from '$lib/paraglide/runtime';
+	import { buildHreflangAlternates } from '$lib/utils/seo';
+	import SEO from '$lib/components/SEO.svelte';
 	import { ratingStore, refreshRating, seedRating } from '$lib/stores/rating.svelte';
 	import { originFlag, originLabel } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
@@ -69,14 +71,19 @@
 
 	const resellers = $derived(resellersFor(product, country));
 	const resellerCurrency = $derived(country === 'BR' ? 'BRL' : 'UYU');
+	const alternates = $derived(buildHreflangAlternates(`/whisky/${slug}`, getUrlOrigin()));
 </script>
 
+<SEO
+	title={m.seo_product_title({ name })}
+	description={(description ?? '').slice(0, 160)}
+	canonicalPath={localizeHref(`/whisky/${slug}`)}
+	ogImage={product.image ? getUrlOrigin() + product.image : undefined}
+	ogType="article"
+	hreflangAlternates={alternates}
+/>
+
 <svelte:head>
-	<title>{m.seo_product_title({ name })}</title>
-	<meta
-		name="description"
-		content={(description ?? '').slice(0, 160)}
-	/>
 	{#if schemaJson}
 		{@html `<script type="application/ld+json">${JSON.stringify(schemaJson)}</script>`}
 	{/if}

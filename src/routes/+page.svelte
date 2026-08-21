@@ -2,7 +2,7 @@
     import { onMount } from "svelte";
     import { browser } from "$app/environment";
     import { goto } from "$app/navigation";
-    import { localizeHref } from "$lib/paraglide/runtime";
+    import { localizeHref, getUrlOrigin } from "$lib/paraglide/runtime";
     import HeroHome from "$lib/components/HeroHome.svelte";
     import ActivityFeed from "$lib/components/ActivityFeed.svelte";
     import OriginFilters from "$lib/components/OriginFilters.svelte";
@@ -18,6 +18,8 @@
     import { X } from "@lucide/svelte";
     import { m } from "$lib/paraglide/messages";
     import { getLocale } from "$lib/paraglide/runtime";
+    import { buildHreflangAlternates } from "$lib/utils/seo";
+    import SEO from "$lib/components/SEO.svelte";
     import type { PageData } from "./$types";
 
     let { data }: { data: PageData } = $props();
@@ -59,11 +61,10 @@
         }
         return counts;
     });
+    const alternates = $derived(buildHreflangAlternates('/', getUrlOrigin()));
 </script>
 
-<svelte:head>
-    <title>{m.seo_home_title()}</title>
-</svelte:head>
+<SEO title={m.seo_home_title()} description={m.site_description()} canonicalPath={localizeHref('/')} hreflangAlternates={alternates} />
 
 <HeroHome title={m.ranking_title()} subtitle={m.ranking_subtitle()} />
 

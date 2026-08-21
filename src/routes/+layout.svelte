@@ -13,7 +13,6 @@
     import { session } from "$lib/stores/session.svelte";
     import { favorites } from "$lib/stores/favorites.svelte";
     import { navigation } from "$lib/stores/navigation.svelte";
-    import { m } from "$lib/paraglide/messages";
 
     let { children, data } = $props();
 
@@ -39,8 +38,6 @@
 </script>
 
 <svelte:head>
-    <title>{m.site_name()}</title>
-    <meta name="description" content={m.site_description()} />
     <meta name="theme-color" content="#b45309" />
 </svelte:head>
 
