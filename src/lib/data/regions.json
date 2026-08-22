@@ -30,6 +30,12 @@
     "sort_order": 4
   },
   {
+    "id": "england-london",
+    "origin_id": "england",
+    "name": "London",
+    "sort_order": 4
+  },
+  {
     "id": "ireland-antrim",
     "origin_id": "ireland",
     "name": "Antrim",
@@ -48,10 +54,28 @@
     "sort_order": 6
   },
   {
+    "id": "india-goa",
+    "origin_id": "india",
+    "name": "Goa",
+    "sort_order": 6
+  },
+  {
+    "id": "india-indri",
+    "origin_id": "india",
+    "name": "Indri",
+    "sort_order": 7
+  },
+  {
     "id": "ireland-kerry",
     "origin_id": "ireland",
     "name": "Kerry",
     "sort_order": 7
+  },
+  {
+    "id": "india-rampur",
+    "origin_id": "india",
+    "name": "Rampur",
+    "sort_order": 8
   },
   {
     "id": "ireland-waterford",
@@ -70,18 +94,6 @@
     "origin_id": "japan",
     "name": "Honshu",
     "sort_order": 10
-  },
-  {
-    "id": "other-taiwan",
-    "origin_id": "other",
-    "name": "Taiwan",
-    "sort_order": 11
-  },
-  {
-    "id": "other-wales",
-    "origin_id": "other",
-    "name": "Wales",
-    "sort_order": 12
   },
   {
     "id": "scotland-blended-scotch",
@@ -124,5 +136,23 @@
     "origin_id": "usa",
     "name": "Kentucky",
     "sort_order": 19
+  },
+  {
+    "id": "taiwan-yilan",
+    "origin_id": "taiwan",
+    "name": "Yilan",
+    "sort_order": 19
+  },
+  {
+    "id": "uruguay-maldonado",
+    "origin_id": "uruguay",
+    "name": "Maldonado",
+    "sort_order": 21
+  },
+  {
+    "id": "wales-wales",
+    "origin_id": "wales",
+    "name": "Wales",
+    "sort_order": 22
   }
 ]

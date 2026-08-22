@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Add user-selectable sorting for whisky lists
 
@@ -31,3 +31,5 @@ Currently whiskies are only sorted by rating (avg_rating desc, then review_count
 - `npm run build` succeeds
 
 ## Progress
+
+- 2026-08-21 (ox-alpha): Added `SortKey` type + `sort` state to `filters.svelte.ts` with localStorage persistence (`rareold.sort`, `initSort()`/`setSort()`). Shared `sortWhiskies()` in `src/lib/utils/sort.ts` (top/reviews/latest/worst/az; latest = DB insertion order via `p.rowid AS insertion_order` in db-export — no `created_at` column exists in products table). New `SortSelect.svelte` (rounded-full select matching ViewToggle style) placed next to ViewToggle on homepage and origin pages. Translated `sort_*` labels added to all 5 message files. Verified: data:export OK (160 whiskies), build OK, svelte-check 0 errors.

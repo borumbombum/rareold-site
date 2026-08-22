@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Add Highland Park, Dalmore, and Talisker product lines
 
@@ -38,3 +38,7 @@ For each product:
 - `npm run db:sync && npm run data:export && npm run build` succeeds
 
 ## Progress
+
+- 2026-08-21 (ox-alpha): Added 2 new distilleries (`highland-park` Orkney/Islands f.1798, `talisker` Isle of Skye/Islands f.1830) to `data/seed/distilleries.json` and 7 products to `data/seed/whiskies.json`: Highland Park 12/15/18 Year Old, Talisker 10 Year Old, Talisker 18 Year Old, Talisker Distiller's Edition (45.8%, amontillado finish), Dalmore 18 YO (43%, Matusalem oloroso; completes the Dalmore line since 12/15 already existed). All with bottle photos converted via prepare-image.mjs and structured tasting-note descriptions translated es/en/pt/ja/fr following the catalog's "Presentación de 700 ml… El perfil de sabor" format. db:sync + data:export OK (167 whiskies, 50 distilleries); queue lines ticked in docs/whisky-brands-and-products-to-add.md (Talisker Storm / HP Cask Strength left for later); build OK, svelte-check 0 errors.
+
+- 2026-08-21 (ox-alpha): Audit done — Dalmore already has 12yo + 15yo + King Alexander III (only `dalmore-18-yo` missing); `Islands` region exists (`scotland-islands`). Highland Park + Talisker distilleries don't exist yet → will create full distillery records in `data/seed/distilleries.json` (ON CONFLICT DO NOTHING) plus 7 products: HP 12/15/18, Talisker 10/18/Distiller's Edition, Dalmore 18. Next: research images, write seeds, sync + export.

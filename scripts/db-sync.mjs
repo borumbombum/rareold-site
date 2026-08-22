@@ -15,7 +15,11 @@ const ORIGIN_META = {
 	india: { name: 'India', name_es: 'India', name_pt: 'Índia', name_ja: 'インド', name_fr: 'Inde', flag: '🇮🇳' },
 	canada: { name: 'Canada', name_es: 'Canadá', name_pt: 'Canadá', name_ja: 'カナダ', name_fr: 'Canada', flag: '🇨🇦' },
 	argentina: { name: 'Argentina', name_es: 'Argentina', name_pt: 'Argentina', name_ja: 'アルゼンチン', name_fr: 'Argentine', flag: '🇦🇷' },
-	other: { name: 'Other', name_es: 'Otros', name_pt: 'Outros', name_ja: 'その他', name_fr: 'Autres', flag: '🌍' }
+	uruguay: { name: 'Uruguay', name_es: 'Uruguay', name_pt: 'Uruguai', name_ja: 'ウルグアイ', name_fr: 'Uruguay', flag: '🇺🇾' },
+	england: { name: 'England', name_es: 'Inglaterra', name_pt: 'Inglaterra', name_ja: 'イングランド', name_fr: 'Angleterre', flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿' },
+	taiwan: { name: 'Taiwan', name_es: 'Taiwán', name_pt: 'Taiwan', name_ja: '台湾', name_fr: 'Taïwan', flag: '🇹🇼' },
+	wales: { name: 'Wales', name_es: 'Gales', name_pt: 'País de Gales', name_ja: 'ウェールズ', name_fr: 'Pays de Galles', flag: '🏴󠁧󠁢󠁷󠁬󠁳󠁿' },
+	germany: { name: 'Germany', name_es: 'Alemania', name_pt: 'Alemanha', name_ja: 'ドイツ', name_fr: 'Allemagne', flag: '🇩🇪' }
 };
 
 const url = process.env.TURSO_URL;
@@ -54,8 +58,10 @@ try {
 
 // Origins are derived from the catalog data, not a hardcoded list. Only
 // presentation metadata (display name, flag, sort order) lives here.
+// Every ORIGIN_META key is bootstrapped even with zero products so empty
+// origins (e.g. germany, uruguay) still exist and get origin pages.
 const metaRank = new Map(Object.keys(ORIGIN_META).map((id, i) => [id, i]));
-const seen = new Set();
+const seen = new Set(Object.keys(ORIGIN_META));
 const appearance = new Map();
 let idx = 0;
 for (const w of whiskies) {
@@ -69,8 +75,6 @@ for (const w of whiskies) {
 
 const origins = [...seen]
 	.sort((a, b) => {
-		if (a === 'other') return 1;
-		if (b === 'other') return -1;
 		const ra = metaRank.get(a) ?? 100 + (appearance.get(a) ?? 0);
 		const rb = metaRank.get(b) ?? 100 + (appearance.get(b) ?? 0);
 		return ra - rb;

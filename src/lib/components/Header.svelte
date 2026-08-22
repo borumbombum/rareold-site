@@ -60,6 +60,13 @@
             </a>
 
             <a
+                href={localizeHref("/map", { locale })}
+                class="hidden text-sm font-medium text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white md:inline-flex"
+            >
+                {m.nav_map()}
+            </a>
+
+            <a
                 href={PUBLIC_INSTAGRAM_URL}
                 target="_blank"
                 rel="noopener noreferrer"

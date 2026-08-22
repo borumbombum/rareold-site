@@ -10,6 +10,8 @@
 - Stop after each todo completed and report back before continuing.
 - If you consider some change might break current usage experience then query for confirmation.
 - Never ask to commiit, and never push to remote without being explictly asked. Remote repo goes directly to production so its very risky to push to remote.
+- Only add skills in .agents not in .opencode
+- Every time you finish a hard task write what you learned about in an docs/LEARNINGS.md file.
 
 ## Task workflow
 
@@ -117,3 +119,9 @@ Current status of `/todos/`:
 - `043-pages-cms-full-admin.md` — TODO
 - `044-sqlite-download-paywall.md` — TODO
 - `045-origins-admin-crud.md` — TODO
+- `046-distillery-public-page.md` — DONE
+- `047-remove-brand-use-distillery.md` — DONE
+- `048-featured-whiskies-homepage.md` — TODO
+- `049-follow-love-distillery.md` — TODO
+- `050-product-specs-pills-above-description.md` — TODO
+- `051-pin-origin-active-origin-first.md` — TODO

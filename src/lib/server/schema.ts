@@ -79,7 +79,12 @@ export function buildProductSchema(
 			japan: 'Japan',
 			india: 'India',
 			canada: 'Canada',
-			argentina: 'Argentina'
+			argentina: 'Argentina',
+			uruguay: 'Uruguay',
+			england: 'England',
+			taiwan: 'Taiwan',
+			wales: 'Wales',
+			germany: 'Germany'
 		};
 		const countryName = countryNames[product.origin] ?? product.origin;
 		schema.countryOfOrigin = { '@type': 'Country', name: countryName };

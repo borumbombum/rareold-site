@@ -1,11 +1,18 @@
 <script lang="ts">
-	import { ChevronDown, X } from '@lucide/svelte';
+	import { ChevronDown, X, MapPin } from '@lucide/svelte';
 	import { goto } from '$app/navigation';
 	import { localizeHref, getLocale } from '$lib/paraglide/runtime';
 	import { m } from '$lib/paraglide/messages';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { filters, setRegion, resetFilters } from '$lib/stores/filters.svelte';
-	import { ORIGINS, originKey, originLabel, originSlug, regionsByOrigin } from '$lib/utils/origins';
+	import {
+		ORIGINS,
+		originKey,
+		originLabel,
+		originSlug,
+		regionsByOrigin,
+		sortOriginsByCount
+	} from '$lib/utils/origins';
 	import { WHISKIES } from '$lib/data/whiskies';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	import ThemeToggle from './ThemeToggle.svelte';
@@ -28,6 +35,8 @@
 				: 'bg-zinc-100 text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400'
 		}`;
 	}
+
+	const sortedOrigins = $derived(sortOriginsByCount(originCounts));
 
 	const open = $derived(ui.drawerOpen);
 
@@ -133,7 +142,7 @@
 				{/if}
 			</button>
 
-			{#each ORIGINS as origin (origin.key)}
+		{#each sortedOrigins as origin (origin.key)}
 				{@const regions = regionsByOriginMap[origin.key] ?? []}
 				<div class="mt-1">
 					<div
@@ -199,6 +208,19 @@
 				</div>
 			{/each}
 		</nav>
+
+	<div class="shrink-0 border-t border-zinc-200 px-5 py-3 dark:border-zinc-800">
+		<button
+			onclick={() => {
+				goto(localizeHref('/map'));
+				ui.closeDrawer();
+			}}
+			class="flex w-full items-center gap-2 rounded-lg py-1 text-sm font-medium text-zinc-700 transition hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-white"
+		>
+			<MapPin size={16} />
+			{m.nav_map()}
+		</button>
+	</div>
 
 	<div class="shrink-0 border-t border-zinc-200 px-5 py-4 dark:border-zinc-800">
 		<div class="flex items-center gap-2">

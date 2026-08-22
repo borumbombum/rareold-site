@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Rework origins: remove "Other", country-only, sort by product count, overflow modal
 
@@ -36,3 +36,5 @@ Currently there's an "Other" catch-all origin for non-standard countries (Taiwan
 - `npm run build` succeeds
 
 ## Progress
+
+- 2026-08-21 (ox-alpha): Removed the "other" catch-all entirely. Added `taiwan` (🇹🇼) and `wales` (🏴󠁧󠁢󠁷󠁬󠁳󠁿) to ORIGIN_META; moved Kavalan ×8 → taiwan/Yilan and Penderyn ×4 → wales/Wales in seed + direct Turso UPDATEs; deleted orphaned `other` origin + `other-taiwan`/`other-wales` regions from DB. Export now: 11 real-country origins, 167 whiskies. Frontend: `origins.ts` originKey() no longer falls back to 'other', added `MAX_VISIBLE_ORIGINS = 7` + `sortOriginsByCount()`; OriginFilters shows top-7 pills sorted by product count with a "More origins" overflow button opening a panel (selected origin always visible); Drawer got the same split with a collapsible overflow group; schema.ts countryNames + origen hero images extended (Taipei 101 night shot, Caernarfon/Snowdonia lake — both verified live URLs); `more_origins` translated in es/en/pt/ja/fr. svelte-check 0 errors, build OK.

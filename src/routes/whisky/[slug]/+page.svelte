@@ -4,7 +4,7 @@
 	import { buildHreflangAlternates } from '$lib/utils/seo';
 	import SEO from '$lib/components/SEO.svelte';
 	import { ratingStore, refreshRating, seedRating } from '$lib/stores/rating.svelte';
-	import { originFlag, originLabel } from '$lib/utils/origins';
+	import { originFlag, originLabel, originSlug } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
 	import { formatPrice } from '$lib/utils/format';
 	import { resellersFor } from '$lib/utils/resellers';
@@ -119,13 +119,25 @@
 
 		<div class="min-w-0">
 			<p class="text-sm font-medium uppercase tracking-wide text-zinc-400">
-				{flag} {originLabel(product.origin)}
+				<a
+					href={localizeHref(`/origen/${originSlug(product.origin, getLocale())}`)}
+					class="transition hover:text-zinc-600 dark:hover:text-zinc-200"
+				>
+					{flag} {originLabel(product.origin)}
+				</a>
 			</p>
 			<h1 class="font-display mt-1 text-3xl font-semibold tracking-tight text-zinc-900 dark:text-white sm:text-4xl">
 				{name}
 			</h1>
 			{#if product.distillery}
-				<p class="mt-1 text-zinc-500 dark:text-zinc-400">{l10n(product.distillery, 'name')}</p>
+				<p class="mt-1 text-zinc-500 dark:text-zinc-400">
+					<a
+						href={localizeHref(`/destileria/${product.distillery.id}`)}
+						class="transition hover:text-zinc-900 dark:hover:text-white"
+					>
+						{l10n(product.distillery, 'name')}
+					</a>
+				</p>
 			{/if}
 
 			{#if description}

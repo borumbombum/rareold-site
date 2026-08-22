@@ -94,6 +94,8 @@ Copy `.env.example` to `.env`. Variables:
 | `AUTH_SECRET`                   | Secret that signs our JWTs (`openssl rand -base64 32`)                                                                                                                              |
 | `PUBLIC_INSTAGRAM_URL`          | Instagram link in the header                                                                                                                                                        |
 | `TURSO_URL`, `TURSO_AUTH_TOKEN` | Turso database URL + token. Used at build (`db:sync`/`data:export`) **and at runtime** for live data — set all three (`TURSO_URL`, `TURSO_AUTH_TOKEN`, `AUTH_SECRET`) in Vercel too |
+| `GEO_IP_ENDPOINT`               | IP geolocation provider for first-visit language detection (must return JSON with `country_code`). Defaults to `https://ipwho.is/` (free, no key)                                   |
+| `YOUTUBE_API_KEY`               | YouTube Data API v3 key for `npm run data:youtube-videos` (fills missing influencer videos). Build-only; not needed at runtime                                                     |
 
 ## Styling
 

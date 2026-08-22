@@ -21,8 +21,8 @@ One whisky per line:
 - The user owns this file: add new lines freely; agents only tick them off.
 
 <!-- Examples (syntax only, not real entries):
-Talisker 10 Year Old - Talisker
-Highland Park 12 Year Old - Highland Park
+✅ Talisker 10 Year Old - Talisker
+✅ Highland Park 12 Year Old - Highland Park
 -->
 
 ---
@@ -31,6 +31,7 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 
 ## Scotland — Islay
 
+Arran Barrel Reserve - Arran Distillers, source image: https://static.whiskybase.com/storage/whiskies/1/3/8215/233765-big.jpg, info here: https://www.whiskybase.com/whiskies/whisky/138215/arran-barrel-reserve - Add this spanish influencer review: https://www.youtube.com/watch?v=0WYfqONQ60k
 Ardbeg 10 YO - Ardbeg
 Ardbeg Uigeadail - Ardbeg
 Ardbeg Corryvreckan - Ardbeg
@@ -55,12 +56,12 @@ Ardnahoe Inaugural Release - Ardnahoe
 
 ## Scotland — Islands
 
-Talisker 10 YO - Talisker
+✅ Talisker 10 YO - Talisker
 Talisker Storm - Talisker
-Talisker 18 YO - Talisker
-Talisker Distillers Edition - Talisker
-Highland Park 12 YO - Highland Park
-Highland Park 18 YO - Highland Park
+✅ Talisker 18 YO - Talisker
+✅ Talisker Distillers Edition - Talisker
+✅ Highland Park 12 YO - Highland Park
+✅ Highland Park 18 YO - Highland Park
 Highland Park Cask Strength - Highland Park
 Scapa 13 YO - Scapa
 Tobermory 12 YO - Tobermory
@@ -267,7 +268,7 @@ E.H. Taylor Jr Small Batch - Buffalo Trace
 W.L. Weller Special Reserve - Buffalo Trace
 Angel's Envy Kentucky Bourbon - Angel's Envy
 Bulleit Bourbon - Bulleit
-Michter's US*1 Small Batch Bourbon - Michter's
+Michter's US\*1 Small Batch Bourbon - Michter's
 Willett Pot Still Reserve - Willett
 Noah's Mill - Willett
 Kentucky Peerless Small Batch - Peerless
@@ -281,7 +282,7 @@ Uncle Nearest 1884 Small Batch - Uncle Nearest
 ## USA — Rye & Craft
 
 Bulleit 95 Rye - Bulleit
-Michter's US*1 Single Barrel Rye - Michter's
+Michter's US\*1 Single Barrel Rye - Michter's
 WhistlePig 10 YO Rye - WhistlePig
 High West Double Rye! - High West
 Westward American Single Malt - Westward
@@ -327,11 +328,11 @@ Macaloney's Island Single Malt - Macaloney's
 
 ## India
 
-Paul John Edited - Paul John
-Paul John Classic Select Casks - Paul John
-Rampur Indian Single Malt - Rampur
-Indri-Trini Single Malt - Indri
-Kamet Indian Single Malt - Kamet
+✅ Paul John Edited - Paul John
+✅ Paul John Classic Select Casks - Paul John
+✅ Rampur Indian Single Malt - Rampur
+✅ Indri-Trini Single Malt - Indri
+✅ Kamet Indian Single Malt - Kamet
 
 ## Rest of World
 

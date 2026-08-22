@@ -9,12 +9,14 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import OriginFilters from '$lib/components/OriginFilters.svelte';
 	import ViewToggle from '$lib/components/ViewToggle.svelte';
+	import SortSelect from '$lib/components/SortSelect.svelte';
 	import ProductCard from '$lib/components/ProductCard.svelte';
 	import ProductRow from '$lib/components/ProductRow.svelte';
 	import ProductCompact from '$lib/components/ProductCompact.svelte';
 	import { ratingStore, refreshRating, seedRating } from '$lib/stores/rating.svelte';
 	import { view } from '$lib/stores/view.svelte';
-	import { filters, setRegion, resetFilters } from '$lib/stores/filters.svelte';
+	import { filters, initSort, setRegion, resetFilters } from '$lib/stores/filters.svelte';
+	import { sortWhiskies } from '$lib/utils/sort';
 	import { originFlag, originKey, originLabel, originSlug, regionsByOrigin } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
 	import { X, ArrowLeft } from '@lucide/svelte';
@@ -37,7 +39,11 @@
 		india: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1600&h=900&fit=crop',
 		canada: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&h=900&fit=crop',
 		argentina: 'https://turismo.buenosaires.gob.ar/sites/turismo/files/obelisco-baverde-noche-luces1500x610.jpg',
-		other: '/images/whisky.webp'
+		uruguay: 'https://images.unsplash.com/photo-1774279117387-a669e6cc3f9c?w=1600&h=900&fit=crop',
+		germany: 'https://images.unsplash.com/photo-1534313314376-a72289b6181e?w=1600&h=900&fit=crop',
+		england: 'https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=1600&h=900&fit=crop',
+		taiwan: 'https://images.unsplash.com/photo-1748104433499-3d492d0337cb?w=1600&h=900&fit=crop',
+		wales: 'https://unsplash.com/photos/6f0XhPKz6CA/download?force=true&w=1600'
 	};
 
 	const heroImageUrl = $derived(ORIGIN_HERO_IMAGES[data.slug] ?? '/images/whisky.webp');
@@ -55,6 +61,7 @@
 	});
 
 	onMount(() => {
+		initSort();
 		refreshRating(data.products.map((p) => p.slug));
 	});
 
@@ -66,17 +73,7 @@
 			return true;
 		})
 	);
-	const ranked = $derived(
-		[...filtered].sort((a, b) => {
-			const diff = ratingStore.get(b.slug).avg_rating - ratingStore.get(a.slug).avg_rating;
-			if (diff !== 0) return diff;
-			const diffCount = ratingStore.get(b.slug).review_count - ratingStore.get(a.slug).review_count;
-			if (diffCount !== 0) return diffCount;
-			const an = l10n(a, 'name') ?? a.name;
-			const bn = l10n(b, 'name') ?? b.name;
-			return an.localeCompare(bn);
-		})
-	);
+	const ranked = $derived(sortWhiskies(filtered, filters.sort));
 	const mode = $derived(browser ? view.current : data.view);
 	const count = $derived(ranked.length);
 	const alternates = $derived(
@@ -109,7 +106,10 @@
 				<ArrowLeft size={15} />
 				{m.origin_back()}
 			</a>
-			<ViewToggle />
+			<div class="flex items-center gap-2">
+				<SortSelect />
+				<ViewToggle />
+			</div>
 		</div>
 
 		<OriginFilters

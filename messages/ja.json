@@ -237,5 +237,16 @@
     "login_nostr": "Nostrでログイン",
     "home_surprise": "サプライズ",
     "home_top_whiskys": "トップウイスキー",
-    "activity_title": "コミュニティの声"
+    "activity_title": "コミュニティの声",
+    "sort_label": "並び替え",
+    "sort_top": "高評価順",
+    "sort_reviews": "レビュー数順",
+    "sort_latest": "新着順",
+    "sort_worst": "低評価順",
+    "sort_az": "A-Z",
+    "nav_map": "マップ",
+    "map_title": "ウイスキー蒸留所マップ",
+    "map_subtitle": "インタラクティブな世界地図で、当サイトのウイスキーの蒸留所を探索しましょう。",
+    "map_open_distillery": "蒸留所を見る",
+    "map_distilleries": "{count} 蒸留所"
 }

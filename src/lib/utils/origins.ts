@@ -29,8 +29,6 @@ const ROWS: OriginRow[] = (originData as OriginRow[]).map((o) => ({
 
 export const ORIGINS: OriginDef[] = ROWS.map((o) => ({ key: o.id, flag: o.flag }));
 
-const KNOWN = new Set(ORIGINS.map((o) => o.key));
-
 function originNameField(locale: LocaleKey): keyof OriginRow {
 	const key = `name_${locale}` as keyof OriginRow;
 	if (key in ROWS[0]) return key;
@@ -42,8 +40,12 @@ const LOCALE_FIELD: Record<LocaleKey, keyof OriginRow> = Object.fromEntries(
 ) as Record<LocaleKey, keyof OriginRow>;
 
 export function originKey(product: { origin?: string | null }): string {
-	const key = (product.origin ?? '').toLowerCase().trim();
-	return KNOWN.has(key) ? key : 'other';
+	return (product.origin ?? '').toLowerCase().trim();
+}
+
+/** Origins ordered by product count, highest first. */
+export function sortOriginsByCount(counts: Record<string, number>): OriginDef[] {
+	return [...ORIGINS].sort((a, b) => (counts[b.key] ?? 0) - (counts[a.key] ?? 0));
 }
 
 export function originFlag(product: { origin?: string | null }): string {

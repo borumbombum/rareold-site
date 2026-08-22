@@ -236,5 +236,16 @@
     "login_nostr": "Iniciar sesión con Nostr",
     "home_surprise": "Sorpresa",
     "home_top_whiskys": "Top whiskys",
-    "activity_title": "Lo que dice la comunidad"
+    "activity_title": "Lo que dice la comunidad",
+    "sort_label": "Ordenar por",
+    "sort_top": "Mejor valorados",
+    "sort_reviews": "Más reseñados",
+    "sort_latest": "Más recientes",
+    "sort_worst": "Peor valorados",
+    "sort_az": "A-Z",
+    "nav_map": "Mapa",
+    "map_title": "Mapa de destilerías",
+    "map_subtitle": "Explora cada destilería detrás de nuestros whiskies en un mapa mundial interactivo.",
+    "map_open_distillery": "Ver destilería",
+    "map_distilleries": "{count} destilerías"
 }

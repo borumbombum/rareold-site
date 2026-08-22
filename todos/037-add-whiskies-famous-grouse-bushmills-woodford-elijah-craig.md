@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Add Famous Grouse, Bushmills, Woodford Reserve, and Elijah Craig whiskies
 
@@ -29,3 +29,5 @@ Add 4 new whisky brands/products to the database with images and translations in
 - `npm run db:sync && npm run data:export && npm run build` succeeds
 
 ## Progress
+
+- 2026-08-21 (ox-alpha): No work needed — all 4 requested products were already added to the catalog (via the add-product queue flow) and verified present in `src/lib/data/whiskies.json`: `famous-grouse` (scotland), `bushmills-original` (ireland), `woodford-reserve` (usa), `elijah-craig-small-batch` (usa, plus bonus `elijah-craig-rye`). Each has an image, name translations in es/en/pt/ja/fr, and full descriptions in all 5 locales.

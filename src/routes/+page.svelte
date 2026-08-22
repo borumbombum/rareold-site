@@ -7,12 +7,14 @@
     import ActivityFeed from "$lib/components/ActivityFeed.svelte";
     import OriginFilters from "$lib/components/OriginFilters.svelte";
     import ViewToggle from "$lib/components/ViewToggle.svelte";
+    import SortSelect from "$lib/components/SortSelect.svelte";
     import ProductCard from "$lib/components/ProductCard.svelte";
     import ProductRow from "$lib/components/ProductRow.svelte";
     import ProductCompact from "$lib/components/ProductCompact.svelte";
     import { ratingStore, refreshRating, seedRating } from "$lib/stores/rating.svelte";
     import { view } from "$lib/stores/view.svelte";
-    import { filters, setOrigin, setRegion } from "$lib/stores/filters.svelte";
+    import { filters, initSort, setOrigin, setRegion } from "$lib/stores/filters.svelte";
+    import { sortWhiskies } from "$lib/utils/sort";
     import { originFlag, originKey, originLabel, originSlug, regionsByOrigin } from "$lib/utils/origins";
     import { l10n } from "$lib/utils/l10n";
     import { X } from "@lucide/svelte";
@@ -28,6 +30,7 @@
     const locale = $derived(getLocale());
 
     onMount(() => {
+        initSort();
         refreshRating(data.products.map((p) => p.slug));
     });
 
@@ -40,17 +43,7 @@
             return true;
         }),
     );
-    const ranked = $derived(
-        [...filtered].sort((a, b) => {
-            const diff = ratingStore.get(b.slug).avg_rating - ratingStore.get(a.slug).avg_rating;
-            if (diff !== 0) return diff;
-            const diffCount = ratingStore.get(b.slug).review_count - ratingStore.get(a.slug).review_count;
-            if (diffCount !== 0) return diffCount;
-            const an = l10n(a, "name") ?? a.name;
-            const bn = l10n(b, "name") ?? b.name;
-            return an.localeCompare(bn);
-        }),
-    );
+    const ranked = $derived(sortWhiskies(filtered, filters.sort));
     const mode = $derived(browser ? view.current : data.view);
     const count = $derived(ranked.length);
     const originCounts = $derived.by(() => {
@@ -74,7 +67,10 @@
             <p class="font-display text-sm font-semibold uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
                 {m.filters_origin()}
             </p>
-            <ViewToggle />
+            <div class="flex items-center gap-2">
+                <SortSelect />
+                <ViewToggle />
+            </div>
         </div>
 
         <OriginFilters

@@ -70,13 +70,53 @@
     "sort_order": 6
   },
   {
-    "id": "other",
-    "name": "Other",
-    "name_es": "Otros",
-    "name_pt": "Outros",
-    "name_ja": null,
-    "name_fr": "Autres",
-    "flag": "🌍",
+    "id": "uruguay",
+    "name": "Uruguay",
+    "name_es": "Uruguay",
+    "name_pt": "Uruguai",
+    "name_ja": "ウルグアイ",
+    "name_fr": "Uruguay",
+    "flag": "🇺🇾",
     "sort_order": 7
+  },
+  {
+    "id": "england",
+    "name": "England",
+    "name_es": "Inglaterra",
+    "name_pt": "Inglaterra",
+    "name_ja": "イングランド",
+    "name_fr": "Angleterre",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "sort_order": 8
+  },
+  {
+    "id": "taiwan",
+    "name": "Taiwan",
+    "name_es": "Taiwán",
+    "name_pt": "Taiwan",
+    "name_ja": "台湾",
+    "name_fr": "Taïwan",
+    "flag": "🇹🇼",
+    "sort_order": 9
+  },
+  {
+    "id": "wales",
+    "name": "Wales",
+    "name_es": "Gales",
+    "name_pt": "País de Gales",
+    "name_ja": "ウェールズ",
+    "name_fr": "Pays de Galles",
+    "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "sort_order": 10
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "name_es": "Alemania",
+    "name_pt": "Alemanha",
+    "name_ja": "ドイツ",
+    "name_fr": "Allemagne",
+    "flag": "🇩🇪",
+    "sort_order": 11
   }
 ]

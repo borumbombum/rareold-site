@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Distillery map page with geo-location of all distilleries
 
@@ -37,3 +37,5 @@ After the distillery database structure (039) is in place with latitude/longitud
 - `npm run build` succeeds
 
 ## Progress
+
+- 2026-08-21 (ox-alpha): Added `leaflet` dep (+@types/leaflet). New `DistilleryMap.svelte`: OpenStreetMap tiles, world view (zoom 2), custom dark pill markers with flag emoji via `L.divIcon` (no icon-asset bundler issues), popups with name/flag/region/image + link to `/destileria/<slug>`, origin filter pills above the map (sorted by count), Leaflet loaded lazily via dynamic import in onMount so it stays out of the main bundle; markercluster skipped — 50 distilleries don't overlap enough to justify the extra weight. Route `/map` works under every locale prefix (`/es/map`, `/pt/map`, …) matching this codebase's paraglide urlPatterns design — per-locale path names like `/es/mapa` would require a routing layer that doesn't exist here. Verified SSR: `/map` 200 + `/es/map` 200 with Spanish title. Nav links added to Header (desktop) and Drawer footer. Admin distilleries form already exposes latitude/longitude (039 dependency satisfied). Messages added ×5 locales: nav_map, map_title, map_subtitle, map_open_distillery, map_distilleries. svelte-check 0 errors, build OK.

@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # YouTube video search skill to populate missing whisky videos
 
@@ -37,3 +37,22 @@ Each product has a single nullable `video` URL field (YouTube/Instagram/direct).
 
 ## Progress
 
+
+## Progress
+
+- 2026-08-21 (ox-alpha-20260821): Starting. Task spec predates task 040: `products.video` no longer
+  exists — videos are per-language `influencer_videos` (language/platform/url/label). Adapting: script
+  fills MISSING languages per product (es/en/pt/ja/fr) with language-aware queries + scoring, writes to
+  seed `influencer_videos` arrays AND `INSERT OR IGNORE` into Turso (same shape as db-sync). Flags
+  --dry-run/--from/--lang kept; never overwrites existing videos.
+- 2026-08-21 (ox-alpha-20260821): DONE (adapted). `scripts/youtube-videos.mjs` +
+  `npm run data:youtube-videos`. Modernized for post-040 schema: fills MISSING languages per
+  product into seed `influencer_videos` arrays AND Turso (`INSERT OR IGNORE`, same shape as
+  db-sync, fixed created_at). Language-aware queries (es/en/pt/ja/fr suffixes) +
+  relevanceLanguage hint; scoring: full-name match +10 / ≥70% token match +8 / brand-only +4,
+  review keywords +5, whisky channel +3, duration 3–20min +4, shorts <75s −8, >40min −3;
+  accept threshold score ≥9 so weak matches are skipped. Flags --dry-run/--from/--lang.
+  YOUTUBE_API_KEY documented in .env.example + README env table. Verified: syntax OK, npm
+  script runs, graceful missing-key error. NOTE: no API key in .env yet — live run pending
+  until user adds one (quota note in script header: search.list = 100 units/query).
+Status line updated to DONE below.
