@@ -12,6 +12,7 @@
     import { theme } from "$lib/stores/theme.svelte";
     import { session } from "$lib/stores/session.svelte";
     import { favorites } from "$lib/stores/favorites.svelte";
+    import { followedDistilleries } from "$lib/stores/distillery-followers.svelte";
     import { navigation } from "$lib/stores/navigation.svelte";
 
     let { children, data } = $props();
@@ -34,6 +35,10 @@
 
     $effect(() => {
         favorites.hydrate(data.favorites);
+    });
+
+    $effect(() => {
+        followedDistilleries.hydrate(data.distilleryFollowers);
     });
 </script>
 

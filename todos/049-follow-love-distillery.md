@@ -1,6 +1,6 @@
 # Follow / Love Distilleries
 
-Status: TODO
+Status: DONE
 
 ## Context
 
@@ -109,3 +109,5 @@ CREATE INDEX IF NOT EXISTS idx_distillery_followers_user ON distillery_followers
 ## Progress
 
 - 2026-08-21 (buffy): Task created. Awaiting implementation.
+- 2026-08-22 (ox-alpha-v049): starting. 046 prerequisite is DONE (destileria/[slug] page exists). Following favorites architecture; fr locale gets keys too (5 locales).
+- 2026-08-22 (ox-alpha-v049): DONE. Migration `0025_distillery_followers.sql` (applied + registered on Turso); `src/lib/server/distillery-followers.ts` (list/toggle, idempotent, mirrors favorites.ts); `/api/distillery-followers` GET/POST (401 unauthed, no-store); client store `distillery-followers.svelte.ts` (hydrate/add/remove + optimistic toggleFollow with revert); layout server+client hydration alongside favorites; `FollowDistilleryButton.svelte` mounted below the meta line in the distillery hero (sm size, heart fill, login modal when unauthed, toast feedback, heart-pop animation on follow); i18n keys ×5 locales; tests/distillery-followers.test.ts (3 tests: empty start, idempotent toggles, cross-user isolation). E2E smoke: follow button renders on /destileria/amrut. Verified: check 0 errors, 92/92 tests, build OK.

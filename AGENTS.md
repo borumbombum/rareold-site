@@ -124,7 +124,7 @@ Current status of `/todos/` (authoritative — keep in sync with every `Status:`
 - `046-distillery-public-page.md` — DONE
 - `047-remove-brand-use-distillery.md` — DONE
 - `048-featured-whiskies-homepage.md` — DONE
-- `049-follow-love-distillery.md` — TODO
+- `049-follow-love-distillery.md` — DONE
 - `050-product-specs-pills-above-description.md` — TODO
 - `051-pin-origin-active-origin-first.md` — TODO
 - `052-back-to-top-button.md` — TODO

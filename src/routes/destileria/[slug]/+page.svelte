@@ -5,6 +5,7 @@
 	import { buildAlternates } from '$lib/utils/seo';
 	import SEO from '$lib/components/SEO.svelte';
 	import Hero from '$lib/components/Hero.svelte';
+	import FollowDistilleryButton from '$lib/components/FollowDistilleryButton.svelte';
 	import ViewToggle from '$lib/components/ViewToggle.svelte';
 	import ProductCard from '$lib/components/ProductCard.svelte';
 	import ProductRow from '$lib/components/ProductRow.svelte';
@@ -92,6 +93,9 @@
 					<ExternalLink size={12} />
 				</a>
 			{/if}
+		</div>
+		<div class="mt-2">
+			<FollowDistilleryButton distilleryId={distillery.id} size="sm" />
 		</div>
 	{/snippet}
 </Hero>
