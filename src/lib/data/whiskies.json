@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-08-22T01:09:35.093Z",
+  "generatedAt": "2026-08-22T03:51:26.809Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -1281,7 +1281,15 @@
           "price": null
         }
       ],
-      "resellers_usa": []
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0WYfqONQ60k",
+          "label": "El Whisky Escocés que humilla a las marcas famosas"
+        }
+      ]
     },
     {
       "id": "arran-machrie-moor",

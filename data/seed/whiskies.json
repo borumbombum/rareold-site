@@ -503,7 +503,15 @@
 			"description_ja": "700ml入り。43%でボトリングされたBarrel Reserveは、私たちの蒸留所の特徴である美味しく甘い果物のノートを強調しています。素晴らしい発見！新しいBarrel Reserveは、新鮮で軽くエレガントな無職程宣言のSingle Malt Single Barrelスコッチウイスキーです。100%バーボン樽で熟成され、すべてのoccasionに適したお気に入りのドリンクになります。ノーズ：繊細なりんごと梨。パレット：見事にバランスの取れたシトロスフルーツとバニラの軽い甘さに、りんごの爆発と繊細な海のニュアンス。フィニッシュ：甘さ、スパイス、焦がしオーク、シトロス、バニラ。",
 			"distillery_id": "arran",
 			"name_fr": "Arran Barrel",
-			"description_fr": "Présentation de 700 ml. Embouteillé à 43 %, le Barrel Reserve met en valeur les délicieuses notes fruitées et sucrées qui sont la signature de notre distillerie. Une découverte fantastique ! Le nouveau Barrel Reserve est un single malt écossais Single Barrel frais, léger et élégant sans mention d'âge. Il est 100 % mûri en fûts de bourbon et deviendra votre dram favori pour chaque occasion, à servir seul, avec des glaçons ou dans un drink ou cocktail plus long. Nez Pommes et poires délicates. Palais Fruité d'agrumes merveilleusement équilibré et douceur légère de vanille avec une explosion de pomme et de délicates notes marines. Finale Douceur, épices, chêne carbonisé, agrumes, vanille."
+			"description_fr": "Présentation de 700 ml. Embouteillé à 43 %, le Barrel Reserve met en valeur les délicieuses notes fruitées et sucrées qui sont la signature de notre distillerie. Une découverte fantastique ! Le nouveau Barrel Reserve est un single malt écossais Single Barrel frais, léger et élégant sans mention d'âge. Il est 100 % mûri en fûts de bourbon et deviendra votre dram favori pour chaque occasion, à servir seul, avec des glaçons ou dans un drink ou cocktail plus long. Nez Pommes et poires délicates. Palais Fruité d'agrumes merveilleusement équilibré et douceur légère de vanille avec une explosion de pomme et de délicates notes marines. Finale Douceur, épices, chêne carbonisé, agrumes, vanille.",
+			"influencer_videos": [
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=0WYfqONQ60k",
+					"label": "El Whisky Escocés que humilla a las marcas famosas"
+				}
+			]
 		},
 		{
 			"id": "arran-machrie-moor",
