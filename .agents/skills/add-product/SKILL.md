@@ -119,8 +119,8 @@ If Step 0 found no distillery, create the **complete** record now. Web search ev
     "founded": <year or null>,
     "image": null,
     "website": "<official site URL or null>",
-    "latitude": <town-level lat or null>,
-    "longitude": <town-level lng or null>
+    "latitude": <REQUIRED: town-level lat — see rules below>,
+    "longitude": <REQUIRED: town-level lng — see rules below>
 }
 ```
 
@@ -129,7 +129,8 @@ Field rules:
 - `id`/`slug`: lowercase hyphen-separated, unique (e.g. `talisker`)
 - `country`: same origin key set as products
 - **All translations required:** localized names (usually identical to `name` for brand names — put them in every `_xx` column rather than null) and a short description translated to es/pt/en/ja/fr
-- `latitude`/`longitude`: town-level coordinates of the real distillery; null is acceptable for blends/NDUs
+- `latitude`/`longitude`: **coordinates are required** — every new record must be plottable on `/map`. Research town-level coordinates of the real distillery. For blends/brands without their own stills, anchor them to a real physical home: the owner company's HQ or the brand's visitor/home distillery (e.g. The Famous Grouse → Glenturret, Crieff; Smokehead → Ian Macleod Distillers, Broxburn). Use `null` only as a last resort when genuinely no physical location can be identified for the brand or its owner.
+- **Map verification:** after `db:sync` + `data:export`, confirm the new distillery renders as a marker on the `/map` page (it is filtered out silently when latitude/longitude are missing).
 - `founded`: founding year of the distillery (not the brand owner)
 
 ## Step 3: Image

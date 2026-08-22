@@ -22,3 +22,11 @@
 - `db-sync` pages upsert backfills ONLY locale columns (`title_pt..body_fr`, never base title/body) — so the seed must carry current canonical translations; regenerate it FROM Turso (`SELECT` → JSON.stringify) instead of hand-editing to guarantee byte-parity with the DB.
 - Same safe-write pattern as videos: targeted `UPDATE ... WHERE id=...` touching only the 8 locale columns + updated_at; never full sync when DB may hold newer admin edits.
 - Localized page slugs don't translate (fr uses `/fr/about`, not `/fr/a-propos`) — only the prefix localizes.
+
+## 2026-08-22 — Backfilling distillery map coordinates
+
+- The map (`/map` + `DistilleryMap.svelte`) silently filters out rows with null lat/lng — missing coordinates make a distillery invisible with no error anywhere. Audit = `SELECT slug FROM distilleries WHERE latitude IS NULL OR longitude IS NULL`.
+- Root cause was the add-product skill allowing "null coords OK" for blends/NDUs. Fixed the skill itself (coordinates now REQUIRED, blend anchoring rules) — patching data without patching the process just re-creates the gap.
+- Blend/brand anchoring research shortcuts that worked: WhiskyNet owner pages list ALL brands per company in one hit (found Catto's + Hankey Bannister + MacArthur's are all Inver House → one Airdrie anchor for three); scotchwhisky.com Whiskypedia "produces X, Y and Z blends" confirms; retailer copy ("bottled at Buffalo Trace") gives brand-home anchors for sourced products.
+- Seed drift happens in both directions: export can contain distilleries absent from seed (LDC added via admin). Mirror with a script that SELECTs the row from Turso and appends — never transcribe long HTML by hand.
+- Shell gotchas: `node -e "<script>"` mangles quotes around object keys containing dashes (use a temp .mjs file); temp scripts must live inside /workspace to resolve node_modules (ERR_MODULE_NOT_FOUND from /tmp).

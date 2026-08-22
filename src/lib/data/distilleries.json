@@ -111,8 +111,8 @@
     "founded": null,
     "image": null,
     "website": null,
-    "latitude": null,
-    "longitude": null
+    "latitude": -33.0369,
+    "longitude": -68.9585
   },
   {
     "id": "cattos",
@@ -134,8 +134,8 @@
     "founded": 1861,
     "image": null,
     "website": null,
-    "latitude": null,
-    "longitude": null
+    "latitude": 55.866,
+    "longitude": -3.978
   },
   {
     "id": "la-alazana",
@@ -226,8 +226,8 @@
     "founded": null,
     "image": null,
     "website": null,
-    "latitude": null,
-    "longitude": null
+    "latitude": -34.5703,
+    "longitude": -59.1052
   },
   {
     "id": "fettercairn",
@@ -410,8 +410,8 @@
     "founded": null,
     "image": null,
     "website": null,
-    "latitude": null,
-    "longitude": null
+    "latitude": 55.866,
+    "longitude": -3.978
   },
   {
     "id": "heaven-hill",
@@ -617,8 +617,8 @@
     "founded": null,
     "image": null,
     "website": null,
-    "latitude": null,
-    "longitude": null
+    "latitude": 38.2287,
+    "longitude": -84.8733
   },
   {
     "id": "london-distillery-company",
@@ -663,8 +663,8 @@
     "founded": null,
     "image": null,
     "website": null,
-    "latitude": null,
-    "longitude": null
+    "latitude": 53.3498,
+    "longitude": -6.2603
   },
   {
     "id": "macarthurs",
@@ -686,8 +686,8 @@
     "founded": null,
     "image": null,
     "website": null,
-    "latitude": null,
-    "longitude": null
+    "latitude": 55.866,
+    "longitude": -3.978
   },
   {
     "id": "old-ballantruan",
@@ -709,8 +709,8 @@
     "founded": null,
     "image": null,
     "website": null,
-    "latitude": null,
-    "longitude": null
+    "latitude": 57.2497,
+    "longitude": -3.4199
   },
   {
     "id": "old-pulteney",
@@ -824,8 +824,8 @@
     "founded": null,
     "image": null,
     "website": null,
-    "latitude": null,
-    "longitude": null
+    "latitude": 55.8615,
+    "longitude": -4.258
   },
   {
     "id": "smokehead",
@@ -847,8 +847,8 @@
     "founded": null,
     "image": null,
     "website": "https://smokehead.com",
-    "latitude": null,
-    "longitude": null
+    "latitude": 55.9342,
+    "longitude": -3.4801
   },
   {
     "id": "speyburn",
@@ -985,8 +985,8 @@
     "founded": 1896,
     "image": null,
     "website": "https://thefamousgrouse.com",
-    "latitude": null,
-    "longitude": null
+    "latitude": 56.3724,
+    "longitude": -3.8427
   },
   {
     "id": "glasgow-1770",
