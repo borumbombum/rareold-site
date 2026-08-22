@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ArrowLeft, ClipboardList, Store, ExternalLink, Share2, Star } from '@lucide/svelte';
+	import { ArrowLeft, Store, ExternalLink, Share2, Star } from '@lucide/svelte';
 	import { getLocale, localizeHref, getUrlOrigin } from '$lib/paraglide/runtime';
 	import { buildHreflangAlternates } from '$lib/utils/seo';
 	import SEO from '$lib/components/SEO.svelte';
@@ -140,6 +140,19 @@
 				</p>
 			{/if}
 
+			{#if specs.length > 0}
+				<div class="mt-3 flex flex-wrap items-center gap-1.5">
+					{#each specs as spec, i (spec.label)}
+						{#if i > 0}
+							<span class="text-zinc-300 dark:text-zinc-600">·</span>
+						{/if}
+						<span class="rounded-full bg-zinc-100 px-2.5 py-1 text-xs font-medium text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300">
+							{spec.label}: {spec.value}
+						</span>
+					{/each}
+				</div>
+			{/if}
+
 			{#if description}
 				<section class="mt-6">
 					<h2 class="font-display text-xl font-semibold text-zinc-900 dark:text-white">
@@ -209,27 +222,6 @@
 			</section>
 
 		<ReviewSection productId={product.id} countryCode={country} initial={data.reviews} />
-
-		{#if specs.length > 0}
-				<section class="mt-8">
-					<h2 class="flex items-center gap-2 font-display text-xl font-semibold text-zinc-900 dark:text-white">
-						<ClipboardList size={20} class="text-accent" />
-						{m.detail_specs()}
-					</h2>
-					<dl class="mt-3 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-3">
-						{#each specs as spec}
-							<div class="rounded-xl bg-zinc-50 p-3 dark:bg-zinc-900">
-								<dt class="text-[11px] font-medium uppercase tracking-wide text-zinc-400">
-									{spec.label}
-								</dt>
-								<dd class="mt-0.5 text-sm font-medium text-zinc-900 dark:text-zinc-100">
-									{spec.value}
-								</dd>
-							</div>
-						{/each}
-					</dl>
-				</section>
-			{/if}
-		</div>
+	</div>
 	</div>
 </div>

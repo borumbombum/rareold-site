@@ -1,5 +1,75 @@
 [
   {
+    "product_id": "ardbeg-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=KxA4c9f8BqA",
+    "label": "Whisky.com review"
+  },
+  {
+    "product_id": "ardbeg-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=tMI22gAWuN4",
+    "label": "Probando Ardbeg 10 Años — Amantes Del Whisky PR"
+  },
+  {
+    "product_id": "ardbeg-10-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=HyTQSU43FYU",
+    "label": "Dégustation Ardbeg 10 ans — DEGUST'Emoi"
+  },
+  {
+    "product_id": "ardbeg-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=coCs1hT1Ae8",
+    "label": "アードベッグ10年の感想 — 晩ジロー"
+  },
+  {
+    "product_id": "ardbeg-10-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=_cSP3rzAbZs",
+    "label": "Degustando Ardbeg 10 anos — Márcio Becker"
+  },
+  {
+    "product_id": "ardbeg-uigeadail",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=oXVGrSmVWz8",
+    "label": "Whisky.com review"
+  },
+  {
+    "product_id": "ardbeg-uigeadail",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WrbzN4V00pI",
+    "label": "ARDBEG UIGEADAIL — Tito Whisky"
+  },
+  {
+    "product_id": "ardbeg-uigeadail",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hwn088ZWLts",
+    "label": "Dégustation Uigeadail & Corryvreckan — Whisky et Cie"
+  },
+  {
+    "product_id": "ardbeg-uigeadail",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ZeIT9O-wRgU",
+    "label": "ウーガダールとコリーヴレッカン飲み比べ — 宅飲みバーTakeo"
+  },
+  {
+    "product_id": "ardbeg-uigeadail",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=FNNvVhqb7i4",
+    "label": "Ardbeg Uigeadail Review — WhiskyBrasil.com"
+  },
+  {
     "product_id": "arran-10-yo",
     "language": "en",
     "platform": "youtube",
@@ -138,5 +208,40 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=DiNjELyLnHE",
     "label": ""
+  },
+  {
+    "product_id": "whistlepig-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=BoLCG5rnVyA",
+    "label": "Whisky.com review"
+  },
+  {
+    "product_id": "whistlepig-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=yTTvaYGAwIE",
+    "label": "Rye Whiskey Whistle Pig 10 — Bourboneros"
+  },
+  {
+    "product_id": "whistlepig-10-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=o5EeLh2_FYU",
+    "label": "WhistlePig Rye 10 ans B&W — Monsieur Bourbon & Whiskey"
+  },
+  {
+    "product_id": "whistlepig-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=JLNH49hZi3k",
+    "label": "ホイッスルピッグ10年テイスティング — 宅飲みバーTakeo"
+  },
+  {
+    "product_id": "whistlepig-10-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=BoLCG5rnVyA",
+    "label": "Whisky.com review"
   }
 ]

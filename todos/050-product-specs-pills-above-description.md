@@ -1,6 +1,6 @@
 # Move Product Specs Above Description as Compact Pills
 
-Status: TODO
+Status: DONE
 
 ## Context
 
@@ -53,3 +53,4 @@ No other files need changes.
 ## Progress
 
 - 2026-08-21 (buffy): Task created. Awaiting implementation.
+- 2026-08-22 (ox-alpha-v050): DONE. Moved specs from bottom `<section>` (ClipboardList + dl grid) to a flex-wrap pill row directly under the distillery name, above the description. Pills: `rounded-full bg-zinc-100 dark:bg-zinc-800` with `·` separators; removed ClipboardList import. E2E verified on preview: ardbeg-10-yo renders all 5 pills (Region/Age/ABV/Volume/Cask), 1770-glasgow-peated renders only Region (nulls filtered). check 0 errors, build OK.

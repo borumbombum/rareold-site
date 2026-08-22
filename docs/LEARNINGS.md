@@ -55,3 +55,12 @@
 - `pages.slug` is UNIQUE in SQL, but relying on that surfaces raw 500s to the admin UI — pre-check `getPageBySlug()` in the API and return a clean 409.
 - After an admin save, use `await invalidateAll()`, not `goto(same-url)` — the latter doesn't reliably re-run load, so list metadata (dates, counts) goes stale.
 - Rewriting the pages admin dropped svelte-check warnings 33 → 25: old file carried warnings of its own; warnings aren't always pre-existing/global.
+
+## 2026-08-22 — Completing influencer videos (Ardbeg 10 / Uigeadail / WhistlePig 10)
+
+- oEmbed bulk verification loop works great: `for id in ...; curl youtube.com/oembed?url=watch?v=$id&format=json` returns title+author with zero API quota; re-run right before writing labels so labels match live titles.
+- WhistlePig has ZERO Portuguese-language YouTube reviews (6 targeted searches; barely distributed in Brazil). User policy decision: reuse the en video in the pt slot rather than leaving it empty.
+- Comparison videos are acceptable sources: fr Uigeadail = Uigeadail-vs-Corryvreckan tasting, ja = same pairing — both clearly feature the target bottle in title.
+- `influencer_videos` sync path uses `INSERT OR IGNORE` (unlike products' full upsert), so seeding videos never duplicates or clobbers existing rows.
+- Seed-file safety check before scripted edits: `json.dumps(json.loads(orig), indent='\t', ensure_ascii=False)+'\n' == orig` proves a load→dump rewrite is byte-identical for untouched entries — then hand-editing via script is diff-safe.
+- Ran full `db:sync` anyway: safe here only because seed `generatedAt` was exported from Turso the same day (translations in parity); if admin edits landed after the export, prefer targeted inserts per the earlier learning above.
