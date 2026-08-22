@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-08-22T22:11:35.298Z",
+  "generatedAt": "2026-08-22T23:23:32.569Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -1555,6 +1555,136 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=iekZ1sjkIbQ",
           "label": "Whisky Review | Ardbeg Wee Beastie 5 anos ( Português PT - BR)"
+        }
+      ]
+    },
+    {
+      "id": "ardnahoe-inaugural-release",
+      "slug": "ardnahoe-inaugural-release",
+      "name": "Ardnahoe The Inaugural Release",
+      "distillery": {
+        "id": "ardnahoe",
+        "name": "Ardnahoe Distillery",
+        "name_es": "Ardnahoe Distillery",
+        "name_pt": "Ardnahoe Distillery",
+        "name_en": "Ardnahoe Distillery",
+        "name_ja": "アードナホー蒸留所",
+        "name_fr": null
+      },
+      "description": "El primer whisky oficial de Ardnahoe, la novena destilería de Islay. Cinco años en bourbon y oloroso sherry, destilado en alambiques con worm tubs que dan textura grasa al humo: turba vibrante de 40 ppm con cítricos, vainilla y pimienta blanca. Sin filtrar en frío y con color natural.",
+      "image": "/data/images/ardnahoe-inaugural-release.webp",
+      "origin": "scotland",
+      "region": "Islay",
+      "age": 5,
+      "volume": "700 ml",
+      "abv": 50,
+      "cask": "Bourbon & Oloroso Sherry",
+      "distillery_id": "ardnahoe",
+      "insertion_order": 197,
+      "featured": false,
+      "name_pt": "Ardnahoe The Inaugural Release",
+      "description_pt": "O primeiro whisky oficial da Ardnahoe, a nona destilaria de Islay. Cinco anos em bourbon e xerez oloroso, destilado em alambiques com worm tubs que dão textura untuosa à fumaça: turfa vibrante de 40 ppm com cítricos, baunilha e pimenta branca. Sem filtração a frio e cor natural.",
+      "name_en": "Ardnahoe The Inaugural Release",
+      "description_en": "The first official bottling from Islay's ninth distillery. Five years in bourbon and oloroso sherry casks, distilled through worm tubs that lend an oily texture to the smoke: vibrant 40 ppm peat with citrus, vanilla and white pepper. Non chill-filtered and natural colour.",
+      "name_ja": "アードナッホー イナーガラル リリース",
+      "description_ja": "アイラ島9番目の蒸溜所アードナッホーの初オフィシャルボトル。バーボン樽とオロロソシェリー樽で5年熟成し、ワームタブならではのオイリーな煙の質感が特徴。40ppmの力強いピートにシトラス、バニラ、白胡椒。ノンチルフィルター、ナチュラルカラー。",
+      "name_fr": "Ardnahoe The Inaugural Release",
+      "description_fr": "La première mise en bouteille officielle d'Ardnahoe, la neuvième distillerie d'Islay. Cinq ans en fûts de bourbon et de xérès oloroso, distillés en alambics à worm tubs qui confèrent une texture huileuse à la fumée : tourbe vibrante à 40 ppm, agrumes, vanille et poivre blanc. Non filtré à froid, coloration naturelle.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LdharXP5ipc",
+          "label": "Whisky Wednesday — Ardnahoe Inaugural Release 5YO, 50%"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QAMe2rWKxhY",
+          "label": "Whisky.com — Ardnahoe The Inaugural Release 5 Years | Whisky Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RepWfa6dAhM",
+          "label": "No Nonsense Whisky — Ardnahoe Inaugural Release"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tNFyn2ukA6I",
+          "label": "Whisky Lock — Ardnahoe Inaugural 5yo · Whisky Review 199"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GZWC3o8Li0Q",
+          "label": "Le Whisky Brunch — LWB E130 : Ardnahoe!"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XMQWAXOH9FI",
+          "label": "Whisky et Cie — Le Ardnahoe Inaugural Release"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lo0lI3Jinjg",
+          "label": "Whisky et Cie — Premières impressions : le Ardnahoe 5 ans Cask Strength"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0n5JTfZnTl4",
+          "label": "Whisky Roundup 待望のファーストリリース『アードナッホー5年』を徹底レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ByXMCNT2ZsA",
+          "label": "ひとくちウイスキー アードナッホー5年ファーストリリース（ストレート）"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=f5r2n-LWsOM",
+          "label": "せるじおのハイボールチャンネル アードナッホー オフィシャル第１弾 開封レビュー"
         }
       ]
     },
@@ -3363,6 +3493,302 @@
       "resellers_usa": []
     },
     {
+      "id": "bunnahabhain-12-yo",
+      "slug": "bunnahabhain-12-yo",
+      "name": "Bunnahabhain 12 YO",
+      "distillery": {
+        "id": "bunnahabhain",
+        "name": "Bunnahabhain Distillery",
+        "name_es": "Bunnahabhain Distillery",
+        "name_pt": "Bunnahabhain Distillery",
+        "name_en": "Bunnahabhain Distillery",
+        "name_ja": "ブナハーブン蒸留所",
+        "name_fr": null
+      },
+      "description": "El no ahumado de Islay. Madurado en barricas de bourbon y oloroso sherry, despliega toffee, frutos secos y una brisa salina sobre un paladar cremoso, con final largo y suave a malta y nueces tostadas. Sin filtrar en frío y con color natural.",
+      "image": "/data/images/bunnahabhain-12-yo.webp",
+      "origin": "scotland",
+      "region": "Islay",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46.3,
+      "cask": "Bourbon & Oloroso Sherry",
+      "distillery_id": "bunnahabhain",
+      "insertion_order": 193,
+      "featured": false,
+      "name_pt": "Bunnahabhain 12 YO",
+      "description_pt": "O malte não defumado de Islay. Maturado em barris de bourbon e xerez oloroso, entrega caramelo, frutas secas e uma brisa salina sobre um paladar cremoso, com final longo e suave de malte e nozes tostadas. Sem filtração a frio e cor natural.",
+      "name_en": "Bunnahabhain 12 YO",
+      "description_en": "Islay's unpeated gentleman. Matured in ex-bourbon and oloroso sherry casks, it layers toffee, dried fruits and a whisper of sea salt over a creamy palate, finishing long and gentle with malt and toasted nuts. Non chill-filtered and natural colour.",
+      "name_ja": "ブナハーブン12年",
+      "description_ja": "アイラ島のノンピートモルト。バーボン樽とオロロソシェリー樽の熟成により、トフィー、ドライフルーツ、ほのかな海塩がクリーミーな口当たりに重なり、モルトとナッツの優しく長いフィニッシュへ。ノンチルフィルター、ナチュラルカラー。",
+      "name_fr": "Bunnahabhain 12 YO",
+      "description_fr": "Le single malt non tourbé d'Islay. Vieilli en fûts de bourbon et de xérès oloroso, il déploie toffee, fruits secs et une pointe de sel marin sur un palais crémeux, avec une finale longue et douce de malt et de noix grillées. Non filtré à froid, coloration naturelle.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-jqDWTHxOQ0",
+          "label": "The Grail — Bunnahabhain 12 Year Old Islay Single Malt Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=f8ed__9yVcc",
+          "label": "Whisky.com — Bunnahabhain 12 Years | Whisky Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qxSqe7hC4Cw",
+          "label": "SLB Drinks — My FAVORITE 12 Year Scotch Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sNoUvIKJ-jU",
+          "label": "ralfy — ralfy review 957 · Bunnahabhain 12yo @46.3%vol (2022)"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TgvZddWtqm4",
+          "label": "El Whisky Bar — Nada mejor que el Bunna. Bunnahabhain 12 años"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eeegJYKExIw",
+          "label": "Sam's Single Malt — Mi opinión acerca de Bunnahabhain de 12 años"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gcykWQ0wwbg",
+          "label": "HABLANDO DE WHISKY — Bunnahabhain 12"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vT3dJnr4XRo",
+          "label": "Whisky o Muerte — Finalmente catamos el Bunnahabhain 12 años"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GU47xtyh0Ks",
+          "label": "Malt à propos — Duel : indie ou officiel, quel est le meilleur Bunnahabhain ?"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Od-BBUNnSXI",
+          "label": "Whisky et Cie — Le Bunnahabhain 12 ans"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bgjfcnS9zoE",
+          "label": "ひとくちウイスキー ブナハーブン12年（ストレート）"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i-oO6sZ7b88",
+          "label": "ウイスキー同好会 ブナハーブン12年正直レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lJWn4_VlG6s",
+          "label": "つっちーのBar研究室 【アイラなのに全く臭くない！？】ブナハーブン 12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yrmKLtbwNs8",
+          "label": "Whisky Roundup ノンピート×シェリー樽の『ブナハーブン12年』を徹底レビュー！"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-yRffyercyo",
+          "label": "Degustando — Bunnahabhain 12 anos 46.3% Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3PeE_2jYEi0",
+          "label": "WhiskyBrasil — Bunnahabhain 12 anos Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4vRQKrnY6_U",
+          "label": "Sanson Single Malt — Whisky Single Malt Bunnahabhain 12 Anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=egQMTKaEQzE",
+          "label": "Porção dos Anjos — Review Bunnahabhain 12 anos"
+        }
+      ]
+    },
+    {
+      "id": "bunnahabhain-18-yo",
+      "slug": "bunnahabhain-18-yo",
+      "name": "Bunnahabhain 18 YO",
+      "distillery": {
+        "id": "bunnahabhain",
+        "name": "Bunnahabhain Distillery",
+        "name_es": "Bunnahabhain Distillery",
+        "name_pt": "Bunnahabhain Distillery",
+        "name_en": "Bunnahabhain Distillery",
+        "name_ja": "ブナハーブン蒸留所",
+        "name_fr": null
+      },
+      "description": "Dieciocho años en barricas de oloroso sherry construyen un whisky rico y envolvente: frutos secos, caramelo y chocolate negro matizados con cuero y un sutil fondo marino. Complejo y sedoso, con final cálido y ligeramente especiado. Sin filtrar en frío y con color natural.",
+      "image": "/data/images/bunnahabhain-18-yo.webp",
+      "origin": "scotland",
+      "region": "Islay",
+      "age": 18,
+      "volume": "700 ml",
+      "abv": 46.3,
+      "cask": "Oloroso Sherry",
+      "distillery_id": "bunnahabhain",
+      "insertion_order": 194,
+      "featured": false,
+      "name_pt": "Bunnahabhain 18 YO",
+      "description_pt": "Dezoito anos em barris de xerez oloroso constroem um whisky rico e envolvente: frutas secas, caramelo e chocolate negro matizados com couro e um sutil fundo marinho. Complexo e sedoso, com final quente e levemente especiado. Sem filtração a frio e cor natural.",
+      "name_en": "Bunnahabhain 18 YO",
+      "description_en": "Eighteen years in oloroso sherry casks build a rich, enveloping dram: dried fruits, caramel and dark chocolate laced with leather and a subtle maritime undertone. Complex and silken, with a warm, gently spiced finish. Non chill-filtered and natural colour.",
+      "name_ja": "ブナハーブン18年",
+      "description_ja": "オロロソシェリー樽で18年熟成した豊かで包み込むような一本。ドライフルーツ、キャラメル、ダークチョコレートにレザーとほのかな海洋のニュアンスが絡みます。複雑でシルキー、温かくスパイシーなフィニッシュ。ノンチルフィルター、ナチュラルカラー。",
+      "name_fr": "Bunnahabhain 18 YO",
+      "description_fr": "Dix-huit ans en fûts de xérès oloroso donnent un dram riche et enveloppant : fruits secs, caramel et chocolat noir parcourus de cuir et d'une discrète note marine. Complexe et soyeux, finale chaleureuse et légèrement épicée. Non filtré à froid, coloration naturelle.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GSB5Vb4hIz8",
+          "label": "Whisky Wednesday — Bunnahabhain 18YO, 46.3%"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aer27TndVdI",
+          "label": "ralfy — ralfy review 931 · Bunnahabhain 18yo @46.3%vol (2022)"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ojVsVFphjMQ",
+          "label": "No Nonsense Whisky — Bunnahabhain 18"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ia5BpCIlMwU",
+          "label": "Whisky o Muerte — Bunnahabhain 18 años [cata y comparación con el 12]"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3PXpZE358e0",
+          "label": "Whisky et Cie — La Bataille Royale XIII : Arran, Bunnahabhain et Ledaig 18 ans (1/2)"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MyKW0SlCqgg",
+          "label": "Whisky et Cie — La Bataille Royale XI : les Bunnahabhain 12 ans, Toiteach A Dhà et 18 ans"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0yW_AzGZxBU",
+          "label": "Porção dos Anjos — Bunnahabhain 18 anos CASK STRENGTH"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i9z-6QrsPOA",
+          "label": "WhiskyBrasil — Bunnahabhain 18 Review"
+        }
+      ]
+    },
+    {
       "id": "bushmills-original",
       "slug": "bushmills-original",
       "name": "Bushmills Original",
@@ -3429,6 +3855,308 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "caol-ila-12-yo",
+      "slug": "caol-ila-12-yo",
+      "name": "Caol Ila 12 YO",
+      "distillery": {
+        "id": "caol-ila",
+        "name": "Caol Ila Distillery",
+        "name_es": "Caol Ila Distillery",
+        "name_pt": "Caol Ila Distillery",
+        "name_en": "Caol Ila Distillery",
+        "name_ja": "カル・イルラ蒸留所",
+        "name_fr": null
+      },
+      "description": "Escondida tras los acantilados de Islay, Caol Ila ofrece un humo fresco y limpio: brisa marina, cítricos y malta dulce sobre un cuerpo ligero y aceitoso. Una turba luminosa y equilibrada, la puerta de entrada perfecta a los maltes de Islay.",
+      "image": "/data/images/caol-ila-12-yo.webp",
+      "origin": "scotland",
+      "region": "Islay",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Bourbon",
+      "distillery_id": "caol-ila",
+      "insertion_order": 195,
+      "featured": false,
+      "name_pt": "Caol Ila 12 YO",
+      "description_pt": "Escondida atrás das falésias de Islay, a Caol Ila entrega uma fumaça fresca e limpa: brisa marinha, cítricos e malte doce sobre um corpo leve e oleoso. Uma turfa luminosa e equilibrada, a porta de entrada perfeita para os maltes de Islay.",
+      "name_en": "Caol Ila 12 YO",
+      "description_en": "Hidden behind the cliffs of Islay, Caol Ila delivers fresh, clean smoke: sea breeze, citrus and sweet malt on a light, oily body. A bright, balanced peat that makes the perfect gateway into Islay malts.",
+      "name_ja": "カル・イルラ12年",
+      "description_ja": "アイラ島の「隠れた蒸溜所」カル・イルラ。フレッシュでクリーンなスモークに潮風、シトラス、甘いモルトが軽やかでオイリーなボディに重なります。明るくバランスの取れたピートで、アイラモルトへの入門に最適な一本。",
+      "name_fr": "Caol Ila 12 YO",
+      "description_fr": "Cachée derrière les falaises d'Islay, Caol Ila livre une fumée fraîche et nette : brise marine, agrumes et malt doux sur un corps léger et huileux. Une tourbe lumineuse et équilibrée, porte d'entrée idéale vers les malts d'Islay.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GiLmp7PDL6Y",
+          "label": "Whisky Shared — Caol Ila 12 Year Old Whisky Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WX-eZwKlgtk",
+          "label": "Whisky.com — Whisky Review/Tasting: Caol Ila 12 years"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cgNUm4JjraE",
+          "label": "Whiskey is a Journey — Caol Ila 12: Islay Single Malt Scotch Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=czcAaAcSiYw",
+          "label": "ralfy — ralfy review 649 · Caol Ila 12yo @43%vol (2017)"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ScVlP_wBPqI",
+          "label": "HABLANDO DE WHISKY — CAOL ILA 12"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=a4OCvVD8MfM",
+          "label": "Los Whiskochos — Probemos Caol Ila 12 años (Ep.#55)"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=didx0TTSZOM",
+          "label": "Tito Whisky — Cata y reseña CAOL ILA 12 AÑOS"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zu5f4hZChWY",
+          "label": "Whisky Argentina — Caol Ila 12 Review"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hmJHY1fuiQM",
+          "label": "Whisky et Cie — Le Caol Ila 12 ans"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zvuPobHWtXk",
+          "label": "Whisky et Cie — En quelques mots avec Didier : Le Caol Ila 12 ans"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Hy8L-nXM1eQ",
+          "label": "ウイスキー同好会 アイラウイスキーの王道【カリラ12年】"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fYeo8XFoWU4",
+          "label": "つっちーのBar研究室 【透きとおるクセ】カリラ12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=s5ZcGXjF8Mo",
+          "label": "ひとくちウイスキー カリラ12年（ストレート）"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sfRgIJCMn70",
+          "label": "宅飲みバーTakeo あらためて、おいしいカリラ12年をレビュー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LAwMqH1IR24",
+          "label": "Whisky Capital — Whisky Review | Caol Ila 12 anos (PT-BR)"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XhTfy-sZqmQ",
+          "label": "Eng. Milton Salgado Filho — 80: Review Caol Ila 12 anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pxDijsz8qus",
+          "label": "Jornada do Whisky — CAOL ILA 12 ANOS COM JULIA GUERRA"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sgf6Xb8F1Oc",
+          "label": "WhiskyBrasil — Caol Ila 12 Review"
+        }
+      ]
+    },
+    {
+      "id": "caol-ila-18-yo",
+      "slug": "caol-ila-18-yo",
+      "name": "Caol Ila 18 YO",
+      "distillery": {
+        "id": "caol-ila",
+        "name": "Caol Ila Distillery",
+        "name_es": "Caol Ila Distillery",
+        "name_pt": "Caol Ila Distillery",
+        "name_en": "Caol Ila Distillery",
+        "name_ja": "カル・イルラ蒸留所",
+        "name_fr": null
+      },
+      "description": "Dieciocho años que pulen el clásico humo de Caol Ila: la turba se vuelve más suave y redonda, envuelta en fruta madura, aceite de oliva, sal marina y un elegante dulzor de malta. Profundo, sofisticado y de largo final.",
+      "image": "/data/images/caol-ila-18-yo.webp",
+      "origin": "scotland",
+      "region": "Islay",
+      "age": 18,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Refill Bourbon",
+      "distillery_id": "caol-ila",
+      "insertion_order": 196,
+      "featured": false,
+      "name_pt": "Caol Ila 18 YO",
+      "description_pt": "Dezoito anos que refinam o clássico estilo da Caol Ila: a turfa fica mais suave e redonda, cercada por frutas maduras, azeite, sal marinho e um elegante adocicado maltado. Profundo, sofisticado e de longo final.",
+      "name_en": "Caol Ila 18 YO",
+      "description_en": "Eighteen years polish Caol Ila's classic smoke: the peat turns softer and rounder, wrapped in ripe orchard fruit, olive oil, sea salt and an elegant malty sweetness. Deep, sophisticated and persistent.",
+      "name_ja": "カル・イルラ18年",
+      "description_ja": "18年の熟成がカル・イルラのクラシックなスモークを磨き上げます。ピートはまろやかさを増し、完熟果実、オリーブオイル、海塩、エレガントなモルトの甘さが包み込みます。深く、洗練され、余韻の長い一本。",
+      "name_fr": "Caol Ila 18 YO",
+      "description_fr": "Dix-huit ans qui polissent la fumée classique de Caol Ila : la tourbe gagne en douceur et en rondeur, enveloppée de fruits mûrs, d'huile d'olive, de sel marin et d'une élégante douceur maltée. Profond, sophistiqué et persistant.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-f-5AQLz7JI",
+          "label": "ralfy — whisky review 556 · Caol Ila 18yo single malt"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eejnsTyCWR8",
+          "label": "Whisky Wednesday — Caol Ila 18 Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uiPNCWjNGVk",
+          "label": "Whisky.com — Caol Ila 18 years"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_2unSVFjxbs",
+          "label": "El Whisky Bar — Caol Ila 18 años, el «humo» mayor de edad de Islay"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e2zmO86zY-c",
+          "label": "Los Whiskochos — Catando Caol Ila 18 (Ep.#34)"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7-sO9R-kF5M",
+          "label": "つっちーのBar研究室 美味しくて言葉が出なくなるウイスキー！カリラ１８年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oXlwUUr1eNg",
+          "label": "ひとくちウイスキー カリラ18年（ストレート）"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y29b0oM58t4",
+          "label": "WhiskyBrasil — Caol Ila 18 Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mvi-L8rNBO4",
+          "label": "Sanson Single Malt — Review detalhado Caol Ila 18 Anos"
+        }
+      ]
     },
     {
       "id": "casanegra-andes-single-malt",

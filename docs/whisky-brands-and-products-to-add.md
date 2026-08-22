@@ -50,11 +50,12 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Bruichladdich Islay Barley - Bruichladdich
 ✅ Port Charlotte 10 YO - Bruichladdich
 ✅ Octomore - Bruichladdich
-Bunnahabhain 12 YO - Bunnahabhain
-Bunnahabhain 18 YO - Bunnahabhain
-Caol Ila 12 YO - Caol Ila
-Caol Ila 18 YO - Caol Ila
-Ardnahoe Inaugural Release - Ardnahoe
+✅ Bunnahabhain 12 YO - Bunnahabhain
+✅ Bunnahabhain 18 YO - Bunnahabhain
+✅ Caol Ila 12 YO - Caol Ila
+✅ Caol Ila 18 YO - Caol Ila
+✅ Ardnahoe Inaugural Release - Ardnahoe
+Vat 69 : https://www.youtube.com/watch?v=JnVOXwGV3sI (video for spanish)
 
 ## Scotland — Islands
 
