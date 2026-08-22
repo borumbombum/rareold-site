@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-08-22T17:08:09.929Z",
+  "generatedAt": "2026-08-22T17:33:20.689Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -1255,6 +1255,106 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=_cSP3rzAbZs",
           "label": "Degustando Ardbeg 10 anos — Márcio Becker"
+        }
+      ]
+    },
+    {
+      "id": "ardbeg-corryvreckan",
+      "slug": "ardbeg-corryvreckan",
+      "name": "Ardbeg Corryvreckan",
+      "distillery": {
+        "id": "ardbeg",
+        "name": "Ardbeg",
+        "name_es": "Ardbeg",
+        "name_pt": "Ardbeg",
+        "name_en": "Ardbeg",
+        "name_ja": "アードベッグ",
+        "name_fr": null
+      },
+      "description": "Bautizado en honor al temible remolino de Corryvreckan, al norte de Islay: single malt sin declaración de edad madurado en barricas de bourbon y roble francés nuevo, embotellado a 57,1%. Turba intensa y picante con chocolate negro, ciruelas oscuras y un chute de espresso; final largo, con pimienta y humo.",
+      "image": "/data/images/ardbeg-corryvreckan.webp",
+      "origin": "scotland",
+      "region": "Islay",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 57.1,
+      "cask": "Bourbon & New French Oak",
+      "distillery_id": "ardbeg",
+      "insertion_order": 178,
+      "featured": false,
+      "name_pt": "Ardbeg Corryvreckan",
+      "description_pt": "Batizado em homenagem ao temível redemoinho de Corryvreckan, ao norte de Islay: single malt sem declaração de idade maturado em barricas de bourbon e carvalho francês novo, engarrafado a 57,1%. Turfa intensa e picante com chocolate amargo, ameixas escuras e uma dose de espresso; final longo, com pimenta e fumaça.",
+      "name_en": "Ardbeg Corryvreckan",
+      "description_en": "Named after the fearsome Corryvreckan whirlpool north of Islay: a no-age-statement single malt matured in bourbon barrels and new French oak, bottled at 57.1%. Intense peppery peat swirling with dark chocolate, dark plums and a shot of espresso; a long, smoky, pepper-laced finish.",
+      "name_ja": "アードベッグ コリーヴレッカン",
+      "description_ja": "アイラ島北の恐ろしい渦潮「コリーヴレッカン」に名を冠したシングルモルト。バーボン樽とフレンチオークの新樽で熟成され、57.1%でボトリング。スパイシーなピートにダークチョコレート、プラム、エスプレッソが渦を巻くように重なり、長い余韻にペッパーとスモークが続きます。",
+      "name_fr": "Ardbeg Corryvreckan",
+      "description_fr": "Nommé d'après le redoutable tourbillon de Corryvreckan, au nord d'Islay : un single malt sans âge déclaré vieilli en fûts de bourbon et en chêne français neuf, embouteillé à 57,1 %. Tourbe intense et poivrée tourbillonnant avec du chocolat noir, des pruneaux sombres et une dose d'espresso ; finale longue, fumée et poivrée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3VqeXd4tpyY",
+          "label": "Whisky Review/Tasting: Ardbeg Corryvreckan"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l0naYgLt7qY",
+          "label": "Escucha Whisky en Español - Ardbeg Corryvreckan #whisky #singlemalt #ardbeg #islay"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9B24MgzwK5M",
+          "label": "Le Corryvreckan : les meilleurs moments de la dégustation #scotchwhisky #whisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GeUT2xz8AVQ",
+          "label": "アードベッグの巨人(と勝手に呼んでいる)コリーヴレッカンをしっかりと飲んでみます、やはりピートスモークスパイシー～～【ウイスキー】【テイスティング】【レビュー】"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nbOfKU0GizU",
+          "label": "Whisky Review | Ardbeg Corryvreckan ( Português PT - BR)"
         }
       ]
     },

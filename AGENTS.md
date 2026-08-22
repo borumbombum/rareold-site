@@ -127,5 +127,5 @@ Current status of `/todos/` (authoritative — keep in sync with every `Status:`
 - `049-follow-love-distillery.md` — DONE
 - `050-product-specs-pills-above-description.md` — DONE
 - `051-pin-origin-active-origin-first.md` — TODO
-- `051-pin-origin-active-origin-first.md` — TODO
 - `052-back-to-top-button.md` — TODO
+- `053-backfill-videos-4-per-language.md` — TODO

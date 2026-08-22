@@ -46,7 +46,7 @@ src/lib/data/*.json                        ← SvelteKit reads these at build ti
 - **The JSON files are the fast path.** `data:export` pre-joins products with regions, resellers, distilleries and videos, so SvelteKit serves them without a DB query at request time.
 - **Locale columns:** `name` and `description` are the base locale (Spanish — the DB base stays Spanish even though the UI `baseLocale` is English). Overrides exist per language: `_es` is implicit in the base, plus `name_pt`/`description_pt`, `name_en`/`description_en`, `name_ja`/`description_ja`, `name_fr`/`description_fr`. The `l10n(item, field)` utility resolves the active locale's field with fallback to base.
 - **Images** are served from `data/images/<slug>.webp` via a prerendered SvelteKit route with 30-day cache headers.
-- **Influencer videos** are per-language. At runtime, if a language has fewer than 4 videos, English videos fill the remaining slots (deduplicated by URL) — but you should still provide videos for all 5 languages.
+- **Influencer videos** are per-language. At runtime, if a language has fewer than 4 videos, English videos fill the remaining slots (deduplicated by URL) — provide 4 per language when possible (hard floor of 2).
 
 ## Quick overview
 
@@ -197,30 +197,43 @@ Add a new entry to the `whiskies` array. Follow this exact structure:
 - Do NOT add `brand` or `video` fields — both were removed from the schema (brand lives on the distillery now)
 - `resellers_*` = empty arrays (populated later via Turso admin)
 
-## Step 5: Influencer videos (all languages)
+## Step 5: Influencer videos — 4 per language
 
-Research **real review/tasting videos** for this specific expression on YouTube (and Instagram where available), one set per language: **es, en, pt, ja, fr**.
+Target **4 videos per language** × 5 languages (`es | en | pt | ja | fr`, ≤20 per product). The runtime shows `MAX_VIDEOS = 4` per language (`src/lib/utils/videos.ts`) and slices anything beyond.
+
+**If honest searching can't find 4 quality in-language videos for a language: ship at minimum 2.** The runtime automatically tops up remaining slots with English videos (deduplicated by URL) — never pad with irrelevant videos just to hit 4.
+
+When a language runs dry on exact-expression reviews, widen in this order before settling for 2:
+
+1. Same distillery, different expression, in-language
+2. Same style/region category tasting featuring the expression (e.g. "Islay single malts" for an Islay whisky), in-language
 
 For each video verify:
-- The URL is real and playable
+- The URL is real and playable — check via YouTube oEmbed before seeding (no API key needed):
+  ```sh
+  curl -s "https://www.youtube.com/oembed?url=<VIDEO_URL>&format=json"
+  ```
+  A 200 returns title + author_name (use them for `label`); a 404/401 means dead or embed-blocked → discard.
 - It's a genuine review/tasting of THIS expression (not just the brand generally)
-- The spoken language matches the slot you're adding it to
+- The spoken language matches the slot you're adding it to (sanity-check from title/channel)
 
 Add them as `influencer_videos` on the product's seed entry:
 
 ```json
 "influencer_videos": [
-    { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=...", "label": "Whisky Vault review", "created_at": "2000-01-01T00:00:00.000Z" },
-    { "language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=...", "label": "", "created_at": "2000-01-01T00:00:00.000Z" }
+    { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=...", "label": "Whisky.com review", "created_at": "2000-01-01T00:00:00.000Z" },
+    { "language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=...", "label": "Bourboneros — cata", "created_at": "2000-01-01T00:00:00.000Z" },
+    { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=...", "label": "", "created_at": "2000-01-01T00:00:00.000Z" }
 ]
 ```
 
 Rules:
 
-- `language` ∈ `es | en | pt | ja | fr`; aim for at least one video per language (English-only is a last resort since runtime already falls back to English)
+- `language` ∈ `es | en | pt | ja | fr`; 4 per language when possible, hard floor of 2 (English top-up covers the gap at runtime)
+- A URL may appear **once per product, ever** — never list an English URL under another language's slot (the runtime dedups by URL, so duplicates silently waste slots)
+- Prefer 3–20 minute videos (typical review length)
 - `platform` ∈ `youtube | instagram`
-- `label` optional short title (empty string fine)
-- Use the fixed timestamp `"2000-01-01T00:00:00.000Z"` for `created_at` so rebuilds stay deterministic
+- `label` optional short title (empty string fine); use the fixed timestamp `"2000-01-01T00:00:00.000Z"` for every `created_at` so rebuilds stay deterministic
 
 ## Step 6: DB sync
 
@@ -254,6 +267,8 @@ npm run check
 TypeScript check should pass (document any pre-existing baseline failures).
 
 Optional: `npm run dev` and visit the product page to verify rendering (image, videos strip, distillery link).
+
+Verify the new product in `src/lib/data/whiskies.json` has its `distillery_id` resolved, videos embedded, and at least 2 videos per language (4 for en when available).
 
 Finally: open `docs/whisky-brands-and-products-to-add.md` and prefix the processed line with ✅. Never tick before sync/export/check pass.
 

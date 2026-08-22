@@ -35,7 +35,7 @@ Arran Barrel Reserve - Arran Distillers, source image: https://static.whiskybase
 ✅ Whistle Pig 10 YO - Whistle Pig : https://www.whistlepigwhiskey.com/whiskeys/10-year
 ✅ Ardbeg 10 YO - Ardbeg
 ✅ Ardbeg Uigeadail - Ardbeg
-Ardbeg Corryvreckan - Ardbeg
+✅ Ardbeg Corryvreckan - Ardbeg
 Ardbeg Wee Beastie - Ardbeg
 Laphroaig 10 YO - Laphroaig
 Laphroaig Quarter Cask - Laphroaig

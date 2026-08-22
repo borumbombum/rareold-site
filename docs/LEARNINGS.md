@@ -64,3 +64,9 @@
 - `influencer_videos` sync path uses `INSERT OR IGNORE` (unlike products' full upsert), so seeding videos never duplicates or clobbers existing rows.
 - Seed-file safety check before scripted edits: `json.dumps(json.loads(orig), indent='\t', ensure_ascii=False)+'\n' == orig` proves a load→dump rewrite is byte-identical for untouched entries — then hand-editing via script is diff-safe.
 - Ran full `db:sync` anyway: safe here only because seed `generatedAt` was exported from Turso the same day (translations in parity); if admin edits landed after the export, prefer targeted inserts per the earlier learning above.
+
+## 2026-08-22 — Adding Ardbeg Corryvreckan
+
+- `data/seed/whiskies.json` is `{source, generatedAt, whiskies}` (dict, not flat list) and entries are in insertion order, NOT slug-sorted — don't assert sorting before scripted edits, just preserve order.
+- pt video searches: generic "ardbeg corryvreckan youtube" queries missed Brazilian reviews; the winning query included Portuguese words + site hints: `youtube.com watch <product> "análise" OR "review em português" OR "prova"`. Two verified candidates existed (Whisky Capital PT-BR review, WhiskyBrasil.com 4K); picked the one with explicit "(Português PT - BR)" in title.
+- ja pick favored channel consistency: 宅飲みバーTakeo already provided the Uigeadail ja video; reusing the channel keeps curator quality coherent.
