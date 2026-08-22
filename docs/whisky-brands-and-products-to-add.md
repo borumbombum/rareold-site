@@ -19,6 +19,7 @@ One whisky per line:
 - Never add a whisky or distillery that already exists — verify first (the skill includes the check).
 - Tick the line with ✅ only after `db:sync`, `data:export` and `npm run check` have passed.
 - The user owns this file: add new lines freely; agents only tick them off.
+- Section headers in this file are for human organization only — they do **not** mirror site data. The catalog has no "Rest of World"/catch-all origin: origins are an explicit per-country list (`src/lib/data/origins.json`, currently scotland, ireland, usa, japan, india, canada, argentina, uruguay, england, taiwan, wales, germany). When adding a product whose country has no origin yet, create the origin (ORIGIN_META bootstrap in `scripts/db-sync.mjs` + seed) as part of the same `add-product` run — same rule as for missing distilleries.
 
 <!-- Examples (syntax only, not real entries):
 ✅ Talisker 10 Year Old - Talisker
@@ -44,11 +45,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Lagavulin 8 YO - Lagavulin
 ✅ Bowmore 12 YO - Bowmore
 ✅ Bowmore 15 YO Darkest - Bowmore
-Bowmore 18 YO - Bowmore
-Bruichladdich The Classic Laddie - Bruichladdich
-Bruichladdich Islay Barley - Bruichladdich
-Port Charlotte 10 YO - Bruichladdich
-Octomore - Bruichladdich
+✅ Bowmore 18 YO - Bowmore
+✅ Bruichladdich The Classic Laddie - Bruichladdich
+✅ Bruichladdich Islay Barley - Bruichladdich
+✅ Port Charlotte 10 YO - Bruichladdich
+✅ Octomore - Bruichladdich
 Bunnahabhain 12 YO - Bunnahabhain
 Bunnahabhain 18 YO - Bunnahabhain
 Caol Ila 12 YO - Caol Ila
@@ -335,7 +336,11 @@ Macaloney's Island Single Malt - Macaloney's
 ✅ Indri-Trini Single Malt - Indri
 ✅ Kamet Indian Single Malt - Kamet
 
-## Rest of World
+## Taiwan
+
+The Chuan Pure Malt - The Chuan
+
+## Australia
 
 Sullivans Cove French Oak - Sullivans Cove
 Sullivans Cove American Oak - Sullivans Cove
@@ -343,14 +348,39 @@ Lark Classic Cask - Lark
 Morris Muscat Barrel - Morris
 Starward Nova - Starward
 Starward Two-Fold - Starward
+
+## Sweden
+
 Mackmyra Svensk Ek - Mackmyra
 High Coast Hav - High Coast
+
+## Finland
+
 Kyrö Malt Rye - Kyrö
-Armorik Breton Single Malt - Armorik
-Brenne French Single Malt - Brenne
+
+## Denmark
+
+Stauning Rye - Stauning
+
+## England
+
 Cotswolds Single Malt - Cotswolds
 Bimber Re-Charred Oak - Bimber
 The English Whisky Co Original - The English Whisky Co
+
+## Israel
+
 M&H Elements Red Wine Cask - Milk & Honey
-The Chuan Pure Malt - The Chuan
-Stauning Rye - Stauning
+
+## France
+
+Armorik Breton Single Malt - Armorik
+Armorik Classic Bio - Warenghem
+Brenne French Single Malt - Brenne
+Eddu Silver - Distillerie des Menhirs
+Vilanova Berbie - Distillerie Castan
+Domaine des Hautes Glaces Indigène - Domaine des Hautes Glaces
+Glann ar Mor - Celtic Whisky Distillery
+Kornog - Celtic Whisky Distillery
+Lehmann Single Malt - Lehmann
+Rozelieures Single Malt - Rozelieures

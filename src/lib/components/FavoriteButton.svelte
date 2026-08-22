@@ -58,6 +58,7 @@
 			ui.openLogin();
 			return;
 		}
+		const btn = e.currentTarget as HTMLElement;
 		const next = !isFav;
 		busy = true;
 		navigation.setLoading(true);
@@ -75,9 +76,9 @@
 				ui.showToast(m.error_generic(), true);
 			} else {
 				ui.showToast(next ? m.favorite_added() : m.favorite_removed());
-				if (next) {
+				if (next && btn) {
 					popping = true;
-					const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+					const rect = btn.getBoundingClientRect();
 					burst(rect.left + rect.width / 2, rect.top + rect.height / 2);
 					setTimeout(() => { popping = false; }, 450);
 				}

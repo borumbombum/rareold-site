@@ -147,13 +147,6 @@
     "label": ""
   },
   {
-    "product_id": "arran-barrel",
-    "language": "es",
-    "platform": "youtube",
-    "url": "https://www.youtube.com/watch?v=0WYfqONQ60k",
-    "label": "El Whisky Escocés que humilla a las marcas famosas"
-  },
-  {
     "product_id": "arran-barrel-reserve",
     "language": "en",
     "platform": "youtube",
@@ -574,6 +567,237 @@
     "label": "Sanson Single Malt — degustação completa"
   },
   {
+    "product_id": "bowmore-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=61ysmiun6x4",
+    "label": "Whisky.com review"
+  },
+  {
+    "product_id": "bowmore-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=qofmyOXnHMw",
+    "label": "the Whisky Legends — english review ep.95"
+  },
+  {
+    "product_id": "bowmore-18-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=CSM-qS7FZR0",
+    "label": "Whisky o Muerte — 18 vs 15"
+  },
+  {
+    "product_id": "bowmore-18-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cWO68umq2Rg",
+    "label": "HABLANDO DE WHISKY — Bowmore 12"
+  },
+  {
+    "product_id": "bowmore-18-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SxgT6jlzEvY",
+    "label": "la centrale whisky S1 E3"
+  },
+  {
+    "product_id": "bowmore-18-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wbfAPEIrCWw",
+    "label": "Malt à propos — meilleur 15 ans"
+  },
+  {
+    "product_id": "bowmore-18-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hhJNrEdb-jY",
+    "label": "ウイスキー1年生"
+  },
+  {
+    "product_id": "bowmore-18-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wAi5I-IvRD4",
+    "label": "ひとくちウイスキー店長テイスティング"
+  },
+  {
+    "product_id": "bowmore-18-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=k_XLBR20OXE",
+    "label": "Tierri Whisky review"
+  },
+  {
+    "product_id": "bowmore-18-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=oCfmHOsMdeI",
+    "label": "Whisky Capital — Bowmore 12 Anos"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0Sq5chX8-ek",
+    "label": "The Grail review"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Phg0vc0Ggl8",
+    "label": "Whiskey4Breakfast review"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=UV5AG4uU304",
+    "label": "Whisky.com review"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=rbAny6BijXc",
+    "label": "Whisky In The 6 review"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Hso0w9qdfK0",
+    "label": "Whisky o Muerte cata"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=d5PwCqnMhTI",
+    "label": "La Cava Del Leon cata"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cH28IsxSUcA",
+    "label": "Liquid — Port Charlotte dégustation"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xe9Gi15HaOY",
+    "label": "La Vignery dégustation"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=V7bRR4vtfpA",
+    "label": "Sakurayuki リニューアル飲んでみた"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=icbRN9_z5qI",
+    "label": "家飲み職人 新旧飲み比べ"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2DZgpRk3bI",
+    "label": "Além do Rótulo — Islay sem fumaça?"
+  },
+  {
+    "product_id": "bruichladdich-classic-laddie",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=jdaaAbFOPkM",
+    "label": "Whisky com Gringo — é bom?"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QpUC0T3HcXI",
+    "label": "Scotch Test Dummies — 2014 edition"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hsXG5i6Y_8w",
+    "label": "Whisky.com review — 2006"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=yu1T5FD9GZc",
+    "label": "No Nonsense Whisky — 2010"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=E8fwONofHpc",
+    "label": "Los Whiskochos — probemos 2007"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xL65veV2riM",
+    "label": "Whisky o Muerte — Bruichladdich 12"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=O7zdktOzxxQ",
+    "label": "Sail Away — la distillerie du terroir"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=_jJaId0Gr1U",
+    "label": "la chaîne du whisky — Octomore Comus"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=AEeOLq4noPw",
+    "label": "宅飲みバーTakeo アイラバーレイ2014"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=u5u16eu3ttw",
+    "label": "ウイスキー専門TEN 新作旧作飲み比べ"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=b2DZgpRk3bI",
+    "label": "Além do Rótulo — Islay sem fumaça?"
+  },
+  {
+    "product_id": "bruichladdich-islay-barley",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=jdaaAbFOPkM",
+    "label": "Whisky com Gringo — Classic Laddie"
+  },
+  {
     "product_id": "kilchoman-machir-bay",
     "language": "en",
     "platform": "youtube",
@@ -924,6 +1148,83 @@
     "label": "Laphroaig Quarter Cask Review"
   },
   {
+    "product_id": "octomore",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=EVnm-2UReLM",
+    "label": "Whiskynewspaper — extreme peated 16.1"
+  },
+  {
+    "product_id": "octomore",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SQwEnwVZIJw",
+    "label": "the whisky friend — first ever Octomore 16.1"
+  },
+  {
+    "product_id": "octomore",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TxlDOAEnpV8",
+    "label": "Adam Hannett official tasting — 16.1"
+  },
+  {
+    "product_id": "octomore",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=HDVttRD-tS0",
+    "label": "HABLANDO DE WHISKY — el más ahumado del mundo"
+  },
+  {
+    "product_id": "octomore",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=YqMFluMyePU",
+    "label": "Whisky o Muerte — Octomore 11.2"
+  },
+  {
+    "product_id": "octomore",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Nbh9hxLW-wM",
+    "label": "Malt à propos — quel est le meilleur Octomore ?"
+  },
+  {
+    "product_id": "octomore",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=_jJaId0Gr1U",
+    "label": "la chaîne du whisky — Octomore Comus"
+  },
+  {
+    "product_id": "octomore",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=CNs_rwhlotU",
+    "label": "ウイスキー専門TEN オクトモア11開封＆レビュー"
+  },
+  {
+    "product_id": "octomore",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=avWCCAbleFQ",
+    "label": "CROSSROAD LAB オクトモア11を3種飲んでみた"
+  },
+  {
+    "product_id": "octomore",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=UODaSpJKF34",
+    "label": "Tierri Whisky — o mais defumado do mundo"
+  },
+  {
+    "product_id": "octomore",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Vw6rmwQBvb4",
+    "label": "Tierri Whisky — Octomore 14.1 especial"
+  },
+  {
     "product_id": "old-pulteney-12-yo",
     "language": "en",
     "platform": "youtube",
@@ -936,6 +1237,76 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=O4VauqQVbU0",
     "label": ""
+  },
+  {
+    "product_id": "port-charlotte-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Fk2UTrcnpII",
+    "label": "Whisky Whereabouts review"
+  },
+  {
+    "product_id": "port-charlotte-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=LlklXoAb9No",
+    "label": "Whisky Shared review"
+  },
+  {
+    "product_id": "port-charlotte-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Nqz1coUBcGA",
+    "label": "Los Whiskochos — probemos PC10"
+  },
+  {
+    "product_id": "port-charlotte-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bNdu5JnZZsk",
+    "label": "Whisky o Muerte — Port Charlotte 10"
+  },
+  {
+    "product_id": "port-charlotte-10-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=_jJaId0Gr1U",
+    "label": "la chaîne du whisky — Octomore Comus"
+  },
+  {
+    "product_id": "port-charlotte-10-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cH28IsxSUcA",
+    "label": "Liquid — nouveau flacon dégustation"
+  },
+  {
+    "product_id": "port-charlotte-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WvvUDMWoJIU",
+    "label": "宅飲みバーTakeo テイスティング"
+  },
+  {
+    "product_id": "port-charlotte-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=u3FD1lte1MU",
+    "label": "つっちーのBar研究室 アイラ入門"
+  },
+  {
+    "product_id": "port-charlotte-10-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7rw2EJsdM1c",
+    "label": "Jornada do Whisky — limpe sua taça"
+  },
+  {
+    "product_id": "port-charlotte-10-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mIjgFWwopcw",
+    "label": "Tierri Whisky — pólvora review"
   },
   {
     "product_id": "tomatin-12-yo",

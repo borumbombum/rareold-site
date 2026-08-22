@@ -117,18 +117,19 @@ const ADMIN_EMAILS = new Set(['borumbombum@proton.me']);
 /** Google login: verify the ID token, persist the user, issue our JWT. */
 export async function loginWithGoogle(
 	credential: string,
-	opts: { jwks?: JWKResolver; db?: Client } = {}
+	opts: { jwks?: JWKResolver; db?: Client; country?: string | null } = {}
 ): Promise<{ access_token: string; user: UserData }> {
 	const claims = await verifyGoogleToken(credential, { jwks: opts.jwks });
 	claims.role = ADMIN_EMAILS.has(claims.email) ? 'admin' : 'user';
-	const user = await upsertUser(claims, opts.db ?? turso);
+	const user = await upsertUser(claims, opts.db ?? turso, opts.country);
 	const access_token = await issueToken(user.id);
 	return { access_token, user };
 }
 
 /** Demo login: persist the demo user and issue our JWT so it works against Turso. */
 export async function loginWithDemo(
-	db: Client = turso
+	db: Client = turso,
+	country?: string | null
 ): Promise<{ access_token: string; user: UserData }> {
 	const claims: GoogleClaims = {
 		sub: 'demo',
@@ -137,7 +138,7 @@ export async function loginWithDemo(
 		picture: '',
 		login_type: 'mock'
 	};
-	const user = await upsertUser(claims, db);
+	const user = await upsertUser(claims, db, country);
 	const access_token = await issueToken(user.id);
 	return { access_token, user };
 }
@@ -147,7 +148,8 @@ export async function loginWithNostr(
 	pubkey: string,
 	signedEvent: any,
 	origin: string,
-	db: Client = turso
+	db: Client = turso,
+	country?: string | null
 ): Promise<{ access_token: string; user: UserData }> {
 	if (!pubkey || typeof pubkey !== 'string' || !/^[0-9a-f]{64}$/i.test(pubkey)) {
 		throw new AuthError('invalid_nostr_pubkey');
@@ -181,7 +183,6 @@ export async function loginWithNostr(
 		picture: '',
 		login_type: 'nostr'
 	};
-	const user = await upsertUser(claims, db);
+	const user = await upsertUser(claims, db, country);
 	const access_token = await issueToken(user.id);
-	return { access_token, user };
-}
+	return { access_token, user };}

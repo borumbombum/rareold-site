@@ -49,6 +49,7 @@ export interface UserData {
 	rank?: number;
 	role?: string;
 	login_type?: string | null;
+	country?: string | null;
 }
 
 export interface UserLoginResponse {

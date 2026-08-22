@@ -8,6 +8,7 @@ import { cached } from './cache';
 import { WHISKIES, getWhiskyBySlug } from '$lib/data/whiskies';
 import { DISTILLERIES, getDistilleryBySlug as lookupDistillery } from '$lib/data/distilleries';
 import { LOCALES } from '$lib/utils/locales';
+import { configuration } from '$lib/configuration';
 import type { Distillery, EntityKarma, EntityRating, ProductVideo, Review, SiteContext, Whisky } from '$lib/types';
 
 export interface PriceEntry {
@@ -65,8 +66,11 @@ export function invalidateRating(): void {
 	invalidateCache('rating');
 }
 
-/** Reviews for a product from Turso. Cached ~5min. */
+/** Reviews for a product from Turso. Cached ~5min. Global mode serves every country's comments to everyone. */
 export async function getReviews(productId: string, country: string): Promise<Review[]> {
+	if (configuration.reviews.globalComments) {
+		return cached(`reviews:all:${productId}`, 300_000, () => dbListReviews(productId, null));
+	}
 	return cached(`reviews:${country}:${productId}`, 300_000, () =>
 		dbListReviews(productId, country)
 	);
@@ -74,6 +78,7 @@ export async function getReviews(productId: string, country: string): Promise<Re
 
 export function invalidateReviews(country: string, productId: string): void {
 	invalidateCache(`reviews:${country}:${productId}`);
+	invalidateCache(`reviews:all:${productId}`);
 }
 
 /** Influencer videos for a product+language (English tops up to 4). Cached ~5min. */

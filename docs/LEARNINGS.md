@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-08-22 — Adding 5 whiskies + new distillery (Bowmore 18, Bruichladdich ×4)
+
+- **Official Shopify stores expose product JSON without an API key**: `https://<store>/products/<handle>.json` and `.../collections/<c>/products.json?limit=50` return title, body_html (spec source of truth) and CDN image URLs. Bruichladdich's US store (`us.bruichladdich.com`) covers all their brands — use the collection listing first to discover current handles (e.g. Octomore's current core is 16.1, old editions 404).
+- **whiskybase static image URLs are dead** (403) for these bottles; official Shopify CDN `cdn.shopify.com` PNGs → `prepare-image.mjs` gave 500×500 webps at 10–26 KB.
+- **YouTube search scraping works well for non-EN videos**: fetch `youtube.com/results?search_query=...&hl=<lang>&gl=<CC>`, regex `"videoRenderer":{"videoId":"..."..."text":"..."`. Trap: YouTube *auto-translates* titles by `hl=` param, so a "Spanish" title may belong to an English channel — always verify language via oEmbed author_name/title before adding.
+- New-release expressions have few native-language reviews yet (Octomore 16.1): en×3 easy, other languages only cover older editions of the same line — acceptable under the same-distillery different-expression widening rule.
+- `npm run db:sync` reported `products: 189, distilleries: 59, influencer_videos: 195` seeded cleanly; export puts videos in a separate `src/lib/data/influencer_videos.json` joined by product id at runtime — whiskies.json having no embedded `videos` field is expected, check the videos file instead.
+
 ## 2026-08-22 — Origins admin CRUD + admin API auth fix
 
 - **`getAdmin(cookies)` returns null, never throws.** `await getAdmin(cookies);` as a bare statement compiles and does NOTHING — it silently left `/api/admin/pages` (043) and `/api/admin/downloads` (044) publicly readable/writable. Always use the guard pattern: `if (!(await getAdmin(cookies))) return json({ error: 'forbidden' }, { status: 403 });`. Smoke-test every new admin endpoint with an unauthenticated curl expecting 403 before calling it done.
@@ -78,3 +86,10 @@
 - Image-source dead ends this batch: TWE CDN (`img.thewhiskyexchange.com/900/<code>.jpg`) returns identical 7.4KB placeholders for ANY code; masterofmalt.com 429s bots; whiskybase.com 403s but `shop.whiskybase.com` og:image works via webshopapp CDN; `lovescotch.com/products.json?limit=250&page=N` Shopify API is a reliable product-image source.
 - Auto-translated metadata trap: a YouTube result titled in French ("...contre...") can be an English video whose metadata got machine-translated. Confirm language via oEmbed title/author before assigning to a locale slot; if no genuine video exists, fall back to en per policy.
 - Channel consistency picks: Whisky Capital (pt), HABLANDO DE WHISKY / Los Whiskochos (es), lachaineduwhisky (fr), ひとくちウイスキー (ja) all had multiple Laphroaig videos — prefer them across products in the same distillery.
+
+## 2026-08-22 — Dedup lesson
+
+- Product de-dup must search by **distillery + partial name tokens**, never the exact full name: a legacy stub named "Arran Barrel" (added ~v0.2.2 with just one ES video) survived a check for "Arran Barrel Reserve" and produced a duplicate product page. Before inserting, grep seed + exports for every word of the product name and for the distillery id.
+- Merged duplicate cleanup is cheap when the old row has no user data — check `votes` (column is `entity_id`, not `product_id`), `karma`, `favorites`, `reviews` for BOTH ids before deciding which slug survives. `influencer_videos.product_id` is `ON DELETE CASCADE`, so deleting the product removes its videos.
+- db-sync is INSERT-only (`ON CONFLICT DO NOTHING`); removing an entry from the seed does NOT delete it from Turso — run a one-off `DELETE FROM influencer_videos ...; DELETE FROM products ...;` against the DB, then re-export.
+- Scope discipline: a data-level merge (delete duplicate row, keep the complete one) is the whole job — no extra machinery (redirects etc.) unless explicitly requested. Old slugs simply 404 like any unknown product.

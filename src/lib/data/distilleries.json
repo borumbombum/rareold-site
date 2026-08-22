@@ -115,6 +115,29 @@
     "longitude": -6.2877
   },
   {
+    "id": "bruichladdich",
+    "slug": "bruichladdich",
+    "name": "Bruichladdich Distillery",
+    "name_es": "Bruichladdich Distillery",
+    "name_pt": "Bruichladdich Distillery",
+    "name_en": "Bruichladdich Distillery",
+    "name_ja": "ブルイックラディ蒸留所",
+    "name_fr": null,
+    "description": "Fundada en 1881 por los hermanos Harvey a orillas del Loch Indaal, es la destilería más occidental de Escocia. Cerrada en 1994 y resucitada en 2001, hoy opera equipo victoriano sin ordenadores y destila tres estilos: el sin turba Bruichladdich, el intensamente turbado Port Charlotte y el extremo Octomore, además de la ginebra The Botanist.",
+    "description_es": null,
+    "description_pt": "Fundada em 1881 pelos irmãos Harvey à beira do Loch Indaal, é a destilaria mais ocidental da Escócia. Fechada em 1994 e reaberta em 2001, hoje opera equipamento vitoriano sem computadores e destila três estilos: o sem turfa Bruichladdich, o intensamente turfado Port Charlotte e o extremo Octomore, além do gim The Botanist.",
+    "description_en": "Founded in 1881 by the Harvey brothers on the shore of Loch Indaal, it is Scotland's most westerly distillery. Closed in 1994 and revived in 2001, it still runs Victorian kit without computers, making three styles: unpeated Bruichladdich, heavily peated Port Charlotte and extreme Octomore, plus The Botanist gin.",
+    "description_ja": "1881年、ハーヴェイ兄弟によってロッホ・インダールのほとりに建てられた、スコットランド最西端の蒸留所。1994年に閉鎖され、2001年に復活しました。現在もビクトリア朝の設備をコンピューターなしで操り、ノンピートのブルイックラディ、ヘヴィピートのポートシャーロット、超ヘヴィピートのオクトモアという3つのスタイルと、ジン「ザ・ボタニスト」を生産しています。",
+    "description_fr": "Fondée en 1881 par les frères Harvey sur le rivage du Loch Indaal, c'est la distillerie la plus occidentale d'Écosse. Fermée en 1994 et ressuscitée en 2001, elle fonctionne aujourd'hui sans ordinateurs avec du matériel victorien et produit trois styles : le Bruichladdich non tourbé, le Port Charlotte fortement tourbé et l'extrême Octomore, ainsi que le gin The Botanist.",
+    "country": "scotland",
+    "region": "Islay",
+    "founded": 1881,
+    "image": null,
+    "website": "https://www.bruichladdich.com",
+    "latitude": 55.76479,
+    "longitude": -6.36182
+  },
+  {
     "id": "buffalo-trace",
     "slug": "buffalo-trace",
     "name": "Buffalo Trace Distillery",
@@ -709,8 +732,8 @@
     "founded": null,
     "image": null,
     "website": null,
-    "latitude": 38.2287,
-    "longitude": -84.8733
+    "latitude": 45.488581,
+    "longitude": -73.547578
   },
   {
     "id": "london-distillery-company",

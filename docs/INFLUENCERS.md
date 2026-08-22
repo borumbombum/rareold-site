@@ -1,0 +1,2 @@
+- Brasil: https://www.youtube.com/@WhiskyBrasil/videos
+- Brasil (single malt): https://www.youtube.com/@SansonSingleMalt

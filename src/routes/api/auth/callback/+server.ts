@@ -2,6 +2,7 @@ import { error, redirect } from '@sveltejs/kit';
 import { env } from '$lib/server/env';
 import { AuthError } from '$lib/server/auth';
 import { handleGoogleCallback, isSafeNext } from '$lib/server/oauth';
+import { resolveCountry } from '$lib/server/geo';
 import {
 	clearAuthStateCookie,
 	clearSessionCookie,
@@ -9,7 +10,7 @@ import {
 	setSessionCookie
 } from '$lib/server/session';
 
-export async function GET({ url, cookies }) {
+export async function GET({ url, cookies, getClientAddress }) {
 	const googleError = url.searchParams.get('error');
 	const state = url.searchParams.get('state');
 	const stored = getAuthState(cookies);
@@ -34,6 +35,13 @@ export async function GET({ url, cookies }) {
 		error(400, 'missing_auth_code');
 	}
 
+	let country: string | null = null;
+	try {
+		country = await resolveCountry(getClientAddress());
+	} catch {
+		country = null;
+	}
+
 	let token: string;
 	try {
 		({ token } = await handleGoogleCallback({
@@ -41,7 +49,8 @@ export async function GET({ url, cookies }) {
 			clientId: env.googleClientId,
 			clientSecret: env.googleClientSecret,
 			redirectUri: `${url.origin}/api/auth/callback`,
-			verifier: stored.verifier
+			verifier: stored.verifier,
+			country
 		}));
 	} catch (err) {
 		console.error('[auth] callback error', err);

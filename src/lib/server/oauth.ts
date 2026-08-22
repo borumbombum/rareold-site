@@ -108,6 +108,7 @@ export async function handleGoogleCallback(opts: {
 	jwks?: JWKResolver;
 	db?: Client;
 	fetchImpl?: typeof fetch;
+	country?: string | null;
 }): Promise<{ token: string; user: UserData }> {
 	const { id_token } = await exchangeCode({
 		clientId: opts.clientId,
@@ -117,6 +118,6 @@ export async function handleGoogleCallback(opts: {
 		verifier: opts.verifier,
 		fetchImpl: opts.fetchImpl
 	});
-	const res = await loginWithGoogle(id_token, { jwks: opts.jwks, db: opts.db });
+	const res = await loginWithGoogle(id_token, { jwks: opts.jwks, db: opts.db, country: opts.country });
 	return { token: res.access_token, user: res.user };
 }

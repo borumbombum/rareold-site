@@ -499,41 +499,6 @@
 		},
 		{
 			"featured": false,
-			"id": "arran-barrel",
-			"slug": "arran-barrel",
-			"name": "Arran Barrel",
-			"description": "Presentación de 700 ml. Embotellado al 43%, Barrel Reserve enfatiza las deliciosas y dulces notas frutales que son el sello distintivo de nuestra destilería. ¡Un descubrimiento fantástico! El nuevo Barrel Reserve es un whisky escocés Single Malt Single Barrel fresco, ligero y elegante sin declaración de edad. Es 100 % madurado en barriles de bourbon y se convertirá en su trago favorito para cada ocasión, para servirlo solo, con hielo o en una bebida o cóctel más largo. Nariz Manzanas y peras delicadas. Paladar Fruta cítrica maravillosamente equilibrada y dulzura ligera de vainilla con una explosión de manzana y delicadas notas marinas. Finalizar Dulzura, especias, roble carbonizado, cítricos, vainilla.",
-			"image": "/data/images/arran-barrel.webp",
-			"origin": "scotland",
-			"region": "Islands",
-			"age": null,
-			"volume": "700 ml",
-			"abv": null,
-			"cask": null,
-			"url": "https://alambique.com.uy/product/arran-barrel/",
-			"resellers_uy": [],
-			"resellers_br": [],
-			"resellers_usa": [],
-			"name_pt": "Arran Barrel",
-			"description_pt": "Apresentação de 700 ml. Engarrafado a 43%, Barrel Reserve enfatiza as deliciosas e doces notas frutadas que são a marca registrada de nossa destilaria. Uma descoberta fantástica! O novo Barrel Reserve é um whisky escocês Single Malt Single Barrel fresco, leve e elegante sem declaração de idade. É 100% maturado em barris de bourbon e se tornará seu trago favorito para todas as ocasiões, para servir puro, com gelo ou em uma bebida ou coquetel mais longo. Nariz Maçãs e peras delicadas. Paladar Fruta cítrica maravilhosamente equilibrada e doçura leve de baunilha com uma explosão de maçã e delicadas notas marinhas. Finalizar Doçura, especiarias, carvalho carbonizado, cítricos, baunilha.",
-			"name_en": "Arran Barrel",
-			"description_en": "700 ml bottle. Bottled at 43%, Barrel Reserve emphasizes the delicious and sweet fruity notes that are the hallmark of our distillery. A fantastic discovery! The new Barrel Reserve is a fresh, light, and elegant no-age-statement Single Malt Scotch Whisky. It is 100% matured in bourbon casks and will become your go-to dram for every occasion, served neat, over ice, or in a longer drink or cocktail. Nose: Delicate apples and pears. Palate: Wonderfully balanced citrus fruit and light vanilla sweetness with an apple burst and delicate maritime notes. Finish: Sweetness, spice, charred oak, citrus, vanilla.",
-			"name_ja": "Arran Barrel",
-			"description_ja": "700ml入り。43%でボトリングされたBarrel Reserveは、私たちの蒸留所の特徴である美味しく甘い果物のノートを強調しています。素晴らしい発見！新しいBarrel Reserveは、新鮮で軽くエレガントな無職程宣言のSingle Malt Single Barrelスコッチウイスキーです。100%バーボン樽で熟成され、すべてのoccasionに適したお気に入りのドリンクになります。ノーズ：繊細なりんごと梨。パレット：見事にバランスの取れたシトロスフルーツとバニラの軽い甘さに、りんごの爆発と繊細な海のニュアンス。フィニッシュ：甘さ、スパイス、焦がしオーク、シトロス、バニラ。",
-			"distillery_id": "arran",
-			"name_fr": "Arran Barrel",
-			"description_fr": "Présentation de 700 ml. Embouteillé à 43 %, le Barrel Reserve met en valeur les délicieuses notes fruitées et sucrées qui sont la signature de notre distillerie. Une découverte fantastique ! Le nouveau Barrel Reserve est un single malt écossais Single Barrel frais, léger et élégant sans mention d'âge. Il est 100 % mûri en fûts de bourbon et deviendra votre dram favori pour chaque occasion, à servir seul, avec des glaçons ou dans un drink ou cocktail plus long. Nez Pommes et poires délicates. Palais Fruité d'agrumes merveilleusement équilibré et douceur légère de vanille avec une explosion de pomme et de délicates notes marines. Finale Douceur, épices, chêne carbonisé, agrumes, vanille.",
-			"influencer_videos": [
-				{
-					"language": "es",
-					"platform": "youtube",
-					"url": "https://www.youtube.com/watch?v=0WYfqONQ60k",
-					"label": "El Whisky Escocés que humilla a las marcas famosas"
-				}
-			]
-		},
-		{
-			"featured": false,
 			"id": "arran-machrie-moor",
 			"slug": "arran-machrie-moor",
 			"name": "Arran Machrie Moor",
@@ -6073,6 +6038,524 @@
 					"platform": "youtube",
 					"url": "https://www.youtube.com/watch?v=SxgT6jlzEvY",
 					"label": "la centrale whisky S1 E3",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"id": "bowmore-18-yo",
+			"slug": "bowmore-18-yo",
+			"name": "Bowmore 18 YO",
+			"description": "Dieciocho años de maduración en bourbon y oloroso dan a este Bowmore su carácter profundo: caramelo cremoso, fruta madura y chocolate envueltos en un humo marino suave. Largo, equilibrado y elegante, corona la gama clásica de la destilería.",
+			"image": "/data/images/bowmore-18-yo.webp",
+			"origin": "scotland",
+			"region": "Islay",
+			"age": 18,
+			"volume": "700 ml",
+			"abv": 43,
+			"cask": "Bourbon & Oloroso Sherry",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "bowmore",
+			"name_pt": "Bowmore 18 YO",
+			"description_pt": "Dezoito anos de maturação em bourbon e oloroso dão a este Bowmore um caráter profundo: caramelo cremoso, fruta madura e chocolate envoltos numa fumaça marinha suave. Longo, equilibrado e elegante, é o topo da gama clássica da destilaria.",
+			"name_en": "Bowmore 18 YO",
+			"description_en": "Eighteen years maturing in bourbon and oloroso casks give this Bowmore its deep character: creamy caramel, ripe fruit and chocolate wrapped in soft maritime smoke. Long, balanced and elegant, it crowns the distillery's classic core range.",
+			"name_ja": "ボウモア18年",
+			"description_ja": "バーボン樽とオロロソ樽で18年熟成したボウモアの看板品。クリーミーなキャラメル、熟した果実、チョコレートが穏やかな海のスモークに包まれます。長くバランスの取れたフィニッシュを持つエレガントな一本です。",
+			"name_fr": "Bowmore 18 YO",
+			"description_fr": "Dix-huit ans de maturation en bourbon et oloroso confèrent à ce Bowmore son caractère profond : caramel crémeux, fruits mûrs et chocolat enveloppés d'une fumée maritime douce. Long, équilibré et élégant, il couronne la gamme classique de la distillerie.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=61ysmiun6x4",
+					"label": "Whisky.com review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=qofmyOXnHMw",
+					"label": "the Whisky Legends — english review ep.95",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=CSM-qS7FZR0",
+					"label": "Whisky o Muerte — 18 vs 15",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=cWO68umq2Rg",
+					"label": "HABLANDO DE WHISKY — Bowmore 12",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=k_XLBR20OXE",
+					"label": "Tierri Whisky review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=oCfmHOsMdeI",
+					"label": "Whisky Capital — Bowmore 12 Anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=wAi5I-IvRD4",
+					"label": "ひとくちウイスキー店長テイスティング",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=hhJNrEdb-jY",
+					"label": "ウイスキー1年生",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=wbfAPEIrCWw",
+					"label": "Malt à propos — meilleur 15 ans",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+									"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=SxgT6jlzEvY",
+					"label": "la centrale whisky S1 E3",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"id": "bruichladdich-classic-laddie",
+			"slug": "bruichladdich-classic-laddie",
+			"name": "Bruichladdich The Classic Laddie",
+			"description": "Sin turba y floral, este es el single malt insignia de Bruichladdich: cebada 100% escocesa destilada gota a gota, cítricos frescos, malte dulce y un toque marino en un final limpio y elegante. Embotellado a 50% sin filtrar en frío ni colorear.",
+			"image": "/data/images/bruichladdich-classic-laddie.webp",
+			"origin": "scotland",
+			"region": "Islay",
+			"age": null,
+			"volume": "700 ml",
+			"abv": 50,
+			"cask": "American & French oak",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "bruichladdich",
+			"name_pt": "Bruichladdich The Classic Laddie",
+			"description_pt": "Sem turfa e floral, este é o single malt insignia da Bruichladdich: cevada 100% escocesa destilada gota a gota, citrinos frescos, malte doce e um toque marinho num final limpo e elegante. Engarrafado a 50%, sem filtração a frio nem corantes.",
+			"name_en": "Bruichladdich The Classic Laddie",
+			"description_en": "Unpeated and floral, Bruichladdich's signature single malt is trickle distilled from 100% Scottish barley: fresh citrus, sweet malt and a whisper of sea salt on an elegant, clean finish. Bottled at 50%, non-chill filtered and colouring free.",
+			"name_ja": "ブルイックラディ ザ・クラシックラディ",
+			"description_ja": "ノンピートでフローラルな、ブルイックラディの看板シングルモルト。スコットランド産大麦100％をゆっくり蒸留し、フレッシュな柑橘、甘いモルト、ほのかな海の塩気がエレガントでクリーンなフィニッシュへ続きます。アルコール度数50％、ノンチルフィルター、無着色で瓶詰め。",
+			"name_fr": "Bruichladdich The Classic Laddie",
+			"description_fr": "Non tourbé et floral, ce single malt signature de Bruichladdich est distillé au goutte-à-goutte à partir d'orge 100 % écossaise : agrumes frais, malt sucré et une pointe iodée sur une finale nette et élégante. Embouteillé à 50 %, non filtré à froid et sans colorant.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=UV5AG4uU304",
+					"label": "Whisky.com review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Phg0vc0Ggl8",
+					"label": "Whiskey4Breakfast review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=0Sq5chX8-ek",
+					"label": "The Grail review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=rbAny6BijXc",
+					"label": "Whisky In The 6 review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Hso0w9qdfK0",
+					"label": "Whisky o Muerte cata",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=d5PwCqnMhTI",
+					"label": "La Cava Del Leon cata",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=jdaaAbFOPkM",
+					"label": "Whisky com Gringo — é bom?",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=b2DZgpRk3bI",
+					"label": "Além do Rótulo — Islay sem fumaça?",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=V7bRR4vtfpA",
+					"label": "Sakurayuki リニューアル飲んでみた",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=icbRN9_z5qI",
+					"label": "家飲み職人 新旧飲み比べ",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=xe9Gi15HaOY",
+					"label": "La Vignery dégustation",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=cH28IsxSUcA",
+					"label": "Liquid — Port Charlotte dégustation",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"id": "bruichladdich-islay-barley",
+			"slug": "bruichladdich-islay-barley",
+			"name": "Bruichladdich Islay Barley",
+			"description": "La expresión más pura del terruño: cebada 100% cultivada en Islay, cosechada, destilada, madurada y embotellada en la isla. Albaricoque y durazno sobre un cereal marcado, con una salina nota marina. Embotellado a 50% sin filtrar ni colorear.",
+			"image": "/data/images/bruichladdich-islay-barley.webp",
+			"origin": "scotland",
+			"region": "Islay",
+			"age": null,
+			"volume": "700 ml",
+			"abv": 50,
+			"cask": "American oak",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "bruichladdich",
+			"name_pt": "Bruichladdich Islay Barley",
+			"description_pt": "A expressão mais pura do terroir: cevada 100% cultivada em Islay, colhida, destilada, maturada e engarrafada na ilha. Damasco e pêssego sobre um cereal marcado, com uma nota marinha salina. Engarrafado a 50%, sem filtração nem corantes.",
+			"name_en": "Bruichladdich Islay Barley",
+			"description_en": "The purest expression of terroir: barley grown entirely on Islay, harvested, distilled, matured and bottled on the island. Apricot and peach over pronounced cereals with a subtle maritime note. Bottled at 50%, non-chill filtered and colouring free.",
+			"name_ja": "ブルイックラディ アイラバーレイ",
+			"description_ja": "テロワールを最も純粋に表現した一本。アイラ島で栽培された大麦100％を使用し、収穫から蒸留、熟成、瓶詰めまですべて島内で行います。アプリコットとピーチの香りにシリアルの豊かな風味、ほのかな海の潮気。度数50％、ノンチルフィルター、無着色。",
+			"name_fr": "Bruichladdich Islay Barley",
+			"description_fr": "L'expression la plus pure du terroir : de l'orge cultivée entièrement sur Islay, récoltée, distillée, vieillie et embouteillée sur l'île. Abricot et pêche sur un caractère cerealier marqué, avec une subtile note iodée. Embouteillé à 50 %, non filtré à froid et sans colorant.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=hsXG5i6Y_8w",
+					"label": "Whisky.com review — 2006",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=QpUC0T3HcXI",
+					"label": "Scotch Test Dummies — 2014 edition",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=yu1T5FD9GZc",
+					"label": "No Nonsense Whisky — 2010",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=E8fwONofHpc",
+					"label": "Los Whiskochos — probemos 2007",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=xL65veV2riM",
+					"label": "Whisky o Muerte — Bruichladdich 12",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=jdaaAbFOPkM",
+					"label": "Whisky com Gringo — Classic Laddie",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=b2DZgpRk3bI",
+					"label": "Além do Rótulo — Islay sem fumaça?",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=AEeOLq4noPw",
+					"label": "宅飲みバーTakeo アイラバーレイ2014",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=u5u16eu3ttw",
+					"label": "ウイスキー専門TEN 新作旧作飲み比べ",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=O7zdktOzxxQ",
+					"label": "Sail Away — la distillerie du terroir",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=_jJaId0Gr1U",
+					"label": "la chaîne du whisky — Octomore Comus",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"id": "port-charlotte-10-yo",
+			"slug": "port-charlotte-10-yo",
+			"name": "Port Charlotte 10 Year Old",
+			"description": "Heavily peated a 40 ppm pero elegante: concebido, destilado, madurado y embotellado en Islay. Humo ahumado de brezo sobre vainilla, pera y cítricos, con cuerpo oleoso y final largo y especiado. Embotellado a 50%, sin filtrar ni colorear.",
+			"image": "/data/images/port-charlotte-10-yo.webp",
+			"origin": "scotland",
+			"region": "Islay",
+			"age": 10,
+			"volume": "700 ml",
+			"abv": 50,
+			"cask": "American & French wine oak",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "bruichladdich",
+			"name_pt": "Port Charlotte 10 Anos",
+			"description_pt": "Intensamente turfado a 40 ppm mas elegante: concebido, destilado, maturado e engarrafado em Islay. Fumo de urze sobre baunilha, pêra e citrinos, com corpo oleoso e final longo e especiaria. Engarrafado a 50%, sem filtração nem corantes.",
+			"name_en": "Port Charlotte 10 Year Old",
+			"description_en": "Heavily peated to 40 ppm yet elegant: conceived, distilled, matured and bottled on Islay alone. Heathery barbecue smoke over vanilla, pear and citrus with an oily body and long spiced finish. Bottled at 50%, non-chill filtered and colouring free.",
+			"name_ja": "ポートシャーロット 10年",
+			"description_ja": "40ppmのヘヴィピートでありながらエレガントな一本。構想から蒸留、熟成、瓶詰めまですべてアイラ島で行われます。バニラ、洋梨、柑橘にヘザースモークが重なり、オイリーなボディと長くスパイシーなフィニッシュ。度数50％、ノンチルフィルター、無着色。",
+			"name_fr": "Port Charlotte 10 ans",
+			"description_fr": "Fortement tourbé à 40 ppm mais élégant : conçu, distillé, vieilli et embouteillé sur Islay uniquement. Une fumée de bruyère sur la vanille, la poire et les agrumes, avec un corps huileux et une longue finale épicée. Embouteillé à 50 %, non filtré à froid et sans colorant.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=LlklXoAb9No",
+					"label": "Whisky Shared review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Fk2UTrcnpII",
+					"label": "Whisky Whereabouts review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Nqz1coUBcGA",
+					"label": "Los Whiskochos — probemos PC10",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=bNdu5JnZZsk",
+					"label": "Whisky o Muerte — Port Charlotte 10",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=7rw2EJsdM1c",
+					"label": "Jornada do Whisky — limpe sua taça",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=mIjgFWwopcw",
+					"label": "Tierri Whisky — pólvora review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=u3FD1lte1MU",
+					"label": "つっちーのBar研究室 アイラ入門",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=WvvUDMWoJIU",
+					"label": "宅飲みバーTakeo テイスティング",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=cH28IsxSUcA",
+					"label": "Liquid — nouveau flacon dégustation",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=_jJaId0Gr1U",
+					"label": "la chaîne du whisky — Octomore Comus",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"id": "octomore-16-1",
+			"slug": "octomore",
+			"name": "Octomore Edition 16.1",
+			"description": "El whisky más turbado del mundo: cebada Concerto malteada a 101,4 ppm, cinco años en bourbon de primer llenado. Caramelo salado, melón y albaricoque sobre chocolate y coco, con humo intenso pero sorprendentemente delicado. Cask strength a 59,3%.",
+			"image": "/data/images/octomore.webp",
+			"origin": "scotland",
+			"region": "Islay",
+			"age": 5,
+			"volume": "700 ml",
+			"abv": 59.3,
+			"cask": "First-fill bourbon barrels",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "bruichladdich",
+			"name_pt": "Octomore Edition 16.1",
+			"description_pt": "O whisky mais turfado do mundo: cevada Concerto maltada a 101,4 ppm, cinco anos em bourbon de primeiro enchimento. Caramelo salgado, melão e damasco sobre chocolate e coco, com fumo intenso mas surpreendentemente delicado. Cask strength a 59,3%.",
+			"name_en": "Octomore Edition 16.1",
+			"description_en": "The most heavily peated whisky in the world: Concerto barley malted to 101.4 PPM and aged five years in first-fill bourbon barrels. Salted caramel, honeyed melon and apricot over chocolate and coconut with intense yet surprisingly delicate smoke. Bottled at cask strength, 59.3%.",
+			"name_ja": "オクトモア エディション16.1",
+			"description_ja": "世界一ヘヴィピートのウイスキー。スコットランド本土産コンチェルト大麦を101.4ppmでピーティングし、ファーストフィルのバーボン樽で5年熟成。塩キャラメル、メロン、アプリコットにチョコレートとココア、力強くも驚くほど繊細なスモーク。樽出し59.3％。",
+			"name_fr": "Octomore Édition 16.1",
+			"description_fr": "Le whisky le plus tourbé au monde : de l'orge Concerto maltée à 101,4 ppm et vieillie cinq ans en fûts de bourbon de premier remplissage. Caramel salé, melon miellé et abricot sur le chocolat et la coco, avec une fumée intense mais étonnamment délicate. Embouteillé au degré du fût, 59,3 %.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=TxlDOAEnpV8",
+					"label": "Adam Hannett official tasting — 16.1",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=SQwEnwVZIJw",
+					"label": "the whisky friend — first ever Octomore 16.1",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=EVnm-2UReLM",
+					"label": "Whiskynewspaper — extreme peated 16.1",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=YqMFluMyePU",
+					"label": "Whisky o Muerte — Octomore 11.2",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=HDVttRD-tS0",
+					"label": "HABLANDO DE WHISKY — el más ahumado del mundo",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=UODaSpJKF34",
+					"label": "Tierri Whisky — o mais defumado do mundo",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Vw6rmwQBvb4",
+					"label": "Tierri Whisky — Octomore 14.1 especial",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=CNs_rwhlotU",
+					"label": "ウイスキー専門TEN オクトモア11開封＆レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=avWCCAbleFQ",
+					"label": "CROSSROAD LAB オクトモア11を3種飲んでみた",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Nbh9hxLW-wM",
+					"label": "Malt à propos — quel est le meilleur Octomore ?",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=_jJaId0Gr1U",
+					"label": "la chaîne du whisky — Octomore Comus",
 					"created_at": "2000-01-01T00:00:00.000Z"
 				}
 			]

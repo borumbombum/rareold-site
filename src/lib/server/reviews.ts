@@ -21,7 +21,7 @@ const REVIEW_SELECT = `r.id, r.product_id, r.user_id, u.name AS user_name, u.ava
 
 export async function listReviews(
 	productId: string,
-	country?: string,
+	country?: string | null,
 	db: Client = turso
 ): Promise<Review[]> {
 	const res = await db.execute(
