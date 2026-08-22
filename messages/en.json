@@ -4,7 +4,7 @@
     "site_description": "Discover rare and limited whiskies. The ranking is built by the community with their votes.",
     "nav_home": "Home",
     "nav_instagram": "Instagram",
-    "search_placeholder": "Search among {count} whiskies…",
+    "search_placeholder": "Search among {count} whiskies and {distilleries} distilleries…",
     "search_empty": "No results",
     "search_origin": "Origin",
     "search_region": "Region",

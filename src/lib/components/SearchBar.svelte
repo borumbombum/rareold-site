@@ -3,6 +3,7 @@
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { m } from '$lib/paraglide/messages';
 	import { WHISKIES } from '$lib/data/whiskies';
+	import { DISTILLERIES } from '$lib/data/distilleries';
 	import { ORIGINS, originLabel, originSlug } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
 	import { setRegion } from '$lib/stores/filters.svelte';
@@ -163,7 +164,7 @@
 			bind:value={query}
 			onfocus={() => (focused = true)}
 			onkeydown={onKeydown}
-			placeholder={m.search_placeholder({ count: WHISKIES.length })}
+			placeholder={m.search_placeholder({ count: WHISKIES.length, distilleries: DISTILLERIES.length })}
 			aria-label={m.search_label()}
 			role="combobox"
 			aria-expanded={focused && results.length > 0}

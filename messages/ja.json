@@ -4,7 +4,7 @@
     "site_description": "レアで限定的なウイスキーを発見。ランキングはコミュニティの投票で作られます。",
     "nav_home": "ホーム",
     "nav_instagram": "Instagram",
-    "search_placeholder": "{count}本のウイスキーから検索…",
+    "search_placeholder": "{count}本のウイスキーと{distilleries}の蒸留所から検索…",
     "search_empty": "結果なし",
     "search_origin": "産地",
     "search_region": "地域",

@@ -4,7 +4,7 @@
     "site_description": "Descubrí whiskies raros y limitados. El ranking lo arma la comunidad con sus votos.",
     "nav_home": "Inicio",
     "nav_instagram": "Instagram",
-    "search_placeholder": "Buscar entre {count} whiskies…",
+    "search_placeholder": "Buscar entre {count} whiskies y {distilleries} destilerías…",
     "search_empty": "Sin resultados",
     "search_origin": "Origen",
     "search_region": "Región",
