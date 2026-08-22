@@ -234,6 +234,7 @@
     "admin_distilleries_deleted": "Distillery deleted",
     "videos_title": "Influencer videos",
     "login_nostr": "Login with Nostr",
+    "login_nostr_hint": "Requires a NIP-07 browser extension (Alby, nos2x…)",
     "home_surprise": "Surprise",
     "home_top_whiskys": "Top whiskys",
     "activity_title": "What the community says",

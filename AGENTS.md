@@ -28,6 +28,7 @@ Tasks live as one markdown file per task in `/todos/`. Do not track tasks anywhe
 - **Handoff / token exhaustion:** if you run out of tokens mid-task, your last `## Progress` entry MUST state exactly where you left off and what the next agent should do. A replacement agent taking over a `WORKING-AGENT-*` task reads the `## Progress` log, changes the status to `Status: WORKING-AGENT-<its-session>`, and appends a handoff entry saying it is continuing.
 - **When finished:** once implemented and verified (build, lint, typecheck pass), set the status to `Status: DONE`, then pick the next `TODO` task and repeat.
 - Do not reorder, rename, or delete task files unless explicitly asked.
+- **Status list sync (mandatory):** the status list under `## Next tasks` below is THE authoritative record of task state for every agent. Whenever you change a task file's `Status:` line — starting, finishing, handing off, or superseding — you MUST update its entry in that list in the same change. Never leave the list stale; an agent that finds drift must fix it immediately.
 
 ## Localization (adding a new language)
 
@@ -72,7 +73,7 @@ Already used in VoteButton, FavoriteButton, AuthButton, LanguageSwitcher, ShareB
 
 ## Next tasks
 
-Current status of `/todos/`:
+Current status of `/todos/` (authoritative — keep in sync with every `Status:` change, see Task workflow):
 
 - `000-images-webp-script.md` — DONE
 - `001-json-data-turso-migration.md` — DONE
@@ -82,7 +83,7 @@ Current status of `/todos/`:
 - `005-dark-mode-card-images-white-background.md` — DONE
 - `006-product-videos-per-country-sommeliers.md` — DONE
 - `007-desktop-search-bar-below-hero.md` — DONE
-- `008-vote-image-upload-and-location.md` — TODO
+- `008-vote-image-upload-and-location.md` — DONE
 - `009-share-button-product-page.md` — DONE
 - `010-us-site-paraglide.md` — DONE
 - `011-google-login-redirect-pkce-cookie.md` — DONE
@@ -95,27 +96,28 @@ Current status of `/todos/`:
 - `018-view-toggle-flick.md` — DONE
 - `019-ranking-most-voted-first.md` — DONE
 - `020-vote-state-server-authoritative.md` — DONE
+- `021-youtube-video-search-skill.md` — DONE
 - `022-nostr-login-nip07-desktop.md` — DONE
 - `023-rss-robots-sitemap-link-verification.md` — DONE
 - `024-compact-view-product-grid.md` — DONE
-- `025-schema-org-product-reviews.md` — TODO
-- `026-user-profile-favorites-voted-reviews.md` — TODO
-- `027-homepage-latest-activity-feed.md` — TODO
+- `025-schema-org-product-reviews.md` — DONE
+- `026-user-profile-favorites-voted-reviews.md` — DONE
+- `027-homepage-latest-activity-feed.md` — DONE
 - `028-unify-voting-star-ratings.md` — DONE
-- `029-heart-animation-favorite-button.md` — TODO
-- `030-canonical-hreflang-og-meta-seo-tags.md` — TODO
+- `029-heart-animation-favorite-button.md` — DONE
+- `030-canonical-hreflang-og-meta-seo-tags.md` — DONE
 - `031-translate-product-descriptions-en.md` — DONE
-- `032-change-main-language-to-english.md` — TODO
-- `033-language-detector-ip-based.md` — TODO
-- `034-add-french-language.md` — TODO
-- `035-hero-video-background.md` — WORKING-AGENT-session
-- `036-whisky-sorting-filters.md` — TODO
-- `037-add-whiskies-famous-grouse-bushmills-woodford-elijah-craig.md` — TODO
-- `038-add-whiskies-highland-park-dalmore-talisker.md` — TODO
-- `039-distillery-brand-database.md` — TODO
-- `040-influencer-videos-horizontal-list.md` — TODO
-- `041-rework-origins-country-only-overflow.md` — TODO
-- `042-distillery-map-page.md` — TODO
+- `032-change-main-language-to-english.md` — DONE
+- `033-language-detector-ip-based.md` — DONE
+- `034-add-french-language.md` — DONE
+- `035-hero-video-background.md` — DONE
+- `036-whisky-sorting-filters.md` — DONE
+- `037-add-whiskies-famous-grouse-bushmills-woodford-elijah-craig.md` — DONE
+- `038-add-whiskies-highland-park-dalmore-talisker.md` — DONE
+- `039-distillery-brand-database.md` — DONE
+- `040-influencer-videos-horizontal-list.md` — DONE
+- `041-rework-origins-country-only-overflow.md` — DONE
+- `042-distillery-map-page.md` — DONE
 - `043-pages-cms-full-admin.md` — TODO
 - `044-sqlite-download-paywall.md` — TODO
 - `045-origins-admin-crud.md` — TODO
@@ -125,3 +127,4 @@ Current status of `/todos/`:
 - `049-follow-love-distillery.md` — TODO
 - `050-product-specs-pills-above-description.md` — TODO
 - `051-pin-origin-active-origin-first.md` — TODO
+- `052-back-to-top-button.md` — TODO

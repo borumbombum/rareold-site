@@ -42,7 +42,7 @@
         </button>
 
         <a href={homeHref} onclick={resetFilters} class="flex items-center">
-            <img src="/images/rareold-logo.svg" alt="Rare Old" class="h-6 w-auto" />
+            <img src="/images/rareold-logo.svg" alt="Rare Old" class="h-6 w-auto dark:invert" />
         </a>
 
         {#if !isHome}

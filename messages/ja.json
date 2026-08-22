@@ -235,6 +235,7 @@
     "admin_distilleries_deleted": "蒸留所を削除しました",
     "videos_title": "インフルエンサー動画",
     "login_nostr": "Nostrでログイン",
+    "login_nostr_hint": "NIP-07ブラウザ拡張機能が必要です（Alby、nos2xなど）",
     "home_surprise": "サプライズ",
     "home_top_whiskys": "トップウイスキー",
     "activity_title": "コミュニティの声",

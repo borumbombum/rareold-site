@@ -239,6 +239,7 @@
     "admin_distilleries_deleted": "Distillerie supprimée",
     "videos_title": "Vidéos d'influenceurs",
     "login_nostr": "Connexion avec Nostr",
+    "login_nostr_hint": "Nécessite une extension de navigateur NIP-07 (Alby, nos2x…)",
     "home_surprise": "Surprise",
     "home_top_whiskys": "Top whiskys",
     "activity_title": "Ce que dit la communauté",

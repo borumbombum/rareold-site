@@ -8,7 +8,7 @@
 
 <footer class="border-t border-zinc-200/70 py-10 dark:border-zinc-800/70">
 	<div class="mx-auto flex max-w-7xl flex-col items-center gap-4 px-4 text-center sm:px-6">
-		<img src="/images/rareold-logo.svg" alt="Rare Old" class="h-8 w-auto" />
+		<img src="/images/rareold-logo.svg" alt="Rare Old" class="h-8 w-auto dark:invert" />
 		<p class="text-sm text-zinc-500 dark:text-zinc-400">{m.site_tagline()}</p>
 		<a
 			href={PUBLIC_INSTAGRAM_URL}

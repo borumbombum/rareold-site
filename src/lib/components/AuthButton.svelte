@@ -93,14 +93,13 @@
 			Modo demo — Google login se activa con <code class="rounded bg-zinc-100 px-1 dark:bg-zinc-800">PUBLIC_GOOGLE_CLIENT_ID</code>.
 		</p>
 	{/if}
-	{#if hasNostrExtension}
-		<button
-			onclick={loginNostr}
-			disabled={busy}
-			class="flex w-full items-center justify-center gap-3 rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm font-medium text-zinc-800 transition hover:bg-zinc-50 disabled:opacity-50 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800"
-		>
-			<span class="text-lg">⚡</span>
-			{m.login_nostr()}
-		</button>
-	{/if}
+	<button
+		onclick={loginNostr}
+		disabled={busy || !hasNostrExtension}
+		title={hasNostrExtension ? undefined : m.login_nostr_hint()}
+		class="flex w-full items-center justify-center gap-3 rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm font-medium text-zinc-800 transition hover:bg-zinc-50 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:bg-white dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800 dark:disabled:hover:bg-zinc-900"
+	>
+		<span class="text-lg">⚡</span>
+		{m.login_nostr()}
+	</button>
 </div>
