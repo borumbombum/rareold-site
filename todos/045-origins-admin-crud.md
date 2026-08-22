@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Origins: administrable via admin panel with DB as source of truth
 
@@ -78,3 +78,6 @@ Origins (countries) are currently hardcoded in `ORIGIN_META` in `db-sync.mjs` an
 - No regressions in any locale
 
 ## Progress
+
+- 2026-08-22 (ox-alpha-v045): starting. Plan: follow the 043 pages-admin pattern (server module + /api/admin/origins GET/PUT/DELETE + /admin/origins table+form in house style); frontend keeps consuming origins.json export; db-sync bootstrap untouched.
+- 2026-08-22 (ox-alpha-v045): DONE. Migration `0023_origins_name_en.sql` (applied to Turso + registered in schema_migrations — manual applications MUST be registered there or db:sync fails with duplicate column); `src/lib/server/origins.ts` (listOrigins w/ product_count LEFT JOIN, getOriginById, upsertOrigin, deleteOrigin guarded against products/distilleries(country)/regions refs); `/api/admin/origins` GET/PUT/DELETE; `/admin/origins` table (sortable name/order/count, translation badges, flag preview form, id immutable after create) + nav link after Products; db-export.mjs now exports name_en; all 5 locales translated. **Security fix:** found that `await getAdmin(cookies)` as a bare statement was a no-op guard (getAdmin returns null, never throws) — /api/admin/pages (043) and /api/admin/downloads (044) were publicly readable/writable; fixed both to the `if (!(await getAdmin(cookies))) return json({ error: 'forbidden' }, { status: 403 })` pattern used by products/distilleries/users; verified 403 via preview smoke test. Verified: check 0 errors, 89/89 tests (new origins.test.ts), db:sync+data:export+build pass.

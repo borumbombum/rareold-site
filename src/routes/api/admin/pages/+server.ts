@@ -5,13 +5,13 @@ import { listPages, upsertPage, deletePage, getPageBySlug } from '$lib/server/pa
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 export async function GET({ cookies }) {
-	await getAdmin(cookies);
+	if (!(await getAdmin(cookies))) return json({ error: 'forbidden' }, { status: 403 });
 	const pages = await listPages();
 	return json(pages);
 }
 
 export async function PUT({ request, cookies }) {
-	await getAdmin(cookies);
+	if (!(await getAdmin(cookies))) return json({ error: 'forbidden' }, { status: 403 });
 	const body = await request.json();
 	if (!body.id || !body.slug) throw error(400, 'id and slug required');
 	if (!SLUG_RE.test(body.slug)) throw error(400, 'slug must be lowercase letters, numbers and hyphens');
@@ -24,7 +24,7 @@ export async function PUT({ request, cookies }) {
 }
 
 export async function DELETE({ url, cookies }) {
-	await getAdmin(cookies);
+	if (!(await getAdmin(cookies))) return json({ error: 'forbidden' }, { status: 403 });
 	const id = url.searchParams.get('id');
 	if (!id) throw error(400, 'id required');
 	await deletePage(id);

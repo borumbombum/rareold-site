@@ -120,7 +120,7 @@ Current status of `/todos/` (authoritative — keep in sync with every `Status:`
 - `042-distillery-map-page.md` — DONE
 - `043-pages-cms-full-admin.md` — DONE
 - `044-sqlite-download-paywall.md` — DONE
-- `045-origins-admin-crud.md` — TODO
+- `045-origins-admin-crud.md` — DONE
 - `046-distillery-public-page.md` — DONE
 - `047-remove-brand-use-distillery.md` — DONE
 - `048-featured-whiskies-homepage.md` — TODO

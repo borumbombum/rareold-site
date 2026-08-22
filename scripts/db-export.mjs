@@ -122,7 +122,7 @@ const whiskies = productsRes.rows.map((row) => {
 });
 
 const originsRes = await client.execute(
-	'SELECT id, name, sort_order, flag, name_es, name_pt, name_ja, name_fr FROM origins ORDER BY sort_order'
+	'SELECT id, name, sort_order, flag, name_es, name_pt, name_en, name_ja, name_fr FROM origins ORDER BY sort_order'
 );
 const regionsRes = await client.execute(
 	'SELECT id, origin_id, name, sort_order FROM regions ORDER BY sort_order, name COLLATE NOCASE'
@@ -133,6 +133,7 @@ const origins = originsRes.rows.map((r) => ({
 	name: r.name,
 	name_es: r.name_es ?? null,
 	name_pt: r.name_pt ?? null,
+	name_en: r.name_en ?? null,
 	name_ja: r.name_ja ?? null,
 	name_fr: r.name_fr ?? null,
 	flag: r.flag ?? '🌍',

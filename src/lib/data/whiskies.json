@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-08-22T04:15:35.403Z",
+  "generatedAt": "2026-08-22T16:15:26.388Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -1105,6 +1105,140 @@
       "description_ja": "700ml入り。",
       "name_fr": "An Cnoc Peatheart",
       "description_fr": "Présentation de 700 ml.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": []
+    },
+    {
+      "id": "ardbeg-10-yo",
+      "slug": "ardbeg-10-yo",
+      "name": "Ardbeg 10 Year Old",
+      "distillery": {
+        "id": "ardbeg",
+        "name": "Ardbeg",
+        "name_es": "Ardbeg",
+        "name_pt": "Ardbeg",
+        "name_en": "Ardbeg",
+        "name_ja": "アードベッグ",
+        "name_fr": null
+      },
+      "description": "El single malt turbado de referencia de Islay: diez años en barricas de bourbon, sin filtrar en frío y a 46 grados. Humo intenso pero limpio, con cítricos, pimienta negra y chocolate negro; final largo de espresso y alquitrán.",
+      "image": "/data/images/ardbeg-10-yo.webp",
+      "origin": "scotland",
+      "region": "Islay",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Ex-Bourbon",
+      "distillery_id": "ardbeg",
+      "insertion_order": 176,
+      "name_pt": "Ardbeg 10 Year Old",
+      "description_pt": "O single malt esfumado de referência de Islay: dez anos em barricas de bourbon, não filtrado a frio e a 46 graus. Fumaça intensa mas limpa, com citrinos, pimenta-preta e chocolate amargo; final longo de espresso e alcatrão.",
+      "name_en": "Ardbeg 10 Year Old",
+      "description_en": "Islay's benchmark peated malt: ten years in ex-bourbon casks, non chill-filtered at 46%. Intense yet clean smoke with citrus, black pepper and dark chocolate; long finish of espresso and tar.",
+      "name_ja": "アードベッグ 10年",
+      "description_ja": "アイラ島の基準となるピーテッドモルト。バーボン樽で10年熟成、ノンチルフィルターの46%。柑橘、黒胡椒、ダークチョコレートと調和する力強くもクリーンなスモーキー。エスプレッソとタールの長いフィニッシュ。",
+      "name_fr": "Ardbeg 10 Year Old",
+      "description_fr": "Le single malt tourbé de référence d'Islay : dix ans en fûts de bourbon, non filtré à froid à 46 %. Fumée intense mais nette, avec agrumes, poivre noir et chocolat noir ; longue finale d'espresso et de goudron.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": []
+    },
+    {
+      "id": "ardbeg-uigeadail",
+      "slug": "ardbeg-uigeadail",
+      "name": "Ardbeg Uigeadail",
+      "distillery": {
+        "id": "ardbeg",
+        "name": "Ardbeg",
+        "name_es": "Ardbeg",
+        "name_pt": "Ardbeg",
+        "name_en": "Ardbeg",
+        "name_ja": "アードベッグ",
+        "name_fr": null
+      },
+      "description": "El favorito del Comité Ardbeg: mezcla de barricas de bourbon y antiguas botas de jerez oloroso/PX, sin declaración de edad y embotellado a la fuerza del barril (54,2%). Turba profunda con pasas, melaza, café y chocolate; final largo, dulce y ahumado.",
+      "image": "/data/images/ardbeg-uigeadail.webp",
+      "origin": "scotland",
+      "region": "Islay",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 54.2,
+      "cask": "Bourbon & Oloroso/PX Sherry",
+      "distillery_id": "ardbeg",
+      "insertion_order": 177,
+      "name_pt": "Ardbeg Uigeadail",
+      "description_pt": "O favorito do Comité Ardbeg: mistura de barricas de bourbon e antigas pipas de xerez oloroso/PX, sem declaração de idade e engarrafado à força da barrica (54,2%). Turfa profunda com passas, melaço, café e chocolate; final longo, doce e esfumado.",
+      "name_en": "Ardbeg Uigeadail",
+      "description_en": "The Ardbeg Committee's favourite: a vatting of ex-bourbon barrels and old oloroso/PX sherry butts, non-age-statement and bottled at cask strength (54.2%). Deep peat with raisins, treacle, coffee and chocolate; long, sweet, smoky finish.",
+      "name_ja": "アードベッグ ウィガディール",
+      "description_ja": "アードベッグ委員会のお気に入り。バーボン樽と古いオロロソ／PXシェリー樽の原酒を融合させたノンエイジ、カスクストレングス（54.2%）。レーズン、糖蜜、コーヒー、チョコレートを伴う深いピート。長く甘くスモーキーなフィニッシュ。",
+      "name_fr": "Ardbeg Uigeadail",
+      "description_fr": "Le favori du Comité Ardbeg : un assemblage de fûts de bourbon et d'anciennes barriques de xérès oloroso/PX, sans âge déclaré et embouteillé au degré du fût (54,2 %). Tourbe profonde avec raisins secs, mélasse, café et chocolat ; finale longue, douce et fumée.",
       "resellers_uy": [
         {
           "name": "Alambique",
@@ -11293,6 +11427,73 @@
       "description_ja": "リッチで芳香のある味わい。ライウイスキーにはブレンドの少なくとも51%がこの原料を含む必要があり、これによりはるかにスパイシーになります。名前は100 Proof（アメリカのアルコール度数表示で、2で割ると同等の度数になる）。度数50% ノーズ：ローストライの穏やかなノートがハチミツ、オーク、パイプタバコ、カラメルのヒントと共に支配。パレット：スパイシーで、裏にハチミツのヒント、スパイスの効果が消えるときにオレンジの控えめなヒント。ロングでスムーズなフィニッシュに、シナモンとライの良いノート。",
       "name_fr": "Whisky Rittenhouse Straight Rye 100 Proof",
       "description_fr": "Il a une saveur intense et aromatique. Les whiskies de seigle doivent contenir au minimum 51 % de cet ingrédient dans le mélange, ce qui le rend beaucoup plus épicé. Bien que son nom soit 100 proof (graduation alcoolique américaine, divisée par deux pour obtenir l'équivalence). ABV : 50 % Nez : Douce note de seigle grillé qui domine avec des touches de miel, de chêne, de tabac à pipe et de caramel. Bouche : Épicée avec une touche de miel dessous et une légère touche d'oranges quand l'effet des épices disparaît. Finale longue et douce, avec de bonnes notes de cannelle et de seigle.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": []
+    },
+    {
+      "id": "whistlepig-10-yo",
+      "slug": "whistlepig-10-yo",
+      "name": "WhistlePig 10 Year Old",
+      "distillery": {
+        "id": "whistlepig",
+        "name": "WhistlePig",
+        "name_es": "WhistlePig",
+        "name_pt": "WhistlePig",
+        "name_en": "WhistlePig",
+        "name_ja": "WhistlePig",
+        "name_fr": null
+      },
+      "description": "Centeno recto 100% añejado diez años y embotellado a 100 proof. Miel, caramelo y cáscara de naranja en nariz; vainilla, especias de centeno y menta en boca; final largo de roble cremoso y caramelo.",
+      "image": "/data/images/whistlepig-10-yo.webp",
+      "origin": "usa",
+      "region": "Rye",
+      "age": 10,
+      "volume": "750 ml",
+      "abv": 50,
+      "cask": "New charred American oak",
+      "distillery_id": "whistlepig",
+      "insertion_order": 175,
+      "name_pt": "WhistlePig 10 Year Old",
+      "description_pt": "Rye reto de 100% centeno, maturado dez anos e engarrafado a 100 proof. Mel, caramelo e casca de laranja no nariz; baunilha, especiarias de centeno e menta na boca; final longo de carvalho cremoso e caramelo.",
+      "name_en": "WhistlePig 10 Year Old",
+      "description_en": "Straight rye made from 100% rye grain, aged ten years and bottled at 100 proof. Honey, caramel and orange peel on the nose; vanilla, rye spice and mint on the palate; long finish of creamy oak and caramel.",
+      "name_ja": "ウィッスルピッグ 10年",
+      "description_ja": "ライ麦100%のストレートライを10年熟成し、100プルーフでボトリング。蜂蜜、キャラメル、オレンジピールの香り。口に広がるヴァニラとライのスパイス、ミント。クリーミーなオークとキャラメルの長いフィニッシュ。",
+      "name_fr": "WhistlePig 10 Year Old",
+      "description_fr": "Rye straight à 100 % de seigle, vieilli dix ans et embouteillé à 100 proof. Miel, caramel et zeste d'orange au nez ; vanille, épices de seigle et menthe en bouche ; longue finale de chêne crémeux et caramel.",
       "resellers_uy": [
         {
           "name": "Alambique",

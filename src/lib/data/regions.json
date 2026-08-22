@@ -154,5 +154,11 @@
     "origin_id": "wales",
     "name": "Wales",
     "sort_order": 22
+  },
+  {
+    "id": "usa-rye",
+    "origin_id": "usa",
+    "name": "Rye",
+    "sort_order": 24
   }
 ]

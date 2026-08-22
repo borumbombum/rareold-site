@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-08-22 — Origins admin CRUD + admin API auth fix
+
+- **`getAdmin(cookies)` returns null, never throws.** `await getAdmin(cookies);` as a bare statement compiles and does NOTHING — it silently left `/api/admin/pages` (043) and `/api/admin/downloads` (044) publicly readable/writable. Always use the guard pattern: `if (!(await getAdmin(cookies))) return json({ error: 'forbidden' }, { status: 403 });`. Smoke-test every new admin endpoint with an unauthenticated curl expecting 403 before calling it done.
+- Manual migrations applied to prod Turso must ALSO be registered in `schema_migrations` (`INSERT INTO schema_migrations (filename) VALUES ('0022_....sql')`) — db-sync tracks by filename and re-running an unregistered migration fails with "duplicate column name". Apply + register in the same step.
+- Distilleries link to origins by free-text `country` column holding origin ids (no FK), products by `origin_id` FK. Any origin-deletion guard must check both plus regions.
+- Vitest/rolldown native binding can vanish for the running platform (only `binding-darwin-arm64` present on linux-arm64 here). Fix without touching lockfile: `npm i -D @rolldown/binding-linux-arm64-gnu@<rolldown-version> --no-save`.
+- Preview-server smoke tests: kill stale listeners first — a second `vite preview --port N` fails to bind silently and you end up testing the old build.
+
 ## 2026-08-22 — SQLite download paywall (sql.js serverless dumps)
 
 - Node 20 has no `node:sqlite` and no `sqlite3` CLI in this container — sql.js (WASM) is the way to build/inspect `.db` files in-process. It works fine on Vercel's Node runtime if you add `ssr.external: ['sql.js']` to vite.config.ts (otherwise the SSR bundle chokes on the wasm loader) and resolve the `.wasm` via `createRequire(import.meta.url).resolve('sql.js/dist/sql-wasm.wasm')`.
