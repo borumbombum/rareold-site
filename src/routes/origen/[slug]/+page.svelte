@@ -32,8 +32,8 @@
 	const locale = $derived(getLocale());
 
 	const ORIGIN_HERO_IMAGES: Record<string, string> = {
-		scotland: 'https://images.unsplash.com/photo-1513267048331-5611cad62e8f?w=1600&h=900&fit=crop',
-		ireland: 'https://images.unsplash.com/photo-1590089415225-401eb6cbb075?w=1600&h=900&fit=crop',
+		scotland: '/images/origins/scotland.webp',
+		ireland: '/images/origins/ireland.webp',
 		usa: 'https://images.unsplash.com/photo-1554059923-b72d858e2a5d?w=1600&h=900&fit=crop',
 		japan: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&h=900&fit=crop',
 		india: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1600&h=900&fit=crop',
