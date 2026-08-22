@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # Pages CMS: full admin management with rich text editor
 
@@ -30,3 +30,11 @@ The pages CMS (`/admin/pages`) currently uses plain textareas for the body field
 - `npm run build` succeeds
 
 ## Progress
+
+- 2026-08-22 (ox-alpha-v043): starting. Reading current `/admin/pages` implementation, `TiptapEditor`, and `/api/admin/pages` to map the work.
+- 2026-08-22 (ox-alpha-v043): API hardened — slug format validation (400), duplicate-slug pre-check returning clean 409 (DB has UNIQUE(slug) but it surfaced as raw 500 before), base title+body required (400).
+- 2026-08-22 (ox-alpha-v043): Admin page rewritten — TiptapEditor for all 5 locale bodies (per-locale card with title input + editor, mirroring distilleries admin pattern), Preview ↗ button on saved pages opening `localizeHref('/'+slug)` in new tab, list rows now show updated date + word count + per-locale completion chips; save uses `invalidateAll()` so list metadata refreshes.
+- 2026-08-22 (ox-alpha-v043): About page French translation confirmed present (title_fr "À propos", body_fr 725 chars) — requirement 6 already satisfied by earlier work.
+- 2026-08-22 (ox-alpha-v043): Verified: new `tests/pages.test.ts` CRUD roundtrip on in-memory DB passes; full suite 83/83; `npm run check` 0 errors; `vite build` ✓. DONE.
+- 2026-08-22 (ox-alpha-v043): Follow-up (user feedback): restyled `/admin/pages` to match house admin style — removed stray `max-w-4xl` wrapper (now full-width like products/distilleries/reviews/users), header row with count + Plus button, rounded-2xl form panel with X close and grid inputs, table view with lucide icon actions. Added localized message keys (admin_pages_*, admin_table_updated/words) to all 5 locales — previously hardcoded English. check/build ✓ again.
+

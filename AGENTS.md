@@ -118,7 +118,7 @@ Current status of `/todos/` (authoritative — keep in sync with every `Status:`
 - `040-influencer-videos-horizontal-list.md` — DONE
 - `041-rework-origins-country-only-overflow.md` — DONE
 - `042-distillery-map-page.md` — DONE
-- `043-pages-cms-full-admin.md` — TODO
+- `043-pages-cms-full-admin.md` — DONE
 - `044-sqlite-download-paywall.md` — TODO
 - `045-origins-admin-crud.md` — TODO
 - `046-distillery-public-page.md` — DONE

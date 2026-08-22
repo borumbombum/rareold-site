@@ -30,3 +30,11 @@
 - Blend/brand anchoring research shortcuts that worked: WhiskyNet owner pages list ALL brands per company in one hit (found Catto's + Hankey Bannister + MacArthur's are all Inver House → one Airdrie anchor for three); scotchwhisky.com Whiskypedia "produces X, Y and Z blends" confirms; retailer copy ("bottled at Buffalo Trace") gives brand-home anchors for sourced products.
 - Seed drift happens in both directions: export can contain distilleries absent from seed (LDC added via admin). Mirror with a script that SELECTs the row from Turso and appends — never transcribe long HTML by hand.
 - Shell gotchas: `node -e "<script>"` mangles quotes around object keys containing dashes (use a temp .mjs file); temp scripts must live inside /workspace to resolve node_modules (ERR_MODULE_NOT_FOUND from /tmp).
+
+## 2026-08-22 — Pages admin: Tiptap + CRUD hardening
+
+- Vitest only includes `tests/**/*.test.ts` — a spec anywhere else exits with "No test files found" and no hint. Follow the folder convention.
+- Never verify CRUD against prod Turso: `tests/helpers/db.ts` `createTestDb()` spins an in-memory libsql DB with all migrations applied; every server function takes an optional `db` param for exactly this.
+- `pages.slug` is UNIQUE in SQL, but relying on that surfaces raw 500s to the admin UI — pre-check `getPageBySlug()` in the API and return a clean 409.
+- After an admin save, use `await invalidateAll()`, not `goto(same-url)` — the latter doesn't reliably re-run load, so list metadata (dates, counts) goes stale.
+- Rewriting the pages admin dropped svelte-check warnings 33 → 25: old file carried warnings of its own; warnings aren't always pre-existing/global.
