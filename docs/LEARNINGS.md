@@ -1,5 +1,14 @@
 # Learnings
 
+## 2026-08-22 — SQLite download paywall (sql.js serverless dumps)
+
+- Node 20 has no `node:sqlite` and no `sqlite3` CLI in this container — sql.js (WASM) is the way to build/inspect `.db` files in-process. It works fine on Vercel's Node runtime if you add `ssr.external: ['sql.js']` to vite.config.ts (otherwise the SSR bundle chokes on the wasm loader) and resolve the `.wasm` via `createRequire(import.meta.url).resolve('sql.js/dist/sql-wasm.wasm')`.
+- sql.js ships NO type declarations — write a small ambient `declare module 'sql.js'` d.ts; only the pieces you use are needed.
+- libsql gotcha: `ResultSet.rows` is typed `Row[]`, not `Record<string, unknown>[]`; passing `res.rows` to a helper expecting plain objects fails typecheck even though it looks compatible. Type the helper against `ResultSet` from `@libsql/client`.
+- Single-use download links: store only sha256(token) hashes in DB, return the raw token once at grant time, compare hashes on consume with an atomic `UPDATE ... SET used_at WHERE token_hash = ? AND status = 'granted' AND expires_at > now AND used_at IS NULL` — race-free single-use without transactions.
+- Vitest can run TS that imports sql.js directly (no bundler gymnastics); verify dump validity by checking the 16-byte magic header `SQLite format 3\x00` then re-opening the exported bytes with a fresh sql.js Database.
+- Paraglide: `localizeHref(path)` without `{ locale }` falls back to cookie/header detection — don't do `locals.locale ?? 'en'` (locals.locale is typed as the locale union, so the fallback widens the type and breaks it).
+
 ## 2026-08-22 — Origin hero images (Scotland/Ireland fix)
 
 - Origin page heroes are a hardcoded `ORIGIN_HERO_IMAGES` map in `src/routes/origen/[slug]/+page.svelte`; there are no per-origin images on the homepage (tiles use flag emojis). Fallback everywhere is `/images/whisky.webp` via `onerror` in `Hero.svelte`/`HeroHome.svelte` — so a dead remote URL fails *silently*.
@@ -12,7 +21,7 @@
 ## 2026-08-22 — Adding a single influencer video safely
 
 - `npm run db:sync` upserts ALL products with `ON CONFLICT DO UPDATE` on every `*_pt/_en/_ja/_fr` column (db-sync.mjs:206) — running it re-applies stale seed translations over any admin-edited Turso content. When the DB may hold newer data, do NOT full-sync.
-- Safe pattern for one row: edit seed for reproducibility + targeted `INSERT OR IGNORE` into Turso via `@libsql/client` (mirror youtube-videos.mjs:204), then `npm run data:export` (Turso → local JSON, keeps everything else as-is).
+- Safe pattern for one row: edit seed for reproducibility + targeted `INSERT OR IGNORE` into Turso via `@libsql/client`, then `npm run data:export` (Turso → local JSON, keeps everything else as-is).
 - Always verify text edits at the JSON level (`JSON.stringify(a[f]) !== JSON.stringify(b[f])` per field) — git line diffs hide subtle word corruption inside long strings (caught myself typing Portuguese "baunilha" into a French description).
 - Video order = `created_at ASC` from the export query; a product's only video is trivially "first". YouTube oembed endpoint gives video title/author without an API key.
 

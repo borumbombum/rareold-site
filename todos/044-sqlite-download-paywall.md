@@ -1,4 +1,4 @@
-Status: TODO
+Status: DONE
 
 # SQLite database download behind a paywall
 
@@ -44,3 +44,7 @@ The user wants to offer the entire Turso/SQLite database as a downloadable file,
 - `npm run build` succeeds
 
 ## Progress
+
+- 2026-08-22 (ox-alpha-v044): starting. User decisions: email gate (no Stripe — buyer requests, owner arranges payment out-of-band, admin grants signed link), price $29 USD, sql.js WASM to build the .db. Deployment target is Vercel (adapter-vercel) so dump builder must work serverless: sql.js kept external in SSR build, wasm resolved via createRequire, module-level cache best-effort (warm lambdas only).
+- 2026-08-22 (ox-alpha-v044): DONE. Migration `0022_download_requests.sql`; `src/lib/server/downloads.ts` (request/grant/consume/list — sha256 token hashes, single-use, expiry); `src/lib/server/dbfile.ts` (sql.js dump builder for the 7 content tables, 6h module cache); public `/download` page (stats, FAQ) + `/api/download/request` (rate-limited 3/h/IP) + `/api/data/download?token=` (streams .db, redirects on bad token); admin `/admin/downloads` (list + grant with TTL hours). All 5 locales translated. Verified: svelte-check 0 errors, 86/86 tests (incl. new downloads.test.ts lifecycle + dump.test.ts valid-SQLite check via createTestDb), vite build OK. Note: no Stripe — payment handled out-of-band per user decision; acceptance criterion "Stripe flow works" superseded by email gate.
+

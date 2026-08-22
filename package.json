@@ -1,7 +1,7 @@
 {
   "name": "oldrare",
   "private": true,
-  "version": "0.2.4",
+  "version": "0.2.5",
   "type": "module",
   "scripts": {
     "dev": "vite dev",
@@ -14,8 +14,7 @@
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "test": "vitest run",
-    "data:youtube-videos": "node --env-file-if-exists=.env scripts/youtube-videos.mjs"
+    "test": "vitest run"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^7.0.1",
@@ -45,6 +44,7 @@
     "@tiptap/starter-kit": "^3.30.1",
     "jose": "^6.2.8",
     "leaflet": "^1.9.4",
-    "sharp": "^0.33.0"
+    "sharp": "^0.33.0",
+    "sql.js": "^1.14.2"
   }
 }

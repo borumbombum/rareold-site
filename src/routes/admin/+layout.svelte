@@ -12,7 +12,8 @@
 		{ href: '/admin/distilleries', label: m.admin_nav_distilleries() },
 		{ href: '/admin/reviews', label: m.admin_nav_reviews() },
 		{ href: '/admin/users', label: m.admin_nav_users() },
-		{ href: '/admin/pages', label: m.admin_nav_pages() }
+		{ href: '/admin/pages', label: m.admin_nav_pages() },
+		{ href: '/admin/downloads', label: m.admin_nav_downloads() }
 	]);
 
 	const isActive = (href: string) =>
