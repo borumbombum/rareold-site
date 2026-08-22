@@ -92,6 +92,7 @@ export interface Whisky {
 	cask: string | null;
 	distillery_id: string | null;
 	insertion_order?: number;
+	featured: boolean;
 	name_pt: string | null;
 	description_pt: string | null;
 	name_en: string | null;

@@ -3,6 +3,7 @@
 	"generatedAt": "2026-08-22T00:22:06.270Z",
 	"whiskies": [
 		{
+			"featured": false,
 			"id": "1770-glasgow-peated",
 			"slug": "1770-glasgow-peated",
 			"name": "1770 Glasgow Peated",
@@ -29,6 +30,7 @@
 			"description_fr": "Glasgow 1770 Single Malt Scotch Whisky Peated est notre expression riche et fumée. La meilleure orge concerto écossaise est fumée à 50 ppm à l'aide de tourbe aromatique riche en bruyère provenant des Highlands d'Écosse. Glasgow 1770 Peated a été nommé &#8216;Meilleur single malt des Lowlands en 2020, 2021 et 2022&#8217; ABV : 46 % Nez : Fumée douce et riche toffee avec des notes de vanille vibrante, de fruits secs foncés et d'épices de poivre noir moulu avec de subtiles touches d'orange flambée. Bouche : Feuilles de tabac, toffee foncé riche et grué de cacao sur un fond de tourbe douce et sucrée et de délicates nuances terreuses avec de subtiles notes herbacées de sauge."
 		},
 		{
+			"featured": false,
 			"id": "1770-glasgow-single-malt",
 			"slug": "1770-glasgow-single-malt",
 			"name": "1770 Glasgow Single Malt",
@@ -55,6 +57,7 @@
 			"description_fr": "Glasgow 1770 Single Malt Scotch Whisky, The Original, est le whisky par lequel tout a commencé. Notre première expression, The Original, est un single malt frais et fruité qui associe la meilleure orge maltée concerto à l'eau écossaise la plus pure du loch Katrine. ABV : 46 % Nez : Fruits secs foncés aux nuances tropicales au nez, suivis de notes de biscuit, de chêne et d'herbe fraîchement coupée. Bouche : Caramel doux avec une touche de crème brûlée brûlée sur le palais. Notes de poire fraîchement coupée, de figues sèches, de dattes et de raisins secs avec des notes d'amandes douces, de miel et de biscuits crémeux."
 		},
 		{
+			"featured": false,
 			"id": "1770-glasgow-triple-destilled",
 			"slug": "1770-glasgow-triple-destilled",
 			"name": "1770 Glasgow Triple Destilled",
@@ -81,6 +84,7 @@
 			"description_fr": "Le single malt écossais Glasgow 1770, distillé trois fois, possède un caractère vif et doux. Ce whisky exceptionnel est élaboré à partir de la meilleure orge maltée concerto et d'eau pure du loch Katrine, fermenté pendant plus de 72 heures, puis méticuleusement distillé trois fois dans des alambics de cuivre traditionnels. ABV : 46 % Nez : Le nez s'ouvre sur une vanille douce et du chocolat blanc qui laissent place à des fruits frais d'été comme la pomme parfumée, la poire et les pêches. Bouche : Le palais est bien équilibré et doux, avec une vanille vibrante, un caramel onctueux et de la crème double qui s'ouvrent sur de succulents fruits et baies du verger, suivis de délicates notes florales accompagnées d'une douce saveur d'amande."
 		},
 		{
+			"featured": false,
 			"id": "1770-single-malt",
 			"slug": "1770-single-malt",
 			"name": "1770 Single Malt",
@@ -107,6 +111,7 @@
 			"description_fr": "1770 Original 50cl &#8211; Note d'embouteillage Voici le 1770 Original Glasgow single malt, distillé rien moins qu'à la distillerie de Glasgow, qui a ramené la production de whisky dans la ville pour la première fois en plus de 100 ans ! Il est façonné à la main dans des alambics de cuivre (nommés Tara et Mhairi), associant de l'orge écossaise à l'eau pure du loch Katrine. Le whisky en édition limitée a ensuite mûri en fûts de bourbon de premier remplissage avant de recevoir une finition en chêne blanc vierge. Nez : Fruits noirs secs aux nuances tropicales au nez, suivis de touches de biscuit, de chêne et de fraîcheur d'herbe coupée. Bouche : caramel doux et sucrosité de cassonade brûlée, cardamome salée, quantité de fruits secs, avec du massepain, une bonne dose de miel et de beurre fondant. Finale : riche et épaisse confiture d'orange, muscade, un bois prononcé et une touche d'épices."
 		},
 		{
+			"featured": false,
 			"id": "akashi-blue-blended",
 			"slug": "akashi-blue-blended",
 			"name": "Akashi Blue Blended",
@@ -133,6 +138,7 @@
 			"description_fr": "AKASHI Blue Label Blended Whisky est un whisky blend vieilli pendant 2 ans en fûts de Shochu en chêne blanc américain, puis affiné en fûts de xérès et de bourbon pour gagner en complexité supplémentaire. ABV : 40 % Nez : écorces d'orange, miel et poivre blanc, épices. Bouche : épicé, agrumes, cannelle, notes fumées."
 		},
 		{
+			"featured": false,
 			"id": "akashi-heavily-peated-single-malt",
 			"slug": "akashi-heavily-peated-single-malt",
 			"name": "Akashi Heavily Peated Single Malt",
@@ -159,6 +165,7 @@
 			"description_fr": "Vieilli pendant plus de 3 ans en fûts de bourbon américains sélectionnés de premier remplissage. La zone de la mer intérieure de Seto est une région peu arrosée, chaude et confortable, considérée comme celle bénéficiant de la plus longue durée d'ensoleillement du Japon. Cela permet aux fûts de libérer leurs saveurs agréables aux whiskies à un rythme accéléré. ABV : 50 % Nez : Tourbe douce, pleine de douceur de caramel malté. Bouche : Conclusion sèche avec du sel marin et une douceur de caramel en finale."
 		},
 		{
+			"featured": false,
 			"id": "akashi-red",
 			"slug": "akashi-red",
 			"name": "Akashi Red",
@@ -185,6 +192,7 @@
 			"description_fr": "Présentation de 500 ml. Région : Eigashima Shuzō Le whisky Akashi est le seul whisky au monde élaboré par un Toji (grand maître dans l'art de faire le saké) en appliquant des méthodologies de fabrication du saké au processus d'élaboration du whisky. L'alambic utilisé est plus petit que ceux employés par les distilleries écossaises et japonaises, ce qui diminue les niveaux d'alcool. Par conséquent, le whisky Akashi ne nécessite pas un vieillissement aussi long, tandis que son cœur de malt (force de fût) est doux et délicat. Akashi Red est un whisky blend réservé en fût japonais Shochu (chêne américain) pendant 3 ans, vieilli en ex-fûts de bourbon avant de finir en ex-fûts de xérès pendant 2 ans. NOTES Œil : Or cuivré brillant. Nez : Fruité, notes de citron, de raisin et de pomme, avec des touches fraîches de pin et d'épices douces. Bouche : Le fruit persiste, avec des touches de bois et de pin. Finale : Moyenne, avec des notes de chêne, de vanille et d'épices chaudes. Conclusion : Un whisky japonais blend avec la complexité du vieillissement en fûts ex-Shochu."
 		},
 		{
+			"featured": false,
 			"id": "akashi-single-malt",
 			"slug": "akashi-single-malt",
 			"name": "Akashi Single Malt",
@@ -211,6 +219,7 @@
 			"description_fr": "Vieilli pendant 3 ans en fûts de bourbon, son nez révèle des notes de camomille, de xérès et de malt. Ce Akashi Single Malt séduira aussi bien les novices que les amateurs de whisky japonais tentés par la découverte de petites productions avec leur propre savoir-faire. ABV : 46 % Nez : Révèle des notes de camomille, de xérès et de malt. Bouche : Les arômes de pâtisserie au beurre et à la vanille restent présents jusqu'à la finale douce et élégante qui se termine sur des notes boisées."
 		},
 		{
+			"featured": false,
 			"id": "akashi-tanzanite-single-malt",
 			"slug": "akashi-tanzanite-single-malt",
 			"name": "Akashi Tanzanite Single Malt",
@@ -237,6 +246,7 @@
 			"description_fr": "Ce single malt Akashi a été distillé avec un savoir-faire centenaire qui en fait l'un des whiskies japonais uniques et exceptionnels. Le fait d'avoir été vieilli en fûts de chêne dans un environnement d'élaboration béni lui confère une saveur complexe et un corps riche et complet. ABV : 43 % Nez : Arômes fruités d'écorce de citron, de pommes et de bananes, avec une touche de menthe, de miel et de fumée. Bouche : Acidité fraîche et douceur délicate rappelant le biscuit au chocolat, avec une légère touche de gingembre."
 		},
 		{
+			"featured": false,
 			"id": "akashi-toji-blended",
 			"slug": "akashi-toji-blended",
 			"name": "Akashi Toji Blended",
@@ -263,6 +273,7 @@
 			"description_fr": "Le whisky blend Akashi Toji, produit dans la préfecture de Hyogo au Japon, est un distillat exceptionnel qui se caractérise par son élaboration à partir d'un mélange finement équilibré de riz, de malt et d'eau. Ce whisky est léger mais très corsé, idéal autant pour les connaisseurs que pour les débutants. ABV : 40 % Nez : Miel, poivre, légèrement tourbé. Bouche : Chocolat, poivre, chêne, vanille, fruits secs, miel."
 		},
 		{
+			"featured": false,
 			"id": "akashi-white-oak",
 			"slug": "akashi-white-oak",
 			"name": "Akashi White Oak",
@@ -289,6 +300,7 @@
 			"description_fr": "Présentation de 700 ml. White Oak Akashi Blended Whiskey est un autre nouveau whisky ajouté aux lancements américains de whisky japonais. À l'origine une distillerie de saké, la distillerie White Oak existe depuis 1919 et c'est un whisky qui a récemment reçu une certaine attention, même si pas entièrement positive. ŒIL Caramel NEZ Vanille jeune et spiritueuse, sirop de caramel, épices et une qualité herbacée aquatique. Ce n'est pas le pire jeune whisky blend que j'aie goûté, mais il en est proche. PALAIS En bouche, il imite le nez et se montre jeune et spiritueux. Un faible caractère malté apparaît pendant la dégustation, mais ne se manifeste pas d'une manière qui l'équilibre ou ajoute de la richesse. De petites touches de caramel se cachent sous les grandes notes de grain et d'alcool. FINALE Caramel court, whisky de grain, écorces de citron et une touche d'épices et de malt. ÉQUILIBRE, CORPS ET SENSATION Pas vraiment équilibré, corps mince et une sensation aqueuse relâchée."
 		},
 		{
+			"featured": false,
 			"id": "amrut-cask-strength",
 			"slug": "amrut-cask-strength",
 			"name": "Amrut Cask Strength",
@@ -315,6 +327,7 @@
 			"description_fr": "Notes de dégustation Nez : style classique de la maison avec de glorieuses notes de bourbon fusionnées avec les expressions les plus riches de l'orge ; pas totalement différent d'un biscuit caramélisé trempé dans le café ; ah, et un peu d'attitude épicée également ; Goût : Nous voilà partis avec cette singulière ouverture aigre-douce où le chêne et l'orge apparaissent étroitement unis ; charmantes huiles douces puis une forte secousse d'agrume orange sanguine, qui s'efface pour laisser place à quelque chose de plus crémeux et délicat ; Finale : longue, élégante avec des effacements très subtils où les chênes montrent diverses caractéristiques de bourbon puis deviennent crémeux ; il y a une trace de cassonade et de cacao pour vous accompagner."
 		},
 		{
+			"featured": false,
 			"id": "amrut-peated-single-malt",
 			"slug": "amrut-peated-single-malt",
 			"name": "Amrut Peated Single Malt",
@@ -341,6 +354,7 @@
 			"description_fr": "Notes de dégustation Nez : Tourbe inhabituellement sèche ; pas très différente de l'odeur de tourbe imprégnant un vieux fauteuil en cuir ; une touche d'agrumes également ; Goût : Malgré le nez, la sensation immédiate est d'être caressé par du sucre mélassé puis une montée des notes de tourbe. À mesure qu'elles deviennent plus vigoureuses, l'expérience devient un peu plus sèche et épicée, sans que la mélasse cède pour autant ; Finale : On perçoit la qualité du distillat et des fûts dans lesquels il a mûri par la profondeur cristalline jusqu'au bout. Tout est clair au palais et les vanilles caramélisées enveloppent les phénols pour une finale confortable et nette."
 		},
 		{
+			"featured": false,
 			"id": "amrut-single-malt",
 			"slug": "amrut-single-malt",
 			"name": "Amrut Single Malt",
@@ -367,6 +381,7 @@
 			"description_fr": "Notes de dégustation Nez : notes de réglisse-bourbon clairement assurées avec un équilibre aigre-doux presque parfait ; le nid d'abeilles brûlé et le caramel abondent également ; Goût : Richesse et éclat exceptionnels face à l'énorme douceur de l'orge et du chêne ; là encore un grand caractère bourbony traverse l'ensemble avec tout le réglisse et le sucre de mélasse habituellement associés ; mais l'orge ajoute cette dimension supplémentaire ; Finale : Chêne long et merveilleusement stratifié offrant des variations sur un thème doux et sec ; une touche soyeuse avec un peu de crème de toffee en toute fin de bouche ;"
 		},
 		{
+			"featured": false,
 			"id": "an-cnoc-12-yo",
 			"slug": "an-cnoc-12-yo",
 			"name": "An Cnoc 12 YO",
@@ -393,6 +408,7 @@
 			"description_fr": "Présentation de 700 ml. Connu comme un incontournable de la collection de tout amateur de whisky, il est léger et pourtant complexe. Doux mais audacieux. Et chaque détour réserve une surprise. En vérité, c'est un dram qui a quelque chose pour chacun. Couleur Ambre doux avec une légère teinte jaune. Nez Doux, très aromatique avec une touche de miel et de citron au premier plan. Goût Doux au départ avec un fruité appétissant et une finale longue et veloutée. Léger mais complexe, doux mais audacieux. C'est un dram qui a quelque chose pour chacun. Vol. alc. 40 % / 43 %"
 		},
 		{
+			"featured": false,
 			"id": "an-cnoc-18-yo",
 			"slug": "an-cnoc-18-yo",
 			"name": "An Cnoc 18 YO",
@@ -419,6 +435,7 @@
 			"description_fr": "Présentation de 700 ml. Région : Speyside L'anCnoc 18 ans a mûri en fûts de chêne espagnol ex-xérès et en fûts de chêne américain ex-bourbon et a été embouteillé sous sa forme la plus naturelle, sans filtration à froid ni coloration. Par conséquent, ce dram peut développer une légère turbidité avec l'ajout d'eau ou s'il est conservé à basse température. Ce voile est une caractéristique naturelle du whisky non filtré à froid. Couleur Ambre bronze. Nez Les épices douces et l'intense douceur des fruits secs sont rehaussées de chocolat, d'oranges mûres et de cuir huilé. Goût Corsé et audacieux, les épices aromatiques, le pain aux fruits et le citron confit sont suivis d'une vague de vanille, de miel et de caramel. La finale passe d'épicée et piquante à délicieusement douce et veloutée. Vol. alc 46 %"
 		},
 		{
+			"featured": false,
 			"id": "an-cnoc-peatheart",
 			"slug": "an-cnoc-peatheart",
 			"name": "An Cnoc Peatheart",
@@ -445,6 +462,7 @@
 			"description_fr": "Présentation de 700 ml."
 		},
 		{
+			"featured": false,
 			"id": "arran-10-yo",
 			"slug": "arran-10-yo",
 			"name": "Arran 10 YO",
@@ -480,6 +498,7 @@
 			]
 		},
 		{
+			"featured": false,
 			"id": "arran-barrel",
 			"slug": "arran-barrel",
 			"name": "Arran Barrel",
@@ -514,6 +533,7 @@
 			]
 		},
 		{
+			"featured": false,
 			"id": "arran-machrie-moor",
 			"slug": "arran-machrie-moor",
 			"name": "Arran Machrie Moor",
@@ -540,6 +560,7 @@
 			"description_fr": "Machrie Moor tire son nom d'une tourbière balayée par le vent et mystique sur la côte ouest d'Arran. Ce whisky à la force de fût tourbé apporte de la fumée de tourbe au caractère classique et frais du single malt d'Arran. ABV : 56,2 % Nez : Notes d'agrumes avec un fond de tourbe et une bouffée de fumée immédiatement perceptible. Bouche : Un dram robuste avec les fruits typiques du verger d'Arran qui se détachent sur une couche de brioche grillé et de fruits rouges."
 		},
 		{
+			"featured": false,
 			"id": "arran-quarter-cask",
 			"slug": "arran-quarter-cask",
 			"name": "Arran Quarter Cask",
@@ -566,6 +587,7 @@
 			"description_fr": "Présentation de 700 ml. C'est un Single Malt complexe, riche et intensément fruité, un délice de la force de fût et le compagnon parfait de notre Sherry Cask Single Malt. Il a d'abord mûri en ex-fûts de bourbon de premier remplissage avant d'être transféré pour une maturation secondaire dans des Quarter Casks plus petits, également fabriqués dans le meilleur chêne américain. Le processus consistant à transférer notre whisky dans des fûts plus petits de 125 litres produit un contact bien plus important entre le whisky et le chêne et une maturation plus rapide et plus intense. Le résultat final est une expression corsée d'Arran Single Malt qui allie puissance et délicatesse, pleine d'une riche douceur de vanille et d'épices audacieuses. L'embouteillage en Cask Strength naturel, sans filtration à froid ni coloration artificielle d'aucune sorte, présente ce whisky sous sa forme la plus pure. NOTES Nez Tarte aux pommes, brioche à l'ananas. Palais Les agrumes signature d'Arran vous accueillent, et l'épice douce de cannelle et de vanille promet un dram mémorable. Finale Douceur, miel, ananas, vanille, noix de coco."
 		},
 		{
+			"featured": false,
 			"id": "arran-sherry-cask",
 			"slug": "arran-sherry-cask",
 			"name": "Arran Sherry Cask",
@@ -678,6 +700,7 @@
 			]
 		},
 		{
+			"featured": false,
 			"id": "balblair-12-yo",
 			"slug": "balblair-12-yo",
 			"name": "Balblair 12 YO",
@@ -704,6 +727,7 @@
 			"description_fr": "Présentation de 700 ml. Dans le délicat équilibre entre fruits, épices et douceur, Balblair 12 ans capture le charme discret des Highlands. Élégante et accessible, c'est l'expression qui définit la distillerie Balblair, celle à laquelle toutes les autres se réfèrent. Notes de dégustation COULEUR Or poli. ARÔME Élégantes écorces de citron brillantes en couches avec de la vanille crémeuse et des pommes vertes croquantes. PALAIS Épices moulues et tranches d'orange déshydratées enveloppées dans une intense sucrosité de miel. FINALE Crémeuse et coriace avec des notes de vanille douce."
 		},
 		{
+			"featured": false,
 			"id": "balblair-15-yo",
 			"slug": "balblair-15-yo",
 			"name": "Balblair 15 YO",
@@ -730,6 +754,7 @@
 			"description_fr": "Présentation de 700 ml. Tropical et mûr, avec la texture du chocolat fondu et l'une des finales les plus fines qu'un single malt puisse offrir, ce whisky éblouissant mérite une admiration silencieuse. Rond et velouté, mais développé et frais. Lissé par le temps, mais au cœur palpitant. Notes de dégustation COULEUR Ambre brillant ARÔME Miel de cuir et pain d'épices suivi de pruneaux juteux et d'écorce de citron fraîche PALAIS De texture veloutée, débordant de chocolat noir, de fruits tropicaux et d'épices. FINALE Longue et douce, avec des notes de vanille crémeuse et d'agrumes."
 		},
 		{
+			"featured": false,
 			"id": "balblair-18-yo",
 			"slug": "balblair-18-yo",
 			"name": "Balblair 18 YO",
@@ -756,6 +781,7 @@
 			"description_fr": "Présentation de 700 ml. Cette expression nocturne est riche et automnale, développée et amplifiée à des hauteurs inattendues, tout en restant parfaitement équilibrée et étroitement liée au caractère brillant et fruité de la distillerie. Notes de dégustation COULEUR Cèdre huilé. ARÔME Riche toffee et poires cuites resplendissent sur un élégant fond de cuir neuf. PALAIS Un équilibre magistral d'abricots juteux, de chêne assaisonné et de crème à la vanille. FINALE Longue et chaleureuse avec des accords d'épices fraîches et de raisins secs."
 		},
 		{
+			"featured": false,
 			"id": "benromach-organic",
 			"slug": "benromach-organic",
 			"name": "Benromach Organic",
@@ -782,6 +808,7 @@
 			"description_fr": "Présentation de 700 ml. 46 % vol. FÛTS DE CHÊNE AMÉRICAIN VIERGE Contrastes : Organic Le premier single malt biologique certifié au monde depuis 2006. Accrédité par la UK Soil Association du début à la fin, Benromach Organic mûrit en chêne américain vierge et offre des notes douces et maltées avec des saveurs crémeuses de poivre, de banane, de café et de cacao. COULEUR Ambre doré ARÔMES La vanille douce et les fruits mûrs accompagnent le zeste des agrumes. Le malt torréfié laisse place aux pommes vertes. PALAIS Crémeux avec un poivre léger et du caramel. Le café fraîchement moulu se développe avec la banane séchée et une subtile touche herbacée. FINALE De corps moyen et longue avec de l'anis et du cacao en poudre."
 		},
 		{
+			"featured": false,
 			"id": "benromach-peat-smoke",
 			"slug": "benromach-peat-smoke",
 			"name": "Benromach Peat Smoke",
@@ -808,6 +835,7 @@
 			"description_fr": "Présentation de 700 ml. 46 % vol. PREMIER REMPLISSAGE DE FÛTS DE BOURBON Contrastes : Peat Smoke Petit lot élaboré avec de l'orge fortement tourbée. Benromach Peat Smoke mûrit en fûts de bourbon de premier remplissage. Il offre des notes parfumées de vanille, qui mènent à un sorbet au citron et à l'abricot, pour finir sur des braises fumées de feu de camp. COULEUR Or clair ARÔMES Une fumée très riche avec de la vanille parfumée et un léger zeste d'agrumes. Des touches de pomme se développent accompagnées de chocolat blanc. PALAIS Doux avec du chêne grillé, du miel et un fruit mûr sucré. Les saveurs de caramel et de guimauve mènent à un sorbet au citron accompagné d'une fumée douce. FINALE Une douceur qui tapisse la bouche et des braises de feu de camp."
 		},
 		{
+			"featured": false,
 			"id": "benromach-speyside-10-yo",
 			"slug": "benromach-speyside-10-yo",
 			"name": "Benromach Speyside 10 YO",
@@ -834,6 +862,7 @@
 			"description_fr": "Présentation de 700 ml. 43 % vol. PREMIER REMPLISSAGE DE FÛTS DE BOURBON ET DE XÉRÈS Uniquement mûri dans les meilleurs fûts de chêne, notre exclusif single malt TEN YEAR OLD offre de délicats fruits rouges et un malt crémeux, une légère touche fumée et de riches notes de xérès persistantes. COULEUR Ambre doré ARÔME La douce pomme verte et la poire complètent le miel foncé crémeux. La vanille douce se développe avec la fumée légère. PALAIS Les saveurs douces de céréales maltées et de compote de fruits se combinent avec du toffee chaud et une touche de cerise noire FINALE Finale de plein corps avec de la céréale maltée et une fumée douce."
 		},
 		{
+			"featured": false,
 			"id": "benromach-speyside-15-yo",
 			"slug": "benromach-speyside-15-yo",
 			"name": "Benromach Speyside 15 YO",
@@ -860,6 +889,7 @@
 			"description_fr": "Présentation de 700 ml. 43 % vol. PREMIER REMPLISSAGE DE FÛTS DE BOURBON ET DE XÉRÈS Mûri uniquement en fûts de chêne de la plus haute qualité, notre single malt FIFTEEN YEAR OLD offre du poivre moulu, du chêne carbonisé, des pommes, du chocolat noir et des fruits rouges avec de riches notes de xérès et une légère touche fumée. COULEUR Ambre foncé ARÔME Des arômes de caramel doux qui mènent à des notes de poivre noir moulu et de fumée de tourbe. De riches fruits rouges se développent avec du chocolat noir et de la banane séchée. PALAIS Crémeux et sucré avec des pommes mûres et un arrière-plan de chêne carbonisé. Du chocolat noir se développe et mène à du malt torréfié et de l'écorce d'orange avec une subtile touche fumée. FINALE Finale moyenne et crémeuse avec une fumée douce et des fruits secs."
 		},
 		{
+			"featured": false,
 			"id": "buffalo-trace-bourbon",
 			"slug": "buffalo-trace-bourbon",
 			"name": "Buffalo Trace Bourbon",
@@ -886,6 +916,7 @@
 			"description_fr": "Présentation de 1 litre."
 		},
 		{
+			"featured": false,
 			"id": "casanegra-andes-single-malt",
 			"slug": "casanegra-andes-single-malt",
 			"name": "Casanegra Andes Single Malt",
@@ -912,6 +943,7 @@
 			"description_fr": "Le premier Andes single malt au monde, créé par les frères Gabriel et Cristian Williams à Las Compuertas, Luján de Cuyo, Mendoza, avec une traçabilité 100 % andine. Tous les processus, du maltage à la maturation en fûts toastés dans leur propre tonnellerie, sont réalisés intégralement à la distillerie. Lots limités de 1000 bouteilles."
 		},
 		{
+			"featured": false,
 			"id": "cattos",
 			"slug": "cattos",
 			"name": "Catto&#8217;s",
@@ -938,6 +970,7 @@
 			"description_fr": "Présentations de 200 ml, 1 litre et 1,14 litre. Le blend écossais Rare Olds Scottish n'utilise que les meilleurs malts non tourbés des Highlands et du Speyside, assemblés par des experts avec des grains des Lowlands pour produire un blend à très haute teneur en malt. Notes de dégustation Couleur Miel dorée. Nez Parfumé et lumineux, avec des traces d'agrumes frais et une note de miel. Dégustation Savoureux, rond et caractériel, avec une finale délicieusement douce et veloutée."
 		},
 		{
+			"featured": false,
 			"id": "cattos-12-yo",
 			"slug": "cattos-12-yo",
 			"name": "Catto&#8217;s 12 YO",
@@ -964,6 +997,7 @@
 			"description_fr": "Présentations de 750 ml et 1 litre. Catto&#8217;s deluxe 12 Year Old est une version mature de notre célèbre blend. Tous les composants qui constituent cette liqueur exceptionnelle, qu'il s'agisse de whiskies de malt ou de grain des Highlands, du Speyside et des Lowlands d'Écosse, ont été vieillis en fûts de chêne sur le sol écossais pendant un minimum de douze ans avant leur mariage. Le résultat est un whisky d'une profondeur et d'une complexité remarquables, un whisky à savourer véritablement. Notes de dégustation Couleur Pétillant, or paille. Nez Pleinement aromatique et tentant. Le fruit doux et les céréales sont rehaussés du zeste de citron épicé. Dégustation Mature et complexe, rempli de saveurs fruitées et de chêne. Finale persistante et chaleureuse avec de délicates notes épicées."
 		},
 		{
+			"featured": false,
 			"id": "cattos-25-yo",
 			"slug": "cattos-25-yo",
 			"name": "Catto&#8217;s 25 YO",
@@ -990,6 +1024,7 @@
 			"description_fr": "Présentation de 700 ml. Il nous faut un quart de siècle pour faire mûrir uniquement les meilleurs whiskies en ex-fûts de bourbon et de xérès en chêne américain soigneusement sélectionnés, que le Master Blender de Catto combine ensuite méticuleusement pour créer ce dram célèbre. Un whisky magnifiquement arrondi et parfaitement équilibré pour ceux qui placent la qualité avant tout, Catto&#8217;s 25 Year Old continue de refléter les normes méticuleuses établies par James Catto en 1861. Notes de dégustation Couleur Ambre profond. Nez Un arôme doux, complexe et corsé, avec des touches de riche vanille, de cuir et d'épices, suivies de nuances lumineuses de poires cuites, de bananes mûres et de noix de coco. Dégustation Saveur parfaitement équilibrée. Richement doux et épicé au départ avec une finale persistante de caramel liquide et de raisins secs. Sublime."
 		},
 		{
+			"featured": false,
 			"id": "cu-bocan-creation-1",
 			"slug": "cu-bocan-creation-1",
 			"name": "Cu bocan creation #1",
@@ -1016,6 +1051,7 @@
 			"description_fr": "Présentation 700 ml. Une collaboration inhabituellement créative, cet assemblage intrigant combine le meilleur de ses homologues du vin et de la bière ; doux et onctueux avec des touches de confiture d'orange et d'espresso. ABV : 46 % Nez : Grains d'espresso, cuir, pommes rouges, orge grillée et biscuits au beurre. Bouche : Pommes au beurre, confiture d'orange, noix, cèdre, amertume de chocolat noir et une touche de pruneau"
 		},
 		{
+			"featured": false,
 			"id": "cu-bocan-creation-2",
 			"slug": "cu-bocan-creation-2",
 			"name": "Cu bocan creation #2",
@@ -1042,6 +1078,7 @@
 			"description_fr": "Présentation 700 ml. Une expérience où l'Extrême-Orient rencontre l'Europe, cette création innovante est riche et vivante avec des touches fumées et de tarte à la lime. ABV : 46 % Nez : Arômes herbacés et de terre humide. Des notes fruitées de pomme verte et de melon apparaissent, avec une touche de lime. Bouche : C'est un whisky très sec et épicé sur le bout de la langue. Pour être légèrement fumé, les notes fumées se perçoivent parfaitement au palais."
 		},
 		{
+			"featured": false,
 			"id": "cu-bocan-signature",
 			"slug": "cu-bocan-signature",
 			"name": "Cu Bocan Signature",
@@ -1068,6 +1105,7 @@
 			"description_fr": "Présentation de 700 ml. La série tourbée des single malts de Tomatin, Cù Bòcan, a reçu un petit redesign à la mi-2019, avec de nouvelles bouteilles et de nouvelles expressions, comme celle-ci ! Cù Bòcan Signature est une expression légèrement tourbée issue d'un trio de fûts ; fûts de bourbon, fûts de xérès oloroso et fûts de chêne vierge nord-américain. Pas de filtration à froid ni de colorants ajoutés pour celui-ci, juste un whisky fruité et légèrement fumé. Note de dégustation Nez : Sec et parfumé, avec de la fumée de bois, de l'écorce de citron sèche et un peu de vanille, puis des fruits du verger et du miel de bruyère, avec une touche de réglisse. Bouche : Charbon de barbecue, épices de cuisine et poire Conférence d'abord, suivi d'écorce d'orange et de touches de cuir et d'espresso. Finale : Raisins muscat, fumée légère et un peu de noix."
 		},
 		{
+			"featured": false,
 			"id": "dalmore-12-yo",
 			"slug": "dalmore-12-yo",
 			"name": "Dalmore 12 YO",
@@ -1094,6 +1132,7 @@
 			"description_fr": "Présentation de 700 ml. Un single malt extraordinaire mûri en ex-fûts de bourbon en chêne blanc américain et affiné en fûts de xérès oloroso rares et vieillis. Volume : 70cl ABV : 40 % Le profil de saveur L'arôme Agrumes, chocolat et épices aromatiques. En bouche Oranges de Séville, fruits secs et touches de gousse de vanille. Notes de finale Café torréfié et chocolat noir."
 		},
 		{
+			"featured": false,
 			"id": "dalmore-15-yo",
 			"slug": "dalmore-15-yo",
 			"name": "Dalmore 15 YO",
@@ -1120,6 +1159,7 @@
 			"description_fr": "Présentation de 700 ml. L'épitome du style de notre maison, ce single malt est fini dans différents styles de fûts de xérès, notamment Apostoles, Amoroso et Matusalem oloroso. Volume : 70cl ABV : 40 % Le profil de saveur L'arôme Confiture d'orange, cannelle et muscade. En bouche Mandarine, vanille, gingembre et pommes écrasées. Notes de finale Orange caramélisée et riche chocolat noir."
 		},
 		{
+			"featured": false,
 			"id": "dalmore-king-alexander",
 			"slug": "dalmore-king-alexander",
 			"name": "Dalmore King Alexander",
@@ -1146,6 +1186,7 @@
 			"description_fr": "Présentation de 700 ml. Six finitions de fûts différentes sont exquisément assemblées pour créer un whisky unique au profil de saveur riche et tentant. Volume : 70cl ABV : 40 % Le profil de saveur L'arôme. Fruits rouges et touches de fruit de la passion. En bouche. Zestes d'agrumes, gousse de vanille, crème renversée et amandes écrasées. Notes de finale Cannelle, muscade et gingembre."
 		},
 		{
+			"featured": false,
 			"id": "dingle",
 			"slug": "dingle",
 			"name": "Dingle",
@@ -1172,6 +1213,7 @@
 			"description_fr": "Présentation de 700 ml. Le lancement de Core Single Malt tant attendu de la Dingle Distillery est enfin là, et il est là pour rester. Ce Core Single Malt a demandé des années de développement et se compose d'un whisky de malt mûri en fûts de xérès ex-Bourbon et PX. 39 % Bourbon, 61 % Xérès PX. Embouteillé à 46,3 % et non filtré à froid. C'est un whisky très intéressant dans lequel les composantes des fûts prennent le devant de la scène à différentes étapes. NOTES DE SAVEUR Nez : zeste de lime, menthe ciselée, poire douce Goût : pomme caramélisée, raisins secs, vanille Finale : douceur de miel, épices variées qui persistent sur la langue."
 		},
 		{
+			"featured": false,
 			"id": "dingle-batch-5",
 			"slug": "dingle-batch-5",
 			"name": "Dingle Batch 5",
@@ -1198,6 +1240,7 @@
 			"description_fr": "Présentation de 700 ml. Le cinquième lancement de Single Malt très attendu de la Dingle Distillery arrive. Le cinquième lancement se compose d'un whisky de malt mûri en fûts ex-Bourbon, PX et Madère. Ce sera le premier lancement de ce type pour Dingle. Embouteillé à 46,5 % et non filtré à froid. Le Lot 5 est un whisky très intéressant dans lequel les composantes des fûts se distinguent à différentes étapes. Le bourbon apporte arôme et épices, tandis que les fûts PX et Madère apportent du corps en bouche et de la saveur. Note de dégustation officielle Nez Crème brûlée, caramel salé et rayon de miel fondu Goût Raisins secs séchés au soleil, miel crémeux de fleurs et tiramisu à la vanille Finale Épice douce, chaleureuse, persistante et veloutée"
 		},
 		{
+			"featured": false,
 			"id": "dingle-pot-still-batch-4",
 			"slug": "dingle-pot-still-batch-4",
 			"name": "Dingle Pot Still Batch 4",
@@ -1224,6 +1267,7 @@
 			"description_fr": "Présentation de 700 ml. Ce quatrième lancement d'un petit lot de whiskey irlandais Single Pot Still réunit ce mariage de fûts de bourbon et d'oloroso avec une richesse intense et une bouffée d'épices. Des tons de fruits foncés et de figues sont suivis de chocolat noir avec une pincée de noix grillées et concassées. Le chocolat laisse place aux notes épicées de bois tendre et de cuir qui vous conduisent à une finale longue et mémorable. NOTES DE SAVEUR Nez : Un festin de desserts : pudding au toffee fondant, forêt-noire et glace au caramel. Bouche : Les fruits foncés, les figues et les raisins secs se détachent, suivis du chocolat noir et des noix concassées. Finale : chocolat noir et épices. Les notes de bois tendre et de cuir persistent longtemps."
 		},
 		{
+			"featured": false,
 			"id": "elijah-craig-rye",
 			"slug": "elijah-craig-rye",
 			"name": "Elijah Craig Rye",
@@ -1250,6 +1294,7 @@
 			"description_fr": "Ce extraordinaire whiskey de seigle extra-aged est le premier à porter le nom d'Elijah Craig : l'entrepreneur et distillateur à qui l'on attribue d'avoir été le premier à vieillir son whiskey américain en fûts de chêne carbonisé pour faire du bourbon. L'esprit pionnier et l'engagement artisanal d'Elijah s'expriment pleinement dans ce Kentucky Straight Rye, produit à partir de fûts sélectionnés spécifiquement par nos distillateurs. Dans le verre, Elijah Craig Rye révèle l'épice conférée par les grains de seigle, parfaitement équilibrée avec le maïs pour une douceur et un caractère caractéristiques. ABV : 47 % Nez : Chocolat noir épicé avec une touche de fumée. Bouche : riches épices de pâtisserie et miel soutenus par une douce influence de chêne"
 		},
 		{
+			"featured": false,
 			"id": "elijah-craig-small-batch",
 			"slug": "elijah-craig-small-batch",
 			"name": "Elijah Craig Small Batch",
@@ -1276,6 +1321,7 @@
 			"description_fr": "Présentation de 750 ml."
 		},
 		{
+			"featured": false,
 			"id": "elijh-craig-toasted-barrel",
 			"slug": "elijh-craig-toasted-barrel",
 			"name": "Elijh Craig Toasted Barrel",
@@ -1302,6 +1348,7 @@
 			"description_fr": "Carbonisé pour commencer. Toasté pour finir. Cette expression unique prend le bourbon primé Elijah Craig Small Batch entièrement vieilli et le finit dans un fût toasté sur mesure pour obtenir une complexité de chêne encore plus douce. ABV : 42 % Nez : Beaucoup de chêne toasté avec un riche caramel. Bouche : Généreux, riche et complexe. De délicieuses notes d'épices et de poivre s'estompent vers du chocolat au lait avec juste une touche de fumée."
 		},
 		{
+			"featured": false,
 			"id": "emc-pampa-single-malt",
 			"slug": "emc-pampa-single-malt",
 			"name": "Pampa Single Malt",
@@ -1328,6 +1375,7 @@
 			"description_fr": "Single Malt élaboré avec du malt importé d'Écosse, dans ses versions Distilling et Heavily Peated."
 		},
 		{
+			"featured": false,
 			"id": "evan-williams-1783",
 			"slug": "evan-williams-1783",
 			"name": "Evan Williams 1783",
@@ -1354,6 +1402,7 @@
 			"description_fr": "Evan Williams 1783 Small Batch rend hommage à l'année où Evan Williams fonda la première distillerie du Kentucky. Ce bourbon small batch extra vieilli, élaboré à partir de moins de 200 barils, a remporté le prix Consumers&#8217; SIP Award 2019. ABV : 45 % Nez : Vanille au goût de chêne, beurre sauté et maïs doux. Bouche : Mi-doux, au chêne et sirupeux."
 		},
 		{
+			"featured": false,
 			"id": "evan-williams-black-label",
 			"slug": "evan-williams-black-label",
 			"name": "Evan Williams Black Label",
@@ -1380,6 +1429,7 @@
 			"description_fr": "Présentation de 750 ml. Région : Kentucky Evan Williams Black est un bourbon doux et facile à boire qui porte le nom d'Evan Williams qui, en 1783, ouvrit la première distillerie commerciale du Kentucky sur les rives de la rivière Ohio. Aujourd'hui, Evan Williams est le deuxième Kentucky Straight Bourbon le plus vendu aux États-Unis et dans le monde, distillé à quelques rues de l'endroit où Evan lui-même construisit sa distillerie. Âge : 4-5 ans Notes de dégustation Couleur : Ambre moyen Arôme : Léger avec une profonde vanille et de la menthe. Saveur : Notes de chêne, de cassonade et de caramel Finale : Moyenne à longue. La distillerie originale fut construite sur un terrain à Bardstown appartenant à un homme nommé William Heavenhill. Selon le président Max Shapira, si le nom de M. Heavenhill s'est retrouvé sous sa forme actuelle, c'est à cause d'une faute de frappe commise dans les documents envoyés aux fonctionnaires de l'État à Frankfort. Lorsqu'on lui dit que rétablir le nom en Heavenhill coûterait 10 $, cela fut jugé inutile et la coquille fut conservée."
 		},
 		{
+			"featured": false,
 			"id": "evan-williams-honey-reserve",
 			"slug": "evan-williams-honey-reserve",
 			"name": "Evan Williams Honey Reserve",
@@ -1406,6 +1456,7 @@
 			"description_fr": "Présentation de 750 ml."
 		},
 		{
+			"featured": false,
 			"id": "evan-williams-single-barrel",
 			"slug": "evan-williams-single-barrel",
 			"name": "Evan Williams Single Barrel",
@@ -1432,6 +1483,7 @@
 			"description_fr": "C'est le seul bourbon single barrel daté du marché. De manière similaire à la façon dont on sélectionne les vins âgés, nos distillateurs choisissent à la main des barils individuels répondant aux spécifications qu'ils ont établies. Ensuite, chaque bouteille est marquée de la date de récolte où le whisky a été mis en chêne, ainsi que de l'année d'embouteillage et du numéro exact de baril du fût unique dont provient le Bourbon. Disponible à l'Evan Williams Bourbon Experience et chez certains détaillants sélectionnés du Kentucky. Preuve : 86.6 Âge : 7-8 ans Arôme : Caramel foncé, chêne doux et bois carbonisé Saveur : Luxuriant et épicé, chêne avec des notes de miel, de pomme et d'orange."
 		},
 		{
+			"featured": false,
 			"id": "fettercairn-12-yo",
 			"slug": "fettercairn-12-yo",
 			"name": "Fettercairn 12 YO",
@@ -1458,6 +1510,7 @@
 			"description_fr": "Présentation de 700 ml. L'une des quatre nouvelles expressions de Fettercairn lancées en août 2018, Fettercairn 12 ans avait pour vocation d'incarner le caractère floral et fruité exotique de la distillerie. Il a mûri en fûts de chêne américain ex-Bourbon et a été embouteillé à 40 % ABV. COULEUR Lumière du soleil et ambre miellé. GOÛT Vanille et poire, avec des épices douces. FINALE Nectarine rafraîchissante et fruits tropicaux, avec un subtil café torréfié, du clou de girofle et du gingembre. Une finale mémorable de raisins de Corinthe et de toffee noir."
 		},
 		{
+			"featured": false,
 			"id": "glenallachie-12-yo",
 			"slug": "glenallachie-12-yo",
 			"name": "Glenallachie 12 YO",
@@ -1484,6 +1537,7 @@
 			"description_fr": "Glenallachie 12, ce single malt du Speyside non tourbé acclamé est un classique du cellier qui illustre notre approche indépendante. Notre embouteillage phare repose sur notre philosophie fondamentale : le bois exceptionnel est la clé d'un whisky superlatif. ABV : 46 % Nez : Notes de chocolat noir, de mélasse et de miel de bruyère, avec de la cannelle, de l'espresso et des raisins secs collants en arrière-plan. Bouche : Tons de massepain et de fruits du verger, suivis d'un chaud moka, de caramel et de muscade râpée."
 		},
 		{
+			"featured": false,
 			"id": "glenallachie-15-yo",
 			"slug": "glenallachie-15-yo",
 			"name": "Glenallachie 15 YO",
@@ -1510,6 +1564,7 @@
 			"description_fr": "Ce spectaculaire whisky écossais incarne notre dévotion indéfectible à la recherche du bois de xérès de plus haut niveau. Une surveillance attentive tout au long du processus de maturation garantit que le whisky est embouteillé à son point optimal. Nez : Cerises foncées, sirop doré et épices douces au premier plan, avec des notes de toffee, de figues glacées et de noisettes. Bouche : Notre signature est le miel de bruyère, accompagné d'écorce d'orange, de cacao et de gingembre, avec de la cassonade caramélisée en finale."
 		},
 		{
+			"featured": false,
 			"id": "glenallachie-8-yo",
 			"slug": "glenallachie-8-yo",
 			"name": "Glenallachie 8 YO",
@@ -1536,6 +1591,7 @@
 			"description_fr": "The GlenAllachie 8 ans a mis en œuvre une philosophie d'innovation dans le bois et a obtenu les meilleurs fûts du monde pour élever la liqueur à son niveau optimal, offrant un single malt véritablement exceptionnel. ABV : 46 % Nez : Miel de bruyère, caramel et cannelle, suivis de vagues de gingembre, d'amandes grillées et de moka. Bouche : Quantité de mélasse, de raisins secs et de caramel, avec de la cannelle, de la menthe et du rayon de miel."
 		},
 		{
+			"featured": false,
 			"id": "glencadam-10-yo",
 			"slug": "glencadam-10-yo",
 			"name": "Glencadam 10 YO",
@@ -1562,6 +1618,7 @@
 			"description_fr": "Présentation de 700 ml. Le single malt écossais Glencadam Highland de 10 ans, multiprimé, est un excellent exemple de siècles de savoir-faire et de tradition. Un malt &#8220;plutôt délicat&#8221; à la saveur pure et magnifiquement équilibrée. Prix : Vainqueur de sa catégorie – World Whiskeys Awards 2020 Prix Exceptionnel Or – International Wine and Spirit Competition 2019. Nez Acidulé et frais avec des arômes de fruits tropicaux et d'agrumes combinés à une douce douceur de vanille et d'épices de pâtisserie. Palais Brillant et herbacé avec des couches d'ananas, de caillé de citron et de brioche avec des touches de zestes d'agrumes Finale Propre et fraîche avec des notes de fruits jaunes, de gousse de vanille et d'épices de muscade. &nbsp;"
 		},
 		{
+			"featured": false,
 			"id": "glencadam-origin",
 			"slug": "glencadam-origin",
 			"name": "Glencadam Origin",
@@ -1588,6 +1645,7 @@
 			"description_fr": "Présentation de 700 ml. La distillerie Glencadam a ouvert ses portes en 1825 et depuis, peu de choses ont changé. Une collection très spéciale de fûts a été choisie pour l'édition Origin 1825. La sélection finale consista en une combinaison unique de whisky mûri en fûts de bourbon de chêne blanc américain de première classe avec un whisky « fini » dans les meilleures barriques de xérès oloroso espagnol. ABV 40 % Couleur Or chaleureux Nez Fruits sucrés du verger et miel de fleurs mélangés à de la pomme rôtie et des touches de cannelle Palais Couches de banane fraîche et de poire suivies de sucre doux d'orge, d'ananas séché et d'épices douces pour gâteau Finale Douce et fruitée avec des notes de bonbons à la poire, de tarte au citron et d'écorces confites."
 		},
 		{
+			"featured": false,
 			"id": "glendalough-double-barrel",
 			"slug": "glendalough-double-barrel",
 			"name": "Glendalough Double Barrel",
@@ -1614,6 +1672,7 @@
 			"description_fr": "Présentation de 700 ml. Région : Wicklow Après son lancement, ce whisky a remporté le double or à The World Spirits Competition à San Francisco. C'est vraiment un whiskey irlandais qui vous fera repenser le whiskey irlandais. Un whisky charmant, léger et facile à boire, il est aussi complexe avec une profondeur de saveur au-delà de ses années. Vieilli deux fois en fûts provenant de contrées lointaines, les saveurs sont un jeu de deux moitiés. Les fûts de bourbon en chêne américain apportent un miel doux et de douces notes de vanille, qui posent les bases des saveurs. Les fûts de chêne espagnol oloroso superposent des fruits secs et des saveurs de noix. Pour trouver les meilleurs fûts d'Oloroso, nous sommes sortis des sentiers battus jusqu'au petit village andalou de Montilla, berceau du célèbre raisin PX. Ici, nous pouvons parler directement avec les producteurs, choisir la cave, le liquide, le temps de conditionnement et enfin les fûts. Cela nous donne plus d'influence sur les saveurs de notre whisky Double Barrel. NOTES DE SAVEUR Le nez Riche en fruits noirs, cerises, raisins secs, figues et pudding de Noël. Notes florales avec citronnelle, agrumes et une touche de muscade. La saveur Douce et veloutée, avec du caramel, du miel et des grains de poivre, des fruits secs, des cerises au marasquin et de la cassonade. La finale Le gingembre épice une touche d'amandes et de terreau."
 		},
 		{
+			"featured": false,
 			"id": "glendalough-pot-still",
 			"slug": "glendalough-pot-still",
 			"name": "Glendalough Pot Still",
@@ -1640,6 +1699,7 @@
 			"description_fr": "Présentation de 700 ml. Fini jusqu'à un an dans le plus rare de tous les barils, le chêne irlandais vierge, c'est une étape majeure pour le whiskey irlandais. Un whiskey conventionnel single barrel qui met à la portée de tous les saveurs du chêne irlandais. Chaque bouteille est numérotée et traçable jusqu'à chaque fût et même jusqu'à l'arbre dont il provient. Nous abattons de manière durable des arbres de 140 ans des anciennes forêts de chênes dans les montagnes autour de la distillerie. Ce fut le début d'un processus d'un an qui se termine par un tonneau de chêne irlandais. Ces fûts spéciaux sont remplis du whiskey irlandais par excellence : le pot still. Les niveaux plus élevés de saveurs de chêne toasté et de vanille que le chêne irlandais apporte au liquide complètent et équilibrent les classiques épices du pot still. Notes : Couleur : Or brillant. Nez : Arômes de grain non malté, de bois de chêne, notes crémeuses de vanille et un peu de charbon. Notes épicées douces de cannelle. Bouche : Au palais, nous retrouvons la cannelle, le gingembre et la vanille. Malt croquant, comme si vous demandiez à mâcher. Notes fruitées de poire, de pêche, de banane et d'agrumes confits, caramel, noix de coco, amandes et sirop d'érable. En finale, des épices comme le clou de girofle et une vanille plus crémeuse, accompagnées de quelques baies rouges et de chêne grillé."
 		},
 		{
+			"featured": false,
 			"id": "glenfarclas-105-cask-strength",
 			"slug": "glenfarclas-105-cask-strength",
 			"name": "Glenfarclas 105 Cask Strength",
@@ -1666,6 +1726,7 @@
 			"description_fr": "Présentations de 700 ml et 1 litre. C'est le whisky de malt de plus haute graduation disponible sur le marché malgré sa notoire douceur. Il est tel qu'on le buvait au XIXe siècle, directement sorti du fût et avec la graduation acquise pendant son vieillissement. Ainsi Glenfarclas arrive aussi naturel et parfait que le jour où il a quitté sa maison des Highlands, avec sa saveur prisonnière et suspendue dans le temps jusqu'au crucial moment de vérité, lorsque la bouteille est débouchée et que le soleil d'automne lui accorde la liberté. Il est considéré comme l'un des trois meilleurs whiskys de sa gamme par la prestigieuse International Wine &amp; Spirits Competition. Avec ses 60 degrés, c'est le Whisky de Malt de plus haute graduation sur le marché et l'historique grand-père de la catégorie Cask Strength. Il fut créé en l'honneur de George S Grant qui embouteillait un tonneau et le laissait à la force du fût pour ensuite l'offrir à ses amis et à sa famille à Noël. Notes : Couleur : Doré foncé aux reflets de tourbe. Nez : Complexe, au chêne, aux pommes et aux poires, et une tentante douceur de toffee. Saveur : Sec et direct, évolue rapidement pour révéler des épices savoureuses combinées à des notes de chêne et de fruit xérèssé. Finale : Incroyablement douce pour sa graduation alcoolique, merveilleusement chaleureuse, avec des fumés persistants bien que très arrondis. Graduation : 60 %"
 		},
 		{
+			"featured": false,
 			"id": "glenfarclas-12-yo",
 			"slug": "glenfarclas-12-yo",
 			"name": "Glenfarclas 12 YO",
@@ -1692,6 +1753,7 @@
 			"description_fr": "Présentations de 700 ml et 1 litre. Glenfarclas 12 est sans doute une approche directe et simple de ce que représente Glenfarclas : des whiskies chaleureux et xérèssés. C'est un whisky connu mondialement pour ces deux caractéristiques qui sont, en fait, l'image parfaite d'un whisky venant du Speyside. Glenfarclas est l'une des rares distilleries à maintenir une structure familiale, et c'est l'une de celles que nous visitons lors de notre voyage dans la région du Speyside. Une des caractéristiques qui distingue cette distillerie est qu'elle chauffe les alambics directement au feu de gaz, ce qui leur permet, selon eux, « d'obtenir un spiritueux plus toasté et même quelque peu caramélisé ». Glenfarclas 12 a été vieilli intégralement en fûts de chêne espagnol ayant précédemment contenu du xérès. Il a été embouteillé à 43 % de volume d'alcool et on ne lui a ajouté ni colorant ni filtration à froid. Note de dégustation La vue Glenfarclas maintient une ligne esthétique très conservatrice sur ses bouteilles. L'étui de l'édition de 12 ans est d'un bleu électrique, et le bouchon de la bouteille est un liège. En verre, il possède une couleur or grillé, comme caramélisé. Le nez Glenfarclas 12 a un parfum léger et soyeux. Nous noterons un mélange d'arômes de xérès et de notes de miel. Nous pourrons également trouver des arômes de chêne et un peu de résine de pin. Le palais De corps moyen-grand, nous notons une forte présence autant de notes de xérès que fruitées (raisins secs et pommes) au premier plan. En second lieu, il possède des saveurs comme la banane, le miel et des épices comme la cannelle et la muscade. Le bois est aussi assez présent, et peut-être une touche d'humidité du fût, qui rappelle la terre mouillée. La finale Épicée et assez longue. Les notes fruitées que nous trouvions au palais ont moins de présence, si bien que c'est une finale quelque peu sèche. Nous pourrons trouver de la cannelle, du clou de girofle, du xérès et des notes de chêne."
 		},
 		{
+			"featured": false,
 			"id": "glengoyne-10-yo",
 			"slug": "glengoyne-10-yo",
 			"name": "Glengoyne 10 YO",
@@ -1718,6 +1780,7 @@
 			"description_fr": "Présentation de 700 ml. Pommes vertes fraîches, caramel et une touche de noix. Voici la saveur de la distillation la plus lente d'Écosse, de l'orge que nous séchons à l'air (jamais à la tourbe) et des fûts de xérès sélectionnés à la main fabriqués en chêne européen et américain. Au nez doux, avec des arômes de toffee et de pop-corn. Légèrement noiseté, avec des pommes vertes fraîches. Au goût, pommes vertes, herbe, chêne doux et une touche de réglisse sucrée. Ajoutez une goutte d'eau et découvrez des notes d'huile de lin et d'amandes. NEZ Doux, avec des arômes de toffee et de pop-corn. Légèrement noiseté, avec des pommes vertes fraîches pointant. PALAIS Net. Pommes vertes et herbe, chêne doux et une touche de réglisse sucrée. L'eau apporte de l'huile de lin et des amandes. FINALE Douce et maltée."
 		},
 		{
+			"featured": false,
 			"id": "glengoyne-12-yo",
 			"slug": "glengoyne-12-yo",
 			"name": "Glengoyne 12 YO",
@@ -1744,6 +1807,7 @@
 			"description_fr": "Présentation 700 ml. Zeste de citron, pommes caramélisées et un parfum de coco. Les fûts de xérès sélectionnés à la main aident à créer ce paradis de saveurs et une riche couleur dorée. C'est la saveur de la distillation la plus lente d'Écosse et notre insistance sur l'orge séchée à l'air, jamais à la tourbe. ABV : 43 % Nez : Arômes d'huile de coco, de miel, de zeste de citron et de bois sec. Bouche : Saveurs de toffee au caramel, avec des notes de pomme, de gingembre, d'orange et une touche de crème glacée. Arrière-goût avec des notes de Xérès, de bois tendre et de cannelle. Il est délicieusement bien équilibré."
 		},
 		{
+			"featured": false,
 			"id": "glengoyne-15-yo",
 			"slug": "glengoyne-15-yo",
 			"name": "Glengoyne 15 YO",
@@ -1770,6 +1834,7 @@
 			"description_fr": "Présentation de 700 ml. Le single malt Glengoyne 15 ans a été vieilli en ex-fûts de Bourbon et de Xérès et arrondi par l'ajout de whisky d'un fût de recharge (dans lequel du whisky de malt a mûri deux fois). C'est un whisky totalement exempt de fumée de tourbe, grâce au processus de séchage à l'air de l'orge. Couleur : Ambre clair. Nez : Arômes aux tons frais de foin, d'agrumes et de fruits secs. Bouche : Nuances douces et agréables du bois, sucré, tarte aux pommes et tons de cannelle. Arrière-goût : Très long, légèrement épicé avec des tons sucrés du bois."
 		},
 		{
+			"featured": false,
 			"id": "glengoyne-18-yo",
 			"slug": "glengoyne-18-yo",
 			"name": "Glengoyne 18 YO",
@@ -1796,6 +1861,7 @@
 			"description_fr": "Présentation de 700 ml. Fruit vanillé épicé, pommes mûres et une sensation en bouche riche et luxueuse. Voici le résultat de dix-huit longues années et d'une généreuse proportion de fûts de xérès de premier remplissage. ALCOOL 43 % APPARENCE Doré moyen avec un riche éclat. NEZ Inondé de pomme rouge et de melon mûr. Céleste et bien arrondi, il devient une bouillie chaude couverte de cassonade. PALAIS Corsé, rond et riche. D'abord fruits macérés, massepain et noix ; puis épices chaudes, cacao sec et confiture de Séville persistante. FINALE Longue, chaude et sèche. RECETTE DE FÛT 35 % Xérès de Chêne Européen de 1er Remplissage. 15 % de xérès de chêne américain de premier remplissage, 50 % de fûts de chêne de qualité sélectionnés à la main."
 		},
 		{
+			"featured": false,
 			"id": "glengoyne-cask-strangth",
 			"slug": "glengoyne-cask-strangth",
 			"name": "Glengoyne cask strangth",
@@ -1822,6 +1888,7 @@
 			"description_fr": "Présentation 700 ml. Embouteillé à la force qui émerge du fût, ce délicieux dram de couleur ambre doré n'est pas filtré à froid, pas assemblé ni domestiqué ; c'est ce qui se rapproche le plus d'ouvrir le fût vous-même. Un picotement épicé laisse place à de riches saveurs de banane mûre, de biscuits digestifs et de cannelle. Mûri dans un tiers de fûts de xérès, deux tiers de fûts de recharge et quelques fûts de bourbon. Grand et audacieux avec une sensation en bouche glorieusement épaisse et une finale délicieuse et persistante infusée de chêne. ABV : 58,8 % Nez : Arômes de citron au four, de malt d'orge, de pudding au caramel sirupeux, de pommes vertes, de prunes et de noisettes. Bouche : Saveur pleine et vive avec des notes de vanille, de fruit frais, de poire pochée, de figues, de miel, de xérès sec et une douce note épicée. L'arrière-goût long porte des notes de dattes, d'abricots et de miel."
 		},
 		{
+			"featured": false,
 			"id": "glenturret-12-yo",
 			"slug": "glenturret-12-yo",
 			"name": "Glenturret 12 YO",
@@ -1848,6 +1915,7 @@
 			"description_fr": "Le Glenturret 12 Years Old se trouve au cœur de notre gamme de base 2024. Le chêne américain et européen, avec des influences de fûts conditionnés à l'Oloroso et au Pedro Ximénez. Élaborée avec soin et expérience, cette expression incarne l'essence de l'histoire et de la tradition de The Glenturret. ABV : 46 % Nez : Initialement l'odeur est vive, puis dominent les agrumes, le chêne et le caramel. Bouche : Puissant, corsé et très complexe. Le chêne, les agrumes, le caramel et le chocolat prédominent à nouveau."
 		},
 		{
+			"featured": false,
 			"id": "glenturret-7yo-peat",
 			"slug": "glenturret-7yo-peat",
 			"name": "Glenturret 7YO Peat",
@@ -1874,6 +1942,7 @@
 			"description_fr": "Un nouvel ajout inspiré par notre paysage unique. Le magnifique et accidenté environnement de notre distillerie a inspiré les arômes et saveurs pleins de fumée que l'on trouve dans The Glenturret 7 Years Old Peat Smoked. Les fûts de chêne américain conditionnés au xérès apportent la douceur de la pâtisserie au spiritueux fraîchement élaboré, tandis que les délicats fûts de recharge apportent les abondantes notes fumées. ABV : 44 % Nez : Une fumée légère flotte avec des arômes doux et de vanille Bouche : Les agrumes, le chêne vert frais et les raisins secs accompagnent une sinueuse fumée de tourbe."
 		},
 		{
+			"featured": false,
 			"id": "glenturret-triple-wood",
 			"slug": "glenturret-triple-wood",
 			"name": "Glenturret Triple Wood",
@@ -1900,6 +1969,7 @@
 			"description_fr": "Glenturret Triple Wood est un whisky doux et épicé, mais doux, qui s'appuie sur les saveurs fruitées distinctives de notre nouveau spiritueux. Mûri en fûts de chêne américain et européen conditionnés au xérès ainsi qu'en fûts de bourbon. Nez : Arômes de riz au lait crémeux, de bois de chêne tendre, de chocolat, d'orange, de vanille, avec une touche de cannelle. Bouche : Saveur légère, douce et crémeuse avec des notes de massepain et de noix de coco. Notes d'agrumes et une touche de miel et de cannelle."
 		},
 		{
+			"featured": false,
 			"id": "hankey-bannister",
 			"slug": "hankey-bannister",
 			"name": "Hankey Bannister",
@@ -1926,6 +1996,7 @@
 			"description_fr": "Présentation de 1 litre. Messieurs Hankey et Bannister présentent leur blend original de whiskies écossais fins et rares. Sélectionné à la main pour sa qualité et élaboré avec soin pour créer un blend doux, léger et parfaitement équilibré, reconnu dans la société depuis plus de 250 ans. Doux, épicé et incroyablement velouté, il y a une raison pour laquelle notre blend résolument non tourbé est l'un des favoris depuis que Hankey Bannister a commencé à produire du whisky. Notes de dégustation COULEUR Toffee crémeux avec une teinte dorée. NEZ Un arôme léger avec une touche épicée qui lui donne une profondeur supplémentaire. GOÛT Un blend léger et subtil, net, doux et épicé avec des tons sirupeux et une finale agréable et persistante."
 		},
 		{
+			"featured": false,
 			"id": "hankey-bannister-12-yo",
 			"slug": "hankey-bannister-12-yo",
 			"name": "Hankey Bannister 12 YO",
@@ -1952,6 +2023,7 @@
 			"description_fr": "Présentation 700 ml. Après 12 ans de maturation en fûts de bourbon américain, cet excellent blend est marié avec maîtrise pour créer une saveur douce et veloutée de vanille légèrement fumée. Il ravit même les palais les plus exigeants. Nez : Arôme légèrement doux avec des notes de vanille et de chêne. Bouche : De corps moyen, bien équilibré avec une vanille douce et veloutée et une finale légèrement fumée."
 		},
 		{
+			"featured": false,
 			"id": "hankey-bannister-heritage",
 			"slug": "hankey-bannister-heritage",
 			"name": "Hankey Bannister Heritage",
@@ -1978,6 +2050,7 @@
 			"description_fr": "Présentation de 700 ml. Créé à l'origine en 1924, notre Master Blender a revigoré cette cuvée pour les palais les plus exigeants d'aujourd'hui. Cette délicieuse recréation possède des notes de miel, de caramel et une touche fumée. Notes de dégustation COULEUR Ambre doré. NEZ Fumée douce, avec des traces d'orange brûlée et de pomme verte, notes épicées de vanille et de caramel. GOÛT De plein corps avec des touches de miel et de caramel, avec une finale longue et complexe."
 		},
 		{
+			"featured": false,
 			"id": "irishman-founders-reserve",
 			"slug": "irishman-founders-reserve",
 			"name": "Irishman Founders Reserve",
@@ -2004,6 +2077,7 @@
 			"description_fr": "Présentation de 1 litre. The Irishman Founder&#8217;s Reserve fut le premier blend créé par Bernard Walsh. Une combinaison de 70 % de single malt et de 30 % de whiskey de single pot still, triple distillé et vieilli en fûts de bourbon. Jim Murray lui a accordé 93 points, le qualifiant de &#8220;blend tout à fait merveilleux&#8221;. Notes de dégustation : NEZ Épice piquante, avec des touches de poivre noir, de cannelle et de pêche. Aussi une légère touche de vanille, avec une suggestive saveur de pomme verte. PALAIS Épices de pot still, malt, chocolat amer, chêne de bourbon et crème renversée. FINALE Finale éternelle avec du chêne et du caramel. Elle perdure pendant ce qui semble une éternité."
 		},
 		{
+			"featured": false,
 			"id": "irishman-single-malt",
 			"slug": "irishman-single-malt",
 			"name": "Irishman Single Malt",
@@ -2030,6 +2104,7 @@
 			"description_fr": "Présentation de 1 litre. Le whiskey irlandais Irishman Single Malt provient, étonnamment, d'Irlande. C'est une expression de triple distillation qui vieillit en fûts de xérès et de bourbon pendant plus de 10 ans avant d'être embouteillée. Note de dégustation Nez : Léger et fruité au nez. Apparaît une petite touche de réglisse, tout comme la douceur fondante de la vanille. Bouche : Un classique pudding de pêches et de crème avec une pincée de biscuits écrasés et d'amandes. Finale : Assez longue, avec du chêne affleurant vers la fin. En général : Excellent ! Un whiskey irlandais épatant."
 		},
 		{
+			"featured": false,
 			"id": "isle-of-jura-10-yo",
 			"slug": "isle-of-jura-10-yo",
 			"name": "Isle of jura 10 YO",
@@ -2056,6 +2131,7 @@
 			"description_fr": "Présentation de 700 ml. Un polyvalent doux pour le buveur moderne ; douce épice et sucrosité de Xérès. Élaboré dans des alambics exceptionnellement hauts et mûri pendant 10 ans en ex-fûts de bourbon en chêne blanc américain. La touche finale est une finition dans les meilleurs fûts de xérès oloroso âgés de Jerez, en Espagne. Un whisky doux et velouté avec des saveurs de riche chocolat amer et de crème à la vanille. NOTES DE SAVEUR COULEUR Or cuivré. NEZ Vanille, orange, poivre noir moulu, chocolat noir. GOÛT Nectarines, gingembre, café, amandes grillées. FINITION EN FÛT Mûri en fûts de bourbon blanc américain pendant 10 ans et fini en fûts de xérès oloroso de Jerez, Espagne. ABV ABV (Alcool par Volume) &#8211; 40 %"
 		},
 		{
+			"featured": false,
 			"id": "isle-of-jura-12-yo",
 			"slug": "isle-of-jura-12-yo",
 			"name": "Isle of jura 12 YO",
@@ -2082,6 +2158,7 @@
 			"description_fr": "Présentation 700 ml. Le Whisky Jura 12 Ans fait partie de la gamme Signature Series de la Distillerie Isle of Jura. Il est produit avec un mélange de spiritueux fumé et non fumé et est élaboré dans des alambics exceptionnellement hauts. Par la suite, il est laissé à vieillir pendant 12 ans en ex-fûts de bourbon en chêne blanc américain et, enfin, passe par une période d'affinage en fûts du plus fin xérès Oloroso. ABV : 40 % Nez : Tourbe, fumé d'intensité moyenne, malt, fruit tropical (melon, banane, mangue), agrumes (orange, mandarine) Bouche : Corps moyen, sucre, poivre, chocolat, fruité (poire, pomme)"
 		},
 		{
+			"featured": false,
 			"id": "isle-of-jura-18-yo",
 			"slug": "isle-of-jura-18-yo",
 			"name": "Isle of Jura 18 YO",
@@ -2108,6 +2185,7 @@
 			"description_fr": "Présentation de 700 ml. Un single malt richement fruité et corsé fini en fûts de vin rouge français qui persiste encore et encore. Mûri pendant dix-huit longues années en ex-fûts de bourbon en chêne blanc américain, ce whisky est merveilleusement enrichi par des fûts supérieurs de vin rouge Premier Grand Cru Classé Bordeaux du sud de la France. Le résultat est un whisky incroyablement riche et fruité, avec des saveurs de framboises cuites, d'épices chaudes, de riche caramel et de crème anglaise. NOTES DE SAVEUR COULEUR Or rose. NEZ Fruits rouges intenses, toffee, crème anglaise et cannelle. GOÛT Épices chaudes et riches fruits noirs des bois, renforcés de framboises et de fraises cuites et une touche de chocolat. FINITION EN FÛT Vieilli en ex-fûts de bourbon en chêne blanc américain et amélioré par une finition en fûts bordelais Premier Grand Cru Classé. ABV ABV (Alcool par Volume) &#8211; 44 %"
 		},
 		{
+			"featured": false,
 			"id": "jura-journey",
 			"slug": "jura-journey",
 			"name": "Isle of jura journey",
@@ -2134,6 +2212,7 @@
 			"description_fr": "Présentation 700 ml. Ce parfait mariage entre Jura et des ex-fûts de bourbon en chêne blanc américain sélectionnés à la main donne des notes de vanille crémeuse, de gâteau aux noix et une touche de cannelle douce et de poire fraîche. Le point de départ idéal pour explorer la gamme Jura. ABV : 40 % Nez : Vanille, noix de coco, banane Bouche : Vanille crémeuse, gâteau aux noix, une touche de cannelle douce et de poire fraîche acidulée."
 		},
 		{
+			"featured": false,
 			"id": "jura-seven-wood",
 			"slug": "jura-seven-wood",
 			"name": "Isle of jura seven wood",
@@ -2160,6 +2239,7 @@
 			"description_fr": "Présentation 700 ml. Les couches de complexité et de saveur naissent d'un voyage de maturation qui commence en ex-fûts de bourbon en chêne blanc américain avant qu'une partie du whisky soit répartie entre six différents fûts de chêne vierge provenant de diverses régions de France. ABV : 42 % Nez : Café, épices de gingembre et une touche de chocolat. Bouche : Crème de caramel, pêche au four, réglisse et orange confite"
 		},
 		{
+			"featured": false,
 			"id": "isle-of-jura-the-bay-12-yo",
 			"slug": "isle-of-jura-the-bay-12-yo",
 			"name": "Isle of jura the bay 12 YO",
@@ -2186,6 +2266,7 @@
 			"description_fr": "Présentation 1 litre. Ce whisky est inspiré de Small Isles Bay, située juste en face du village de Craighouse, foyer de notre whisky et de beaucoup d'entre nous dans notre petite communauté insulaire. Protégée par un chapelet d'îlots, la baie est marquée par le va-et-vient de la marée. Comme notre whisky à maturation lente, il n'y a aucune hâte dans nos journées. Saveur : raisins secs, figue, épices de gingembre et réglisse douce. Un single malt parfaitement conçu comme cadeau pour votre prochaine réunion. ABV : 44 % Nez : Pomme confite. Bouche : Raisins secs, figues, épices de gingembre et réglisse douce"
 		},
 		{
+			"featured": false,
 			"id": "isle-of-jura-the-sound",
 			"slug": "isle-of-jura-the-sound",
 			"name": "Isle of Jura the sound",
@@ -2212,6 +2293,7 @@
 			"description_fr": "Présentation de 1 litre. Doux, fruité et noiseté avec des vagues de sucrosité de Xérès. Jura The Sound mûrit d'abord en ex-fûts de bourbon avant d'être fini en fûts ayant précédemment contenu du xérès Pedro Ximénez de 15 ans. Les notes de sirop d'érable arrosées sur des noisettes laissent place à de chaudes notes hivernales d'écorce d'orange et de fruits noirs des bois. NOTES DE SAVEUR COULEUR Or antique. NEZ Noisettes grillées, orange et sirop d'érable. GOÛT Fudge au caramel, écorce d'orange, fruits noirs des bois et chocolat au lait. FINITION EN FÛT Vieilli en chêne blanc américain ex bourbon et rehaussé par une finition en fûts de xérès Pedro Ximénez sélectionnés à la main ayant précédemment contenu des vins de Xérès Pedro Ximénez de 15 ans. ABV ABV (Alcool par Volume) &#8211; 42,5 %"
 		},
 		{
+			"featured": false,
 			"id": "isle-of-jure-the-paps-19-yo",
 			"slug": "isle-of-jure-the-paps-19-yo",
 			"name": "Isle of jure the paps 19 YO",
@@ -2238,6 +2320,7 @@
 			"description_fr": "Présentation 700 ml. Le whisky qui porte ce nom a été élaboré pour être aussi saisissant que The Paps. Ce single malt de Jura de 19 ans mûrit d'abord en barils de chêne blanc américain ex bourbon avant d'être fini en barils ayant précédemment contenu un étonnant xérès Pedro Ximénez de 40 ans. ABV : 45,6 % Nez : Gâteau au gingembre, vanille et balsamique. Bouche : Poire épicée, sirop de figues et noix grillées"
 		},
 		{
+			"featured": false,
 			"id": "kavalan-classic",
 			"slug": "kavalan-classic",
 			"name": "Kavalan Classic",
@@ -2264,6 +2347,7 @@
 			"description_fr": "Le single malt classique Kavalan illustre la grande qualité du whisky produit à Taïwan. L'artisanat de la distillerie se combine avec le climat humide de Taïwan pour créer un whisky diversifié et complexe. Frais et net, le spiritueux est riche, avec une douceur soyeuse et des notes de fruits tropicaux, en particulier de mangue. ABV : 40 % Nez : Avec des notes de miel, de fruits tropicaux (mangue en particulier), de caramel à la poire, de vanille, de coco et des touches de chocolat. Bouche : Une touche de jus de mangue sucré avec cette complexité épicée et une chaleur douce dans une finale moyenne, huileuse et agrumée."
 		},
 		{
+			"featured": false,
 			"id": "kavalan-concermaster-port",
 			"slug": "kavalan-concermaster-port",
 			"name": "Kavalan Concermaster Port",
@@ -2290,6 +2374,7 @@
 			"description_fr": "Le single malt Kavalan Concertmaster Port Cask Finish, qui utilise des fûts de vin de Porto rubis portugais comme saveur principale, mûrit d'abord en fûts de chêne américain spécialement sélectionnés puis est fini en fûts de Porto. Le vieillissement en fûts adoucit les saveurs et ajoute une douceur indéfinissable au whisky. ABV : 40 % Nez : Fruit tropical avec du miel, de la vanille, de la noix de coco et de la barbe à papa. Bouche : De corps riche avec une douceur naturelle et de la complexité."
 		},
 		{
+			"featured": false,
 			"id": "kavalan-concermaster-sherry",
 			"slug": "kavalan-concermaster-sherry",
 			"name": "Kavalan Concermaster Sherry",
@@ -2316,6 +2401,7 @@
 			"description_fr": "Le deuxième whisky de la série Concertmaster de Kavalan vieillit dans la réserve spéciale de fûts de recharge de la distillerie elle-même puis est fini dans les meilleurs fûts de xérès espagnol sélectionnés à la main. ABV : 40 % Nez : Commence par un doux bouquet de vanille sucrée et de toffee accompagné en arrière-plan d'un chocolat subtil et soyeux et de couches de crème brûlée. Bouche : Il est rond et épais, dominé par une dense explosion de la saveur caractéristique de cette série (fruits tropicaux séduisamment délicieux), élégamment équilibrés et longue persistance en finale."
 		},
 		{
+			"featured": false,
 			"id": "kavalan-select-1",
 			"slug": "kavalan-select-1",
 			"name": "Kavalan Select 1",
@@ -2342,6 +2428,7 @@
 			"description_fr": "La série Distillery Select de Kavalan montre le bel art de l'assemblage et l'exquise sélection de fûts de la principale distillerie de Taïwan. L'expression n° 1 de cette série met magnifiquement en valeur l'arôme de fruits tropicaux exclusif de Kavalan, créant une saveur douce et épaisse aux multiples couches. ABV : 40 % Nez : Elle est persistante et dure avec des notes crémeuses de toffee, de bois et de vanille. Bouche : Douce, douce et soyeuse en bouche, sa saveur équilibrée est la combinaison parfaite du travail artisanal en fût."
 		},
 		{
+			"featured": false,
 			"id": "kavalan-select-2",
 			"slug": "kavalan-select-2",
 			"name": "Kavalan Select 2",
@@ -2368,6 +2455,7 @@
 			"description_fr": "La série Distillery Select de Kavalan montre le bel art de l'assemblage et l'exquise sélection de fûts de la principale distillerie de Taïwan. Cette expression n° 2 est une boisson douce et séduisante, profondément aromatique avec une irrésistible complexité florale et herbacée qui transmet la délicieuse tranquillité de la forêt. ABV : 40 % Nez : Elle commence puissamment avec de charmants arômes floraux et herbacés et un doux mélange de vanille avec des touches de délicieuses notes boisées et épicées en riches couches. Bouche : Il est doux, rond et très caractériel, idéal à boire au quotidien et avec une excellente palatabilité. Finale longue et parfumée."
 		},
 		{
+			"featured": false,
 			"id": "kavalan-solist-ex-bourbon",
 			"slug": "kavalan-solist-ex-bourbon",
 			"name": "Kavalan Solist Ex Bourbon",
@@ -2394,6 +2482,7 @@
 			"description_fr": "Kavalan Solist ex-Bourbon est un single malt délicieusement complexe et multidimensionnel, avec des nuances de vanille, de fruits et de noix de coco. Mûri en ex-fûts de Bourbon américains frais sélectionnés à la main. ABV : 50 – 59 % Nez : Fruit tropical net et frais avec une agréable vanille, de la noix de coco et des épices. Bouche : Douceur naturelle bien équilibrée, vanille et épices de chêne, rond et complexe avec une douceur soyeuse."
 		},
 		{
+			"featured": false,
 			"id": "kavalan-solist-port",
 			"slug": "kavalan-solist-port",
 			"name": "Kavalan Solist Port",
@@ -2420,6 +2509,7 @@
 			"description_fr": "Le Porto est un vin portugais fortifié, robuste et sucré, au corps plein et riche. C'est pourquoi on le sert généralement comme vin de dessert ou digestif. Kavalan Solist Port Cask mûrit entièrement en fûts de Porto portugais sous le climat subtropical de Taïwan. ABV : 50-59 % Nez : Les riches notes fruitées et de noix combinées et mises en valeur par des notes d'orange et d'agrumes que l'on peut savourer avec les douces et élégantes épices de bois de notre chêne américain. Saveur : Une saveur fruitée satisfaisante combinée à des arômes de chocolat de qualité qui fondent délicatement sur le palais. Un arrière-goût merveilleux et durable pour profiter d'une dégustation unique."
 		},
 		{
+			"featured": false,
 			"id": "kavalan-solist-vinho-barrique",
 			"slug": "kavalan-solist-vinho-barrique",
 			"name": "Kavalan Solist Vinho Barrique",
@@ -2446,6 +2536,7 @@
 			"description_fr": "Vinho mûrit complètement en fûts de chêne américain usagés qui ont été toastés et carbonisés de manière à faire ressortir les notes fruitées de vanille du bois dans le whisky, superposées sur un délicat fond de fruité complexe. ABV : 50 – 50 % Nez : Une riche fusion de vanille et de sucres caramélisés avec du chocolat noir par-dessus. Le melon mûr et la mangue se combinent avec le kiwi et un délicat mélange de fruits agrumes. Bouche : Saveurs nettes et complexes qui incorporent tout le meilleur des meilleurs single malts et profitent d'un arrière-goût prolongé."
 		},
 		{
+			"featured": false,
 			"id": "kilchoman-loch-gorm",
 			"slug": "kilchoman-loch-gorm",
 			"name": "Kilchoman Loch Gorm",
@@ -2472,6 +2563,7 @@
 			"description_fr": "Loch Gorm est le nom donné à notre édition limitée annuelle mûrie en xérès. La couleur sombre et trouble de l'eau du loch, qui porte le nom du plus grand lac d'eau douce d'Islay, voisin de la distillerie, se reflète dans les riches tons cuivrés de notre lancement Loch Gorm mûri en xérès. ABV : 46 % Nez : Vagues de douce fumée de barbecue et de fruits cuits avec du chocolat noir et des figues sèches. Bouche : Délicate fumée de tourbe combinée à des noix grillées au miel, de la cannelle et de l'orge maltée."
 		},
 		{
+			"featured": false,
 			"id": "kilchoman-machir-bay",
 			"slug": "kilchoman-machir-bay",
 			"name": "Kilchoman Machir Bay",
@@ -2507,6 +2599,7 @@
 			]
 		},
 		{
+			"featured": false,
 			"id": "kilchoman-machir-bay-cask",
 			"slug": "kilchoman-machir-bay-cask",
 			"name": "Kilchoman Machir Bay Cask",
@@ -2533,6 +2626,7 @@
 			"description_fr": "Cette édition limitée est élaborée en utilisant la même recette de vatting que notre embouteillage Machir Bay habituel ; cependant, au lieu de réduire la graduation à 46 % vol., nous avons lancé une quantité limitée de bouteilles à la graduation de fût ; 58,3 % vol. Le degré alcoolique plus élevé permet à la qualité et à l'intensité du spiritueux Kilchoman de briller. ABV : 58,3 % Nez : On perçoit des notes de miel, mélangées à une note florale de serre et un peu de fumée douce. Bouche : Bois sec, à nouveau des agrumes et des notes antiseptiques et, curieusement, des fromages à pâte dure et des notes de noix."
 		},
 		{
+			"featured": false,
 			"id": "kilchoman-px-sherry-cask",
 			"slug": "kilchoman-px-sherry-cask",
 			"name": "Kilchoman Px Sherry Cask",
@@ -2559,6 +2653,7 @@
 			"description_fr": "Présentation 700 ml. L'édition 2023 du Kilchoman PX Sherry Cask Matured est un excellent choix pour les amateurs de whiskies vieillis en xérès. Mûri pendant un minimum de 5 ans en anciens fûts de Pedro Ximénez. C'est la première édition limitée de la distillerie mûrie entièrement en fûts PX. La douceur acidulée et la fumée de tourbe du distillat de Kilchoman se complètent parfaitement avec le caractère PX. Nez : Tourbe douce et succulente, subtile fumée de feu de camp, prune, raisins secs, fruits rouges frais et vanille. Bouche : Une puissante explosion de saveur inonde le palais, rempli de tourbe, de fumée de feu de camp, de salpêtre et de chêne grillé. Beaucoup d'influence de fruit foncé et beaucoup d'épices."
 		},
 		{
+			"featured": false,
 			"id": "kilchoman-sanaig",
 			"slug": "kilchoman-sanaig",
 			"name": "Kilchoman Sanaig",
@@ -2585,6 +2680,7 @@
 			"description_fr": "Présentation de 700 ml. Région : Islay Du nom d'une anse sur la escarpée côte atlantique d'Islay, Sanaig est un vivier de fûts de xérès et de bourbon. La haute proportion de xérès oloroso influe sur l'ajout d'un équilibre de fruits secs et d'épices à la douceur acidulée classique de Kilchoman et au caractère de fumée de tourbe. NEZ Parfumée bruyère, raisins secs, poire et écorce d'orange avec des vagues de fruits à noyau, mélange d'épices et riche fumée de tourbe. PALAIS Sur des prunes mûres, des cerises rouges et des touches d'agrumes laissant place à une riche fumée de tourbe de barbecue, du caramel, du chêne et du chocolat noir. FINALE Mélange de fruits, caramel, cannelle et clou de girofle avec des couches de cassonade, d'épices, de fumée de tourbe et une douceur durable"
 		},
 		{
+			"featured": false,
 			"id": "kilchoman-sauternes",
 			"slug": "kilchoman-sauternes",
 			"name": "Kilchoman Sauternes",
@@ -2611,6 +2707,7 @@
 			"description_fr": "Présentation 700 ml. Dans sa dernière expression mûrie en fûts de vin. Il évoque un parfum tropical d'ananas grillé, avec une chaleureuse et espacée note de gingembre confit. L'orge fumée apporte une bouffée de fumée de pipe qui complète les saveurs luxuriantes et soyeuses du bois. Notes de dégustation Nez : Notes crémeuses et beurrées avec des fruits mûris, une touche d'air marin salé et une subtile fumée de tourbe. Bouche : Notes florales et de caramel qui se combinent avec des fruits tropicaux et des confits, avec une touche de fumée de tourbe intégrée."
 		},
 		{
+			"featured": false,
 			"id": "la-alazana-classic",
 			"slug": "la-alazana-classic",
 			"name": "La Alazana Classic",
@@ -2637,6 +2734,7 @@
 			"description_fr": "Premier single malt argentin, distillé dans la farm distillery de la famille Serenelli à Las Golondrinas, Lago Puelo, Chubut (Patagonie). Eau de sources de la Cordillère des Andes, double distillation en alambics de cuivre et maturation en fûts de chêne américain et français ayant auparavant contenu bourbon, xérès, cognac et vin."
 		},
 		{
+			"featured": false,
 			"id": "la-alazana-peated",
 			"slug": "la-alazana-peated",
 			"name": "La Alazana Peated",
@@ -2663,6 +2761,7 @@
 			"description_fr": "Single malt argentin fumé avec de la tourbe de la région, brûlée sous l'orge pour lui donner ses arômes caractéristiques. Distillé dans la farm distillery de la famille Serenelli à Las Golondrinas, Lago Puelo, Chubut (Patagonie), avec de l'eau de sources de la Cordillère des Andes et double distillation en alambics de cuivre."
 		},
 		{
+			"featured": false,
 			"id": "larceny",
 			"slug": "larceny",
 			"name": "Larceny",
@@ -2689,6 +2788,7 @@
 			"description_fr": "Présentation de 750 ml."
 		},
 		{
+			"featured": false,
 			"id": "legacy-samll-batch",
 			"slug": "legacy-samll-batch",
 			"name": "Legacy samll batch",
@@ -2715,6 +2815,7 @@
 			"description_fr": "Présentation 750 ml. Le blend du Whisky canadien Legacy Small Batch est supervisé par le maître assembleur Drew Mayville. En tant que Canadien, il travaille dans l'industrie des boissons depuis plus de 30 ans et supervise tous les whiskys Buffalo Trace ainsi que l'empreinte de Legacy. ABV : 40 % Nez : le nez est brillant et s'ouvre sur des touches de cardamome, de clou de girofle et de genévrier. Après un moment, un arôme plus fort de conifères et de pins pointe. Bouche : la saveur de ce whisky est dominée par une douceur florale. L'épice est toujours présente, mais des saveurs décidément plus complexes apparaissent. Imaginez la mélasse coupée de poivre moulu et un piquant subtil de seigle."
 		},
 		{
+			"featured": false,
 			"id": "lost-irish",
 			"slug": "lost-irish",
 			"name": "Lost Irish",
@@ -2741,6 +2842,7 @@
 			"description_fr": "En présentation de 700 ml. C'est un whisky irlandais Blended qui capture l'essence traditionnelle avec une touche moderne. Élaboré en Irlande avec une sélection de malts et de grains, il offre une expérience douce et accessible, idéale pour ceux qui recherchent un whisky polyvalent au caractère authentique."
 		},
 		{
+			"featured": false,
 			"id": "macarthurs",
 			"slug": "macarthurs",
 			"name": "MacArthur&#8217;s",
@@ -2767,6 +2869,7 @@
 			"description_fr": "Présentation de 1 litre. Le whisky MacArthur’s est plus doux et plus facile à boire que plusieurs des whiskys que vous pouvez trouver aujourd'hui sur le marché. Le fait d'avoir une masse d'au moins 51 % de seigle crée un profil de saveur beaucoup plus épicé et procure une alternative distincte et un complément à la douceur du whisky MacArthur’s. Les single malts ont généralement plus de goût que les whiskies blend et sont utilisés pour faire ces blends. Très polyvalent et à l'attrait universel, il a un goût audacieux et distinctif qui brille même lorsqu'il est assemblé. NOTE DE DÉGUSTATION : Couleur : Or pur. Odeur : Il a un nez jeune et léger avec quelques céréales, un peu de malt, des toasts et de la margarine, des coquilles de noix, de la paille, de la vanille, du sucre, du miel léger, de la poire, un peu de poivre et quelques notes d'agrumes (mandarine). Saveur : Douceur sucrée et céréalière, coquilles de noix, herbe légère et miel, un peu d'orge, agrumes (mandarine et citron), caramel léger, fruit et poivre de verger léger."
 		},
 		{
+			"featured": false,
 			"id": "madoc-ahumado-suave-43",
 			"slug": "madoc-ahumado-suave-43",
 			"name": "Madoc Ahumado Suave 43",
@@ -2793,6 +2896,7 @@
 			"description_fr": "Expression élégante et complexe créée avec du malt écossais fumé aux feux de tourbe. La douce fumée s'intègre agréablement aux notes de poire, de pomme et de vanille. Elle surprend par sa merveilleuse persistance en finale. Single malt de la distillerie Madoc, Dina Huapi, Patagonie. ABV : 43 %."
 		},
 		{
+			"featured": false,
 			"id": "madoc-classic-43",
 			"slug": "madoc-classic-43",
 			"name": "Madoc Classic 43",
@@ -2819,6 +2923,7 @@
 			"description_fr": "Madoc, avec son caractère frais et audacieux, est authentiquement Nouveau Monde. Accents fruités, douceur délicate et notes de fruits secs. Single malt de la première distillerie de whisky d'Argentine, fondée en 2016 par Pablo Tognetti à Dina Huapi, Patagonie. Vieilli en fûts de chêne américain et européen. ABV : 43 %."
 		},
 		{
+			"featured": false,
 			"id": "madoc-islas-malvinas-43",
 			"slug": "madoc-islas-malvinas-43",
 			"name": "Madoc Islas Malvinas 43",
@@ -2845,6 +2950,7 @@
 			"description_fr": "Créée en hommage aux disparus et aux vétérans qui ont combattu aux îles Malouines. Arôme persistant et complexe. Fruité, légères notes de poivre noir, onctueux. Persistance du malt, des fruits secs et du bois. Single malt patagonien de la distillerie Madoc à Dina Huapi. ABV : 43 %."
 		},
 		{
+			"featured": false,
 			"id": "old-ballantruan-10-yo",
 			"slug": "old-ballantruan-10-yo",
 			"name": "Old Ballantruan 10 YO",
@@ -2871,6 +2977,7 @@
 			"description_fr": "Présentation de 700 ml. La première édition d'Old Ballantruan avec mention d'âge, embouteillée après 10 ans. Elle est élaborée à Tomintoul avec de l'orge fortement tourbée et embouteillée à un solide 50 % ABV. Notes COULEUR Or riche. NEZ Légèrement épicé avec une fumée &#8220;peat reak&#8221; équilibrée par un cœur crémeux plus doux. PALAIS Une légère fumée de tourbe avec une base de malt douce et crémeuse. FINALE La montée de la douceur est progressivement remplacée par une profondeur fumée."
 		},
 		{
+			"featured": false,
 			"id": "old-ballantruan-4-yo",
 			"slug": "old-ballantruan-4-yo",
 			"name": "Old ballantruan 4 YO",
@@ -2897,6 +3004,7 @@
 			"description_fr": "Présentation 700 ml. Le single malt Old Ballantruan a un style assez inhabituel pour les whiskies de la région du Speyside ; il est élaboré avec de l'orge maltée à la tourbe (30 ppm) très fumée. Ce style est normalement associé aux distilleries d'Islay, mais la tendance, en raison de la forte demande, veut que le reste des distilleries d'Écosse utilise aussi de façon croissante la tourbe pour malter. ABV : 50 % Nez : Fumée de bruyère équilibrée avec de subtiles notes florales. Bouche : Saveurs douces d'« odeur de tourbe » avec des touches de tons acidulés et de noix maltées."
 		},
 		{
+			"featured": false,
 			"id": "old-pulteney-12-yo",
 			"slug": "old-pulteney-12-yo",
 			"name": "Old Pulteney 12 YO",
@@ -2932,6 +3040,7 @@
 			]
 		},
 		{
+			"featured": false,
 			"id": "old-pulteney-15-yo",
 			"slug": "old-pulteney-15-yo",
 			"name": "Old Pulteney 15 YO",
@@ -2958,6 +3067,7 @@
 			"description_fr": "Présentation de 700 ml. 46 % / 70cl Mûri pendant 15 ans, voici notre single malt le plus équilibré et le plus velouté. Équilibrant deux côtés différents du spectre des saveurs, ce single malt les combine à la perfection, tout en reflétant notre foyer côtier et son influence inébranlable. D'un côté, c'est un single malt intense, mais en même temps, il est réellement équilibré. L'épice et la douceur s'unissent dans ce whisky ambre naturellement riche pour célébrer les riches saveurs, tandis que les notes côtières plus légères et rafraîchissantes montrent un autre visage de ce single malt. APPARENCE Ambre riche ARÔME Intense mais équilibré. Débordant de riches fruits secs, de pommes mûres et d'agrumes, avec une douceur de miel et un généreux accord de vanille crémeuse. Légèrement chocolaté et floral en arrière-plan. GOÛT Épices aromatiques et pudding de Noël, avec des couches de chocolat et une douceur distinctive de caramel foncé. Il y a une touche d'air salé de la mer en finale, une claire connexion avec l'influence de la mer sur ce single malt."
 		},
 		{
+			"featured": false,
 			"id": "old-pulteney-18-yo",
 			"slug": "old-pulteney-18-yo",
 			"name": "Old Pulteney 18 YO",
@@ -2984,6 +3094,7 @@
 			"description_fr": "Présentation 700 ml. Mûri pendant 18 ans, ce whisky est élaboré à partir d'une combinaison de fûts de bourbon et de chêne espagnol. Ce whisky, qui tire son caractère et sa couleur entièrement des fûts dans lesquels il a grandi, est profondément réconfortant. L'indulgence s'étend à tout ce single malt, avec du chocolat et des épices qui définissent son caractère, tout en permettant l'influence de saveurs plus vibrantes et acidulées. ABV : 46 % Nez : Nous trouvons de fortes notes de raisins secs et de prunes accompagnées d'arômes de chocolat noir et de fruits secs. Il possède aussi des notes douces et crémeuses ; caramel, miel et vanille se mêlent à des arômes de malt et un point salin. Bouche : Intensément épicé et chaud. Même quelque peu sec mais peu à peu les saveurs s'ouvrent, donnant place à des notes de chocolat noir et de café. Ensuite apparaissent des notes plus fruitées, raisins secs et fruits des bois, oranges mûres, cannelle, muscade et une touche de sel."
 		},
 		{
+			"featured": false,
 			"id": "old-pulteney-25-yo",
 			"slug": "old-pulteney-25-yo",
 			"name": "Old Pulteney 25 YO",
@@ -3010,6 +3121,7 @@
 			"description_fr": "Présentation 700 ml. Initialement vieilli en chêne américain, sa douceur épicée a ensuite acquis profondeur et couleur grâce aux fûts de chêne espagnol. Élégant et charismatique, ce merveilleux whisky incarne autant l'esprit de résistance de Wick que la dévotion de la distillerie Pulteney pour son artisanat. ABV : 46 % Nez : Mature et parfumé avec des épices prononcées et des notes de chocolat noir. Bouche : Chocolat amer et vanille crémeuse, suivis d'une finale longue et épicée."
 		},
 		{
+			"featured": false,
 			"id": "old-pulteney-harbour",
 			"slug": "old-pulteney-harbour",
 			"name": "Old Pulteney Harbour",
@@ -3045,6 +3157,7 @@
 			]
 		},
 		{
+			"featured": false,
 			"id": "old-pulteney-huddart",
 			"slug": "old-pulteney-huddart",
 			"name": "Old Pulteney Huddart",
@@ -3071,6 +3184,7 @@
 			"description_fr": "Présentation de 700 ml. 46 % / 70cl Une version distinctivement fumée d'Old Pulteney qui célèbre notre lieu de naissance. Richement chaleureux, ce single malt embrasse un caractère fumé doux, tandis qu'en son cœur il y a beaucoup d'Old Pulteney. La combinaison de l'influence de l'air marin imprégné de sel et de la fumée de tourbe crée un whisky avec un vrai caractère, une vraie profondeur et une vraie identité. Avec une richesse qui s'étend jusqu'à sa riche couleur dorée, ce single malt offre beaucoup en termes de complexité et de saveur tout en nous rappelant subtilement l'endroit où Old Pulteney a commencé. APPARENCE Or riche ARÔME Riche et chaleureux. Débordant d'abord de douce fumée de bois, de miel et de cuir huileux, s'épanouissant ensuite en une pomme verte croquante. Vanille crémeuse et une touche de caramel brûlé en arrière-plan. GOÛT Épices fraîchement moulues et vanille douce équilibrent les notes de fumée et de feu de tourbe. Il y a des saveurs côtières richement douces et clairement salées en arrière-plan, qui ensemble rappellent le caramel salé."
 		},
 		{
+			"featured": false,
 			"id": "penderyn-madeira",
 			"slug": "penderyn-madeira",
 			"name": "Penderyn Madeira",
@@ -3097,6 +3211,7 @@
 			"description_fr": "Présentation de 700 ml. Ce whisky est le « style de la maison » original de Penderyn, vieilli en ex-fûts de bourbon et fini en foudres de vin ex-Madère pour souligner tout son caractère doré. Embouteillé à 46 % vol. NOTES DE SAVEUR Nez : Une fraîcheur classique avec des arômes de crème au toffee, de fruits riches et de raisins secs. Bouche : Croquant et finement arrondi, avec la douceur pour équilibrer une sécheresse appétissante. Finale : Des notes de fruits tropicaux, de raisins secs et de vanille persistent. Équilibre : Tons de chêne vanille/douceur sèche. Prix World Spirit de San Francisco 2022 – Or"
 		},
 		{
+			"featured": false,
 			"id": "penderyn-peated",
 			"slug": "penderyn-peated",
 			"name": "Penderyn Peated",
@@ -3123,6 +3238,7 @@
 			"description_fr": "Présentation de 700 ml. Région : Pays de Galles Ce whisky a un esprit délicat avec un caractère moyen à la tourbe et une légère teinte dorée. Embouteillé à 46 % vol. Ce whisky est certifié Casher. Penderyn Distillery est la maison du whisky gallois et produit des single malts et liqueurs primés sur les contreforts des Brecon Beacons dans le sud du Pays de Galles. Une seconde distillerie à Llandudno a ouvert en 2021, et une troisième est prévue à Swansea pour l'hiver 2022. Notre alambic à whisky est un unique alambic de cuivre qui produit un spiritueux savoureux d'une force et d'une pureté extraordinaires et fut conçu par le Dr David Faraday, descendant de l'innovant scientifique victorien Michael Faraday. Depuis 2013, nous avons une paire de ces alambics. Alors que la plupart des distilleries écossaises et irlandaises utilisent un système conventionnel d'alambic à &#8216;lanterne&#8217; de deux ou trois vaisseaux, la technologie développée à Penderyn permet de produire une liqueur &#8216;savoureuse&#8217; extrêmement pure à partir d'un seul alambic. En 2014, nous avons commandé une paire d'alambics type &#8216;lanterne&#8217; de style écossais qui nous permettent d'expérimenter de nouveaux whiskies. NOTES DE SAVEUR Nez : Il se présente avec une fumée douce et aromatique. Dessous, il y a des notes distinctives de vanille, de pomme verte et d'agrumes rafraîchissants. Bouche : Une variété de saveurs douces tente même le palais le plus sophistiqué. Finale : La fumée et la vanille persistent dans l'attrayante finale de longueur moyenne. Équilibre : Fumée légère/fruité d'agrumes."
 		},
 		{
+			"featured": false,
 			"id": "penderyn-portwood",
 			"slug": "penderyn-portwood",
 			"name": "Penderyn Portwood",
@@ -3149,6 +3265,7 @@
 			"description_fr": "Présentation de 700 ml. Ce whisky Portwood-finish est un favori ferme parmi nos clients en France et attire vraiment l'attention. Embouteillé à 46 % vol. NOTES DE SAVEUR Nez : Arômes de riches fruits secs avec du chocolat noir et des myrtilles ; une touche de chêne grillé se mêle à une sécheresse de noix cuite. Bouche : Une richesse crémeuse avec un peu de miel et des notes épicées émergentes. Finale : Douce avec une douce sucrosité de chêne et de miel qui persiste délicatement sur la langue. Équilibre : Riche bois/chocolat et fruits secs. Prix World Spirit de San Francisco 2022 – Or"
 		},
 		{
+			"featured": false,
 			"id": "penderyn-rich-oak",
 			"slug": "penderyn-rich-oak",
 			"name": "Penderyn Rich Oak",
@@ -3175,6 +3292,7 @@
 			"description_fr": "Présentation de 700 ml. Voici le dernier ajout à notre gamme Gold. Le Rich Oak Single Cask en édition limitée et embouteillé à 50 % a remporté d'importants prix internationaux, c'est pourquoi nous sommes ravis de faire de Rich Oak un élément permanent de notre gamme. Il mûrit dans une variété de fûts de chêne rajeuni et d'ex-bourbon spécialement sélectionnés. Ce whisky est certifié Casher. NOTES DE SAVEUR Nez : Dulce de chocolat noir à la cannelle et aux épices de poivre, suivi de fruits luxuriants : pommes vertes, mangue, banane et goyaves. Bouche : Riche et complexe. Une texture crémeuse avec des touches de vanille, de chêne et de cannelle, et une touche de caramel de noix. Finale : Une saveur crémeuse de vanille qui n'est pas pressée de disparaître. Prix San Francisco World Spirit 2022 &#8211; Double or"
 		},
 		{
+			"featured": false,
 			"id": "sazerac-rye",
 			"slug": "sazerac-rye",
 			"name": "Sazerac RYE",
@@ -3201,6 +3319,7 @@
 			"description_fr": "Présentation de 750 ml. Région : Nouvelle-Orléans L'unique original de la Nouvelle-Orléans, Sazerac Rye symbolise la culture et l'histoire de la Big Easy. Au XIXe siècle, des fermiers et des distillateurs laborieux du cœur des États-Unis mettaient en bouteille et expédiaient leurs whiskies de seigle par le grand fleuve Mississippi jusqu'à la ville animée et croissante de la Nouvelle-Orléans. Ces liqueurs épicées et affirmées nourrirent la culture du whisky de la Nouvelle-Orléans et établirent le premier cocktail américain, The Sazerac Arôme Le parfum est celui du clou de girofle, de la vanille douce, de l'anis et du poivre. Saveur La saveur possède des notes subtiles de bonbons, d'épices et d'agrumes croquants. Finale La grande finale est douce avec des touches de réglisse."
 		},
 		{
+			"featured": false,
 			"id": "shackleton",
 			"slug": "shackleton",
 			"name": "Shackleton",
@@ -3227,6 +3346,7 @@
 			"description_fr": "Présentation de 700 ml. Shackleton Blended Malt Scotch s'appuie sur le spiritueux fourni à l'Expédition antarctique britannique de 1907, élaboré par des experts à partir d'une sélection des meilleurs whiskies écossais single malt des Highlands. NEZ Vanille Pomme caramélisée Cannelle Gingembre GOÛT Sucre foncé Fruits secs doux Ananas glacé FINALE Vin chaud chaud C hocolat praliné Un dernier murmure de fumée de feu de camp"
 		},
 		{
+			"featured": false,
 			"id": "smokehead-design",
 			"slug": "smokehead-design",
 			"name": "Smokehead Design",
@@ -3253,6 +3373,7 @@
 			"description_fr": "Présentation de 700 ml."
 		},
 		{
+			"featured": false,
 			"id": "smokehead-high-voltage",
 			"slug": "smokehead-high-voltage",
 			"name": "Smokehead high voltage",
@@ -3279,6 +3400,7 @@
 			"description_fr": "Présentation 700 ml. Branchez-vous à la force de la nature sauvage avec Smokehead High Voltage. Un whisky qui vous transportera sur les côtes les plus reculées d'Islay, où la mer déchaînée et la fumée fusionnent en une symphonie de saveurs intenses. Note de dégustation Nez : tourbe intense et fumée, air maritime, flocons d'avoine, vanille pure et toffee. Goût : la bouche se remplit de fumée, dense et huileuse avant de s'adoucir et de devenir crémeuse, avec des notes de noix, de saumure et d'agrumes. Finale : la bouche est presque en état de choc, engourdie et picotante. Une douceur se marie très bien avec la fumée qui s'estompe lentement, laissant une saveur salée."
 		},
 		{
+			"featured": false,
 			"id": "smokehead-rum-cask",
 			"slug": "smokehead-rum-cask",
 			"name": "Smokehead Rum Cask",
@@ -3305,6 +3427,7 @@
 			"description_fr": "Quand le rebelle d'Islay rencontre son cousin du fût de rhum, le coup de tourbe familier de Smokehead reçoit une douce et furieuse secousse caribéenne. Apaisant d'agrumes et de fruits tropicaux. Et ça, c'est de la guimauve et des lardons ? ABV : 43 % Nez : les arômes de tourbe très piquants grillés, avec une touche saline très présente, ainsi qu'une légère douceur de mélasse de rhum et de caramel salé. Bouche : les agrumes apparaissent immédiatement, avec des touches d'ananas et d'écorce d'orange, et la fumée de tourbe est plus forte et plus mordante que celle du Smokehead Islay. Le poivre est agréable et de courte persistance en bouche, laissant un arrière-goût plus fumé ; les fruits secs apparaissent aux côtés des fruits frais."
 		},
 		{
+			"featured": false,
 			"id": "smokehead-sherry-cask",
 			"slug": "smokehead-sherry-cask",
 			"name": "Smokehead Sherry Cask",
@@ -3331,6 +3454,7 @@
 			"description_fr": "Smokehead Sherry Cask Blast est un single malt d'Islay au goût de tourbe qui a mérité son nom. Propulsé par de riches, douces et épicées barriques de xérès espagnol, il a émergé comme un dram ardent, explosif et lourd qui nous a même mis le crâne rouge. ABV : 48 % Nez : Intense arôme de tourbe, fumée, vanille pure, toffee et air maritime. Bouche : Smokehead Sherry Bomb réussit un whisky à l'explosion de saveurs douces et épicées."
 		},
 		{
+			"featured": false,
 			"id": "speyburn-10-yo",
 			"slug": "speyburn-10-yo",
 			"name": "Speyburn 10 YO",
@@ -3357,6 +3481,7 @@
 			"description_fr": "Présentation de 700 ml. Saveurs audacieuses et une finale longue et douce. Speyburn 10 ans single malt mûrit dans une combinaison de fûts de chêne américain ex-bourbon et ex-xérès. NOTES COULEUR Or pâle aux reflets ambrés. NEZ Frais, net avec une touche de citron. GOÛT De corps moyen avec des touches de caramel et de toffee et une finale longue et douce. Un favori mondial, le Speyburn 10 ans plaît toujours à la foule."
 		},
 		{
+			"featured": false,
 			"id": "speyburn-15-yo",
 			"slug": "speyburn-15-yo",
 			"name": "Speyburn 15 YO",
@@ -3383,6 +3508,7 @@
 			"description_fr": "Présentation de 700 ml. Quinze ans de maturation en fûts de chêne américain et espagnol ont permis à ce whisky audacieux d'adopter les éléments riches et naturels du Speyside. NOTES COULEUR Ambre aux reflets dorés. NEZ Touches de riche chocolat noir avec des notes épicées de raisins secs, d'agrumes piquants et de vanille. GOÛT En bouche, il y a des notes d'oranges, de toffee, de vanille et de cuir, tout enveloppé ensemble avec une douce épice. La finale persistante possède une épice chaude qui est douce et crémeuse."
 		},
 		{
+			"featured": false,
 			"id": "speyburn-bourbon-cask",
 			"slug": "speyburn-bourbon-cask",
 			"name": "Speyburn Bourbon Cask",
@@ -3409,6 +3535,7 @@
 			"description_fr": "Présentation 700 ml. Ce doux single malt vieillit en fûts de bourbon pour obtenir une finale brillante, rafraîchissante et délicatement douce. Il nous offre des notes comme le miel et la vanille, beaucoup d'épices délicates, de la cassonade et de la crème sucrée, avec une finale longue et veloutée. Un whisky si délicat et doux qu'il parle de lui-même. ABV : 40 % Nez : Arômes de pommes vertes, de miel, de citron et de vanille. Bouche : Subtiles notes de miel et de vanille, beaucoup d'épices délicates, cassonade et crème sucrée."
 		},
 		{
+			"featured": false,
 			"id": "speyburn-bradan-orach",
 			"slug": "speyburn-bradan-orach",
 			"name": "Speyburn Bradan Orach",
@@ -3435,6 +3562,7 @@
 			"description_fr": "Présentation 700 ml. Bradan Orach est un whisky du Speyside classique et accueillant, mûri exclusivement en fûts de chêne américain ex-bourbon. Ce brillant single malt reçut son nom en hommage à la pêche au saumon de classe mondiale que l'on trouve sur la rivière Spey. ABV : 40 % Nez : Pommes vertes, miel, citron et vanille. Bouche : Subtil avec du miel et de la vanille, mais corsé. Crémeux et doux avec une longue finale épicée. Énergique et attachant, voici le membre le plus brillant de la gamme Speyburn."
 		},
 		{
+			"featured": false,
 			"id": "speyburn-rum-cask",
 			"slug": "speyburn-rum-cask",
 			"name": "Speyburn Rum Cask",
@@ -3461,6 +3589,7 @@
 			"description_fr": "Présentation 700 ml. Speyburn Rum Cask Finish commence sa maturation en fûts de bourbon, où il développe une base douce et équilibrée, puis se termine en vieillissant en fûts de rhum pour infuser des saveurs de fruits tropicaux et d'épices chaudes. ABV : 40 % Nez : Fruits tropicaux, pomme verte, agrumes et banane. Bouche : Pâte beurrée et pêche qui laissent place à des fruits tropicaux, un caramel doux, une cannelle délicate et une vanille fraîche"
 		},
 		{
+			"featured": false,
 			"id": "tamdhu-12-yo",
 			"slug": "tamdhu-12-yo",
 			"name": "Tamdhu 12 YO",
@@ -3487,6 +3616,7 @@
 			"description_fr": "Présentation de 700 ml. 70 cl &#8211; 43 % Tamdhu élargit la gamme permanente avec ce whisky de douze ans. Comme celui de 10 ans, il est entièrement vieilli en fûts de Xérès Oloroso, de premier et second remplissage. Les deux années de maturation supplémentaires apportent encore plus de raffinement ainsi qu'une complexité additionnelle. Bouteille de style vintage dans un étui élégant. Médaille d'or 2020 au San Francisco World Spirits Competition. Couleur : Or foncé. Nez : Arômes de groseilles et de raisins secs, orange confite, orge maltée, cannelle, bois de chêne et une touche de chocolat à la menthe. Bouche : Saveur merveilleusement douce avec de belles influences de xérès et des notes de banane, prune, raisins secs, baies sucrées et gâteau au beurre. La finale est longue et équilibrée avec des notes de fruits secs et de délicieuse cannelle."
 		},
 		{
+			"featured": false,
 			"id": "tamnavulin-double-cask",
 			"slug": "tamnavulin-double-cask",
 			"name": "Tamnavulin Double Cask",
@@ -3513,6 +3643,7 @@
 			"description_fr": "Présentation de 700 ml. ABV &#8211; 40 % Mûri en fûts de chêne américain pour obtenir une saveur douce et veloutée avec une riche et douce finition en barrique de xérès. Notes de saveur Couleur Or ambre. Nez Arômes riches et chaleureux de pomme, de toffee et de miel avec du massepain sucré et de subtiles notes de confiture acidulée. Palais Frais, doux avec des pêches crémeuses de poire et d'ananas et une touche de sucre Demerara. Finale Riche, douce et rafraîchissante. Un malt exclusif du Speyside."
 		},
 		{
+			"featured": false,
 			"id": "tamnavulin-sauvignon-blanc",
 			"slug": "tamnavulin-sauvignon-blanc",
 			"name": "Tamnavulin Sauvignon Blanc",
@@ -3539,6 +3670,7 @@
 			"description_fr": "Il est post-maturé en anciens fûts de vin blanc Sauvignon Blanc après avoir vieilli en fûts de chêne américain. Tamnavulin fut construite en 1966 dans le village rural de Tomnavoulin, en Écosse. Près de trois décennies plus tard, elle ferma à nouveau. Après une rénovation extensive, la réouverture fut célébrée en 2007. Nez : Fruits agrumes et pommes vertes avec des épices et des arômes épicés de chêne. Bouche : Épices avec des arômes de pomme verte et de chêne."
 		},
 		{
+			"featured": false,
 			"id": "tomatin-12-yo",
 			"slug": "tomatin-12-yo",
 			"name": "Tomatin 12 YO",
@@ -3574,6 +3706,7 @@
 			]
 		},
 		{
+			"featured": false,
 			"id": "tomatin-14-yo",
 			"slug": "tomatin-14-yo",
 			"name": "Tomatin 14 YO",
@@ -3600,6 +3733,7 @@
 			"description_fr": "Présentation de 700 ml. Le single malt de 14 ans mûrit dans une combinaison de fûts de bourbon et de fûts de Porto. Le Tomatin 14 ans est doux, soyeux et sucré, et bénéficie du temps passé en fûts de Porto Tawny qui précédemment retinrent le porto pendant environ 50 ans. Les arômes riches mais équilibrés de baies rouges, de miel doux et de riche toffee se développent en aspects de fruits légers et de noix au palais et une finale persistante de douce salade de fruits. Note Nez Vanille, muscade, chêne, sciure, bois humide, feuilles de forêt, pommes cuites. Bouche Porto crémeux, chocolat noir, léger piquant de baies, figue et noix. Le corps est léger ! Finale Notes herbacées, d'eau minérale, pamplemousse, orange sanguine et abricot."
 		},
 		{
+			"featured": false,
 			"id": "tomatin-cask-strength",
 			"slug": "tomatin-cask-strength",
 			"name": "Tomatin Cask Strength",
@@ -3626,6 +3760,7 @@
 			"description_fr": "Présentation de 700 ml. Whisky écossais single malt de premier remplissage Notre Cask Strength est un whisky de premier remplissage mûri dans une combinaison de fûts de bourbon et de fûts de xérès. DESCRIPTION L'édition Cask Strength est notre expression la plus vive, mais conserve néanmoins les nuances riches et douces caractéristiques de Tomatin. Mûri dans une combinaison classique de fûts de premier remplissage ex-Bourbon et ex-Oloroso Sherry, prévalent les arômes de sirop doré et de biscuits au gingembre, tandis que les saveurs de pain de malt et de massepain mènent à une finale sèche et épicée persistante. Note de dégustation : Nez : Caramel et noix concassées, ensuite passe à l'orange de Séville, baies rouges et poivre noir. Palais : Gingembre, pomme verte et une touche d'air salé de la mer, épices de cuisine douces au chocolat. Finale : Notes de vanille et de dulce de leche."
 		},
 		{
+			"featured": false,
 			"id": "tomatin-legacy",
 			"slug": "tomatin-legacy",
 			"name": "Tomatin Legacy",
@@ -3652,6 +3787,7 @@
 			"description_fr": "Présentation de 700 ml. Whisky écossais single malt Un single malt mûri dans une combinaison de fûts de bourbon et de fûts de chêne vierge DESCRIPTION Lorsque la Tomatin Distillery fut établie en 1897, l'environnement isolé et idyllique de Tomatin était presque parfait. Cependant, il n'y avait pas de main-d'œuvre locale ; les habitants étaient des bergers et des éleveurs dispersés. L'entreprise lança un projet de construction pour loger sa main-d'œuvre. Depuis lors, la distillerie a été au cœur de la communauté et la communauté au cœur de la distillerie. Cet héritage s'est poursuivi et Tomatin reste l'une des rares distilleries à offrir un foyer à ses artisans dévoués."
 		},
 		{
+			"featured": false,
 			"id": "tomintoul-12-yo-oloroso-sherry",
 			"slug": "tomintoul-12-yo-oloroso-sherry",
 			"name": "Tomintoul 12 YO Oloroso Sherry",
@@ -3678,6 +3814,7 @@
 			"description_fr": "Présentation de 700 ml. Les ingrédients purs et l'environnement naturel s'ajoutent au caractère doux et paisible de notre primé whisky écossais single malt Tomintoul Speyside Glenlivet, « the gentle dram ». Le Tomintoul Speyside Glenlivet Oloroso Cask Finish Single Malt Scotch Whisky Aged 12 Years a été soigneusement élaboré à partir d'une sélection des meilleures barriques de xérès oloroso et vieilli pendant au moins 12 ans. ODEUR Or chaleureux NEZ Riche et attrayant avec des arômes de bonbons à la mélasse, de noix grillées, de raisins secs doux et de doux reflets fumés. PALAIS Crémeux et luxueux avec des couches de moka, de caramel de noix du Brésil, de gâteau aux fruits, d'écorces confites et de beurre de Cognac. FINALE Longue et soyeuse avec des notes d'Éclair au chocolat, de flan et des touches de clou de girofle."
 		},
 		{
+			"featured": false,
 			"id": "tomintoul-16-yo",
 			"slug": "tomintoul-16-yo",
 			"name": "Tomintoul 16 YO",
@@ -3713,6 +3850,7 @@
 			]
 		},
 		{
+			"featured": false,
 			"id": "tomintoul-peaty-tang",
 			"slug": "tomintoul-peaty-tang",
 			"name": "Tomintoul Peaty Tang",
@@ -3739,6 +3877,7 @@
 			"description_fr": "Présentation de 700 ml. Région : Speyside Les ingrédients purs et l'environnement naturel s'ajoutent au caractère doux et paisible de notre primé whisky écossais single malt Tomintoul Speyside Glenlivet, « the gentle dram ». Tomintoul “With A Peaty Tang” a été élaboré avec de l'orge maltée tourbée pour lui donner une profonde saveur fumée. Cela rend le « Peaty Tang » très inhabituel ; la plupart des distilleries de la région du Speyside n'utilisent pas de tourbe. Nez Doux et suie avec des arômes de fumée de feu de camp, de biscuits au gingembre, de marc de café et de viandes fumées avec une subtile fraîcheur d'ortie. Palais Couches de toffees de noisette, de bacon fumé et de mélasse mélangés à de l'avoine grillée, de la fumée de tourbe et de la réglisse douce avec des reflets de zeste de citron. Finale Noisetée et fumée avec des notes de gâteau au café, de noix grillées et d'épices de clou de girofle persistantes."
 		},
 		{
+			"featured": false,
 			"id": "tomintoul-tlath-speyside",
 			"slug": "tomintoul-tlath-speyside",
 			"name": "Tomintoul Tláth Speyside",
@@ -3765,6 +3904,7 @@
 			"description_fr": "Présentation de 700 ml. Tlàth se prononce &#8220;Tlah&#8221; et c'est un mot gaélique signifiant : doux, velouté. Cette description reflète le terme « the gentle dram » utilisé pour toutes les éditions de Tomintoul. Tomintoul Tlàth est le résultat d'une sélection très soigneuse de fûts individuels. La collection choisie à la main se compose de whiskies de différents âges mûris en fûts de bourbon de chêne américain de première classe. Il sert de porte d'entrée vers la gamme de base et représente un excellent rapport qualité-prix. NEZ Doux et sucré avec des arômes de biscuits au beurre, d'amandes effilées, de miel et de gousse de vanille. PALAIS Crémeux et noiseté avec des notes de pâtisserie au beurre, de compote de pommes, de doigts d'amande et des touches de cannelle en poudre. FINALE Doucement épicée avec des couches de noisette grillée, de cacao en poudre et de biscuit aux flocons d'avoine."
 		},
 		{
+			"featured": false,
 			"id": "waterford-fenniscourt",
 			"slug": "waterford-fenniscourt",
 			"name": "Waterford Fenniscourt",
@@ -3791,6 +3931,7 @@
 			"description_fr": "Il représente le premier mariage d'orge irlandaise et de tourbe irlandaise depuis des générations. Arcadian Barley, de notre jardin secret de délices, explore les saveurs naturelles, l'intensité et l'honnêteté des anciennes coutumes. Cette même orge enveloppée d'un arôme diffus fut séchée sur fumée de tourbe par des distillateurs clandestins, une coutume qui s'éteignit dans les années 1850. ABV : 50 % Nez : légèrement lactique et yaourt, avec des notes herbales à l'entrée. Sauge et thym. Beaucoup de notes huileuses avec des touches d'iode mais pas beaucoup de fumée de tourbe en tant que telle, juste un léger côté cendré. Bouche : pleine d'arômes de malt, avec de l'herbe sèche, des zestes de citron et des pommes. Maintenant clairement plus de notes de tourbe. Assez douce et ronde au début. Puis redevient plus herbale et florale, avec de l'anis, du genévrier et du gingembre."
 		},
 		{
+			"featured": false,
 			"id": "waterford-heritage-hunter",
 			"slug": "waterford-heritage-hunter",
 			"name": "Waterford Heritage Hunter",
@@ -3817,6 +3958,7 @@
 			"description_fr": "Hunter est une variété d'orge savoureuse mais largement oubliée. Nommée en hommage au sélectionneur de plantes pionnier Herbert Hunter, elle fut introduite en 1959 et saluée pour sa saveur distinctive. Cependant, après deux décennies, cette orge rare et « révolutionnaire » disparut au profit de variétés à plus haut rendement. ABV : 50 % Nez : minéraux et ozone mélangés avec de remarquables notes de céréales, d'orge sèche, de bouleau, de tarte au citron et de compote de pommes tiède. Bouche : passage onctueux adéquat avec une entrée quelque peu épicée (clou de girofle), accompagné de bonbons à la banane, de poires fraîchement coupées (sans peau), d'écorces de lime et de bouillie sirupeuse. Aussi terreuse, calcaire et légèrement astringente."
 		},
 		{
+			"featured": false,
 			"id": "waterford-hook-head",
 			"slug": "waterford-hook-head",
 			"name": "Waterford Hook Head",
@@ -3843,6 +3985,7 @@
 			"description_fr": "Présentation de 700 ml. Le phare de Hook Head se tient ferme contre toute la force de l'Océan Atlantique sur la côte sud de l'Irlande, à 10 miles de la distillerie, si proche qu'Oliver Cromwell jura de prendre Waterford « bon gré mal gré » au XVIIe siècle. À son ombre, Martin Foley cultive de l'orge sur des sols argileux/limoneux dérivés du calcaire, appartenant à la série Elton. Exposé à toute la gamme des tempêtes chargées de sel, aux brumes marines et aux brises marines, c'est un terroir maritime extrême. Notes : Apparence : Paille avec des larmes huileuses couvrant le verre. Nez : malt terreux et terre fraîche, écorce d'agrumes, croûte de pain, clou de girofle, poivre blanc, caramel, chocolat au lait, pop-corn salé, étable, feuillage vert de chêne. Saveur : c'est une bombe d'épices au début ; avec du clou de girofle, du poivre blanc, du caramel salé, de la réglisse, des biscuits au gingembre, du zeste de citron et du chocolat au piment. Finale : Sèche, mais laisse une onctuosité durable qui maintient le piquant longtemps."
 		},
 		{
+			"featured": false,
 			"id": "waterford-lake-field",
 			"slug": "waterford-lake-field",
 			"name": "Waterford Lake Field",
@@ -3869,6 +4012,7 @@
 			"description_fr": "Présentation de 700 ml. Sous le vent de Bishopswood, autrefois témoin du spectacle macabre de la pendaison d'un évêque, Lakefield Farm, à l'est de Durrow, Co. Laois, se trouve dans des terres basses vallonnées cultivées par l'énigmatique Seamus Duggan, lauréat de notre Trophée de producteur d'orge de l'année pour sa Récolte d'orge 2019. Dérivés de calcaire et de grès, ces sols limoneux profonds et bien drainés de la série Elton produisent une orge de qualité exceptionnelle. Notes. Apparence : Or clair avec des huiles qui s'accrochent et des larmes qui serpentent lentement dans le verre. Nez : Crème renversée tiède, pain cuit au four, pomme rouge, chocolat au lait, fleurs séchées, crème au beurre, aiguilles de pin. Cela me rappelle l'attente pour manger une tarte à la rhubarbe et aux pommes sortie du four avec de la crème renversée et de la crème fouettée à la main. Saveur : un doux clou de girofle au début qui mène à goûter du pain et des biscuits maltés, au milieu un poivre qui voyage jusqu'à ma langue, puis melon sucré et poires. Finale : Non, elle serpente comme un affluent jusqu'au début d'un grand fleuve."
 		},
 		{
+			"featured": false,
 			"id": "waterford-organic-gaia",
 			"slug": "waterford-organic-gaia",
 			"name": "Waterford Organic Gaia",
@@ -3895,6 +4039,7 @@
 			"description_fr": "Présentation de 700 ml. Organic Gaia est le premier embouteillage de la série Arcadian de la distillerie Waterford ; il est spécial aussi car c'est le premier single malt de la distillerie dont l'orge ne provient pas d'une seule exploitation, mais de 6 fermes différentes : celles de John Mallick, Paddy Tobin, Alan Jackson, Pat et Denis Booth, Jason Stanley et Trevor Harris. Couleur : Or miel. Nez : Arômes de zeste d'orange, de figues, d'algues, de foin humide, de réglisse, de menthe, d'eau de rose et de terre remuée. Bouche : Notes de poivre noir, clou de girofle, figues, cerises, poire caramélisée, noisette, orge maltée et épices. La finale est longue, sèche au début, mais acquiert des notes de plus en plus douces."
 		},
 		{
+			"featured": false,
 			"id": "waterford-the-cuvee",
 			"slug": "waterford-the-cuvee",
 			"name": "Waterford The Cuvée",
@@ -3921,6 +4066,7 @@
 			"description_fr": "Waterford Single Malt Cuvée compte 25 origines de céréales (Terroir) différentes et de diverses fermes, en Irlande ; il nous présente un spectre sans précédent, avec des saveurs naturelles, définies par les sols et microclimats de chaque ferme Terroir ABV : 50 % Nez : Pommes rouges, terre fraîche et sèche, croûte de pain, feuillage vert, lavande, biscuits digestifs, oranges, pain aux raisins secs, banane mûre, avec des notes florales, menthe fraîche et gâteau au café. Bouche : Notes épicées de clou de girofle, poivre blanc, pamplemousse, zeste de citron, chocolat noir, pain grillé, cerises, barre de granola, herbes séchées, anis, olives vertes et confiture."
 		},
 		{
+			"featured": false,
 			"id": "waterford-the-cuvee-argot",
 			"slug": "waterford-the-cuvee-argot",
 			"name": "Waterford The Cuvée Argot",
@@ -3947,6 +4093,7 @@
 			"description_fr": "Argot est un nouveau et espiègle single malt de la distillerie Waterford, élaboré à partir d'un mélange de whiskies Single Farm Origin tourbés et non tourbés de Waterford. En utilisant une approche territoriale du whisky, dans laquelle l'orge irlandaise est récoltée, distillée et mûrie ferme par ferme, Waterford crée un whisky stellaire dans lequel on extrait la plus grande quantité possible de saveur naturelle de l'orge. ABV : 47 % Nez : arômes de fruit mûr, avec du pain fraîchement cuit et des herbes fraîches &#8211; surtout une légère fumée de tourbe Bouche : abondante et de saveur douce &#8211; encore le fruit et la viennoiserie fraîche &#8211; un peu de vanille et de fruits secs &#8211; un peu de fumée de tourbe en arrière-plan."
 		},
 		{
+			"featured": false,
 			"id": "west-cork-bog-oak",
 			"slug": "west-cork-bog-oak",
 			"name": "West Cork Bog Oak",
@@ -3973,6 +4120,7 @@
 			"description_fr": "Présentation de 700 ml. Teneur en alcool : 43 % Ce whiskey irlandais de triple distillation mûrit en fûts de xérès puis se termine en fûts de chêne carbonisé pendant encore 4-6 mois. Le chêne des tourbières est extrait des tourbières locales de Glengarriff. GOÛT Épices intenses, malt et poivre moulu. ARÔME Épicé, cuir sec avec un fond doux de fruits secs."
 		},
 		{
+			"featured": false,
 			"id": "west-cork-cask",
 			"slug": "west-cork-cask",
 			"name": "West Cork Cask",
@@ -3999,6 +4147,7 @@
 			"description_fr": "Présentation de 700 ml. Un délicat blend de whiskey de grain (75 %) et de malt (25 %) mûri en fûts de bourbon, avec un léger arôme d'agrumes et de poivre moulu. Un whisky doux et équilibré, la saveur est celle du malt, d'une douceur persistante, d'agrumes, de pomme et de muscade. GOÛT Malt, légers agrumes, poivre moulu. ARÔME Malt, douceur persistante, agrumes, pomme et muscade. Contient 40 % de degré d'alcool."
 		},
 		{
+			"featured": false,
 			"id": "west-cork-peat-cask",
 			"slug": "west-cork-peat-cask",
 			"name": "West Cork Peat Cask",
@@ -4025,6 +4174,7 @@
 			"description_fr": "Présentation de 700 ml. Teneur en alcool : 43 % Ce whiskey irlandais de triple distillation mûrit en fûts de xérès puis se termine en fûts carbonisés à la tourbe pendant encore 4 à 6 mois. La tourbe est extraite des tourbières locales de Glengarriff. GOÛT Fumée, et légèrement doux. ARÔME Légèrement doux, fruits secs."
 		},
 		{
+			"featured": false,
 			"id": "west-cork-port",
 			"slug": "west-cork-port",
 			"name": "West Cork Port",
@@ -4051,6 +4201,7 @@
 			"description_fr": "Présentation de 700 ml. Teneur en alcool : 43 % Whiskey irlandais de malt mûri patiemment en ex-fûts de Bourbon de premier remplissage et fini en fûts de porto Quinta Da Boeira. Sans filtration à froid ni colorant ajouté. GOÛT La finale de la barrique de porto est la plus douce des offrandes, avec l'arôme du fruit sec pénétrant. ARÔME Fruits secs avec des notes épicées de muscade et de poivre noir. Vanille et toffee également présentes."
 		},
 		{
+			"featured": false,
 			"id": "west-cork-sherry",
 			"slug": "west-cork-sherry",
 			"name": "West Cork Sherry",
@@ -4077,6 +4228,7 @@
 			"description_fr": "Présentation de 700 ml. Teneur en alcool : 43 % Whiskey irlandais single malt mûri patiemment en ex-fûts de bourbon de premier remplissage et fini en fûts de xérès des Bodegas Baron. Sans filtration à froid ni colorant ajouté. GOÛT Doux au début mais finit ensuite sec avec un peu de piquant présent. ARÔME Notes de pruneaux, de figue, de xérès et de vanille."
 		},
 		{
+			"featured": false,
 			"id": "whisky-rittenhouse-straight-rye-100-proof",
 			"slug": "whisky-rittenhouse-straight-rye-100-proof",
 			"name": "Whisky Rittenhouse Straight Rye 100 Proof",
@@ -4103,6 +4255,7 @@
 			"description_fr": "Il a une saveur intense et aromatique. Les whiskies de seigle doivent contenir au minimum 51 % de cet ingrédient dans le mélange, ce qui le rend beaucoup plus épicé. Bien que son nom soit 100 proof (graduation alcoolique américaine, divisée par deux pour obtenir l'équivalence). ABV : 50 % Nez : Douce note de seigle grillé qui domine avec des touches de miel, de chêne, de tabac à pipe et de caramel. Bouche : Épicée avec une touche de miel dessous et une légère touche d'oranges quand l'effet des épices disparaît. Finale longue et douce, avec de bonnes notes de cannelle et de seigle."
 		},
 		{
+			"featured": false,
 			"id": "wolfburn-aurora",
 			"slug": "wolfburn-aurora",
 			"name": "Wolfburn Aurora",
@@ -4129,6 +4282,7 @@
 			"description_fr": "Ce magnifique whisky au xérès est élaboré à partir d'un spiritueux stocké dans une combinaison de fûts de bourbon et de xérès oloroso. Le spiritueux, qui bénéficie d'une fermentation prolongée et d'une distillation lente et douce, est stocké dans nos entrepôts construits spécialement à cet effet. À la fin du processus de maturation, les fûts sont mariés pour créer un dram exceptionnellement doux et parfaitement équilibré. ABV : 46 % Nez : La douceur du xérès est suivie d'arômes d'herbe fraîchement coupée et de fruits d'automne, avec juste une touche de café et de chocolat noir. Bouche : Les tons floraux prédominent, avec des nuances d'épices et de vanille. Une douceur fruitée enveloppe le palais, avec des saveurs de fruits et de noix qui donnent lieu à une finale chaleureuse et douce."
 		},
 		{
+			"featured": false,
 			"id": "wolfburn-langskip",
 			"slug": "wolfburn-langskip",
 			"name": "Wolfburn Langskip",
@@ -4155,6 +4309,7 @@
 			"description_fr": "Langskip est un whisky doux, équilibré et très facile à boire, dont la force n'a d'égale que sa douceur. Mûri intégralement en fûts de bourbon de premier remplissage, ce whisky possède une richesse unique et une profondeur de saveur extraordinaire. ABV : 58 % Nez : Des arômes de fleurs de fruitiers se combinent avec des pommes séchées et un chêne léger. En arrière-plan, vous trouverez des traces de raisins secs et de dattes mêlées à un riche gâteau aux fruits. Bouche : Les saveurs font irruption sur le palais, riches et douces, comprenant sirop d'érable, chocolat noir, amandes et raisins secs. La finale perdure agréablement : les touches de vanille s'estompent doucement avec une traînée chaude de caramel en fin de bouche."
 		},
 		{
+			"featured": false,
 			"id": "wolfburn-morven",
 			"slug": "wolfburn-morven",
 			"name": "Wolfburn Morven",
@@ -4181,6 +4336,7 @@
 			"description_fr": "Ce whisky légèrement fumé est élaboré à partir d'orge maltée infusée de fumée pendant le processus de séchage. C'est le reflet de l'histoire : la distillerie originale du XIXe siècle était principalement chauffée à la tourbe. À la distillation douce succède la maturation dans nos entrepôts construits spécialement à cet effet. Le résultat est un whisky merveilleusement doux et rond. ABV : 46 % Nez : Initialement fumé avec des notes de fruit et d'air frais de la mer, accompagnées de vanille et de copeaux de bois de chêne. Bouche : Les notes florales abondent, suivies de raisins secs et d'épices légères. Les saveurs maltées s'ouvrent sur le palais, avec une douce sucrosité de miel en finale."
 		},
 		{
+			"featured": false,
 			"id": "wolfburn-northland",
 			"slug": "wolfburn-northland",
 			"name": "Wolfburn Northland",
@@ -4207,6 +4363,7 @@
 			"description_fr": "Les saveurs douces et chaudes présentes dans Northland proviennent de la manière posée dont le spiritueux est élaboré et de la maturation, qui se déroule en fûts de chêne américain d'un quart de gallon. Mûri et embouteillé sur place, Northland représente le premier chapitre de l'histoire de Wolfburn. ABV : 46 % Nez : Initialement doux avec des notes de fruit et d'air frais de la mer. En arrière-plan, vous trouverez de la fraîcheur acidulée et des touches de céréale, et seulement une trace de fumée de tourbe. Bouche : Les tons doux et noisetés prédominent, avec des notes de raisin et de miel en arrière-plan. Les saveurs florales abondent, rehaussées d'une touche de fruits secs et d'épices."
 		},
 		{
+			"featured": false,
 			"id": "famous-grouse",
 			"slug": "famous-grouse",
 			"name": "The Famous Grouse",
@@ -4233,6 +4390,7 @@
 			"description_fr": "The Famous Grouse est le whisky blended écossais le plus vendu d'Écosse, élaboré à partir d'une sélection des meilleurs malts et whiskies de grain. Notes de fruits confits, de beurre et de sablés au beurre au nez, avec des fruits secs, de douces épices et une touche de chêne au palais. Un whisky doux et équilibré avec une finale nette et sèche. ABV : 40 % Nez : Fruits confits, sablés au beurre et zeste d'agrumes. Bouche : Fruits secs, douces épices (cannelle et gingembre) et une touche de chêne. Finale : Douce et bien équilibrée."
 		},
 		{
+			"featured": false,
 			"id": "bushmills-original",
 			"slug": "bushmills-original",
 			"name": "Bushmills Original",
@@ -4259,6 +4417,7 @@
 			"description_fr": "Bushmills Original est le whiskey irlandais phare de la plus ancienne distillerie sous licence du monde, fondée en 1608. Triple distillé pour une douceur exceptionnelle, il offre des notes de miel, de vanille et de chêne grillé dans un whisky polyvalent et accessible. ABV : 40 % Nez : Fruit léger et épices, avec des notes de vanille et de miel. Bouche : Doux et chaleureux, avec une texture veloutée et une touche de douceur de miel. Finale : Fraîche et croquante, avec une touche d'épices."
 		},
 		{
+			"featured": false,
 			"id": "woodford-reserve",
 			"slug": "woodford-reserve",
 			"name": "Woodford Reserve",
@@ -4285,6 +4444,7 @@
 			"description_fr": "Woodford Reserve est un bourbon Kentucky straight de petite production, distillé dans la plus ancienne distillerie du Kentucky, fondée en 1812. Avec plus de 200 notes de saveur détectables, il offre des arômes de fruits secs, de menthe et de cacao, avec un palais riche de toffee, de caramel, de chocolat et d'épices. Un bourbon équilibré et élégant. ABV : 45,2 % Nez : Fruits secs, menthe, oranges enrobées de cacao, vanille et épices de tabac. Bouche : Riche, rond et doux, avec des agrumes complexes, de la cannelle et du cacao. Toffee, caramel, chocolat et épices. Finale : Veloutée, presque crémeuse au début avec une longue et chaude traîne."
 		},
 		{
+			"featured": false,
 			"id": "whisky-new-forms-ex-bourbon",
 			"slug": "whisky-new-forms-ex-bourbon",
 			"name": "New Forms: Ex-Bourbon",
@@ -4352,6 +4512,7 @@
 			]
 		},
 		{
+			"featured": false,
 			"id": "highland-park-12-year-old",
 			"slug": "highland-park-12-year-old",
 			"name": "Highland Park 12 Year Old",
@@ -4380,6 +4541,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "highland-park-15-year-old",
 			"slug": "highland-park-15-year-old",
 			"name": "Highland Park 15 Year Old",
@@ -4408,6 +4570,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "highland-park-18-year-old",
 			"slug": "highland-park-18-year-old",
 			"name": "Highland Park 18 Year Old",
@@ -4436,6 +4599,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "talisker-10-year-old",
 			"slug": "talisker-10-year-old",
 			"name": "Talisker 10 Year Old",
@@ -4464,6 +4628,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "talisker-18-year-old",
 			"slug": "talisker-18-year-old",
 			"name": "Talisker 18 Year Old",
@@ -4492,6 +4657,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "talisker-distillers-edition",
 			"slug": "talisker-distillers-edition",
 			"name": "Talisker Distiller's Edition",
@@ -4520,6 +4686,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "dalmore-18-yo",
 			"slug": "dalmore-18-yo",
 			"name": "Dalmore 18 YO",
@@ -4548,6 +4715,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "paul-john-edited",
 			"slug": "paul-john-edited",
 			"name": "Paul John Edited",
@@ -4576,6 +4744,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "paul-john-classic-select-casks",
 			"slug": "paul-john-classic-select-casks",
 			"name": "Paul John Classic Select Cask",
@@ -4604,6 +4773,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "rampur-indian-single-malt",
 			"slug": "rampur-indian-single-malt",
 			"name": "Rampur Indian Single Malt",
@@ -4632,6 +4802,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "indri-trini",
 			"slug": "indri-trini",
 			"name": "Indri-Trini",
@@ -4660,6 +4831,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "kamet-indian-single-malt",
 			"slug": "kamet-indian-single-malt",
 			"name": "Kamet Indian Single Malt",
@@ -4688,6 +4860,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "whistlepig-10-yo",
 			"slug": "whistlepig-10-yo",
 			"name": "WhistlePig 10 Year Old",
@@ -4714,6 +4887,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "ardbeg-10-yo",
 			"slug": "ardbeg-10-yo",
 			"name": "Ardbeg 10 Year Old",
@@ -4740,6 +4914,7 @@
 			"influencer_videos": []
 		},
 		{
+			"featured": false,
 			"id": "ardbeg-uigeadail",
 			"slug": "ardbeg-uigeadail",
 			"name": "Ardbeg Uigeadail",

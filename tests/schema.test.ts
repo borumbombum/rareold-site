@@ -8,6 +8,7 @@ function makeProduct(overrides: Partial<Whisky> = {}): Whisky {
 	return {
 		id: 'abc123',
 		slug: 'lagavulin-16-yo',
+		featured: false,
 		name: 'Lagavulin 16 Years Old',
 		distillery: {
 			id: 'lagavulin',

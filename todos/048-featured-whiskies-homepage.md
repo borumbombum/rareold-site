@@ -1,6 +1,6 @@
 # Featured Whiskies
 
-Status: TODO
+Status: DONE
 
 ## Context
 
@@ -105,3 +105,5 @@ Add keys:
 ## Progress
 
 - 2026-08-21 (buffy): Task created. Awaiting implementation.
+- 2026-08-22 (ox-alpha-v048): starting. Plan as written; note fr locale exists too (5 message files), and ProductCard/homepage props will be adapted to current code.
+- 2026-08-22 (ox-alpha-v048): DONE. Migration `0024_products_featured.sql` (applied to Turso + registered in schema_migrations). Seed: all 175 entries got `featured:false`. **Deviation from plan step 3:** `featured` is NOT in db-sync's ON CONFLICT DO UPDATE clause (bootstrap-only, like `image`) — the plan's version would reset admin toggles to seed-false on every deploy since db:sync runs at build. Export includes `featured`; Whisky type has `featured: boolean`; admin form has ⭐ checkbox + star badge in table; FeaturedSection.svelte renders top 4 by rating above #ranking; messages in 5 locales. E2E: flagged 2 products via SQL → section rendered on homepage → flags reverted to 0 (per spec, admin curates via UI). Verified: check 0 errors, 89/89 tests, build OK.

@@ -60,6 +60,7 @@
 		abv: number | null;
 		cask: string | null;
 		distillery_id: string | null;
+		featured: boolean;
 		name_pt: string | null;
 		description_pt: string | null;
 		name_en: string | null;
@@ -168,6 +169,7 @@
 			abv: null,
 			cask: null,
 			distillery_id: null,
+			featured: false,
 			name_pt: null,
 			description_pt: null,
 			name_en: null,
@@ -197,6 +199,7 @@
 			abv: p.abv,
 			cask: p.cask,
 			distillery_id: p.distillery_id,
+			featured: p.featured,
 			name_pt: p.name_pt,
 			description_pt: p.description_pt,
 			name_en: p.name_en,
@@ -358,6 +361,10 @@
 					{/each}
 				</select>
 			</label>
+			<label class="flex items-center gap-3 text-sm md:col-span-2">
+				<input type="checkbox" bind:checked={form.featured} class="h-4 w-4 rounded border-zinc-300 text-zinc-900 accent-zinc-900 dark:border-zinc-600 dark:accent-white" />
+				<span class="font-medium text-zinc-600 dark:text-zinc-300">⭐ {m.admin_products_featured()}</span>
+			</label>
 			<label class="block text-sm">
 				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_name_en()}</span>
 				<input bind:value={form.name_en} placeholder="Name" class={inputClass} />
@@ -486,7 +493,12 @@
 		<tbody class="divide-y divide-zinc-100 dark:divide-zinc-800">
 			{#each filtered as p (p.id)}
 				<tr class="text-zinc-800 dark:text-zinc-200">
-					<td class="max-w-[220px] truncate px-4 py-2.5 font-medium">{p.name}</td>
+					<td class="max-w-[220px] truncate px-4 py-2.5 font-medium">
+						{p.name}
+						{#if p.featured}
+							<Star size={12} class="mb-0.5 ml-1 inline fill-amber-400 text-amber-400" aria-label={m.admin_products_featured()} />
+						{/if}
+					</td>
 						<td class="max-w-[180px] truncate px-4 py-2.5 text-zinc-500 dark:text-zinc-400">{p.distillery_name ?? '—'}</td>
 					<td class="px-4 py-2.5 text-zinc-500 dark:text-zinc-400">{p.origin_id ?? '—'}</td>
 				<td class="px-4 py-2.5 text-right tabular-nums">

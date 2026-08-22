@@ -201,8 +201,8 @@ const insertDistilleries = distilleries.map((d) =>
 
 const insertProducts = whiskies.map((w) =>
 	stmt(
-		`INSERT INTO products (id, name, description, image, origin_id, region_id, age, volume, abv, cask, distillery_id, name_pt, description_pt, name_en, description_en, name_ja, description_ja, name_fr, description_fr)
-		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		`INSERT INTO products (id, name, description, image, origin_id, region_id, age, volume, abv, cask, distillery_id, featured, name_pt, description_pt, name_en, description_en, name_ja, description_ja, name_fr, description_fr)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		 ON CONFLICT(id) DO UPDATE SET
 			name_pt = excluded.name_pt, description_pt = excluded.description_pt,
 			name_en = excluded.name_en, description_en = excluded.description_en,
@@ -220,6 +220,7 @@ const insertProducts = whiskies.map((w) =>
 			w.abv,
 			w.cask,
 			w.distillery_id ?? null,
+			w.featured === true || w.featured === 1 ? 1 : 0,
 			w.name_pt ?? null,
 			w.description_pt ?? null,
 			w.name_en ?? null,

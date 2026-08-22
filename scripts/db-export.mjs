@@ -51,7 +51,7 @@ const resellersFor = (productId, country) => {
 
 const productsRes = await client.execute(
 	`SELECT p.id, p.name, p.description, p.image, p.origin_id, r.name AS region_name,
-	        p.age, p.volume, p.abv, p.cask, p.distillery_id, p.rowid AS insertion_order,
+	        p.age, p.volume, p.abv, p.cask, p.distillery_id, p.rowid AS insertion_order, p.featured,
 	        d.name AS distillery_name, d.name_es AS distillery_name_es, d.name_pt AS distillery_name_pt,
 	        d.name_en AS distillery_name_en, d.name_ja AS distillery_name_ja, d.name_fr AS distillery_name_fr,
 	        p.name_pt, p.description_pt, p.name_en, p.description_en, p.name_ja, p.description_ja,
@@ -106,6 +106,7 @@ const whiskies = productsRes.rows.map((row) => {
 		cask: row.cask ?? null,
 		distillery_id: row.distillery_id ?? null,
 		insertion_order: Number(row.insertion_order ?? 0),
+		featured: row.featured === 1 || row.featured === true,
 		name_pt: row.name_pt ?? null,
 		description_pt: row.description_pt ?? null,
 		name_en: row.name_en ?? null,

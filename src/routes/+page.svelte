@@ -5,6 +5,7 @@
     import { localizeHref, getUrlOrigin } from "$lib/paraglide/runtime";
     import HeroHome from "$lib/components/HeroHome.svelte";
     import ActivityFeed from "$lib/components/ActivityFeed.svelte";
+    import FeaturedSection from "$lib/components/FeaturedSection.svelte";
     import OriginFilters from "$lib/components/OriginFilters.svelte";
     import ViewToggle from "$lib/components/ViewToggle.svelte";
     import SortSelect from "$lib/components/SortSelect.svelte";
@@ -44,6 +45,7 @@
         }),
     );
     const ranked = $derived(sortWhiskies(filtered, filters.sort));
+    const featuredProducts = $derived(sortWhiskies(data.products.filter((p) => p.featured), 'top').slice(0, 4));
     const mode = $derived(browser ? view.current : data.view);
     const count = $derived(ranked.length);
     const originCounts = $derived.by(() => {
@@ -60,6 +62,8 @@
 <SEO title={m.seo_home_title()} description={m.site_description()} canonicalPath={localizeHref('/')} hreflangAlternates={alternates} />
 
 <HeroHome title={m.ranking_title()} subtitle={m.ranking_subtitle()} />
+
+<FeaturedSection products={featuredProducts} country={data.countryCode} />
 
 <section id="ranking" class="mx-auto max-w-7xl px-4 pb-24 sm:px-6 mt-2 md:mt-5">
     <div class="flex flex-col gap-6 pt-2">

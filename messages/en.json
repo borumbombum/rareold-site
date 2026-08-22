@@ -125,6 +125,8 @@
     "admin_products_age": "Age",
     "admin_products_volume": "Volume",
     "admin_products_abv": "ABV",
+    "admin_products_featured": "Featured",
+    "featured_section_title": "Featured",
     "admin_products_cask": "Cask",
     "admin_products_distillery": "Distillery",
     "admin_products_name_en": "Name (EN)",

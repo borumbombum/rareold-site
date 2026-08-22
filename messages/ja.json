@@ -126,6 +126,8 @@
     "admin_products_age": "酒齢",
     "admin_products_volume": "容量",
     "admin_products_abv": "度数",
+    "admin_products_featured": "おすすめ",
+    "featured_section_title": "おすすめ",
     "admin_products_cask": "樽種",
     "admin_products_distillery": "蒸留所",
     "admin_products_name_en": "名前（EN）",

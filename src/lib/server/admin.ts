@@ -23,6 +23,7 @@ export interface ProductInput {
 	abv: number | null;
 	cask: string | null;
 	distillery_id: string | null;
+	featured: boolean;
 	name_pt: string | null;
 	description_pt: string | null;
 	name_en: string | null;
@@ -45,6 +46,7 @@ const PRODUCT_FIELDS = [
 	'abv',
 	'cask',
 	'distillery_id',
+	'featured',
 	'name_pt',
 	'description_pt',
 	'name_en',
@@ -71,6 +73,7 @@ function rowToProductInput(row: Record<string, unknown>): ProductInput {
 		abv: row.abv == null ? null : Number(row.abv),
 		cask: row.cask == null ? null : String(row.cask),
 		distillery_id: row.distillery_id == null ? null : String(row.distillery_id),
+		featured: Number(row.featured ?? 0) === 1,
 		name_pt: row.name_pt == null ? null : String(row.name_pt),
 		description_pt: row.description_pt == null ? null : String(row.description_pt),
 		name_en: row.name_en == null ? null : String(row.name_en),
@@ -128,6 +131,7 @@ function productValues(input: ProductInput): (string | number | null)[] {
 		input.abv,
 		input.cask,
 		input.distillery_id,
+		input.featured ? 1 : 0,
 		input.name_pt,
 		input.description_pt,
 		input.name_en,
@@ -166,6 +170,7 @@ export async function updateProduct(id: string, input: ProductInput, db: Client 
 		input.abv,
 		input.cask,
 		input.distillery_id,
+		input.featured ? 1 : 0,
 		input.name_pt,
 		input.description_pt,
 		input.name_en,

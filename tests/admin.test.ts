@@ -42,6 +42,7 @@ const baseProduct = {
 	abv: 46,
 	cask: 'Ex-Bourbon',
 	distillery_id: null,
+	featured: true,
 	name_pt: null,
 	description_pt: null,
 	name_en: null,
@@ -62,12 +63,13 @@ describe('admin products', () => {
 
 		await updateProduct(
 			'test-whisky',
-			{ ...baseProduct, name: 'Renamed Whisky', abv: 48 },
+			{ ...baseProduct, name: 'Renamed Whisky', abv: 48, featured: false },
 			client
 		);
 		const updated = await getProduct('test-whisky', client);
 		expect(updated?.name).toBe('Renamed Whisky');
 		expect(updated?.abv).toBe(48);
+		expect(updated?.featured).toBe(false);
 
 		await deleteProduct('test-whisky', client);
 		expect(await listProducts(client)).toEqual([]);

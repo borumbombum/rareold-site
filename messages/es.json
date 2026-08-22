@@ -125,6 +125,8 @@
     "admin_products_age": "Edad",
     "admin_products_volume": "Volumen",
     "admin_products_abv": "ABV",
+    "admin_products_featured": "Destacado",
+    "featured_section_title": "Destacados",
     "admin_products_cask": "Barrica",
     "admin_products_distillery": "Destilería",
     "admin_products_name_en": "Nombre (EN)",
