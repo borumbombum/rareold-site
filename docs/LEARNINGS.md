@@ -70,3 +70,11 @@
 - `data/seed/whiskies.json` is `{source, generatedAt, whiskies}` (dict, not flat list) and entries are in insertion order, NOT slug-sorted — don't assert sorting before scripted edits, just preserve order.
 - pt video searches: generic "ardbeg corryvreckan youtube" queries missed Brazilian reviews; the winning query included Portuguese words + site hints: `youtube.com watch <product> "análise" OR "review em português" OR "prova"`. Two verified candidates existed (Whisky Capital PT-BR review, WhiskyBrasil.com 4K); picked the one with explicit "(Português PT - BR)" in title.
 - ja pick favored channel consistency: 宅飲みバーTakeo already provided the Uigeadail ja video; reusing the channel keeps curator quality coherent.
+
+## 2026-08-22 — Batch of 4 (Wee Beastie, Laphroaig 10/QC/Lore)
+
+- `data/seed/whiskies.json`'s `whiskies` key is a **list of objects** (not slug-keyed dict) — look entries up by iterating + matching `slug`. The Corryvreckan note above said "dict" for the top-level shape; the collection itself is an array.
+- YouTube search-page scraping beats websearch for video discovery: fetch `youtube.com/results?search_query=<q>` with a UA header, regex out `ytInitialData`, walk the JSON collecting `videoRenderer` nodes (id | channel | title). One script handles all languages; set `Accept-Language` per query.
+- Image-source dead ends this batch: TWE CDN (`img.thewhiskyexchange.com/900/<code>.jpg`) returns identical 7.4KB placeholders for ANY code; masterofmalt.com 429s bots; whiskybase.com 403s but `shop.whiskybase.com` og:image works via webshopapp CDN; `lovescotch.com/products.json?limit=250&page=N` Shopify API is a reliable product-image source.
+- Auto-translated metadata trap: a YouTube result titled in French ("...contre...") can be an English video whose metadata got machine-translated. Confirm language via oEmbed title/author before assigning to a locale slot; if no genuine video exists, fall back to en per policy.
+- Channel consistency picks: Whisky Capital (pt), HABLANDO DE WHISKY / Los Whiskochos (es), lachaineduwhisky (fr), ひとくちウイスキー (ja) all had multiple Laphroaig videos — prefer them across products in the same distillery.

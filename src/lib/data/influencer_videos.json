@@ -105,6 +105,41 @@
     "label": "Ardbeg Uigeadail Review — WhiskyBrasil.com"
   },
   {
+    "product_id": "ardbeg-wee-beastie",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mG9M7iXkxac",
+    "label": "Ardbeg Wee Beastie Whisky Review S6E11"
+  },
+  {
+    "product_id": "ardbeg-wee-beastie",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=JGCLT23Ft0U",
+    "label": "Cata Ardbeg Wee Beastie 5 años. Islay Single Malt"
+  },
+  {
+    "product_id": "ardbeg-wee-beastie",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=IVtOp5PwGy4",
+    "label": "Un whisky en 5 minutes : Ardbeg Wee Beastie"
+  },
+  {
+    "product_id": "ardbeg-wee-beastie",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=aCic9aNPD6I",
+    "label": "【クセありだけどハマるウイスキー】モンスター級！？アードベッグ ウィー・ビースティー５年を本気で家飲みしてみた（スコッチ・アイラ島・シングルモルト）"
+  },
+  {
+    "product_id": "ardbeg-wee-beastie",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=iekZ1sjkIbQ",
+    "label": "Whisky Review | Ardbeg Wee Beastie 5 anos ( Português PT - BR)"
+  },
+  {
     "product_id": "arran-10-yo",
     "language": "en",
     "platform": "youtube",
@@ -117,6 +152,118 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=0WYfqONQ60k",
     "label": "El Whisky Escocés que humilla a las marcas famosas"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=FQLwo-QVOOw",
+    "label": "Gwhisky review"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=m4x_6kN7B5g",
+    "label": "Cult Of Whisky review"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=n9HL4-peDpI",
+    "label": "Whisky Lovers Society review"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=srUuqJmbFJ8",
+    "label": "Whisky.com review"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0WYfqONQ60k",
+    "label": "Piojo Whisky — cata y reseña"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=i_aVcKIlM3c",
+    "label": "Los Whiskochos — Probemos Arran 10"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=qnBi_6ZLGgo",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=DMjqd8d8OQw",
+    "label": "La Maison du Whisky"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=X1GU4ViHtxc",
+    "label": "Malt à propos"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7lAKjZNwRow",
+    "label": "ひとくちウイスキー店長テイスティング"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=OWwj9QDF6uc",
+    "label": "ハイボールおじさんの宅飲み研究所#113"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=XTqGm-yPSBg",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=qzmQuAiNiBc",
+    "label": "Bar studio TV — バレルリザーブ ハイボール"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=CMfCxzp9nDM",
+    "label": "Loucos Por Whisky — Arran 10"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=T67EpU-u0r4",
+    "label": "Whisky Capital — Arran 10 Anos"
+  },
+  {
+    "product_id": "arran-barrel-reserve",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=r_2CciHm3To",
+    "label": "Sanson Single Malt — Arran 10 Anos"
   },
   {
     "product_id": "arran-sherry-cask",
@@ -203,11 +350,578 @@
     "label": "ARRAN THE BODEGA — SHERRY CASK"
   },
   {
+    "product_id": "bowmore-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=G0xSUID_UrM",
+    "label": "Whiskey is a Journey — Sip It or Skip It"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=l9C6iAfFoxM",
+    "label": "Whiskey Vault Ep.34"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=p80JbVITOTI",
+    "label": "Honest Sips review"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=qb3Vs-5ayhU",
+    "label": "Whisky.com review"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=IS--wfskG4w",
+    "label": "Amantes Del Whisky PR Ep#29"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VTwTnxJlMrY",
+    "label": "Cultura del Whisky — primera impresión"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cWO68umq2Rg",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=4Obq6gj1H7A",
+    "label": "La Chaîne du Whisky Épisode 11"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=DucyFjM7tJU",
+    "label": "Gouilland — La Décapsule"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Oym6OKAE_ZY",
+    "label": "ひとくちウイスキー店長テイスティング"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lhovcF9MT10",
+    "label": "ウイスキー同好会 正直レビュー"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mxUtERaPKKI",
+    "label": "ITARU's BAR channel"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xsWgKdPTpeA",
+    "label": "晩ジローウイスキーレビュー"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9MEImCkF6lM",
+    "label": "WhiskyBrasil.com review"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=oCfmHOsMdeI",
+    "label": "Whisky Capital — Bowmore 12 Anos"
+  },
+  {
+    "product_id": "bowmore-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vEh19coGon4",
+    "label": "Mapa do Whisky vídeo 63"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=BU5SIn8akv4",
+    "label": "Whisky.com review"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Oh0i7T8sA1s",
+    "label": "Scotch Sunday review"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bhnqAb8rVrU",
+    "label": "Scotch 4 Dummies #11"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=sEWFU23rQjs",
+    "label": "The Spirit Safe review"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=CM0mW4j8lrE",
+    "label": "Los Whiskochos Ep.#78"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=GxMuHP6Ffa0",
+    "label": "Whisky o Muerte — Humo y Jerez"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SxgT6jlzEvY",
+    "label": "la centrale whisky S1 E3"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wbfAPEIrCWw",
+    "label": "Malt à propos — meilleur 15 ans"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=8w7b1Qx-Hj8",
+    "label": "お酒の塾長 第235杯"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Kmzs-62F124",
+    "label": "ひとくちウイスキー店長テイスティング"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Z7uka1iaoCE",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cbOdBZUoPPw",
+    "label": "NickとMariko 開封レビュー"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2HrlAdqW1Jg",
+    "label": "WhiskyBrasil.com review"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9MIAc-qSvn0",
+    "label": "Eng. Milton Salgado Filho — Mariner"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=J35J2UjsU84",
+    "label": "Mapa do Whisky"
+  },
+  {
+    "product_id": "bowmore-15-darkest",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mcUbTCfEUCQ",
+    "label": "Sanson Single Malt — degustação completa"
+  },
+  {
     "product_id": "kilchoman-machir-bay",
     "language": "en",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=tkd5QAl7pas",
     "label": ""
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QtUSxUwCqlg",
+    "label": "Whisky.com review"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cP9SASwtHqQ",
+    "label": "Gwhisky review"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=gKR5MlWCDqE",
+    "label": "Whiskey Tribe review"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wcXk4rGDfVQ",
+    "label": "Whiskey Vault Ep.71"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=D3QD3O7gqFc",
+    "label": "Los Whiskochos Ep.#3"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=EHFQQ6bDwM4",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=F__QJh35KYI",
+    "label": "Whisky o Muerte — cata y reseña"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QjNhIVNc63c",
+    "label": "Tito Whisky — cata y reseña"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2-OYQdxjV1s",
+    "label": "Whisky Cigars And Friends — Dégustation"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=_TSf-GEEmyY",
+    "label": "AlexWhiskyBlog"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=JQFdToa4uIw",
+    "label": "ショウタロウの日常飲み"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=V67SIowcPiI",
+    "label": "ボトルレビュー：ラガヴーリン16年"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ibBD-gZvDyw",
+    "label": "ウイスキー同好会 正直レビュー"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wUF9nF2kI54",
+    "label": "つっちーのBar研究室"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0gH-mLstKh8",
+    "label": "Norton no Mundo do Whisky"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5m9SY8cSPHs",
+    "label": "Eng. Milton Salgado Filho review"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=LH2M6lO3pc4",
+    "label": "WhiskyBrasil.com review"
+  },
+  {
+    "product_id": "lagavulin-16-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=rxpsNDquUBU",
+    "label": "Whisky Capital — Lagavulin 16 anos"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2yZJcIDqsWc",
+    "label": "Whiskey Vault Ep.98"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=GJwbtbnbLL0",
+    "label": "Whisky.com review"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=I9FyWvPeZxA",
+    "label": "Gwhisky review"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=MrRBMNbhsf8",
+    "label": "No Nonsense Whisky #29"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=L4iYBnQbnus",
+    "label": "HABLANDO DE WHISKY — cata"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TXENF9oo7-s",
+    "label": "Los Whiskochos — 8 vs 9"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VVsdIKS9nDc",
+    "label": "WHISKY BUBU"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Y8Q1e4llsmE",
+    "label": "HABLANDO DE WHISKY — 8 vs 16"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=j7eSJI2c5QQ",
+    "label": "Whisky et Cie — Bataille Royale III"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=sbNhmIJKcXs",
+    "label": "Le Whisky Brunch E91"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=8ZTWaBhNPZg",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=JPQI61vPpfA",
+    "label": "ひとくちウイスキー店長テイスティング"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WYiLwggXT0g",
+    "label": "nrk's play room"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WdGf6IsiALA",
+    "label": "ウイスキー同好会 開栓レビュー"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WDqObIPawEg",
+    "label": "Porção dos Anjos — embate 8 anos"
+  },
+  {
+    "product_id": "lagavulin-8-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=t9UKAPIrlM0",
+    "label": "Whisky Capital — Lagavulin 8 anos"
+  },
+  {
+    "product_id": "laphroaig-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=U9fniZYJutI",
+    "label": "Laphroaig 10 Years | Whisky Review"
+  },
+  {
+    "product_id": "laphroaig-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vCnE8Lz6Hn8",
+    "label": "Laphroaig 10 años Whisky Ahumado de Islay (Ep.#82) En Español"
+  },
+  {
+    "product_id": "laphroaig-10-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=uFX1mWJqYi0",
+    "label": "LA CHAÎNE DU WHISKY - Episode 9 - Laphroaig 10 ans"
+  },
+  {
+    "product_id": "laphroaig-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Q-1_NABJ6P8",
+    "label": "ラフロイグ10年"
+  },
+  {
+    "product_id": "laphroaig-10-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=v5D1SzD8HdI",
+    "label": "Whisky Review | Laphroaig 10 anos (Português PT - BR)"
+  },
+  {
+    "product_id": "laphroaig-lore",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kh-zbTY7gqo",
+    "label": "Whisky Review/Tasting: Laphroaig Lore"
+  },
+  {
+    "product_id": "laphroaig-lore",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=m6hvD9X64Y0",
+    "label": "LAPHROAIG LORE"
+  },
+  {
+    "product_id": "laphroaig-lore",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kh-zbTY7gqo",
+    "label": "Whisky Review/Tasting: Laphroaig Lore"
+  },
+  {
+    "product_id": "laphroaig-lore",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Hp4rOv_2hyg",
+    "label": "ラフロイグ ロア（ストレート）"
+  },
+  {
+    "product_id": "laphroaig-lore",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=032LmC3EoEE",
+    "label": "Laphroaig Lore Review"
+  },
+  {
+    "product_id": "laphroaig-quarter-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vOrVxFYYCAE",
+    "label": "Laphroaig Quarter Cask | Whisky Review"
+  },
+  {
+    "product_id": "laphroaig-quarter-cask",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TfJIwn4EJ7Y",
+    "label": "Laphroaig Quarter Cask"
+  },
+  {
+    "product_id": "laphroaig-quarter-cask",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=PeCff0j3k34",
+    "label": "LA CHAÎNE DU WHISKY - Episode 24 : Laphroaig Quarter Cask"
+  },
+  {
+    "product_id": "laphroaig-quarter-cask",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mVCadx2CsMM",
+    "label": "ラフロイグ クォーターカスク（ストレート）【ひとくちウイスキー店長のウイスキーテイスティング】"
+  },
+  {
+    "product_id": "laphroaig-quarter-cask",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=6BCbL4n_JOE",
+    "label": "Laphroaig Quarter Cask Review"
   },
   {
     "product_id": "old-pulteney-12-yo",

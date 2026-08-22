@@ -5136,7 +5136,43 @@
 			"description_ja": "アードベッグのコアレンジで最も若く、最も野生的なボトル。バーボン樽とオロロソ・シェリー樽でわずか5年、47.4%でボトリング。ブラックペッパー、パインレジン、チョコレートが荒々しいピートの上に広がり、長くスモーキーで肉感的な余韻が続きます。",
 			"name_fr": "Ardbeg Wee Beastie",
 			"description_fr": "Le plus jeune et le plus sauvage de la gamme principale d'Ardbeg : à peine cinq ans en fûts de bourbon et de sherry Oloroso, embouteillé à 47,4 %. Poivre noir, résine de pin et chocolat sur une tourbe brute et implacable ; finale longue, fumée et charnue.",
-			"influencer_videos": []
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=mG9M7iXkxac",
+					"label": "Ardbeg Wee Beastie Whisky Review S6E11",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=JGCLT23Ft0U",
+					"label": "Cata Ardbeg Wee Beastie 5 años. Islay Single Malt",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=iekZ1sjkIbQ",
+					"label": "Whisky Review | Ardbeg Wee Beastie 5 anos ( Português PT - BR)",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=aCic9aNPD6I",
+					"label": "【クセありだけどハマるウイスキー】モンスター級！？アードベッグ ウィー・ビースティー５年を本気で家飲みしてみた（スコッチ・アイラ島・シングルモルト）",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=IVtOp5PwGy4",
+					"label": "Un whisky en 5 minutes : Ardbeg Wee Beastie",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
 		},
 		{
 			"featured": false,
@@ -5163,7 +5199,43 @@
 			"description_ja": "ラフロイグの原点。バーボン樽で10年熟成し、アイラ島の本質を凝縮した一本。ヨード、タール、海藻の香るメディシナルなピートの奥に甘くモルティなコクがあり、長くスモーキーな余韻が続きます。",
 			"name_fr": "Laphroaig 10 YO",
 			"description_fr": "Le Laphroaig originel : une décennie de vieillissement en fûts de bourbon qui capture l'essence même d'Islay. Tourbe médicinale d'iode, de goudron et d'algues sur un cœur doux et malté ; finale longue et fumée.",
-			"influencer_videos": []
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=U9fniZYJutI",
+					"label": "Laphroaig 10 Years | Whisky Review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=vCnE8Lz6Hn8",
+					"label": "Laphroaig 10 años Whisky Ahumado de Islay (Ep.#82) En Español",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=v5D1SzD8HdI",
+					"label": "Whisky Review | Laphroaig 10 anos (Português PT - BR)",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Q-1_NABJ6P8",
+					"label": "ラフロイグ10年",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=uFX1mWJqYi0",
+					"label": "LA CHAÎNE DU WHISKY - Episode 9 - Laphroaig 10 ans",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
 		},
 		{
 			"featured": false,
@@ -5190,7 +5262,43 @@
 			"description_ja": "定番のラフロイグ原酒を小さなアメリカンオークのクォーターカスクで後熟。樽との接触面積が大きく熟成が早く進み、48%・ノンチルフィルターでボトリング。力強いピートにバニラ、ココナッツ、温かいスパイスの甘さが重なります。",
 			"name_fr": "Laphroaig Quarter Cask",
 			"description_fr": "L'esprit classique de Laphroaig affiné en quarter casks de chêne américain, dont la petite taille accélère l'oxygénation et multiplie le contact avec le bois, embouteillé à 48 % non filtré à froid. Tourbe intense adoucie par la vanille, la noix de coco et les épices chaleureuses.",
-			"influencer_videos": []
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=vOrVxFYYCAE",
+					"label": "Laphroaig Quarter Cask | Whisky Review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=TfJIwn4EJ7Y",
+					"label": "Laphroaig Quarter Cask",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=6BCbL4n_JOE",
+					"label": "Laphroaig Quarter Cask Review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=mVCadx2CsMM",
+					"label": "ラフロイグ クォーターカスク（ストレート）【ひとくちウイスキー店長のウイスキーテイスティング】",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=PeCff0j3k34",
+					"label": "LA CHAÎNE DU WHISKY - Episode 24 : Laphroaig Quarter Cask",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
 		},
 		{
 			"featured": false,
@@ -5217,7 +5325,757 @@
 			"description_ja": "ラフロイグで最も豊かで最も複雑なシングルモルト。7年から21年の原酒をバーボン樽、ヨーロピアンオーク、クォーターカスク、オロロソ・シェリー樽、ラフロイグ熟成樽の5種の樽でマリッジし、48%でボトリング。灰とビターチョコ、ペッパーの刺激、そして長く甘い余韻。",
 			"name_fr": "Laphroaig Lore",
 			"description_fr": "Le single malt le plus riche et le plus complexe de Laphroaig : un mariage de whiskies âgés de 7 à 21 ans élevés en cinq types de fûts (bourbon, chêne européen, quarter casks, sherry Oloroso et anciens fûts Laphroaig), embouteillé à 48 %. Cendre et chocolat amer, pointe de piment et longue finale douce.",
-			"influencer_videos": []
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=kh-zbTY7gqo",
+					"label": "Whisky Review/Tasting: Laphroaig Lore",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=m6hvD9X64Y0",
+					"label": "LAPHROAIG LORE",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=032LmC3EoEE",
+					"label": "Laphroaig Lore Review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Hp4rOv_2hyg",
+					"label": "ラフロイグ ロア（ストレート）",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=kh-zbTY7gqo",
+					"label": "Whisky Review/Tasting: Laphroaig Lore",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"id": "arran-barrel-reserve",
+			"slug": "arran-barrel-reserve",
+			"name": "Arran Barrel Reserve",
+			"description": "Single malt fresco y elegante sin declaración de edad, madurado íntegramente en barricas de bourbon de primera carga. Manzana y pera jugosa sobre cítricos vibrantes, vainilla dulce y un delicado toque marino; final suave con roble tostado y especias ligeras.",
+			"image": "/data/images/arran-barrel.webp",
+			"origin": "scotland",
+			"region": "Islands",
+			"age": null,
+			"volume": "700 ml",
+			"abv": 43,
+			"cask": "First-fill Bourbon",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "arran",
+			"name_pt": "Arran Barrel Reserve",
+			"description_pt": "Single malt fresco e elegante sem indicação de idade, maturado inteiramente em barris de bourbon de primeiro uso. Maçã e pera suculenta sobre citros vibrantes, baunilha doce e um delicado toque marinho; final suave com carvalho torrado e especiarias leves.",
+			"name_en": "Arran Barrel Reserve",
+			"description_en": "A fresh and elegant no-age-statement single malt, matured entirely in first-fill ex-bourbon barrels. Crisp apple and juicy pear lead into vibrant citrus, sweet vanilla and a delicate marine touch; a soft finish of toasted oak and gentle spice.",
+			"name_ja": "アラン バレルリザーブ",
+			"description_ja": "熟成年数表記のないフレッシュでエレガントなシングルモルト。ファーストフィルのバーボン樽のみで熟成され、青りんごとジューシーな洋梨のフルーティさに柑橘、甘いバニラ、ほのかな海のニュアンスが重なります。トーストしたオークと穏やかなスパイスの柔らかいフィニッシュ。",
+			"name_fr": "Arran Barrel Reserve",
+			"description_fr": "Un single malt frais et élégant sans âge déclaré, entièrement vieilli en fûts de bourbon de première remplissage. La pomme croquante et la poire juteuse évoluent vers des agrumes vibrants, une vanille douce et une délicate touche marine ; finale souple de chêne toasté et d'épices légères.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=FQLwo-QVOOw",
+					"label": "Gwhisky review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=srUuqJmbFJ8",
+					"label": "Whisky.com review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=n9HL4-peDpI",
+					"label": "Whisky Lovers Society review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=m4x_6kN7B5g",
+					"label": "Cult Of Whisky review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=0WYfqONQ60k",
+					"label": "Piojo Whisky — cata y reseña",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=qnBi_6ZLGgo",
+					"label": "HABLANDO DE WHISKY",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=i_aVcKIlM3c",
+					"label": "Los Whiskochos — Probemos Arran 10",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=T67EpU-u0r4",
+					"label": "Whisky Capital — Arran 10 Anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=r_2CciHm3To",
+					"label": "Sanson Single Malt — Arran 10 Anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=CMfCxzp9nDM",
+					"label": "Loucos Por Whisky — Arran 10",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=7lAKjZNwRow",
+					"label": "ひとくちウイスキー店長テイスティング",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=qzmQuAiNiBc",
+					"label": "Bar studio TV — バレルリザーブ ハイボール",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=XTqGm-yPSBg",
+					"label": "宅飲みバーTakeo",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=OWwj9QDF6uc",
+					"label": "ハイボールおじさんの宅飲み研究所#113",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=X1GU4ViHtxc",
+					"label": "Malt à propos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=DMjqd8d8OQw",
+					"label": "La Maison du Whisky",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"id": "lagavulin-16-yo",
+			"slug": "lagavulin-16-yo",
+			"name": "Lagavulin 16 YO",
+			"description": "El referente absoluto del whisky de Islay: dieciséis años que forjan un humo de turba intenso y envolvente con yodo, algas y un fondo de fruta seca dulce. Redondo, profundo y marítimo, con un final largo, seco y ahumado.",
+			"image": "/data/images/lagavulin-16-yo.webp",
+			"origin": "scotland",
+			"region": "Islay",
+			"age": 16,
+			"volume": "700 ml",
+			"abv": 43,
+			"cask": "Bourbon & Sherry",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "lagavulin",
+			"name_pt": "Lagavulin 16 YO",
+			"description_pt": "A referência absoluta do uísque de Islay: dezesseis anos que forjam uma fumaça de turfa intensa e envolvente com iodo, algas e um fundo de frutas secas doces. Redondo, profundo e marítimo, com final longo, seco e defumado.",
+			"name_en": "Lagavulin 16 YO",
+			"description_en": "The benchmark Islay single malt: sixteen years build an intense yet rounded peat smoke layered with iodine, seaweed and a rich dried-fruit sweetness. Deep, maritime and remarkably balanced, finishing long, dry and smoky.",
+			"name_ja": "ラガヴーリン16年",
+			"description_ja": "アイラウイスキーの基準となる一本。16年の熟成が生む力強くも丸みのあるピートスモークに、ヨード、海藻、そして濃厚なドライフルーツの甘さが重なります。深みがありマリタイムで驚くほどバランスが取れ、長くドライでスモーキーなフィニッシュへ続きます。",
+			"name_fr": "Lagavulin 16 YO",
+			"description_fr": "Le single malt de référence d'Islay : seize ans qui construisent une fumée de tourbe intense mais ronde, tissée d'iode, d'algues et d'une douce richesse de fruits secs. Profond, maritime et d'un bel équilibre, avec une longue finale sèche et fumée.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=QtUSxUwCqlg",
+					"label": "Whisky.com review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=gKR5MlWCDqE",
+					"label": "Whiskey Tribe review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=cP9SASwtHqQ",
+					"label": "Gwhisky review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=wcXk4rGDfVQ",
+					"label": "Whiskey Vault Ep.71",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=QjNhIVNc63c",
+					"label": "Tito Whisky — cata y reseña",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=F__QJh35KYI",
+					"label": "Whisky o Muerte — cata y reseña",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=D3QD3O7gqFc",
+					"label": "Los Whiskochos Ep.#3",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=EHFQQ6bDwM4",
+					"label": "HABLANDO DE WHISKY",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=rxpsNDquUBU",
+					"label": "Whisky Capital — Lagavulin 16 anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=LH2M6lO3pc4",
+					"label": "WhiskyBrasil.com review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=5m9SY8cSPHs",
+					"label": "Eng. Milton Salgado Filho review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=0gH-mLstKh8",
+					"label": "Norton no Mundo do Whisky",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=V67SIowcPiI",
+					"label": "ボトルレビュー：ラガヴーリン16年",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=wUF9nF2kI54",
+					"label": "つっちーのBar研究室",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=JQFdToa4uIw",
+					"label": "ショウタロウの日常飲み",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=ibBD-gZvDyw",
+					"label": "ウイスキー同好会 正直レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=_TSf-GEEmyY",
+					"label": "AlexWhiskyBlog",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=2-OYQdxjV1s",
+					"label": "Whisky Cigars And Friends — Dégustation",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"id": "lagavulin-8-yo",
+			"slug": "lagavulin-8-yo",
+			"name": "Lagavulin 8 YO",
+			"description": "Edición nacida para el 200 aniversario de la destilería: solo ocho años pero toda la potencia de Lagavulin. Humo limpio y directo sobre miel, pera y cítricos, embotellado a 48% sin filtrar en frío. Joven, vibrante y sorprendentemente equilibrado.",
+			"image": "/data/images/lagavulin-8-yo.webp",
+			"origin": "scotland",
+			"region": "Islay",
+			"age": 8,
+			"volume": "700 ml",
+			"abv": 48,
+			"cask": "American & European Oak",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "lagavulin",
+			"name_pt": "Lagavulin 8 YO",
+			"description_pt": "Edição criada para o 200º aniversário da destilaria: apenas oito anos, mas toda a potência da Lagavulin. Fumaça limpa e direta sobre mel, pera e cítricos, engarrafada a 48% sem filtração a frio. Jovem, vibrante e surpreendentemente equilibrado.",
+			"name_en": "Lagavulin 8 YO",
+			"description_en": "Born for the distillery's 200th anniversary: just eight years old yet packing full Lagavulin power. Clean, direct smoke over honey, pear and citrus, bottled at 48% non-chill-filtered. Young, vibrant and surprisingly balanced.",
+			"name_ja": "ラガヴーリン8年",
+			"description_ja": "蒸留所200周年を記念して誕生した一本。熟成はわずか8年ながらラガヴーリンの力強さはそのまま。蜂蜜、洋梨、柑橘の上に清潔感のあるストレートなスモークが広がり、48度・ノンチルフィルターでボトリング。若々しく Vibrant で驚くほどバランスの取れた味わいです。",
+			"name_fr": "Lagavulin 8 YO",
+			"description_fr": "Née pour le 200e anniversaire de la distillerie : à peine huit ans mais toute la puissance Lagavulin. Une fumée nette et franche sur le miel, la poire et les agrumes, embouteillée à 48 % non filtré à froid. Jeune, vibrant et étonnamment équilibré.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=GJwbtbnbLL0",
+					"label": "Whisky.com review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=I9FyWvPeZxA",
+					"label": "Gwhisky review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=2yZJcIDqsWc",
+					"label": "Whiskey Vault Ep.98",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=MrRBMNbhsf8",
+					"label": "No Nonsense Whisky #29",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=L4iYBnQbnus",
+					"label": "HABLANDO DE WHISKY — cata",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=TXENF9oo7-s",
+					"label": "Los Whiskochos — 8 vs 9",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=VVsdIKS9nDc",
+					"label": "WHISKY BUBU",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Y8Q1e4llsmE",
+					"label": "HABLANDO DE WHISKY — 8 vs 16",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=t9UKAPIrlM0",
+					"label": "Whisky Capital — Lagavulin 8 anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=WDqObIPawEg",
+					"label": "Porção dos Anjos — embate 8 anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=JPQI61vPpfA",
+					"label": "ひとくちウイスキー店長テイスティング",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=8ZTWaBhNPZg",
+					"label": "宅飲みバーTakeo",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=WdGf6IsiALA",
+					"label": "ウイスキー同好会 開栓レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=WYiLwggXT0g",
+					"label": "nrk's play room",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=j7eSJI2c5QQ",
+					"label": "Whisky et Cie — Bataille Royale III",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=sbNhmIJKcXs",
+					"label": "Le Whisky Brunch E91",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"id": "bowmore-12-yo",
+			"slug": "bowmore-12-yo",
+			"name": "Bowmore 12 YO",
+			"description": "Madurado en barricas de bourbon y oloroso, este 12 años define el estilo Bowmore: humo suave y terroso entre miel de brezo, limón fresco y frutas cálidas. Elegante y perfectamente equilibrado, con un final dulce y ligeramente ahumado.",
+			"image": "/data/images/bowmore-12-yo.webp",
+			"origin": "scotland",
+			"region": "Islay",
+			"age": 12,
+			"volume": "700 ml",
+			"abv": 40,
+			"cask": "Bourbon & Oloroso Sherry",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "bowmore",
+			"name_pt": "Bowmore 12 YO",
+			"description_pt": "Maturado em barris de bourbon e oloroso, este 12 anos define o estilo Bowmore: fumaça suave e terrosa entre mel de urze, limão fresco e frutas quentes. Elegante e perfeitamente equilibrado, com final doce e levemente defumado.",
+			"name_en": "Bowmore 12 YO",
+			"description_en": "Matured in ex-bourbon and oloroso casks, this 12-year-old defines the Bowmore house style: soft, earthy smoke woven through heather honey, fresh lemon and warm fruits. Elegant and beautifully balanced, with a gently smoky, sweet finish.",
+			"name_ja": "ボウモア12年",
+			"description_ja": "バーボン樽とオロロソ樽で熟成された12年。ヒース蜂蜜、フレッシュなレモン、温かみのある果実の中に、ボウモア特有の優しくアーシーなスモークが織り込まれます。エレガントで見事にバランスが取れ、ほのかにスモーキーで甘いフィニッシュ。",
+			"name_fr": "Bowmore 12 YO",
+			"description_fr": "Vieilli en fûts de bourbon et d'oloroso, ce 12 ans définit le style Bowmore : une fumée douce et terreuse traversée de miel de bruyère, de citron frais et de fruits chaleureux. Élégant et parfaitement équilibré, sur une finale douce et légèrement fumée.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=qb3Vs-5ayhU",
+					"label": "Whisky.com review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=G0xSUID_UrM",
+					"label": "Whiskey is a Journey — Sip It or Skip It",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=l9C6iAfFoxM",
+					"label": "Whiskey Vault Ep.34",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=p80JbVITOTI",
+					"label": "Honest Sips review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=cWO68umq2Rg",
+					"label": "HABLANDO DE WHISKY",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=IS--wfskG4w",
+					"label": "Amantes Del Whisky PR Ep#29",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=VTwTnxJlMrY",
+					"label": "Cultura del Whisky — primera impresión",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=oCfmHOsMdeI",
+					"label": "Whisky Capital — Bowmore 12 Anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=vEh19coGon4",
+					"label": "Mapa do Whisky vídeo 63",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=9MEImCkF6lM",
+					"label": "WhiskyBrasil.com review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=mxUtERaPKKI",
+					"label": "ITARU's BAR channel",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=xsWgKdPTpeA",
+					"label": "晩ジローウイスキーレビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=lhovcF9MT10",
+					"label": "ウイスキー同好会 正直レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Oym6OKAE_ZY",
+					"label": "ひとくちウイスキー店長テイスティング",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=4Obq6gj1H7A",
+					"label": "La Chaîne du Whisky Épisode 11",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=DucyFjM7tJU",
+					"label": "Gouilland — La Décapsule",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"id": "bowmore-15-darkest",
+			"slug": "bowmore-15-darkest",
+			"name": "Bowmore 15 YO Darkest",
+			"description": "Doce años en bourbon y tres finales en botas de oloroso dan lugar al «Darkest»: chocolate negro, pasas y cedro entre un humo cálido y especiado. Su color profundo y su final robusto y tostado lo hacen el Bowmore más intenso de la gama.",
+			"image": "/data/images/bowmore-15-darkest.webp",
+			"origin": "scotland",
+			"region": "Islay",
+			"age": 15,
+			"volume": "700 ml",
+			"abv": 43,
+			"cask": "Oloroso Sherry",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "bowmore",
+			"name_pt": "Bowmore 15 YO Darkest",
+			"description_pt": "Doze anos em bourbon e três anos de acabamento em barris de oloroso dão origem ao «Darkest»: chocolate amargo, passas e cedro entre uma fumaça quente e especiada. A sua cor profunda e o final robusto e tostado fazem dele o Bowmore mais intenso da gama.",
+			"name_en": "Bowmore 15 YO Darkest",
+			"description_en": "Twelve years in bourbon and three final years in oloroso casks create 'the Darkest': dark chocolate, raisins and cedar wrapped in warm, spicy smoke. Its deep colour and robust toasted finish make it the most intense Bowmore in the core range.",
+			"name_ja": "ボウモア15年 ダーケスト",
+			"description_ja": "バーボン樽で12年、最後の3年をオロロソシェリー樽で仕上げた「ダーケスト」。ダークチョコレート、レーズン、シーダーウッドが温かくスパイシーなスモークに包まれます。深い色合いとロブストでトースティなフィニッシュは、コアレンジで最もインテンスなボウモアです。",
+			"name_fr": "Bowmore 15 YO Darkest",
+			"description_fr": "Douze ans en bourbon puis trois années finales en fûts d'oloroso donnent naissance au « Darkest » : chocolat noir, raisins secs et cèdre enveloppés d'une fumée chaude et épicée. Sa couleur profonde et sa finale robuste et grillée en font le Bowmore le plus intense de la gamme.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=BU5SIn8akv4",
+					"label": "Whisky.com review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=bhnqAb8rVrU",
+					"label": "Scotch 4 Dummies #11",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Oh0i7T8sA1s",
+					"label": "Scotch Sunday review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=sEWFU23rQjs",
+					"label": "The Spirit Safe review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=GxMuHP6Ffa0",
+					"label": "Whisky o Muerte — Humo y Jerez",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=CM0mW4j8lrE",
+					"label": "Los Whiskochos Ep.#78",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=2HrlAdqW1Jg",
+					"label": "WhiskyBrasil.com review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=mcUbTCfEUCQ",
+					"label": "Sanson Single Malt — degustação completa",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=J35J2UjsU84",
+					"label": "Mapa do Whisky",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=9MIAc-qSvn0",
+					"label": "Eng. Milton Salgado Filho — Mariner",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Kmzs-62F124",
+					"label": "ひとくちウイスキー店長テイスティング",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=cbOdBZUoPPw",
+					"label": "NickとMariko 開封レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=8w7b1Qx-Hj8",
+					"label": "お酒の塾長 第235杯",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Z7uka1iaoCE",
+					"label": "宅飲みバーTakeo",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=wbfAPEIrCWw",
+					"label": "Malt à propos — meilleur 15 ans",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=SxgT6jlzEvY",
+					"label": "la centrale whisky S1 E3",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
 		}
 	]
 }
