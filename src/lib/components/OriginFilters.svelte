@@ -1,5 +1,8 @@
 <script lang="ts">
-	import { originLabel, sortOriginsByCount } from '$lib/utils/origins';
+	import { Pin } from '@lucide/svelte';
+	import { originLabel, sortOriginsForDisplay } from '$lib/utils/origins';
+	import { isPinnedOrigin, togglePinnedOrigin } from '$lib/stores/pinned-origins.svelte';
+	import { ui } from '$lib/stores/ui.svelte';
 	import { m } from '$lib/paraglide/messages';
 
 	let {
@@ -7,6 +10,7 @@
 		counts = {},
 		regions = [],
 		selectedRegion = null,
+		activeOrigin = undefined,
 		onSelect,
 		onSelectRegion
 	}: {
@@ -14,11 +18,12 @@
 		counts?: Record<string, number>;
 		regions?: string[];
 		selectedRegion?: string | null;
+		activeOrigin?: string;
 		onSelect: (key: string) => void;
 		onSelectRegion?: (region: string | null) => void;
 	} = $props();
 
-	const sorted = $derived(sortOriginsByCount(counts));
+	const sorted = $derived(sortOriginsForDisplay(counts, activeOrigin));
 
 	function countChip(key: string, isActive: boolean): string {
 		if (counts[key] == null) return '';
@@ -29,6 +34,12 @@
 
 	function pick(key: string): void {
 		onSelect(key);
+	}
+
+	function togglePin(key: string, event: MouseEvent): void {
+		event.stopPropagation();
+		const pinned = togglePinnedOrigin(key);
+		ui.showToast(pinned ? m.origin_pinned() : m.origin_unpinned());
 	}
 </script>
 
@@ -51,20 +62,36 @@
 			</span>
 		</button>
 		{#each sorted as origin (origin.key)}
-			<button
-				onclick={() => pick(origin.key)}
-				class="w-32 shrink-0 snap-start rounded-2xl border px-5 py-3.5 text-left transition {selected === origin.key
-					? 'border-zinc-900 bg-zinc-900 text-white shadow-sm dark:border-white dark:bg-white dark:text-zinc-900'
-					: 'border-zinc-200 bg-white text-zinc-800 hover:border-zinc-400 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:border-zinc-600'}"
-			>
-				<span class="block text-xl">{origin.flag}</span>
-				<span class="mt-1 flex items-center justify-center gap-1.5 text-sm font-semibold">
-					{originLabel(origin.key)}
-					{#if counts[origin.key] != null}
-						<span class={countChip(origin.key, selected === origin.key)}>{counts[origin.key]}</span>
-					{/if}
-				</span>
-			</button>
+			<div class="relative shrink-0 snap-start">
+				<button
+					onclick={() => pick(origin.key)}
+					class="w-32 rounded-2xl border px-5 py-3.5 text-left transition {activeOrigin === origin.key
+						? 'border-accent bg-accent/10 ring-2 ring-accent/50 dark:border-accent dark:bg-accent/10'
+						: selected === origin.key
+							? 'border-zinc-900 bg-zinc-900 text-white shadow-sm dark:border-white dark:bg-white dark:text-zinc-900'
+							: 'border-zinc-200 bg-white text-zinc-800 hover:border-zinc-400 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200 dark:hover:border-zinc-600'}"
+				>
+					<span class="block text-xl">{origin.flag}</span>
+					<span class="mt-1 flex items-center justify-center gap-1.5 text-sm font-semibold">
+						{originLabel(origin.key)}
+						{#if counts[origin.key] != null}
+							<span class={countChip(origin.key, selected === origin.key || activeOrigin === origin.key)}>{counts[origin.key]}</span>
+						{/if}
+					</span>
+				</button>
+				<button
+					onclick={(e) => togglePin(origin.key, e)}
+					class="absolute -right-1 -top-1 grid h-6 w-6 place-items-center rounded-full border border-zinc-200 bg-white text-zinc-400 shadow-sm transition hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:text-white"
+					aria-pressed={isPinnedOrigin(origin.key)}
+					aria-label={`${isPinnedOrigin(origin.key) ? m.origin_unpinned() : m.origin_pinned()} ${originLabel(origin.key)}`}
+				>
+					<Pin
+						size={14}
+						class={isPinnedOrigin(origin.key) ? 'text-accent' : ''}
+						fill={isPinnedOrigin(origin.key) ? 'currentColor' : 'none'}
+					/>
+				</button>
+			</div>
 		{/each}
 	</div>
 

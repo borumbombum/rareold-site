@@ -1,6 +1,7 @@
 {
     "site_name": "Rare Old",
     "site_tagline": "レアウイスキー。コミュニティが投票。",
+    "back_to_top": "トップへ戻る",
     "site_description": "レアで限定的なウイスキーを発見。ランキングはコミュニティの投票で作られます。",
     "nav_home": "ホーム",
     "nav_instagram": "Instagram",
@@ -21,6 +22,8 @@
     "from": "〜",
     "no_price": "価格お問い合わせ",
     "origin_all": "すべて",
+    "origin_pinned": "ピン留め",
+    "origin_unpinned": "ピン留め解除",
     "filters_origin": "産地",
     "drawer_title": "探索",
     "drawer_menu": "メニュー",
@@ -309,5 +312,7 @@
     "map_title": "ウイスキー蒸留所マップ",
     "map_subtitle": "インタラクティブな世界地図で、当サイトのウイスキーの蒸留所を探索しましょう。",
     "map_open_distillery": "蒸留所を見る",
-    "map_distilleries": "{count} 蒸留所"
+    "map_distilleries": "{count} 蒸留所",
+    "map_showing_only": "のみ",
+    "map_clear_selection": "選択をクリア"
 }

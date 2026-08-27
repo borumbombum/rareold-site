@@ -1,6 +1,7 @@
 import originData from '$lib/data/origins.json';
 import { getLocale } from '$lib/paraglide/runtime';
 import { LOCALE_CONFIG, type LocaleKey } from '$lib/utils/locales';
+import { getPinnedOrigins } from '$lib/stores/pinned-origins.svelte';
 
 export interface OriginRow {
 	id: string;
@@ -46,6 +47,54 @@ export function originKey(product: { origin?: string | null }): string {
 /** Origins ordered by product count, highest first. */
 export function sortOriginsByCount(counts: Record<string, number>): OriginDef[] {
 	return [...ORIGINS].sort((a, b) => (counts[b.key] ?? 0) - (counts[a.key] ?? 0));
+}
+
+/** Baseline origins kept visible regardless of user pinning or counts. */
+const BASELINE_PINNED = ['canada'];
+
+/**
+ * Origins ordered for display: "all" first, then the active origin, then
+ * user-pinned origins (by count), then baseline-pinned, then the rest by count.
+ */
+export function sortOriginsForDisplay(
+	counts: Record<string, number>,
+	activeOrigin?: string
+): OriginDef[] {
+	const active = activeOrigin && activeOrigin !== 'all' ? activeOrigin : null;
+	const pinned = getPinnedOrigins().filter((k) => k !== active);
+	const byCount = sortOriginsByCount(counts);
+
+	const ordered: OriginDef[] = [];
+	const seen = new Set<string>(['all']);
+
+	if (active) {
+		const row = byCount.find((o) => o.key === active);
+		if (row) {
+			ordered.push(row);
+			seen.add(active);
+		}
+	}
+	for (const key of pinned) {
+		const row = byCount.find((o) => o.key === key);
+		if (row && !seen.has(key)) {
+			ordered.push(row);
+			seen.add(key);
+		}
+	}
+	for (const key of BASELINE_PINNED) {
+		const row = byCount.find((o) => o.key === key);
+		if (row && !seen.has(key)) {
+			ordered.push(row);
+			seen.add(key);
+		}
+	}
+	for (const o of byCount) {
+		if (!seen.has(o.key)) {
+			ordered.push(o);
+			seen.add(o.key);
+		}
+	}
+	return ordered;
 }
 
 export function originFlag(product: { origin?: string | null }): string {

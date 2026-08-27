@@ -30,10 +30,15 @@ One whisky per line:
 
 Curated world-wide candidates (researched 2026-08, excluding everything already in the catalog):
 
+## Priority
+
+✅ Macarthurs Scotch
+✅ Hankey Bannister (all of them)
+
 ## Scotland — Islay
 
-✅ Arran Barrel Reserve - Arran Distillers, source image: https://static.whiskybase.com/storage/whiskies/1/3/8215/233765-big.jpg, info here: https://www.whiskybase.com/whiskies/whisky/138215/arran-barrel-reserve - Add this spanish influencer review: https://www.youtube.com/watch?v=0WYfqONQ60k
-✅ Whistle Pig 10 YO - Whistle Pig : https://www.whistlepigwhiskey.com/whiskeys/10-year
+✅ Arran Barrel Reserve - Arran Distillers, source image: <https://static.whiskybase.com/storage/whiskies/1/3/8215/233765-big.jpg>, info here: <https://www.whiskybase.com/whiskies/whisky/138215/arran-barrel-reserve> - Add this spanish influencer review: <https://www.youtube.com/watch?v=0WYfqONQ60k>
+✅ Whistle Pig 10 YO - Whistle Pig : <https://www.whistlepigwhiskey.com/whiskeys/10-year>
 ✅ Ardbeg 10 YO - Ardbeg
 ✅ Ardbeg Uigeadail - Ardbeg
 ✅ Ardbeg Corryvreckan - Ardbeg
@@ -55,21 +60,21 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Caol Ila 12 YO - Caol Ila
 ✅ Caol Ila 18 YO - Caol Ila
 ✅ Ardnahoe Inaugural Release - Ardnahoe
-Vat 69 : https://www.youtube.com/watch?v=JnVOXwGV3sI (video for spanish)
+✅ Vat 69 : <https://www.youtube.com/watch?v=JnVOXwGV3sI> (video for spanish)
 
 ## Scotland — Islands
 
 ✅ Talisker 10 YO - Talisker
-Talisker Storm - Talisker
+✅ Talisker Storm - Talisker
 ✅ Talisker 18 YO - Talisker
 ✅ Talisker Distillers Edition - Talisker
 ✅ Highland Park 12 YO - Highland Park
 ✅ Highland Park 18 YO - Highland Park
-Highland Park Cask Strength - Highland Park
-Scapa 13 YO - Scapa
-Tobermory 12 YO - Tobermory
-Ledaig 10 YO - Tobermory
-Torabhaig Legacy Series - Torabhaig
+✅ Highland Park Cask Strength - Highland Park
+✅ Scapa 13 YO - Scapa
+✅ Tobermory 12 YO - Tobermory
+✅ Ledaig 10 YO - Tobermory
+✅ Torabhaig Legacy Series - Torabhaig
 Isle of Raasay Single Malt - Isle of Raasay
 Isle of Harris Single Malt - Isle of Harris
 Abhainn Dearg Single Malt - Abhainn Dearg
@@ -90,7 +95,7 @@ Glen Scotia Double Cask - Glen Scotia
 
 ## Scotland — Speyside
 
-Glenfiddich 12 YO - Glenfiddich
+✅ Glenfiddich 12 YO - Glenfiddich
 Glenfiddich 15 YO Solera - Glenfiddich
 Glenfiddich 18 YO - Glenfiddich
 The Glenlivet 12 YO - The Glenlivet
@@ -134,7 +139,7 @@ Glenmorangie The Original 10 YO - Glenmorangie
 Glenmorangie Nectar d'Or - Glenmorangie
 Glenmorangie Quinta Ruban 12 YO - Glenmorangie
 Glenmorangie Signet - Glenmorangie
-Dalwhinnie 15 YO - Dalwhinnie
+✅ Dalwhinnie 15 YO - Dalwhinnie
 Oban 14 YO - Oban
 Aberfeldy 12 YO - Aberfeldy
 Aberfeldy 16 YO - Aberfeldy
@@ -210,7 +215,7 @@ Girvan Patent Still No. 4 - Girvan
 
 ## Ireland
 
-Jameson Irish Whiskey - Midleton
+✅ Jameson Irish Whiskey - Midleton
 Jameson Caskmates Stout Edition - Midleton
 Jameson Black Barrel - Midleton
 Jameson 18 YO - Midleton

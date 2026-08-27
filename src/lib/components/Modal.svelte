@@ -43,9 +43,19 @@
 			if (e.target === e.currentTarget) onClose();
 		}}
 	>
-		<div
-			class={`animate-rise-in no-scrollbar flex max-h-[92dvh] w-full ${maxWidth} flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl dark:border-zinc-800 dark:bg-zinc-950`}
-		>
+		<div class="relative">
+			{#if bare}
+				<button
+					onclick={onClose}
+					aria-label={m.video_close()}
+					class="absolute -right-3 -top-3 z-50 grid h-9 w-9 place-items-center rounded-full bg-zinc-900/80 text-white backdrop-blur transition hover:bg-zinc-900"
+				>
+					<X size={18} />
+				</button>
+			{/if}
+			<div
+				class={`animate-rise-in no-scrollbar flex max-h-[92dvh] w-full ${maxWidth} flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl dark:border-zinc-800 dark:bg-zinc-950`}
+			>
 			{#if !bare}
 				<div class="flex items-center justify-between gap-4 border-b border-zinc-200 px-5 py-3.5 dark:border-zinc-800">
 					<h3 class="font-display text-lg text-zinc-900 dark:text-zinc-100">{title}</h3>
@@ -60,6 +70,7 @@
 			{/if}
 			<div class="no-scrollbar overflow-y-auto">
 				{@render children?.()}
+			</div>
 			</div>
 		</div>
 	</div>

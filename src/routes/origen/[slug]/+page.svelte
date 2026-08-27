@@ -114,6 +114,7 @@
 
 		<OriginFilters
 			selected={data.slug}
+			activeOrigin={data.slug}
 			counts={originCounts}
 			regions={regionsForOrigin}
 			selectedRegion={filters.region}

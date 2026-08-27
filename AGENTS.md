@@ -1,3 +1,16 @@
+## General Guidelines
+
+* Use Plain Language for your answers.
+* Be succinct: Answer directly. Skip greetings, sign-offs, restating the request, and narrative walkthroughs of what you did. Give the shortest explanation that fully answers unless I ask for more detail. This applies to prose only; code, commands, and data output aren’t trimmed for length.
+* Active voice. Address the reader directly ("you").
+* Keep necessary technical terms, but explain them briefly on first use.
+* State actions, constraints, scope, and expected results explicitly.
+* Cut filler, hedging, jargon, and repetition.
+* If precision and natural phrasing conflict, precision wins.
+* At the end of every important task or upon making an error you and correcting it you MUST update the docs/lessons-learned.md file.
+* If you create a new tool like say `yt-search.mjs` document them in a docs/TOOLS.md file.
+* New skills go into `.agents/skills/`.
+
 # RULES
 
 - Sites must always be ultra-fast, no shortcuts taken that is why we will use Turso and Sveltekit.
@@ -10,25 +23,16 @@
 - Stop after each todo completed and report back before continuing.
 - If you consider some change might break current usage experience then query for confirmation.
 - Never ask to commiit, and never push to remote without being explictly asked. Remote repo goes directly to production so its very risky to push to remote.
-- Only add skills in .agents not in .opencode
+- Skills live only in `.agents/skills/`.
 - Every time you finish a hard task write what you learned about in an docs/LEARNINGS.md file.
 
 ## Task workflow
 
-Tasks live as one markdown file per task in `/todos/`. Do not track tasks anywhere else.
+Tasks follow the `tasks` skill (`.agents/skills/tasks/SKILL.md`). It defines where tasks live, the `[TODO]` / `[IN_PROGRESS]` / `[DONE]` markers, how to pick the next task (including the `HIGH PRIORITY` override), and handoff via the `## Progress` log. Use that skill when creating, picking up, or finishing a task.
 
-- **File naming:** `NNN-slug.md`. The `NNN` prefix is a zero-padded 3-digit priority: lower number = higher importance = do it first. Prefixes must stay unique. Example: `todos/002-google-auth-own-turso-cubiq-detach.md`.
-- **Status:** every task file MUST start with a `Status:` line, and it must be one of:
-    - `Status: TODO` — not started, available to pick up.
-    - `Status: WORKING-AGENT-<session>` — currently being implemented by an agent. Replace `<session>` with your own session identifier.
-    - `Status: DONE` — implemented and verified. Do not touch again.
-- **Picking the next task:** read `/todos/`, list the files sorted by `NNN`, and pick the lowest `NNN` whose status is `TODO`. **Exception:** if any task has `HIGH PRIORITY` in its status line, pick that one first regardless of NNN number. Never start a `DONE` task, and never start a `WORKING-AGENT-*` task unless you are taking it over (see Handoff below).
-- **Starting a task:** set the file's status to `Status: WORKING-AGENT-<your-session>` and add a `## Progress` section at the end of the file with a dated entry: your session, what you are doing, and what comes next. Read the whole task file first (Context / Requirements / Acceptance criteria); ask for tokens if anything is unclear.
-- **Progress log:** keep the `## Progress` section updated as you work, not just at the start or end. Every meaningful step gets a short entry: what was done, current state, and the next step. This is the handoff record.
-- **Handoff / token exhaustion:** if you run out of tokens mid-task, your last `## Progress` entry MUST state exactly where you left off and what the next agent should do. A replacement agent taking over a `WORKING-AGENT-*` task reads the `## Progress` log, changes the status to `Status: WORKING-AGENT-<its-session>`, and appends a handoff entry saying it is continuing.
-- **When finished:** once implemented and verified (build, lint, typecheck pass), set the status to `Status: DONE`, then pick the next `TODO` task and repeat.
-- Do not reorder, rename, or delete task files unless explicitly asked.
-- **Status list sync (mandatory):** the status list under `## Next tasks` below is THE authoritative record of task state for every agent. Whenever you change a task file's `Status:` line — starting, finishing, handing off, or superseding — you MUST update its entry in that list in the same change. Never leave the list stale; an agent that finds drift must fix it immediately.
+- Task state is tracked only in the task files (`tasks/NNN-slug.md`) and the `## Tasks` list below — nothing else.
+- **Status list sync (mandatory):** the `## Tasks` list below is THE authoritative record of task state for every agent. On every `Status:` change — starting, finishing, handing off, or superseding — update the matching list line in the same change. An agent that finds drift must fix it immediately.
+- After a task is `[DONE]`, stop and report back. Do not auto-continue into the next task — wait for an explicit order.
 
 ## Localization (adding a new language)
 
@@ -71,61 +75,62 @@ Use `ui.showToast()` from `$lib/stores/ui.svelte` to show temporary user feedbac
 
 Already used in VoteButton, FavoriteButton, AuthButton, LanguageSwitcher, ShareButton, etc. Always prefer `showToast` over alerts or console.log for user-facing feedback.
 
-## Next tasks
+## Tasks
 
-Current status of `/todos/` (authoritative — keep in sync with every `Status:` change, see Task workflow):
+Current status of `tasks/` (authoritative — kept in sync with every task file `Status:` change, see Task workflow):
 
-- `000-images-webp-script.md` — DONE
-- `001-json-data-turso-migration.md` — DONE
-- `002-google-auth-own-turso-cubiq-detach.md` — DONE
-- `003-drawer-region-transition.md` — DONE
-- `004-admin-section.md` — DONE
-- `005-dark-mode-card-images-white-background.md` — DONE
-- `006-product-videos-per-country-sommeliers.md` — DONE
-- `007-desktop-search-bar-below-hero.md` — DONE
-- `008-vote-image-upload-and-location.md` — DONE
-- `009-share-button-product-page.md` — DONE
-- `010-us-site-paraglide.md` — DONE
-- `011-google-login-redirect-pkce-cookie.md` — DONE
-- `012-resellers-turso-source-of-truth.md` — DONE
-- `013-remove-public-base-url-detect-origin.md` — DONE
-- `014-favorites-love-whiskies.md` — DONE
-- `015-git-link-github-repo.md` — DONE
-- `016-sitemaps-by-language.md` — SUPERSEDED by 023
-- `017-pages-cms-about.md` — DONE
-- `018-view-toggle-flick.md` — DONE
-- `019-ranking-most-voted-first.md` — DONE
-- `020-vote-state-server-authoritative.md` — DONE
-- `021-youtube-video-search-skill.md` — DONE
-- `022-nostr-login-nip07-desktop.md` — DONE
-- `023-rss-robots-sitemap-link-verification.md` — DONE
-- `024-compact-view-product-grid.md` — DONE
-- `025-schema-org-product-reviews.md` — DONE
-- `026-user-profile-favorites-voted-reviews.md` — DONE
-- `027-homepage-latest-activity-feed.md` — DONE
-- `028-unify-voting-star-ratings.md` — DONE
-- `029-heart-animation-favorite-button.md` — DONE
-- `030-canonical-hreflang-og-meta-seo-tags.md` — DONE
-- `031-translate-product-descriptions-en.md` — DONE
-- `032-change-main-language-to-english.md` — DONE
-- `033-language-detector-ip-based.md` — DONE
-- `034-add-french-language.md` — DONE
-- `035-hero-video-background.md` — DONE
-- `036-whisky-sorting-filters.md` — DONE
-- `037-add-whiskies-famous-grouse-bushmills-woodford-elijah-craig.md` — DONE
-- `038-add-whiskies-highland-park-dalmore-talisker.md` — DONE
-- `039-distillery-brand-database.md` — DONE
-- `040-influencer-videos-horizontal-list.md` — DONE
-- `041-rework-origins-country-only-overflow.md` — DONE
-- `042-distillery-map-page.md` — DONE
-- `043-pages-cms-full-admin.md` — DONE
-- `044-sqlite-download-paywall.md` — DONE
-- `045-origins-admin-crud.md` — DONE
-- `046-distillery-public-page.md` — DONE
-- `047-remove-brand-use-distillery.md` — DONE
-- `048-featured-whiskies-homepage.md` — DONE
-- `049-follow-love-distillery.md` — DONE
-- `050-product-specs-pills-above-description.md` — DONE
-- `051-pin-origin-active-origin-first.md` — TODO
-- `052-back-to-top-button.md` — TODO
-- `053-backfill-videos-4-per-language.md` — TODO
+- 000 [DONE] Images Webp Script
+- 001 [DONE] Json Data Turso Migration
+- 002 [DONE] Google Auth Own Turso Cubiq Detach
+- 003 [DONE] Drawer Region Transition
+- 004 [DONE] Admin Section
+- 005 [DONE] Dark Mode Card Images White Background
+- 006 [DONE] Product Videos Per Country Sommeliers
+- 007 [DONE] Desktop Search Bar Below Hero
+- 008 [DONE] Vote Image Upload And Location
+- 009 [DONE] Share Button Product Page
+- 010 [DONE] Us Site Paraglide
+- 011 [DONE] Google Login Redirect Pkce Cookie
+- 012 [DONE] Resellers Turso Source Of Truth
+- 013 [DONE] Remove Public Base Url Detect Origin
+- 014 [DONE] Favorites Love Whiskies
+- 015 [DONE] Git Link Github Repo
+- 016 [DONE] Sitemaps By Language (superseded by 023)
+- 017 [DONE] Pages Cms About
+- 018 [DONE] View Toggle Flick
+- 019 [DONE] Ranking Most Voted First
+- 020 [DONE] Vote State Server Authoritative
+- 021 [DONE] Youtube Video Search Skill
+- 022 [DONE] Nostr Login Nip07 Desktop
+- 023 [DONE] Rss Robots Sitemap Link Verification
+- 024 [DONE] Compact View Product Grid
+- 025 [DONE] Schema Org Product Reviews
+- 026 [DONE] User Profile Favorites Voted Reviews
+- 027 [DONE] Homepage Latest Activity Feed
+- 028 [DONE] Unify Voting Star Ratings
+- 029 [DONE] Heart Animation Favorite Button
+- 030 [DONE] Canonical Hreflang Og Meta Seo Tags
+- 031 [DONE] Translate Product Descriptions En
+- 032 [DONE] Change Main Language To English
+- 033 [DONE] Language Detector Ip Based
+- 034 [DONE] Add French Language
+- 035 [DONE] Hero Video Background
+- 036 [DONE] Whisky Sorting Filters
+- 037 [DONE] Add Whiskies Famous Grouse Bushmills Woodford Elijah Craig
+- 038 [DONE] Add Whiskies Highland Park Dalmore Talisker
+- 039 [DONE] Distillery Brand Database
+- 040 [DONE] Influencer Videos Horizontal List
+- 041 [DONE] Rework Origins Country Only Overflow
+- 042 [DONE] Distillery Map Page
+- 043 [DONE] Pages Cms Full Admin
+- 044 [DONE] Sqlite Download Paywall
+- 045 [DONE] Origins Admin Crud
+- 046 [DONE] Distillery Public Page
+- 047 [DONE] Remove Brand Use Distillery
+- 048 [DONE] Featured Whiskies Homepage
+- 049 [DONE] Follow Love Distillery
+- 050 [DONE] Product Specs Pills Above Description
+- 051 [DONE] Pin Origin Active Origin First
+- 052 [DONE] Back To Top Button
+- 053 [TODO] Backfill Videos 4 Per Language
+- 054 [DONE] Add Whiskies Vat69 Scapa Tobermory Ledaig Torabhaig

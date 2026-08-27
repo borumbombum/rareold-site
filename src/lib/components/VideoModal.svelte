@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Modal from './Modal.svelte';
-	import { ChevronLeft, ChevronRight, X } from '@lucide/svelte';
+	import { ChevronLeft, ChevronRight } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { parseVideoUrl } from '$lib/utils/format';
@@ -16,13 +16,6 @@
 <Modal open={Boolean(url)} onClose={() => ui.closeVideo()} bare maxWidth="max-w-2xl">
 	{#if video}
 		<div class="relative">
-			<button
-				onclick={() => ui.closeVideo()}
-				aria-label={m.video_close()}
-				class="absolute -top-0 right-0 z-10 grid h-9 w-9 translate-x-3 -translate-y-3 place-items-center rounded-full bg-zinc-900/80 text-white backdrop-blur transition hover:bg-zinc-900"
-			>
-				<X size={16} />
-			</button>
 			<div class="aspect-video w-full bg-black">
 				{#if video.provider === 'instagram'}
 					<iframe

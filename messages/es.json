@@ -1,6 +1,7 @@
 {
     "site_name": "Old Rare",
     "site_tagline": "Whiskies raros. Votados por la comunidad.",
+    "back_to_top": "Volver arriba",
     "site_description": "Descubrí whiskies raros y limitados. El ranking lo arma la comunidad con sus votos.",
     "nav_home": "Inicio",
     "nav_instagram": "Instagram",
@@ -21,6 +22,8 @@
     "from": "desde",
     "no_price": "Precio a consultar",
     "origin_all": "Todos",
+    "origin_pinned": "Fijado",
+    "origin_unpinned": "Desfijado",
     "filters_origin": "Origen",
     "drawer_title": "Explorar",
     "drawer_menu": "Menú",
@@ -236,7 +239,7 @@
     "share": "Compartir",
     "share_copied": "Link copiado al portapapeles",
     "view_compact": "Compacto",
-    "nav_about": "Sobre nosotros",
+    "nav_about": "Nosotros",
     "admin_nav_pages": "Páginas",
     "admin_nav_origins": "Orígenes",
     "admin_origins_count": "{count} orígenes",
@@ -308,5 +311,7 @@
     "map_title": "Mapa de destilerías",
     "map_subtitle": "Explora cada destilería detrás de nuestros whiskies en un mapa mundial interactivo.",
     "map_open_distillery": "Ver destilería",
-    "map_distilleries": "{count} destilerías"
+    "map_distilleries": "{count} destilerías",
+    "map_showing_only": "Solo",
+    "map_clear_selection": "Quitar selección"
 }

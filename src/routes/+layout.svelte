@@ -8,6 +8,7 @@
     import LanguageModal from "$lib/components/LanguageModal.svelte";
     import ReviewModal from "$lib/components/ReviewModal.svelte";
     import Toast from "$lib/components/Toast.svelte";
+    import BackToTop from "$lib/components/BackToTop.svelte";
     import { beforeNavigate, afterNavigate } from "$app/navigation";
     import { theme } from "$lib/stores/theme.svelte";
     import { session } from "$lib/stores/session.svelte";
@@ -70,4 +71,5 @@ class="pointer-events-none fixed inset-x-0 top-0 z-[60] h-1 overflow-hidden tran
     <LanguageModal />
     <ReviewModal />
     <Toast />
+    <BackToTop />
 </div>

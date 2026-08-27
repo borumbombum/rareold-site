@@ -1,9 +1,10 @@
 <script lang="ts">
-	import { ChevronDown, X, MapPin } from '@lucide/svelte';
+	import { ChevronDown, X, MapPin, Pin } from '@lucide/svelte';
 	import { goto } from '$app/navigation';
 	import { localizeHref, getLocale } from '$lib/paraglide/runtime';
 	import { m } from '$lib/paraglide/messages';
 	import { ui } from '$lib/stores/ui.svelte';
+	import { isPinnedOrigin, togglePinnedOrigin } from '$lib/stores/pinned-origins.svelte';
 	import { filters, setRegion, resetFilters } from '$lib/stores/filters.svelte';
 	import {
 		ORIGINS,
@@ -11,7 +12,7 @@
 		originLabel,
 		originSlug,
 		regionsByOrigin,
-		sortOriginsByCount
+		sortOriginsForDisplay
 	} from '$lib/utils/origins';
 	import { WHISKIES } from '$lib/data/whiskies';
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
@@ -36,11 +37,19 @@
 		}`;
 	}
 
-	const sortedOrigins = $derived(sortOriginsByCount(originCounts));
+	const sortedOrigins = $derived(
+		sortOriginsForDisplay(originCounts, filters.origin !== 'all' ? filters.origin : undefined)
+	);
 
 	const open = $derived(ui.drawerOpen);
 
 	let expanded = $state<string | null>(null);
+
+	function togglePin(key: string, event: MouseEvent): void {
+		event.stopPropagation();
+		const pinned = togglePinnedOrigin(key);
+		ui.showToast(pinned ? m.origin_pinned() : m.origin_unpinned());
+	}
 
 	function toggleExpanded(key: string, event: MouseEvent) {
 		event.stopPropagation();
@@ -145,35 +154,47 @@
 		{#each sortedOrigins as origin (origin.key)}
 				{@const regions = regionsByOriginMap[origin.key] ?? []}
 				<div class="mt-1">
-					<div
-						class="flex w-full items-center gap-3 rounded-xl transition {filters.origin === origin.key
-							? 'bg-accent/10 font-semibold text-zinc-900 dark:text-white'
-							: 'text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-900'}"
+				<div
+					class="flex w-full items-center gap-3 rounded-xl transition {filters.origin === origin.key
+						? 'bg-accent/10 font-semibold text-zinc-900 ring-1 ring-accent/40 dark:text-white'
+						: 'text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-900'}"
+				>
+					<button
+						onclick={(e) => toggleExpanded(origin.key, e)}
+						class="flex min-w-0 flex-1 items-center gap-3 px-3 py-3 text-left"
+						aria-expanded={expanded === origin.key}
+						aria-label={originLabel(origin.key)}
 					>
-						<button
-							onclick={(e) => toggleExpanded(origin.key, e)}
-							class="flex min-w-0 flex-1 items-center gap-3 px-3 py-3 text-left"
-							aria-expanded={expanded === origin.key}
-							aria-label={originLabel(origin.key)}
-						>
-							<span class="text-xl">{origin.flag}</span>
-							<span class="min-w-0 flex-1 truncate text-sm">{originLabel(origin.key)}</span>
-							{#if originCounts[origin.key] != null}
-								<span class={countPill(origin.key)}>{originCounts[origin.key]}</span>
-							{/if}
-						</button>
-						<button
-							onclick={(e) => toggleExpanded(origin.key, e)}
-							class="grid h-9 w-9 shrink-0 place-items-center rounded-lg text-zinc-400 transition hover:text-zinc-900 dark:hover:text-white"
-							aria-expanded={expanded === origin.key}
-							aria-label={`${m.drawer_regions()} — ${originLabel(origin.key)}`}
-						>
-							<ChevronDown
-								size={16}
-								class="transition-transform duration-200 {expanded === origin.key ? 'rotate-180' : ''}"
-							/>
-						</button>
-					</div>
+						<span class="text-xl">{origin.flag}</span>
+						<span class="min-w-0 flex-1 truncate text-sm">{originLabel(origin.key)}</span>
+						{#if originCounts[origin.key] != null}
+							<span class={countPill(origin.key)}>{originCounts[origin.key]}</span>
+						{/if}
+					</button>
+					<button
+						onclick={(e) => togglePin(origin.key, e)}
+						class="grid h-8 w-8 shrink-0 place-items-center rounded-lg text-zinc-400 transition hover:text-zinc-900 dark:hover:text-white"
+						aria-pressed={isPinnedOrigin(origin.key)}
+						aria-label={`${isPinnedOrigin(origin.key) ? m.origin_unpinned() : m.origin_pinned()} ${originLabel(origin.key)}`}
+					>
+						<Pin
+							size={14}
+							class={isPinnedOrigin(origin.key) ? 'text-accent' : ''}
+							fill={isPinnedOrigin(origin.key) ? 'currentColor' : 'none'}
+						/>
+					</button>
+					<button
+						onclick={(e) => toggleExpanded(origin.key, e)}
+						class="grid h-9 w-9 shrink-0 place-items-center rounded-lg text-zinc-400 transition hover:text-zinc-900 dark:hover:text-white"
+						aria-expanded={expanded === origin.key}
+						aria-label={`${m.drawer_regions()} — ${originLabel(origin.key)}`}
+					>
+						<ChevronDown
+							size={16}
+							class="transition-transform duration-200 {expanded === origin.key ? 'rotate-180' : ''}"
+						/>
+					</button>
+				</div>
 
 					<div
 						class="grid transition-[grid-template-rows] duration-200 ease-out {expanded === origin.key

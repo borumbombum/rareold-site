@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	import { localizeHref, getUrlOrigin } from '$lib/paraglide/runtime';
 	import { buildAlternates } from '$lib/utils/seo';
 	import SEO from '$lib/components/SEO.svelte';
@@ -13,6 +14,7 @@
 	const located = $derived(
 		DISTILLERIES.filter((d) => typeof d.latitude === 'number' && typeof d.longitude === 'number')
 	);
+	const selectedDistillery = $derived(page.url.searchParams.get('distillery'));
 </script>
 
 <SEO
@@ -32,6 +34,6 @@
 		{m.map_distilleries({ count: String(located.length) })}
 	</p>
 	<div class="mt-8">
-		<DistilleryMap />
+		<DistilleryMap selectedId={selectedDistillery} />
 	</div>
 </section>

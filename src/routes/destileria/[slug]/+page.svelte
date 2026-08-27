@@ -14,7 +14,7 @@
 	import { view } from '$lib/stores/view.svelte';
 	import { originFlag, originLabel } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
-	import { ArrowLeft, BookOpen, ExternalLink, GlassWater, History } from '@lucide/svelte';
+	import { ArrowLeft, BookOpen, ExternalLink, GlassWater, History, MapPin } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
 	import { getLocale } from '$lib/paraglide/runtime';
 	import { formatNumber } from '$lib/utils/format';
@@ -31,6 +31,15 @@
 	const history = $derived(l10n(distillery, 'description'));
 	const heroImageUrl = $derived(distillery.image ?? '/images/whisky.webp');
 	const backHref = $derived(localizeHref('/'));
+	const hasCoordinates = $derived(
+		typeof distillery.latitude === 'number' && typeof distillery.longitude === 'number'
+	);
+	const coordinates = $derived(
+		typeof distillery.latitude === 'number' && typeof distillery.longitude === 'number'
+			? `${distillery.latitude.toFixed(4)}, ${distillery.longitude.toFixed(4)}`
+			: ''
+	);
+	const mapHref = $derived(localizeHref(`/map?distillery=${distillery.id}`));
 
 	onMount(() => {
 		refreshRating(data.products.map((p) => p.slug));
@@ -92,6 +101,20 @@
 					{m.destillery_website()}
 					<ExternalLink size={12} />
 				</a>
+			{/if}
+			{#if hasCoordinates}
+				<a
+					href={mapHref}
+					class="inline-flex items-center gap-1.5 underline underline-offset-2 transition hover:text-white"
+				>
+					<MapPin size={13} />
+					<span>{coordinates}</span>
+				</a>
+			{:else}
+				<span class="inline-flex items-center gap-1.5">
+					<MapPin size={13} />
+					<span>-</span>
+				</span>
 			{/if}
 		</div>
 		<div class="mt-2">

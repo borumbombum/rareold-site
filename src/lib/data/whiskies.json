@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-08-22T23:23:32.569Z",
+  "generatedAt": "2026-08-27T19:22:02.713Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -4907,6 +4907,160 @@
       "resellers_usa": []
     },
     {
+      "id": "dalwhinnie-15-yo",
+      "slug": "dalwhinnie-15-yo",
+      "name": "Dalwhinnie 15 Year Old",
+      "distillery": {
+        "id": "dalwhinnie",
+        "name": "Dalwhinnie",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Dalwhinnie 15 años es un single malt suave y elegante destilado en una de las destilerías más altas y frías de Escocia. Muy frutal y floral, con miel de brezo, toffee suave, cítricos confitados y un toque de humo delicado. Elaborado a partir de bourbon y jerez, ofrece un perfil limpio y aterciopelado, perfecto para quienes se inician en el mundo del whisky escocés de las Highlands.",
+      "image": "/data/images/dalwhinnie-15-yo.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 15,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Bourbon y jerez",
+      "distillery_id": "dalwhinnie",
+      "insertion_order": 200,
+      "featured": false,
+      "name_pt": "Dalwhinnie 15 Year Old",
+      "description_pt": "Dalwhinnie 15 anos é um single malt suave e elegante destilado em uma das destilarias mais altas e frias da Escócia. Muito frutado e floral, com mel de urze, toffee macio, cítricos cristalizados e um toque de fumaça delicada. Elaborado a partir de bourbon e xerez, oferece um perfil limpo e aveludado, perfeito para quem está começando no mundo do whisky escocês das Highlands.",
+      "name_en": "Dalwhinnie 15 Year Old",
+      "description_en": "Dalwhinnie 15 Year Old is a smooth and elegant single malt distilled at one of Scotland's highest and coldest distilleries. Very fruity and floral, with heather honey, soft toffee, candied citrus and a touch of delicate smoke. Made from bourbon and sherry casks, it offers a clean, velvety profile, perfect for those starting out in the world of Highland Scotch whisky.",
+      "name_ja": "ダルウィニー 15年",
+      "description_ja": "ダルウィニー15年は、スコットランドで最も標高が高く寒い蒸留所の一つで造られる、滑らかで上品なシングルモルト。ヘザーハニー、柔らかいトフィー、砂糖漬けの柑橘、繊細なスモークを備えた、とてもフルーティーでフローラルな味わいです。バーボン樽とシェリー樽から造られ、ハイランド・シングルモルトの世界に入門する方に最適な、クリーンでビロードのようなプロファイルを提供します。",
+      "name_fr": "Dalwhinnie 15 Year Old",
+      "description_fr": "Dalwhinnie 15 ans est un single malt doux et élégant distillé dans l'une des distilleries les plus hautes et les plus froides d'Écosse. Très fruité et floral, avec du miel de bruyère, du toffee doux, des agrumes confits et une touche de fumée délicate. Élaboré à partir de fûts de bourbon et de xérès, il offre un profil propre et velouté, parfait pour découvrir le whisky écossais des Highlands.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8Ad0m2OEGio",
+          "label": "Review Dalwhinnie 15 Year Old Single Malt Scotch Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MgeMZOP1Bos",
+          "label": "Dalwhinnie 15 Years | Whisky Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kip7TG6vG3Q",
+          "label": "Dalwhinnie 15 review with The Whiskey Novice"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y6xGe9yyLW0",
+          "label": "Whisky Review/Tasting: Dalwhinnie 15 years"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7-i5XX50b-Q",
+          "label": "Dalwhinnie 15: ¿elegancia o falta de carácter? - Cata Express | Tito Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JTlDX9_FjFM",
+          "label": "Probemos Dalwhinnie 15 años (Ep.#95) En Español"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PAkX0I4ZueA",
+          "label": "DALWHINNIE 15"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yIWEEB5326U",
+          "label": "DALWHINNIE 15 Años, ¡El Clásico de las tierras altas de Escocia!"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Tbg2E_LHE7Y",
+          "label": "Dalwhinnie 15 Whisky Dégustation et Impressions"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y6xGe9yyLW0",
+          "label": "Whisky Review/Tasting: Dalwhinnie 15 years"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yw4JVNHn4L8",
+          "label": "ダルウィニー15年【ウイスキー】【テイスティング】【レビュー】"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Z_wZSzh_g94",
+          "label": "ダルウィニー15年の試飲動画"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0Ckg6jKMmao",
+          "label": "Dalwhinnie 15 Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TizXjhQ50nY",
+          "label": "Whisky Review | Dalwhinnie 15 anos (Português PT - BR)"
+        }
+      ]
+    },
+    {
       "id": "dingle",
       "slug": "dingle",
       "name": "Dingle",
@@ -6267,6 +6421,160 @@
       "resellers_usa": []
     },
     {
+      "id": "glenfiddich-12-yo",
+      "slug": "glenfiddich-12-yo",
+      "name": "Glenfiddich 12 Year Old",
+      "distillery": {
+        "id": "glenfiddich",
+        "name": "Glenfiddich",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Glenfiddich 12 años es el single malt más vendido del mundo, destilado en Dufftown, Escocia. Fresco y afrutado, con características notas de pera fresca y una brisa de roble dulce. Madurado durante al menos 12 años en barricas de roble americano y europeo aliñadas con jerez, ofrece un final persistente y suavemente seco. El punto de partida perfecto para descubrir el whisky escocés de malta única.",
+      "image": "/data/images/glenfiddich-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Roble americano y europeo aliñado con jerez",
+      "distillery_id": "glenfiddich",
+      "insertion_order": 201,
+      "featured": false,
+      "name_pt": "Glenfiddich 12 Year Old",
+      "description_pt": "Glenfiddich 12 anos é o single malt mais vendido do mundo, destilado em Dufftown, na Escócia. Fresco e frutado, com características notas de pera fresca e uma brisa de carvalho doce. Amadurecido por pelo menos 12 anos em barris de carvalho americano e europeu temperados com xerez, oferece um final persistente e levemente seco. O ponto de partida perfeito para descobrir o whisky escocês de malte único.",
+      "name_en": "Glenfiddich 12 Year Old",
+      "description_en": "Glenfiddich 12 Year Old is the world's best-selling single malt, distilled in Dufftown, Scotland. Fresh and fruity, with signature notes of fresh pear and a hint of sweet oak. Matured for at least 12 years in American and European oak casks seasoned with sherry, it offers a persistent, softly dry finish. The perfect starting point for discovering single malt Scotch whisky.",
+      "name_ja": "グレンフィディック 12年",
+      "description_ja": "グレンフィディック12年は、スコットランドのダフタウンで蒸留される、世界で最も売れているシングルモルト。フレッシュな洋梨のシグネチャーノートと甘いオークの香りを備えた、フレッシュでフルーティーな味わい。シェリーでシーズニングしたアメリカンオーク樽とヨーロピアンオーク樽で12年以上熟成され、長く続くほのかにドライなフィニッシュを提供します。シングルモルト・スコッチウイスキーを発見するための完璧な出発点です。",
+      "name_fr": "Glenfiddich 12 Year Old",
+      "description_fr": "Glenfiddich 12 ans est le single malt le plus vendu au monde, distillé à Dufftown, en Écosse. Frais et fruité, avec des notes signature de poire fraîche et une touche de chêne doux. Vieilli pendant au moins 12 ans en fûts de chêne américain et européen assaisonnés au xérès, il offre une finale persistante et légèrement sèche. Le point de départ idéal pour découvrir le single malt écossais.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0ZnfNmmp83w",
+          "label": "Glenfiddich 12 Year Old Single Malt Scotch Whisky Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8tjsEdAF10s",
+          "label": "The Glenfiddich 12 | A 2-Word Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hibnewBdGxg",
+          "label": "Glenfiddich 12-Year-Old Scotch - Whiskey Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=m9inY2txQ4w",
+          "label": "Glenfiddich 12 Year Old Single Malt Scotch Whisky Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0uhdaDrDSq0",
+          "label": "¿Merece la Fama el Glenfiddich 12 Años? Descúbrelo en esta Cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XptU16UvRbY",
+          "label": "Glenfiddich 12 años: opinión y cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zXDARSK7IUs",
+          "label": "WHISKY SINGLE MALT GLENFIDDICH 12 Cata catana"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ALI6m7ukfvQ",
+          "label": "Revue de Glenfiddich 12 ans Single Malt"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=m9inY2txQ4w",
+          "label": "Glenfiddich 12 Year Old Single Malt Scotch Whisky Review"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5qjQSvJ14wU",
+          "label": "グレンフィディック 12年 / THE FIRST TIME"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TmvkY-939M8",
+          "label": "グレンフィディック12年（ストレート）"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MTMBSj3iFpo",
+          "label": "Degustação whisky GLENFIDDICH 12 anos! Será ele 10/10?"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TASBXJqwT5w",
+          "label": "Whisky Review | Glenfiddich - 12 Anos (Português PT - BR)"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=r-YnpVkASPg",
+          "label": "GLENFIDDICH 12 ANOS: A Porta de Entrada para o Mundo dos Single Malts!"
+        }
+      ]
+    },
+    {
       "id": "glengoyne-10-yo",
       "slug": "glengoyne-10-yo",
       "name": "Glengoyne 10 YO",
@@ -7219,6 +7527,160 @@
       "resellers_usa": []
     },
     {
+      "id": "highland-park-cask-strength",
+      "slug": "highland-park-cask-strength",
+      "name": "Highland Park Cask Strength",
+      "distillery": {
+        "id": "highland-park",
+        "name": "Highland Park",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Highland Park Cask Strength es la fuerza de la destilería de Orkney sin diluir: un single malt sin declaración de edad, sin filtración en frío y de color natural, embotellado a plena graduación de barrica. En este lanzamiento anual madurado predominantemente en roble americano aliñado con jerez, humo floral de turba, toffee y miel de brezo se intensifican con un final largo, terroso y especiado. Es Highland Park en su forma más pura y contundente.",
+      "image": "/data/images/highland-park-cask-strength.webp",
+      "origin": "scotland",
+      "region": "Islands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 64.7,
+      "cask": "Roble americano aliñado con jerez",
+      "distillery_id": "highland-park",
+      "insertion_order": 199,
+      "featured": false,
+      "name_pt": "Highland Park Cask Strength",
+      "description_pt": "Highland Park Cask Strength é a força da destilaria de Orkney sem diluição: um single malt sem declaração de idade, sem filtração a frio e de cor natural, engarrafado na plena graduação de barril. Neste lançamento anual amadurecido predominantemente em carvalho americano temperado com xerez, fumaça floral de turfa, toffee e mel de urze se intensificam com um final longo, terroso e apimentado. É Highland Park em sua forma mais pura e contundente.",
+      "name_en": "Highland Park Cask Strength",
+      "description_en": "Highland Park Cask Strength is the Orkney distillery's power undiluted: a single malt with no age statement, non-chill-filtered and natural colour, bottled at full cask strength. In this annual release matured predominantly in sherry-seasoned American oak, floral peat smoke, toffee and heather honey are intensified with a long, earthy and spicy finish. It is Highland Park in its purest and most assertive form.",
+      "name_ja": "ハイランドパーク カスクストレングス",
+      "description_ja": "ハイランドパーク カスクストレングスは、オークニー蒸留所の力を薄めずにそのまま詰めたシングルモルト。年齢表示なし、ノンチルフィルター、自然な色で、フルカスク強度で瓶詰めされています。主にシェリーシーズンドのアメリカンオーク樽で熟成されるこの毎年恒例のリリースでは、花のようなピートのスモーク、トフィー、ヘザーハニーが、長く土っぽくスパイシーなフィニッシュとともに強調されています。ピュアで力強いハイランドパークそのものです。",
+      "name_fr": "Highland Park Cask Strength",
+      "description_fr": "Highland Park Cask Strength est la puissance de la distillerie d'Orkney sans dilution : un single malt sans déclaration d'âge, non filtré à froid et de couleur naturelle, embouteillé à pleine force de fût. Dans cette sortie annuelle vieillie principalement en chêne américain assaisonné au xérès, la fumée de tourbe florale, le toffee et le miel de bruyère sont intensifiés par une finale longue, terreuse et épicée. C'est Highland Park dans sa forme la plus pure et la plus affirmée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hdGXkY4xCns",
+          "label": "Is Highland Park Cask Strength Worth It? Full Scotch Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qQ7eT0EQfNg",
+          "label": "Highland Park Cask Strength | Drinkthrough | Curiosity Public"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w7GJFJ1Q2YM",
+          "label": "HIGHLAND PARK CASK STRENGTH"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wIns4-Ehles",
+          "label": "Can Highland Park Cask Strength Live Up to the Hype? REVIEW"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WpwPGxm38gw",
+          "label": "HIGHLAND PARK CASK STRENGTH Batch 3: Cata en vivo | Tito Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vJhNxiuzC_w",
+          "label": "Highland Park: Release N°4 Cask Strength [cata y opinión]"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hdGXkY4xCns",
+          "label": "Is Highland Park Cask Strength Worth It? Full Scotch Review"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qQ7eT0EQfNg",
+          "label": "Highland Park Cask Strength | Drinkthrough | Curiosity Public"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MbmT4i9WqrY",
+          "label": "ハイランドパークカスクストレングスNo.3 テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=szM1DgP8Lrk",
+          "label": "ハイランドパーク カスクストレングス（ストレート）"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y21he6RtSv8",
+          "label": "ハイランドパーク カスクストレングス ヘザー（ストレート）"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IcZ0m41B5_Q",
+          "label": "Explorando o Highland Park Cask Strength Nº1 63,3º: Review Single Malt"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KWKn8MrL0eM",
+          "label": "Whisky Review: Highland Park CASK STRENGTH 63,3% ABV"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kP8xYe6Y0CE",
+          "label": "Degustação copo à copo. HIGHLAND PARK vs EDRADOUR. Cask Strength X Cask Strength."
+        }
+      ]
+    },
+    {
       "id": "indri-trini",
       "slug": "indri-trini",
       "name": "Indri-Trini",
@@ -7965,6 +8427,184 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "jameson-irish-whiskey",
+      "slug": "jameson-irish-whiskey",
+      "name": "Jameson Irish Whiskey",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Jameson es el whisky irlandés más vendido del mundo, elaborado en Midleton, Condado de Cork. Un blend suave y accesible, destilado tres veces para ganar suaveza, con notas de vainilla, miel, nueces y un toque de especias y cítricos. Madurado en barricas de roble americano de bourbon y de jerez, ofrece un final limpio y ligeramente especiado. Es la puerta de entrada perfecta al mundo del whisky irlandés.",
+      "image": "/data/images/jameson-irish-whiskey.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Roble americano de bourbon y jerez",
+      "distillery_id": "midleton",
+      "insertion_order": 202,
+      "featured": false,
+      "name_pt": "Jameson Irish Whiskey",
+      "description_pt": "Jameson é o whisky irlandês mais vendido do mundo, produzido em Midleton, Condado de Cork. Um blend suave e acessível, destilado três vezes para ganhar suavidade, com notas de baunilha, mel, nozes e um toque de especiarias e cítricos. Amadurecido em barris de carvalho americano de bourbon e de xerez, oferece um final limpo e levemente apimentado. É a porta de entrada perfeita para o mundo do whisky irlandês.",
+      "name_en": "Jameson Irish Whiskey",
+      "description_en": "Jameson is the world's best-selling Irish whiskey, crafted in Midleton, County Cork. A smooth and accessible blend, triple-distilled for smoothness, with notes of vanilla, honey, nuts and a touch of spice and citrus. Matured in ex-bourbon American oak and sherry casks, it offers a clean, lightly spiced finish. It is the perfect gateway to the world of Irish whiskey.",
+      "name_ja": "ジェムソン アイリッシュウイスキー",
+      "description_ja": "ジェムソンは、コーク県ミドルトンで造られる世界で最も売れているアイリッシュウイスキー。滑らかさを追求するため3回蒸留された、なめらかで親しみやすいブレンドで、バニラ、はちみつ、ナッツ、そしてほんの少しのスパイスと柑橘のノートが特徴です。バーボンのアメリカンオーク樽とシェリー樽で熟成され、クリーンでほのかにスパイシーなフィニッシュを提供します。アイリッシュウイスキーの世界への完璧な入り口です。",
+      "name_fr": "Jameson Irish Whiskey",
+      "description_fr": "Jameson est le whisky irlandais le plus vendu au monde, élaboré à Midleton, dans le comté de Cork. Un blend doux et accessible, distillé trois fois pour la douceur, avec des notes de vanille, de miel, de noix et une touche d'épices et d'agrumes. Vieilli en fûts de chêne américain de bourbon et de xérès, il offre une finale propre et légèrement épicée. C'est la porte d'entrée idéale vers le monde du whisky irlandais.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9SLPBQ0EWb4",
+          "label": "Jameson Irish Whiskey Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ThjrZrYMcc8",
+          "label": "Jameson Irish Whiskey - Honest Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n8tOVQAgB0U",
+          "label": "Jameson Irish Whiskey | No Nonsense Whisky #211"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ygU5FWqRmyA",
+          "label": "Tasting Time with Jameson Irish Whiskey [Review]"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7Hoswo_pjqw",
+          "label": "WHISKY JAMESON - CATA"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DwhFA9spYR4",
+          "label": "Cata especial JAMESON WHISKEY: Jameson Original, Caskmates Stout e IPA y Black Barrel | Tito Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=L2ysTW2dfSU",
+          "label": "Whisky: Notas de cata y review ~ 09 | Jameson Irish Whiskey"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jZndfmhGB28",
+          "label": "Whisky Jameson Cata y Reseña"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9SLPBQ0EWb4",
+          "label": "Jameson Irish Whiskey Review"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pIp8AlT2bMs",
+          "label": "Le Whisky Brunch. E22: Jameson!"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=B92zM9YzuME",
+          "label": "アイリッシュウイスキー ジェムソン いろいろな飲み方で飲んでみる"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OPv6GQZhzuc",
+          "label": "No.1アイリッシュウイスキーのジェムソンを飲んでレビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WppvGg4kMqA",
+          "label": "初めてアイリッシュウイスキーを買ってみた！ジェムソンのお味"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ldXWadA0eFU",
+          "label": "アイリッシュブーム到来！初飲み！ジェムソン正直レビュー！"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-BiQCj3l_Vo",
+          "label": "Degustação do Whisky Jameson | Experiência e Curiosidades"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1bEmHlCBZus",
+          "label": "Jameson Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bx6WobfYbXk",
+          "label": "WHISKY REVIEW - JAMESON O IRLANDÊS MAIS VENDIDO DO MUNDO!"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kENKerwh1Zc",
+          "label": "Review de Jameson whiskey irlandês!"
+        }
+      ]
     },
     {
       "id": "kamet-indian-single-malt",
@@ -9841,6 +10481,148 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "ledaig-10-year-old",
+      "slug": "ledaig-10-year-old",
+      "name": "Ledaig 10 Year Old",
+      "distillery": {
+        "id": "tobermory",
+        "name": "Tobermory",
+        "name_es": "Tobermory",
+        "name_pt": "Tobermory",
+        "name_en": "Tobermory",
+        "name_ja": "トバモリー",
+        "name_fr": "Tobermory"
+      },
+      "description": "Presentación de 700 ml. El single malt turbado de Tobermory: Ledaig rinde homenaje a la antigua aldea junto a la destilería y ofrece un humo profundo y costero, madurado en barricas de roble americano. Volumen: 70cl ABV: 46.3% El perfil de sabor Aroma: Humo medicinal, sal marina y especias. En el paladar: Turba rica, pimienta, regaliz salado y un fondo dulce de malta. Notas de acabado: Largo, ahumado y con salinidad persistente.",
+      "image": "/data/images/ledaig-10-year-old.webp",
+      "origin": "scotland",
+      "region": "Islands",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 46.3,
+      "cask": "Barricas de roble americano (ex-bourbon)",
+      "distillery_id": "tobermory",
+      "insertion_order": 206,
+      "featured": false,
+      "name_pt": "Ledaig 10 Year Old",
+      "description_pt": "Apresentação de 700 ml. O single malt turfado de Tobermory: Ledaig homenageia o antigo povoado junto à destilaria e oferece fumaça profunda e costeira, maturado em barris de carvalho americano. Volume: 70cl ABV: 46.3% Perfil de sabor Aroma: Fumaça medicinal, sal marinho e especiarias. No paladar: Turfa rica, pimenta, alcaçuz salgado e um fundo doce de malte. Notas de finalização: Longo, defumado e com salinidade persistente.",
+      "name_en": "Ledaig 10 Year Old",
+      "description_en": "700 ml presentation. Tobermory's peated single malt: Ledaig honours the old village beside the distillery and delivers deep, coastal smoke, matured in American oak casks. Volume: 70cl ABV: 46.3% Flavour profile The aroma: Medicinal smoke, sea salt and spices. On the palate: Rich peat, pepper, salted liquorice and a sweet malty undertone. Finish notes: Long, smoky and persistently saline.",
+      "name_ja": "Ledaig 10 Year Old",
+      "description_ja": "700ml入り。トバモリー蒸留所が造るピーテッド・シングルモルト。蒸留所の隣にあった古い村に敬意を表するレダイグは、アメリカンオーク樽で熟成され、深く潮の香りを帯びたスモークをもたらします。容量：70cl アルコール度数：46.3% 味わいのプロファイル 香り：薬効のあるスモーク、海塩、スパイス。味わい：豊かなピート、ペッパー、塩味のリコリス、そして麦芽の甘さ。余韻：長くスモーキーで、塩気が続く。",
+      "name_fr": "Ledaig 10 Year Old",
+      "description_fr": "Présentation de 700 ml. Le single malt tourbé de Tobermory : Ledaig rend hommage au vieux village adjacent à la distillerie et offre une fumée profonde et côtière, mûri en fûts de chêne américain. Volume : 70cl ABV : 46,3 % Profil de saveur Le nez : Fumée médicinale, sel marin et épices. En bouche : Tourbe riche, poivre, réglisse salée et un fond malté sucré. Notes de finale : Longue, fumée et avec une salinité persistante.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R6ZQRl_YETQ",
+          "label": "Ledaig 10 REVIEW — Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WEHf-dXTOwA",
+          "label": "I tasted LEDAIG 10 — McIntyre's Malts"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_qfU6If1wgA",
+          "label": "Whisky Review #17: Ledaig 10 — Whisky Uncorked"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=k8cPH69Fgxw",
+          "label": "Ledaig 10 years — Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hiqXa2z4HUs",
+          "label": "ledaig 10 años — Compartamos el Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=s4FmFtWUsoA",
+          "label": "LEDAIG 10 — HABLANDO DE WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q0CNhpXIx6o",
+          "label": "Le Ledaig 10 ans — Whisky et Cie"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zEcyl84JBlU",
+          "label": "Ledaig Triple Wood — Spirituosités"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=B6R_xHvOK5U",
+          "label": "宅飲みバーTakeo — レダイグ10年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WMMBeqS30bE",
+          "label": "ドラムズ・ジャパン — レダイグ10年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bRXzPsyno0I",
+          "label": "毎日ウイスキー人生365日 — レダイグ10年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y4MOsdEJbTQ",
+          "label": "ひとくちウイスキー — レダイグ10年"
+        }
+      ]
     },
     {
       "id": "legacy-samll-batch",
@@ -11765,6 +12547,136 @@
       "resellers_usa": []
     },
     {
+      "id": "scapa-13-year-old",
+      "slug": "scapa-13-year-old",
+      "name": "Scapa 13 Year Old",
+      "distillery": {
+        "id": "scapa",
+        "name": "Scapa",
+        "name_es": "Scapa",
+        "name_pt": "Scapa",
+        "name_en": "Scapa",
+        "name_ja": "スカパ",
+        "name_fr": "Scapa"
+      },
+      "description": "Edición de 500 ml de la colección Distillery Reserve. Un pequeño lote de Scapa de 13 años embotellado a fuerza de barrica, madurado en un butt de jerez de primer llenado y embotellado el 11 de marzo de 2025. Volumen: 50cl ABV: 61.3% El perfil de sabor Aroma: Frutos rojos, naranja confitada y miel oscura. En el paladar: Jerez intenso, chocolate, especias dulces y un suave fondo marino de las Orcadas. Notas de acabado: Largo, cálido y con un toque salino.",
+      "image": "/data/images/scapa-13-year-old.webp",
+      "origin": "scotland",
+      "region": "Islands",
+      "age": 13,
+      "volume": "500 ml",
+      "abv": 61.3,
+      "cask": "Butt de jerez de primer llenado",
+      "distillery_id": "scapa",
+      "insertion_order": 204,
+      "featured": false,
+      "name_pt": "Scapa 13 Year Old",
+      "description_pt": "Edição de 500 ml da coleção Distillery Reserve. Um pequeno lote de Scapa de 13 anos engarrafado a força de barril, maturado num butt de xerez de primeiro uso e engarrafado em 11 de março de 2025. Volume: 50cl ABV: 61.3% Perfil de sabor Aroma: Frutas vermelhas, laranja cristalizada e mel escuro. No paladar: Xerez intenso, chocolate, especiarias doces e um suave fundo marinho das Órcades. Notas de finalização: Longo, quente e com um toque salino.",
+      "name_en": "Scapa 13 Year Old",
+      "description_en": "500 ml edition from the Distillery Reserve collection. A small batch of 13-year-old Scapa bottled at cask strength, matured in a first-fill sherry butt and bottled on 11 March 2025. Volume: 50cl ABV: 61.3% Flavour profile The aroma: Red berries, candied orange and dark honey. On the palate: Intense sherry, chocolate, sweet spices and a soft maritime Orkney undertone. Finish notes: Long, warm and with a saline touch.",
+      "name_ja": "Scapa 13 Year Old",
+      "description_ja": "ディスティラリー・リザーブコレクションの500ml入りエディション。13年熟成のスカパをカスクストレングスで瓶詰めしたスモールバッチで、ファーストフィル・シェリー・バットで熟成され、2025年3月11日に瓶詰めされました。容量：50cl アルコール度数：61.3% 味わいのプロファイル 香り：赤い果実、砂糖漬けオレンジ、ダークハニー。味わい：濃厚なシェリー、チョコレート、甘いスパイス、そしてオークニーらしい穏やかな潮の香り。余韻：長く温かく、塩気のある余韻。",
+      "name_fr": "Scapa 13 Year Old",
+      "description_fr": "Édition de 500 ml de la collection Distillery Reserve. Un petit lot de Scapa 13 ans embouteillé à la force de fût, mûri dans un butt de xérès de premier remplissage et embouteillé le 11 mars 2025. Volume : 50cl ABV : 61,3 % Profil de saveur Le nez : Baies rouges, orange confite et miel sombre. En bouche : Xérès intense, chocolat, épices douces et un discret fond marin orcadien. Notes de finale : Longue, chaude et avec une touche saline.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Co8MRz1rpsg",
+          "label": "Scapa NAS Distillery Exclusive — ralfy review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IkTJQJjoZQo",
+          "label": "New Scapa 10 REVIEW — Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=URlSSSA8T8g",
+          "label": "Scapa 10 Year Old — Whisky Wednesday"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rQTSNCQvO1o",
+          "label": "Scapa 10, 16 & 21 comparison — WhiskyJason"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DpBml58ADm4",
+          "label": "Cata de Scapa Skiren — Todo Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=j_R8kr8cAnc",
+          "label": "Scapa Glansa — Scotch Down Under"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=q0VUvhyHR6Q",
+          "label": "Scapa 16 años: cata y charla — Whisky o Muerte"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6WH6NBl-ALA",
+          "label": "ひとくちウイスキー — スキャパ10年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8Nit6KbuQ8k",
+          "label": "せるじおのWhisky Radio — スキャパ スキレン"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Gz3dqzLKIO8",
+          "label": "ひとくちウイスキー — スキャパ グランサ"
+        }
+      ]
+    },
+    {
       "id": "shackleton",
       "slug": "shackleton",
       "name": "Shackleton",
@@ -12649,6 +13561,154 @@
       "resellers_usa": []
     },
     {
+      "id": "talisker-storm",
+      "slug": "talisker-storm",
+      "name": "Talisker Storm",
+      "distillery": {
+        "id": "talisker",
+        "name": "Talisker",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Talisker Storm es un single malt ahumado y especiado de la Isla de Skye, envejecido sin declaración de edad y embotellado al 45,8% de alcohol. Captura la furia del mar del norte: ahumado intenso, sal marina y pimienta negra sobre un fondo de dulce miel y caramelo. Elaborado con roble americano reutilizado y nuevo, ofrece un perfil más joven, enérgico y vibrante que su hermano mayor de 10 años.",
+      "image": "/data/images/talisker-storm.webp",
+      "origin": "scotland",
+      "region": "Islands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 45.8,
+      "cask": "Rodajas de roble americano reutilizado y nuevo",
+      "distillery_id": "talisker",
+      "insertion_order": 198,
+      "featured": false,
+      "name_pt": "Talisker Storm",
+      "description_pt": "Talisker Storm é um single malt defumado e apimentado da Ilha de Skye, envelhecido sem declaração de idade e engarrafado a 45,8% de álcool. Captura a fúria do mar do norte: fumaça intensa, sal marinho e pimenta-preta sobre um fundo de doce mel e caramelo. Elaborado com carvalho americano reutilizado e novo, oferece um perfil mais jovem, enérgico e vibrante do que seu irmão mais velho de 10 anos.",
+      "name_en": "Talisker Storm",
+      "description_en": "Talisker Storm is a smoky and peppery single malt from the Isle of Skye, matured without an age statement and bottled at 45.8% ABV. It captures the fury of the north sea: intense smoke, sea salt and black pepper over a backdrop of sweet honey and caramel. Made with re-charred and new American oak, it offers a younger, more energetic and vibrant profile than its older 10-year-old sibling.",
+      "name_ja": "タリスカー ストーム",
+      "description_ja": "タリスカーストームは、アイラ島スカイ島で生まれたスモーキーでスパイシーなシングルモルト。年齢表示なしで熟成され、アルコール度数45.8%で瓶詰めされています。北海の荒々しさをとらえた、力強いスモーク、海の塩、黒胡椒の味わいの奥に、甘いはちみつとカラメルのノート。再利用および新しいアメリカンオーク樽で熟成され、10年の上の兄弟よりも若々しく、エネルギッシュで活き活きとしたプロファイルを備えています。",
+      "name_fr": "Talisker Storm",
+      "description_fr": "Talisker Storm est un single malt fumé et poivré de l'île de Skye, vieilli sans déclaration d'âge et embouteillé à 45,8 % d'alcool. Il capture la fureur de la mer du Nord : fumée intense, sel marin et poivre noir sur un fond de miel et de caramel doux. Élaboré avec du chêne américain réchauffé et neuf, il offre un profil plus jeune, plus énergique et plus vibrant que son grand frère de 10 ans.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MB_bA8iIFeY",
+          "label": "Talisker Storm Review | The Whiskey Dictionary"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yw4SEn9HxYo",
+          "label": "Talisker Storm Tasting"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sKfSNf9EYqY",
+          "label": "Talisker Storm | Whisky Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yMu8Z6EGMrI",
+          "label": "Talisker Storm - Blind Whisky Tasting K778"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EcKhkzVO0jA",
+          "label": "Talisker 10 vs Storm: ¿Cuál es el verdadero sabor del mar?"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UEw9EeIN7_c",
+          "label": "Talisker Storm | ¡Un single malt AHUMADO!"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6JXy7TDrvlc",
+          "label": "LA CHAÎNE DU WHISKY : Episode 15 - Talisker 57°N"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MyMr7awSXEU",
+          "label": "Le Whisky Brunch. E21: Talisker!"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DKCneaj1Fd0",
+          "label": "タリスカー ストーム（ストレート）【ひとくちウイスキー店長のウイスキーテイスティング】"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R_h6GjsIvBo",
+          "label": "タリスカーの本領発揮！？タリスカーストームを飲んでみる【ウイスキー】"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rmKdqO6NQ9Y",
+          "label": "タリスカー10年とタリスカーストームを飲みくらべ 【ウイスキー】"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iA4xxLOGhH8",
+          "label": "Whisky Review | Talisker Storm (Português PT-BR)"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jWQi9Z10snk",
+          "label": "Talisker Storm vs Lagavulin 16"
+        }
+      ]
+    },
+    {
       "id": "tamdhu-12-yo",
       "slug": "tamdhu-12-yo",
       "name": "Tamdhu 12 YO",
@@ -12919,6 +13979,166 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "tobermory-12-year-old",
+      "slug": "tobermory-12-year-old",
+      "name": "Tobermory 12 Year Old",
+      "distillery": {
+        "id": "tobermory",
+        "name": "Tobermory",
+        "name_es": "Tobermory",
+        "name_pt": "Tobermory",
+        "name_en": "Tobermory",
+        "name_ja": "トバモリー",
+        "name_fr": "Tobermory"
+      },
+      "description": "Presentación de 700 ml. El single malt sin turbar de la destilería de la isla de Mull, madurado en barricas de roble americano (ex-bourbon). Un clásico premiado con doble oro en el San Francisco World Spirits Competition 2020. Volumen: 70cl ABV: 46.3% El perfil de sabor Aroma: Pera madura, cítricos y flores blancas. En el paladar: Fruta de hueso, vainilla, toffee salado y un toque de especias. Notas de acabado: Medio-largo, afrutado y suavemente especiado.",
+      "image": "/data/images/tobermory-12-year-old.webp",
+      "origin": "scotland",
+      "region": "Islands",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46.3,
+      "cask": "Barricas de roble americano (ex-bourbon)",
+      "distillery_id": "tobermory",
+      "insertion_order": 205,
+      "featured": false,
+      "name_pt": "Tobermory 12 Year Old",
+      "description_pt": "Apresentação de 700 ml. O single malt sem turfa da destilaria da ilha de Mull, maturado em barris de carvalho americano (ex-bourbon). Um clássico premiado com duplo ouro no San Francisco World Spirits Competition 2020. Volume: 70cl ABV: 46.3% Perfil de sabor Aroma: Pera madura, cítricos e flores brancas. No paladar: Frutas de caroço, baunilha, toffee salgado e um toque de especiarias. Notas de finalização: Médio-longo, frutado e levemente especiado.",
+      "name_en": "Tobermory 12 Year Old",
+      "description_en": "700 ml presentation. The unpeated single malt from the Isle of Mull distillery, matured in American oak (ex-bourbon) casks. A classic that won double gold at the San Francisco World Spirits Competition 2020. Volume: 70cl ABV: 46.3% Flavour profile The aroma: Ripe pear, citrus and white flowers. On the palate: Stone fruit, vanilla, salted toffee and a hint of spice. Finish notes: Medium-long, fruity and gently spiced.",
+      "name_ja": "Tobermory 12 Year Old",
+      "description_ja": "700ml入り。マル島の蒸留所が造るピートを使わないシングルモルトで、アメリカンオーク（元バーボン）樽で熟成。2020年のサンフランシスコ世界酒類コンペティションでダブルゴールドを受賞したクラシック。容量：70cl アルコール度数：46.3% 味わいのプロファイル 香り：熟した洋梨、シトラス、白い花。味わい：ストーンフルーツ、バニラ、塩キャラメル、ほのかなスパイス。余韻：中〜長めでフルーティー、優しいスパイス。",
+      "name_fr": "Tobermory 12 Year Old",
+      "description_fr": "Présentation de 700 ml. Le single malt non tourbé de la distillerie de l'île de Mull, mûri en fûts de chêne américain (ex-bourbon). Un classique récompensé d'un double or au San Francisco World Spirits Competition 2020. Volume : 70cl ABV : 46,3 % Profil de saveur Le nez : Poire mûre, agrumes et fleurs blanches. En bouche : Fruits à noyau, vanille, toffee salé et une pointe d'épices. Notes de finale : Mi-longue, fruitée et délicatement épicée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OUnGc8sahAE",
+          "label": "Tobermory 12 REVIEW — Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=orQ57mw6FPY",
+          "label": "Tobermory 12 hidden gem — Whisky Whistle"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=s4cd7dkKjjU",
+          "label": "Tobermory 12 — Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vUjmuYlddPA",
+          "label": "ralfy 833 — Tobermory 12yo"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0eK-BZFP6a4",
+          "label": "Tobermory 12 años — El Whisky Bar"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PGDfhNuj3RI",
+          "label": "Tobermory 12 años: cata y opinión — Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S7svx9aPWDQ",
+          "label": "TOBERMORY 12 — HABLANDO DE WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5S3s3WZnY1Q",
+          "label": "Tobermory 12 ans! — Le Whisky Brunch"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=msT2_6cNMdM",
+          "label": "Tobermory 12 ans — la centrale whisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O8DJcK8kmjM",
+          "label": "ひとくちウイスキー — トバモリー12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iAh9Z-87QII",
+          "label": "僕の言葉がウィスキーであるように — トバモリー12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jqGxfaNBnWM",
+          "label": "宅飲みバーTakeo — トバモリー12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yIJUBmnO-N8",
+          "label": "ドラムズ・ジャパン — トバモリー12年"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9MuYRxAkvjs",
+          "label": "Tobermory 12 anos — Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ae_EHEob2Us",
+          "label": "Tobermory 12 anos — Porção dos Anjos Whisky"
+        }
+      ]
     },
     {
       "id": "tomatin-12-yo",
@@ -13479,6 +14699,284 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "torabhaig-legacy-series-ch1",
+      "slug": "torabhaig-legacy-series-ch1",
+      "name": "Torabhaig Legacy Series Chapter 1",
+      "distillery": {
+        "id": "torabhaig",
+        "name": "Torabhaig",
+        "name_es": "Torabhaig",
+        "name_pt": "Torabhaig",
+        "name_en": "Torabhaig",
+        "name_ja": "トブラーグ",
+        "name_fr": "Torabhaig"
+      },
+      "description": "Presentación de 700 ml. El primer lanzamiento de la destilería más joven de Skye: la Torabhaig Legacy Series, capítulo 1, destilado en enero de 2017 y madurado en barricas de bourbon de primer llenado. Sin coloración artificial ni filtración en frío. Volumen: 70cl ABV: 46% El perfil de sabor Aroma: Cebada malteada, cera de abejas y un delicado humo. En el paladar: Turba herbácea, miel, manzana verde y pimienta. Notas de acabado: Medio, con un equilibrio perfecto entre dulce y ahumado.",
+      "image": "/data/images/torabhaig-legacy-series-ch1.webp",
+      "origin": "scotland",
+      "region": "Islands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Barricas de bourbon de primer llenado",
+      "distillery_id": "torabhaig",
+      "insertion_order": 207,
+      "featured": false,
+      "name_pt": "Torabhaig Legacy Series Chapter 1",
+      "description_pt": "Apresentação de 700 ml. O primeiro lançamento da destilaria mais jovem de Skye: a Legacy Series da Torabhaig, capítulo 1, destilado em janeiro de 2017 e maturado em barris de bourbon de primeiro uso. Sem coloração artificial nem filtração a frio. Volume: 70cl ABV: 46% Perfil de sabor Aroma: Malte perfumado, cera de abelha e um delicado fumo. No paladar: Turfa herbácea, mel, maçã verde e pimenta. Notas de finalização: Médio, com um equilíbrio perfeito entre doce e defumado.",
+      "name_en": "Torabhaig Legacy Series Chapter 1",
+      "description_en": "700 ml presentation. The first release from Skye's newest distillery: the Torabhaig Legacy Series, chapter 1, distilled in January 2017 and matured in first-fill bourbon barrels. Uncoloured and non-chill filtered. Volume: 70cl ABV: 46% Flavour profile The aroma: Malted barley, beeswax and a delicate wisp of smoke. On the palate: Herbaceous peat, honey, green apple and pepper. Finish notes: Medium, with a perfect balance of sweet and smoky.",
+      "name_ja": "Torabhaig Legacy Series Chapter 1",
+      "description_ja": "700ml入り。スカイ島で最も新しい蒸留所のファーストリリース。トラバーグ・レガシーシリーズ第1章は2017年1月に蒸留され、ファーストフィル・バーボン樽で熟成。着色料なし、ノンチルフィルター。容量：70cl アルコール度数：46% 味わいのプロファイル 香り：麦芽、蜜蝋、繊細なスモークの香り。味わい：草のようなピート、ハチミツ、青りんご、ペッパー。余韻：甘さとスモーキーさの完璧なバランス、ミディアム。",
+      "name_fr": "Torabhaig Legacy Series Chapter 1",
+      "description_fr": "Présentation de 700 ml. La première sortie de la plus jeune distillerie de Skye : la Legacy Series de Torabhaig, chapitre 1, distillée en janvier 2017 et mûrie en fûts de bourbon de premier remplissage. Sans coloration artificielle ni filtration à froid. Volume : 70cl ABV : 46 % Profil de saveur Le nez : Orge maltée, cire d'abeille et un voile de fumée délicat. En bouche : Tourbe herbacée, miel, pomme verte et poivre. Notes de finale : Mi-longue, avec un parfait équilibre entre douceur et fumée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Sw-6oMhmfBU",
+          "label": "Torabhaig 2017 Legacy Inaugural Release — The Spirit Specialist"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZNvd1zigBzg",
+          "label": "Torabhaig Single Malt Review — Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fw3EMYGcCgE",
+          "label": "Torabhaig Legacy Series — Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xCBgYxwzF0Y",
+          "label": "Torabhaig 2017 The Legacy Series — Malt Muser"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1Iqrf--f5Fo",
+          "label": "Prueba Torabhaig I — HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LAbdpidGB84",
+          "label": "Prueba Torabhaig II — HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Qfso08nVqao",
+          "label": "Torabhaig Batch Strength — HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YC-IhG9pd3w",
+          "label": "Torabhaig Allt Gleann — HABLANDO DE WHISKY"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KVKrKHq9vTs",
+          "label": "ひとくちウイスキー — トルベイグ アルトグラン（レガシー・セカンド）"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S7zLUQ6dCP8",
+          "label": "聴くウイスキー #75 — トラベイグ ザ レガシー 2017 (Dram FM)"
+        }
+      ]
+    },
+    {
+      "id": "vat-69",
+      "slug": "vat-69",
+      "name": "Vat 69",
+      "distillery": {
+        "id": "vat-69",
+        "name": "Vat 69",
+        "name_es": "Vat 69",
+        "name_pt": "Vat 69",
+        "name_en": "Vat 69",
+        "name_ja": "ヴァット69",
+        "name_fr": "Vat 69"
+      },
+      "description": "Presentación de 700 ml. Un blended scotch histórico creado en 1882 por William Sanderson & Son y hoy elaborado por Diageo. Su nombre procede de la cuba n.º 69 del lote de pruebas de Sanderson, cuya mezcla dio el sabor definitivo. Es el whisky favorito de la Compañía Easy de la serie \"Hermanos de Sangre\", con la que se hizo mundialmente famoso. Volumen: 70cl ABV: 40% El perfil de sabor Aroma: Crema de vainilla, miel de flor y un fondo de frutas suaves. En el paladar: Dulzor suave, caramelo y especias ligeras con un toque ahumado muy tenue. Notas de acabado: Corto y limpio, con un agradable calor.",
+      "image": "/data/images/vat-69.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": null,
+      "distillery_id": "vat-69",
+      "insertion_order": 203,
+      "featured": false,
+      "name_pt": "Vat 69",
+      "description_pt": "Apresentação de 700 ml. Um blended scotch histórico criado em 1882 por William Sanderson & Son e hoje produzido pela Diageo. Deve seu nome ao tonel nº 69 do lote de testes de Sanderson, cuja mistura resultou no sabor definitivo. É o whisky favorito da Companhia Easy da série \"Irmãos de Guerra\", que o tornou mundialmente famoso. Volume: 70cl ABV: 40% Perfil de sabor Aroma: Creme de baunilha, mel de flores e um fundo de frutas suaves. No paladar: Doçura suave, caramelo e especiarias leves com um toque de fumaça bem tênue. Notas de finalização: Curto e limpo, com um calor agradável.",
+      "name_en": "Vat 69",
+      "description_en": "700 ml presentation. A historic blended Scotch created in 1882 by William Sanderson & Son and now crafted by Diageo. It takes its name from cask No. 69 of Sanderson's test batch, whose blend delivered the definitive flavour. It is the favourite whisky of Easy Company from \"Band of Brothers\", which made it world-famous. Volume: 70cl ABV: 40% Flavour profile The aroma: Vanilla cream, floral honey and a soft fruity backdrop. On the palate: Gentle sweetness, caramel and light spices with a barely-there wisp of smoke. Finish notes: Short and clean, with a pleasant warmth.",
+      "name_ja": "Vat 69",
+      "description_ja": "700ml入り。1882年にウィリアム・サンダーソン＆サンが創り、現在はディアジオが手掛ける歴史あるブレンデッド・スコッチ。その名はサンダーソンの試作ロット第69番樽に由来し、このブレンドが最終的な味わいを決定づけました。ドラマ「バンド・オブ・ブラザーズ」のイージー中隊のお気に入りとして世界的に有名になりました。容量：70cl アルコール度数：40% 味わいのプロファイル 香り：バニラクリーム、花の蜜、優しい果実の底流。味わい：穏やかな甘さ、キャラメル、ほのかなスモークを伴う軽いスパイス。余韻：短くクリーンで、心地よい温かさ。",
+      "name_fr": "Vat 69",
+      "description_fr": "Présentation de 700 ml. Un blended scotch historique créé en 1882 par William Sanderson & Son et aujourd'hui élaboré par Diageo. Il doit son nom au fût n° 69 du lot d'essai de Sanderson, dont le mélange a donné la saveur définitive. C'est le whisky préféré de la Easy Company de la série « Frères d'armes », qui l'a rendu célèbre dans le monde entier. Volume : 70cl ABV : 40% Profil de saveur Le nez : Crème de vanille, miel de fleurs et un fond de fruits doux. En bouche : Douceur délicate, caramel et épices légères avec un très léger voile de fumée. Notes de finale : Courte et nette, avec une chaleur agréable.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3SQvESeleKU",
+          "label": "Vat 69 — Scotch Sunday Whisky Reviews"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4h72Yulzr_o",
+          "label": "Torch Review: Vat 69 — Big Ash"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_kyKTj7D_HI",
+          "label": "Vat 69 Budget Review — Whisky Lovers Society"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yB9nOzzwLUc",
+          "label": "Vat 69 Blended Scotch Review — Everything Whiskey"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JnVOXwGV3sI",
+          "label": "Cata y reseña VAT 69 — Tito Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OVNz01o2gbY",
+          "label": "VAT 69: edición años 70 vs 2020 — Tito Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QbaVyMqFC4I",
+          "label": "VAT 69: notas de cata y review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VA_OOkLFo3k",
+          "label": "Hablemos de VAT 69 — Hablemos de Whisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FCWIykW2uwI",
+          "label": "もふチャンTV — VAT69 1000円台ウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ty0adC2Pd9Y",
+          "label": "いい親父ちゅーぶ — VAT69ハイボール"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=p7XsUWCtqGc",
+          "label": "ボウモア大好きIto — ミリタリーなVAT69"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qDm5VXg_Qzk",
+          "label": "お酒の塾長 — ヴァット69実況"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yFFHK5cIuUw",
+          "label": "Vat 69 — Review 96, Destilados Brasil"
+        }
+      ]
     },
     {
       "id": "waterford-fenniscourt",
