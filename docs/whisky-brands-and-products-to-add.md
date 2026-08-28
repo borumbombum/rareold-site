@@ -75,11 +75,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Tobermory 12 YO - Tobermory
 ✅ Ledaig 10 YO - Tobermory
 ✅ Torabhaig Legacy Series - Torabhaig
-Isle of Raasay Single Malt - Isle of Raasay
-Isle of Harris Single Malt - Isle of Harris
-Abhainn Dearg Single Malt - Abhainn Dearg
-Saxa Vord Shetland Single Malt - Saxa Vord
-Lagg Single Malt - Lagg
+✅ Isle of Raasay Single Malt - Isle of Raasay
+✅ Isle of Harris Single Malt - Isle of Harris
+✅ Abhainn Dearg Single Malt - Abhainn Dearg
+✅ Saxa Vord Shetland Single Malt - Saxa Vord
+✅ Lagg Single Malt - Lagg
 
 ## Scotland — Campbeltown
 

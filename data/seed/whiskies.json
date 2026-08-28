@@ -8370,6 +8370,451 @@
 					"created_at": "2000-01-01T00:00:00.000Z"
 				}
 			]
+		},
+		{
+		"featured": false,
+		"id": "isle-of-raasay-single-malt",
+		"slug": "isle-of-raasay-single-malt",
+		"name": "Isle of Raasay Single Malt",
+		"description": "Presentación de 700 ml. El single malt insignia de la primera destilería de la isla de Raasay, elaborado con espíritu ahumado y sin ahumar que maduran por separado en barricas de centeno americano de primer llenado, roble Chinkapin virgen y vino tinto de Burdeos. Embotellado a 46,4% vol, sin coloración artificial ni filtración en frío, con un ahumado ligero y sabores de fruta oscura. Volumen: 70cl ABV: 46.4% El perfil de sabor Aroma: Humo de hoguera y ceniza, pimienta blanca, manzana verde y toffee. En el paladar: Ahumado dulce de brezo, fudge de vainilla, cereza negra y melón. Notas de acabado: Largo, de ceniza y sequedad, con un toque salino.",
+		"image": "/data/images/isle-of-raasay-single-malt.webp",
+		"video": null,
+		"origin": "scotland",
+		"region": "Islands",
+		"age": null,
+		"volume": "700 ml",
+		"abv": 46.4,
+		"cask": "Barricas de centeno americano, roble Chinkapin y vino tinto de Burdeos",
+		"url": "",
+		"resellers_uy": [
+		],
+		"resellers_br": [
+		],
+		"resellers_usa": [
+		],
+		"name_pt": "Isle of Raasay Single Malt",
+		"description_pt": "Apresentação de 700 ml. O single malt de assinatura da primeira destilaria da ilha de Raasay, feito com espirituoso turfoso e não turfoso amadurecidos separadamente em barris de centeio americano de primeiro uso, carvalho Chinkapin virgem e vinho tinto de Bordéus. Engarrafado a 46,4% vol, sem coloração artificial nem filtração a frio, com um fumo leve e sabores de fruta escura. Volume: 70cl ABV: 46.4% Perfil de sabor Aroma: Fumo de fogueira e cinzas, pimenta branca, maçã verde e caramelo. No paladar: Fumo doce de urze, fudge de baunilha, cereja preta e melão. Notas de finalização: Longo, de cinzas e secura, com um toque salino.",
+		"name_en": "Isle of Raasay Single Malt",
+		"description_en": "700 ml presentation. The signature single malt from the first distillery on the Isle of Raasay, crafted from peated and unpeated spirit matured separately in first-fill American rye whisky, virgin Chinkapin oak and first-fill Bordeaux red wine casks. Bottled at 46.4% vol, natural colour and non-chill filtered, it is lightly peated and balanced with rich dark fruit flavours. Volume: 70cl ABV: 46.4% Flavour profile The aroma: Bonfire smoke and ash, white pepper, green apple and toffee. On the palate: Sweet heather smoke, vanilla fudge, black cherry and melon. Finish notes: Long, ashy and dry, with a saline touch.",
+		"name_ja": "Isle of Raasay Single Malt",
+		"description_ja": "700ml入り。ラサ島で最初の蒸留所のシグネチャー・シングルモルト。ファーストフィル・アメリカンライ麦樽、ヴァージン・チンカピンオーク樽、ファーストフィル・ボルドーワイン樽で別々に熟成させたピート原酒とアンピーテッド原酒を使用。46.4%で瓶詰め、着色料なし・ノンチルフィルター。ライトにピーテッドで濃い果実味とのバランスが特徴。容量：70cl アルコール度数：46.4% 味わいのプロファイル 香り：キャンプファイアの煙と灰、ホワイトペッパー、青りんご、トフィー。味わい：甘いヒースの煙、バニラファッジ、ブラックチェリー、メロン。余韻：長く、灰っぽくドライ、塩気のある余韻。",
+		"distillery_id": "raasay",
+		"name_fr": "Isle of Raasay Single Malt",
+		"description_fr": "Présentation de 700 ml. Le single malt signature de la première distillerie de l'île de Raasay, élaboré à partir d'esprit tourbé et non tourbé vieillis séparément en fûts de seigle américain de premier remplissage, en chêne Chinkapin vierge et en fûts bordelais de premier remplissage. Embouteillé à 46,4 % vol, couleur naturelle et non filtré à froid, il est légèrement tourbé et équilibré par de riches saveurs de fruits sombres. Volume : 70cl ABV : 46,4 % Profil de saveur Le nez : Fumée de feu de camp et cendres, poivre blanc, pomme verte et caramel. En bouche : Fumée douce de bruyère, fudge de vanille, cerise noire et melon. Notes de finale : Longue, cendrée et sèche, avec une touche saline.",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=mZXOGqG2Sc0",
+				"label": "Raasay Single Malt — Whisky.com",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=Be6uZO5Al80",
+				"label": "Isle of Raasay R 02 — Whisky Lock Review 155",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=8lkJmnGn5CI",
+				"label": "ralfy review 970 — Isle of Raasay (R-02)",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=ri3FGRNmsHM",
+				"label": "Isle of Raasay Single Malt Batch 1 — The Spirit Specialist",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=1TVyeL9H8sE",
+				"label": "Prueba Isle of Raasay — HABLANDO DE WHISKY",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=sPd2SDfOkCI",
+				"label": "Isle of Raasay Hebridean Single Malt — HABLANDO DE WHISKY",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=PcH0Whf_x_I",
+				"label": "Probemos Isle of Raasay Lightly Peated — Los Whiskochos",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=8llh0-rW2SE",
+				"label": "Isle of Raasay scotch whisky: cata completa — Bymariadelapena",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=J9z3kGLaUvw",
+				"label": "アイルオブラッセイR-01.1 飲み比べ — 宅飲みバーTakeo",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=27a5WVj1rHw",
+				"label": "アイル オブ ラッセイ 初のシングルモルト — ITARU's BAR",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=dqfsiCtg4_s",
+				"label": "『アイル・オブ・ラッセイ蒸留所』解説 — Whisky Roundup/Hatsugai",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=bcqC5A_1dCQ",
+				"label": "アイル オブ ラッセイ ヘブリディアン — ひとくちウイスキー",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "fr",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=7boslw9mVgI",
+				"label": "Isle of Raasay Single Malt — Dégustation (Spirituosités)",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+		]
+		},
+		{
+		"featured": false,
+		"id": "the-hearach",
+		"slug": "the-hearach",
+		"name": "The Hearach",
+		"description": "Presentación de 700 ml. El histórico primer single malt de la isla de Harris, presentado en 2023 tras años de espera. Elaborado con cebada Concord 100% escocesa ligeramente ahumada (12-15 ppm) y agua de las Hébridas, con fermentación de hasta cinco días y maduración de al menos cinco años en tres tipos de barrica: bourbon de primer llenado, jerez Oloroso y Fino. Embotellado a 46%, sin coloración artificial ni filtración en frío. Volumen: 70cl ABV: 46% El perfil de sabor Aroma: Hogueras de playa, fruta de huerto, jengibre, vainilla y miel floral. En el paladar: Tablet escocés, manzanas, malta con nueces, crema espesa y un suave humo de turba. Notas de acabado: Brillante y delicadamente ahumado.",
+		"image": "/data/images/the-hearach.webp",
+		"video": null,
+		"origin": "scotland",
+		"region": "Islands",
+		"age": null,
+		"volume": "700 ml",
+		"abv": 46,
+		"cask": "Bourbon de primer llenado, jerez Oloroso y Fino",
+		"url": "",
+		"resellers_uy": [
+		],
+		"resellers_br": [
+		],
+		"resellers_usa": [
+		],
+		"name_pt": "The Hearach",
+		"description_pt": "Apresentação de 700 ml. O histórico primeiro single malt da ilha de Harris, apresentado em 2023 após anos de espera. Elaborado com cevada Concord 100% escocesa ligeiramente fumada (12-15 ppm) e água das Hébridas, com fermentação até cinco dias e maturação de pelo menos cinco anos em três tipos de barril: bourbon de primeiro uso, Oloroso e Fino. Engarrafado a 46%, sem coloração artificial nem filtração a frio. Volume: 70cl ABV: 46% Perfil de sabor Aroma: Fogueiras de praia, frutas de pomar, gengibre, baunilha e mel floral. No paladar: Tablet escocês, maçãs, malte com nozes, creme de leite e um suave fumo de turfa. Notas de finalização: Brilhante e delicadamente fumado.",
+		"name_en": "The Hearach",
+		"description_en": "700 ml presentation. The historic first single malt from the Isle of Harris, released in 2023 after years of anticipation. Made with 100% Scottish Concord barley, lightly peated (12-15 ppm), and Hebridean water, with a fermentation of up to five days and maturation of at least five years in three cask types: first-fill bourbon, Oloroso and Fino sherry. Bottled at 46%, natural colour and non-chill filtered. Volume: 70cl ABV: 46% Flavour profile The aroma: Beach bonfires, orchard fruit, ginger, vanilla and floral honey. On the palate: Scottish tablet, apples, nutty malt, clotted cream and gentle peat smoke. Finish notes: Bright and delicately smoky.",
+		"name_ja": "The Hearach",
+		"description_ja": "700ml入り。ハリス島初の歴史的なシングルモルトで、長い待望の末2023年に発売。ライトにピートした（12〜15ppm）スコットランド産コンコルド大麦とヘブリディーズの水を使用し、最大5日間の発酵、ファーストフィル・バーボン樽、オロロソ、フィノの3種の樽で少なくとも5年の熟成。46%瓶詰め、着色料なし・ノンチルフィルター。容量：70cl アルコール度数：46% 味わいのプロファイル 香り：ビーチの焚き火、果樹園の果実、ジンジャー、バニラ、フローラルハニー。味わい：スコティッシュタブレット、りんご、ナッツの麦芽、クロテッドクリーム、穏やかなピートスモーク。余韻：明るく繊細なスモーキーさ。",
+		"distillery_id": "isle-of-harris",
+		"name_fr": "The Hearach",
+		"description_fr": "Présentation de 700 ml. Le premier single malt historique de l'île de Harris, lancé en 2023 après des années d'attente. Élaboré avec de l'orge Concord 100 % écossais légèrement tourbé (12-15 ppm) et l'eau des Hébrides, avec une fermentation pouvant atteindre cinq jours et un vieillissement d'au moins cinq ans en trois types de fûts : bourbon de premier remplissage, Oloroso et Fino. Embouteillé à 46 %, couleur naturelle et non filtré à froid. Volume : 70cl ABV : 46 % Profil de saveur Le nez : Feux de plage, fruits de verger, gingembre, vanille et miel floral. En bouche : Tablet écossais, pommes, malt aux noix, crème épaisse et douce fumée de tourbe. Notes de finale : Lumineuse et délicatement fumée.",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=1C1Ao8ac3O8",
+				"label": "The Hearach — Whisky.com Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=ruvuey6fFII",
+				"label": "The Hearach — Whisky Lock Review 174",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=gNWOqQ5JrRo",
+				"label": "ralfy review 1071 — Isle of Harris 'Hearach'",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=ILZtY7Z52_0",
+				"label": "The Hearach, Isle of Harris, 46% — Whisky Wednesday",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=gAhBrs0IdZo",
+				"label": "Catando The Hearach, Scotch Whisky — Capacitaciones El Molino",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=6r8DL1E-IFg",
+				"label": "Conociendo 'The Hearach Single Malt' — La Whiskería",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=_xgGXjM95EM",
+				"label": "Hearach, un whisky con sabor social y humano en Isle of Harris — HLGNapita",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=p34WrVnjYio",
+				"label": "聴くウイスキー #120 — 新登場! アイルオブハリス ザ ヒーラック (Dram FM)",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=yS898QM-Tdg",
+				"label": "聴くウイスキー #181 — ザ・ヒーラック オロロソカスク (Dram FM)",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=-aljzbtLVkA",
+				"label": "ザ ヒーラック（ストレート）— ひとくちウイスキー",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=LO4fTyIgfRY",
+				"label": "アイル・オブ・ハリス蒸溜所初のウイスキー THE HEARACH — SAKETRY",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+		]
+		},
+		{
+		"featured": false,
+		"id": "abhainn-dearg-10-year-old",
+		"slug": "abhainn-dearg-10-year-old",
+		"name": "Abhainn Dearg 10 Year Old",
+		"description": "Presentación de 700 ml. El primer single malt de diez años de la destilería Abhainn Dearg, presentado en el invierno de 2018 como la expresión más añeja de la casa. Madurado íntegramente en barricas de bourbon ex-primer llenado procedentes de Buffalo Trace (Kentucky) y embotellado a 46%, sin coloración artificial ni filtración en frío. Nariz dulce y sabor meloso, con carácter costero de la isla de Lewis. Volumen: 70cl ABV: 46% El perfil de sabor Aroma: Dulce y meloso, con miel, pera, manzana, almendras y roble ligero. En el paladar: Malta céreo, trigo y cebada, pimienta, aceite cítrico y notas marítimas. Notas de acabado: Medio, dulce, con chocolate, nueces y roble.",
+		"image": "/data/images/abhainn-dearg-10-year-old.webp",
+		"video": null,
+		"origin": "scotland",
+		"region": "Islands",
+		"age": 10,
+		"volume": "700 ml",
+		"abv": 46,
+		"cask": "Ex-bourbon (Buffalo Trace)",
+		"url": "",
+		"resellers_uy": [
+		],
+		"resellers_br": [
+		],
+		"resellers_usa": [
+		],
+		"name_pt": "Abhainn Dearg 10 Year Old",
+		"description_pt": "Apresentação de 700 ml. O primeiro single malt de dez anos da destilaria Abhainn Dearg, apresentado no inverno de 2018 como a expressão mais envelhecida da casa. Maturado inteiramente em barris de bourbon de primeiro uso da Buffalo Trace (Kentucky) e engarrafado a 46%, sem coloração artificial nem filtração a frio. Nariz doce e sabor meloso, com caráter costeiro da ilha de Lewis. Volume: 70cl ABV: 46% Perfil de sabor Aroma: Doce e meloso, com mel, pera, maçã, amêndoas e carvalho leve. No paladar: Malte ceroso, trigo e cevada, pimenta, óleo cítrico e notas marítimas. Notas de finalização: Médio, doce, com chocolate, nozes e carvalho.",
+		"name_en": "Abhainn Dearg 10 Year Old",
+		"description_en": "700 ml presentation. The first ten-year-old single malt from Abhainn Dearg, released in the winter of 2018 as the distillery's oldest expression to date. Fully matured in first-fill ex-bourbon casks sourced from Buffalo Trace (Kentucky) and bottled at 46%, natural colour and non-chill filtered. A sweet nose and honeyed taste, with the coastal character of the Isle of Lewis. Volume: 70cl ABV: 46% Flavour profile The aroma: Sweet and honeyed, with honey, pear, apple, almonds and light oak. On the palate: Waxy malt, wheat and barley, pepper, citrus oils and maritime notes. Finish notes: Medium, sweet, with chocolate, nuts and oak.",
+		"name_ja": "Abhainn Dearg 10 Year Old",
+		"description_ja": "700ml入り。アバインディアーグ蒸留所初の10年熟成シングルモルトで、2018年の冬にハウス最古の表現として発表。ケンタッキーのバッファロー・トレース産ファーストフィル・エクスバーボン樽のみで熟成し、46%で瓶詰め、着色料なし・ノンチルフィルター。甘い香りとハチミツのような味わい、ルイス島の沿岸の個性を持ちます。容量：70cl アルコール度数：46% 味わいのプロファイル 香り：甘くハチミツのようで、ハチミツ、洋梨、りんご、アーモンド、軽いオーク。味わい：ワキシーなモルト、小麦と大麦、ペッパー、柑橘オイル、海のニュアンス。余韻：ミディアムで甘く、チョコレート、ナッツ、オーク。",
+		"distillery_id": "abhainn-dearg",
+		"name_fr": "Abhainn Dearg 10 Year Old",
+		"description_fr": "Présentation de 700 ml. Le premier single malt de dix ans de la distillerie Abhainn Dearg, lancé à l'hiver 2018 comme l'expression la plus ancienne de la maison. Entièrement vieilli en fûts de premier remplissage de bourbon provenant de Buffalo Trace (Kentucky) et embouteillé à 46 %, couleur naturelle et non filtré à froid. Un nez sucré et un goût mielleux, avec le caractère côtier de l'île de Lewis. Volume : 70cl ABV : 46 % Profil de saveur Le nez : Sucré et mielleux, avec du miel, de la poire, de la pomme, des amandes et un chêne léger. En bouche : Malt cireux, blé et orge, poivre, huiles d'agrumes et notes maritimes. Notes de finale : Moyenne, sucrée, avec du chocolat, des noix et du chêne.",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=sgaqh2pnvWI",
+				"label": "Abhainn Dearg 10-Year-Old Single Malt — A Unique Hebridean Dram (DramDuJour)",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=S42xt4CW9tg",
+				"label": "The Taste of Illicit Distilling? Abhainn Dearg 10yo Review — Moa Nilsson",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=jhdnL6oxwVA",
+				"label": "Fast Review of Abhainn Dearg 10 yr old 46% — Robertson Wellen pour1malt",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=jlA2FEGha-M",
+				"label": "No One Talks About This! Abhainn Dearg 10 Year Old — The Whisky Enthusiast",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+		]
+		},
+		{
+		"featured": false,
+		"id": "shetland-reel-blended-malt",
+		"slug": "shetland-reel-blended-malt",
+		"name": "Shetland Reel Blended Malt",
+		"description": "Blended malt de la destilería Saxa Vord (marca Shetland Distillery Company) y el único whisky escocés embotellado en las islas Shetland. Cada lote combina single malts a fuerza de tonel seleccionados por el maestro destilador Stuart Nickerson, mezclados en Escocia continental y llevados en ferry hasta la isla de Unst, donde se reducen a 47% con agua pura de Unst y se embotellan a mano. Batch 1 (2015, 1.800 botellas): cuatro malts de Speyside y uno de Islay, medalla de oro en San Francisco 2016. Nariz: turba suave (no medicinal), mantequilla, vainilla y toffee; paladar: frutas secas dulces, fudge oscuro, dátiles, pasas, turba y pimienta negra; final largo, cálido, con frutas secas, humo y pimienta. Volumen: 70cl ABV: 47%",
+		"image": "/data/images/shetland-reel-blended-malt.webp",
+		"video": null,
+		"origin": "scotland",
+		"region": "Islands",
+		"age": null,
+		"volume": "700 ml",
+		"abv": 47,
+		"cask": "Single malts madurados en barricas de jerez y bourbon",
+		"url": "",
+		"resellers_uy": [
+		],
+		"resellers_br": [
+		],
+		"resellers_usa": [
+		],
+		"name_pt": "Shetland Reel Blended Malt",
+		"description_pt": "Blended malt da destilaria Saxa Vord (marca Shetland Distillery Company) e o único uísque escocês engarrafado nas ilhas Shetland. Cada lote combina single malts a plena força selecionados pelo master distiller Stuart Nickerson, misturados na Escócia continental e levados de ferry até a ilha de Unst, onde são reduzidos a 47% com água pura de Unst e engarrafados à mão. Batch 1 (2015, 1.800 garrafas): quatro malts de Speyside e um de Islay, medalha de ouro em San Francisco 2016. Nariz: turfa suave (não medicinal), manteiga, baunilha e toffee; paladar: frutas secas doces, fudge escuro, tâmaras, passas, turfa e pimenta preta; final longo, quente, com frutas secas, fumaça e pimenta. Volume: 70cl ABV: 47%",
+		"name_en": "Shetland Reel Blended Malt",
+		"description_en": "Blended malt from Saxa Vord Distillery (Shetland Distillery Company brand) and the only Scotch whisky bottled in the Shetland Islands. Each batch combines cask-strength single malts selected by master distiller Stuart Nickerson, blended on mainland Scotland and ferried to the island of Unst, where they are reduced to 47% with pure Unst water and bottled by hand. Batch 1 (2015, 1,800 bottles): four Speyside and one Islay malt, Gold at San Francisco 2016. Nose: soft peat (not medicinal), butter, vanilla and toffee; palate: sweet dried fruits, dark fudge, dates, raisins, peat and black pepper; finish: long, warming, with dried fruits, smoke and pepper. Volume: 70cl ABV: 47%",
+		"name_ja": "Shetland Reel Blended Malt",
+		"description_ja": "サクサ・ヴォード蒸留所（シェトランド・ディスティラリー・カンパニーのブランド）のブレンデッドモルトで、シェトランド諸島で瓶詰めされる唯一のスコッチウイスキー。各バッチはマスターディスティラー、スチュアート・ニッカーソンが選んだカスクストレングスのシングルモルトを本土でブレンドし、フェリーでアンスト島まで運び、島の純水で47%に割って手詰めしています。バッチ1（2015年、1800本）：スペイサイド4樽+アイラ1樽。2016年サンフランシスコ世界大会金賞。香り：柔らかなピート（医療的でない）、バター、バニラ、トフィー。味わい：甘いドライフルーツ、ダークファッジ、デーツ、レーズン、ピート、黒胡椒。余韻：長く温かく、ドライフルーツ、スモーク、胡椒。容量：70cl アルコール度数：47%",
+		"distillery_id": "saxa-vord",
+		"name_fr": "Shetland Reel Blended Malt",
+		"description_fr": "Blended malt de la distillerie Saxa Vord (marque Shetland Distillery Company) et le seul whisky écossais embouteillé dans les îles Shetland. Chaque lot combine des single malts à pleine force sélectionnés par le maître distillateur Stuart Nickerson, assemblés en Écosse continentale puis transportés par ferry jusqu'à l'île d'Unst, où ils sont réduits à 47 % avec l'eau pure d'Unst et embouteillés à la main. Batch 1 (2015, 1 800 bouteilles) : quatre malts de Speyside et un d'Islay, médaille d'or à San Francisco 2016. Nez : tourbe douce (non médicinale), beurre, vanille et caramel au beurre ; palais : fruits secs sucrés, fudge foncé, dattes, raisins secs, tourbe et poivre noir ; finale longue et chaleureuse, avec fruits secs, fumée et poivre. Volume : 70cl ABV : 47 %",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=NWJ822dF--A",
+				"label": "Going Round the Blend #5: Shetland Reel Blended Malt — The Kilted Drammer",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=K7mT148_NpU",
+				"label": "Shetland Reel Blended Malt Scotch Whisky — foodquig",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=cTqu3FF-o5w",
+				"label": "Shetland Reel Blended Malt Scotch Whisky — Ale Degustation",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=NKGNYOBz6GU",
+				"label": "The Shetland Reel Story — Maurice Henderson Shetland",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+		]
+		},
+		{
+		"featured": false,
+		"id": "lagg-kilmory-edition",
+		"slug": "lagg-kilmory-edition",
+		"name": "Lagg Kilmory Edition",
+		"description": "Expresión insignia de la destilería Lagg y primera salida de su gama core, elaborada con cebada Concerto turbada a ~50 ppm y agua de pozo propio. Madurada íntegramente en barriles de bourbon de primer llenado, embotellada a 46% sin filtración en frío ni color añadido. Nariz: humo de brezo y cítricos chamuscados; paladar: un primer estallido de fruta que da paso a un humo sutil de hoguera con cremosidad de vainilla; final: largo, con cítricos, humo y vainilla. Oro en los Scottish Whisky Awards 2024 (NAS Peated), medalla de oro con 93 puntos en San Francisco 2025 y Master en los Global Scotch Whisky Masters 2025. Volumen: 70cl ABV: 46%",
+		"image": "/data/images/lagg-kilmory-edition.webp",
+		"video": null,
+		"origin": "scotland",
+		"region": "Islands",
+		"age": null,
+		"volume": "700 ml",
+		"abv": 46,
+		"cask": "Barriles de bourbon de primer llenado",
+		"url": "",
+		"resellers_uy": [
+		],
+		"resellers_br": [
+		],
+		"resellers_usa": [
+		],
+		"name_pt": "Lagg Kilmory Edition",
+		"description_pt": "Expressão emblemática da destilaria Lagg e primeira saída da sua gama principal, feita com cevada Concerto turfada a ~50 ppm e água de poço próprio. Maturada inteiramente em barris de bourbon de primeiro uso, engarrafada a 46% sem filtração a frio nem cor adicionada. Nariz: fumaça de urze e citrinos chamuscados; paladar: uma primeira explosão de fruta que dá lugar a uma fumaça sutil de fogueira com cremosidade de baunilha; final: longo, com citrinos, fumaça e baunilha. Ouro nos Scottish Whisky Awards 2024 (NAS Peated), medalha de ouro com 93 pontos em São Francisco 2025 e Master nos Global Scotch Whisky Masters 2025. Volume: 70cl ABV: 46%",
+		"name_en": "Lagg Kilmory Edition",
+		"description_en": "Flagship expression of Lagg Distillery and the first release in its core range, made with Concerto barley peated to ~50 ppm and water from its own borehole. Matured entirely in first-fill bourbon barrels and bottled at 46%, non-chill filtered and with no added colouring. Nose: heather smoke and charred citrus; palate: an initial burst of fruit gives way to subtle bonfire smoke with vanilla creaminess; finish: long, with citrus, smoke and vanilla. Gold at the Scottish Whisky Awards 2024 (NAS Peated), Gold medal with 93 points at San Francisco 2025 and Master at the Global Scotch Whisky Masters 2025. Volume: 70cl ABV: 46%",
+		"name_ja": "Lagg Kilmory Edition",
+		"description_ja": "ラグ蒸留所のフラッグシップでありコアレンジ初のリリース。約50ppmにピート処理したコンサーモ麦芽と自家掘削井戸の水で造られます。100%ファーストフィル・バーボン樽で熟成し、46%で瓶詰め、ノンチルフィルター・着色料なし。香り：ヘザーのスモークと焦がした柑橘。味わい：最初に果実の爆発、続いてバニラのクリーミーさを伴う繊細な焚き火の煙。余韻：長く、柑橘、スモーク、バニラ。スコティッシュ・ウイスキー・アワード2024金賞（NASピーテッド）、2025年サンフランシスコ93点金賞、2025年グローバルスコッチウイスキーマスターズではマスター賞を受賞。容量：70cl アルコール度数：46%",
+		"distillery_id": "lagg",
+		"name_fr": "Lagg Kilmory Edition",
+		"description_fr": "Expression phare de la distillerie Lagg et première sortie de sa gamme principale, élaborée avec de l'orge Concerto tourbée à ~50 ppm et l'eau de son propre puits. Mûrie entièrement en fûts de bourbon de premier remplissage et embouteillée à 46 %, non filtrée à froid et sans colorant ajouté. Nez : fumée de bruyère et agrumes brûlés ; palais : une première explosion de fruits laisse place à une fumée de feu de camp subtile avec une onctuosité vanillée ; finale longue, avec agrumes, fumée et vanille. Or aux Scottish Whisky Awards 2024 (NAS Peated), médaille d'or avec 93 points à San Francisco 2025 et Master aux Global Scotch Whisky Masters 2025. Volume : 70cl ABV : 46 %",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=TM2murrJ6xQ",
+				"label": "Lagg Kilmory Edition - Whisky Review 175 — Whisky Lock",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=ykq0RSkrnB4",
+				"label": "Something New for Peat Lovers? Lagg Kilmory and Corriecravie Review — Gwhisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=tlOomcBf2-M",
+				"label": "Is Peated Arran Better Than Peated Arran? Lagg Kilmory Review — The Whisky Enthusiast",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=dBRPeMjE8bw",
+				"label": "Lagg Kilmory Edition Single Malt Scotch Whisky — foodquig",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=IvjBt4gGkUM",
+				"label": "#WhiskyTour2019 - Destilería Lagg — MundoWhiskyTv",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=NQxSpIlDq1I",
+				"label": "【アラン好きは見逃せない！】ラグ キルモリーエディションを開封レビュー — せるじおのハイボールチャンネル",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=9pMvXqCl3A8",
+				"label": "アラン第二蒸溜所ラッグ蒸溜所キルモリー エディション【新発売】 — ITARU's BAR channel",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=mIgzFGsY00Q",
+				"label": "ラグ蒸溜所のウイスキー飲んでみました！ — ありざわ(旧アランガール)",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+		]
 		}
 	]
 }
