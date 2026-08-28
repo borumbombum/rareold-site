@@ -35,7 +35,7 @@
     }
 </script>
 
-<section class="relative min-h-112.5 flex items-center justify-center">
+<section class="relative min-h-90 flex items-center justify-center">
     <!-- <Bubbles /> -->
     {#if configuration.hero.videoEnabled && configuration.hero.videoSrc}
         <HeroVideo
