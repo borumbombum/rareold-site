@@ -12224,6 +12224,611 @@
 					"created_at": "2000-01-01T00:00:00.000Z"
 				}
 			]
+		},
+		{
+			"featured": false,
+			"video": null,
+			"origin": "japan",
+			"region": "Honshu",
+			"volume": "700 ml",
+			"abv": 43,
+			"url": "",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"id": "yamazaki-distillers-reserve",
+			"slug": "yamazaki-distillers-reserve",
+			"name": "Yamazaki Distiller’s Reserve",
+			"description": "Single malt sin indicación de edad embotellado por Suntory. Madura en barricas de roble americano, roble español de jerez y vino, con el toque exótico y amaderado de la rara madera japonesa mizunara. Fresa y cereza en nariz, frambuesa, melocotón blanco y coco en boca; final limpio de vainilla dulce y canela. La entrada más elegante a la casa Yamazaki.",
+			"image": "/data/images/yamazaki-distillers-reserve.webp",
+			"age": null,
+			"cask": "Roble americano, jerez, vino y mizunara",
+			"name_pt": "Yamazaki Distiller’s Reserve",
+			"description_pt": "Single malt sem indicação de idade engarrafado pela Suntory. Amadurece em barricas de carvalho americano, carvalho espanhol de xerez e vinho, com o toque exótico e amadeirado do raro carvalho japonês mizunara. Morango e cereja no aroma, framboesa, pêssego branco e coco no paladar; final limpo de baunilha doce e canela. A entrada mais elegante na casa Yamazaki.",
+			"name_en": "Yamazaki Distiller’s Reserve",
+			"description_en": "A no-age-statement single malt from Suntory. Matured in American oak, Spanish sherry oak and wine casks, with the exotic, incense-like woodiness of rare Japanese mizunara oak. Strawberry and cherry on the nose, raspberry, white peach and coconut on the palate; a clean finish of sweet vanilla and cinnamon. The most elegant gateway into the Yamazaki house style.",
+			"name_ja": "山崎 ディスティラーズリザーブ",
+			"description_ja": "サントリーが瓶詰めするノンエイジのシングルモルト。アメリカンオーク、シェリーオーク、ワイン樽で熟成し、希少な水樽（ミズナラ）ならではの東洋的な香りをまとっています。香りはイチゴとチェリー。味わいはラズベリー、白桃、そしてわずかにココナッツ。甘いバニラとシナモンの清らかな余韻。山崎の世界への最もエレガントな入口です。",
+			"name_fr": "Yamazaki Distiller’s Reserve",
+			"description_fr": "Un single malt sans mention d'âge, embouteillé par Suntory. Vieilli en fûts de chêne américain, de chêne espagnol à sherry et de vin, avec le boisé exotique et encensé du rare chêne japonais mizunara. Fraise et cerise au nez, framboise, pêche blanche et noix de coco en bouche ; une finale nette de vanille sucrée et de cannelle. La porte d'entrée la plus élégante vers le style Yamazaki.",
+			"distillery_id": "yamazaki",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=DcFx7mOmcBA",
+					"label": "Yamazaki Distiller’s Reserve review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=5-q2PArrSdY",
+					"label": "The WORST Yamazaki? — Kanpai Planet",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=6ChRIx0CyUs",
+					"label": "Mystery Review #10 — Dave’s Whisky Reviews",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Qqo5XcBgSaY",
+					"label": "Whisky Bloke review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=b3D_CB8vp8Y",
+					"label": "山崎&白州レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=4-YnkwGIaR0",
+					"label": "山崎レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=19eTo3ppurk",
+					"label": "山崎NAのおすすめ飲み方",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=eEm971Ok_5c",
+					"label": "山崎甘口レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=HQXciuiZL0s",
+					"label": "HABLANDO DE WHISKY",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=n6B-Les2BqY",
+					"label": "HABLANDO DE WHISKY",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=pMgBdfEXLSA",
+					"label": "Tierri Whisky review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=eY1t3q8irbI",
+					"label": "Tierri Whisky — 12 vs Distiller’s Reserve",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=E04Egu5FA_Y",
+					"label": "Jornada do Whisky degustação",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=f-X0xWjcZCw",
+					"label": "Le Whisky Brunch — Yamazaki",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"video": null,
+			"origin": "japan",
+			"region": "Honshu",
+			"volume": "700 ml",
+			"abv": 43,
+			"url": "",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"id": "yamazaki-12-year-old",
+			"slug": "yamazaki-12-year-old",
+			"name": "Yamazaki 12 Years Old",
+			"description": "El primer whisky de la gama insignia de Yamazaki y el single malt número uno de Japón. Madurado durante más de 12 años en barricas de roble americano, oloroso de jerez y mizunara. Melocotón, piña y pomelo en nariz, coco, arándano y mantequilla en boca; final largo con jengibre dulce, canela y una madera fina. Supreme Champion Spirit en el ISC 2024.",
+			"image": "/data/images/yamazaki-12-year-old.webp",
+			"age": 12,
+			"cask": "Roble americano, jerez oloroso y mizunara",
+			"name_pt": "Yamazaki 12 anos",
+			"description_pt": "O primeiro uísque da gama emblemática de Yamazaki e o single malt número um do Japão. Amadurecido durante mais de 12 anos em barricas de carvalho americano, oloroso de xerez e mizunara. Pêssego, ananás e toranja no aroma, coco, arando e manteiga no paladar; final longo com gengibre doce, canela e madeira fina. Vencedor do Supreme Champion no ISC 2024.",
+			"name_en": "Yamazaki 12 Years Old",
+			"description_en": "The first expression of Yamazaki's flagship range and Japan's number one single malt. Matured for over 12 years in American oak, sherry oloroso and mizunara casks. Peach, pineapple and grapefruit on the nose; coconut, cranberry and butter on the palate; a long finish of sweet ginger, cinnamon and fine oak. Supreme Champion Spirit at ISC 2024.",
+			"name_ja": "山崎12年",
+			"description_ja": "山崎のフラッグシップ第1弾であり、日本一のシングルモルト。アメリカンオーク、シェリー、水樽（ミズナラ）で12年以上熟成します。香りは桃、パイナップル、グレープフルーツ。味わいはココナッツ、クランベリー、バター。甘いジンジャーとシナモン、上品な樽香の長い余韻。ISC2024でスプリームチャンピオンスピリッツに輝きました。",
+			"name_fr": "Yamazaki 12 ans",
+			"description_fr": "La première expression de la gamme emblématique de Yamazaki et le single malt n°1 du Japon. Vieilli plus de 12 ans en fûts de chêne américain, en oloroso de sherry et en mizunara. Pêche, ananas et pamplemousse au nez ; noix de coco, canneberge et beurre en bouche ; une longue finale de gingembre sucré, de cannelle et de boisé fin. Supreme Champion Spirit à l'ISC 2024.",
+			"distillery_id": "yamazaki",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=6mKcdy8yQWg",
+					"label": "Yamazaki 12 re-review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=flY2u-T3rTc",
+					"label": "Whiskey is a Journey",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=098IvyO5VUY",
+					"label": "Whiskey Vault — Episode 101",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=7ymI8tIm56A",
+					"label": "Mark’s Whisky Ramblings 587",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=91hUMQ8Zj4s",
+					"label": "山崎12年レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=a1_fYTEL_x4",
+					"label": "現役バーテンダーが山崎12年",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=8Q3YNbf3xXc",
+					"label": "山崎12年オープン",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=UX6uKAD561U",
+					"label": "山崎18年・12年の味の違い",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=2AewFVsrBmk",
+					"label": "El Whisky Bar — 12 años",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=uy08FvxVO2A",
+					"label": "Cultura del Whisky",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=rE_JbiNnhQc",
+					"label": "Sanson Single Malt — 12 anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Q39KHHEwtSE",
+					"label": "Tierri Whisky — 12 anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=qMHdfsVQsxs",
+					"label": "Sanson Single Malt review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=HMNBkhVCJUo",
+					"label": "Bebendo Whisky — 12 anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=XNVedxlLr8Y",
+					"label": "Deto — Découverte Whisky",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"video": null,
+			"origin": "japan",
+			"region": "Honshu",
+			"volume": "700 ml",
+			"abv": 43,
+			"url": "",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"id": "hakushu-distillers-reserve",
+			"slug": "hakushu-distillers-reserve",
+			"name": "Hakushu Distiller’s Reserve",
+			"description": "Single malt sin indicación de edad de la destilería del bosque. Combina maltas jóvenes y añejas, con una pequeña proporción de malta turbada, maduradas en roble americano. La expresión más verde de Hakushu: menta, melón y pepino en nariz; yuzu, pomelo y tomillo limonero en boca, con un ahumado sutil al final. Ideal también para highball.",
+			"image": "/data/images/hakushu-distillers-reserve.webp",
+			"age": null,
+			"cask": "Roble americano con una proporción de malta turbada",
+			"name_pt": "Hakushu Distiller’s Reserve",
+			"description_pt": "Single malt sem indicação de idade da destilaria da floresta. Combina maltes jovens e velhos, com uma pequena proporção de malte turfado, amadurecidos em carvalho americano. A expressão mais verde de Hakushu: menta, melão e pepino no aroma; yuzu, toranja e tomilho-limão no paladar, com um fumo subtil no final. Ideal também para highball.",
+			"name_en": "Hakushu Distiller’s Reserve",
+			"description_en": "A no-age-statement single malt from the forest distillery. It blends young and older malts, with a small proportion of peated malt, matured in American oak. The greenest expression of Hakushu: peppermint, melon and cucumber on the nose; yuzu, grapefruit and lemon thyme on the palate, with a subtle whiff of smoke. Equally at home in a highball.",
+			"name_ja": "白州 ディスティラーズリザーブ",
+			"description_ja": "森の蒸留所白州によるノンエイジのシングルモルト。軽くピートした麦芽を含む若い原酒と熟成原酒を、主にアメリカンオークで熟成しています。白州のなかでも最もグリーンな一本。香りはペパーミント、メロン、キュウリ。味わいは柚子、グレープフルーツ、レモンタイム、かすかなスモーク。ハイボールにも最適です。",
+			"name_fr": "Hakushu Distiller’s Reserve",
+			"description_fr": "Un single malt sans mention d'âge de la distillerie de la forêt. Il assemble des malts jeunes et plus anciens, avec une petite part de malt tourbé, vieillis en chêne américain. L'expression la plus verte de Hakushu : menthe poivrée, melon et concombre au nez ; yuzu, pamplemousse et thym citronné en bouche, avec une touche de fumée subtile. Également parfait en highball.",
+			"distillery_id": "hakushu",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=a6YuYblodDc",
+					"label": "The Whiskey Nerd",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=oieXZraGqDI",
+					"label": "The Whiskey Nerd — noob review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=jV9svrTDgA4",
+					"label": "Malt Mariners — vs 12 years old",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=otoR84Rbhzw",
+					"label": "WhiskyListGuy",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=_r5MvCyN5UI",
+					"label": "白州レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=gbuVTPY6MEw",
+					"label": "白州新旧ラインナップ",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=TG1B0wj0vD8",
+					"label": "HABLANDO DE WHISKY",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=YZT0szs2J6E",
+					"label": "Jornada do Whisky degustação",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Am3FdyeE3KE",
+					"label": "Tierri Whisky — DR vs 12",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"video": null,
+			"origin": "japan",
+			"region": "Honshu",
+			"volume": "700 ml",
+			"abv": 43,
+			"url": "",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"id": "hakushu-12-year-old",
+			"slug": "hakushu-12-year-old",
+			"name": "Hakushu 12 Years Old",
+			"description": "El single malt añejo más célebre de Hakushu: al menos 12 años en barricas de roble americano con una parte de malta ligeramente turbada. Verde y fresco, con albahaca, aguja de pino y manzana verde en nariz; pera dulce, menta y kiwi en boca, cerrando con té verde y un humo delicado. Difícil de encontrar y muy codiciado.",
+			"image": "/data/images/hakushu-12-year-old.webp",
+			"age": 12,
+			"cask": "Roble americano con una parte de malta ligeramente turbada",
+			"name_pt": "Hakushu 12 anos",
+			"description_pt": "O single malt envelhecido mais célebre de Hakushu: pelo menos 12 anos em barricas de carvalho americano com uma parte de malte ligeiramente turfado. Verde e fresco, com manjericão, agulha de pinheiro e maçã verde no aroma; pêra doce, menta e kiwi no paladar, fechando com chá verde e um fumo delicado. Difícil de encontrar e muito cobiçado.",
+			"name_en": "Hakushu 12 Years Old",
+			"description_en": "Hakushu's most celebrated aged single malt: at least 12 years in American oak casks with a lightly peated component. Green and fresh, with basil, pine needle and green apple on the nose; sweet pear, mint and kiwi on the palate, closing on green tea and a delicate smoke. Hard to find and much coveted.",
+			"name_ja": "白州12年",
+			"description_ja": "白州で最も名高いエイジド・シングルモルト。アメリカンオークで12年以上熟成し、軽くピートした原酒をブレンドします。香りはバジル、松葉、青りんご。味わいは甘い梨、ミント、キウイ。緑茶のような余韻と繊細なスモークが続きます。入手困難な一本として知られています。",
+			"name_fr": "Hakushu 12 ans",
+			"description_fr": "Le single malt vieilli le plus célèbre de Hakushu : au moins 12 ans en fûts de chêne américain avec une part légèrement tourbée. Vert et frais, avec le basilic, les aiguilles de pin et la pomme verte au nez ; poire sucrée, menthe et kiwi en bouche, pour finir sur un thé vert et une fumée délicate. Difficile à trouver et très convoité.",
+			"distillery_id": "hakushu",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=zQDWU8Ly6MA",
+					"label": "Whiskey Vault — 12yr review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=ShdTuLO9HJ4",
+					"label": "Whiskey Vault",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=-DxTkTrrbto",
+					"label": "Whiskey is a Journey — Sip It or Skip It",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=HBdWxQRz3kg",
+					"label": "2TEN90",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=xNWX5-zd6uI",
+					"label": "新白州12年レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=7rUMkcO_yEI",
+					"label": "白州12年実飲レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=V5-J_Y3EdcE",
+					"label": "白州12年新旧ラベル飲み比べ",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=p4ac_EvCiTI",
+					"label": "白州12年再販レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=KGoEk0MJ48Q",
+					"label": "Los Whiskochos — 12 años en español",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=SvFJWjTAgZU",
+					"label": "Jornada do Whisky — 12",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=HdUxVFUCjJs",
+					"label": "Jornada do Whisky",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=MEIyDxu7xXY",
+					"label": "Tierri Whisky — 12 anos",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
+		},
+		{
+			"featured": false,
+			"video": null,
+			"origin": "japan",
+			"region": "Honshu",
+			"volume": "700 ml",
+			"abv": 43,
+			"url": "",
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"id": "chita-single-grain",
+			"slug": "chita-single-grain",
+			"name": "The Chita Single Grain",
+			"description": "Whisky de grano puro de la destilería Chita de Suntory, elaborado sobre todo con maíz en columnas de destilación continua. Creme brûlée, cardamomo, miel de acacia y un toque floral en nariz; suave y cremoso en boca, con miel profunda y un final limpio de roble especiado. La base del highball japonés por excelencia.",
+			"image": "/data/images/chita-single-grain.webp",
+			"age": null,
+			"cask": "Mixto (jerez, bourbon y vino)",
+			"name_pt": "The Chita Single Grain",
+			"description_pt": "Uísque de grão puro da destilaria Chita da Suntory, elaborado sobretudo com milho em colunas de destilação contínua. Creme brûlée, cardamomo, mel de acácia e um toque floral no aroma; suave e cremoso no paladar, com mel profundo e um final limpo de carvalho especiado. A base do highball japonês por excelência.",
+			"name_en": "The Chita Single Grain",
+			"description_en": "Pure grain whisky from Suntory's Chita distillery, chiefly made from corn in continuous column stills. Crème brûlée, cardamom, acacia honey and a floral touch on the nose; soft and creamy on the palate, with deep honey and a clean, spiced-oak finish. The quintessential base of the Japanese highball.",
+			"name_ja": "知多 シングルグレーン",
+			"description_ja": "サントリー知多蒸溜所による純粋なグレーンウイスキー。主にトウモロコシを使い、連続式蒸留機で造られます。香りはクレームブリュレ、カルダモン、アカシアの蜂蜜に花のニュアンス。口当たりはまろやかでクリーミー、深い蜂蜜の甘み。スパイスの効いたオークの清らかな余韻。日本のハイボールの定番ベースです。",
+			"name_fr": "The Chita Single Grain",
+			"description_fr": "Un whisky de grain pur de la distillerie Chita de Suntory, élaboré principalement à partir de maïs dans des colonnes de distillation continue. Crème brûlée, cardamome, miel d'acacia et une touche florale au nez ; doux et crémeux en bouche, avec un miel profond et une finale propre de boisé épicé. La base quintessentielle du highball japonais.",
+			"distillery_id": "chita",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=WzgP1J3z9y4",
+					"label": "The Whisky Scribe",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=BI9p6KSHFZc",
+					"label": "Whiskey Wonder Woman",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=_v7x_BRB8FU",
+					"label": "Kanpai Planet",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=2G1aNXn275I",
+					"label": "Whiskey Crusaders",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=LafAbjDtGmg",
+					"label": "知多レビュー",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=FUrbt6gEv2I",
+					"label": "知多の魅力解説",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=MJCll7_dRSM",
+					"label": "知多蒸飲所と知多飲み比べ",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=g9k58aZkXHc",
+					"label": "山崎12年×知多ブレンデッド",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=OERURlLMDiI",
+					"label": "WdeWhisky reseña",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Kc49vy6vbcc",
+					"label": "La Whiskería",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=Oi8SNyOqX_A",
+					"label": "Martes Whiskero",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=lB-mfIeKZpA",
+					"label": "Clan de Whiskeros",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=io6ryXlQC4s",
+					"label": "TVBrejada",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "pt",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=67fDjj-ZIX8",
+					"label": "Tierri Whisky review",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "fr",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=eyUrnODQ85c",
+					"label": "Five Spirits",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
 		}
 	]
 }

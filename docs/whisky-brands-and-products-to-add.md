@@ -299,11 +299,11 @@ Stranahan's Colorado Whiskey - Stranahan's
 
 ## Japan
 
-Yamazaki Distiller's Reserve - Yamazaki
-Yamazaki 12 YO - Yamazaki
-Hakushu Distiller's Reserve - Hakushu
-Hakushu 12 YO - Hakushu
-Chita Suntory Single Grain - Chita
+✅ Yamazaki Distiller's Reserve - Yamazaki
+✅ Yamazaki 12 YO - Yamazaki
+✅ Hakushu Distiller's Reserve - Hakushu
+✅ Hakushu 12 YO - Hakushu
+✅ Chita Suntory Single Grain - Chita
 Hibiki Japanese Harmony - Hibiki
 Yoichi Single Malt - Yoichi
 Miyagikyo Single Malt - Miyagikyo

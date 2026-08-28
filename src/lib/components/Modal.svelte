@@ -45,7 +45,7 @@
 			if (e.target === e.currentTarget) onClose();
 		}}
 	>
-		<div class="relative max-w-full">
+		<div class={`relative ${width} ${maxWidth}`}>
 			{#if bare}
 				<button
 					onclick={onClose}
@@ -56,7 +56,7 @@
 				</button>
 			{/if}
 			<div
-				class={`animate-rise-in no-scrollbar flex max-h-[92dvh] ${width} ${maxWidth} flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl dark:border-zinc-800 dark:bg-zinc-950`}
+				class={`animate-rise-in no-scrollbar flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl dark:border-zinc-800 dark:bg-zinc-950`}
 			>
 			{#if !bare}
 				<div class="flex items-center justify-between gap-4 border-b border-zinc-200 px-5 py-3.5 dark:border-zinc-800">
