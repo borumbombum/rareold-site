@@ -13,10 +13,10 @@
 	const label = $derived(total > 0 ? list[index].label : '');
 </script>
 
-<Modal open={Boolean(url)} onClose={() => ui.closeVideo()} bare maxWidth="max-w-2xl">
+<Modal open={Boolean(url)} onClose={() => ui.closeVideo()} bare width="w-[90vw] lg:w-[80vw]" maxWidth="max-w-full">
 	{#if video}
 		<div class="relative">
-			<div class="aspect-video w-full bg-black">
+			<div class="aspect-video max-h-[calc(92dvh_-_3rem)] w-full bg-black">
 				{#if video.provider === 'instagram'}
 					<iframe
 						src={video.embedUrl}

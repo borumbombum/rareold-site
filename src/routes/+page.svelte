@@ -133,6 +133,7 @@
     </div>
 </section>
 
-{#if data.activity && data.activity.length > 0}
+{#if false}
+    <!-- ActivityFeed hidden on all breakpoints (temp, restores +page overflow) -->
     <ActivityFeed items={data.activity} />
 {/if}

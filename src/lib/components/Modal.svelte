@@ -7,6 +7,7 @@
 		onClose,
 		title = '',
 		maxWidth = 'max-w-lg',
+		width = 'w-full',
 		bare = false,
 		children
 	}: {
@@ -14,6 +15,7 @@
 		onClose: () => void;
 		title?: string;
 		maxWidth?: string;
+		width?: string;
 		bare?: boolean;
 		children?: import('svelte').Snippet;
 	} = $props();
@@ -43,7 +45,7 @@
 			if (e.target === e.currentTarget) onClose();
 		}}
 	>
-		<div class="relative">
+		<div class="relative max-w-full">
 			{#if bare}
 				<button
 					onclick={onClose}
@@ -54,7 +56,7 @@
 				</button>
 			{/if}
 			<div
-				class={`animate-rise-in no-scrollbar flex max-h-[92dvh] w-full ${maxWidth} flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl dark:border-zinc-800 dark:bg-zinc-950`}
+				class={`animate-rise-in no-scrollbar flex max-h-[92dvh] ${width} ${maxWidth} flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-2xl dark:border-zinc-800 dark:bg-zinc-950`}
 			>
 			{#if !bare}
 				<div class="flex items-center justify-between gap-4 border-b border-zinc-200 px-5 py-3.5 dark:border-zinc-800">

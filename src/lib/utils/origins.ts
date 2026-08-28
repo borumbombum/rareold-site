@@ -49,12 +49,9 @@ export function sortOriginsByCount(counts: Record<string, number>): OriginDef[] 
 	return [...ORIGINS].sort((a, b) => (counts[b.key] ?? 0) - (counts[a.key] ?? 0));
 }
 
-/** Baseline origins kept visible regardless of user pinning or counts. */
-const BASELINE_PINNED = ['canada'];
-
 /**
- * Origins ordered for display: "all" first, then the active origin, then
- * user-pinned origins (by count), then baseline-pinned, then the rest by count.
+ * Origins ordered for display: "all" first, then the active/navigated origin,
+ * then user-pinned origins (by count), then the rest by count.
  */
 export function sortOriginsForDisplay(
 	counts: Record<string, number>,
@@ -75,13 +72,6 @@ export function sortOriginsForDisplay(
 		}
 	}
 	for (const key of pinned) {
-		const row = byCount.find((o) => o.key === key);
-		if (row && !seen.has(key)) {
-			ordered.push(row);
-			seen.add(key);
-		}
-	}
-	for (const key of BASELINE_PINNED) {
 		const row = byCount.find((o) => o.key === key);
 		if (row && !seen.has(key)) {
 			ordered.push(row);

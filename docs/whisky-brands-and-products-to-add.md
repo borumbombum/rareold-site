@@ -38,6 +38,7 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ## Scotland — Islay
 
 ✅ Arran Barrel Reserve - Arran Distillers, source image: <https://static.whiskybase.com/storage/whiskies/1/3/8215/233765-big.jpg>, info here: <https://www.whiskybase.com/whiskies/whisky/138215/arran-barrel-reserve> - Add this spanish influencer review: <https://www.youtube.com/watch?v=0WYfqONQ60k>
+✅ Arran Barley Year Old - Isle of Arran Distillers
 ✅ Whistle Pig 10 YO - Whistle Pig : <https://www.whistlepigwhiskey.com/whiskeys/10-year>
 ✅ Ardbeg 10 YO - Ardbeg
 ✅ Ardbeg Uigeadail - Ardbeg
@@ -83,30 +84,30 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 
 ## Scotland — Campbeltown
 
-Springbank 10 YO - Springbank
-Springbank 15 YO - Springbank
-Longrow Peated - Springbank
-Hazelburn 10 YO - Springbank
-Kilkerran 12 YO - Glengyle
-Kilkerran Heavily Peated - Glengyle
-Glen Scotia 15 YO - Glen Scotia
-Glen Scotia Victoriana - Glen Scotia
-Glen Scotia Double Cask - Glen Scotia
+✅ Springbank 10 YO - Springbank
+✅ Springbank 15 YO - Springbank
+✅ Longrow Peated - Springbank
+✅ Hazelburn 10 YO - Springbank
+✅ Kilkerran 12 YO - Glengyle
+✅ Kilkerran Heavily Peated - Glengyle
+✅ Glen Scotia 15 YO - Glen Scotia
+✅ Glen Scotia Victoriana - Glen Scotia
+✅ Glen Scotia Double Cask - Glen Scotia
 
 ## Scotland — Speyside
 
 ✅ Glenfiddich 12 YO - Glenfiddich
-Glenfiddich 15 YO Solera - Glenfiddich
-Glenfiddich 18 YO - Glenfiddich
-The Glenlivet 12 YO - The Glenlivet
-The Glenlivet Founder's Reserve - The Glenlivet
-The Glenlivet 18 YO - The Glenlivet
-The Macallan Double Cask 12 YO - The Macallan
-The Macallan Sherry Oak 12 YO - The Macallan
-The Macallan Triple Cask 15 YO - The Macallan
-Aberlour 12 YO Double Cask - Aberlour
-Aberlour 16 YO Double Cask - Aberlour
-Aberlour A'bunadh - Aberlour
+✅ Glenfiddich 15 YO Solera - Glenfiddich
+✅ Glenfiddich 18 YO - Glenfiddich
+✅ The Glenlivet 12 YO - The Glenlivet
+✅ The Glenlivet Founder's Reserve - The Glenlivet
+✅ The Glenlivet 18 YO - The Glenlivet
+✅ The Macallan Double Cask 12 YO - The Macallan
+✅ The Macallan Sherry Oak 12 YO - The Macallan
+✅ The Macallan Triple Cask 15 YO - The Macallan
+✅ Aberlour 12 YO Double Cask - Aberlour
+✅ Aberlour 16 YO Double Cask - Aberlour
+✅ Aberlour A'bunadh - Aberlour
 The Balvenie DoubleWood 12 YO - The Balvenie
 The Balvenie Caribbean Cask 14 YO - The Balvenie
 The Balvenie PortWood 21 YO - The Balvenie

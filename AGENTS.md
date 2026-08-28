@@ -135,3 +135,8 @@ Current status of `tasks/` (authoritative — kept in sync with every task file 
 - 053 [TODO] Backfill Videos 4 Per Language
 - 054 [DONE] Add Whiskies Vat69 Scapa Tobermory Ledaig Torabhaig
 - 055 [DONE] Add Whiskies Raasay Harris Abhainn Saxa Lagg
+- 056 [TODO] Scalable Snapshot Loader Split Json Export
+- 057 [TODO] Catalog Detail Pagination Slim Index
+- 058 [TODO] Catalog Finer Shards Search
+- 059 [TODO] Catalog Counts Ranking Snapshot Metadata
+- 060 [DONE] Add 10 Speyside Whiskies Backfill Distillery Descriptions

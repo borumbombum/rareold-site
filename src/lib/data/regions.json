@@ -120,6 +120,12 @@
     "sort_order": 16
   },
   {
+    "id": "scotland-campbeltown",
+    "origin_id": "scotland",
+    "name": "Campbeltown",
+    "sort_order": 17
+  },
+  {
     "id": "scotland-lowlands",
     "origin_id": "scotland",
     "name": "Lowlands",

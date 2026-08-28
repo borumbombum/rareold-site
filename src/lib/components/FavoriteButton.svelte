@@ -61,7 +61,7 @@
 		const btn = e.currentTarget as HTMLElement;
 		const next = !isFav;
 		busy = true;
-		navigation.setLoading(true);
+		navigation.beginLoading();
 		if (next) favorites.add(slug);
 		else favorites.remove(slug);
 		try {
@@ -89,7 +89,7 @@
 			ui.showToast(m.error_generic(), true);
 		} finally {
 			busy = false;
-			navigation.setLoading(false);
+			navigation.endLoading();
 		}
 	}
 </script>

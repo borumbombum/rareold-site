@@ -56,7 +56,7 @@
 		bind:this={scrollEl}
 		role="presentation"
 		aria-label="User reviews carousel"
-		class="no-scrollbar flex gap-2 overflow-x-auto snap-x snap-mandatory lg:overflow-visible lg:snap-none"
+		class="no-scrollbar flex gap-2 overflow-x-auto snap-x snap-mandatory lg:flex-wrap lg:overflow-visible lg:snap-none"
 		onscroll={handleScroll}
 	>
 		{#each items as item (item.review.id)}
@@ -68,7 +68,7 @@
 
 	{#if browser && totalPages > 1}
 		<div
-			class="mt-3 flex justify-center gap-1.5"
+			class="mt-3 flex justify-center gap-1.5 lg:hidden"
 			aria-hidden="true"
 		>
 			{#each Array(totalPages) as _, i}

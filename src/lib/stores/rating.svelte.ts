@@ -38,6 +38,11 @@ export const ratingStore = {
 export async function refreshRating(slugs: string[]): Promise<void> {
 	const unique = [...new Set(slugs)].filter(Boolean);
 	if (unique.length === 0) return;
+	const [{ navigation }, { tick }] = await Promise.all([
+		import('./navigation.svelte'),
+		import('svelte')
+	]);
+	navigation.beginLoading();
 	try {
 		const res = await fetch(`/api/rating?slugs=${encodeURIComponent(unique.join(','))}`);
 		if (!res.ok) return;
@@ -54,7 +59,10 @@ export async function refreshRating(slugs: string[]): Promise<void> {
 			const { reviewedStore } = await import('./reviewed.svelte');
 			reviewedStore.refresh(data.reviewed);
 		}
+		await tick();
 	} catch {
 		/* keep last-known rating */
+	} finally {
+		navigation.endLoading();
 	}
 }

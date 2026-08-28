@@ -35,7 +35,7 @@
 		}
 		const next = !isFollowing;
 		busy = true;
-		navigation.setLoading(true);
+		navigation.beginLoading();
 		try {
 			const ok = await toggleFollow(distilleryId, next);
 			if (!ok) {
@@ -51,7 +51,7 @@
 			}
 		} finally {
 			busy = false;
-			navigation.setLoading(false);
+			navigation.endLoading();
 		}
 		void e;
 	}

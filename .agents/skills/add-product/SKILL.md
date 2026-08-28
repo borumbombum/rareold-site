@@ -201,6 +201,8 @@ Add a new entry to the `whiskies` array. Follow this exact structure:
 
 Target **4 videos per language** × 5 languages (`es | en | pt | ja | fr`, ≤20 per product). The runtime shows `MAX_VIDEOS = 4` per language (`src/lib/utils/videos.ts`) and slices anything beyond.
 
+**Localize the videos themselves.** Videos are paired with a locale at runtime, so each one must be a genuine tasting/review **in that language** — the spoken/narrated language is what matters, not just the country or channel. A Spanish review goes in the `es` slot, a Portuguese one in `pt`, a Japanese one in `ja`, a French one in `fr`, an English one in `en`. Do not put an English-language video in a non-English slot just because the channel "covers" that region. Localize the `label` too where possible so the caption shown is in the viewer's language.
+
 **If honest searching can't find 4 quality in-language videos for a language: ship at minimum 2.** The runtime automatically tops up remaining slots with English videos (deduplicated by URL) — never pad with irrelevant videos just to hit 4.
 
 When a language runs dry on exact-expression reviews, widen in this order before settling for 2:
@@ -230,6 +232,7 @@ Add them as `influencer_videos` on the product's seed entry:
 Rules:
 
 - `language` ∈ `es | en | pt | ja | fr`; 4 per language when possible, hard floor of 2 (English top-up covers the gap at runtime)
+- **The video's spoken language MUST match its `language` slot** — verified from the title/channel. A video only counts toward the count for the language it's actually narrated in (a Spanish review is *not* an `en` or `pt` video even if the distillery is Scottish).
 - A URL may appear **once per product, ever** — never list an English URL under another language's slot (the runtime dedups by URL, so duplicates silently waste slots)
 - Prefer 3–20 minute videos (typical review length)
 - `platform` ∈ `youtube | instagram`

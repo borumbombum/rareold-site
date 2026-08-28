@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-08-27T21:25:52.417Z",
+  "generatedAt": "2026-08-28T20:18:12.590Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -273,6 +273,498 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "aberlour-12-yo-double-cask",
+      "slug": "aberlour-12-yo-double-cask",
+      "name": "Aberlour 12 Year Old Double Cask",
+      "distillery": {
+        "id": "aberlour",
+        "name": "Aberlour",
+        "name_es": "Aberlour",
+        "name_pt": "Aberlour",
+        "name_en": "Aberlour",
+        "name_ja": "アバラワー",
+        "name_fr": null
+      },
+      "description": "Aberlour 12 años Double Cask se madura en Oloroso y roble americano de bourbon. Es un single malt suave y especiado con fruta oscura rica, cereza, chocolate y un toque de especias. El final es aterciopelado, dulce y muy redondo.",
+      "image": "/data/images/aberlour-12-yo-double-cask.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Oloroso y roble americano de bourbon",
+      "distillery_id": "aberlour",
+      "insertion_order": 231,
+      "featured": false,
+      "name_pt": "Aberlour 12 anos Double Cask",
+      "description_pt": "O Aberlour 12 anos Double Cask amadurece em Oloroso e carvalho americano de bourbon. É um single malt suave e picante com fruta escura rica, cereja, chocolate e um toque de especiarias. O final é aveludado, doce e muito redondo.",
+      "name_en": "Aberlour 12 Year Old Double Cask",
+      "description_en": "Aberlour 12 Year Old Double Cask is matured in Oloroso and American oak bourbon casks. It is a smooth, sherried single malt with rich dark fruit, cherry, chocolate and a touch of spice. The finish is velvety, sweet and very rounded.",
+      "name_ja": "アバラワー ダブルカスク 12年",
+      "description_ja": "アバラワー12年 ダブルカスクは、オロロソ樽とアメリカンオークのバーボン樽で熟成されます。リッチなダークフルーツ、チェリー、チョコレート、そしてスパイスの香りが調和する滑らかでシェリー感のあるシングルモルトです。余韻はビロードのような滑らかさで、甘く丸みのある味わいです。",
+      "name_fr": "Aberlour 12 ans Double Cask",
+      "description_fr": "L'Aberlour 12 ans Double Cask est mûri en Oloroso et en chêne américain de bourbon. C'est un single malt doux et sherry avec de riches fruits noirs, de la cerise, du chocolat et une touche d'épices. La finale est veloutée, sucrée et très ronde.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GDd8d0H9ubs",
+          "label": "Aberlour 12 Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LoolAuxuh9g",
+          "label": "Aberlour 12 in 60 Seconds"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O2roG0-rZx8",
+          "label": "Aberlour 12 Year Old review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=h78n1fR3MWo",
+          "label": "Aberlour Double Cask 12 review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0XPvfLRWKoQ",
+          "label": "Aberlour 12 packaging y receta"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5mch-mMB3l4",
+          "label": "Cata Aberlour 12 doble barrica"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BoFWmbY0RXQ",
+          "label": "Aberlour 12 review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xf1NtlhMjMo",
+          "label": "Probemos Aberlour 12 años"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2sFxG7f9_-k",
+          "label": "LWB E102 Aberlour"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jH9JcRoS3Ck",
+          "label": "Avis Aberlour 12 Double Cask"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vHCHM14qc7Q",
+          "label": "Dégustation Aberlour Casg Annamh"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5gdIDPbPj_s",
+          "label": "アベラワー12年 ダブルカスク"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BtvFPp3tmyA",
+          "label": "アベラワー12年 試飲"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dBrjv_ph_Bc",
+          "label": "アベラワー12年 テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xr6R2TwAiiE",
+          "label": "アベラワー12年 試飲"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=--Ehm2EmBK8",
+          "label": "Experimentando Aberlour 12"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KIpGXuM8Qg4",
+          "label": "Review Aberlour 12 PT-BR"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QQnoSzll6n4",
+          "label": "Degustação Aberlour 12"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oQUYTapC3uI",
+          "label": "Review Aberlour 12 anos"
+        }
+      ]
+    },
+    {
+      "id": "aberlour-16-yo-double-cask",
+      "slug": "aberlour-16-yo-double-cask",
+      "name": "Aberlour 16 Year Old Double Cask",
+      "distillery": {
+        "id": "aberlour",
+        "name": "Aberlour",
+        "name_es": "Aberlour",
+        "name_pt": "Aberlour",
+        "name_en": "Aberlour",
+        "name_ja": "アバラワー",
+        "name_fr": null
+      },
+      "description": "Aberlour 16 años Double Cask se madura en Oloroso y roble americano. Es un single malt suave y rico con fruta seca, toffee, miel y un roble elegante. El final es largo, cálido y perfectamente equilibrado entre dulzura y especias.",
+      "image": "/data/images/aberlour-16-yo-double-cask.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 16,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Oloroso y roble americano",
+      "distillery_id": "aberlour",
+      "insertion_order": 232,
+      "featured": false,
+      "name_pt": "Aberlour 16 anos Double Cask",
+      "description_pt": "O Aberlour 16 anos Double Cask amadurece em Oloroso e carvalho americano. É um single malt suave e rico com frutos secos, caramelo, mel e um carvalho elegante. O final é longo, caloroso e perfeitamente equilibrado entre doçura e especiarias.",
+      "name_en": "Aberlour 16 Year Old Double Cask",
+      "description_en": "Aberlour 16 Year Old Double Cask is matured in Oloroso and American oak casks. It is a smooth, rich single malt with dried fruit, toffee, honey and elegant oak. The finish is long, warming and perfectly balanced between sweetness and spice.",
+      "name_ja": "アバラワー ダブルカスク 16年",
+      "description_ja": "アバラワー16年 ダブルカスクは、オロロソ樽とアメリカンオーク樽で熟成されます。ドライフルーツ、トフィー、ハチミツ、そして上品なオークが広がる滑らかでリッチなシングルモルトです。余韻は長く温かく、甘みとスパイスのバランスが絶妙です。",
+      "name_fr": "Aberlour 16 ans Double Cask",
+      "description_fr": "L'Aberlour 16 ans Double Cask est mûri en Oloroso et en chêne américain. C'est un single malt doux et riche avec des fruits secs, du toffee, du miel et un boisé élégant. La finale est longue, chaleureuse et parfaitement équilibrée entre douceur et épices.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I8xxGVAuGUk",
+          "label": "Aberlour 16YR Double Cask review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LirScLhPzw0",
+          "label": "Aberlour 16 Double Cask review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jXRemzeB18Q",
+          "label": "Aberlour 16 60-second review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=k3LqS-enoYo",
+          "label": "Aberlour 16 Double Cask review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LVqUQzwrBsk",
+          "label": "Aberlour 18, joya de Speyside"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=btgibM-UKA8",
+          "label": "Aberlour 14 años (en español)"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5ei4gpWXmzY",
+          "label": "Les whisky Aberlour"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9FmqXcdhnP8",
+          "label": "Interview Aberlour brand ambassador"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Aw7s0TEnfpE",
+          "label": "アベラワー16年 解説"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iOSyxPXX8wc",
+          "label": "アベラワー16年"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RtjeTMs-U74",
+          "label": "Aberlour 13, 16 e 18 anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ysyQuwL9jGw",
+          "label": "Aberlour 16 anos Review"
+        }
+      ]
+    },
+    {
+      "id": "aberlour-abunadh",
+      "slug": "aberlour-abunadh",
+      "name": "Aberlour A'bunadh",
+      "distillery": {
+        "id": "aberlour",
+        "name": "Aberlour",
+        "name_es": "Aberlour",
+        "name_pt": "Aberlour",
+        "name_en": "Aberlour",
+        "name_ja": "アバラワー",
+        "name_fr": null
+      },
+      "description": "Aberlour A'bunadh es un single malt de fortaleza de barrica, sin filtrar, madurado únicamente en toneles de jerez Oloroso. Es una intensa bomba de jerez con pasas y fruta oscura rica, especias y naranja. El final es largo, cálido y potente, con la fuerza característica de la fortaleza de barrica.",
+      "image": "/data/images/aberlour-abunadh.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 60,
+      "cask": "Toneles de jerez Oloroso (fortaleza de barrica)",
+      "distillery_id": "aberlour",
+      "insertion_order": 233,
+      "featured": false,
+      "name_pt": "Aberlour A'bunadh",
+      "description_pt": "O Aberlour A'bunadh é um single malt de força de barril, sem filtração, amadurecido apenas em toneis de xerez Oloroso. É uma intensa bomba de xerez com passas e fruta escura rica, especiarias e laranja. O final é longo, caloroso e potente, com a força característica da força de barril.",
+      "name_en": "Aberlour A'bunadh",
+      "description_en": "Aberlour A'bunadh is an unfiltered, cask-strength single malt matured solely in Oloroso sherry butts. It is an intense sherry bomb with raisins, rich dark fruit, spice and orange. The finish is long, warming and powerful, with the characteristic cask-strength warmth.",
+      "name_ja": "アバラワー アブナドゥ",
+      "description_ja": "アバラワー アブナドゥは、ノンフィルターのカスクストレングスで、オロロソシェリーのバット樽のみで熟成されます。レーズンとリッチなダークフルーツ、スパイス、オレンジが広がる、シェリー感の強い濃厚な味わいです。余韻は長く温かく力強く、カスクストレングス特有の熱感が特徴です。",
+      "name_fr": "Aberlour A'bunadh",
+      "description_fr": "L'Aberlour A'bunadh est un single malt non filtré, titre d'alambic (brut de fût), mûri uniquement en barriques de sherry Oloroso. C'est une intense bombe de sherry avec des raisins secs, de riches fruits noirs, des épices et de l'orange. La finale est longue, chaleureuse et puissante, avec la chaleur caractéristique du brut de fût.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=21NHZfIXDlk",
+          "label": "Aberlour A'bunadh"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Jrs_ofDYp4s",
+          "label": "Aberlour A'bunadh review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VAinvyJrM8w",
+          "label": "Aberlour A'bunadh Batch 45 vs 50"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZxuNW1Qsxdg",
+          "label": "Aberlour A'bunadh Sherry Cask"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BqlkgSgowwg",
+          "label": "Aberlour 12 Double Cask"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IcL42-8ey5U",
+          "label": "Aberlour A'Bunadh cask strength"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=12dmHxoq7eo",
+          "label": "Aberlour A'Bunadh Batch 74"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Cs4JglWHRts",
+          "label": "Aberlour Triple Cask dégustation"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ARcpj8Xce0",
+          "label": "アブーナ シェリーカスクコレクション"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XDk9VWQeLh8",
+          "label": "アベラワーアブーナ 60度"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bhyC_c-6fUs",
+          "label": "アベラワー アブーナ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sbE-ablQAgo",
+          "label": "アベラワー アブーナ 新商品"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5a97g6VTzV4",
+          "label": "Review Aberlour A'bunadh PT-BR"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I6j_EAZiFEU",
+          "label": "Aberlour A'bunadh Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SoxU1--3Z40",
+          "label": "Review Aberlour A'Bunadh"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UXytaiekcPg",
+          "label": "Só uma dose Aberlour A'bunadh"
+        }
+      ]
     },
     {
       "id": "abhainn-dearg-10-year-old",
@@ -1855,6 +2347,196 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=sznR2hHTnCc",
           "label": ""
+        }
+      ]
+    },
+    {
+      "id": "arran-barley-year-old",
+      "slug": "arran-barley-year-old",
+      "name": "Arran Barley Year Old",
+      "distillery": {
+        "id": "arran",
+        "name": "Isle of Arran Distillers",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Arran Barley Year Old es la primera edición de la serie \"Local Barley\" de Isle of Arran, elaborada con cebada Optic cultivada en la granja Bellevue de la propia isla y madurada en barricas de bourbon de primer llenado y pipas de jerez de segundo llenado. Embotellado a 50% ABV, sin filtración en frío y de color natural. Nariz con hierbas frescas y cítricos, con vainilla y un toque de anís. En boca, capas de malta a galleta y jengibre especiado junto a roble suave y vibrantes frutas de verano. Final limpio y seco, con delicados vestigios de cítricos y cereal.",
+      "image": "/data/images/arran-barley-year-old.webp",
+      "origin": "scotland",
+      "region": "Islands",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 50,
+      "cask": null,
+      "distillery_id": "arran",
+      "insertion_order": 223,
+      "featured": false,
+      "name_pt": "Arran Barley Year Old",
+      "description_pt": "Arran Barley Year Old é a primeira edição da série \"Local Barley\" da Isle of Arran, feita com cevada Optic cultivada na Granja Bellevue na própria ilha e amadurecida em barris de bourbon de primeiro enchimento e pipas de xerez de segundo enchimento. Engarrafado a 50% ABV, sem filtração a frio e com cor natural. Nariz com ervas frescas e citrinos, com baunilha e um toque de anis. No paladar, camadas de malte de biscoito e gengibre picante junto de carvalho suave e vibrantes frutas de verão. Final limpo e seco, com delicados vestígios de citrinos e cereal.",
+      "name_en": "Arran Barley Year Old",
+      "description_en": "Arran Barley Year Old is the first edition of Isle of Arran’s \"Local Barley\" series, made with Optic barley grown at Bellevue Farm on the island itself and matured in first-fill bourbon barrels and second-fill sherry hogsheads. Bottled at 50% ABV, non-chill filtered and natural in colour. Nose of fresh herbs and citrus, with vanilla and a hint of aniseed. On the palate, layers of biscuity malt and spicy ginger alongside soft oak and vibrant summer fruits. Finish is clean and dry, leaving delicate traces of citrus and cereal.",
+      "name_ja": "Arran Barley Year Old",
+      "description_ja": "Arran Barley Year Old（アラン・バーレイ・イヤー・オールド）は、アイラ・オブ・アラン蒸溜所の「ローカル・バーレイ」シリーズの第一弾。島内のベルビュー農場で栽培されたオプティック種大麦を使用し、ファーストフィル・バーボンバレルとセカンドフィル・シェリーホグスヘッドで熟成。50% ABVでボトリングされ、ノンチルフィルター、自然色。フレッシュなハーブとシトラスの香りに、バニラとアニスのヒント。味わいはビスケットのよう麦芽とスパイシーなジンジャー、そして柔らかなオークと生き生きとした夏の果実。キレのある乾いたフィニッシュで、シトラスと穀物の繊細な余韻が残る。",
+      "name_fr": "Arran Barley Year Old",
+      "description_fr": "Arran Barley Year Old est la première édition de la série \"Local Barley\" d’Isle of Arran, élaborée avec de l’orge Optic cultivée à la ferme Bellevue sur l’île même et vieillie en fûts de bourbon de premier remplissage et en fûts de xérès de second remplissage. Embouteillé à 50% ABV, non filtré à froid et de couleur naturelle. Nez d’herbes fraîches et d’agrumes, avec de la vanille et une pointe d’anis. En bouche, des couches de malt biscuité et de gingembre épicé accompagnées d’un chêne doux et de vibrants fruits d’été. Finale propre et sèche, laissant de délicates traces d’agrumes et de céréales.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UG_qQbFqtaI",
+          "label": "Arran Barley 10yo review - Whisky Lock"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=a-RfmL9kBPs",
+          "label": "Arran Barley - Mark's Whisky Ramblings"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c-CkhfsKLIM",
+          "label": "Arran 10 Arran Barley review - Whiskey Novice"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zTN7UTUmg24",
+          "label": "Arran Barley 10 - The Neck Pour"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4dcIn587cEI",
+          "label": "Arran 10 - Piojo Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i_aVcKIlM3c",
+          "label": "Probemos Arran de 10 años - Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l8wct3ESJXo",
+          "label": "Arran 10 - Hablando de Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=q9ZvYHshu_I",
+          "label": "Arran 10 Review - First Phil Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0nDnO862MpY",
+          "label": "Arran Barley 10 ans - Whisky et Cie"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DMjqd8d8OQw",
+          "label": "Arran 10 ans - La Maison du Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TG7YTVuKEOA",
+          "label": "Le Arran 10 ans - Whisky et Cie"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X1GU4ViHtxc",
+          "label": "Arran best value - Malt à propos"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c-Q5ULa1TP0",
+          "label": "アラン10年 - ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oqXh2jDHzq0",
+          "label": "アラン10年 - 2.5畳の籠に生息するハイボールおじさん"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wR3iaZDDIbg",
+          "label": "アラン10年 本音レビュー - ゆうのウイスキー大学"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wcm27BNIKYA",
+          "label": "アラン10年 飲み比べ - せるじおのハイボールチャンネル"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ItNIuac3bI",
+          "label": "The Arran 10 anos - Mapa do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CMfCxzp9nDM",
+          "label": "Arran 10 REVIEW - Loucos Por Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T67EpU-u0r4",
+          "label": "Arran 10 Anos - Whisky Capital"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=r_2CciHm3To",
+          "label": "Arran 10 Anos - Sanson Single Malt"
         }
       ]
     },
@@ -5903,6 +6585,480 @@
       "resellers_usa": []
     },
     {
+      "id": "glen-scotia-15-yo",
+      "slug": "glen-scotia-15-yo",
+      "name": "Glen Scotia 15 Year Old",
+      "distillery": {
+        "id": "glen-scotia",
+        "name": "Glen Scotia Distillery",
+        "name_es": "Glen Scotia Distillery",
+        "name_pt": "Glen Scotia Distillery",
+        "name_en": "Glen Scotia Distillery",
+        "name_ja": "グレン・スコシア蒸留所",
+        "name_fr": "Distillerie Glen Scotia"
+      },
+      "description": "Glen Scotia 15 es un single malt premiado de Campbeltown, madurado en barricas de roble americano seleccionadas (bourbon de primer llenado y roble americano rellenado) con un breve remate en barricas de jerez Oloroso. Sin turba y rico y suave, ofrece notas de vainilla, roble, frutas especiadas horneadas, albaricoque, azahar y un sutil fondo salino. Refleja el carácter clásico y regional de Campbeltown, embotellado a 46% ABV sin filtración en frío.",
+      "image": "/data/images/glen-scotia-15-yo.webp",
+      "origin": "scotland",
+      "region": "Campbeltown",
+      "age": 15,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Roble americano (primer llenado y reutilizado) con remate en Oloroso",
+      "distillery_id": "glen-scotia",
+      "insertion_order": 219,
+      "featured": false,
+      "name_pt": "Glen Scotia 15 Year Old",
+      "description_pt": "Glen Scotia 15 é um single malt premiado de Campbeltown, amadurecido em barris de carvalho americano selecionados (bourbon de primeiro enchimento e carvalho americano reutilizado) com um breve acabamento em barris de xerez Oloroso. Sem turfa, rico e suave, oferece notas de baunilha, carvalho, frutas especiadas assadas, damasco, flor de laranjeira e um sutil fundo salino. Reflete o caráter clássico e regional de Campbeltown, engarrafado a 46% ABV sem filtração a frio.",
+      "name_en": "Glen Scotia 15 Year Old",
+      "description_en": "Glen Scotia 15 is an award-winning single malt from Campbeltown, matured in specially selected American oak casks (first-fill bourbon and refill American oak) with a brief finish in Oloroso sherry casks. Unpeated, rich and smooth, it offers notes of vanilla, oak, baked spiced fruits, apricot, orange blossom and a subtle salty background. It reflects the classic, regional character of Campbeltown, bottled at 46% ABV without chill filtration.",
+      "name_ja": "グレン・スコシア 15年",
+      "description_ja": "グレン・スコシア15年は、キャンベルタウンが誇る受賞歴のあるシングルモルト。厳選されたアメリカンオーク樽(ファーストフィルバーボンとリフィル・アメリカンオーク)で熟成され、オロロソシェリー樽で短くフィニッシュ。ノンピートでリッチかつ滑らか。バニラ、オーク、焼きスパイスフルーツ、アプリコット、オレンジブロッサム、そしてほのかな塩味。キャンベルタウンのクラシックで地域的な個性を反映。46% ABV、ノンチルフィルター。",
+      "name_fr": "Glen Scotia 15 Year Old",
+      "description_fr": "Glen Scotia 15 ans est un single malt primé de Campbeltown, vieilli en fûts de chêne américain spécialement sélectionnés (premier remplissage bourbon et chêne américain réutilisé) avec une courte finale en fûts de xérès Oloroso. Non tourbé, riche et doux, il offre des notes de vanille, de chêne, de fruits épicés cuits, d’abricot, de fleur d’oranger et un fond salé subtil. Il reflète le caractère classique et régional de Campbeltown, mis en bouteille à 46 % ABV sans filtration à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0pODohju7OI",
+          "label": "Glen Scotia 15 years | Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gzxuJM9fgdg",
+          "label": "Glen Scotia 15 Year-Old | Top Shelf"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=myQBgYjoN0Q",
+          "label": "Glen Scotia 15 Years Old | Single Malt Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0bXRipr1e0I",
+          "label": "Glen Scotia 15 años [cata y reseña]"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=32I-enVilfc",
+          "label": "Cata y reseña GLEN SCOTIA 15 AÑOS"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6I2NtuqJiDE",
+          "label": "Cata Glen Scotia 15 años"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5g4Kkc5CZro",
+          "label": "Bataille Royale - Glen Scotia (15, DC, Victoriana)"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S_UxwdQm864",
+          "label": "LWB. E71: Glen Scotia!"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2vCTgvFQb7o",
+          "label": "グレンスコシア15年 飲みつつレビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oA6O00oyX4M",
+          "label": "グレンスコシア15年 いただき下します"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7tclCRw2MuY",
+          "label": "Glen Scotia 15 Anos | Sanson"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VXPNBR7wBt8",
+          "label": "Glen Scotia Victoriana | resenha"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y8xkRU5L2K0",
+          "label": "Glen Scotia Campbeltown 1832 | review"
+        }
+      ]
+    },
+    {
+      "id": "glen-scotia-double-cask",
+      "slug": "glen-scotia-double-cask",
+      "name": "Glen Scotia Double Cask",
+      "distillery": {
+        "id": "glen-scotia",
+        "name": "Glen Scotia Distillery",
+        "name_es": "Glen Scotia Distillery",
+        "name_pt": "Glen Scotia Distillery",
+        "name_en": "Glen Scotia Distillery",
+        "name_ja": "グレン・スコシア蒸留所",
+        "name_fr": "Distillerie Glen Scotia"
+      },
+      "description": "Glen Scotia Double Cask es una introducción excelente a la gama de esta destilería de Campbeltown. Se madura en barricas de bourbon de primer llenado y se remata durante 12 meses en barricas de jerez Pedro Ximénez. Ofrece un equilibrio perfecto de caramelo, toffee, roble de vainilla, frutas especiadas y un final dulce y seco de jerez, con la característica brisa salina de Campbeltown. Sin turba, rico y especiado, embotellado a 46% ABV sin filtración en frío.",
+      "image": "/data/images/glen-scotia-double-cask.webp",
+      "origin": "scotland",
+      "region": "Campbeltown",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon de primer llenado con remate en jerez Pedro Ximénez",
+      "distillery_id": "glen-scotia",
+      "insertion_order": 221,
+      "featured": false,
+      "name_pt": "Glen Scotia Double Cask",
+      "description_pt": "Glen Scotia Double Cask é uma introdução excelente à gama desta destilaria de Campbeltown. Amadurece em barris de bourbon de primeiro enchimento e termina por 12 meses em barris de xerez Pedro Ximénez. Oferece um equilíbrio perfeito de caramelo, toffee, carvalho de baunilha, frutas condimentadas e um final doce e seco de xerez, com a característica brisa salina de Campbeltown. Sem turfa, rico e condimentado, engarrafado a 46% ABV sem filtração a frio.",
+      "name_en": "Glen Scotia Double Cask",
+      "description_en": "Glen Scotia Double Cask is an excellent introduction to the range of this Campbeltown distillery. It matures in first-fill bourbon casks and finishes for 12 months in Pedro Ximénez sherry casks. It offers a perfect balance of caramel, toffee, vanilla oak, spiced fruit and a sweet, dry sherry finish, with the characteristic salty sea spray of Campbeltown. Unpeated, rich and spicy, bottled at 46% ABV without chill filtration.",
+      "name_ja": "グレン・スコシア ダブルカスク",
+      "description_ja": "グレン・スコシア・ダブルカスクは、キャンベルタウンのこの蒸溜所のラインナップへの素晴らしい入門編。ファーストフィルバーボン樽で熟成し、ペドロヒメネスシェリー樽で12ヶ月フィニッシュ。キャラメル、トフィー、バニラオーク、スパイスフルーツ、そして甘くドライなシェリーの余韻と、キャンベルタウンらしい塩味の海風が完璧なバランス。ノンピートでリッチ、スパイシー。46% ABV、ノンチルフィルター。",
+      "name_fr": "Glen Scotia Double Cask",
+      "description_fr": "Glen Scotia Double Cask est une excellente introduction à la gamme de cette distillerie de Campbeltown. Il mûrit en fûts de bourbon de premier remplissage et se termine pendant 12 mois en fûts de xérès Pedro Ximénez. Il offre un équilibre parfait entre caramel, toffee, chêne vanillé, fruits épicés et une finale douce et sèche de xérès, avec la caractéristique brise salée de Campbeltown. Non tourbé, riche et épicé, mis en bouteille à 46 % ABV sans filtration à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3ulrYUEzpk8",
+          "label": "Glen Scotia Double Cask | Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5v669vB0XQo",
+          "label": "Glen Scotia Double Cask REVIEW | Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kGY_60nvSRE",
+          "label": "Glen Scotia Double Cask | No Nonsense Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lS1hHroBbjY",
+          "label": "Glen Scotia Double Cask | WhiskyJason"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=32I-enVilfc",
+          "label": "Cata y reseña GLEN SCOTIA 15 AÑOS"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4sJOAxs7X34",
+          "label": "GLEN SCOTIA DOUBLE CASK - Reseña"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wsOtZaG-xDo",
+          "label": "GLEN SCOTIA VICTORIANA | HABLANDO DE WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5g4Kkc5CZro",
+          "label": "Bataille Royale - Glen Scotia (15, DC, Victoriana)"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MngPpSj7gro",
+          "label": "Glen Scotia double cask 46% | la centrale whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S_UxwdQm864",
+          "label": "LWB. E71: Glen Scotia!"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8F3V4P78hQM",
+          "label": "グレンスコシア ダブルカスク"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8idXX2j1krE",
+          "label": "グレンスコシアダブルカスク"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Om7cqUgfANw",
+          "label": "グレンスコシア ダブルカスク 潮の香りと"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VXPNBR7wBt8",
+          "label": "Glen Scotia Victoriana | resenha"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y8xkRU5L2K0",
+          "label": "Glen Scotia Campbeltown 1832 | review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zSjbOkRjNjI",
+          "label": "Glen Scotia Double Cask | Tierri Whisky"
+        }
+      ]
+    },
+    {
+      "id": "glen-scotia-victoriana",
+      "slug": "glen-scotia-victoriana",
+      "name": "Glen Scotia Victoriana",
+      "distillery": {
+        "id": "glen-scotia",
+        "name": "Glen Scotia Distillery",
+        "name_es": "Glen Scotia Distillery",
+        "name_pt": "Glen Scotia Distillery",
+        "name_en": "Glen Scotia Distillery",
+        "name_ja": "グレン・スコシア蒸留所",
+        "name_fr": "Distillerie Glen Scotia"
+      },
+      "description": "Glen Scotia Victoriana es una interpretación moderna de un clásico single malt de estilo victoriano de Campbeltown, embotellado a fuerza de barrica (54.2% ABV) y sin filtrar en frío. Se madura en barricas de bourbon de primer y segundo llenado y se remata en una combinación de barricas de jerez Pedro Ximénez y roble americano muy carbonizado. Muy premiado, despliega azúcares caramelizados, crema brulée, melazas, frutos rojos oscuros, chocolate y una ligera madera ahumada, con un final firme y seco con un toque de turba. Cada barrica se elige a mano por su carácter, madurez y sabor.",
+      "image": "/data/images/glen-scotia-victoriana.webp",
+      "origin": "scotland",
+      "region": "Campbeltown",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 54.2,
+      "cask": "Bourbon (primer y segundo llenado) con remate en PX y roble muy carbonizado",
+      "distillery_id": "glen-scotia",
+      "insertion_order": 220,
+      "featured": false,
+      "name_pt": "Glen Scotia Victoriana",
+      "description_pt": "Glen Scotia Victoriana é uma interpretação moderna de um clássico single malt de estilo vitoriano de Campbeltown, engarrafado a força de barril (54.2% ABV) e sem filtração a frio. Amadurece em barris de bourbon de primeiro e segundo enchimento e termina em uma combinação de barris de xerez Pedro Ximénez e carvalho americano muito carbonizado. Muito premiado, apresenta açúcares caramelizados, crème brûlée, melaços, frutas vermelhas escuras, chocolate e uma leve madeira defumada, com um final firme e seco com um toque de turfa. Cada barril é escolhido à mão por seu caráter, maturidade e sabor.",
+      "name_en": "Glen Scotia Victoriana",
+      "description_en": "Glen Scotia Victoriana is a modern take on a classic Victorian-style Campbeltown single malt, bottled at cask strength (54.2% ABV) and unchill-filtered. It matures in first and second-fill bourbon casks and is finished in a combination of Pedro Ximénez sherry and heavily charred American oak casks. Highly awarded, it delivers caramelised sugars, crème brûlée, molasses, dark red fruits, chocolate and a light woody smoke, with a firm, dry finish and a hint of peat. Each cask is hand-chosen for its character, maturity and flavour.",
+      "name_ja": "グレン・スコシア ヴィクトリアーナ",
+      "description_ja": "グレン・スコシア・ヴィクトリアーナは、キャンベルタウンのクラシックなヴィクトリア風シングルモルトを現代的に解釈したもの。カスクストレングス(54.2% ABV)、ノンチルフィルターで瓶詰め。ファースト/セカンドフィルバーボン樽で熟成し、ペドロヒメネスシェリー樽と強くチャードしたアメリカンオーク樽の組み合わせでフィニッシュ。数々の受賞歴があり、キャラメリゼした糖、クレームブリュレ、糖蜜、濃い赤い果実、チョコレート、軽いウッディスモークが広がり、しっかりとしたドライな余韻にわずかなピート。樽の個性、熟成度、風味を手作業で選定。",
+      "name_fr": "Glen Scotia Victoriana",
+      "description_fr": "Glen Scotia Victoriana est une interprétation moderne d’un single malt classique de style victorien de Campbeltown, mis en bouteille à pleine force (54,2 % ABV) et non filtré à froid. Il mûrit en fûts de bourbon de premier et deuxième remplissage et se termine dans une combinaison de fûts de xérès Pedro Ximénez et de chêne américain fortement carbonisé. Très primé, il déploie des sucres caramélisés, de la crème brûlée, de la mélasse, des fruits rouges foncés, du chocolat et un léger bois fumé, avec une finale ferme et sèche et une pointe de tourbe. Chaque fût est choisi à la main pour son caractère, sa maturité et sa saveur.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MyjPJW0tSsQ",
+          "label": "Whiskey Review - Glen Scotia Victoriana"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rfG2wdYokK4",
+          "label": "Does it deserve the hype? | Victoriana"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tDIz35MkxJs",
+          "label": "Glen Scotia Victoriana | Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w97ZosEb9vk",
+          "label": "Glen Scotia Victoriana (Campbeltown Greatness?)"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5uVyIVj5HHI",
+          "label": "La Calidad del Whisky: Port Charlotte y Victoriana"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SyXcLipoCj8",
+          "label": "Victoriana: comparamos versiones"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hXRQhM_td6k",
+          "label": "Glen Scotia Victoriana | Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wsOtZaG-xDo",
+          "label": "GLEN SCOTIA VICTORIANA | HABLANDO DE WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3yQNpeiuvW0",
+          "label": "Le Victoriana de Glen Scotia"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S_UxwdQm864",
+          "label": "LWB. E71: Glen Scotia!"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=p4OS9wVvHhg",
+          "label": "グレンスコシア ヴィクトリアーナ（ストレート）"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=urVmYEAEs38",
+          "label": "グレンスコシアビクトリアーナを味わう"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vxduPnl97sc",
+          "label": "グレンスコシア カスクストレングス ビクトリアーナ"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-WYcXaiJZ84",
+          "label": "Review Glen Scotia Victoriana"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VXPNBR7wBt8",
+          "label": "Glen Scotia Victoriana | resenha"
+        }
+      ]
+    },
+    {
       "id": "glenallachie-12-yo",
       "slug": "glenallachie-12-yo",
       "name": "Glenallachie 12 YO",
@@ -6669,6 +7825,386 @@
       ]
     },
     {
+      "id": "glenfiddich-15-yo-solera",
+      "slug": "glenfiddich-15-yo-solera",
+      "name": "Glenfiddich 15 Year Old Solera",
+      "distillery": {
+        "id": "glenfiddich",
+        "name": "Glenfiddich",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Glenfiddich 15 Solera se elabora con la técnica de la solera, pionera de la destilería, inspirada en las bodegas de jerez de España y Portugal. En esta edición, whiskies madurados en barricas de jerez de roble europeo, roble americano y roble nuevo se armonizan en una gran tina de roble (la solera) que nunca se vacía del todo desde 1998. Ofrece un aroma complejo de miel de brezo y vainilla con frutas oscuras; en boca es sedoso, con capas de roble de jerez, mazapán, canela y jengibre, y un final rico y persistente. Embotellado a 40% ABV.",
+      "image": "/data/images/glenfiddich-15-yo-solera.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 15,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Solera: jerez, roble americano y roble nuevo",
+      "distillery_id": "glenfiddich",
+      "insertion_order": 222,
+      "featured": false,
+      "name_pt": "Glenfiddich 15 Year Old Solera",
+      "description_pt": "Glenfiddich 15 Solera é elaborado com a técnica de solera, pioneira da destilaria, inspirada nas adegas de xerez da Espanha e de Portugal. Nesta edição, whiskies amadurecidos em barris de xerez de carvalho europeu, carvalho americano e carvalho novo são harmonizados em um grande tanque de carvalho (a solera) que nunca é esvaziado por completo desde 1998. Oferece um aroma complexo de mel de urze e baunilha com frutas escuras; na boca é sedoso, com camadas de carvalho de xerez, maçapão, canela e gengibre, e um final rico e persistente. Engarrafado a 40% ABV.",
+      "name_en": "Glenfiddich 15 Year Old Solera",
+      "description_en": "Glenfiddich 15 Solera is crafted with the distillery’s pioneering solera technique, inspired by the sherry bodegas of Spain and Portugal. In this edition, whiskies matured in European oak sherry, American oak and new oak casks are harmonised in a large oak tun (the solera) that has never been fully emptied since 1998. It offers a complex aroma of heather honey and vanilla with dark fruits; on the palate it is silky, with layers of sherry oak, marzipan, cinnamon and ginger, and a rich, persistent finish. Bottled at 40% ABV.",
+      "name_ja": "グレンフィディック 15年 ソレラ",
+      "description_ja": "グレンフィディック15年ソレラは、スペインとポルトガルのシェリー造りのボデガに着想を得た、蒸溜所が先駆者となったソレラ製法で造られます。ヨーロピアンオークのシェリー樽、アメリカンオーク樽、ニューオーク樽で熟成したウイスキーを、1998年以来一度も完全に空にしたことのない大きなオークのソレラ樽で調和させます。ヘザーハニーとバニラ、ダークフルーツの複雑な香り。口に含むとシルキーで、シェリーオーク、マジパン、シナモン、ジンジャーの層が広がり、リッチで長く続く余韻。40% ABVで瓶詰め。",
+      "name_fr": "Glenfiddich 15 Year Old Solera",
+      "description_fr": "Glenfiddich 15 Solera est élaboré avec la technique de la solera, pionnière de la distillerie, inspirée des bodegas de xérès d’Espagne et du Portugal. Dans cette édition, des whiskies vieillis en fûts de xérès en chêne européen, en chêne américain et en chêne neuf sont harmonisés dans une grande cuve en chêne (la solera) qui n’a jamais été entièrement vidée depuis 1998. Il offre un arôme complexe de miel de bruyère et de vanille avec des fruits noirs ; en bouche, il est soyeux, avec des couches de chêne de xérès, de massepain, de cannelle et de gingembre, et une finale riche et persistante. Mis en bouteille à 40 % ABV.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GzcJX-k8c0U",
+          "label": "Glenfiddich 15 Year Solera | No Nonsense"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SpyELVNiApE",
+          "label": "Glenfiddich 15 Solera Reserve Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cmlNGQkRrqs",
+          "label": "Glenfiddich 15 years Solera | Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pG64PeAyTTo",
+          "label": "Glenfiddich 15yr Solera | Whiskey Vault"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5i8Vn8pWk48",
+          "label": "Glenfiddich 15 años Solera | Whisky de la Semana"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F7myh9Qr3jc",
+          "label": "Cata de Whisky no. 5 - Glenfiddich 15 Solera"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GMMmCTCv9tw",
+          "label": "La Solera - Glenfiddich 15"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nJpddXdYWSM",
+          "label": "Glenfiddich 15 - Qué es el Sistema Solera"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ALI6m7ukfvQ",
+          "label": "Glenfiddich 12 ans | AlexWhiskyBlog"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CTQ8qWoyYlw",
+          "label": "GLENFIDDICH at WHISKY LODGE"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SNSBqZcE6yY",
+          "label": "Le guide des Whiskies Glenfiddich"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qWQjtQrmTD8",
+          "label": "Battle - Glenfiddich 18 vs Glenlivet 18"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=U6zc8ZfNvNg",
+          "label": "グレンフィディック15年をレビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X7gmLqqPNkk",
+          "label": "グレンフィディック15年 ソレラリザーブ 継ぎ足し"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=prXbW0Qx9_g",
+          "label": "グレンフィディック15年 ソレラリザーブ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z1jQvaNuOck",
+          "label": "グレンフィディック15年ソレラリザーブ（ストレート）"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7jexIEfUkKo",
+          "label": "Degustação Glenfiddich 15 anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=D9_rGy887oo",
+          "label": "Glenfiddich 15 anos Review | WhiskyBrasil"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T66rxfb6pFE",
+          "label": "Glenfiddich 15 anos vat SOLERA"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yYoQDh4I1kU",
+          "label": "Glenfiddich 15 anos | Whisky Capital"
+        }
+      ]
+    },
+    {
+      "id": "glenfiddich-18-yo",
+      "slug": "glenfiddich-18-yo",
+      "name": "Glenfiddich 18 Year Old",
+      "distillery": {
+        "id": "glenfiddich",
+        "name": "Glenfiddich",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Glenfiddich 18 años es un single malt escocés robusto y maduro, envejecido en barriles de jerez Oloroso y bourbon. En nariz y paladar despliega frutas secas, dátiles y manzana al horno. El final es largo y cálido, con una madera de roble elegante y un carácter suave y refinado.",
+      "image": "/data/images/glenfiddich-18-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 18,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Jerez Oloroso y bourbon",
+      "distillery_id": "glenfiddich",
+      "insertion_order": 224,
+      "featured": false,
+      "name_pt": "Glenfiddich 18 anos",
+      "description_pt": "O Glenfiddich 18 anos é um single malt escocês robusto e maduro, envelhecido em barris de xerez Oloroso e bourbon. No nariz e no paladar revela frutos secos, tâmaras e maçã assada. O final é longo e caloroso, com madeira de carvalho elegante e um carácter suave e refinado.",
+      "name_en": "Glenfiddich 18 Year Old",
+      "description_en": "Glenfiddich 18 Year Old is a robust, mature Speyside single malt aged in Oloroso sherry and bourbon casks. It unfolds dried fruit, dates and baked apple on the nose and palate. The finish is long and warming, with elegant oak and a smooth, refined character.",
+      "name_ja": "グレンフィディック 18年",
+      "description_ja": "グレンフィディック18年は、オロロソシェリーとバーボン樽で熟成されたスコッチシングルモルトです。ドライフルーツ、デーツ、焼きリンゴの風味が広がります。余韻は長く温かく、上品なオークと滑らかで洗練された味わいが続きます。",
+      "name_fr": "Glenfiddich 18 ans",
+      "description_fr": "Le Glenfiddich 18 ans est un single malt écossais robuste et mature, vieilli en fûts de sherry Oloroso et de bourbon. Il déploie des fruits secs, des dattes et de la pomme cuite au nez et en bouche. La finale est longue et chaleureuse, avec un boisé élégant et un caractère doux et raffiné.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-bvv6n5Mdvo",
+          "label": "Ralfy 818 Glenfiddich 18yo"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1UneNagw0b4",
+          "label": "Glenfiddich 18 review (Whisky.com)"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6HORT7PakFQ",
+          "label": "Glenfiddich 18 + Wayward single malt"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MgcPVoDPFuM",
+          "label": "Glenfiddich 18 review (Gwhisky)"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Mlqk775UXqE",
+          "label": "Glenfiddich 12 vs 15 vs 18 (cata)"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NoPar28NwN0",
+          "label": "Glenfiddich 18, lo mejor que he probado"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=b2ZtaxfA3LU",
+          "label": "Probemos Glenfiddich 18 años"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oaugMWdx-JQ",
+          "label": "Whisky Glenfiddich 18 Años"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0ufHAocBVyc",
+          "label": "Meilleur whisky de 18 ans d'âge"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CTQ8qWoyYlw",
+          "label": "Dégustation Glenfiddich Whisky Lodge"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SNSBqZcE6yY",
+          "label": "Guide des whiskies Glenfiddich"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qWQjtQrmTD8",
+          "label": "Battle Glenfiddich 18 vs Glenlivet 18"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-kEk9RIX6Qw",
+          "label": "グレンフィディック18年と21年 飲み比べ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=D-rnEM7PxV0",
+          "label": "グレンフィディック18年 飲んでみた"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J3spdurBNfM",
+          "label": "グレンフィディック18年 アフターテイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UIUu3G_3hUE",
+          "label": "グレンフィディック18年"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Eg3CXT1f54g",
+          "label": "Review Glenfiddich 18 anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iRDy_zBcbvg",
+          "label": "Review Glenfiddich 18 anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rzrrCuiZyNk",
+          "label": "Review Glenfiddich 18 Anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yUOHJLFgaAU",
+          "label": "Review Glenfiddich 18 PT-BR"
+        }
+      ]
+    },
+    {
       "id": "glengoyne-10-yo",
       "slug": "glengoyne-10-yo",
       "name": "Glengoyne 10 YO",
@@ -7415,6 +8951,160 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "hazelburn-10-yo",
+      "slug": "hazelburn-10-yo",
+      "name": "Hazelburn 10 Year Old",
+      "distillery": {
+        "id": "springbank",
+        "name": "Springbank Distillery",
+        "name_es": "Springbank Distillery",
+        "name_pt": "Springbank Distillery",
+        "name_en": "Springbank Distillery",
+        "name_ja": "スプリングバンク蒸留所",
+        "name_fr": "Distillerie Springbank"
+      },
+      "description": "Hazelburn 10 es el single malt insignia de la gama Hazelburn de Springbank, una expresión sin turba y triple destilada que resulta cremosa, delicada y ligera. Madurado al 100% en barricas de bourbon, ofrece en nariz notas tropicales de piña horneada, limón, panal de miel y piel de naranja seca. En boca combina manzana verde con un fondo ligeramente vegetal, crema y galletas; el final aporta un toque terroso con caramelo salado, jengibre y coco tostado. Embotellado a 46% ABV, sin filtración en frío ni colorante.",
+      "image": "/data/images/hazelburn-10-yo.webp",
+      "origin": "scotland",
+      "region": "Campbeltown",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Barricas de bourbon (100%)",
+      "distillery_id": "springbank",
+      "insertion_order": 216,
+      "featured": false,
+      "name_pt": "Hazelburn 10 Year Old",
+      "description_pt": "Hazelburn 10 é o single malt carro-chefe da gama Hazelburn de Springbank, uma expressão sem turfa e triplamente destilada, que resulta cremosa, delicada e leve. Amadurecido 100% em barris de bourbon, oferece no nariz notas tropicais de abacaxi assado, limão, favo de mel e casca de laranja seca. Na boca combina maçã verde com um fundo levemente vegetal, creme e biscoitos; o final traz um toque terroso com caramelo salgado, gengibre e coco torrado. Engarrafado a 46% ABV, sem filtração a frio nem corante.",
+      "name_en": "Hazelburn 10 Year Old",
+      "description_en": "Hazelburn 10 is the flagship single malt of the Hazelburn range from Springbank, an unpeated, triple-distilled expression that is creamy, delicate and light. Matured 100% in bourbon casks, the nose offers tropical notes of baked pineapple, lemon, honeycomb and dried orange peel. The palate combines green apple with a slightly vegetal, creamy, biscuit background; the finish brings an earthy touch with salted caramel, ginger and toasted coconut. Bottled at 46% ABV, non-chill filtered and natural colour.",
+      "name_ja": "ヘイズルバーン 10年",
+      "description_ja": "ヘイズルバーン10年は、スプリングバンクのヘイズルバーンシリーズのフラッグシップ。ノンピートで3回蒸溜された、クリーミーで繊細、軽やかな表現です。100%バーボン樽で熟成され、香りには焼きパイナップル、レモン、ハニカム、ドライオレンジピールといったトロピカルなニュアンス。口に含むと青リンゴと軽い野菜風味、クリーム、ビスケット。フィニッシュは塩キャラメル、ジンジャー、トーストココナッツの土っぽいニュアンス。46% ABV、ノンチルフィルター、自然な色。",
+      "name_fr": "Hazelburn 10 Year Old",
+      "description_fr": "Hazelburn 10 ans est le single malt vedette de la gamme Hazelburn de Springbank, une expression non tourbée et triplement distillée, crémeuse, délicate et légère. Vieilli 100 % en fûts de bourbon, le nez offre des notes tropicales d’ananas rôti, de citron, de nid d’abeille et d’écorce d’orange séchée. Le palais associe la pomme verte à un fond légèrement végétal, crémeux et biscuité ; la finale apporte une touche terreuse avec du caramel salé, du gingembre et de la noix de coco grillée. Mis en bouteille à 46 % ABV, non filtré à froid et couleur naturelle.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5wKXNpekakA",
+          "label": "Hazelburn 10 REVIEW: The SOFT SPRINGBANK?"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DFsF6ZhnL-8",
+          "label": "Hazelburn 10 years | Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Z64nLjPs6Qg",
+          "label": "Is My First Hype Bottle Worth It? Hazelburn 10"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xWBhQhcHlZI",
+          "label": "Ralfy review 861 - Hazelburn 10"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9fNHsjJ_S6I",
+          "label": "SPRINGBANK HAZELBURN CV"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ef0TcohbtKY",
+          "label": "ACCIDENTADA CATA DE HAZELBURN 8"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nIk7ov7rvNU",
+          "label": "Hazelburn CV [Cata y opinión]"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NOznt_GsGIU",
+          "label": "Le Hazelburn 10 ans de Springbank"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=t7grQY73n6w",
+          "label": "BDF 4.3 : Hazelburn Oloroso 12 ans"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2xh1nDxG4U8",
+          "label": "ヘーゼルバーン10年 テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Or8QP_oaV0I",
+          "label": "ヘーゼルバーン10年を正直レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qB6lwzfJm_w",
+          "label": "スプリングバンク3銘柄飲み比べ（10年含む）"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FzNellCRmnU",
+          "label": "Hazelburn 8 years Oloroso | Porção dos Anjos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=h28u0Fq82nM",
+          "label": "Hazelburn 12 review | WhiskyBrasil"
+        }
+      ]
     },
     {
       "id": "highland-park-12-year-old",
@@ -9877,6 +11567,320 @@
       "resellers_usa": []
     },
     {
+      "id": "kilkerran-12-yo",
+      "slug": "kilkerran-12-yo",
+      "name": "Kilkerran 12 Year Old",
+      "distillery": {
+        "id": "glengyle",
+        "name": "Glengyle Distillery",
+        "name_es": "Glengyle Distillery",
+        "name_pt": "Glengyle Distillery",
+        "name_en": "Glengyle Distillery",
+        "name_ja": "グレンガイル蒸留所",
+        "name_fr": "Distillerie Glengyle"
+      },
+      "description": "Kilkerran 12 es el primer single malt de lanzamiento de la destilería Glengyle (revivida en 2004) y el primero de su gama principal. Ligeramente ahumado, se madura en un 70% en barricas de bourbon y un 30% en barricas de jerez, y se embotella a 46% ABV sin filtración en frío. Ofrece notas cítricas y una textura aceitosa características de Campbeltown: roble especiado, malvavisco tostado, fruta seca, cerezas, mazapán y una pizca de turba, con un final aterciopelado, salino y ligeramente aceitoso.",
+      "image": "/data/images/kilkerran-12-yo.webp",
+      "origin": "scotland",
+      "region": "Campbeltown",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Barricas de bourbon (70%) y jerez (30%)",
+      "distillery_id": "glengyle",
+      "insertion_order": 217,
+      "featured": false,
+      "name_pt": "Kilkerran 12 Year Old",
+      "description_pt": "Kilkerran 12 é o primeiro single malt de lançamento da destilaria Glengyle (revivida em 2004) e o primeiro de sua linha principal. Levemente defumado, amadurece em 70% barris de bourbon e 30% barris de xerez, e é engarrafado a 46% ABV sem filtração a frio. Oferece notas cítricas e uma textura oleosa características de Campbeltown: carvalho condimentado, marshmallow tostado, fruta seca, cerejas, maçapão e uma pitada de turfa, com um final aveludado, salino e levemente oleoso.",
+      "name_en": "Kilkerran 12 Year Old",
+      "description_en": "Kilkerran 12 is the first release single malt from the revived Glengyle distillery (2004) and the first in its core range. Lightly peated, it is matured in 70% bourbon casks and 30% sherry casks, and bottled at 46% ABV without chill filtration. It offers the citrus notes and oily texture characteristic of Campbeltown: spicy oak, toasted marshmallow, dried fruit, cherries, marzipan and a hint of peat, with a velvety, salty and slightly oily finish.",
+      "name_ja": "キルカーラン 12年",
+      "description_ja": "キルカーラン12年は、2004年に復活したグレンガイル蒸溜所のファーストリリースであり、コアレンジの第一弾。ライトピートで、70%バーボン樽と30%シェリー樽で熟成され、ノンチルフィルターの46% ABVで瓶詰め。キャンベルタウンらしい柑橘のノートとオイリーな質感が特徴で、スパイシーなオーク、トーストマシュマロ、ドライフルーツ、チェリー、マジパン、ほのかなピートが感じられ、ビロードのように滑らかで塩味、ほんのりオイリーなフィニッシュ。",
+      "name_fr": "Kilkerran 12 Year Old",
+      "description_fr": "Kilkerran 12 ans est le premier single malt lancé par la distillerie Glengyle (revivie en 2004) et le premier de sa gamme principale. Légèrement tourbé, il est vieilli dans 70 % de fûts de bourbon et 30 % de fûts de xérès, et mis en bouteille à 46 % ABV sans filtration à froid. Il offre les notes d’agrumes et la texture huileuse caractéristiques de Campbeltown : chêne épicé, guimauve grillée, fruits secs, cerises, massepain et une pointe de tourbe, avec une finale veloutée, salée et légèrement huileuse.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YkRCHx8Pjrs",
+          "label": "Kilkerran 12 years | Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gItoieeEf9k",
+          "label": "Kilkerran 12 | No Nonsense Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=j5bLnT0MRFc",
+          "label": "Kilkerran 12 Review | The Whisky Scribe"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z-OaQn1J2xY",
+          "label": "Kilkerran 12 REVIEW | Gwhisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0iHL-EjXzLk",
+          "label": "Whisky de Campbeltown y Kilkerran 12"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ILNKkbJXUsc",
+          "label": "KILKERRAN 12 | HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gFiaeyh-hg8",
+          "label": "Kilkerran 12 años | El Whisky Bar"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jLIwPgpFF8E",
+          "label": "Kilkerran 12 años | Whisky o Muerte"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OR9edC3iVb4",
+          "label": "LWB. E64: Kilkerran!"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XuoPrBVgd-I",
+          "label": "Battle Royale - Kilkerran 12 ans"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=di8waYEEySI",
+          "label": "Kilkerran 12 ans 46%"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7XYyWonGxpo",
+          "label": "キルケラン12年 テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DcavwzHaUTM",
+          "label": "キルケラン１２年 | D 51"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YPAK0sVZ3SA",
+          "label": "キルケラン12年を初見飲み"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oFqCjquAHDM",
+          "label": "キルケラン12年 飲み比べレビュー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5q0ZmEjFLIU",
+          "label": "Kilkerran degustação tripla | Porção dos Anjos"
+        }
+      ]
+    },
+    {
+      "id": "kilkerran-heavily-peated",
+      "slug": "kilkerran-heavily-peated",
+      "name": "Kilkerran Heavily Peated",
+      "distillery": {
+        "id": "glengyle",
+        "name": "Glengyle Distillery",
+        "name_es": "Glengyle Distillery",
+        "name_pt": "Glengyle Distillery",
+        "name_en": "Glengyle Distillery",
+        "name_ja": "グレンガイル蒸留所",
+        "name_fr": "Distillerie Glengyle"
+      },
+      "description": "Kilkerran Heavily Peated es una desviación audaz del estilo normalmente poco ahumado de Kilkerran. Lanzada dos veces al año a fuerza de barrica, esta edición limitada de Glengyle se turba en torno a 45 ppm y se madura predominantemente en barricas de bourbon. Ofrece un humo intenso y envolvente con notas cremosas de caramelo, plátano, saúco, melón y jamón ibérico, equilibrado por la dulzura de la vainilla. Sin filtrar en frío ni diluir, refleja la intensidad y la autenticidad de la turba de Campbeltown a fuerza de barrica.",
+      "image": "/data/images/kilkerran-heavily-peated.webp",
+      "origin": "scotland",
+      "region": "Campbeltown",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 58.3,
+      "cask": "Barricas de bourbon (principalmente)",
+      "distillery_id": "glengyle",
+      "insertion_order": 218,
+      "featured": false,
+      "name_pt": "Kilkerran Heavily Peated",
+      "description_pt": "Kilkerran Heavily Peated é um desvio ousado do estilo normalmente pouco defumado de Kilkerran. Lançado duas vezes por ano a força de barril, este lançamento limitado de Glengyle é turfado em torno de 45 ppm e amadurece predominantemente em barris de bourbon. Oferece uma fumaça intensa e envolvente com notas cremosas de caramelo, banana, sabugueiro, melão e presunto ibérico, equilibrada pela doçura da baunilha. Sem filtração a frio nem diluição, reflete a intensidade e a autenticidade da turfa de Campbeltown a força de barril.",
+      "name_en": "Kilkerran Heavily Peated",
+      "description_en": "Kilkerran Heavily Peated is a bold departure from Kilkerran’s normally lightly peated style. Released twice a year at cask strength, this limited edition from Glengyle is peated to around 45 ppm and matured predominantly in bourbon casks. It offers an intense, enveloping smoke with creamy notes of butterscotch, banana, elderflower, melon and Iberico ham, balanced by vanilla sweetness. Unchill-filtered and undiluted, it reflects the intensity and authenticity of Campbeltown peat at cask strength.",
+      "name_ja": "キルカーラン ヘビリーピーテッド",
+      "description_ja": "キルカーラン・ヘビリーピーテッドは、普段はライトピートのキルカーランからの大胆な変化。年に2回、カスクストレングスでリリースされるグレンガイルの限定版で、45ppm程度にピートされ、主にバーボン樽で熟成。バタースコッチ、バナナ、ニワトコ、メロン、イベリコハムのクリーミーなノートと、バニラの甘さに支えられた力強く包み込むようなスモーク。ノンチルフィルター、加水なしで、カスクストレングスならではのキャンベルタウンのピートの強烈さと本物らしさを体現。",
+      "name_fr": "Kilkerran Heavily Peated",
+      "description_fr": "Kilkerran Heavily Peated est un écart audacieux par rapport au style habituellement peu tourbé de Kilkerran. Lancé deux fois par an à pleine force (cask strength), cette édition limitée de Glengyle est tourbée à environ 45 ppm et vieillie principalement en fûts de bourbon. Elle offre une fumée intense et enveloppante avec des notes crémeuses de caramel au beurre, de banane, de fleur de sureau, de melon et de jambon ibérique, équilibrées par la douceur de la vanille. Non filtré à froid et non dilué, il reflète l’intensité et l’authenticité de la tourbe de Campbeltown à pleine force.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ACB8A-DoyW8",
+          "label": "Kilkerran Heavily Peated Batch 10"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jdfVLwsdCVY",
+          "label": "Kilkerran Heavily Peated Batch 5"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kGwVmg6A9oA",
+          "label": "Kilkerran Heavily Peated Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ILNKkbJXUsc",
+          "label": "KILKERRAN 12 | HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gFiaeyh-hg8",
+          "label": "Kilkerran 12 años | El Whisky Bar"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gTmnaLe_lLQ",
+          "label": "Kilkerran 8 años Sherry Cask"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MDJQV_QIONk",
+          "label": "BDF 1.4 : Kilkerran Heavily Peated Batch 12"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OR9edC3iVb4",
+          "label": "LWB. E64: Kilkerran!"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=di8waYEEySI",
+          "label": "Kilkerran 12 ans 46%"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=U7-DyT1MbVU",
+          "label": "キルケラン ヘビリーピーテッドBatch8"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qpLVxOrlXs8",
+          "label": "ヘビリーピーテッド バッチ4"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tilT7fUgYPM",
+          "label": "キルケラン ヘビーリーピーテッド のみ回"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5q0ZmEjFLIU",
+          "label": "Kilkerran degustação tripla | Porção dos Anjos"
+        }
+      ]
+    },
+    {
       "id": "la-alazana-classic",
       "slug": "la-alazana-classic",
       "name": "La Alazana Classic",
@@ -11051,6 +13055,148 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "longrow-peated",
+      "slug": "longrow-peated",
+      "name": "Longrow Peated",
+      "distillery": {
+        "id": "springbank",
+        "name": "Springbank Distillery",
+        "name_es": "Springbank Distillery",
+        "name_pt": "Springbank Distillery",
+        "name_en": "Springbank Distillery",
+        "name_ja": "スプリングバンク蒸留所",
+        "name_fr": "Distillerie Springbank"
+      },
+      "description": "Longrow Peated es la expresión fuertemente ahumada de la destilería Springbank, en Campbeltown. Con una doble destilación y una malta mucho más turbeada, ofrece un humo persistente, cremoso y envuelto, que recorre el paladar en oleadas. Madurado en barricas de bourbon y jerez, despliega notas de crema de vainilla, malvavisco tostado, hierbas y frutas maduras, con un ligero matiz medicinal. Un single malt de carácter robusto y aceitoso, honesto y sin concesiones, embotellado a 46% ABV.",
+      "image": "/data/images/longrow-peated.webp",
+      "origin": "scotland",
+      "region": "Campbeltown",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Barricas de bourbon y jerez",
+      "distillery_id": "springbank",
+      "insertion_order": 215,
+      "featured": false,
+      "name_pt": "Longrow Peated",
+      "description_pt": "Longrow Peated é a expressão fortemente defumada da destilaria Springbank, em Campbeltown. Com dupla destilação e um malte muito mais turfado, oferece uma fumaça persistente, cremosa e envolvente, que percorre o paladar em ondas. Amadurecido em barris de bourbon e xerez, apresenta notas de creme de baunilha, marshmallow tostado, ervas e frutas maduras, com um leve matiz medicinal. Um single malt de caráter robusto e oleoso, honesto e sem concessões, engarrafado a 46% ABV.",
+      "name_en": "Longrow Peated",
+      "description_en": "Longrow Peated is the heavily smoked expression from the Springbank distillery in Campbeltown. With double distillation and a much more peated malt, it offers a persistent, creamy, enveloping smoke that washes over the palate in waves. Matured in bourbon and sherry casks, it reveals notes of vanilla custard, toasted marshmallow, herbs and ripe fruit, with a slight medicinal hint. A robust, oily, honest and uncompromising single malt, bottled at 46% ABV.",
+      "name_ja": "ロングロウ ピーテッド",
+      "description_ja": "ロングロウ・ピーテッドは、キャンベルタウンのスプリングバンク蒸溜所によるヘビリーピートの表現。2回蒸溜で、よりピート感の強いモルトを使用し、しつこくクリーミーで包み込むようなスモークが波のように口蓋を洗います。バーボン樽とシェリー樽で熟成され、バニラカスタード、トーストしたマシュマロ、ハーブ、熟した果実、そしてわずかな薬品系のニュアンス。46% ABVで瓶詰めされた、頑丈でオイリー、妥協のない誠実なシングルモルト。",
+      "name_fr": "Longrow Peated",
+      "description_fr": "Longrow Peated est l’expression fortement tourbée de la distillerie Springbank, à Campbeltown. Avec une double distillation et un malt beaucoup plus tourbé, il offre une fumée persistante, crémeuse et enveloppante qui déferle sur le palais en vagues. Vieilli en fûts de bourbon et de xérès, il révèle des notes de crème à la vanille, de guimauve grillée, d’herbes et de fruits mûrs, avec une légère touche médicinale. Un single malt robuste, onctueux, honnête et sans compromis, mis en bouteille à 46 % ABV.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0VDT5HWcwYc",
+          "label": "LONGROW PEATED is a SPRINGBANK"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_VlAW6Wo1F4",
+          "label": "Longrow Peated | Whisky Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jDyfIz1P8Vs",
+          "label": "Longrow Peated | No Nonsense Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n3QHqHf1MYk",
+          "label": "LONGROW NAS - Explosión de Sabor ahumado"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=v8jlgXiDuIo",
+          "label": "LONGROW PEATED | HABLANDO DE WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WESEYp_9QXA",
+          "label": "Calendrier de l avent - Longrow Peated"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oZM9zzJFefU",
+          "label": "Springbank, Hazelburn & Longrow | Quebec Whisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=59B7Vmz17HM",
+          "label": "ロングロウ ピーテッド テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=puqxa6UFvLQ",
+          "label": "キャンベルタウンの暴れ者ロングロウ"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0hw4poJoS40",
+          "label": "Longrow Peated Review | WhiskyBrasil"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3-wRtbU7NOI",
+          "label": "Longrow Peated - Degustação defumado"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sJSzOgtTuyU",
+          "label": "Review Longrow Peated | Degustando Whisky"
+        }
+      ]
     },
     {
       "id": "lost-irish",
@@ -13811,6 +15957,344 @@
       "resellers_usa": []
     },
     {
+      "id": "springbank-10-yo",
+      "slug": "springbank-10-yo",
+      "name": "Springbank 10 Year Old",
+      "distillery": {
+        "id": "springbank",
+        "name": "Springbank Distillery",
+        "name_es": "Springbank Distillery",
+        "name_pt": "Springbank Distillery",
+        "name_en": "Springbank Distillery",
+        "name_ja": "スプリングバンク蒸留所",
+        "name_fr": "Distillerie Springbank"
+      },
+      "description": "Springbank 10 es el single malt insignia de la destilería de Campbeltown, destilado de forma tradicional con malta ligeramente ahumada y una doble destilación de dos veces y media. Madurado en una combinación de barricas de bourbon (60%) y jerez (40%), ofrece un perfil marítimo complejo y perfectamente equilibrado, con notas de cereal vibrante, grosellas, mango, vainilla y un característico fondo salino. En botella a 46% ABV, sin filtración en frío ni colorante. Springbank es la única destilería escocesa que realiza todo el proceso, de la cebada a la botella, en un solo lugar.",
+      "image": "/data/images/springbank-10-yo.webp",
+      "origin": "scotland",
+      "region": "Campbeltown",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Barricas de bourbon (60%) y jerez (40%)",
+      "distillery_id": "springbank",
+      "insertion_order": 213,
+      "featured": false,
+      "name_pt": "Springbank 10 Year Old",
+      "description_pt": "Springbank 10 é o single malt carro-chefe da destilaria de Campbeltown, destilado de forma tradicional com malte levemente defumado e dupla destilação de duas vezes e meia. Amadurecido em uma combinação de barris de bourbon (60%) e xerez (40%), oferece um perfil marítimo complexo e perfeitamente equilibrado, com notas de cereal vibrante, groselha, manga, baunilha e um característico fundo salino. Engarrafado a 46% ABV, sem filtração a frio nem corante. Springbank é a única destilaria escocesa que realiza todo o processo, da cevada à garrafa, em um só lugar.",
+      "name_en": "Springbank 10 Year Old",
+      "description_en": "Springbank 10 is the flagship single malt of the Campbeltown distillery, traditionally distilled with lightly peated malt and a two-and-a-half-times distillation. Matured in a combination of bourbon (60%) and sherry (40%) casks, it offers a complex, perfectly balanced maritime profile, with notes of vibrant cereal, gooseberries, mango, vanilla and a characteristic salty finish. Bottled at 46% ABV, non-chill filtered and natural colour. Springbank is the only Scottish distillery to carry out the entire process, from barley to bottle, on one site.",
+      "name_ja": "スプリングバンク 10年",
+      "description_ja": "スプリングバンク10年は、キャンベルタウンの蒸溜所が誇るフラッグシップのシングルモルト。軽くピートしたモルトと2.5回蒸溜という伝統的な製法で造られます。バーボン樽(60%)とシェリー樽(40%)の組み合わせで熟成され、活気あふれる穀物、グーズベリー、マンゴー、バニラ、そして特徴的な塩味のフィニッシュを備えた、複雑で完璧にバランスの取れた海辺の味わい。46% ABVで瓶詰め、ノンチルフィルター、自然な色合い。スプリングバンクは、大麦から瓶詰めまでの全工程を単一のサイトで行う、スコットランド唯一の蒸溜所です。",
+      "name_fr": "Springbank 10 Year Old",
+      "description_fr": "Springbank 10 ans est le single malt vedette de la distillerie de Campbeltown, distillé de façon traditionnelle avec un malt légèrement tourbé et une distillation de deux fois et demie. Vieilli dans une combinaison de fûts de bourbon (60 %) et de xérès (40 %), il offre un profil maritime complexe et parfaitement équilibré, avec des notes de céréales vibrantes, de groseilles, de mangue, de vanille et une finale salée caractéristique. Mis en bouteille à 46 % ABV, non filtré à froid et couleur naturelle. Springbank est la seule distillerie écossaise à réaliser l’intégralité du processus, de l’orge à la bouteille, sur un seul site.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EnX6C50G6PA",
+          "label": "Springbank 10 Years | Whisky Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GfyQTTx4KjU",
+          "label": "Springbank 10 | Does It Live Up To The Hype?"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NDV3c92Lo0A",
+          "label": "Springbank 10 | Best 10 Year Old?"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lTIka438biM",
+          "label": "Springbank 10 Year Old | Whisky Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AH3gsAecbwg",
+          "label": "Campbeltown: Springbank 10 (Ep.123)"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Xj-nnw37faM",
+          "label": "La Calidad del Whisky: Springbank 10"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dXGhM-R_C7g",
+          "label": "Springbank 10 | HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dyalzMRzhx0",
+          "label": "Cata ciega: Talisker, Laphroaig, Springbank 10"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DcBdGx1qNWk",
+          "label": "Battle Royale - Springbank 10"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=auG2JIFtETg",
+          "label": "Springbank Core Range 1/3 - 10"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fMWkOhPphPo",
+          "label": "Springbank 10 ans, whisky de Campbeltown"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1otnVXKWkNw",
+          "label": "現役バーテンダーが飲んでみた"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9PE46b3Eblc",
+          "label": "スプリングバンク10年 | YAMA Whisky Club"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KZbY-9-jfPI",
+          "label": "スプリングバンク10年 テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ma-hg3WRlfc",
+          "label": "新旧スプリングバンクを飲み比べ"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CRPYK8VGzFU",
+          "label": "Springbank 10 Anos | Whisky Capital"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KZB9sI0SJ0Q",
+          "label": "Springbank 10 Anos | Sanson Single Malt"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=j81b9hlNDbY",
+          "label": "Springbank 10 Anos | Tierri Whisky"
+        }
+      ]
+    },
+    {
+      "id": "springbank-15-yo",
+      "slug": "springbank-15-yo",
+      "name": "Springbank 15 Year Old",
+      "distillery": {
+        "id": "springbank",
+        "name": "Springbank Distillery",
+        "name_es": "Springbank Distillery",
+        "name_pt": "Springbank Distillery",
+        "name_en": "Springbank Distillery",
+        "name_ja": "スプリングバンク蒸留所",
+        "name_fr": "Distillerie Springbank"
+      },
+      "description": "Springbank 15 es un clásico de Campbeltown, madurado de forma exclusiva en barricas de jerez Oloroso (100% jerez). Oscuro y de carácter profundo, este dram es ideal para después de la cena. En nariz despliega notas de carne curada, manta de barbacoa, clavo, yodo, ciruelas en lata y un toque marítimo característico. En boca aparecen humo de turba, tabaco, ciruelas, nueces, higos, azúcar moreno, cacao y carnes ahumadas, con un final que evoluciona con notas de hollín, cuero y nueces. Embebido a 46% ABV, sin filtración en frío ni colorante.",
+      "image": "/data/images/springbank-15-yo.webp",
+      "origin": "scotland",
+      "region": "Campbeltown",
+      "age": 15,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Barricas de jerez (100% Oloroso)",
+      "distillery_id": "springbank",
+      "insertion_order": 214,
+      "featured": false,
+      "name_pt": "Springbank 15 Year Old",
+      "description_pt": "Springbank 15 é um clássico de Campbeltown, amadurecido exclusivamente em barris de xerez Oloroso (100% xerez). Escuro e de caráter profundo, este dram é ideal para o pós-jantar. No nariz apresenta notas de carne curada, churrasco, cravo, iodo, ameixas em lata e um toque marítimo característico. Na boca surgem fumaça de turfa, tabaco, ameixas, nozes, figos, açúcar mascavo, cacau e carnes defumadas, com um final que evolui com notas de fuligem, couro e nozes. Engarrafado a 46% ABV, sem filtração a frio nem corante.",
+      "name_en": "Springbank 15 Year Old",
+      "description_en": "Springbank 15 is a Campbeltown classic, matured exclusively in Oloroso sherry casks (100% sherry). Dark and deep in character, this dram is ideal after dinner. The nose offers notes of cured meat, barbecue, clove, iodine, tinned prunes and a characteristic maritime touch. The palate reveals peat smoke, tobacco, prunes, walnuts, figs, Demerara sugar, cocoa and smoked meats, with a finish that evolves through soot, leather and walnuts. Bottled at 46% ABV, non-chill filtered and natural colour.",
+      "name_ja": "スプリングバンク 15年",
+      "description_ja": "スプリングバンク15年は、オロロソシェリー樽(100%シェリー)で専ら熟成されたキャンベルタウンのクラシック。色は深く、食後の一杯に理想的な味わい。香りには熟成肉、バーベキュー、クローブ、ヨード、缶詰プルーン、特徴的な海辺のニュアンス。口に含むとピートスモーク、タバコ、プルーン、クルミ、イチジク、デメララシュガー、ココア、スモークミートが広がり、すす、レザー、クルミへと進化する余韻。46% ABV、ノンチルフィルター、自然な色。",
+      "name_fr": "Springbank 15 Year Old",
+      "description_fr": "Springbank 15 ans est un classique de Campbeltown, vieilli exclusivement en fûts de xérès Oloroso (100 % xérès). Sombre et de caractère profond, ce dram est idéal après le dîner. Au nez, des notes de viande séchée, de barbecue, de clou de girofle, d’iode, de pruneaux en conserve et une touche maritime caractéristique. En bouche, fumée de tourbe, tabac, pruneaux, noix, figues, sucre de canne, cacao et viandes fumées, avec une finale qui évolue entre suie, cuir et noix. Mis en bouteille à 46 % ABV, non filtré à froid et couleur naturelle.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FVr_nFGaZIg",
+          "label": "Springbank 15 vs 10: is it 50% Better?"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=H6Jl43ATLjI",
+          "label": "Is the 2022 Springbank 15 any good?"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PvBE1hE6AE8",
+          "label": "Springbank 15 Year Old, 46% - Whisky Wednesday"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=r2pIoir-GYk",
+          "label": "Ralfy review 808 - Springbank 15"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TCBbNah0I8Q",
+          "label": "Springbank 15 años | Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qlsNBTdW7jI",
+          "label": "Springbank 15 Single Malt [Cata]"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SwlmlK1XegQ",
+          "label": "Springbank 15 | L homme qui parle whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nbBCzClMpng",
+          "label": "Calendrier de l avent - Springbank 15"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ulwCciIc2Js",
+          "label": "Springbank Core Range 2/3 - 15"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SdWkhGgpZXU",
+          "label": "スプリングバンク15年 飲み比べ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YAR-CQ579Ts",
+          "label": "幻のスプリングバンク15年を入手"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rNFqz00d3Yo",
+          "label": "スプリングバンク15年 テイスティング"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CRPYK8VGzFU",
+          "label": "Springbank 10 Anos | Whisky Capital (Springbank)"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KZB9sI0SJ0Q",
+          "label": "Springbank 10 Anos | Sanson (Springbank)"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=j81b9hlNDbY",
+          "label": "Springbank 10 Anos | Tierri Whisky (Springbank)"
+        }
+      ]
+    },
+    {
       "id": "talisker-10-year-old",
       "slug": "talisker-10-year-old",
       "name": "Talisker 10 Year Old",
@@ -14435,6 +16919,540 @@
       "resellers_usa": []
     },
     {
+      "id": "the-glenlivet-12-yo",
+      "slug": "the-glenlivet-12-yo",
+      "name": "The Glenlivet 12 Year Old",
+      "distillery": {
+        "id": "the-glenlivet",
+        "name": "Glenlivet",
+        "name_es": "Glenlivet",
+        "name_pt": "Glenlivet",
+        "name_en": "Glenlivet",
+        "name_ja": "グレンリベット",
+        "name_fr": null
+      },
+      "description": "The Glenlivet 12 años es el clásico single malt suave y afrutado de Speyside, envejecido en roble americano de primer y segundo uso. Ofrece notas florales, vainilla y malta, con la pera y el melocotón como firma inconfundible. El final es limpio, refrescante y delicadamente dulce.",
+      "image": "/data/images/the-glenlivet-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Roble americano de primer y segundo uso",
+      "distillery_id": "the-glenlivet",
+      "insertion_order": 225,
+      "featured": false,
+      "name_pt": "The Glenlivet 12 anos",
+      "description_pt": "O Glenlivet 12 anos é o clássico single malt suave e frutado de Speyside, envelhecido em carvalho americano de primeiro e segundo uso. Oferece notas florais, baunilha e malte, com a pera e o pêssego como assinatura inconfundível. O final é limpo, refrescante e delicadamente doce.",
+      "name_en": "The Glenlivet 12 Year Old",
+      "description_en": "The Glenlivet 12 Year Old is the classic smooth, fruity Speyside single malt, aged in first-fill and refill American oak. It offers floral notes, vanilla and malt, with pear and peach as its unmistakable signature. The finish is clean, refreshing and delicately sweet.",
+      "name_ja": "グレンリベット 12年",
+      "description_ja": "グレンリベット12年は、ファーストフィルとリフィルのアメリカンオーク樽で熟成された、滑らかでフルーティーなスコッチです。フローラルな香り、バニラ、モルトの風味に、洋梨と桃が特徴的なアクセントを添えます。余韻はクリーンで爽やか、繊細な甘みが広がります。",
+      "name_fr": "The Glenlivet 12 ans",
+      "description_fr": "Le Glenlivet 12 ans est le classique single malt de Speyside, doux et fruité, vieilli en chêne américain de premier et de remploi. Il offre des notes florales, de vanille et de malt, avec la poire et la pêche comme signature inconfondable. La finale est nette, rafraîchissante et délicatement sucrée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AKhKRwTgvHk",
+          "label": "Glenlivet 12 review & pairing"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GhfaFXMzDtA",
+          "label": "Glenlivet 12 Double Oak blind review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TOEpO4rCnZg",
+          "label": "Ralfy 814 Glenlivet 12yo"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eg8KHNDC4d8",
+          "label": "Glenlivet 12 Whisky Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9TQAAVeAFWk",
+          "label": "Glenlivet 12 y Founder's Reserve"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9hSlqnOg6sM",
+          "label": "Catasutra Glenlivet 12"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MDU4XguWv3g",
+          "label": "Glenlivet 12 degustación"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hMLKqFdykA0",
+          "label": "Glenlivet 12 cata y comparación"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6M3K-nfPvws",
+          "label": "Glenlivet - dégustation"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jo8MlQ12yUM",
+          "label": "GQ France déguster un single malt"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CftZZ8PiU7Q",
+          "label": "グレンリベット12年 レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IV75KbGzaE8",
+          "label": "グレンリベット12年 ボトル買い"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JBywfw2GhPc",
+          "label": "グレンリベット12年 飲んでみた"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SLguUOuVLjg",
+          "label": "グレンリベット12年 新旧ラベル"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BRP695mfdb0",
+          "label": "The Glenlivet 12 anos Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VfEjVDKD1PA",
+          "label": "Review Glenlivet 12 anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qvOJkZrP3WA",
+          "label": "The Glenlivet 12 anos Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=slnhlv-N-6E",
+          "label": "Review The Glenlivet 12 anos"
+        }
+      ]
+    },
+    {
+      "id": "the-glenlivet-18-yo",
+      "slug": "the-glenlivet-18-yo",
+      "name": "The Glenlivet 18 Year Old",
+      "distillery": {
+        "id": "the-glenlivet",
+        "name": "Glenlivet",
+        "name_es": "Glenlivet",
+        "name_pt": "Glenlivet",
+        "name_en": "Glenlivet",
+        "name_ja": "グレンリベット",
+        "name_fr": null
+      },
+      "description": "The Glenlivet 18 años es un single malt rico y complejo, envejecido en roble americano de primer y segundo uso. Ofrece fruta seca, miel y especias de roble, con un toque cítrico de naranja que aporta frescura. El final es largo, especiado y elegantemente dulce.",
+      "image": "/data/images/the-glenlivet-18-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 18,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Roble americano de primer y segundo uso",
+      "distillery_id": "the-glenlivet",
+      "insertion_order": 227,
+      "featured": false,
+      "name_pt": "The Glenlivet 18 anos",
+      "description_pt": "O Glenlivet 18 anos é um single malt rico e complexo, envelhecido em carvalho americano de primeiro e segundo uso. Oferece frutos secos, mel e especiarias de carvalho, com um toque cítrico de laranja que traz frescura. O final é longo, picante e elegantemente doce.",
+      "name_en": "The Glenlivet 18 Year Old",
+      "description_en": "The Glenlivet 18 Year Old is a rich, complex single malt aged in first-fill and second-fill American oak. It offers dried fruit, honey and oak spice, with a citrus orange note that brings freshness. The finish is long, spicy and elegantly sweet.",
+      "name_ja": "グレンリベット 18年",
+      "description_ja": "グレンリベット18年は、ファーストフィルとセカンドフィルのアメリカンオーク樽で熟成された、リッチで複雑なシングルモルトです。ドライフルーツ、ハチミツ、オークのスパイスに、オレンジの柑橘が爽やかさを添えます。余韻は長くスパイシーで、優雅な甘みが続きます。",
+      "name_fr": "The Glenlivet 18 ans",
+      "description_fr": "Le Glenlivet 18 ans est un single malt riche et complexe, vieilli en chêne américain de premier et de second remplissage. Il offre des fruits secs, du miel et des épices de chêne, avec une note d'orange citronnée qui apporte de la fraîcheur. La finale est longue, épicée et élégamment sucrée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CYJt1dcap9s",
+          "label": "The Story of Glenlivet 18yr"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YCqGamtJWp0",
+          "label": "Ralfy 623 Glenlivet 18yo"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=x3hnnYgRSJE",
+          "label": "Whisky Review Glenlivet 18"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xfd1w0OvzW8",
+          "label": "Glenlivet 18 Whisky Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3bBkg27Ut0w",
+          "label": "Gama Glenlivet cata 18"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Lj0L8GuioEI",
+          "label": "Degustación Glenlivet 18"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Omuff-ZATRE",
+          "label": "Cata Glenlivet 18 años"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q3UN3zcqTCg",
+          "label": "Glenlivet 18 nueva vs vieja"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jo8MlQ12yUM",
+          "label": "GQ France déguster un single malt"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qWQjtQrmTD8",
+          "label": "Battle Glenfiddich 18 vs Glenlivet 18"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1fFBS4wvIOc",
+          "label": "グレンリベット18年 テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PJtoIT1YlIQ",
+          "label": "グレンリベット18年 新旧ボトル比較"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jWNsPvQM24s",
+          "label": "グレンリベット18年 レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ojg8xggKr98",
+          "label": "グレンリベット18年"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5r9pNnVFaTI",
+          "label": "Review Glenlivet 18 PT-BR"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EdIUEk3xMcA",
+          "label": "Glenlivet 18 anos Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rOD-5NyNKzU",
+          "label": "Review Glenlivet 18 Anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sHdXAsAlW_8",
+          "label": "Degustando Glenlivet 18"
+        }
+      ]
+    },
+    {
+      "id": "the-glenlivet-founders-reserve",
+      "slug": "the-glenlivet-founders-reserve",
+      "name": "The Glenlivet Founder's Reserve",
+      "distillery": {
+        "id": "the-glenlivet",
+        "name": "Glenlivet",
+        "name_es": "Glenlivet",
+        "name_pt": "Glenlivet",
+        "name_en": "Glenlivet",
+        "name_ja": "グレンリベット",
+        "name_fr": null
+      },
+      "description": "The Glenlivet Founder's Reserve es un single malt fresco y cremoso, envejecido en roble americano de primer uso y barricas de jerez. Despliega vainilla, fruta dulce y toffee en un perfil redondo y accesible. El final es suave y afrutado, perfecto para iniciarse en el whisky.",
+      "image": "/data/images/the-glenlivet-founders-reserve.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Roble americano de primer uso y jerez",
+      "distillery_id": "the-glenlivet",
+      "insertion_order": 226,
+      "featured": false,
+      "name_pt": "The Glenlivet Founder's Reserve",
+      "description_pt": "O Glenlivet Founder's Reserve é um single malt fresco e cremoso, envelhecido em carvalho americano de primeiro uso e barricas de xerez. Revela baunilha, fruta doce e caramelo num perfil redondo e acessível. O final é suave e frutado, perfeito para começar no whisky.",
+      "name_en": "The Glenlivet Founder's Reserve",
+      "description_en": "The Glenlivet Founder's Reserve is a fresh, creamy single malt aged in first-fill American oak and sherry casks. It unfolds vanilla, sweet fruit and toffee in a rounded, approachable profile. The finish is smooth and fruity, ideal for whisky newcomers.",
+      "name_ja": "グレンリベット ファウンダーズリザーブ",
+      "description_ja": "グレンリベット ファウンダーズリザーブは、ファーストフィルのアメリカンオーク樽とシェリー樽で熟成された、フレッシュでクリーミーなシングルモルトです。バニラ、甘い果実、トフィーの風味が丸みのある親しみやすい味わいを生み出します。余韻は滑らかでフルーティー、ウィスキー初心者に最適です。",
+      "name_fr": "The Glenlivet Founder's Reserve",
+      "description_fr": "Le Glenlivet Founder's Reserve est un single malt frais et crémeux, vieilli en chêne américain de premier remplissage et en fûts de sherry. Il dévoile de la vanille, des fruits sucrés et du toffee dans un profil rond et accessible. La finale est douce et fruitée, parfaite pour débuter dans le whisky.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BzZ_PralTPY",
+          "label": "Glenlivet Founders Reserve"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SX9zgMV_eUo",
+          "label": "Glenlivet Founders Reserve review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y-uo_0iX6kU",
+          "label": "Glenlivet Founder's Reserve review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wE85aEv4LAY",
+          "label": "Glenlivet Founders Reserve review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0uUhdbEnKPE",
+          "label": "The Glenlivet Founder's Reserve"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9TQAAVeAFWk",
+          "label": "Glenlivet 12 y Founder's Reserve"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LZOBg5eVEbE",
+          "label": "Probemos Glenlivet Founder's Reserve"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Qyh75Kqu-9Q",
+          "label": "Glenlivet Founder's Reserve"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6M3K-nfPvws",
+          "label": "Glenlivet - dégustation"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jo8MlQ12yUM",
+          "label": "GQ France déguster un single malt"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Bb_npVVJhGA",
+          "label": "グレンリベット ファウンダースリザーブ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TalFqphGvIU",
+          "label": "グレンリベット ファウンダーズリザーブ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XTVJiSR3NiE",
+          "label": "グレンリベット ファウンダーズリザーブ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pwu4ydqt3CI",
+          "label": "グレンリベット ファウンダーズリザーブ"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0J8r5_T2yH0",
+          "label": "Founders Reserve vs Singleton 12"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=N0i-x6yyMok",
+          "label": "Glenlivet Founders Reserve review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UnEUYbj7GNY",
+          "label": "Glenlivet Founders Reserve presta?"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oXvb7PJVv6w",
+          "label": "Glenlivet Founders Reserve"
+        }
+      ]
+    },
+    {
       "id": "the-hearach",
       "slug": "the-hearach",
       "name": "The Hearach",
@@ -14567,6 +17585,432 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=yS898QM-Tdg",
           "label": "聴くウイスキー #181 — ザ・ヒーラック オロロソカスク (Dram FM)"
+        }
+      ]
+    },
+    {
+      "id": "the-macallan-double-cask-12-yo",
+      "slug": "the-macallan-double-cask-12-yo",
+      "name": "The Macallan Double Cask 12 Year Old",
+      "distillery": {
+        "id": "macallan",
+        "name": "Macallan",
+        "name_es": "Macallan",
+        "name_pt": "Macallan",
+        "name_en": "Macallan",
+        "name_ja": "マッカラン",
+        "name_fr": null
+      },
+      "description": "The Macallan Double Cask 12 años se elabora con roble americano y europeo sazonado con jerez. Destaca por la miel y el jengibre, con notas cítricas y un roble suave y equilibrado. El final es medio, cálido y redondeado por la dulzura del jerez.",
+      "image": "/data/images/the-macallan-double-cask-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Roble americano y europeo sazonado con jerez",
+      "distillery_id": "macallan",
+      "insertion_order": 228,
+      "featured": false,
+      "name_pt": "The Macallan Double Cask 12 anos",
+      "description_pt": "O Macallan Double Cask 12 anos é elaborado com carvalho americano e europeu temperado com xerez. Destaca-se pelo mel e gengibre, com notas cítricas e um carvalho suave e equilibrado. O final é médio, caloroso e redondo pela doçura do xerez.",
+      "name_en": "The Macallan Double Cask 12 Year Old",
+      "description_en": "The Macallan Double Cask 12 Year Old is made with American and European oak seasoned with sherry. It stands out for its honey and ginger, with citrus notes and a soft, balanced oak. The finish is medium, warming and rounded by sherry sweetness.",
+      "name_ja": "マッカラン ダブルカスク 12年",
+      "description_ja": "マッカラン ダブルカスク12年は、シェリーでシーズニングされたアメリカンオークとヨーロピアンオークで造られます。ハチミツとジンジャーが特徴で、柑橘の香りと柔らかくバランスの取れたオークが広がります。余韻はミディアムで温かく、シェリーの甘みで丸く締まります。",
+      "name_fr": "The Macallan Double Cask 12 ans",
+      "description_fr": "Le Macallan Double Cask 12 ans est élaboré avec du chêne américain et européen assaisonné au sherry. Il se distingue par son miel et son gingembre, avec des notes citronnées et un boisé doux et équilibré. La finale est moyenne, chaleureuse et arrondie par la douceur du sherry.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yd6nOB00kRc",
+          "label": "Macallan 12 Double Cask review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_nQRru2tUg0",
+          "label": "Macallan 12 Double Cask review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jliXu2ljroY",
+          "label": "Macallan Double Cask 12 review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yP_DCq51nsM",
+          "label": "Macallan 12 Double Cask review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GIdLcVtGJVk",
+          "label": "Macallan 12 Double Cask cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gZSHPkpgWNw",
+          "label": "Cata Macallan 12, Rare Cask y 25"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wHwg_vKTfDM",
+          "label": "Probemos Macallan Double Cask 12"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bHUnrkaQubo",
+          "label": "Dégustation scotch Macallan"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kah6ohYfkn0",
+          "label": "Macallan Fine Oak 12 ans"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bjdfuALCx_k",
+          "label": "マッカラン ダブルカスク12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lmtZ0AXQgvU",
+          "label": "マッカラン ダブルカスク12年 レビュー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7cI6obwfW_I",
+          "label": "Review Macallan Double Cask 12"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VyV4ve5ni0I",
+          "label": "Macallan 12 Double Cask Review"
+        }
+      ]
+    },
+    {
+      "id": "the-macallan-sherry-oak-12-yo",
+      "slug": "the-macallan-sherry-oak-12-yo",
+      "name": "The Macallan Sherry Oak 12 Year Old",
+      "distillery": {
+        "id": "macallan",
+        "name": "Macallan",
+        "name_es": "Macallan",
+        "name_pt": "Macallan",
+        "name_en": "Macallan",
+        "name_ja": "マッカラン",
+        "name_fr": null
+      },
+      "description": "The Macallan Sherry Oak 12 años se madura en barricas de jerez de primero uso procedentes de Jerez. Ofrece ricas frutas secas, jengibre y toffee, con la característica dulzura del jerez. El final es largo, aterciopelado y especiado.",
+      "image": "/data/images/the-macallan-sherry-oak-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Barricas de jerez de primer uso",
+      "distillery_id": "macallan",
+      "insertion_order": 229,
+      "featured": false,
+      "name_pt": "The Macallan Sherry Oak 12 anos",
+      "description_pt": "O Macallan Sherry Oak 12 anos amadurece em barricas de xerez de primeiro uso provenientes de Jerez. Oferece ricos frutos secos, jengibre e caramelo, com a característica doçura do xerez. O final é longo, aveludado e picante.",
+      "name_en": "The Macallan Sherry Oak 12 Year Old",
+      "description_en": "The Macallan Sherry Oak 12 Year Old is matured in first-fill ex-sherry casks from Jerez. It offers rich dried fruit, ginger and toffee, with the characteristic sherry sweetness. The finish is long, velvety and spicy.",
+      "name_ja": "マッカラン シェリーオーク 12年",
+      "description_ja": "マッカラン シェリーオーク12年は、ヘレス産のファーストフィルのシェリー樽で熟成されます。リッチなドライフルーツ、ジンジャー、トフィーに、シェリー特有の甘みが広がります。余韻は長くビロードのような滑らかさで、スパイシーに締まります。",
+      "name_fr": "The Macallan Sherry Oak 12 ans",
+      "description_fr": "Le Macallan Sherry Oak 12 ans est mûri en fûts de sherry de premier remplissage provenant de Xérès. Il offre de riches fruits secs, du gingembre et du toffee, avec la douceur caractéristique du sherry. La finale est longue, veloutée et épicée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0HauN0USC2M",
+          "label": "Macallan 12 Sherry Oak review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8tIpRfNCmMI",
+          "label": "Macallan Sherry Oak 12 review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jFoJx7Wri-Y",
+          "label": "Macallan 12 Sherry Oak review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sII22WCPtbg",
+          "label": "Macallan 12 Sherry Oak review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6Aj62rdRuxQ",
+          "label": "Macallan 12 Sherry Oak, el rey del Jerez"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NCkt0LINrRw",
+          "label": "Macallan 12 Sherry Oak vs Triple Cask"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cLr4Lw7hP1E",
+          "label": "Macallan 12 Sherry Oak veredicto"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZGeCnw0jWds",
+          "label": "Macallan, whisky d'exception"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hDG5PWQsW7s",
+          "label": "Que vaut un whisky Macallan"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7olmbzC8Pmc",
+          "label": "マッカラン12年 シェリーオーク解説"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=G4IOe2ZUHQE",
+          "label": "マッカラン シェリーオーク12年"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UKucS8fb5xU",
+          "label": "Review Macallan Sherry Oak 12"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pvHS-yRe_z0",
+          "label": "Degustação Macallan 12 Sherry Oak"
+        }
+      ]
+    },
+    {
+      "id": "the-macallan-triple-cask-15-yo",
+      "slug": "the-macallan-triple-cask-15-yo",
+      "name": "The Macallan Triple Cask 15 Year Old",
+      "distillery": {
+        "id": "macallan",
+        "name": "Macallan",
+        "name_es": "Macallan",
+        "name_pt": "Macallan",
+        "name_en": "Macallan",
+        "name_ja": "マッカラン",
+        "name_fr": null
+      },
+      "description": "The Macallan Triple Cask 15 años se madura en barricas de jerez y roble americano y europeo. Es un single malt complejo con frutas secas, vainilla, cítricos y un roble bien integrado. El final es largo, rico y delicadamente especiado.",
+      "image": "/data/images/the-macallan-triple-cask-15-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 15,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Jerez y roble americano y europeo",
+      "distillery_id": "macallan",
+      "insertion_order": 230,
+      "featured": false,
+      "name_pt": "The Macallan Triple Cask 15 anos",
+      "description_pt": "O Macallan Triple Cask 15 anos amadurece em barricas de xerez e carvalho americano e europeu. É um single malt complexo com frutos secos, baunilha, cítricos e um carvalho bem integrado. O final é longo, rico e delicadamente picante.",
+      "name_en": "The Macallan Triple Cask 15 Year Old",
+      "description_en": "The Macallan Triple Cask 15 Year Old is matured in sherry and American and European oak casks. It is a complex single malt with dried fruit, vanilla, citrus and well-integrated oak. The finish is long, rich and delicately spicy.",
+      "name_ja": "マッカラン トリプルカスク 15年",
+      "description_ja": "マッカラン トリプルカスク15年は、シェリー樽とアメリカンオーク・ヨーロピアンオーク樽で熟成されます。ドライフルーツ、バニラ、柑橘、そして良く溶け込んだオークが調和する複雑なシングルモルトです。余韻は長くリッチで、繊細なスパイスが感じられます。",
+      "name_fr": "The Macallan Triple Cask 15 ans",
+      "description_fr": "Le Macallan Triple Cask 15 ans est mûri en fûts de sherry et de chêne américain et européen. C'est un single malt complexe avec des fruits secs, de la vanille, des agrumes et un boisé bien intégré. La finale est longue, riche et délicatement épicée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=68E4wA6s9O8",
+          "label": "Macallan 15 Triple Cask"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bLBL9QzHIXM",
+          "label": "Macallan 15 Triple Cask"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6JVS12cij-Q",
+          "label": "Macallan 15 años cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MqqVtznyqSI",
+          "label": "Whisky Macallan 15 Años"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hDG5PWQsW7s",
+          "label": "Que vaut un whisky Macallan"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kah6ohYfkn0",
+          "label": "Macallan Fine Oak 12 ans"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0Jlai37p76w",
+          "label": "マッカランを色々飲んでみた"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w_wEConuVN0",
+          "label": "マッカラン 定番3種 飲み比べ"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3s4x2_ugfjI",
+          "label": "Review Macallan 15 Triple Cask"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hMmRav0ZoHw",
+          "label": "Macallan Triple Cask 15 review"
         }
       ]
     },

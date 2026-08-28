@@ -1,5 +1,44 @@
 # Learnings
 
+## 2026-08-28 — Kill multi-second post-load rating stall (parallelize + loader counter)
+
+- Symptom: list reorder/flicker fires ~4s after load. Root cause: `/api/rating` ran `getRatingMap` + `getUserReviewedSlugs` **serially**, each an uncached remote Turso round-trip (`libsql://…aws-us-west-2.turso.io`, measured ~1.1s/call) → ~1.7s+ API, ~4s perceived.
+- Fix: `Promise.all` the two calls in the API route; keep ratings/reviewed **uncached** (requirement is fresh data). User's own vote always visible (local store update + no caching of reviewed).
+- Loading indicator: replaced boolean `navigation.setLoading` with a **reference counter** (`beginLoading`/`endLoading`) so overlapping refreshes / SPA nav can't kill the loader early; `refreshRating` does `await tick()` after merging stores so the bar stays on until the re-sort reorders are actually rendered. Migrated FavoriteButton/FollowDistilleryButton to the counter API; removed the now-unused `setLoading`.
+- Lesson: measure the DB round-trip latency before blaming frontend timing; serial remote calls multiply latency.
+
+## 2026-08-28 — Loading indicator for user-prefs/rating fetch (head-loader reuse)
+
+- The "surprising UI update" on listing pages (homepage/origin/distillery/user/profile) comes from `refreshRating()`, which client-fetches `/api/rating` after `onMount` and re-sorts the ranking (sortWhiskies `top`/`reviews`/`worst` + profile `byRanking` all read `ratingStore`) and flips VoteButton/reviewed state. No loading signal existed.
+- User wanted the list to stay **visible and usable** during the fetch — just show that loading is happening, nothing gated/skeleton'd.
+- Fix: reused the existing head-loader convention (`navigation.setLoading(true/false)`, already used by FavoriteButton/FollowDistilleryButton) inside `refreshRating` via dynamic `import('./navigation.svelte')` wrapped in try/finally. One central change covers every caller. List never hidden.
+- Note: rune `.svelte.ts` stores can dynamic-import one another; keep the import inside the function to avoid ordering issues at module init.
+
+## 2026-08-28 — Origin default ordering bug (Canada forced first)
+
+- Precedence rule (from the user, verbatim intent): **All → navigated/active origin → pinned origins → remaining by whisky count**.
+- Root cause: `origin.ts` had `const BASELINE_PINNED = ['canada']` (a hardcoded baseline pin from task 051's old `PINNED_ORIGINS`), which injected Canada right after All/active/pinned and *before* the count-sorted rest. With only 1 Canadian whisky, it rendered first — wrong.
+- Fix was a pure deletion: remove `BASELINE_PINNED` + its loop; precedence fell naturally to the intended order in `sortOriginsForDisplay` (which already did active then pinned then count). One shared function powers both `OriginFilters.svelte` and `Drawer.svelte`.
+- Vocabulary matters: the user distinguishes "selected" (the navigated origin pill, which is second) vs "default origins" (the count-ordered rest). Listen to that exact distinction before proposing changes.
+
+## 2026-08-28 — Add "Arran Barley Year Old" (Arran Local Barley / Batch 001)
+
+- **Ad-hoc add beside the queue**: the user requested this product directly (not via the queue line), so I added the line to `docs/whisky-brands-and-products-to-add.md` myself and ticked it at the end — keeps the queue authoritative while honouring an explicit request.
+- **User overrides slug conventions**: I proposed `arran-barley-10-yo` (age-based, mirroring the existing `arran-10-yo`), but the user corrected the canonical name to "Arran Barley Year Old" → slug `arran-barley-year-old`. Confirm the exact product name/slug with the user; age-in-slug is not always wanted.
+- **YouTube localized titles are traps**: `yt-search.mjs` serves titles in the request's `accept-language` (EN query → EN title, JA query → auto-JA title for the *same* video ID). The same ID (`UG_qQbFqtaI` Whisky Lock) shows "Arran Barley 10yo" in EN, "Arran Barley 10 años" in ES, "アラン・バーレイ10年" in JA — the **spoken language is fixed**. Decide language only from the authoritative oEmbed `author_name` + `title`, not from the localized search hit.
+- **Genuine in-language reviews hit 4/4 for every language** on this new release when you allow same-distillery widening: es/pt/ja/fr have no "Arran Barley" specific reviews, but Arran 10 reviews in-language abound (Los Whiskochos, Hablando de Whisky, Piojo, First Phil; Loucos Por Whisky, Sanson, Whisky Capital, Mapa do Whisky; せるじお, ひとくち, ゆうのウイスキー, 2.5畳; Whisky et Cie, La Maison du Whisky, Malt à propos). FR even has a dedicated Arran **Barley** video (`0nDnO862MpY` Whisky et Cie). EN got 4 exact-expression Arran Barley reviews.
+- Reuse existing seed videos where fit, but prefer fresh verified picks; every URL re-checked via oEmbed (0 bad).
+- Pipeline: `db:sync` (products 220, influencer_videos 603) → `data:export` (distillery resolved to "Isle of Arran Distillers", 4 videos/lang) → `npm run check` (0 errors, 25 baseline warnings).
+
+## 2026-08-28 — Batch of 10 whiskies + videos (Springbank/Longrow/Hazelburn, Kilkerran×2, Glen Scotia×3, Glenfiddich 15 Solera)
+
+- **`data:export` embeds videos under `videos` on each whisky** (not `influencer_videos`) and resolves `distillery` into a `distillery.name` object; `src/lib/data/influencer_videos.json` holds the flat keyed-by-product list. The seed keys videos by `product_id` = `w.slug` (db-sync `INSERT OR IGNORE` on `(product_id, language, url)`), and `db-sync` inserts products ON CONFLICT DO UPDATE only for locale columns — a new product + its videos both flow from `data/seed/whiskies.json`.
+- **Cross-product URL reuse is allowed; within-product is not**: "a URL may appear once per product, ever" (the runtime dedups by URL per product). Same-language same-distillery videos (`LWB. E71 Glen Scotia` in all three Glen Scotia products; the PT Kilkerran triple tasting in both Kilkerran products) are fine — dedup is scoped per product, not global.
+- **The subagent-friendly discovery chain that works**: launch per-product `general` agents to run `scripts/yt-search.mjs` + oEmbed verification, THEN trust nothing and re-verify every returned URL myself in one scripted loop (extract all 136 IDs → fetch oEmbed → print author+title). Agents hallucinated labels, wrong `created_at`, and — critically — **wrong-expression videos** (Hazelburn CV/8/12 dropped into the Hazelburn-10 slot; Springbank-10 PT videos dropped into the Springbank-15 slot). The spoken-language judge is always the oEmbed `author_name` + `title`, re-checked by hand.
+- **"Same distillery, different expression, in-language" widening is the sanctioned gap-filler for niche bottlings** (skill Step 5 rule 1) — that's why Hazelburn's es/pt and Glen Scotia's pt/fr non-core expressions are valid. pt for Kilkerran is genuinely 1 video (Porção dos Anjos triple tasting `5q0ZmEjFLIU`) after many queries — ship the honest 1, let the English top-up fill it.
+- **All 136 URLs verified playable (0 bad)**, every slot's channel+title confirms its language. Glenfiddich 15 Solera is the richest (full 4 in es/en/pt/ja, 4 fr range-widened since no genuine fr 15 exists).
+- Pipeline verify step-by-step: `npm run db:sync` (products 219, distilleries 77, influencer_videos 583) → `npm run data:export` (each new product resolves distillery name + videos with ≥2 per language) → `npm run check` (0 errors). Queue file `docs/whisky-brands-and-products-to-add.md` lines ticked `✅` for all 10.
+
 ## 2026-08-27 — Leaflet render race on the distillery map (single-flight + focus hook)
 
 - Supersedes the "Safe wiring pattern" bullet in the coordinates entry below: `async focusDistillery` awaiting `renderMarkers()` then calling `openPopup()` is racy. On arrival the `onMount` render, the `selectedOrigin` effect render, and the focus render all interleave after `await import('leaflet')`. The last-finishing stale render re-runs `markerLayer.remove()`, wiping the layer whose marker held the just-opened popup → map flies to the distillery but the popup dies and the final marker set is order-dependent.
@@ -176,3 +215,16 @@
 - **Shop-image ladder for brands without clean bottle shots**: Abhainn Dearg's own sites (abhainndearg.co.uk 403, abhainndeargdistillery.co.uk 401, Ecwid store = JS SPA with empty og:image) forced scotchwhisky.com's news og:image (two-bottle wide shot — "acceptable but not ideal"); for Shetland Reel the whisky isn't in the live Shopify collection anymore, but the ~/pages/...-history blog HTML still hosts the original bottle PNGs at their old `cdn/shopify.com/s/files/1/1383/4499/files/...` URLs — fetch blog/news/pages pages, not just /collections. Lagg's clean 1000x1000 came from the arranwhisky.com shop assets dir (`/assets/000/001/394/...PNG`).
 - When authoring foreign-language seed descriptions, watch for typo-loans: a stray Latin fragment survived into a ja description ("スピーターバーグ…") — a post-write `node -e` string replace + JSON.parse revalidate fixed it (bad found: true → cleaned).
 - Coordinates: Abhainn Dearg 58.170573/-7.044877 (whisky.com map link), Saxa Vord 60.7978/-0.824 (Wikipedia geohack), Lagg 55.4457/-5.2361 (whisky.com DB coords, matches geohack neighbourhood) — all anchored before insert this time, map verified via exported `distilleries.json` having all 5 with lat/lng.
+## Aberlour influencer video sourcing
+- YouTube oEmbed needs pacing (sleep 1), else burst rate-limits return empty bodies.
+- Japanese Aberlour = アベラワー / A'bunadh = アブーナ. French direct reviews of the 12 exist (Avis Avise); 16 requires same-distillery widening in French.
+- created_at upload dates aren't in oEmbed; kept null rather than guess.
+
+## 2026-08-28 — Task 060: 10 Speyside whiskies + videos + 3 distilleries
+
+- **Trust nothing from subagents — the verification loop is mine.** Four parallel `general` agents returned 150 candidate URLs; every single one passed oEmbed (0 dead), but their coverage looked suspiciously perfect. I consolidated all 150 IDs and re-verified each with a single scripted loop (`fetch youtube.com/oembed?url=...`) printing author+title, then hand-curated the final set. The spoken-language judge is always the oEmbed `author_name` + `title`.
+- **Curated per-language counts (floor 2, 4 where honest reviews exist):** Glenfiddich 18 → 4/4/4/4/4 (20). Glenlivet 12/FR/18 → 4/4/2/4/4 (18 each; fr capped at 2 via GQ France + La Centrale widening since no genuine fr 12 exists). Macallan Double Cask & Sherry Oak → 4/3/2/2/2 (13). Macallan Triple Cask 15 → 2/2/2/2/2 (10; only honest 2 per lang). Aberlour 12 → 4/4/3/4/4 (19). Aberlour 16 → 4/2/2/2/2 (12, fr via same-distillery interview). A'bunadh → 4/2/2/4/4 (16).
+- **Whisky-specific search nuggets:** A'bunadh = アブーナ in ja (not アバラッハ). Aberlour 16 has no genuine es review → used 18/14 same-distillery videos (floor 2). Macallan Triple Cask 15 is thin (no ja exact) → CROSSROAD LAB 飲み比べ. Every non-4 language is an honest dry in-language spot, not laziness.
+- **`description_es` may stay NULL on distilleries while base `description` (Spanish) is populated** — `_es` is implicit in base; `l10n()` falls back to base. So after backfill "0 of 77", the 3 new distilleries legitimately show only `_es` NULL. Verdict query must exclude `_es`: `WHERE description IS NULL OR description_pt IS NULL OR ... _en/_ja/_fr` → 0.
+- Distillery `macallan` (id `macallan`, not `the-macallan`); products correctly reference `distillery_id: macallan`. The Glenlivet → `the-glenlivet`.
+- Pipeline verified: `npm run db:sync` (230 products / 80 distilleries / 760 videos) → `data:export` (230, all resolve distillery + images + videos ≥2/lang) → `npm run check` (0 errors, 25 baseline warnings). Queue lines 101–110 ticked.
