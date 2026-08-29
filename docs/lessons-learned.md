@@ -66,3 +66,79 @@
 
 - **A `width:100%` child inside an auto-sized flex item collapses.** The video-modal fix wrapped every panel in `div.relative max-w-full` (new flex child, shrink-to-fit). Panels sized by relative `w-full` (Login `max-w-sm`, Review `max-w-md`, Language `max-w-xs`) then resolved their % width against an auto parent → treated as `auto` → card collapsed to content width (login hugged the Google button). Video passed an absolute `w-[90vw]`, so it stayed correct.
 - **Put width on the element that is the actual flex child.** Fix: wrapper `relative ${width} ${maxWidth}` (it is the flex item, sized like the old panel was), panel hard-codes `w-full` and fills it. No circularity; close-button anchoring (`-right-3 -top-3` on the `bare` ×, header × otherwise) derived from the same wrapper box → unchanged.
+
+## 2026-08-29 — YouTube research: don't trust translated search titles; verify via oEmbed + caption asr
+
+- Mistake risk: search-result titles (both websearch and innertube API) are auto-translated into the query language, so an English video can appear with a French/Spanish/Japanese title. That nearly put English videos in non-English slots.
+- Correction applied on the Tomatin research: every URL was run through `youtube.com/oembed` (HTTP 200 + canonical title/author) and spoken language confirmed via the watch page's `captionTracks` `languageCode` (`<lang>/asr` auto-caption). Channels whose claimed language only surfaced as `en/asr` were rejected for that language slot (e.g. French Tomatin candidates), and those languages were reported `dry` rather than forcing a mismatch.
+
+## 2026-08-29 — YouTube influencer video research: language verification workflow
+
+- Generic web-search returning blog articles (not videos) is useless for sourcing YouTube review slots.
+  Instead, fetch `https://www.youtube.com/results?search_query=<q>` directly (HTML), extract the
+  embedded `ytInitialData` JSON (`ReactDOMServer`-rebuilt from the `videoRenderer` nodes), and pull
+  {videoId, title, lengthText, ownerText}. Blog sites (dram1.com, whiskyart.blog, sister-ley.com, etc.)
+  only aggregate written reviews, no honest spoken-language video matches.
+- ALWAYS distrust search-result titles: YouTube returns auto-translated titles (e.g. an English
+  "Whiskey is a Journey" video shows up as "¿Lo bebes o no lo bebes?"/"Test du Kilchoman Sanaig"),
+  and English-channel titles get machine-translated into es/pt/ja/fr. The ONLY reliable narration
+  signal is YouTube's own `captionTracks[].languageCode` (ASR auto-captions) — grep `"captionTracks"`
+  in the watch page. Videos with NO captions must be confirmed via canonical-title language + channel
+  origin (e.g. Brazilian channels WhiskyBrasil / Márcio Becker / Eng. Milton Salgado), per the task rules.
+- Verify every final URL with `https://www.youtube.com/oembed?url=...&format=json` → HTTP 200; use that
+  returned canonical `title` + `author_name` (NOT the search-result title) in the output JSON.
+- Proven scarcity reality-check for Kilchoman: non-English depth is Machir Bay / Sanaig > Loch Gorm >
+  the rest. Portuguese (BR) has honest content only for Machir Bay + Sanaig; PX/Sauternes/MBC had NO
+  honest pt/es-px/es-sauternes/ja-sauternes/fr-sauternes results (≤1 honest candidate), so those slots
+  were marked `dry` rather than substituting English or inventing.
+- Reuse/`verify.mjs` helper: node script that takes video IDs, prints oEmbed title+author AND
+  caption languageCode in one pass — built at /tmp/opencode/research/verify.mjs during this task.
+
+## 2026-08-29 — White Oak / Eigashima video research (6 Akashi products)
+
+- Akashi has rich honest en/es/pt/ja coverage: did exact matches for Akashi Red (es x4 exact, ja x4 exact), Akashi Single Malt (en+ja exact), White Oak (en+ja exact) and heavily peated (ja x4 exact, en x1 exact). es/pt have no expression-level reviews → widened to any Akashi/White Oak expression in-language (allowed), never English substitution.
+- Japanese language (ja) has the deepest pool via 地ウイスキーあかし/ホワイトオークあかし search terms (明石/あかし/江井ヶ嶋). Use 宅飲みバーTakeo, もふチャンTV, バッカスズキ, せるじお, お酒の塾長 channels.
+- `fr` stayed empty (dry) for ALL products: only ONE honest French Akashi video exists (Vie Pratique Meisei, 1:25). Beware YouTube auto-translates search-result titles AND video titles per hl/gl — e.g. "5 Japanese Whisky Brands ROBBING You" (Cask Index) and "Whisky Verkostung" (German) appeared French-translated in fr results; must check oEmbed canonical title+channel, never the search snippet.
+- Watch pages (`youtube.com/watch`) intermittently return ~3KB bot-shells with no ytInitialPlayerResponse, killing captionTracks/duration extraction. Fallbacks that work reliably: oEmbed (canonical title+author), and search-result HTML `lengthText`/`simpleText` for duration via a `videoId` → `"simpleText":"m:ss"` search. videoRenderer `label` is localized — parse `simpleText` instead.
+- oEmbed 401 (vVVXPGOdc-k) = embed-blocked → discard even though watch page exists.
+- Reuse the verified akashi-blue-blended pool (Tito Whisky es, Tierri/Além do Rótulo pt, Whisky.com en) when a product lacks exact reviews.
+
+## Kavalan video top-up (ja/es/pt/fr)
+- YouTube auto-translates search-result titles AND (with hl/gl) video titles; trust ONLY oEmbed canonical title+author_name. Check captions via watch-page `captionTracks` languageCode.
+- oEmbed HTTP 401 = embed-blocked → exclude (URWTAeDQJA4, URHHVCmewyY).
+- kavalan-solist-port dedicated Japanese is scarce (ひとくちウイスキー wl9MhvBPfYE is the one solid ja); widened es/pt/fr with general solist Kavalan vids (La Guida es, Jornada do Whisky pt, LMDW fr).
+- fr is essentially LMDW-only; pt dedicated limited to select-2/port-finish/ex-bourbon; verified before marking dry.
+- Easiest reliable pipeline: `ytsearch.sh` (results HTML) + `oe.sh` (oEmbed) + `caps.sh` (captionTracks).
+
+## 2026-08-29 — Wave-2c1 video research (Balblair / Benromach / Glenturret)
+- CRITICAL caption gotcha: the raw watch-page HTML contains TWO captionTracks-like structures. A naive `grep -o '"languageCode":"..."'` matches the huge "auto-translate target language" array (all ~110 langs) and FALSE-POSITIVES a video as captioned. Always brace-balance the actual `"captionTracks":[ ... ]` array and read the FIRST track's `languageCode` (+ `kind` asr/manual). Reliable parser: find `"captionTracks":` → `[`, depth-count to matching `]`, JSON.parse, take track[0].
+- The innertube `youtubei/v1/player` POST returns captions:null in this env (needs cookies/API key / returns "Precondition check failed") — it is NOT a valid caption fallback. oEmbed works for canonical title+author but carries no captions.
+- `youtube.com/watch` bot-shell (387-byte, no player response) is bypassed by the saved cookie jar `-b /tmp/opencode/research/cj3.txt` + full Chrome UA. Most whisky reviewer videos have real ASR captions (`en/asr`, `ja/asr`, ...) that only show with cookies.
+- Language ground truth = the single real caption track, NOT the translated search/title/author heuristics. e.g. `lIikAKXibEs` shows a French "Glenturret 7 Ans" title in fr results but its caption is `en/asr` → it's English (Spanish channel) → assign en.
+- Glenturret FRENCH is essentially empty: after exhaustive in-language search the ONLY captioned French Glenturret video is Armagnacs Darroze "Le Spiritueux du Mois : le Whisky Glenturret" (qADcnsjaUd8). French reviewers (Malt à propos "meilleur jeune tourbé", Goût Divin, DEGUST'Emoi, LMDW) surface in glenturret searches but either caption nothing or cover other whiskies; search engine loosely matches "glenturret". Set fr=1 (not ≥2) for all 3 Glenturret products rather than inventing.
+- Benromach fr found via `fr/asr` captions on LMDW-Officiel "BENROMACH 10 ANS" (eDuCeX7h3DY) + Malt à propos "Quel est le meilleur Benromach ?" (oSJtKmFDI6s). Malts rich in es/pt/ja/en with ASR captions.
+- Balblair got full 5-language ≥2 coverage from reviewer ASR captions (ひとくちウイスキー ja, Whisky.com en, LMDW fr, Porção dos Anjos pt, El Whisky Bar es).
+
+## 2026-08-29 — Wave-2c5 video research (Wolfburn x4, Old Ballantruan x2, Scapa 13)
+- innertube `youtubei/v1/player` POST **works without cookies** in this env when using `clientName:"WEB"` + `clientVersion:"2.20240801.00.00"` (older clients → "Precondition check failed"). Returns `videoDetails.title`, `videoDetails.shortDescription`, `captionTracks`. Descriptions here were the reliable language ground truth because almost every reviewer video has `CAPS: none` (no ASR) — so use description language (Portuguese/Japanese/… text) as the confirmation signal, not captions.
+- Channel-language traps reconfirmed: `foodquig` is an ENGLISH channel (Spanish titles are YouTube auto-translations of e.g. "Tasting Sunday") → reject for es slots. `j_R8kr8cAnc` Scotch Down Under is english — the existing `influencer_videos.json` lists it under scapa es, which is WRONG (verified desc EN). Caldo Whisky Bar `4dyG8eWoTes` is Bulgarian, not pt.
+- oEmbed HTTP 401 (LiquorHound e5ApSsSV9ac) = embed-disabled → discard even though player API returns content.
+- Language scarcity reality: **es/pt/fr Wolfburn core is thin** — es = only Whisky o Muerte "Wolfburn 7 años CS" (oAfLMGjA4SQ, usable once as same-distillery fallback for all 4 core) + HABLANDO Northland; pt = only Porção dos Anjos Aurora + Langskip; fr = only La voie du whisky #9 Aurora. Old Ballantruan has NO fr at all; es only HABLANDO 10yo. Scapa fr = only Whisky et Cie "Scapa 10" + Tellement Soif distillery feature. Honest answer for morven/northland pt & fr, OB pt/fr, OB-NAS es = mark dry, never substitute English.
+- Old Ballantruan "bare title" (Tierri, Whisky.com) = the NAS 50% Peated Malt → belongs to old-ballantruan-4-yo, not the 10yo. Jp has deep pool: ひとくちウイスキー, SAKETRY, BAR PEGASUS (定番4種 was used once for langskip+morven ja), 繊月, ウイスキー同好会, CRAZY BARTENDER KEN スキャパ.
+
+## 2026-08-29 — Wave-2c4 video research (Talisker 10/18/DE/Storm, Tobermory 12, Ledaig 10)
+- `timedtext?type=list` returns no tracks for basically every video in this env — DO NOT use it as the caption signal. Watch-page `captionTracks` brace-balanced array with `-b cj3.txt` + Chrome UA is the only working caption endpoint.
+- All 94 selected c4 videos verified: oEmbed 200 + in-language canonical title; caption check confirmed every assignment (es/pt/ja/fr channels ship matching ASR tracks; fr reviewers uncaptioned here: AlexWhiskyBlog, Monsieur KHONAR).
+- Talisker 18 / Distillers Edition / Storm have NO genuine French reviewer video (only EN auto-translated; also Ledaig 10 has exactly one fr: Whisky et Cie). French Talisker coverage is lachaineduwhisky (10, 57°N), Whisky et Cie (10, 14 2025), AlexWhiskyBlog (10), Le Whisky Brunch (E21 Talisker), Malt à propos (Wilder Seas) — used as same-distillery fallback.
+- Spanish Talisker 18/DE also have no dedicated reviewer video; es fallback = Spanish Talisker 10 reviews (Destila2, WHISKY BUBU, Whisky Mexico, El Whisky Bar, Nehomar, Los Whiskochos, Abdul Le Tavernier).
+- Whisky Capital (Gustavo Araujo) is the richest PT-BR source (t18, DE, Storm, Dark Storm). Sanson has both PT and ES uploads — per-video oEmbed title decides (Ledaig 18 was PT, not ES).
+- English channels that pollute localized searches here: Gwhisky, The Whiskey Dictionary, Erik Wait Whisky Studies, Eat Smoke Drink, Sippers Social Club, Whiskey Novice, Whisky Lock, Bevvy, McIntyre's Malts, Whisky.com.
+
+## 2026-08-29 — Wave-2b2 video research (Laphroaig / Bowmore / Bunnahabhain)
+- Full 5-language ≥2 coverage achieved for all 8 products (Laphroaig 10/QC/Lore, Bowmore 12/15 Darkest/18, Bunnahabhain 12/18). Delivered `/tmp/opencode/research/wave2-b2.json`; every URL oEmbed-200 with canonical oEmbed title+author.
+- Caption validation (watch-page `captionTracks` with cj3.txt) confirmed ~all assignments. Key mismatch/corange: WhiskyBrasil.com "Laphroaig Lore Review" (032LmC3EoEE) has NO caption track and an English title → dropped from pt Lore despite Brazilian channel; pt Lore kept Bebendo Whisky (PX) + Destilados Brasil (PX) both `pt/asr`.
+- Captions also confirm: Destilados Brasil, Whisky Capital, Tierri Whisky, Sanson Single Malt, Márcio Becker, Jornada do Whisky, WhiskyBrasil.com (others) are genuine `pt/asr`; Los Whiskochos/El Whisky Bar/Sam's Single Malt/Tito Whisky/Whisky o Muerte/HABLANDO DE WHISKY/Todo Whisky/Amantes Del Whisky/Cultura del Whisky/Kata-dores/Whisky Masters/ElPedroWhisky/Clan de Whiskeros/es audio all `es/asr`.
+- A handful of videos legitimately have no caption track (uncaptioned vlogs): 7pCdsxll2I0 (Todo Whisky es), NbDVOngRpgQ (榎商店 ja), ILZqYIHp5bk (Todo Whisky es), 1W0F4I1XYfA (Revista Sobremesa es) — kept on Spanish/Japanese title + native channel; treat caption-missing as "title+channel only", acceptable when both point to the same native lang.
+- Bowmore French is thin: only three real French Bowmore sources surfaced — lachaineduwhisky ep11 (Bowmore 12, `fr/asr`, +en), Whisky Live Paris MASTERCLASS BOWMORE (`fr/asr`), Gouilland "La Décapsule Bowmore" (`fr/asr`). Reused across the three Bowmore products as same-distillery fallback.
+- Bunnahabhain 18 ja: no dedicated 18yo Japanese video exists; used ひとくちウイスキー (Cruach-Mhona/Eirigh Na Greine) + CROSSROAD LAB 2nd (Mòine), all `ja/asr`, as distillery fallback.
+- Bowmore 15 Darkest ja: mapped to modern "15年ダーケストの後継品" (15yo sherry-cask successor) videos (`ja/asr`) — the Darkest was discontinued; its direct successor is the current snow 15. Kept name-faithful titles, mapped closest expression.
