@@ -30,6 +30,45 @@ curl -s "https://www.youtube.com/oembed?url=https%3A//www.youtube.com/watch%3Fv%
 
 Returned `author_name`/`title` is authoritative for the real spoken language.
 
+## `scripts/yt-invidious.mjs`
+
+Search multiple Invidious instances — no API key. The native `yt-search.mjs` buries some exact-expression videos and auto-translates titles; Invidious instances preserve original-language titles (good for finding genuine foreign-language reviews) and some instances surface videos native search misses. **Use all search sources — never settle on one.**
+
+Usage:
+
+```bash
+node scripts/yt-invidious.mjs "Royal Salute Treasured Blend review"
+node scripts/yt-invidious.mjs "ロイヤルサルート トレジャード ブレンド"
+```
+
+Output (one per result, original-language title preserved):
+
+```
+OZGyHU--Lt0 ||| Royal Salute 25 Year Old Treasured Blend  [via https://inv.nadeko.net]
+```
+
+Instances that return 401/403/"Endpoint disabled" are skipped automatically (reported on stderr); results are deduplicated by video ID across the instances that do respond. Queries should use the **exact expression name** and native script for Japanese.
+
+## `scripts/yt-verify.mjs`
+
+Batch-verify YouTube video IDs via oEmbed — no API key. Authoritative for real spoken language (channel + title) and playability.
+
+```bash
+node scripts/yt-verify.mjs <id1> <id2> ...
+cat ids.txt | node scripts/yt-verify.mjs
+```
+
+Output (tab-separated):
+
+```
+OZGyHU--Lt0   Royal Salute   Royal Salute 25 Year Old Treasured Blend
+5rpwsNt_hJA   DEAD
+```
+
+- `200` → live; `author_name` + `title` = ground truth for the spoken language and exact-expression check.
+- `DEAD` (404) or `BLOCK` (401) → discard.
+- `ERR` = unreachable/transient; retry.
+
 ## Research scratch helpers (in `/tmp/opencode/research/`, not repo-maintained)
 
 One-off helpers used during influencer-video research batches:

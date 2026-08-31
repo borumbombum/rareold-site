@@ -207,6 +207,8 @@ Target **4 videos per language** × 5 languages (`es | en | pt | ja | fr`, ≤20
 
 **Hard rule — exact whisky only.** A video may be added ONLY if it reviews/tastes the EXACT whisky (the specific expression) on the product. Never use another version, another age, another distillery, another brand, or a same-style/brand/region substitute. Do not "widen". Examples of what to REJECT: a Royal Salute 21 review on a Royal Salute 25 (or Peated) product; a Glenfiddich 12 review on a Glenfiddich 15 product; an "Islay single malts" roundup on a single Islay product's page. If no exact-expression review exists in a language, that language gets no entry for that product (English top-up covers the gap at runtime).
 
+**Finding the videos — use the `youtube-search` skill.** Run `skill youtube-search` to get the exact method: search EVERY endpoint that returns results (`scripts/yt-search.mjs` native YouTube + `scripts/yt-invidious.mjs` multi-instance Invidious), query in the target language with the exact expression name (native script for Japanese), then verify each candidate via oEmbed (`scripts/yt-verify.mjs`). Never settle on a single search source — invoke the skill and follow it.
+
 For each video verify:
 - The URL is real and playable — check via YouTube oEmbed before seeding (no API key needed):
   ```sh
