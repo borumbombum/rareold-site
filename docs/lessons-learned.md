@@ -155,3 +155,24 @@
 - `qaAwz6AUYN0` (Hablemos de Whisky es candidate) oEmbed-401 (embed-disabled) → discarded despite agent claiming verified; confirms the embed-blocked check must run even on "agent-verified" lists.
 - thebalvenie.com product pages are age-gated (no og:image served), but the US shop's S3 attachment CDN (`access-sdk-apos.s3.amazonaws.com`) serves `.full.jpg` bottle shots freely — use it for Balvenie product images.
 - db:sync totals now 237 products / 1827 videos; 236→237 product delta confirmed the add.
+
+## 2026-08-31 — Task 053 Wave 2b batch 1 (HP/Dalmore/Glengoyne + dup fixes)
+- **Orphan purge key is (language, url), not url:** the "dup" rows I removed (e.g. an EN watch URL copied into the `fr` slot) share their URL with a legitimately-kept `en` row, so a `url`-only surplus check never flags them. Purge `DELETE` conditions must match `(product_id, language, url)` against the seed set.
+- Deducing an intra-product dup "by URL, keep first" is wrong when the dup is the SAME url mislabeled under a different language: dropping both copies gutted an `en` slot. Fix rule: keep the url where its spoken language is genuine, drop the wrongly-labeled copy.
+- `@libsql/client` `transaction('write')` must be **awaited** (`const tx = await client.transaction('write')`); forgetting the await yields a Promise with no `.batch` and a confusing `tx.batch is not a function`.
+- A 2037-row per-`client.execute` upsert loop over the network timed out at 120 s; the same work done as one `tx.batch([{sql,args},...])` (exactly how db-sync builds statements via `stmt()`) completes in seconds. Batch everything DB-side.
+- `db:sync` is `INSERT OR IGNORE` for videos — relabeling existing rows in the seed requires an external `ON CONFLICT ... DO UPDATE SET label` upsert; otherwise exports keep the DB's stale (often empty) label.
+- SQLite string literals need single quotes; `label = ""` in the HTTP client fails on "no such column".
+- Research agent output needs an author column; without it the injected `label` is empty and a post-hoc backfill pass is required.
+
+## 2026-08-31 — Task 053 Wave 2b batch 2 (Amrut/Paul John/Rampur/Penderyn/Speyburn)
+- Research agents get 429-rate-limited mid-search; their partial yields are still usable — verify each ID via oEmbed and drop low-confidence rows (author that contradicts agent claims, near-duplicate re-uploads from the same channel).
+- oEmbed title is the language judge: an agent's "Spanish" row whose actual author is an unknown channel and title is English (`xHN9FFGhZcg` → "Qantima Group") stays unconfirmed — drop rather than label.
+- Same channel can legitimately fill two slots with different videos (amrut-cask-strength `fr` Whisky et Cie ×2); a single video can fill two products of the same distillery (`XQa14qKkyLc` Eito Ajima ja for both Amrut Single Malt and Cask Strength) — intra-product uniqueness is the only rule.
+- Specialty markets like Indian single malts and Penderyn have almost no native fr/pt exclusive coverage; 1-en-only products (Rampur, Penderyn Portwood/Rich Oak, Speyburn Bourbon Cask) are honest floors to document, not failures.
+
+## 2026-08-31 — Task 053 Wave 2b batch 3 (AnCnoc/Smokehead/Benromach/Glenallachie/Balblair/Glenfarclas/Glencadam + Irish)
+- Research agents are flaky: 2 of 5 returned junk (project summaries) instead of TSV; one claimed to "run the whole pipeline" but the only thing that mattered was its injected candidates (Irish batch legitimately landed). Always verify repo state with gap.mjs after a batch rather than trusting agent claims.
+- Some agents confirmed candidates themselves via oEmbed; others only give search-derived IDs — always re-run my verify.mjs on every ID before injection regardless of what the agent claims.
+- oEmbed is the authority on channel identity: agent-said "Whisky Lovers" turned out to be HABLANDO DE WHISKY; agent-said unknown channels turned out to be Whisky Lovers Society / Tito Whisky / Gwhisky. Use the verified author as the label, not the agent's guess.
+- 2 candidate IDs (oCB5LPFfPbc glencadam-origin en, RLV38ICOMtk ancnoc-12 es) were DEAD at verify → dropped; confirms the oEmbed pass is non-optional even on "agent-verified" lists.

@@ -286,3 +286,14 @@
 - Added via reused distillery record; en/es/pt all exact-expression-rich (4/4/4), ja 3 (2 exact + 1 same-distillery 12/15 drink-off), fr 2 (both same-distillery Esprit Dégustation — no French CC14 review exists). oEmbed-only, all 200.
 - Watch the two Esprit Dégustation URLs (BL09nqm_E9U, F8bv2tXGaWI) are legitimately shared across DW12 and CC14 — same-distillery cross-product reuse allowed, no intra-product dup.
 - Bottle image: official S3 from shop.us.thebalvenie.com (200cl SKU, current label) — whisky direct product pages are age-gated; the US shop attachments CDN exposes .full.jpg freely.
+
+## 2026-08-31 — Task 053 Wave 2b batch 1 (big-pickle)
+- Verified English videos legitimately present in the `en` slot of a product were being duplicated into the `fr` slot as bogus slots (intra-product dup). Fix = replace the mislabeled `fr` copy with a genuine native video, not delete the URL. Only 3 French alternatives existed for dalwhinnie-15/glenfiddich-12/jameson plus 2 for HP cask-strength — fugue: French taste-test supply is thin and cluster-native.
+- Glengoyne is genuinely dry in es (15/18 only Tito's 4-expression multi), pt (10 only), fr (zero; no native French Glengoyne channel found), ja (21yo same-distillery fallbacks are the honest Ja floor).
+- Batch label writes to Turso = one `tx.batch` of prepared statements; individual awaits over HTTP are ~40x slower and will time out at 120s on ~2k rows.
+
+## 2026-08-31 — Task 053 Wave 2b batch 3 (big-pickle)
+- Niche Highland/Speyside distilleries (AnCnoc, Balblair, Glencadam, Benromach, Glenallachie) have near-zero Japanese/French coverage; ja/fr mostly dry. Their en/es/pt pools are healthy.
+- Irish producers (Dingle, Glendalough, Irishman) are en-dominant; non-English only sparse es/pt/fr.
+- Smokehead (a non-distillery Islay-style brand) pulls mostly en with a few es/fr/ja; High Voltage/rum/sherry sub-expressions are thin.
+- Keep agents to ONE task each and demand TSV-only output; multi-branch agents degrade into summaries.

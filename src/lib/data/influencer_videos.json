@@ -1288,6 +1288,230 @@
     "label": "Tierri Whisky"
   },
   {
+    "product_id": "amrut-cask-strength",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=OtmXHULMPGw",
+    "label": "Drinks And Chill"
+  },
+  {
+    "product_id": "amrut-cask-strength",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=aJG9o9TrEMg",
+    "label": "Gwhisky"
+  },
+  {
+    "product_id": "amrut-cask-strength",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=f6yY0P_JrH4",
+    "label": "Damned By The Dram"
+  },
+  {
+    "product_id": "amrut-cask-strength",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=sNcXmYzCI1k",
+    "label": "The Whiskey Dictionary"
+  },
+  {
+    "product_id": "amrut-cask-strength",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=X9vdOresRKI",
+    "label": "Whisky et Cie"
+  },
+  {
+    "product_id": "amrut-cask-strength",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mvLpOejr_8U",
+    "label": "Whisky et Cie"
+  },
+  {
+    "product_id": "amrut-cask-strength",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=XQa14qKkyLc",
+    "label": "Eito Ajima TSOV"
+  },
+  {
+    "product_id": "amrut-peated-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=IhJmJ5rBzqY",
+    "label": "foodquig"
+  },
+  {
+    "product_id": "amrut-peated-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VZ2IgmBfE7Y",
+    "label": "Trenny and C"
+  },
+  {
+    "product_id": "amrut-peated-single-malt",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wygWStKHLJw",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "amrut-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=KuUMrx4h-nQ",
+    "label": "The Single Malt Review"
+  },
+  {
+    "product_id": "amrut-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=MGEp8dKwpl0",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "amrut-single-malt",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=q17nZ5a-QPg",
+    "label": "Los Whiskochos"
+  },
+  {
+    "product_id": "amrut-single-malt",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=4bXYAidQjfU",
+    "label": "Los Whiskochos"
+  },
+  {
+    "product_id": "amrut-single-malt",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=KaGeJYgn9xk",
+    "label": "CROSSROAD LAB"
+  },
+  {
+    "product_id": "amrut-single-malt",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=XQa14qKkyLc",
+    "label": "Eito Ajima TSOV"
+  },
+  {
+    "product_id": "amrut-single-malt",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=yHRVbatTMQQ",
+    "label": "Tierri Whisky"
+  },
+  {
+    "product_id": "an-cnoc-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=AtvLbh25_nA",
+    "label": "Whisky review"
+  },
+  {
+    "product_id": "an-cnoc-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=CtY6UiAK_OU",
+    "label": "Whisky Party"
+  },
+  {
+    "product_id": "an-cnoc-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=D-ZP5aLG2P4",
+    "label": "No Bs Whisky"
+  },
+  {
+    "product_id": "an-cnoc-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ZTMtuEI3PEQ",
+    "label": "Whiskytube"
+  },
+  {
+    "product_id": "an-cnoc-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=OtdcS3QZJOs",
+    "label": "Cata AnCnoc"
+  },
+  {
+    "product_id": "an-cnoc-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=rohKCjk-uss",
+    "label": "Cata de Whisky"
+  },
+  {
+    "product_id": "an-cnoc-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=DRicelNtNmo",
+    "label": "hitokuchi"
+  },
+  {
+    "product_id": "an-cnoc-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lW3SGXF0cs0",
+    "label": "Whisky-jikkyo"
+  },
+  {
+    "product_id": "an-cnoc-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=n6Hd81S32Pw",
+    "label": "Sake-jikkyo"
+  },
+  {
+    "product_id": "an-cnoc-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=v9qAd0zKDn4",
+    "label": "Whisky e Engenharia"
+  },
+  {
+    "product_id": "an-cnoc-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1IWtGmghnVg",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "an-cnoc-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=NTQEdo0vhbs",
+    "label": "Whisky Central"
+  },
+  {
+    "product_id": "an-cnoc-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VbkmzCZ0N6I",
+    "label": "Gwhisky"
+  },
+  {
+    "product_id": "an-cnoc-peatheart",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=DQm30uv_mL4",
+    "label": "Review"
+  },
+  {
+    "product_id": "an-cnoc-peatheart",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=L2QHzxO-NCE",
+    "label": "Whiskey Review"
+  },
+  {
     "product_id": "ardbeg-10-yo",
     "language": "en",
     "platform": "youtube",
@@ -2030,6 +2254,104 @@
     "label": "ARRAN THE BODEGA — SHERRY CASK"
   },
   {
+    "product_id": "balblair-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0SAvLunS3xo",
+    "label": "Spirits with Spirit"
+  },
+  {
+    "product_id": "balblair-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cmg1CMSN4jg",
+    "label": "Whisky Cassandra"
+  },
+  {
+    "product_id": "balblair-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=nsLgnrDondg",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "balblair-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=P1zeh-EKdBY",
+    "label": "Whisky Lovers"
+  },
+  {
+    "product_id": "balblair-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=DRQNMk7EXdE",
+    "label": "Brendan's Whisky Corner"
+  },
+  {
+    "product_id": "balblair-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=V69BaE117g8",
+    "label": "Spirits with Spirit"
+  },
+  {
+    "product_id": "balblair-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lkCPQPuE0DI",
+    "label": "Whiskey Takes"
+  },
+  {
+    "product_id": "balblair-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2N8tG1LoAIQ",
+    "label": "Whisky BR"
+  },
+  {
+    "product_id": "balblair-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Oax4yQi5zgQ",
+    "label": "Whisky BR"
+  },
+  {
+    "product_id": "balblair-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=8QuD0_oi8qQ",
+    "label": "Whisky In The 6"
+  },
+  {
+    "product_id": "balblair-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=c2rOmjVVlIc",
+    "label": "Milo"
+  },
+  {
+    "product_id": "balblair-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=grujOAdGSog",
+    "label": "Whisky World"
+  },
+  {
+    "product_id": "balblair-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mBTSqbSH0HQ",
+    "label": "TMDB Scotch Reviews"
+  },
+  {
+    "product_id": "balblair-18-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=utiHdWsjNTc",
+    "label": "Whisky ES"
+  },
+  {
     "product_id": "balvenie-caribbean-cask-14-yo",
     "language": "en",
     "platform": "youtube",
@@ -2511,6 +2833,153 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=fI1fUfY2pMk",
     "label": "Review Benriach 12 Anos — Bebendo Whisky"
+  },
+  {
+    "product_id": "benromach-organic",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5IKwkA8iYMI",
+    "label": "Malt Muser"
+  },
+  {
+    "product_id": "benromach-organic",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=tX43y4O19kQ",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "benromach-organic",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wMMT8wuUXnY",
+    "label": "Whisky Whistle"
+  },
+  {
+    "product_id": "benromach-organic",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=DCKd2wjLUzc",
+    "label": "La Maison du Whisky"
+  },
+  {
+    "product_id": "benromach-organic",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=PwIZ-t0Oc9k",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "benromach-peat-smoke",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=B_hnocehOTY",
+    "label": "The Whiskey Geeks"
+  },
+  {
+    "product_id": "benromach-peat-smoke",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=j4-QsGhakKA",
+    "label": "Trenny and C"
+  },
+  {
+    "product_id": "benromach-peat-smoke",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=qlzkS0dgEe0",
+    "label": "Whisky Mystery"
+  },
+  {
+    "product_id": "benromach-speyside-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0PQ339lC_0o",
+    "label": "Whisky Whistle"
+  },
+  {
+    "product_id": "benromach-speyside-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=BJwI3VDMOMc",
+    "label": "Seaway Whisky Wire"
+  },
+  {
+    "product_id": "benromach-speyside-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=W-Ul5UASLbs",
+    "label": "Hablando de Whisky"
+  },
+  {
+    "product_id": "benromach-speyside-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=sChT6sHXhAI",
+    "label": "El Whisky Bar"
+  },
+  {
+    "product_id": "benromach-speyside-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9efcYcOxqYY",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "benromach-speyside-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=BifMuqKRpzE",
+    "label": "BAR MAR"
+  },
+  {
+    "product_id": "benromach-speyside-10-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2Kzx1qqCy0U",
+    "label": "Mauricio"
+  },
+  {
+    "product_id": "benromach-speyside-10-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Gz5wyDENWeY",
+    "label": "Tierri Whisky"
+  },
+  {
+    "product_id": "benromach-speyside-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=MTfLuwX06Zw",
+    "label": "Whisky In The 6"
+  },
+  {
+    "product_id": "benromach-speyside-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=iR9V4VWDV4k",
+    "label": "Whiskey4Breakfast"
+  },
+  {
+    "product_id": "benromach-speyside-15-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Msclhd2l0YU",
+    "label": "はっちばっちチャンネル"
+  },
+  {
+    "product_id": "benromach-speyside-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=C8rq3wDBKW4",
+    "label": "Sanson Single Malt"
+  },
+  {
+    "product_id": "benromach-speyside-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bfvSoABfyMs",
+    "label": "The Malted Man Cave"
   },
   {
     "product_id": "bowmore-12-yo",
@@ -3556,6 +4025,447 @@
     "label": "Tierri Whisky"
   },
   {
+    "product_id": "dalmore-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=M-h4gdDe0Rw",
+    "label": "Erik Wait Whisky Studies"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=NlMYZ12O_3o",
+    "label": "Whiskey Novice"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=V8k2k3v88dE",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Y1vKbRm4I94",
+    "label": "Whiskey Vault"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9i3fah4JPq8",
+    "label": "Destila2"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=FasYBYYSfjk",
+    "label": "Piojo Whisky 🥃"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=HxfYVL552-Y",
+    "label": "Hablemos de Whisky"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=uCK6YK1o8Ok",
+    "label": "La Casa del Whisky"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2cw3laSRec4",
+    "label": "La Maison du Whisky Officiel"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Tbg2E_LHE7Y",
+    "label": "Spirituosités"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=HpA42loMuHc",
+    "label": "男の趣味 なべちゃんねる"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=MhAzPMJAX1Y",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=P0L3J3pslyE",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=u-gdkpEUT0s",
+    "label": "CRAZY BARTENDER KEN"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1t7CWiYlJR0",
+    "label": "Além do Rótulo | Maicom Casa"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=HDKpXQ-Trow",
+    "label": "WhiskyBrasil.com"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=RytiQPrybzc",
+    "label": "Destilados Brasil"
+  },
+  {
+    "product_id": "dalmore-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bYdXL4gIr9w",
+    "label": "Jornada do Whisky"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WgDbIQtr4mw",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bjNTPYxB_vo",
+    "label": "Reviewing Whiskey"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=gPXb---IXTw",
+    "label": "Whiskey is a Journey"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=uI44DlKhXm0",
+    "label": "Whiskey Vault"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=C5HZmeDjqPo",
+    "label": "Whisky Argentina"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=D5hmh4Meo0g",
+    "label": "LP4 Cigar Club Mx"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ExeOiIg6Onc",
+    "label": "Whisky Mexico"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=XurPzeLAWg8",
+    "label": "La Casa del Whisky"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=l5Gi6mq-Q1E",
+    "label": "Deto"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wbfAPEIrCWw",
+    "label": "Malt à propos"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2m-ZKZu00To",
+    "label": "榎商店"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=P0L3J3pslyE",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=baKa39wgQzQ",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lTE6BGDnx3Q",
+    "label": "【解説】みずき&カオリの酒豪旅"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=L4raylxuFQw",
+    "label": "Márcio Becker"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=dODHeQgaN8k",
+    "label": "Jornada do Whisky"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mch5NIvGj4U",
+    "label": "WhiskyBrasil.com"
+  },
+  {
+    "product_id": "dalmore-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wmBf16eJCi0",
+    "label": "Whisky Capital | Gustavo Araujo"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=CKAon-j_mM0",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=F4r4LDaQbcg",
+    "label": "Whisky In The 6"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=RZOkB1Gise4",
+    "label": "JasonWhiskyWise"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lzJogSKSyXo",
+    "label": "WhiskyJason"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=FjqXsL1rXSQ",
+    "label": "Los Whiskochos"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=HOktxb4nTIo",
+    "label": "LP4 Cigar Club Mx"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=utJ6BV556p0",
+    "label": "Los Whiskochos"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0ufHAocBVyc",
+    "label": "Malt à propos"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2nQIqaJBmng",
+    "label": "Les rencontres Oenologiques 2020"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Bof1zlo-fGE",
+    "label": "AJのウイスキーノート"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=JZWqQ4us7bU",
+    "label": "お酒とYotoの物語"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=P0L3J3pslyE",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lTE6BGDnx3Q",
+    "label": "【解説】みずき&カオリの酒豪旅"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0EgeyE-J2MU",
+    "label": "Destilados Brasil"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=j27EloUuA58",
+    "label": "Jornada do Whisky"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mPXao3vYWUg",
+    "label": "Whisky Capital | Gustavo Araujo"
+  },
+  {
+    "product_id": "dalmore-18-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=u_yf7ZEA8FM",
+    "label": "WhiskyBrasil.com"
+  },
+  {
+    "product_id": "dalmore-king-alexander",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5AkoKtxfWxc",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "dalmore-king-alexander",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5xvwt_DDHxs",
+    "label": "Distilled Brewed & Reviewed"
+  },
+  {
+    "product_id": "dalmore-king-alexander",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ACU6VjXKEd4",
+    "label": "Watches Whiskeys Wines"
+  },
+  {
+    "product_id": "dalmore-king-alexander",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lwW4R4KnFgY",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "dalmore-king-alexander",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Fv41r4WerqE",
+    "label": "Whisky o Muerte"
+  },
+  {
+    "product_id": "dalmore-king-alexander",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=YP9-eou1NJY",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "dalmore-king-alexander",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xcPqgkaUejs",
+    "label": "Whisky o Muerte"
+  },
+  {
+    "product_id": "dalmore-king-alexander",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7q6tcK7SIYo",
+    "label": "Bebendo Whisky com Eng. Milton Salgado Filho"
+  },
+  {
+    "product_id": "dalmore-king-alexander",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QQRF3g6H06g",
+    "label": "SingleMaltBrasil"
+  },
+  {
+    "product_id": "dalmore-king-alexander",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=W55ZxWOEaYo",
+    "label": "WhiskyBrasil.com"
+  },
+  {
     "product_id": "dalwhinnie-15-yo",
     "language": "en",
     "platform": "youtube",
@@ -3615,15 +4525,15 @@
     "product_id": "dalwhinnie-15-yo",
     "language": "fr",
     "platform": "youtube",
-    "url": "https://www.youtube.com/watch?v=Tbg2E_LHE7Y",
-    "label": "Dalwhinnie 15 Whisky Dégustation et Impressions"
+    "url": "https://www.youtube.com/watch?v=8OhQfWQohxg",
+    "label": "Malt à propos"
   },
   {
     "product_id": "dalwhinnie-15-yo",
     "language": "fr",
     "platform": "youtube",
-    "url": "https://www.youtube.com/watch?v=y6xGe9yyLW0",
-    "label": "Whisky Review/Tasting: Dalwhinnie 15 years"
+    "url": "https://www.youtube.com/watch?v=Tbg2E_LHE7Y",
+    "label": "Dalwhinnie 15 Whisky Dégustation et Impressions"
   },
   {
     "product_id": "dalwhinnie-15-yo",
@@ -3652,6 +4562,55 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=TizXjhQ50nY",
     "label": "Whisky Review | Dalwhinnie 15 anos (Português PT - BR)"
+  },
+  {
+    "product_id": "dingle",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iz45iQ6WLuI",
+    "label": "DINGLE SINGLE MALT | Irish Whiskey Review | Whisky & Whiskey"
+  },
+  {
+    "product_id": "dingle",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=y7WA2ryiJZE",
+    "label": "Dingle Single Malt Irish Whiskey | Whiskey is a Journey"
+  },
+  {
+    "product_id": "dingle-batch-5",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=pswHUZ55vbs",
+    "label": "Sip It or Skip It: Dingle Batch 5 Irish Single Malt | Whiskey is a Journey"
+  },
+  {
+    "product_id": "dingle-batch-5",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=qIBMSFeJ-dA",
+    "label": "Dingle Single Malt Batch 5 Review: Must-Try Irish Whiskey | The Liquor Connoisseur"
+  },
+  {
+    "product_id": "dingle-batch-5",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xKdXjyosZ5Y",
+    "label": "Dingle Single Malt Batch 5 Irish Whiskey Review | The Liquor Connoisseur"
+  },
+  {
+    "product_id": "dingle-pot-still-batch-4",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=N4zt58LuAkU",
+    "label": "DINGLE Fourth Release Single Pot Still Irish Whiskey Review | WhiskyJason"
+  },
+  {
+    "product_id": "dingle-pot-still-batch-4",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SNo86t0OJOw",
+    "label": "Dingle Single Pot Still Fourth Release Review | Whisky Shared"
   },
   {
     "product_id": "elijah-craig-rye",
@@ -4697,6 +5656,342 @@
     "label": "Glen Scotia Victoriana | resenha"
   },
   {
+    "product_id": "glenallachie-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ASNZRbR7Klc",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glenallachie-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=tGXeaSUN-Og",
+    "label": "Dram Straight"
+  },
+  {
+    "product_id": "glenallachie-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Nq41snAEvcc",
+    "label": "Los Whiskochos"
+  },
+  {
+    "product_id": "glenallachie-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=zTx801FWLzk",
+    "label": "Malt experiences"
+  },
+  {
+    "product_id": "glenallachie-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vEnOwEG2CL4",
+    "label": "wadokaichin"
+  },
+  {
+    "product_id": "glenallachie-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vetd4aXOti8",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "glenallachie-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=acF1cGcV3A0",
+    "label": "Whisky com Gringo"
+  },
+  {
+    "product_id": "glenallachie-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hFEjgzlHbqg",
+    "label": "Whisky Capital"
+  },
+  {
+    "product_id": "glenallachie-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SpLRvjRKeKI",
+    "label": "Dram Straight"
+  },
+  {
+    "product_id": "glenallachie-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=sNzhJeeh1fA",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glenallachie-15-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=h8SXoOCwII8",
+    "label": "なおんの一杯"
+  },
+  {
+    "product_id": "glenallachie-15-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=sVsYvVJVq10",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "glenallachie-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=4OejjKHhUrs",
+    "label": "Sanson"
+  },
+  {
+    "product_id": "glenallachie-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=niP41JNO3_E",
+    "label": "Whisky Capital"
+  },
+  {
+    "product_id": "glenallachie-8-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ArnPlLVxcX4",
+    "label": "Whisky In The 6"
+  },
+  {
+    "product_id": "glenallachie-8-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SD4Y7J0Pa5I",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glenallachie-8-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=uyt4y1GFTmM",
+    "label": "Whisky o Muerte"
+  },
+  {
+    "product_id": "glenallachie-8-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=EqVM07OgEhQ",
+    "label": "camera_Simon"
+  },
+  {
+    "product_id": "glenallachie-8-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QplhZUyURJc",
+    "label": "Porção dos Anjos Whisky"
+  },
+  {
+    "product_id": "glencadam-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=6POHbGkCeCs",
+    "label": "Reivax"
+  },
+  {
+    "product_id": "glencadam-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=OgYkYVdsi34",
+    "label": "Single Malt Monthly"
+  },
+  {
+    "product_id": "glencadam-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SlEWeZQ5nkY",
+    "label": "Gwhisky"
+  },
+  {
+    "product_id": "glencadam-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=fH-Y-slvpsQ",
+    "label": "Ralfy"
+  },
+  {
+    "product_id": "glencadam-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9YDmmwqpAhI",
+    "label": "Whisky ES"
+  },
+  {
+    "product_id": "glencadam-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=tc5YQkYLpY4",
+    "label": "Whisky CL"
+  },
+  {
+    "product_id": "glencadam-10-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=n5SvLMHWx50",
+    "label": "Maltophile"
+  },
+  {
+    "product_id": "glencadam-origin",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=BHPEqSwa9xU",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glencadam-origin",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wDsVkJRkFVw",
+    "label": "Whisky reviewer"
+  },
+  {
+    "product_id": "glencadam-origin",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=28plrfEutk0",
+    "label": "Whisky Justificado"
+  },
+  {
+    "product_id": "glencadam-origin",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=3U6CGLh47A4",
+    "label": "Whisky BR"
+  },
+  {
+    "product_id": "glendalough-double-barrel",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=D2wC80VzCRM",
+    "label": "Glendalough Double Barrel Review | Mike and Annie Booze It Up"
+  },
+  {
+    "product_id": "glendalough-double-barrel",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=yhj7H_KpLDs",
+    "label": "Glendalough Double Barrel Whiskey REVIEW | The Whiskey Nerd"
+  },
+  {
+    "product_id": "glendalough-pot-still",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=B9ScpsrgrHs",
+    "label": "Glendalough Pot Still aged in Wicklow-grown Irish Oak | Whiskey4Breakfast with Ronan"
+  },
+  {
+    "product_id": "glendalough-pot-still",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=iLlO5QFKpZI",
+    "label": "Glendalough Pot Still | Irish Whiskey Review | Whiskey4Breakfast with Ronan"
+  },
+  {
+    "product_id": "glendalough-pot-still",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Xf44zAxFb2A",
+    "label": "Glendalough Irish Whiskey Review | Part 2 | Whiskynewspaper"
+  },
+  {
+    "product_id": "glenfarclas-105-cask-strength",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=RJ7VrQ-Vqfk",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glenfarclas-105-cask-strength",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=gRFF5kPpLAU",
+    "label": "Malt Experiences"
+  },
+  {
+    "product_id": "glenfarclas-105-cask-strength",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=jMf8XgBv93I",
+    "label": "Tipsy"
+  },
+  {
+    "product_id": "glenfarclas-105-cask-strength",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=rkEtg857RcE",
+    "label": "Gwhisky"
+  },
+  {
+    "product_id": "glenfarclas-105-cask-strength",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=L_tvN2DK1Is",
+    "label": "Whisky BR"
+  },
+  {
+    "product_id": "glenfarclas-105-cask-strength",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=j2MAV6COW78",
+    "label": "Whisky BR"
+  },
+  {
+    "product_id": "glenfarclas-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ZyxLtNqxaVk",
+    "label": "Whisky Central"
+  },
+  {
+    "product_id": "glenfarclas-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hkB1UUhxKiU",
+    "label": "Brendan's Whisky Corner"
+  },
+  {
+    "product_id": "glenfarclas-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=uGHd86YkTOo",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glenfarclas-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vrmLWrTTI1U",
+    "label": "Scotch Sunday"
+  },
+  {
+    "product_id": "glenfarclas-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=8CCse1wKSOw",
+    "label": "Whisky ES"
+  },
+  {
+    "product_id": "glenfarclas-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=csv-YFipTJs",
+    "label": "Whisky ES"
+  },
+  {
+    "product_id": "glenfarclas-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kvn-FG57hb0",
+    "label": "Whisky Argentina"
+  },
+  {
     "product_id": "glenfiddich-12-yo",
     "language": "en",
     "platform": "youtube",
@@ -4756,8 +6051,8 @@
     "product_id": "glenfiddich-12-yo",
     "language": "fr",
     "platform": "youtube",
-    "url": "https://www.youtube.com/watch?v=m9inY2txQ4w",
-    "label": "Glenfiddich 12 Year Old Single Malt Scotch Whisky Review"
+    "url": "https://www.youtube.com/watch?v=CTQ8qWoyYlw",
+    "label": "Esprit Dégustation"
   },
   {
     "product_id": "glenfiddich-12-yo",
@@ -5073,6 +6368,265 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=yUOHJLFgaAU",
     "label": "Review Glenfiddich 18 PT-BR"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-B6SJvzQL7w",
+    "label": "Scotch Test Dummies"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=OkWQKCjbz1I",
+    "label": "Malt Muser Whisky Reviews"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=s0Bw_xKmxng",
+    "label": "Scotch 4 Dummies"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=x6ET5n0FxRI",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7ZmmmMYm7ok",
+    "label": "TheOneGlassMan"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=dbZSCnWZkC8",
+    "label": "Tito Whisky"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Z14fHNX9Y4s",
+    "label": "AJのウイスキーノート"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=gLluPYg2iq0",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=pJ9NUKbdjXQ",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=pzN6nlDwyZw",
+    "label": "Bar studio TV byミヤモリ"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1mvH-G3fbl0",
+    "label": "Porção dos Anjos Whisky"
+  },
+  {
+    "product_id": "glengoyne-10-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=KvA6y1_T1CQ",
+    "label": "Bruno Martins"
+  },
+  {
+    "product_id": "glengoyne-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-cwa64StHWs",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glengoyne-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=B7jELu_fDAo",
+    "label": "No Nonsense Whisky"
+  },
+  {
+    "product_id": "glengoyne-12-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=y3_yB45ZQoM",
+    "label": "Gwhisky"
+  },
+  {
+    "product_id": "glengoyne-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Vb3LP7-7j3s",
+    "label": "WHISKY BUBU"
+  },
+  {
+    "product_id": "glengoyne-12-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kXAe0etV2vI",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "glengoyne-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-ShpDXn3H_k",
+    "label": "CROSSROAD LAB"
+  },
+  {
+    "product_id": "glengoyne-12-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=3mOe85qplSo",
+    "label": "ドラムズ・ジャパン"
+  },
+  {
+    "product_id": "glengoyne-12-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=JQC8yCQ-PtY",
+    "label": "Além do Rótulo | Maicom Casa"
+  },
+  {
+    "product_id": "glengoyne-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=PB1Nkk1G2ks",
+    "label": "Whisky Wednesday"
+  },
+  {
+    "product_id": "glengoyne-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WaDcOhX4Tzs",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glengoyne-15-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=dbZSCnWZkC8",
+    "label": "Tito Whisky"
+  },
+  {
+    "product_id": "glengoyne-15-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9OicLtmPPDk",
+    "label": "はっちばっちチャンネル"
+  },
+  {
+    "product_id": "glengoyne-15-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Ebeu7LOUp14",
+    "label": "おつかれとろ"
+  },
+  {
+    "product_id": "glengoyne-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=CK7StPR3dKU",
+    "label": "Whisky Wednesday"
+  },
+  {
+    "product_id": "glengoyne-18-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=pIyTEbHwGjo",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glengoyne-18-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=dbZSCnWZkC8",
+    "label": "Tito Whisky"
+  },
+  {
+    "product_id": "glengoyne-18-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Hk4FTbpsvto",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "glengoyne-18-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=nQgs1yH6F2Q",
+    "label": "生方佑（昭和スタイルのショットバー クエルクス）"
+  },
+  {
+    "product_id": "glengoyne-18-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=CLW46d6pP0E",
+    "label": "Bebendo Whisky com Eng. Milton Salgado Filho"
+  },
+  {
+    "product_id": "glengoyne-cask-strangth",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=LkktPcD_quE",
+    "label": "No Nonsense Whisky"
+  },
+  {
+    "product_id": "glengoyne-cask-strangth",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=oCzP4LJcRus",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "glengoyne-cask-strangth",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=dbZSCnWZkC8",
+    "label": "Tito Whisky"
+  },
+  {
+    "product_id": "glengoyne-cask-strangth",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hqbrjO8wQS4",
+    "label": "Whisky o Muerte"
+  },
+  {
+    "product_id": "glengoyne-cask-strangth",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=eK0bgEYxFrg",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "glengoyne-cask-strangth",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=nQgs1yH6F2Q",
+    "label": "生方佑（昭和スタイルのショットバー クエルクス）"
   },
   {
     "product_id": "glenturret-12-yo",
@@ -5474,6 +7028,356 @@
     "label": "Hazelburn 12 review | WhiskyBrasil"
   },
   {
+    "product_id": "highland-park-12-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2Ut5EwPYKnE",
+    "label": "Scotch 4 Dummies"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=DSuqiBzRM3M",
+    "label": "Whiskey Novice"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=d1YUDPFoXCI",
+    "label": "Night On The Scotch"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=nCvzGSxGDg4",
+    "label": "Whiskey Vault"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1i-x6E01eGQ",
+    "label": "Whisky o Muerte"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Oq3a-es2nps",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lff2of5LaXA",
+    "label": "Los Whiskochos"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=oZWq23PJo5M",
+    "label": "Whisky Argentina"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1UTrsw2HZYg",
+    "label": "Whisky et Cie"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=dCN7RzKLAvc",
+    "label": "Malt à propos"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5QazOab6B5Y",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Jb4SfXGMru4",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Wgt9FCORrwM",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=X9g_IsvLnZ8",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1eN8BX9hNqs",
+    "label": "WhiskyBrasil.com"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2-reoJgMn_k",
+    "label": "Bebendo Whisky com Eng. Milton Salgado Filho"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=EprgKTqZQ7Q",
+    "label": "Jornada do Whisky"
+  },
+  {
+    "product_id": "highland-park-12-year-old",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Xq9lhQt_TG8",
+    "label": "Destilados Brasil"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=LN1Xt24XP08",
+    "label": "Gwhisky"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=RGvVrzuyogM",
+    "label": "Scotch Test Dummies"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lN8pBvJTvDg",
+    "label": "Curiosity Public"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lzmFSKXhSZw",
+    "label": "Malt Muser Whisky Reviews"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QIr6aVJcRK0",
+    "label": "Sommelier Jeffrey Zamora"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=RY51qUiiUXg",
+    "label": "Los Whiskochos"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kNoiAveuOCI",
+    "label": "Un Whiskycito Con Los Mismos"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=dCN7RzKLAvc",
+    "label": "Malt à propos"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wbfAPEIrCWw",
+    "label": "Malt à propos"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=6RkDDfhHVXc",
+    "label": "もっさんハイボール倶楽部【#ハイクラ】"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=P7xcKA1rz9s",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=tk7rVzroPRY",
+    "label": "ありざわ(旧アランガール)"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2clw0TCkfjM",
+    "label": "Bebendo Whisky com Eng. Milton Salgado Filho"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5NuYHBmqtkc",
+    "label": "Tierri Whisky"
+  },
+  {
+    "product_id": "highland-park-15-year-old",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=NQ2DSywUnKs",
+    "label": "Sanson Single Malt"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7B98wOw7gsE",
+    "label": "Whisky Lock"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ELMvP6b57yU",
+    "label": "Critics Lab"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=EOOFrRL01wg",
+    "label": "The Whisky Diaries"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=jGs3HDDEpJs",
+    "label": "Malt Muser Whisky Reviews"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=POUlKclWTM0",
+    "label": "Cultura del Whisky"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TnZ8xbw3qtI",
+    "label": "Tito Whisky"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=jqWJhZTiWN8",
+    "label": "Cultura del Whisky"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ne7li3b07j0",
+    "label": "Tito Whisky"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0ufHAocBVyc",
+    "label": "Malt à propos"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1UTrsw2HZYg",
+    "label": "Whisky et Cie"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=EBRJgK8YvTY",
+    "label": "BAR MAR駆け出しバーテンダー"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=F_Q2-iizUoA",
+    "label": "モルトの会"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kxoiqtSspwE",
+    "label": "もっさんハイボール倶楽部【#ハイクラ】"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=v1QNGQe8U5A",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SQbeHopqmNI",
+    "label": "Bebendo Whisky com Eng. Milton Salgado Filho"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=f7FiA4P8bhQ",
+    "label": "Bebendo Whisky com Eng. Milton Salgado Filho"
+  },
+  {
+    "product_id": "highland-park-18-year-old",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=nRjGcLiVVBg",
+    "label": "Sanson Single Malt"
+  },
+  {
     "product_id": "highland-park-cask-strength",
     "language": "en",
     "platform": "youtube",
@@ -5519,15 +7423,22 @@
     "product_id": "highland-park-cask-strength",
     "language": "fr",
     "platform": "youtube",
-    "url": "https://www.youtube.com/watch?v=hdGXkY4xCns",
-    "label": "Is Highland Park Cask Strength Worth It? Full Scotch Review"
+    "url": "https://www.youtube.com/watch?v=1UTrsw2HZYg",
+    "label": "Whisky et Cie"
   },
   {
     "product_id": "highland-park-cask-strength",
     "language": "fr",
     "platform": "youtube",
-    "url": "https://www.youtube.com/watch?v=qQ7eT0EQfNg",
-    "label": "Highland Park Cask Strength | Drinkthrough | Curiosity Public"
+    "url": "https://www.youtube.com/watch?v=c2MTYotEOAg",
+    "label": "Greg's Whisky Guide"
+  },
+  {
+    "product_id": "highland-park-cask-strength",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5I_DiAKOPNE",
+    "label": "Dram FM【ウイスキーラジオ】"
   },
   {
     "product_id": "highland-park-cask-strength",
@@ -5568,8 +7479,78 @@
     "product_id": "highland-park-cask-strength",
     "language": "pt",
     "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=NrBiA31QxCM",
+    "label": "Tierri Whisky"
+  },
+  {
+    "product_id": "highland-park-cask-strength",
+    "language": "pt",
+    "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=kP8xYe6Y0CE",
     "label": "Degustação copo à copo. HIGHLAND PARK vs EDRADOUR. Cask Strength X Cask Strength."
+  },
+  {
+    "product_id": "irishman-founders-reserve",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-B9guqnMQsg",
+    "label": "The Irishman Founder's Reserve Small Batch Irish Whiskey Review | Whiskey Crusaders"
+  },
+  {
+    "product_id": "irishman-founders-reserve",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Xd2pqFcYUZ4",
+    "label": "Whiskey Review: Irishman Founders Reserve | Cigar And Whiskey"
+  },
+  {
+    "product_id": "irishman-founders-reserve",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=nUGby2LhB7w",
+    "label": "IRISHMAN FOUNDER'S RESERVE | Irish Whiskey Review | The Whiskey Nerd"
+  },
+  {
+    "product_id": "irishman-founders-reserve",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=4VpnCX9ZvT0",
+    "label": "Probemos The Irishman Single Malt (Whiskey Irlandés) | Los Whiskochos"
+  },
+  {
+    "product_id": "irishman-founders-reserve",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=J8TZDA8yoxk",
+    "label": "The Irishman Founder's Reserve (sous-titré français) | Dugas Club Expert"
+  },
+  {
+    "product_id": "irishman-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Uuu9Y_GFkgM",
+    "label": "The Irishman: Single Malt Irish Whiskey | Whiskey is a Journey"
+  },
+  {
+    "product_id": "irishman-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=qyaMt4yfiqA",
+    "label": "A Classic Irish Single Malt || Irishman Single Malt Whiskey | The Whiskey Nerd"
+  },
+  {
+    "product_id": "irishman-single-malt",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WCJ5k8rJH6w",
+    "label": "The Irishman Single Malt (vostfr) | Dugas Club Expert"
+  },
+  {
+    "product_id": "irishman-single-malt",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lrv2e08yUUA",
+    "label": "Whisky Review: The IrishMan. Maratona de Natal 2025 | Porção dos Anjos Whisky"
   },
   {
     "product_id": "isle-of-jura-10-yo",
@@ -6541,8 +8522,8 @@
     "product_id": "jameson-irish-whiskey",
     "language": "fr",
     "platform": "youtube",
-    "url": "https://www.youtube.com/watch?v=9SLPBQ0EWb4",
-    "label": "Jameson Irish Whiskey Review"
+    "url": "https://www.youtube.com/watch?v=WzJ6SkpOB_s",
+    "label": "Malt à propos"
   },
   {
     "product_id": "jameson-irish-whiskey",
@@ -9545,7 +11526,7 @@
     "language": "en",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=O4VauqQVbU0",
-    "label": ""
+    "label": "Whisky Lock"
   },
   {
     "product_id": "old-pulteney-harbour",
@@ -9807,6 +11788,265 @@
     "label": "Sanson Single Malt"
   },
   {
+    "product_id": "paul-john-classic-select-casks",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=DTXZdWMNgA8",
+    "label": "Just Whisky"
+  },
+  {
+    "product_id": "paul-john-classic-select-casks",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=XmfsxYOjco4",
+    "label": "Moa Nilsson"
+  },
+  {
+    "product_id": "paul-john-classic-select-casks",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kc6Yh-v0hWM",
+    "label": "Sipping Slowly"
+  },
+  {
+    "product_id": "paul-john-classic-select-casks",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=95c1jeEdET8",
+    "label": "MundoWhiskyTv"
+  },
+  {
+    "product_id": "paul-john-classic-select-casks",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=K1HL6wSQJos",
+    "label": "Eito Ajima TSOV"
+  },
+  {
+    "product_id": "paul-john-edited",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Ou4JN9sbKf0",
+    "label": "Whiskey Crusaders"
+  },
+  {
+    "product_id": "paul-john-edited",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TsnUM31ZH4c",
+    "label": "Whisky Wednesday"
+  },
+  {
+    "product_id": "paul-john-edited",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9rSyWhZvJx4",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "paul-john-edited",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=h0yJBgOADk0",
+    "label": "SoW"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-E4jQj62Dgg",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=40Lh56wyurw",
+    "label": "Whiskey is a Journey"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5p8Nkl9QsOo",
+    "label": "Whisky Shared"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=_V4rgxAC_os",
+    "label": "No Nonsense Whisky"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bngnjT9HA6c",
+    "label": "WHISKY BUBU"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=h8MJwHY8ovs",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=zAsL4besofo",
+    "label": "Clan de Whiskeros"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mzdivnxizaw",
+    "label": "La Maison du Whisky Officiel"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=uLUY-TStLrQ",
+    "label": "lachaineduwhisky"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=XoOmiaq8EUU",
+    "label": "hitokuchi-uiskii"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=OEDeypgKJJ4",
+    "label": "Bebendo Whisky com Eng. Milton Salgado Filho"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=h4CqyNRZ7H4",
+    "label": "Porcao dos Anjos Whisky"
+  },
+  {
+    "product_id": "penderyn-madeira",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=jsmbeorzTdg",
+    "label": "Porcao dos Anjos Whisky"
+  },
+  {
+    "product_id": "penderyn-peated",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=J4lCQ9I_GrU",
+    "label": "No Nonsense Whisky"
+  },
+  {
+    "product_id": "penderyn-peated",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Thrjp3dMPg8",
+    "label": "Lee Maddison"
+  },
+  {
+    "product_id": "penderyn-peated",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TymXOAbqQcg",
+    "label": "boozedancing"
+  },
+  {
+    "product_id": "penderyn-peated",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=rGlUnLVzXjA",
+    "label": "foodquig"
+  },
+  {
+    "product_id": "penderyn-peated",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1CYoQEHcI-8",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "penderyn-peated",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2JEN4USzqkA",
+    "label": "La Maison du Whisky Officiel"
+  },
+  {
+    "product_id": "penderyn-peated",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=4Urjdr-XDvc",
+    "label": "Tierri Whisky"
+  },
+  {
+    "product_id": "penderyn-portwood",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=U1ro6dJJEiE",
+    "label": "Drinking Out Loud"
+  },
+  {
+    "product_id": "penderyn-portwood",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=UAqj2ethNqU",
+    "label": "The Grail"
+  },
+  {
+    "product_id": "penderyn-portwood",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ikvqyeMhndY",
+    "label": "Bevvy"
+  },
+  {
+    "product_id": "penderyn-portwood",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=r_8eC_H7vMI",
+    "label": "boozedancing"
+  },
+  {
+    "product_id": "penderyn-rich-oak",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0HrS11XxigQ",
+    "label": "The Bourbon Van"
+  },
+  {
+    "product_id": "penderyn-rich-oak",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bm0sgSswVCg",
+    "label": "GreatDrams Whisky Reviews"
+  },
+  {
+    "product_id": "penderyn-rich-oak",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=boMRq5ciijs",
+    "label": "Whiskey Crusaders"
+  },
+  {
+    "product_id": "penderyn-rich-oak",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hF_Ek9wWnNE",
+    "label": "Jeff Whisky"
+  },
+  {
     "product_id": "port-charlotte-10-yo",
     "language": "en",
     "platform": "youtube",
@@ -9875,6 +12115,27 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=mIjgFWwopcw",
     "label": "Tierri Whisky — pólvora review"
+  },
+  {
+    "product_id": "rampur-indian-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=35HP5qcRtpE",
+    "label": "Whisky Whistle"
+  },
+  {
+    "product_id": "rampur-indian-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TPTqK3uXc44",
+    "label": "Harsh Vardhan"
+  },
+  {
+    "product_id": "rampur-indian-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Y4dXX2MCeAg",
+    "label": "Trenny and C"
   },
   {
     "product_id": "scapa-13-year-old",
@@ -9973,6 +12234,223 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=cTqu3FF-o5w",
     "label": "Shetland Reel Blended Malt Scotch Whisky — Ale Degustation"
+  },
+  {
+    "product_id": "smokehead-design",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=IKVAuIoU-Kk",
+    "label": "Whisky review"
+  },
+  {
+    "product_id": "smokehead-design",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=fzZ8c3v5Yn8",
+    "label": "Whisky Tastings"
+  },
+  {
+    "product_id": "smokehead-design",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=tZwzc0okgp0",
+    "label": "WhiskyJason"
+  },
+  {
+    "product_id": "smokehead-design",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=tb4oB4uVupU",
+    "label": "Whisky reviewer"
+  },
+  {
+    "product_id": "smokehead-design",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=98kXMHjo2fQ",
+    "label": "Les degustations du Jeudi"
+  },
+  {
+    "product_id": "smokehead-design",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xq0CcwGyplk",
+    "label": "hitokuchi"
+  },
+  {
+    "product_id": "smokehead-high-voltage",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2nfGCar_26Y",
+    "label": "Whisky review"
+  },
+  {
+    "product_id": "smokehead-high-voltage",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=_Aw7TpcbM1w",
+    "label": "Everything Whiskey"
+  },
+  {
+    "product_id": "smokehead-high-voltage",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kWZ9i4g3_FA",
+    "label": "Whisky reviewer"
+  },
+  {
+    "product_id": "smokehead-high-voltage",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xhwXC94Pq7Y",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "smokehead-high-voltage",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=479ixC0jzxE",
+    "label": "Whisky Lovers"
+  },
+  {
+    "product_id": "smokehead-rum-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=rVBpglbLb5w",
+    "label": "Whisky review"
+  },
+  {
+    "product_id": "smokehead-rum-cask",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bnwx_lCqIOc",
+    "label": "Whisky cata"
+  },
+  {
+    "product_id": "smokehead-rum-cask",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=6T5o28I1xXc",
+    "label": "Kiku-Whisky"
+  },
+  {
+    "product_id": "smokehead-sherry-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7m13auR2dmk",
+    "label": "Whisky review"
+  },
+  {
+    "product_id": "smokehead-sherry-cask",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=p2pFvK_j7eg",
+    "label": "Whisky review"
+  },
+  {
+    "product_id": "speyburn-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=8RoW9uKzrJg",
+    "label": "Life and Whiskey"
+  },
+  {
+    "product_id": "speyburn-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=FOKtjROV6pw",
+    "label": "Whisky Mad ZA"
+  },
+  {
+    "product_id": "speyburn-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=_YKWPnpDJMw",
+    "label": "Whiskey Vault"
+  },
+  {
+    "product_id": "speyburn-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bRMxCl_w_U0",
+    "label": "Bibulous Brian"
+  },
+  {
+    "product_id": "speyburn-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hcFY8oEDJ-Y",
+    "label": "Los Whiskochos"
+  },
+  {
+    "product_id": "speyburn-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Ar9nIxKLjFM",
+    "label": "hitokuchi-uiskii"
+  },
+  {
+    "product_id": "speyburn-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=w9ubeKjB6cI",
+    "label": "SAKE Mania ch."
+  },
+  {
+    "product_id": "speyburn-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=8_Xzauq7uI8",
+    "label": "Whisky Lock"
+  },
+  {
+    "product_id": "speyburn-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9f13ksvGP6M",
+    "label": "Gwhisky"
+  },
+  {
+    "product_id": "speyburn-15-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=C3a_PDBPvLY",
+    "label": "Whisky In The 6"
+  },
+  {
+    "product_id": "speyburn-bourbon-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=KastK4Q6nvY",
+    "label": "The Whisky Burn"
+  },
+  {
+    "product_id": "speyburn-bradan-orach",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-CnOQD2JgYA",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "speyburn-bradan-orach",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SF1McVgk1OU",
+    "label": "Mainichi-uiskii-jinsei-365nichi"
+  },
+  {
+    "product_id": "speyburn-rum-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=4MAn48F68Gg",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "speyburn-rum-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=yEkaL6sXHrk",
+    "label": "Bob"
   },
   {
     "product_id": "springbank-10-yo",
