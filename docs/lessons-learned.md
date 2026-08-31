@@ -176,3 +176,28 @@
 - Some agents confirmed candidates themselves via oEmbed; others only give search-derived IDs — always re-run my verify.mjs on every ID before injection regardless of what the agent claims.
 - oEmbed is the authority on channel identity: agent-said "Whisky Lovers" turned out to be HABLANDO DE WHISKY; agent-said unknown channels turned out to be Whisky Lovers Society / Tito Whisky / Gwhisky. Use the verified author as the label, not the agent's guess.
 - 2 candidate IDs (oCB5LPFfPbc glencadam-origin en, RLV38ICOMtk ancnoc-12 es) were DEAD at verify → dropped; confirms the oEmbed pass is non-optional even on "agent-verified" lists.
+
+## 2026-08-31 — Royal Salute adds: expression-specific video scarcity for GTR exclusives
+
+- Royal Salute Peated Blend (21) and Treasured Blend (25) are Global Travel Retail exclusives with very few YouTube reviews — only English-language coverage exists. Spanish/Portuguese/Japanese/French review videos for those exact expressions essentially don't exist on YouTube.
+- Per skill rules, shipped minimum (en-only for those two) and let runtime English top-up fill the other slots. Signature Blend (flagship, retail) had full es/pt/ja/en coverage.
+- Image sourcing: official site (royal-salute.com/wp-content) is hotlinkable and validated HTTP 200 — good PNG bottle shots, larger files but compress well to WebP.
+- Chivas Brothers HQ coordinates confirmed from Historic Environment Scotland listing: 55.856, -4.417 (Paisley, 111-113 Renfrew Road). For blend houses without their own stills, anchor to owner HQ/real physical home.
+
+## 2026-08-31 — Royal Salute video backfill: use Invidious HTML search, not generic web search
+
+- The first attempt delegated video research to a subagent using generic web search, which wrongly concluded "no non-English videos exist" for Royal Salute Peated/25 GTR exclusives. That was lazy — led to en-only video sets.
+- **Correct method: `https://inv.nadeko.net/search?q=<query>` HTML search.** The JSON API search/trending endpoints are disabled (403), but the HTML search page returns real results with titles in `<p dir="auto">…</p>` next to each `/watch?v=<ID>`. Query per language (e.g. `ロイヤル サルート 21年`, `royal salute 21 anos`, `royal salute 21 años cata`) to find in-language reviewers by reading the title. Then confirm each with the YouTube oEmbed endpoint.
+- Findings: **Signature Blend (21)** has rich genuinely-multilingual coverage (Whisky o Muerte/Tito Whisky/Los Whiskochos in es; WhiskyBrasil/Tierri/Jornada do Whisky in pt; ひとくちウイスキー/はっちばっち in ja). **French is genuinely scarce** — only Malt à propos covers Royal Salute; there is effectively no French Royal Salute content, so French slots fall back to English top-up (honest, not a search shortcut).
+- Peated and 25 YO GTR exclusives have no exact-expression reviews outside English, so per the skill's widening rule they use same-brand (Royal Salute 21) in-language reviews in es/pt/ja slots. This satisfies "no videos in languages other than English".
+- URL dedup is per-product, so the same RS 21 in-language video can appear on multiple Royal Salute products (esp. the scarcer pt language).
+- The running `vite dev` (--host, setsid-detached) hot-reloads the regenerated `src/lib/data/*.json` snapshot, so the live Tailscale instance reflects new videos without a manual restart.
+
+## 2026-08-31 — Influencer videos: exact-whisky rule + Turso row deletion gotchas
+
+- **The user's hard rule:** product-page videos MUST review the EXACT whisky/expression. Never another version, another age, or another whisky — no "widening" to same-brand/same-style substitutes. If a language has no exact-expression video, leave that language empty and let the English top-up fill it. Updated `.agents/skills/add-product/SKILL.md` (removed the widen rule, added explicit rejection examples).
+- **db:sync only inserts videos (`INSERT OR IGNORE`) — it never deletes.** So removing wrong videos from the seed alone is NOT enough; the wrong rows persist in Turso and keep being exported. Must `DELETE` them directly from Turso.
+- **Deleting from Turso with @libsql/client:** `tx.execute()` in a `transaction('write')` reported `rowsAffected: 0` and did NOT persist. The working pattern (as db-sync uses) is to build statement objects `{sql, args}` and call `await tx.batch([...])` then `await tx.commit()`. Verify with a COUNT query before and after.
+- **Dev server in-memory cache gotcha:** `getInfluencerVideos` uses a per-process `Map` cache (`src/lib/server/cache.ts`) with a 300s TTL. After removing rows and re-exporting, the still-running dev server served STALE non-English videos for routes already hit (the `/es/` route showed the old RS21 videos while `/whisky/...` showed correct ones). Fix: restart the dev server to clear the in-process cache. Production is immune (fresh process per deploy).
+- **kill/vite hang:** `pkill -f "vite dev"` can match and kill the calling shell wrapper, hanging the session. Use `ss -tlnp` to check the port and target the specific PID, or restart detached with `setsid nohup npm run dev -- --host &` and a bounded timeout.
+- Royal Salute final state: Signature Blend (21) keeps full es/pt/ja/fr (all exact 21); Peated and 25 YO are English-only in the DB (only exact-expression videos exist in English) — the runtime English top-up fills those slots across all languages.

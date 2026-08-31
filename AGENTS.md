@@ -79,6 +79,7 @@ Already used in VoteButton, FavoriteButton, AuthButton, LanguageSwitcher, ShareB
 
 Current status of `tasks/` (authoritative — kept in sync with every task file `Status:` change, see Task workflow):
 
+- 062 [TODO] Youtube Influencer Contact List
 - 000 [DONE] Images Webp Script
 - 001 [DONE] Json Data Turso Migration
 - 002 [DONE] Google Auth Own Turso Cubiq Detach
@@ -140,3 +141,4 @@ Current status of `tasks/` (authoritative — kept in sync with every task file 
 - 058 [TODO] Catalog Finer Shards Search
 - 059 [TODO] Catalog Counts Ranking Snapshot Metadata
 - 060 [DONE] Add 10 Speyside Whiskies Backfill Distillery Descriptions
+- 061 [TODO] Store Owners Add Store Button

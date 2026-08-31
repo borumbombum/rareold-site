@@ -203,12 +203,9 @@ Target **4 videos per language** × 5 languages (`es | en | pt | ja | fr`, ≤20
 
 **Localize the videos themselves.** Videos are paired with a locale at runtime, so each one must be a genuine tasting/review **in that language** — the spoken/narrated language is what matters, not just the country or channel. A Spanish review goes in the `es` slot, a Portuguese one in `pt`, a Japanese one in `ja`, a French one in `fr`, an English one in `en`. Do not put an English-language video in a non-English slot just because the channel "covers" that region. Localize the `label` too where possible so the caption shown is in the viewer's language.
 
-**If honest searching can't find 4 quality in-language videos for a language: ship at minimum 2.** The runtime automatically tops up remaining slots with English videos (deduplicated by URL) — never pad with irrelevant videos just to hit 4.
+**If honest searching can't find quality in-language videos for a language: ship fewer for that language, or none if truly absent.** The runtime automatically tops up remaining slots with English videos (deduplicated by URL) — never pad with irrelevant videos just to hit 4.
 
-When a language runs dry on exact-expression reviews, widen in this order before settling for 2:
-
-1. Same distillery, different expression, in-language
-2. Same style/region category tasting featuring the expression (e.g. "Islay single malts" for an Islay whisky), in-language
+**Hard rule — exact whisky only.** A video may be added ONLY if it reviews/tastes the EXACT whisky (the specific expression) on the product. Never use another version, another age, another distillery, another brand, or a same-style/brand/region substitute. Do not "widen". Examples of what to REJECT: a Royal Salute 21 review on a Royal Salute 25 (or Peated) product; a Glenfiddich 12 review on a Glenfiddich 15 product; an "Islay single malts" roundup on a single Islay product's page. If no exact-expression review exists in a language, that language gets no entry for that product (English top-up covers the gap at runtime).
 
 For each video verify:
 - The URL is real and playable — check via YouTube oEmbed before seeding (no API key needed):
@@ -216,7 +213,7 @@ For each video verify:
   curl -s "https://www.youtube.com/oembed?url=<VIDEO_URL>&format=json"
   ```
   A 200 returns title + author_name (use them for `label`); a 404/401 means dead or embed-blocked → discard.
-- It's a genuine review/tasting of THIS expression (not just the brand generally)
+- It's a genuine review/tasting of THIS exact expression (not just the brand, not a different version/age, not a different whisky)
 - The spoken language matches the slot you're adding it to (sanity-check from title/channel)
 
 Add them as `influencer_videos` on the product's seed entry:
@@ -232,6 +229,7 @@ Add them as `influencer_videos` on the product's seed entry:
 Rules:
 
 - `language` ∈ `es | en | pt | ja | fr`; 4 per language when possible, hard floor of 2 (English top-up covers the gap at runtime)
+- **MUST be the exact whisky/expression** — never another version, another age, another brand, or a same-style/brand/distillery substitute. A video for a different expression does NOT belong on this product (see the hard rule above).
 - **The video's spoken language MUST match its `language` slot** — verified from the title/channel. A video only counts toward the count for the language it's actually narrated in (a Spanish review is *not* an `en` or `pt` video even if the distillery is Scottish).
 - A URL may appear **once per product, ever** — never list an English URL under another language's slot (the runtime dedups by URL, so duplicates silently waste slots)
 - Prefer 3–20 minute videos (typical review length)

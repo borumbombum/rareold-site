@@ -35,6 +35,12 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Macarthurs Scotch
 ✅ Hankey Bannister (all of them)
 
+✅ Royal Salute 21 YO Signature Blend - Chivas Brothers
+✅ Royal Salute 21 YO The Peated Blend - Chivas Brothers
+✅ Royal Salute 25 YO - Chivas Brothers
+Royal Salute 30 YO Key To The Kingdom - Chivas Brothers
+Royal Salute 62 Gun Salute - Chivas Brothers
+
 ## Scotland — Islay
 
 ✅ Arran Barrel Reserve - Arran Distillers, source image: <https://static.whiskybase.com/storage/whiskies/1/3/8215/233765-big.jpg>, info here: <https://www.whiskybase.com/whiskies/whisky/138215/arran-barrel-reserve> - Add this spanish influencer review: <https://www.youtube.com/watch?v=0WYfqONQ60k>

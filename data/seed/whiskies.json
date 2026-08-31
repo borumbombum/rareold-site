@@ -22694,6 +22694,261 @@
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
+    },
+    {
+      "featured": false,
+      "id": "royal-salute-21-yo-signature-blend",
+      "slug": "royal-salute-21-yo-signature-blend",
+      "name": "Royal Salute 21 YO The Signature Blend",
+      "description": "Creado como obsequio para la coronación de la reina Isabel II en 1953, The Signature Blend es el whisky insignia de Royal Salute. Una selección de whiskies escoceses raros y excepcionales, todos madurados un mínimo de 21 años en barricas de roble ex-bourbon y ex-jerez. Ofrece un aroma elegante de pera madura, cítricos y flores de otoño, con toques de vainilla, roble seco, jerez y un velo de humo. En boca destaca la calidez de mermelada de naranja y pera fresca, seguida de una explosión de especias y avellana, con un final largo, seco y ligeramente especiado.",
+      "image": "/data/images/royal-salute-21-yo-signature-blend.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": 21,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon y jerez",
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "chivas-brothers",
+      "name_pt": "Royal Salute 21 YO The Signature Blend",
+      "description_pt": "Criado como presente para a coroação da rainha Elizabeth II em 1953, The Signature Blend é a bandeira da Royal Salute. Uma selecção de whiskies escoceses raros e excepcionais, todos amadurecidos no mínimo 21 anos em barris de carvalho ex-bourbon e ex-xerez. Oferece um aroma elegante de pera madura, citrinos e flores de outono, com toques de baunilha, carvalho seco, xerez e um véu de fumaça. Em boca destaca-se a warmth de marmelada de laranja e pera fresca, seguida de uma explosão de especiarias e avelã, com um final longo, seco e ligeiramente especiado.",
+      "name_en": "Royal Salute 21 YO The Signature Blend",
+      "description_en": "Created as a gift for Queen Elizabeth II's coronation in 1953, The Signature Blend is Royal Salute's flagship whisky. A selection of rare and exceptional Scotch whiskies, all matured for a minimum of 21 years in ex-bourbon and ex-sherry oak casks. It offers an elegant nose of ripe pear, citrus and autumn flowers, with touches of vanilla, dry oak, sherry and a wisp of smoke. The palate reveals the warmth of orange marmalade and fresh pear, followed by an explosion of spices and hazelnut, with a long, dry and slightly spicy finish.",
+      "name_ja": "ロイヤル・ソルート 21年 ザ・シグネチャー・ブレンド",
+      "description_ja": "1953年のエリザベス女王2世の戴冠のために贈り物として作られた、ロイヤル・ソルートのフラッグシップ。最低21年間熟成された希少で卓越したスコッチ・ウイスキーのselection。エクス・バーボンおよびエクス・シェリーのオーク樽で熟成され、成熟した洋梨、柑橘、秋の花々の優雅な香りに、バニラ、ドライオーク、シェリー、ほのかな煙の香りが添う。口に含むとオレンジマーマレードと新鮮な洋梨の温もりが広がり、続いてスパイスとヘーゼルナットの爆発、_longくドライでわずかにスパイシーな余韻。",
+      "name_fr": "Royal Salute 21 YO The Signature Blend",
+      "description_fr": "Créé comme cadeau pour le couronnement de la reine Elizabeth II en 1953, The Signature Blend est le whisky phare de Royal Salute. Une sélection de whiskies écossais rares et exceptionnels, tous vieillis au minimum 21 ans en fûts de chêne ex-bourbon et ex-sherry. Il offre un nez élégant de poire mûre, d'agrumes et de fleurs d'automne, avec des touches de vanille, de chêne sec, de sherry et un soupçon de fumée. En bouche, la chaleur de la marmelade d'orange et de la poire fraîche laisse place à une explosion d'épices et de noisette, sur une finale longue, sèche et légèrement épicée.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nbyCmkwpMkc",
+          "label": "Royal Salute 21 tasting — Whisky in my Garden",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AZydHBrOhkA",
+          "label": "Royal Salute 21 Signature Blend — Royal Salute",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xK6LdX0OGW0",
+          "label": "Royal Salute 21 vs JW Blue — Scotch 4 Dummies",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tN4ClOCPSy4",
+          "label": "Royal Salute 21 review — Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2qPtezERAiE",
+          "label": "Royal Salute 21 cata de whisky — Whisky o Muerte",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sB0NLimmlrk",
+          "label": "Royal Salute 21 AÑOS — Tito Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ilzu09V8adY",
+          "label": "Whisky Masters 7 Royal Salute 21 años",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JS-ewqhRLfU",
+          "label": "Royal Salute 21 vs JW Blue — Cultura del Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LCU8fwoelho",
+          "label": "Royal Salute 21 anos Review — WhiskyBrasil",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fwivTvOKvC8",
+          "label": "Degustação Royal Salute 21 Anos — Jornada do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cBvAJFk6gaE",
+          "label": "Royal Salute 21 vs Chivas 18 Duelo — WhiskyBrasil",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yo5ba2eCtNI",
+          "label": "Royal Salute 21 ANOS Review — Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YE__ujDGgbc",
+          "label": "ロイヤルサルート21年を味わう — ウイ好きーチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OUj1QY1QiV4",
+          "label": "ロイヤル サルート 21年 — ショットバー クエルクス",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-0n5_n2Th5g",
+          "label": "ロイヤルサルート21年 レビュー — 宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y24au0o2fkk",
+          "label": "ウイスキー初心者 ロイヤルサルート21年 — はっちばっち",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NYwvbrlm2j0",
+          "label": "Royal Salute 21 vs Chivas 18 — Malt à propos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "royal-salute-21-yo-peated-blend",
+      "slug": "royal-salute-21-yo-peated-blend",
+      "name": "Royal Salute 21 YO The Peated Blend",
+      "description": "El primer whisky con turba de la gama Royal Salute, lanzado en 2019 como exclusiva de Viajes. En su corazón se encuentran whiskies raros rescatados de destilerías desaparecidas, incluyendo la emblemática Imperial y Caperdonich. Ofrece un aroma equilibrado y complejo de naranja dulce y duraznos entrelazados con brasas de fogata. En boca destacan peras jugosas, avellanas frescas, cáscara de naranja tostada y turba aromática, con un final largo y suave con un toque de humo.",
+      "image": "/data/images/royal-salute-21-yo-peated-blend.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": 21,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Oak",
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "chivas-brothers",
+      "name_pt": "Royal Salute 21 YO The Peated Blend",
+      "description_pt": "O primeiro whisky com turfa da gama Royal Salute, lançado em 2019 como exclusiva de viagem. No seu coração encontram-se whiskies raros resgatados de destilarias desaparecidas, incluindo a emblemática Imperial e Caperdonich. Oferece um aroma equilibrado e complexo de laranja doce e pêssegos entrelaçados com brasas de fogueira. Em boca destacam-se peras suculentas, avelãs frescas, casca de laranja tostada e turfa aromática, com um final longo e suave com um toque de fumaça.",
+      "name_en": "Royal Salute 21 YO The Peated Blend",
+      "description_en": "The first peated whisky in the Royal Salute range, launched in 2019 as a travel retail exclusive. At its heart are rare whiskies rescued from lost distilleries, including the iconic Imperial and Caperdonich. It offers a balanced and complex nose of sweet orange and peaches intermingled with smouldering bonfire embers. The palate reveals juicy sweet pears, fresh hazelnuts, charred orange rind and aromatic smoky peat, with a long, smooth finish with a wisp of smoke.",
+      "name_ja": "ロイヤル・ソルート 21年 ザ・ピーテッド・ブレンド",
+      "description_ja": "2019年にトラベルリテール専用として発売された、ロイヤル・ソルート初のピーティッド。消滅した蒸溜所から救い出された希少なウイスキーがその核にあり、象徴的なインペリアル蒸溜所やカパードニッチ蒸溜所が含まれる。スウィートオレンジと桃が燻る篝火の死に EMC と完璧に交わる、バランスの取れた複雑な香り。ジューシーな洋梨、フレッシュヘーゼルナット、焦がしたオレンジピール、芳醇なスモーキーピートが口に広がり、_longくスムースな余韻に煙の香りが漂う。",
+      "name_fr": "Royal Salute 21 YO The Peated Blend",
+      "description_fr": "Le premier whisky tourbé de la gamme Royal Salute, lancé en 2019 en exclusivité travel retail. En son cœur se trouvent des whiskies rares sauvés de distilleries disparues, dont l'impériale Imperial et Caperdonich. Il offre un nez équilibré et complexe d'orange douce et de pêches entremêlées à des braises de feu de joie. En bouche, des poires juteuses, des noisettes fraîches, du zeste d'orange grillé et de la tourbe aromatique fumée, sur une finale longue et douce avec un soupçon de fumée.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KivFNd99aWg",
+          "label": "Royal Salute 21 Peated Blend",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=88l5WDHb9Sc",
+          "label": "Royal Salute 21 Peated Blend",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HK1Xyjg67cg",
+          "label": "Royal Salute 21 The Peated Blend",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gu5qtPvPROE",
+          "label": "Royal Salute The Lost Blend — The Unbottling",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "royal-salute-25-yo-treasured-blend",
+      "slug": "royal-salute-25-yo-treasured-blend",
+      "name": "Royal Salute 25 YO The Treasured Blend",
+      "description": "Una colección de whiskies raros madurados 25 años en barricas de roble de alta calidad, produciendo un whisky perfectamente rico y poderoso con un final notablemente largo. Unos cuatro años adicionales de maduración confieren al Treasured Blend una intensidad profunda de sabor: complejo, robusto y con una dulzura decadente complementada por toques de especias. Con una botella de porcelana con detalles en oro y tapón de zafiro, numerada a mano, es la joya de la colección Royal Salute.",
+      "image": "/data/images/royal-salute-25-yo-treasured-blend.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": 25,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Oak",
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "chivas-brothers",
+      "name_pt": "Royal Salute 25 YO The Treasured Blend",
+      "description_pt": "Uma coleção de whiskies raros amadurecidos 25 anos em barris de carvalho de alta qualidade, produzindo um whisky perfeitamente rico e poderoso com um final notavelmente longo. Uns quatro anos adicionais de amaduração conferem ao Treasured Blend uma intensidade profunda de sabor: complexo, robusto e com uma doçura decadente complementada por toques de especiarias. Com uma garrafa de porcelana com detalhes em ouro e tampa de safira, numerada à mão, é a joia da coleção Royal Salute.",
+      "name_en": "Royal Salute 25 YO The Treasured Blend",
+      "description_en": "A collection of rare whiskies matured for 25 years in high quality oak casks, producing a perfectly rich, powerful whisky with a remarkably long finish. An additional four years of maturation give the Treasured Blend a deep intensity of flavour: complex, robust, with a decadent sweetness complemented by hints of spices. Housed in a hand-numbered porcelain flagon with gold detailing and sapphire stopper, it is the jewel of the Royal Salute collection.",
+      "name_ja": "ロイヤル・ソルート 25年 ザ・トレジャード・ブレンド",
+      "description_ja": "高品質オーク樽で25年間熟成された希少なウイスキーのコレクション。完全にリッチで力強い、remarkably長く美しい余韻が特徴。さらに4年間の追加熟成が、トレジャード・ブレンドに深い味わいの強さをもたらす：複雑で頑健、スパイスのヒントで引き立てられた都会的な甘さ。手番号入りのポルセレインのフラゴンにゴールドの装飾とサファイアのスタッパーがiller、ロイヤル・ソルート・コレクションの宝石。",
+      "name_fr": "Royal Salute 25 YO The Treasured Blend",
+      "description_fr": "Une collection de whiskies rares vieillis 25 ans en fûts de chêne de haute qualité, produisant un whisky parfaitement riche et puissant à la finale remarquablement longue. Quatre années supplémentaires de vieillissement confèrent au Treasured Blend une intensité profonde de saveurs : complexe, robuste, avec une douceur décadente relevée de notes d'épices. Présenté dans un flasque en porcelaine numéroté à la main, orné de détails dorés et d'un bouchon en saphir, c'est le joyau de la collection Royal Salute.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5rpwsNt_hJA",
+          "label": "Royal Salute 25 Year Old Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OZGyHU--Lt0",
+          "label": "Royal Salute 25 Treasured Blend",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wHfz-IXBCg4",
+          "label": "Royal Salute 25 Year Old",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     }
   ]
 }
