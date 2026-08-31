@@ -142,3 +142,16 @@
 - Bowmore French is thin: only three real French Bowmore sources surfaced — lachaineduwhisky ep11 (Bowmore 12, `fr/asr`, +en), Whisky Live Paris MASTERCLASS BOWMORE (`fr/asr`), Gouilland "La Décapsule Bowmore" (`fr/asr`). Reused across the three Bowmore products as same-distillery fallback.
 - Bunnahabhain 18 ja: no dedicated 18yo Japanese video exists; used ひとくちウイスキー (Cruach-Mhona/Eirigh Na Greine) + CROSSROAD LAB 2nd (Mòine), all `ja/asr`, as distillery fallback.
 - Bowmore 15 Darkest ja: mapped to modern "15年ダーケストの後継品" (15yo sherry-cask successor) videos (`ja/asr`) — the Darkest was discontinued; its direct successor is the current snow 15. Kept name-faithful titles, mapped closest expression.
+
+## 2026-08-29 — Balvenie DoubleWood 12 addition + seed/export parity fix
+- `src/lib/data/whiskies.json` wraps products in `{whiskies: [...]}` (plus `source`/`generatedAt`) while `distilleries.json` is a plain array — accessors differ; the export renames `influencer_videos` → `videos` and inlines `distillery` (without lat/lon; the map uses the standalone distilleries export). Validate every key against the exported object before asserting "missing".
+- Seed contained a stale duplicate product: both `octomore-16-1` and `octomore` (same name/slug/desc, identical 11 videos) — only `octomore` ever landed in Turso (unique slug), causing the persistent seed↔export 1-off (237 vs 236). Removed the stray from seed; parity now exact (236/236, 0 mismatches). Root cause matches the earlier "pre-existing duplicate octomore slug" note.
+- Whiskybase static images returned 403 on hotlink; retailer CDN (bigcommerce stencil `.png`) worked for the Balvenie bottle shot via `prepare-image.mjs`.
+- `npm run db:sync` output counts are Turso table totals (idempotent), not per-run insertions — read them as totals, not deltas.
+- Balvenie DW12 video depth: en/es strong (4+ each), pt 3, ja 2, fr 1 — French genuinely dry (only Esprit Dégustation covers this expression); same-channel Balvenie tasting (`F8bv2tXGaWI`) used as the fr#2 same-distillery fallback. A research-supplied Spanish URL (`bj11tLQ0Osw`) oEmbed-404'd — always re-verify every foreign-search URL before use.
+- Raw YouTube `https://www.youtube.com/results?search_query=<q>` scrape yields watch IDs; pair each with oEmbed for quick author+title language triage.
+## 2026-08-29 — Balvenie Caribbean Cask 14 addition
+- No French CC14 review exists; fr slots used same-channel Balvenie videos reused from the DW12 product (cross-product reuse is fine; the runtime dedups per product URL, not across products).
+- `qaAwz6AUYN0` (Hablemos de Whisky es candidate) oEmbed-401 (embed-disabled) → discarded despite agent claiming verified; confirms the embed-blocked check must run even on "agent-verified" lists.
+- thebalvenie.com product pages are age-gated (no og:image served), but the US shop's S3 attachment CDN (`access-sdk-apos.s3.amazonaws.com`) serves `.full.jpg` bottle shots freely — use it for Balvenie product images.
+- db:sync totals now 237 products / 1827 videos; 236→237 product delta confirmed the add.

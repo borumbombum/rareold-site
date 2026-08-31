@@ -108,13 +108,13 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Aberlour 12 YO Double Cask - Aberlour
 ✅ Aberlour 16 YO Double Cask - Aberlour
 ✅ Aberlour A'bunadh - Aberlour
-The Balvenie DoubleWood 12 YO - The Balvenie
-The Balvenie Caribbean Cask 14 YO - The Balvenie
-The Balvenie PortWood 21 YO - The Balvenie
-Benriach The Original Ten - Benriach
-Benriach The Twelve - Benriach
-Glen Grant 10 YO - Glen Grant
-Glen Grant 15 YO Batch Strength - Glen Grant
+✅ The Balvenie DoubleWood 12 YO - The Balvenie
+✅ The Balvenie Caribbean Cask 14 YO - The Balvenie
+✅ The Balvenie PortWood 21 YO - The Balvenie
+✅ Benriach The Original Ten - Benriach
+✅ Benriach The Twelve - Benriach
+✅ Glen Grant 10 YO - Glen Grant
+✅ Glen Grant 15 YO Batch Strength - Glen Grant
 Glenrothes 12 YO - Glenrothes
 Glenrothes Whisky Maker's Cut - Glenrothes
 Mortlach 12 YO Wee Witchie - Mortlach

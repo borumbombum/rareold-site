@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-08-29T18:14:39.841Z",
+  "generatedAt": "2026-08-30T00:14:55.886Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -4171,6 +4171,284 @@
       "resellers_usa": []
     },
     {
+      "id": "benriach-the-original-ten",
+      "slug": "benriach-the-original-ten",
+      "name": "Benriach The Original Ten",
+      "distillery": {
+        "id": "benriach",
+        "name": "Benriach",
+        "name_es": "Benriach",
+        "name_pt": "Benriach",
+        "name_en": "Benriach",
+        "name_ja": "Benriach",
+        "name_fr": null
+      },
+      "description": "Single malt de Speyside sin turbar, madurado durante al menos 10 años en tres tipos de barrica: barricas de bourbon, casks de jerez y roble virgen. De color dorado, ofrece una nariz de rica fruta de huerto, miel y roble tostado. En boca destacan la pera madura, la nectarina y el dulzor de malta, con un toque final de almendra y vainilla especiada, intercalado con un leve rastro de humo.",
+      "image": "/data/images/benriach-the-original-ten.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Bourbon, jerez y roble virgen",
+      "distillery_id": "benriach",
+      "insertion_order": 242,
+      "featured": false,
+      "name_pt": "Benriach The Original Ten",
+      "description_pt": "Single malt de Speyside sem turfa, amadurecido por pelo menos 10 anos em três tipos de barris: barris de bourbon, cascos de xerez e carvalho virgem. De cor dourada, o nariz é rico em frutas de pomar, mel e carvalho tostado. No paladar, pera madura, nectarina e doçura de malte, com um toque final de amêndoa e baunilha especiada, entremeado por um leve traço de fumaça.",
+      "name_en": "Benriach The Original Ten",
+      "description_en": "An unpeated North Speyside single malt matured for at least 10 years in three cask types: bourbon barrels, sherry casks and virgin oak. Golden in colour, the nose is rich with orchard fruit, honey and toasted oak. The palate offers ripe pear, nectarine and malt sweetness with a finishing note of almond and spiced vanilla, all interwoven with a subtle trace of smoke.",
+      "name_ja": "ベンリアック ジ・オリジナルテン",
+      "description_ja": "ピートを使わない北スペイサイドのシングルモルト。バーボン樽、シェリー樽、ヴァージンオークの3種類の樽で10年以上熟成します。黄金色で、豊かな果樹園のフルーツ、ハチミツ、トーストしたオークの香り。熟した洋梨、ネクタリン、麦芽の甘みに、仕上げのアーモンドとスパイシーなバニラ、そしてほのかなスモーキーさが絡み合います。",
+      "name_fr": "Benriach The Original Ten",
+      "description_fr": "Un single malt du Nord de Speyside non tourbé, vieilli au moins 10 ans dans trois types de fûts : fûts de bourbon, fûts de sherry et chêne vierge. De couleur dorée, le nez est riche en fruits de verger, miel et chêne toasté. La bouche assemble poire mûre, nectarine et douceur maltée, sur une note finale d'amande et de vanille épicée, tissée d'un subtil voile de fumée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=E1G9_a2qEJM",
+          "label": "Benriach The Original Ten Review — Exploring Whiskey"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EQON-33sGnM",
+          "label": "Benriach The Original Ten 10 years — Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QUKO_BBRGFc",
+          "label": "Benriach Original Ten Review — The Whisky Zone"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wn_N3DNW_xQ",
+          "label": "We Try Benriach The Original Ten — USA Kilts"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fA_2kkLk3wA",
+          "label": "Benriach 10 — Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n371P7YBZhg",
+          "label": "Benriach 10 — Hablando de Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RFs9YOvdXcQ",
+          "label": "Quel est le meilleur Benriach — Malt à propos"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e3BFp4QsnaY",
+          "label": "La Bataille Royale V Benriach — Whisky et Cie"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WsyH12rstxU",
+          "label": "ベンリアック 10年 — CH.ウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hh5WGJEVa6o",
+          "label": "ベンリアック10年の試飲 — Eito Ajima TSOV"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bFD3fPfAv9s",
+          "label": "Review Benriach 10 Anos — Além do Rótulo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xCNyzl2A45g",
+          "label": "Degustação Benriach 10 Anos — Além do Rótulo"
+        }
+      ]
+    },
+    {
+      "id": "benriach-the-twelve",
+      "slug": "benriach-the-twelve",
+      "name": "Benriach The Twelve",
+      "distillery": {
+        "id": "benriach",
+        "name": "Benriach",
+        "name_es": "Benriach",
+        "name_pt": "Benriach",
+        "name_en": "Benriach",
+        "name_ja": "Benriach",
+        "name_fr": null
+      },
+      "description": "Single malt de Speyside madurado durante al menos 12 años en barricas de jerez, bourbon y vino de Oporto, y después ensamblado. De color bronce dorado, ofrece una nariz de rica miel de arce, cacao y frutos del bosque al horno. En boca destacan la cereza al marrasquino, la naranja asada y la avellana, con un final prolongado de sultanas y moca especiado.",
+      "image": "/data/images/benriach-the-twelve.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Jerez, bourbon y Oporto",
+      "distillery_id": "benriach",
+      "insertion_order": 243,
+      "featured": false,
+      "name_pt": "Benriach The Twelve",
+      "description_pt": "Single malt de Speyside amadurecido por pelo menos 12 anos em cascos de xerez, barris de bourbon e pipas de vinho do Porto, depois harmonizado. De cor bronze dourado, o nariz é rico em mel de bordo, cacau e frutos silvestres assados. No paladar, cereja maraschino, laranja assada e avelã, com um final prolongado de passas e moca especiado.",
+      "name_en": "Benriach The Twelve",
+      "description_en": "A Speyside single malt matured for at least 12 years in sherry casks, bourbon barrels and port casks, then married. Golden bronze in colour, the nose is rich with maple honey, cocoa and baked forest fruit. The palate holds maraschino cherry, baked orange and hazelnut, leading to a lingering sultana and spiced mocha finish.",
+      "name_ja": "ベンリアック ザ・トゥエルブ",
+      "description_ja": "シェリー樽、バーボン樽、ポートワイン樽で12年以上熟成し、その後ヴァッティングしたスペイサイド産シングルモルト。黄金のブロンズ色で、メープルハニー、ココア、焼きベリーフルーツの豊かな香り。味わいはマラスキーノチェリー、オレンジのロースト、ヘーゼルナッツ。レーズンとスパイスの効いたモカの余韻が長く続きます。",
+      "name_fr": "Benriach The Twelve",
+      "description_fr": "Un single malt de Speyside vieilli au moins 12 ans dans des fûts de sherry, de bourbon et de porto, puis marié. Bronze doré, le nez est riche en miel d'érable, cacao et fruits rouges cuits. La bouche assemble cerise au marasquin, orange rôtie et noisette, sur une longue finale de raisins de Smyrne et de moka épicé.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Eev6MT5bkAA",
+          "label": "The Ten, Twelve and Ten Smokey — The Spirits Brothers"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q8EvJ_2iwSU",
+          "label": "Benriach The Twelve 12 years — Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QAx5S3DO0YU",
+          "label": "BenRiach 12yo Review — Try Before We Die"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SkcJ2_vbuWE",
+          "label": "Benriach The 12 Tasting & Review — McIntyre's Malts"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HiSdvG0vf7U",
+          "label": "Benriach 12 años — Amantes Del Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RFs9YOvdXcQ",
+          "label": "Quel est le meilleur Benriach — Malt à propos"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e3BFp4QsnaY",
+          "label": "La Bataille Royale V Benriach — Whisky et Cie"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aQaDB-acUuE",
+          "label": "ベンリアック12年シェリーウッド — ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=otVcBcBglvw",
+          "label": "ベンリアック12年 新旧ボトル比較 — ゆっくり酒探究"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bFD3fPfAv9s",
+          "label": "Review Benriach 10 Anos — Além do Rótulo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fI1fUfY2pMk",
+          "label": "Review Benriach 12 Anos — Bebendo Whisky"
+        }
+      ]
+    },
+    {
       "id": "benromach-organic",
       "slug": "benromach-organic",
       "name": "Benromach Organic",
@@ -8185,6 +8463,272 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "glen-grant-10-yo",
+      "slug": "glen-grant-10-yo",
+      "name": "Glen Grant 10 YO",
+      "distillery": {
+        "id": "glen-grant",
+        "name": "Glen Grant",
+        "name_es": "Glen Grant",
+        "name_pt": "Glen Grant",
+        "name_en": "Glen Grant",
+        "name_ja": "Glen Grant",
+        "name_fr": null
+      },
+      "description": "Clásico single malt de Speyside elaborado en los altos y esbeltos alambiques de Glen Grant. Madurado en barricas de roble americano ex-bourbon seleccionadas a mano y una pequeña parte en refill de jerez Oloroso, ofrece un aroma fresco y elegante de pera madura, miel y vainilla cremosa, con notas de malta y menta. En boca es suave y medio, dominado por fruta de huerto, miel y especias de roble suaves, con un final medio de caramelo y canela.",
+      "image": "/data/images/glen-grant-10-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon y refill de Oloroso",
+      "distillery_id": "glen-grant",
+      "insertion_order": 244,
+      "featured": false,
+      "name_pt": "Glen Grant 10 YO",
+      "description_pt": "Um clássico single malt de Speyside produzido nos famosos alambiques altos e esbeltos de Glen Grant. Amadurecido em barris de carvalho americano ex-bourbon selecionados a mão e uma pequena parte em refill de xerez Oloroso, oferece um aroma fresco e elegante de pera madura, mel e baunilha cremosa, sobre malte fresco e um toque de hortelã. Suave e de corpo médio no paladar, com frutas de pomar, mel e especiarias de carvalho suaves, terminando com caramelo, canela e carvalho macio.",
+      "name_en": "Glen Grant 10 YO",
+      "description_en": "A classic Speyside single malt produced on Glen Grant's famous tall, slender stills. Matured in hand-selected ex-bourbon American oak barrels and a small proportion of refill Oloroso sherry casks, it offers a fresh, elegant nose of ripe pear, honey and creamy vanilla over fresh malt and a hint of spearmint. Medium-bodied and smooth on the palate, with sweet orchard fruit, honey and gentle oak spice, finishing with toffee, cinnamon and soft oak.",
+      "name_ja": "グレン・グラント10年",
+      "description_ja": "グレン・グラントの背の高い細い蒸溜器で造られる、スペイサイドを代表するシングルモルト。手選びのバーボン樽由来のアメリカンオークと、少量のリフィル・オロロソ・シェリー樽で熟成。熟した洋梨、ハチミツ、クリーミーなバニラの上に、フレッシュな麦芽とスペアミントをほの感じる、フレッシュでエレガントな香り。滑らかでミディアムボディ、洋梨やリンゴなどの果樹園のフルーツとハチミツ、優しいオークのスパイス。トフィー、シナモン、ソフトなオークの余韻。",
+      "name_fr": "Glen Grant 10 YO",
+      "description_fr": "Un single malt classique de Speyside distillé sur les célèbres alambics hauts et effilés de Glen Grant. Vieilli dans des fûts de chêne américain ex-bourbon sélectionnés à la main et une petite part de fûts de réemploi de sherry Oloroso, il offre un nez frais et élégant de poire mûre, de miel et de vanille crémeuse, sur du malt frais et une pointe de menthe. Corsé moyen et doux en bouche, entre fruits de verger, miel et douces épices de chêne, sur une finale de caramel, de cannelle et de chêne tendre.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JmGc3wnMm84",
+          "label": "Glen Grant 10 Years — Whisky Evening"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YPn61G0IPao",
+          "label": "The Glen Grant 10 yo Review — tipples_n_treats"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=q1ZuMVG_9Xo",
+          "label": "Glen Grant 10 Years Old Tasting — JDC Drinks Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vDxc3NVcf1E",
+          "label": "Glen Grant 10 Year Old Review — Everything Whiskey"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=E1n5hF5hbtQ",
+          "label": "Cata comparativa Glen Grant — Tito Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dWI5YUSXSnY",
+          "label": "Glen Grant 10 — Hablando de Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KQW-5OluOtM",
+          "label": "Glen Grant 12 ans — Le Whisky Brunch"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XmbIJuZP61I",
+          "label": "Glen Grant : c'était mieux avant — Malt à propos"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-gGyrjxmgBo",
+          "label": "グレングラント10年 ストレート — ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eVUSGQ9ZMfQ",
+          "label": "グレングラント10年を正直レビュー — ウイスキー同好会"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mToT3JMGW44",
+          "label": "Review Glen Grant 10 Anos — Bebendo Whisky"
+        }
+      ]
+    },
+    {
+      "id": "glen-grant-15-yo-batch-strength",
+      "slug": "glen-grant-15-yo-batch-strength",
+      "name": "Glen Grant 15 YO Batch Strength",
+      "distillery": {
+        "id": "glen-grant",
+        "name": "Glen Grant",
+        "name_es": "Glen Grant",
+        "name_pt": "Glen Grant",
+        "name_en": "Glen Grant",
+        "name_ja": "Glen Grant",
+        "name_fr": null
+      },
+      "description": "Glen Grant de 15 años embotellado a fuerza de barrica: madurado al 100% en barricas de roble americano ex-bourbon de primer llenado seleccionadas a mano, sin filtrar en frío ni color artificial, un estilo que hizo famoso a este embotellado en Japón. Ofrece un aroma floral de naranja, manzana, melón, caramelo, roble y brezo. En boca destacan miel, vainilla, mermelada de albaricoque y malta dulce con especias de repostería, en un final largo y maltoso con manzana y especias suaves.",
+      "image": "/data/images/glen-grant-15-yo-batch-strength.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 15,
+      "volume": "700 ml",
+      "abv": 50,
+      "cask": "Primer llenado de bourbon",
+      "distillery_id": "glen-grant",
+      "insertion_order": 245,
+      "featured": false,
+      "name_pt": "Glen Grant 15 YO Batch Strength",
+      "description_pt": "Um Glen Grant de 15 anos engarrafado na força do barril: amadurecido exclusivamente em barris de carvalho americano ex-bourbon de primeiro uso selecionados a mão, sem filtração a frio e sem corante, um estilo que tornou este engarrafamento famoso no Japão. Aromas florais de laranja, maçã, melão, caramelo, carvalho e urze levam a um paladar de baunilha, mel, marmelada de damasco, malte doce e especiarias de confeitaria, com um final longo de maçã, canela e especiarias suaves.",
+      "name_en": "Glen Grant 15 YO Batch Strength",
+      "description_en": "A 15-year-old Glen Grant bottled at cask strength: matured exclusively in hand-selected first-fill ex-bourbon American oak casks, non-chill filtered with natural colour — the style that made this bottling famous in Japan. Floral aromas of orange, apple, honeydew melon, caramel, oak and heather lead to a palate of vanilla, honey, apricot marmalade, sweet malt and baking spices, with a long finish of apple, cinnamon and soft spice.",
+      "name_ja": "グレン・グラント15年 バッチストレングス",
+      "description_ja": "日本で有名になったスタイルの、樽出しのまま瓶詰めした15年熟成グレン・グラント。手選びのファーストフィル・バーボン樽由来のアメリカンオークのみで熟成し、ノンチルフィルター、無着色。オレンジ、リンゴ、ハニーデューメロン、キャラメル、オーク、ヘザーの花のような香りから、バニラ、ハチミツ、アプリコットマーマレード、甘い麦芽、ベーキングスパイスの味わいへ。リンゴとシナモン、優しいスパイスの長い余韻。",
+      "name_fr": "Glen Grant 15 YO Batch Strength",
+      "description_fr": "Un Glen Grant de 15 ans mis en bouteille à la force du fût : vieilli exclusivement dans des fûts de chêne américain ex-bourbon de premier remplissage sélectionnés à la main, non filtré à froid et de couleur naturelle — le style qui a rendu cette mise célèbre au Japon. Des arômes floraux d'orange, de pomme, de melon, de caramel, de chêne et de bruyère mènent à une bouche de vanille, de miel, de marmelade d'abricot, de malt doux et d'épices de pâtisserie, sur une longue finale de pomme, de cannelle et d'épices douces.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5UbDiBkxuIQ",
+          "label": "Glen Grant 15 Batch Strength 1st — Whisky Riffs"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AgKqOgAxWR0",
+          "label": "Glen Grant 15 Batch Strength 1st Ed — Whisky Neighbour"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=B6yhU116J2s",
+          "label": "Glen Grant 15 Batch Strength 1st Ed — Different Spirits"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PFojVP4XkMk",
+          "label": "Glen Grant 15 Batch Strength — DJ Wun Wun"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kHS5I5q1WRY",
+          "label": "The Glen Grant 15 Batch Strength — Hablando de Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KQW-5OluOtM",
+          "label": "Glen Grant 12 ans — Le Whisky Brunch"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XmbIJuZP61I",
+          "label": "Glen Grant : c'était mieux avant — Malt à propos"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-jW0Jnfx7nc",
+          "label": "グレングラント15年 おすすめ — 平日休みの秘密基地"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=s-dU1JQwe48",
+          "label": "グレングラント 15・18・21年 飲み比べ — もっさんハイボール倶楽部"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=brG5eqOP0VY",
+          "label": "Glen Grant Single Malt — Destilados Brasil"
+        }
+      ]
     },
     {
       "id": "glen-scotia-15-yo",
@@ -21841,6 +22385,492 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "balvenie-caribbean-cask-14-yo",
+      "slug": "balvenie-caribbean-cask-14-yo",
+      "name": "The Balvenie Caribbean Cask 14 YO",
+      "distillery": {
+        "id": "balvenie",
+        "name": "The Balvenie",
+        "name_es": "The Balvenie",
+        "name_pt": "The Balvenie",
+        "name_en": "The Balvenie",
+        "name_ja": "The Balvenie",
+        "name_fr": null
+      },
+      "description": "Single malt de Speyside terminado en barricas de ron caribeño, creado por el maestro de bodega David C. Stewart como homenaje al estilo de vida del Caribe. Madura primero en barricas de roble americano y luego reposa de 4 a 6 meses en barricas que han contenido ron caribeño, que aportan una dulzura tropical al estilo mieloso de Balvenie. En nariz destacan la vainilla, el toffee y frutas exóticas como el plátano y la piña. En boca es sedoso y dulce, con azúcar moreno, cacao y especias cálidas que dejan un final largo y afrutado.",
+      "image": "/data/images/balvenie-caribbean-cask-14-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 14,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Bourbon y ron caribeño",
+      "distillery_id": "balvenie",
+      "insertion_order": 240,
+      "featured": false,
+      "name_pt": "The Balvenie Caribbean Cask 14 YO",
+      "description_pt": "Single malt de Speyside com finalização em barris de rum caribenho, criado pelo mestre de adega David C. Stewart como uma homenagem ao estilo de vida das Caraíbas. Amadurece primeiro em barris de carvalho americano e depois repousa de 4 a 6 meses em barris que contiveram rum caribenho, que trazem uma doçura tropical ao estilo meloso da Balvenie. No nariz destacam-se a baunilha, o toffee e frutas exóticas como a banana e o ananás. No paladar é sedoso e doce, com açúcar mascavado, cacau e especiarias quentes que deixam um final longo e frutado.",
+      "name_en": "The Balvenie Caribbean Cask 14 YO",
+      "description_en": "Speyside single malt finished in Caribbean rum casks, created by Malt Master David C. Stewart as a tribute to the Caribbean way of life. First matured in traditional American oak whisky casks, then rested for 4 to 6 months in casks that once held Caribbean rum, which brings a tropical sweetness to Balvenie’s characteristic honeyed style. The nose offers vanilla, toffee and exotic fruit — banana and pineapple. The palate is silky and sweet, with brown sugar, cocoa and warm spice leading to a long, fruity finish.",
+      "name_ja": "ザ・バルヴェニー カリビアンカスク14年",
+      "description_ja": "カリブのラム樽でフィニッシュしたスペイサイド産シングルモルトで、モルトマスターのデヴィッド・C・スチュワートがカリブのライフスタイルに敬意を表して生み出しました。伝統的なアメリカンオーク樽で熟成した後、カリブのラムが入っていた樽で4〜6ヶ月間休ませることで、バルヴェニーらしい蜂蜜のようなスタイルにトロピカルな甘みが加わります。香りはバニラ、トフィー、バナナやパイナップルなどのエキゾチックなフルーツ。味わいは滑らかで甘く、ブラウンシュガーやココア、温かいスパイスが続き、長いフルーティーな余韻へとつながります。",
+      "name_fr": "The Balvenie Caribbean Cask 14 YO",
+      "description_fr": "Single malt de Speyside fini en fûts de rhum des Caraïbes, créé par le maître de chai David C. Stewart en hommage à l'art de vivre caribéen. D'abord vieilli en fûts de chêne américain traditionnels, il repose ensuite 4 à 6 mois dans des fûts ayant contenu du rhum des Caraïbes, ce qui apporte une douceur tropicale au style miellé caractéristique de Balvenie. Le nez offre de la vanille, du toffee et des fruits exotiques — banane et ananas. La bouche est soyeuse et douce, avec du sucre roux, du cacao et des épices chaudes menant à une finale longue et fruitée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0mSNwpSb62Q",
+          "label": "Balvenie Caribbean Cask 14 years — Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6Owoex7-Fjs",
+          "label": "Balvenie 14yo Caribbean cask — ralfy preview"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9HWR1fkMl5Y",
+          "label": "The Balvenie 14 Caribbean Cask Review — Malt Mondays"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BEpqoYNXCaI",
+          "label": "Balvenie Caribbean Cask 14 Review — Whiskey Aficionado"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n3hdCyKM5pQ",
+          "label": "Cata y reseña Balvenie 14 Caribbean Cask — Tito Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pUy197duynQ",
+          "label": "Balvenie 14 Caribbean vs 17 Double Wood — Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=plnf1Uaq7bA",
+          "label": "Whisky Balvenie 14 Caribbean Cask — Destila2"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ugsmn-dKu2k",
+          "label": "The Balvenie 14 Caribbean Rum Cask — Hablando de Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BL09nqm_E9U",
+          "label": "Dégustation Balvenie (DoubleWood 12) — Esprit Dégustation"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F8bv2tXGaWI",
+          "label": "The Balvenie @ Paris — Esprit Dégustation"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6G6PLm1pYqU",
+          "label": "ラム樽の濃厚な旨味！バルヴェニー14年 — CRAZY BARTENDER KEN"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ACuFd95ecNw",
+          "label": "バルヴェニー14年カリビアンカスク — ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Kg73vBRlh8A",
+          "label": "バルヴェニー12年・15年飲み比べ — 正直者がお酒を見る"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2NIvmL9qjvw",
+          "label": "Balvenie 14 anos Caribean Cask — Destilados Brasil"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J58s1d9Z0NE",
+          "label": "Whisky 212: Balvenie Caribbean Cask 14 anos — Bebendo Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R1vpWJxhXh0",
+          "label": "Balvenie Caribbean Cask 14 anos Review — WhiskyBrasil.com"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=d7BgddQVfVQ",
+          "label": "Balvenie Caribbean Cask 14 anos — Whisky Capital"
+        }
+      ]
+    },
+    {
+      "id": "balvenie-doublewood-12-yo",
+      "slug": "balvenie-doublewood-12-yo",
+      "name": "The Balvenie DoubleWood 12 YO",
+      "distillery": {
+        "id": "balvenie",
+        "name": "The Balvenie",
+        "name_es": "The Balvenie",
+        "name_pt": "The Balvenie",
+        "name_en": "The Balvenie",
+        "name_ja": "The Balvenie",
+        "name_fr": null
+      },
+      "description": "Single malt de Speyside pionero del acabado en doble madera, creado en 1982 por el maestro de bodega David C. Stewart: madurado primero en barricas de roble americano ex-bourbon y afinado durante nueve meses en barricas europeas de jerez Oloroso. En nariz destacan la miel de brezo, la vainilla y frutas oreadas con un toque de canela y almendras. En boca es suave y mieloso, con chocolate con leche, avellanas tostadas y especias cálidas que dejan un final largo, cálido y ligeramente seco.",
+      "image": "/data/images/balvenie-doublewood-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon y jerez Oloroso",
+      "distillery_id": "balvenie",
+      "insertion_order": 239,
+      "featured": false,
+      "name_pt": "The Balvenie DoubleWood 12 YO",
+      "description_pt": "Single malt de Speyside pioneiro do acabamento em madeira dupla, criado em 1982 pelo mestre de adega David C. Stewart: amadurecido primeiro em barris de carvalho americano ex-bourbon e afinado durante nove meses em barris europeus de xerez Oloroso. No nariz destacam-se o mel de urze, a baunilha e frutas secas com um toque de canela e amêndoas. No paladar é suave e meloso, com chocolate ao leite, avelãs torradas e especiarias quentes que deixam um final longo, quente e ligeiramente seco.",
+      "name_en": "The Balvenie DoubleWood 12 YO",
+      "description_en": "Speyside single malt and pioneer of cask finishing, created in 1982 by Malt Master David C. Stewart: first matured in ex-bourbon American oak, then finished for nine months in European oak Oloroso sherry casks. The nose is honeyed — heather honey, vanilla and dried fruit with cinnamon and a hint of almonds. The palate is smooth and mellow, with milk chocolate, toasted hazelnuts and warm spices leading to a long, warming, gently dry finish.",
+      "name_ja": "ザ・バルヴェニー ダブルウッド12年",
+      "description_ja": "1982年にモルトマスターのデヴィッド・C・スチュワートが生み出した、キャスクフィニッシュの先駆けとなるスペイサイド産シングルモルト。まずバーボン樽由来のアメリカンオークで熟成し、さらにヨーロピアンオークのオロロソ・シェリー樽で9ヶ月間フィニッシュします。香りはヘザーハニーやバニラ、ドライフルーツにシナモンとアーモンドのニュアンス。味わいは滑らかでハニーのような甘さ、ミルクチョコレートやローストヘーゼルナッツ、温かいスパイスが続き、長く温かくほのかにドライな余韻へとつながります。",
+      "name_fr": "The Balvenie DoubleWood 12 YO",
+      "description_fr": "Single malt de Speyside et pionnier du fini en fût, créé en 1982 par le maître de chai David C. Stewart : d'abord vieilli en fûts de chêne américain ex-bourbon, puis affiné neuf mois en fûts européens de sherry Oloroso. Le nez est miellé — miel de bruyère, vanille et fruits secs avec une touche de cannelle et d'amandes. La bouche est douce et moelleuse, avec du chocolat au lait, des noisettes grillées et des épices chaudes menant à une finale longue, chaleureuse et légèrement sèche.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4LRehRj9t-8",
+          "label": "Balvenie 12 DoubleWood: Best Beginner Scotch? — Spirit Scrutiny"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7FiUKSGIZLU",
+          "label": "Why Balvenie 12 Is So Popular? — KC Fundas"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OMxWMnO6vEk",
+          "label": "Balvenie Double Wood 12 Years — Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cvBvIRrCfnU",
+          "label": "Balvenie Doublewood 12 Review — Drinking with Dave"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=81Q-RscMvcU",
+          "label": "Cata del 12 Años Doblewood — Monkey Drinks"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=N8WD9nldang",
+          "label": "The Balvenie DoubleWood 12 años — Whisky México"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZUmD6sK6WJg",
+          "label": "Whisky Balvenie 12 Años DoubleWood — Destila2"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fwyr4MVe9Mo",
+          "label": "Balvenie 12 Doble Wood — Hablando de Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BL09nqm_E9U",
+          "label": "Dégustation Balvenie DoubleWood 12 ans — Esprit Dégustation"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F8bv2tXGaWI",
+          "label": "The Balvenie @ Paris — Esprit Dégustation"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=10_6GZU81a0",
+          "label": "バルヴェニー12年ダブルウッド — ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=won0LglRERY",
+          "label": "ザ・バルヴェニー 12年 ダブルウッド — なおんの一杯"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Lk4_z3vdsEE",
+          "label": "Review Balvenie 12 Anos DoubleWood — Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gvCpP6G_lYE",
+          "label": "Balvenie DoubleWood 12 Anos — Gustavo Araujo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xCIiOugRTFM",
+          "label": "Balvenie DoubleWood 12 Anos — Single Malt Brasil"
+        }
+      ]
+    },
+    {
+      "id": "balvenie-portwood-21-yo",
+      "slug": "balvenie-portwood-21-yo",
+      "name": "The Balvenie PortWood 21 YO",
+      "distillery": {
+        "id": "balvenie",
+        "name": "The Balvenie",
+        "name_es": "The Balvenie",
+        "name_pt": "The Balvenie",
+        "name_en": "The Balvenie",
+        "name_ja": "The Balvenie",
+        "name_fr": null
+      },
+      "description": "Single malt de 21 años de The Balvenie, madurado en barricas de roble americano ex-bourbon y terminado en grandes pipas de roble portugués que contuvieron vino de Oporto. De color ámbar rojizo, ofrece un aroma a perfume de frutas maduras y pasas, con un fondo seco y de nuez. En boca destaca un conjunto refinado, cremoso y sedoso, con fruta, miel y especias, y un final largo, suave y a nuez.",
+      "image": "/data/images/balvenie-portwood-21-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 21,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Oporto",
+      "distillery_id": "balvenie",
+      "insertion_order": 241,
+      "featured": false,
+      "name_pt": "The Balvenie PortWood 21 YO",
+      "description_pt": "Single malt de 21 anos da The Balvenie, amadurecido em barris de carvalho americano ex-bourbon e terminado em grandes pipas de carvalho português que continham vinho do Porto. De tom âmbar avermelhado, o nariz é um perfume de frutas maduras e passas apoiado num fundo seco de noz. No paladar é refinado, cremoso e sedoso, com fruta, mel e especiarias; o final é longo, suave e de noz.",
+      "name_en": "The Balvenie PortWood 21 YO",
+      "description_en": "A 21-year-old single malt from The Balvenie, matured in traditional American oak ex-bourbon casks and finished in large Portuguese oak port wine pipes. Reddish-amber in hue, the nose is a perfume of fruity, ripe raisin notes backed by a nutty dryness. The palate is refined, remarkably creamy and silky with fruit, honey and spice; the finish is long, gentle and nutty.",
+      "name_ja": "ザ・バルヴェニー ポートウッド21年",
+      "description_ja": "バーボン樽由来のアメリカンオークで21年熟成し、ポルトガル産オークの大きなパイプ樽（ポートワイン樽）でフィニッシュした、ザ・バルヴェニーの21年シングルモルト。赤味を帯びた琥珀色で、熟したフルーツとレーズンの香りに、ナッティーなドライさが支えます。味わいは洗練され、驚くほどクリーミーで絹のような口当たり。フルーツ、ハチミツ、スパイスが広がり、長く優しいナッツの余韻へと続きます。",
+      "name_fr": "The Balvenie PortWood 21 YO",
+      "description_fr": "Single malt de 21 ans de The Balvenie, vieilli dans des fûts de chêne américain ex-bourbon puis affiné dans de grandes poinçons de chêne portugais ayant contenu du vin de Porto. De couleur ambre rougeâtre, le nez est un parfum de fruits mûrs et de raisins secs, soutenu par une sécheresse fruitée de noix. La bouche est raffinée, remarquablement crémeuse et soyeuse, entre fruits, miel et épices, sur une finale longue, douce et noisette.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_AN996vDTLU",
+          "label": "Balvenie 21yo Portwood — Ralfy Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aMlqVv65JYU",
+          "label": "Balvenie 21 Portwood Review — Malt Mondays"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jknXxVt6Ixg",
+          "label": "Balvenie 21 PortWood — Scotch 4 Dummies"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pBpqowdj68Y",
+          "label": "Balvenie 21 Years Port Wood — Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=81Q-RscMvcU",
+          "label": "Cata del 12 Años Doblewood — Monkey Drinks"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jNP6lZA87iA",
+          "label": "Balvenie 12 años triple cask — Whisky o Muerte"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BL09nqm_E9U",
+          "label": "Dégustation Balvenie Doublewood 12 ans — Esprit Dégustation"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F8bv2tXGaWI",
+          "label": "The Balvenie @ Paris — Esprit Dégustation"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=10_6GZU81a0",
+          "label": "バルヴェニー12年ダブルウッド — ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GESYe7a0Gc8",
+          "label": "贅沢スコッチを飲み比べ — CRAZY BARTENDER KEN"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lGPA-5wuE4Y",
+          "label": "バルヴェニー検証 — バーテンダー新井洋史"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DmKrsaYeU2I",
+          "label": "Balvenie Portwood 21 anos Review 244 — Destilados Brasil"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZuuA3zfazXM",
+          "label": "Balvenie 21 anos e Curious Cask 14 — Porção dos Anjos Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ubHuLODPVzI",
+          "label": "Balvenie Portwood 21 Review — WhiskyBrasil.com"
+        }
+      ]
     },
     {
       "id": "chita-single-grain",

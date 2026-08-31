@@ -275,3 +275,14 @@
 - New nuance: "channel in native language" ≠ "video in that language" — WhiskyBrasil.com's "Laphroaig Lore Review" (untitled English, no caption) got dropped from pt despite being a Brazilian channel; title+channel must BOTH be native, or a caption track must exist.
 - Discontinued-expression mapping: Bowmore 15 "Darkest" is gone in many markets, so Japanese search only surfaces the successor 15yo sherry-cask finish — those `ja/asr` videos named "15年ダーケストの後継品" are the honest ≈match; don't force a fake "Darkest" title.
 - Bottlenecks per language this wave: es strong (Los Whiskochos/Whisky o Muerte/HABLANDO DE WHISKY/El Whisky Bar), pt strong (Destilados Brasil/WhiskyBrasil/Tierri/Whisky Capital/Sanson), ja strong (ひとくちウイスキー series + 宅飲みバーTakeo + ITARU's BAR + つっちーのBar研究室), fr thin outside LMDW/lachaineduwhisky/Whisky et Cie/Malt à propos/Whisky Live Paris/Gouilland.
+
+## 2026-08-29 — Balvenie DoubleWood 12 (new distillery + product, 15 videos)
+- New distillery + product added (queue line ticked): 84 distilleries, 236 products, 1810 videos after db:sync+export; `npm run check` 0 errors/25 warnings.
+- Video supply by language for Balvenie DW12: en/es strong (4 each verified), pt 3, ja 2, fr 1. French is genuinely dry — only Esprit Dégustation covers this expression in French; 2nd fr slot used same-channel Balvenie tasting (`F8bv2tXGaWI` THE BALVENIE@PARIS CAVE) as same-distillery fallback.
+- `bj11tLQ0Osw` (passed to me as a Spanish DW12 review) oEmbed-404'd — always re-verify every foreign-search URL before use.
+- YouTube raw `results?search_query=` scrape returns watch IDs cheaply and reliably; pair with oEmbed to get author+title for quick language triage. French/other queries surfaced mostly English/sommelier content → confirms thinness, doesn't fake it.
+
+## 2026-08-29 — Balvenie Caribbean Cask 14 (2nd Balvenie product, 17 videos)
+- Added via reused distillery record; en/es/pt all exact-expression-rich (4/4/4), ja 3 (2 exact + 1 same-distillery 12/15 drink-off), fr 2 (both same-distillery Esprit Dégustation — no French CC14 review exists). oEmbed-only, all 200.
+- Watch the two Esprit Dégustation URLs (BL09nqm_E9U, F8bv2tXGaWI) are legitimately shared across DW12 and CC14 — same-distillery cross-product reuse allowed, no intra-product dup.
+- Bottle image: official S3 from shop.us.thebalvenie.com (200cl SKU, current label) — whisky direct product pages are age-gated; the US shop attachments CDN exposes .full.jpg freely.
