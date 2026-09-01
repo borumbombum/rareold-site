@@ -38,8 +38,8 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Royal Salute 21 YO Signature Blend - Chivas Brothers
 ✅ Royal Salute 21 YO The Peated Blend - Chivas Brothers
 ✅ Royal Salute 25 YO - Chivas Brothers
-Royal Salute 30 YO Key To The Kingdom - Chivas Brothers
-Royal Salute 62 Gun Salute - Chivas Brothers
+✅ Royal Salute 30 YO Key To The Kingdom - Chivas Brothers
+✅ Royal Salute 62 Gun Salute - Chivas Brothers
 
 ## Scotland — Islay
 
@@ -121,13 +121,13 @@ Royal Salute 62 Gun Salute - Chivas Brothers
 ✅ Benriach The Twelve - Benriach
 ✅ Glen Grant 10 YO - Glen Grant
 ✅ Glen Grant 15 YO Batch Strength - Glen Grant
-Glenrothes 12 YO - Glenrothes
-Glenrothes Whisky Maker's Cut - Glenrothes
-Mortlach 12 YO Wee Witchie - Mortlach
-Mortlach 16 YO Distiller's Dram - Mortlach
-Craigellachie 13 YO - Craigellachie
-Craigellachie 17 YO - Craigellachie
-Cragganmore 12 YO - Cragganmore
+✅ Glenrothes 12 YO - Glenrothes
+✅ Glenrothes Whisky Maker's Cut - Glenrothes
+✅ Mortlach 12 YO Wee Witchie - Mortlach
+✅ Mortlach 16 YO Distiller's Dram - Mortlach
+✅ Craigellachie 13 YO - Craigellachie
+✅ Craigellachie 17 YO - Craigellachie
+✅ Cragganmore 12 YO - Cragganmore
 Cardhu 12 YO - Cardhu
 Strathisla 12 YO - Strathisla
 Longmorn Distiller's Choice - Longmorn

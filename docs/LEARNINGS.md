@@ -1,5 +1,11 @@
 # Learnings
 
+## 2026-09-01 — Video search pitfall for less-niche Speyside single malts
+
+- **`influencer_videos` can't be verified from the exported product object** — the export splits them out to `src/lib/data/influencer_videos.json` keyed by `product_id`, so `f.influencer_videos` on a whisky is 0. Always check the flat list. (Glenrothes Maker's Cut + Mortlach 12/16.)
+- **Mortlach 16 Distiller's Dram**: `yt-search.mjs` es query surfaced `8rcuvdB6G5E` (whisky-doc "Mortlach 16yo Distiller`s Dram"), and El Whisky Bar's `2pdktNFnL_U` ("El muy buen Mortlach 16 años") is a genuine es review. Ja has `PiUz8fss8wM` (宅飲みバーTakeo Mortlach 12v16) + `7EDPjikKXlU` (Harry Tsai "モートラック16のレビュー" — English-narrated but titled in Japanese; verified channel is ES-bilingual/EN, so slot it carefully).
+- **Foreign-language named "review" channels are sometimes EN** — always judge the spoken language from oEmbed `author_name` + title, never the query language that surfaced it.
+
 ## 2026-08-28 — Kill multi-second post-load rating stall (parallelize + loader counter)
 
 - Symptom: list reorder/flicker fires ~4s after load. Root cause: `/api/rating` ran `getRatingMap` + `getUserReviewedSlugs` **serially**, each an uncached remote Turso round-trip (`libsql://…aws-us-west-2.turso.io`, measured ~1.1s/call) → ~1.7s+ API, ~4s perceived.
@@ -297,3 +303,14 @@
 - Irish producers (Dingle, Glendalough, Irishman) are en-dominant; non-English only sparse es/pt/fr.
 - Smokehead (a non-distillery Islay-style brand) pulls mostly en with a few es/fr/ja; High Voltage/rum/sherry sub-expressions are thin.
 - Keep agents to ONE task each and demand TSV-only output; multi-branch agents degrade into summaries.
+
+## 2026-09-01 — Hankey Bannister review research (big-pickle)
+- Invidious can return DESYNCED id↔title pairs; treat them only as hints, verify each final pick via yt-verify oEmbed before trusting language/expression.
+- Brazilian Portuguese channels (Tierri Whisky, Vivian Leny Fins, Destilados Brasil) reliably cover value blended scotch exactly — good optional resource for similar cheap blends.
+- A ja video whose title just says "Japanese-return whisky / 1000-yen whisky" is too ambiguous to list as exact Hankey; only explicitly named titles pass the exact-expression rule.
+
+## 2026-09-01 — Batch 2 (Craigellachie 13/17, Cragganmore 12)
+- Medium Speyside distilleries (Craigellachie, Cragganmore) have uneven influencer coverage: the 13/12 core expressions usually reach all 5 languages, but older expressions like the 17 often cap at English + Portuguese. Don't force a wrong-language video into an empty slot — leave it empty and let the runtime English top-up handle it.
+- Language-titled auto-translated videos are a consistent trap on es/fr/ja searches: English channels (Gwhisky, Whisky.com, Whiskey Novice) get titles auto-translated, but oEmbed shows English narration. Always trust the canonical channel language, not the surfaced query language.
+- Portuguese has surprisingly broad whisky-review coverage via Whisky Capital (Gustavo Araujo) — a good go-to for core Speyside expressions.
+- Pipeline discipline confirmed: distilleries before products in seed, 3 scripts (db:sync → data:export → check) verify in ~1 pass, videos land in the flat `influencer_videos.json` keyed by product_id.

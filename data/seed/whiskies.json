@@ -1648,7 +1648,106 @@
       "distillery_id": "arran",
       "name_fr": "Arran Machrie Moor",
       "description_fr": "Machrie Moor tire son nom d'une tourbière balayée par le vent et mystique sur la côte ouest d'Arran. Ce whisky à la force de fût tourbé apporte de la fumée de tourbe au caractère classique et frais du single malt d'Arran. ABV : 56,2 % Nez : Notes d'agrumes avec un fond de tourbe et une bouffée de fumée immédiatement perceptible. Bouche : Un dram robuste avec les fruits typiques du verger d'Arran qui se détachent sur une couche de brioche grillé et de fruits rouges.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3XZOOAztZHE",
+          "label": "Machrie Moor Single Malt Scotch Whisky, The Peated Arran Malt Review/Tasting",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZH7IGaPjlO8",
+          "label": "Arran Machrie Moor - Whisky Review #87",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YpHu041Ti0w",
+          "label": "Arran Machrie Moor",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8rfi7RPs0Ls",
+          "label": "Machrie Moor Peated Arran Malt: The Single Malt Review Episode 24",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ay-17uzNIWY",
+          "label": "Machrie Moor, la malta ahumada de Arran.",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q1CKB1jRGgk",
+          "label": "Catamos el Machrie Moor 10 años (y lo comparamos con el NAS)",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FF2TmRfO7X8",
+          "label": "MACHRIE MOOR PEATED 46",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=t9Uhj2822yk",
+          "label": "Arran Machrie Moor Peated Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VMCFNLpyMr4",
+          "label": "Whisky Review: The Arran Machrie Moor.",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8yi2lKxgVhI",
+          "label": "WHISKY REVIEW SINGLE MALT ARRAN MACHRIE MOOR PEATED CASK STRENGHT",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9jMGpYLvVF0",
+          "label": "【猫とウイスキー】アラン蒸留所、もう一つの顔「MACHRIE MOORマクリームーア」の魅力",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wv0VZ7XURDQ",
+          "label": "【終売!!】マクリー・ムーア 3種類飲み比べ!!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NFlqTxFlgz8",
+          "label": "アランのピーテッド「マクリームーア10年」は大当たりの激ウマでした。【国内未発売ウイスキー】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mU7Mde5oXM0",
+          "label": "アラン島の蒸留所 ロックランザとラグ ともにアランの所有ですが そのピートが効いたボトルを飲み比べます マクリムーアとラグ（キルモリー）",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -1676,7 +1775,92 @@
       "distillery_id": "arran",
       "name_fr": "Arran Quarter Cask",
       "description_fr": "Présentation de 700 ml. C'est un Single Malt complexe, riche et intensément fruité, un délice de la force de fût et le compagnon parfait de notre Sherry Cask Single Malt. Il a d'abord mûri en ex-fûts de bourbon de premier remplissage avant d'être transféré pour une maturation secondaire dans des Quarter Casks plus petits, également fabriqués dans le meilleur chêne américain. Le processus consistant à transférer notre whisky dans des fûts plus petits de 125 litres produit un contact bien plus important entre le whisky et le chêne et une maturation plus rapide et plus intense. Le résultat final est une expression corsée d'Arran Single Malt qui allie puissance et délicatesse, pleine d'une riche douceur de vanille et d'épices audacieuses. L'embouteillage en Cask Strength naturel, sans filtration à froid ni coloration artificielle d'aucune sorte, présente ce whisky sous sa forme la plus pure. NOTES Nez Tarte aux pommes, brioche à l'ananas. Palais Les agrumes signature d'Arran vous accueillent, et l'épice douce de cannelle et de vanille promet un dram mémorable. Finale Douceur, miel, ananas, vanille, noix de coco.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8Ld7TP2eBxk",
+          "label": "Arran Quarter Cask 'The Bothy'",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ImgY5mXzMM",
+          "label": "Arran Quarter Cask (The Bothy) Single Malt Whisky Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TRJMR3GdyHU",
+          "label": "Arran Quarter Cask The Bothy Cask Strength Whisky Review | Whisky Whistle 770",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=x9LFDh0nxys",
+          "label": "ARRAN Quarter Cask 56.2%!!!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sbeq7_5nE4M",
+          "label": "Probemos Arran Quarter Cask | The Bothy",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-TItCRkQlo0",
+          "label": "Conoce Arran Quarter Cask [Whisky Calendario Dia 7] Single Malt Scotch Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GxEago0kWL8",
+          "label": "Catamos la fuerza de Arran, The Bothy (versión discontinuada)",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pLFZO8rJdCQ",
+          "label": "Avaliando o Arran quarter Cask",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w3HBLPmddUk",
+          "label": "Experimentando o Arran Quarter Cask",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jP5PIfHLnKo",
+          "label": "【アラン】ハザマが今一番おすすめのウイスキーをご紹介！！【クォーターカスク】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ojjkUsc1lyc",
+          "label": "アラン島のアラン クオーターカスクを飲んでみました　【ウイスキー】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QbLxxDh2UJs",
+          "label": "ウィスキーを飲む人vol.5【Arran Quarter Cask・アラン クォーターカスク】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -2195,7 +2379,120 @@
       "distillery_id": "buffalo-trace",
       "name_fr": "Buffalo Trace Bourbon",
       "description_fr": "Présentation de 1 litre.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cPns8MSv_Jw",
+          "label": "Is This $30 Hard-To-Find Buffalo Trace Worth The Hype?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SF2VBT-FPHo",
+          "label": "Buffalo Trace: Worth The Hype?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Qk141vUMYro",
+          "label": "Buffalo Trace",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yKqzelKbO3o",
+          "label": "Buffalo Trace Bourbon Whiskey Review! Breaking the Seal EP #60!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3LRM1Axrl4M",
+          "label": "Buffalo Trace Whiskey ¿Cuál es mi opinión?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JS96Kd6LnaM",
+          "label": "¡ Hay vida más allá del Jack Daniels ! Cata Buffalo Trace",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tI3MLftGKHo",
+          "label": "Buffalo Trace Bourbon Review español",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rxbVHaqBRgw",
+          "label": "Hablemos de Buffalo Trace Kentucky Straight Bourbon",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9Gfhio5B9wM",
+          "label": "Buffalo Trace Bourbon Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jf9GIQ09Y08",
+          "label": "Review Buffalo Trace - Whiskey Bourbon",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=99eHpaKyink",
+          "label": "Tierri #174: WHISKY REVIEW - BUFFALO TRACE UM OTIMO BOURBON!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=x6eOOAHJegw",
+          "label": "BUFFALO TRACE! Degustação completa, analise, história e curiosidades do Melhor Bourbon do Brasil",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ZIKRvL-6D0",
+          "label": "💪ブラインドテイスティング筋デカくしたろ005 #バッファロートレース #J&B",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lbCSZ7PaNIo",
+          "label": "【ウイスキー】【バッファロー トレース(BUFFALO TRACE)】お酒　実況　軽く一杯（540杯目）　ウイスキー（ケンタッキー ストレート バーボン)　 バッファロー トレース",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Z98jcvkfFh4",
+          "label": "安いバーボンウイスキー！バッファロー・トレースをレビュー！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o0CT4L3w624",
+          "label": "Buffalo Trace - Mercredi Bourbon",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -2251,7 +2548,50 @@
       "distillery_id": "cattos",
       "name_fr": "Catto&#8217;s",
       "description_fr": "Présentations de 200 ml, 1 litre et 1,14 litre. Le blend écossais Rare Olds Scottish n'utilise que les meilleurs malts non tourbés des Highlands et du Speyside, assemblés par des experts avec des grains des Lowlands pour produire un blend à très haute teneur en malt. Notes de dégustation Couleur Miel dorée. Nez Parfumé et lumineux, avec des traces d'agrumes frais et une note de miel. Dégustation Savoureux, rond et caractériel, avec une finale délicieusement douce et veloutée.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7F20wbdqz_s",
+          "label": "Catto's Blended Scotch Whisky: The Single Malt Review Episode 222",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BQ9-JMOvosM",
+          "label": "A Dram A Day #80 - Catto's - a whisky review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6hIgZKm2oo0",
+          "label": "Catto's Blended Scotch Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9pUmKQgOlug",
+          "label": "Cata Cattos Scotch Blended Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dKFGIB_F5Mw",
+          "label": "Tierri #030: WHISKY REVIEW CATTOS - Um review que vai quebrar a internet!!! BEBENDO ÁLCOOL!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LKfYwnSsnas",
+          "label": "Tierri #032: GRANTS VS CATTOS - Qual o melhor whisky?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -3863,7 +4203,64 @@
       "distillery_id": "fettercairn",
       "name_fr": "Fettercairn 12 YO",
       "description_fr": "Présentation de 700 ml. L'une des quatre nouvelles expressions de Fettercairn lancées en août 2018, Fettercairn 12 ans avait pour vocation d'incarner le caractère floral et fruité exotique de la distillerie. Il a mûri en fûts de chêne américain ex-Bourbon et a été embouteillé à 40 % ABV. COULEUR Lumière du soleil et ambre miellé. GOÛT Vanille et poire, avec des épices douces. FINALE Nectarine rafraîchissante et fruits tropicaux, avec un subtil café torréfié, du clou de girofle et du gingembre. Une finale mémorable de raisins de Corinthe et de toffee noir.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=s2RA070DP4w",
+          "label": "Fettercairn 12 review #177 with The Whiskey Novice",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WspgcqULGak",
+          "label": "Fettercairn 12 years",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=61sC5e6nRJk",
+          "label": "Fettercairn 12 Year Old Highland Single Malt Whisky Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SuergauM8VA",
+          "label": "Fettercairn 12 Year Old Review - Tasting Notes",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BhKg8vwcvbs",
+          "label": "Whisky Review: ESPECIAL de Natal. 23/12 FETTERCAIRN 12 anos!!!!!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-KF2Xsf8K4c",
+          "label": "EP121: Fettercairn 12",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sWEHZ03NDk8",
+          "label": "#18 Portrait chinois d'un spiritueux - Fettercairn 12 ans, avec Gauthier Suplie",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TnlmjtbCAr0",
+          "label": "フェッターケアン12年（ストレート）",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -5037,7 +5434,99 @@
       "distillery_id": "hankey-bannister",
       "name_fr": "Hankey Bannister",
       "description_fr": "Présentation de 1 litre. Messieurs Hankey et Bannister présentent leur blend original de whiskies écossais fins et rares. Sélectionné à la main pour sa qualité et élaboré avec soin pour créer un blend doux, léger et parfaitement équilibré, reconnu dans la société depuis plus de 250 ans. Doux, épicé et incroyablement velouté, il y a une raison pour laquelle notre blend résolument non tourbé est l'un des favoris depuis que Hankey Bannister a commencé à produire du whisky. Notes de dégustation COULEUR Toffee crémeux avec une teinte dorée. NEZ Un arôme léger avec une touche épicée qui lui donne une profondeur supplémentaire. GOÛT Un blend léger et subtil, net, doux et épicé avec des tons sirupeux et une finale agréable et persistante.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Vg6dJKqpkPs",
+          "label": "Hankey Bannister Blended Scotch Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Px30qHlRqDk",
+          "label": "whisky review 380 - Hankey Bannister blended scotch",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WY3132odJaU",
+          "label": "Hankey Bannister - Blended Scotch Whisky Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8rerdycfmw0",
+          "label": "Mad Micks cheap whiskey review #44. Hankey Bannister blended scotch.",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sNNxgTbSUIQ",
+          "label": "Hankey Bannister Original",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WDI7HhtTyOs",
+          "label": "Probamos HANKEY BANNISTER original - El Whisky de Churchill (EN ESPAÑOL) Libando | NEHOMAR HERNÁNDEZ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6MmCrSkEvOM",
+          "label": "Tierri #034: Whisky Review Hankey Bannister - Um Prazeroso e barato whsky!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kZHyg5zkCLg",
+          "label": "DEGUSTAÇÃO HANKEY BANNISTER BRASIL",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=igb7m7qKeQY",
+          "label": "Tierri #035: FIGHT DE WHISKY - Sandy Mac vs Hankey Bannister Qual o Melhor?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mYnnUic-SOc",
+          "label": "Hankey Bannister Original - Review 113",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KVWuJ7QPDs8",
+          "label": "【ウイスキー】新たなコスパウイスキー再上陸？「ハンキーバニスター」を飲んでみた！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gal_VaBsJss",
+          "label": "安ウイスキーを彷徨う ハンキ―バニスターオリジナルを飲んでみました 年数表記物も出ているブランド この一番買いやすいレベルのボトルの味はどうでしょうか【ウイスキー】【テイスティング】【レビュー】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=q7bR-ryvUMY",
+          "label": "サントリープライム。ハンキーバニスター飲み比べ。今回は面白くない・・・",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -5065,7 +5554,64 @@
       "distillery_id": "hankey-bannister",
       "name_fr": "Hankey Bannister 12 YO",
       "description_fr": "Présentation 700 ml. Après 12 ans de maturation en fûts de bourbon américain, cet excellent blend est marié avec maîtrise pour créer une saveur douce et veloutée de vanille légèrement fumée. Il ravit même les palais les plus exigeants. Nez : Arôme légèrement doux avec des notes de vanille et de chêne. Bouche : De corps moyen, bien équilibré avec une vanille douce et veloutée et une finale légèrement fumée.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JTl9mYJCO18",
+          "label": "Whiskey Review Hankey Bannister 12 years old Blended Scotch Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=a0nCplP2cL4",
+          "label": "ralfy review 744 - Hankey Bannister 12yo Blended Scotch @ 40%vol:",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sFsOzG5o7GU",
+          "label": "Hankey Bannister 12 años, Blended Scotch Whisky. Porque todos merecen otra oportunidad? #capitulo59",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R3OtXLyXyoM",
+          "label": "Hankey Bannister 12 Blended Scotch",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PzcRAJpTPYo",
+          "label": "ハンキーバニスター12年（ストレート）",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=t1nJPCNprQk",
+          "label": "ハンキーバニスター12年 ハイボール　からの　サワラの炙り実演　他の12年ブレンデットに負けてない　な　ウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jL4FqLZRPJ4",
+          "label": "【飲み比べ】ハンキーバニスター12年とオリジナル飲み比べ忖度なし感想です。",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AKuxR414Qh4",
+          "label": "ハンキーバニスター12年 ハイボール　からの　厚揚げ焼き　黒ボー感じる　家飲み　ウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -8173,7 +8719,36 @@
       "distillery_id": "lost-irish",
       "name_fr": "Lost Irish",
       "description_fr": "En présentation de 700 ml. C'est un whisky irlandais Blended qui capture l'essence traditionnelle avec une touche moderne. Élaboré en Irlande avec une sélection de malts et de grains, il offre une expérience douce et accessible, idéale pour ceux qui recherchent un whisky polyvalent au caractère authentique.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=evxCgi5QwLE",
+          "label": "Lost Irish Six Worlds - Three Styles Whiskey Reviews by WhiskyJason",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jkSLNDYkJ0s",
+          "label": "Lost Irish Whiskey Review (WWR #120)",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZgINdSVUx_I",
+          "label": "Lost Irish Whiskey",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HVGZdY_QlpE",
+          "label": "Blending is Hard - \"Lost Irish\" Irish Whiskey",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -8313,7 +8888,71 @@
       "distillery_id": "old-ballantruan",
       "name_fr": "Old Ballantruan 10 YO",
       "description_fr": "Présentation de 700 ml. La première édition d'Old Ballantruan avec mention d'âge, embouteillée après 10 ans. Elle est élaborée à Tomintoul avec de l'orge fortement tourbée et embouteillée à un solide 50 % ABV. Notes COULEUR Or riche. NEZ Légèrement épicé avec une fumée &#8220;peat reak&#8221; équilibrée par un cœur crémeux plus doux. PALAIS Une légère fumée de tourbe avec une base de malt douce et crémeuse. FINALE La montée de la douceur est progressivement remplacée par une profondeur fumée.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Fh1TefuWFm8",
+          "label": "Old Ballantruan 10 \"The Peated Malt\" Speyside Glenlivet Single Malt Scotch Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7g2a8Qf04Yw",
+          "label": "Old Ballantruan 10 years | Whisky Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cMe8k3ZJI9Q",
+          "label": "Review 77 Old Ballantruan 10 Year Old Single Malt Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iWUqbW4xOaM",
+          "label": "Old Ballantruan 10 Year: The Peated Malt Speyside Glenlivet #297",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HcPXLJ6wVbg",
+          "label": "OLD BALLANTRUAN 10 - TOMINTOUL",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wuOlVYSRWUg",
+          "label": "Review Old Ballantruan: uma turfa surpreendente!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kQOMhTP101s",
+          "label": "2022年NO.1なスモーキーウイスキーを発見【オールドバラントルーアン】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vS3AMRGpKc8",
+          "label": "【スコッチウイスキー】【飲んでみた】オールドバランテュラン10年の説明と感想",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LkXlvzzDFR8",
+          "label": "オールドバランテュラン10年（ストレート）",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -8341,7 +8980,43 @@
       "distillery_id": "old-ballantruan",
       "name_fr": "Old ballantruan 4 YO",
       "description_fr": "Présentation 700 ml. Le single malt Old Ballantruan a un style assez inhabituel pour les whiskies de la région du Speyside ; il est élaboré avec de l'orge maltée à la tourbe (30 ppm) très fumée. Ce style est normalement associé aux distilleries d'Islay, mais la tendance, en raison de la forte demande, veut que le reste des distilleries d'Écosse utilise aussi de façon croissante la tourbe pour malter. ABV : 50 % Nez : Fumée de bruyère équilibrée avec de subtiles notes florales. Bouche : Saveurs douces d'« odeur de tourbe » avec des touches de tons acidulés et de noix maltées.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oc1_1fpu4OY",
+          "label": "Old Ballantruan NAS (The 'Peated Malt')",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cZTZQEwiUk8",
+          "label": "Whisky Review/Tasting: Old Ballantruan",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wLlaI6gIIAE",
+          "label": "Whisk'e'y Review 218, Old Ballantruan, The Peated Malt, Single Malt Scotch Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EYKJT2JO4OY",
+          "label": "Just Whisky 🥃: Old Ballantruan",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GiEMDOtyxto",
+          "label": "WHISKY REVIEW - OLD BALLANTRUAN UM NECTAR DOS DEUSES (MAS NEM TANTO)",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -9590,7 +10265,71 @@
       "distillery_id": "buffalo-trace",
       "name_fr": "Sazerac RYE",
       "description_fr": "Présentation de 750 ml. Région : Nouvelle-Orléans L'unique original de la Nouvelle-Orléans, Sazerac Rye symbolise la culture et l'histoire de la Big Easy. Au XIXe siècle, des fermiers et des distillateurs laborieux du cœur des États-Unis mettaient en bouteille et expédiaient leurs whiskies de seigle par le grand fleuve Mississippi jusqu'à la ville animée et croissante de la Nouvelle-Orléans. Ces liqueurs épicées et affirmées nourrirent la culture du whisky de la Nouvelle-Orléans et établirent le premier cocktail américain, The Sazerac Arôme Le parfum est celui du clou de girofle, de la vanille douce, de l'anis et du poivre. Saveur La saveur possède des notes subtiles de bonbons, d'épices et d'agrumes croquants. Finale La grande finale est douce avec des touches de réglisse.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uDjAA3FMs7A",
+          "label": "Sazerac Rye Review - Is it the Rye EVERYONE should have?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EyZAD8mejOM",
+          "label": "Sazerac Straight Rye | Whiskey Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dDfbd4u_2-k",
+          "label": "Whiskey Review: Sazerac Straight Rye",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2VGsT_DJti0",
+          "label": "Sazerac Rye Whiskey Review | Budget Buffalo Trace Worth Hunting?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ysZgotxj1xc",
+          "label": "Sazerac Rye",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=23Nw4fOK3t8",
+          "label": "Rye Whiskey Sazerac Buffalo Trace Destillery",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-sqa5u0F-zE",
+          "label": "Sazerac - Rye Whiskey - Review 374 - #whiskeyreview",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=H8Fd5SSN130",
+          "label": "アメリカンウィスキー　サゼラック　ライを開栓しましたハート❤️",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fTZEu0MDMco",
+          "label": "【美味しいウィスキー】サゼラック　ライウイスキー Sazerac Rye, Straight Rye Whiskey",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -9618,7 +10357,78 @@
       "distillery_id": "shackleton",
       "name_fr": "Shackleton",
       "description_fr": "Présentation de 700 ml. Shackleton Blended Malt Scotch s'appuie sur le spiritueux fourni à l'Expédition antarctique britannique de 1907, élaboré par des experts à partir d'une sélection des meilleurs whiskies écossais single malt des Highlands. NEZ Vanille Pomme caramélisée Cannelle Gingembre GOÛT Sucre foncé Fruits secs doux Ananas glacé FINALE Vin chaud chaud C hocolat praliné Un dernier murmure de fumée de feu de camp",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pxVBjcXLNRc",
+          "label": "Shackleton Whisky review #189 with The Whiskey Novice",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ao6h8odcPo",
+          "label": "THE WHISKY THAT WENT TO ANTARCTICA 100 YEARS AGO! SHACKLETON BLENDED MALT REVIEW.",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nQpemNLnjXk",
+          "label": "Shackleton Blended Malt Scotch Whisky Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ocQpxajiCA0",
+          "label": "100 Year Old Whisky?! Shackleton Blended Malt Scotch Whisky!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4sJTUT9a3pQ",
+          "label": "SHACKLETON: ¿Encontraron whisky en la Antártida? 🤯| Tito Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7XaKo54R9Bo",
+          "label": "Whisky 267: Shackleton Blended Malt.",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eG2WUX9wpJQ",
+          "label": "【ウイスキー】南極ウイスキー！？シャクルトン正直レビュー！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5VOOh-PfMIU",
+          "label": "【スコッチ駄弁】冒険家シャクルトンが南極に持ち込んだマッキンレイ？やまやで買った冒険ウイスキー！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NwHbWtsMZjc",
+          "label": "【ウイスキー】南極で発見された100年前のウイスキー！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1awcJQenyFs",
+          "label": "【ウイスキー】氷漬けのウイスキー！復活！！シャクルトン！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -10062,7 +10872,92 @@
       "distillery_id": "tamdhu",
       "name_fr": "Tamdhu 12 YO",
       "description_fr": "Présentation de 700 ml. 70 cl &#8211; 43 % Tamdhu élargit la gamme permanente avec ce whisky de douze ans. Comme celui de 10 ans, il est entièrement vieilli en fûts de Xérès Oloroso, de premier et second remplissage. Les deux années de maturation supplémentaires apportent encore plus de raffinement ainsi qu'une complexité additionnelle. Bouteille de style vintage dans un étui élégant. Médaille d'or 2020 au San Francisco World Spirits Competition. Couleur : Or foncé. Nez : Arômes de groseilles et de raisins secs, orange confite, orge maltée, cannelle, bois de chêne et une touche de chocolat à la menthe. Bouche : Saveur merveilleusement douce avec de belles influences de xérès et des notes de banane, prune, raisins secs, baies sucrées et gâteau au beurre. La finale est longue et équilibrée avec des notes de fruits secs et de délicieuse cannelle.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HOokQ2TykHI",
+          "label": "Can This Beat Macallan's Sherry Oak? | Tamdhu 12 REVIEW",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JARrJwIt5Xw",
+          "label": "Tamdhu 12 REVIEW: An ELEGANT GEM?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XxlhvOTwJh0",
+          "label": "Tamdhu 12 review #127 with The Whiskey Novice",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=B9iv86Ygnxk",
+          "label": "Is Tamdhu12 the best 12yr whisky???",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ztVJPZmREj8",
+          "label": "Tamdhu 12",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lKhqI03ggWg",
+          "label": "Probemos Tamdhu 12 años | Single Malt Scotch Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JO_X7rEsrgI",
+          "label": "TAMDHU 12 ¿DIGNO RIVAL DE MACALLAN?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c8otDf3tGTc",
+          "label": "Tamdhu 12 Year Vs. Tamdhu 15 Year Speyside Single Malt Scotch Whisky : Side By Side Comparison",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bOSlnah0we0",
+          "label": "Tamdhu 12 anos sherry oak cask",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=02C3cV09cbI",
+          "label": "意外と日本ではマイナー？タムデューの12年、15年、バッチストレングスの３種類の飲みくらべをしてみました、そのうち最高の味わいだったのは・・・【ウイスキー】【テイスティング】【レビュー】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RYuwZlCLuBY",
+          "label": "【忖度なし】マッカラン12年 VS タムデュー12年｜シェリーで本当にうまいのはどっち？",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=go7tbud5KMo",
+          "label": "タムデュー12年（ストレート）",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -10090,7 +10985,120 @@
       "distillery_id": "tamnavulin",
       "name_fr": "Tamnavulin Double Cask",
       "description_fr": "Présentation de 700 ml. ABV &#8211; 40 % Mûri en fûts de chêne américain pour obtenir une saveur douce et veloutée avec une riche et douce finition en barrique de xérès. Notes de saveur Couleur Or ambre. Nez Arômes riches et chaleureux de pomme, de toffee et de miel avec du massepain sucré et de subtiles notes de confiture acidulée. Palais Frais, doux avec des pêches crémeuses de poire et d'ananas et une touche de sucre Demerara. Finale Riche, douce et rafraîchissante. Un malt exclusif du Speyside.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BTDX7xk8UOY",
+          "label": "Tamnavulin Double Cask Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=36sLfxokRi8",
+          "label": "Tamnavulin Double Cask",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g3H_GBkOoNE",
+          "label": "So cheap... any good? | Tamnavulin Double Cask REVIEW",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wlFVLrVqDck",
+          "label": "Tamnavulin Double Cask - Whisky Review 117",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NPukNOi4pwU",
+          "label": "TAMNAVULIN DOUBLE CASK",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mozdmI-mKng",
+          "label": "Tamnavulin Double Cask!!!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7JXA1mOJ_yU",
+          "label": "Conociendo el \"Tamnavulin Double Cask\"",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YaQnxFUb_W4",
+          "label": "Martes Whiskero presenta: \"Tamnavulin Double Cask\"",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Gh454rxyqzM",
+          "label": "Tamnavulin Double Cask é bom? (Ep.17)",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IOjjwacNXNo",
+          "label": "🥃 DEGUSTAÇÃO TAMNAVULIN DOUBLE CASK – O SINGLE MALT SURPREENDENTE DO SPEYSIDE? 🔥",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l02oWOO7P_s",
+          "label": "Tamnavulin - Double Cask - Review 382 #singlemalt",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=p2DGE7gZRHw",
+          "label": "【自宅ハイボール研究所#270】お買い得シングルモルト！？タムナブーリンダブルカスクを試していく👍",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fYIzXsAskKY",
+          "label": "【ウイスキー】安くて美味しい！激安モルト「タムナブーリンダブルカスク」",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hi2F7OLZOf4",
+          "label": "タムナヴーリン ダブルカスク（ストレート）",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YibTZvek2gs",
+          "label": "意外とコスパがいいスペイサイドモルト タムナヴーリンのダブルカスクを飲みます デイリーモルトとしてもいいのではないでしょうか【ウイスキー】【レビュー】【テイスティング】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4kmiCIeZP0o",
+          "label": "Tamnavulin Double Cask",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -10118,7 +11126,36 @@
       "distillery_id": "tamnavulin",
       "name_fr": "Tamnavulin Sauvignon Blanc",
       "description_fr": "Il est post-maturé en anciens fûts de vin blanc Sauvignon Blanc après avoir vieilli en fûts de chêne américain. Tamnavulin fut construite en 1966 dans le village rural de Tomnavoulin, en Écosse. Près de trois décennies plus tard, elle ferma à nouveau. Après une rénovation extensive, la réouverture fut célébrée en 2007. Nez : Fruits agrumes et pommes vertes avec des épices et des arômes épicés de chêne. Bouche : Épices avec des arômes de pomme verte et de chêne.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nlSLJUqNqWk",
+          "label": "Tamnavulin Sauvignon Blanc | Whisky Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TaTuALPMayo",
+          "label": "Tamnavulin White Wine Cask Edition (Sauvignon Blanc) - Whisky Review 163",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DIa3Ie_VuQs",
+          "label": "Has this Sauvignon Blanc Cask won me round to Tamnavulin? | Tamnavulin White Wine Cask Edition",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oX68jQ2s1B0",
+          "label": "This Cheap Scotch Shouldn’t Be This Good | Tamnavulin Wine Cask Finish Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -11883,7 +12920,43 @@
       "distillery_id": "west-cork",
       "name_fr": "West Cork Bog Oak",
       "description_fr": "Présentation de 700 ml. Teneur en alcool : 43 % Ce whiskey irlandais de triple distillation mûrit en fûts de xérès puis se termine en fûts de chêne carbonisé pendant encore 4-6 mois. Le chêne des tourbières est extrait des tourbières locales de Glengarriff. GOÛT Épices intenses, malt et poivre moulu. ARÔME Épicé, cuir sec avec un fond doux de fruits secs.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9Hn9bcXI-PE",
+          "label": "West Cork Single Malt Irish Whiskey [Glengarriff Series Bog Oak] Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wea2mBCWYC4",
+          "label": "West Cork Glengarriff Bog Oak Charred Cask Whiskey Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iEGcqzneFzg",
+          "label": "Bog and Peat Charred Barrels with Irish Whiskey! Single Malt samples",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=StJZf6iYOnE",
+          "label": "West Cork Glengarriff Series: Peat Charred, Bog Oak Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_2JtQirb29w",
+          "label": "【自宅ハイボール研究所#290】過去イチのクセ強！？個性が限界突破したウイスキー！ウエストコークボグオークチャードカスクを初見飲み！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -11911,7 +12984,64 @@
       "distillery_id": "west-cork",
       "name_fr": "West Cork Cask",
       "description_fr": "Présentation de 700 ml. Un délicat blend de whiskey de grain (75 %) et de malt (25 %) mûri en fûts de bourbon, avec un léger arôme d'agrumes et de poivre moulu. Un whisky doux et équilibré, la saveur est celle du malt, d'une douceur persistante, d'agrumes, de pomme et de muscade. GOÛT Malt, légers agrumes, poivre moulu. ARÔME Malt, douceur persistante, agrumes, pomme et muscade. Contient 40 % de degré d'alcool.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QEFnVKe-l9k",
+          "label": "West Cork Bourbon Cask Finish Review (Happy Día de Muertos!)",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=G54b9yJkgWY",
+          "label": "West Cork Bourbon Cask Blended Irish Whiskey On The Rocks!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aIBm9Y-rkcE",
+          "label": "West Cork Bourbon Cask Blended Irish Whiskey!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4K7-g6qgsSk",
+          "label": "West Cork Black Cask Whiskey Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=x80YiN_X3bU",
+          "label": "ウエストコークの入門編ブレンディッド バーボンカスク を飲んでみました 噂にたがわぬコスパの良さ これは良いアイリッシュですね【ウイスキー】【テイスティング】【レビュー】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lucbmuXbiUo",
+          "label": "ウエストコーク　ハイボール　からの　マグロ山かけ　バーボンカスクのウィスキー！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JcozTYeftBU",
+          "label": "ウィスキー　ウエストコーク　バーボンカスク　からの　河豚のタタキ　アイリッシュすごい！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gbDGC4xdAUQ",
+          "label": "ウエストコーク　バーボンカスク　ハイボール　からの　赤貝　次買う？　な　ウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -11939,7 +13069,36 @@
       "distillery_id": "west-cork",
       "name_fr": "West Cork Peat Cask",
       "description_fr": "Présentation de 700 ml. Teneur en alcool : 43 % Ce whiskey irlandais de triple distillation mûrit en fûts de xérès puis se termine en fûts carbonisés à la tourbe pendant encore 4 à 6 mois. La tourbe est extraite des tourbières locales de Glengarriff. GOÛT Fumée, et légèrement doux. ARÔME Légèrement doux, fruits secs.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oNWO4hCjfXk",
+          "label": "West Cork Peat Charred Cask Irish Whiskey",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Qq5LRKjYElE",
+          "label": "Whisky Review/Tasting: West Cork Peat Charred Cask",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GfNHUP9GEFI",
+          "label": "West Cork Single Malt Glengarriff Series (Peat Charred Cask) Irish Whiskey Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GMjRtUedrbw",
+          "label": "West Cork Irish Whiskey, Peat Charred Cask, Review.",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -11967,7 +13126,36 @@
       "distillery_id": "west-cork",
       "name_fr": "West Cork Port",
       "description_fr": "Présentation de 700 ml. Teneur en alcool : 43 % Whiskey irlandais de malt mûri patiemment en ex-fûts de Bourbon de premier remplissage et fini en fûts de porto Quinta Da Boeira. Sans filtration à froid ni colorant ajouté. GOÛT La finale de la barrique de porto est la plus douce des offrandes, avec l'arôme du fruit sec pénétrant. ARÔME Fruits secs avec des notes épicées de muscade et de poivre noir. Vanille et toffee également présentes.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KQ4hCpeu0Uk",
+          "label": "West Cork Port Cask Finished Single Malt Irish Whiskey Review #368 from WhiskyJason",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wa4HJQwFp5w",
+          "label": "Whisky Review/Tasting: West Cork Port 12 Years",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1kkavD58Z6k",
+          "label": "West Cork Port Cask Finish - Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=deyiLi8IcLw",
+          "label": "West Cork - Irish Single Malt Whiskey - Port Finish 43 % Vol.",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -11995,7 +13183,50 @@
       "distillery_id": "west-cork",
       "name_fr": "West Cork Sherry",
       "description_fr": "Présentation de 700 ml. Teneur en alcool : 43 % Whiskey irlandais single malt mûri patiemment en ex-fûts de bourbon de premier remplissage et fini en fûts de xérès des Bodegas Baron. Sans filtration à froid ni colorant ajouté. GOÛT Doux au début mais finit ensuite sec avec un peu de piquant présent. ARÔME Notes de pruneaux, de figue, de xérès et de vanille.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zqvLBHUPFL4",
+          "label": "🥃 TASTING 52: West Cork Sherry Cask Finished Single Malt Irish Whiskey",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=98efTwo3pXo",
+          "label": "Whiskey Review/Tasting: West Cork Sherry 12 Years",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3Mwmx-JB09w",
+          "label": "West Cork Sherry Cask Finished Single Malt Irish Whiskey Review #369 from WhiskyJason",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9tvFca3EayY",
+          "label": "West Cork 12 Year Old Sherry Cask Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y9V7pCjoj-g",
+          "label": "【ウエストコークシェリーカスク】コスパ抜群のアイリッシュウイスキー飲みました。夏を乗り切る美味しいハイボールなるか？",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i8MGSc8IhFE",
+          "label": "【飲み比べ】ウエストコークラムカスクとシェリーカスクハイボールに合うのはどっち？ウイスキー初心者の正直レビュー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -12129,7 +13360,71 @@
       "distillery_id": "wolfburn",
       "name_fr": "Wolfburn Aurora",
       "description_fr": "Ce magnifique whisky au xérès est élaboré à partir d'un spiritueux stocké dans une combinaison de fûts de bourbon et de xérès oloroso. Le spiritueux, qui bénéficie d'une fermentation prolongée et d'une distillation lente et douce, est stocké dans nos entrepôts construits spécialement à cet effet. À la fin du processus de maturation, les fûts sont mariés pour créer un dram exceptionnellement doux et parfaitement équilibré. ABV : 46 % Nez : La douceur du xérès est suivie d'arômes d'herbe fraîchement coupée et de fruits d'automne, avec juste une touche de café et de chocolat noir. Bouche : Les tons floraux prédominent, avec des nuances d'épices et de vanille. Une douceur fruitée enveloppe le palais, avec des saveurs de fruits et de noix qui donnent lieu à une finale chaleureuse et douce.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RN9Dg29R7tk",
+          "label": "Whisky Review/Tasting: Wolfburn Aurora",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QCzZ1qRNAUc",
+          "label": "Malt Box Whisky Review 148 - Wolfburn Aurora",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kdC83OZmvaA",
+          "label": "Wolfburn Aurora: Whisky Review #29 Tasting & Food Pairing",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=haiH7n3QdxE",
+          "label": "Wolfburn Aurora - Highland Single Malt Scotch Whisky Review #142",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Aw6XtWzSNiQ",
+          "label": "Review Wolfburn Aurora",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ntHyqxbalpQ",
+          "label": "「ウルフバーン オーロラ 46％」M'sテイスティングレビュー Vol.2-2",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=p9LCXz2038M",
+          "label": "北ハイランドにある2012年創業の新しい蒸留所からウルフバーンオーロラ3年を飲んでみました、若いながらもしっかりとした味わい【ウイスキー】【テイスティング】【レビュー】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=46cw910vDiU",
+          "label": "【ウイスキー】　ウルフバーン　オーロラ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3ZocItzyXj0",
+          "label": "【ウイスキー】ウルフバーン オーロラ【お酒紹介】【紅焔ネロVtuber】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -12157,7 +13452,50 @@
       "distillery_id": "wolfburn",
       "name_fr": "Wolfburn Langskip",
       "description_fr": "Langskip est un whisky doux, équilibré et très facile à boire, dont la force n'a d'égale que sa douceur. Mûri intégralement en fûts de bourbon de premier remplissage, ce whisky possède une richesse unique et une profondeur de saveur extraordinaire. ABV : 58 % Nez : Des arômes de fleurs de fruitiers se combinent avec des pommes séchées et un chêne léger. En arrière-plan, vous trouverez des traces de raisins secs et de dattes mêlées à un riche gâteau aux fruits. Bouche : Les saveurs font irruption sur le palais, riches et douces, comprenant sirop d'érable, chocolat noir, amandes et raisins secs. La finale perdure agréablement : les touches de vanille s'estompent doucement avec une traînée chaude de caramel en fin de bouche.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=erlwB7IfgZY",
+          "label": "Wolfburn Langskip | Whisky Review with Mark Westmorland",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gSgO6Vjmtx4",
+          "label": "Wolfburn Langskip Cask Strength Scotch Single Malt Whisky Review | Whisky Whistle 771",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OCzCndZMz5E",
+          "label": "Wolfburn Langskip | No Nonsense Whisky #316",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=x05NLlBVRco",
+          "label": "Wolfburn Langskip Scotch Whisky Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UvMMqP7vjR4",
+          "label": "Whisky Review: ESPECIAL de Natal. 05/12 WOLFBURN Langskip.",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=r965jWQdzbI",
+          "label": "「ラングスキップ 58%」M'sテイスティングレビュー Vol.2-4",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -12185,7 +13523,43 @@
       "distillery_id": "wolfburn",
       "name_fr": "Wolfburn Morven",
       "description_fr": "Ce whisky légèrement fumé est élaboré à partir d'orge maltée infusée de fumée pendant le processus de séchage. C'est le reflet de l'histoire : la distillerie originale du XIXe siècle était principalement chauffée à la tourbe. À la distillation douce succède la maturation dans nos entrepôts construits spécialement à cet effet. Le résultat est un whisky merveilleusement doux et rond. ABV : 46 % Nez : Initialement fumé avec des notes de fruit et d'air frais de la mer, accompagnées de vanille et de copeaux de bois de chêne. Bouche : Les notes florales abondent, suivies de raisins secs et d'épices légères. Les saveurs maltées s'ouvrent sur le palais, avec une douce sucrosité de miel en finale.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y094ySoqvp0",
+          "label": "Wolfburn Morven | Whisky Review with Mark Westmorland",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dT4OIhVDGOg",
+          "label": "🥃 Wolfburn Morven - Highland Single Malt Scotch Whisky Review #154",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VPz-3RLve44",
+          "label": "Wolfburn Morven: Whisky Review #30 Tasting & Food Pairing",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=H-8HoTyWijc",
+          "label": "Wolfburn Morven Lightly Peated Highland Single Malt Scotch Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=A6h0QRQufIk",
+          "label": "「ウルフバーン モーヴェン 46%」M'sテイスティングレビュー Vol.2-3",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -12213,7 +13587,57 @@
       "distillery_id": "wolfburn",
       "name_fr": "Wolfburn Northland",
       "description_fr": "Les saveurs douces et chaudes présentes dans Northland proviennent de la manière posée dont le spiritueux est élaboré et de la maturation, qui se déroule en fûts de chêne américain d'un quart de gallon. Mûri et embouteillé sur place, Northland représente le premier chapitre de l'histoire de Wolfburn. ABV : 46 % Nez : Initialement doux avec des notes de fruit et d'air frais de la mer. En arrière-plan, vous trouverez de la fraîcheur acidulée et des touches de céréale, et seulement une trace de fumée de tourbe. Bouche : Les tons doux et noisetés prédominent, avec des notes de raisin et de miel en arrière-plan. Les saveurs florales abondent, rehaussées d'une touche de fruits secs et d'épices.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dpbd5p5TQRs",
+          "label": "Wolfburn Northland review #154 with The Whiskey Novice",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PMcDhWcADmQ",
+          "label": "Wolfburn Northland Single Malt Scotch Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4CAsqlat_XQ",
+          "label": "Wolfburn Northland - Whisky Review 158",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FEPt0kpP8Ls",
+          "label": "WOLFBURN NORTHLAND",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SlRVXe_PnoU",
+          "label": "ウルフバーン ノースランド（ストレート）",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PBZxRQOeOoM",
+          "label": "【ゆっくり紹介】ウルフバーン・ノースランド",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gFZXHb4yD6M",
+          "label": "「ウルフバーン ノースランド 46％」M'sテイスティングレビュー Vol.2-1",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -12241,7 +13665,113 @@
       "distillery_id": "famous-grouse",
       "name_fr": "The Famous Grouse",
       "description_fr": "The Famous Grouse est le whisky blended écossais le plus vendu d'Écosse, élaboré à partir d'une sélection des meilleurs malts et whiskies de grain. Notes de fruits confits, de beurre et de sablés au beurre au nez, avec des fruits secs, de douces épices et une touche de chêne au palais. Un whisky doux et équilibré avec une finale nette et sèche. ABV : 40 % Nez : Fruits confits, sablés au beurre et zeste d'agrumes. Bouche : Fruits secs, douces épices (cannelle et gingembre) et une touche de chêne. Finale : Douce et bien équilibrée.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u4M5-xWA3G4",
+          "label": "The Famous Grouse (Should you be buying better?) | No Nonsense Whisky #143",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VmPJpCfR6f8",
+          "label": "The Famous Grouse Blended Scotch Review - Scotland's Most Popular Whisky is This Budget Blend",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Vr4UvQsRIcY",
+          "label": "The Famous Grouse: The Single Malt Review Episode 178",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ba4kmWjLoPc",
+          "label": "The Famous Grouse Blended Scotch Whisky Review!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9oAPLo6oN3o",
+          "label": "The Famous Grouse: Historia y Cata (#175)",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=so_ceqh7f6A",
+          "label": "Cata y Reseña: The Famous Grouse",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qkOx-6qx5-8",
+          "label": "The Famous Grouse. Por fin, el gran Ganador de nuestra cata a ciegas de Blended económicos #cap. 38",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OKMb4xlRFL8",
+          "label": "Whisky bueno y barato - The Famous Grouse",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rK5EIBYU3wY",
+          "label": "Famous Grouse 2020",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3OFxtDSx5v0",
+          "label": "Tierri #023: AVALIAÇÃO WHISKY THE FAMOUS GROUSE - Review - Brasil!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lFU3z6drcW4",
+          "label": "WHISKY REVIEW! Degustação do whisky THE FAMOUS GROUSE, vale realmente a pena?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GaokSR91bfo",
+          "label": "🔰ウイスキー高騰の今こそ飲んで欲しいフェイマスグラウス！解説＆飲み比べ  [イギリスNo.1スコッチ]",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=efsfJw37YXM",
+          "label": "【ウイスキーレビュー】前から気になっていたスコッチ・フェイマスグラウスを呑んでみた🤤👌驚愕の旨さに大満足😋👍Drink Scotch Famous Grouse.　酒動画",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=40YDGKkOUgg",
+          "label": "【ウイスキー】個性がないのもまた個性！フェイマスグラウス（リクエストボトル）",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oa_m1xUT2-8",
+          "label": "話題のフェイマスグラウス！7種類飲み比べてみた！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -12269,7 +13799,78 @@
       "distillery_id": "bushmills",
       "name_fr": "Bushmills Original",
       "description_fr": "Bushmills Original est le whiskey irlandais phare de la plus ancienne distillerie sous licence du monde, fondée en 1608. Triple distillé pour une douceur exceptionnelle, il offre des notes de miel, de vanille et de chêne grillé dans un whisky polyvalent et accessible. ABV : 40 % Nez : Fruit léger et épices, avec des notes de vanille et de miel. Bouche : Doux et chaleureux, avec une texture veloutée et une touche de douceur de miel. Finale : Fraîche et croquante, avec une touche d'épices.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T3hsUZum_l8",
+          "label": "Bushmills Original Irish Whiskey Review (no... really)",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=amwxnJR_gco",
+          "label": "Whisky Review/Tasting: Bushmills Original",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4Jl2It8lVTM",
+          "label": "whisky review 120 - Bushmills Original",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4pN-bXAHgsA",
+          "label": "Bushmills Original Irish Whisky Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SOfsbYEp-g4",
+          "label": "Reseña del Bushmills Original",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dlNnyP40lHM",
+          "label": "Probemos Bushmills Etiqueta Blanca - Whiskey Irlandés",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wWA16TqUVjA",
+          "label": "安ウイスキーを彷徨う ブッシュミルズ ジ・オリジナル（ホワイトブッシュ） アイリッシュの飲みやすさがおいしい一本ですね【ウイスキー】【レビュー】【テイスティング】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iGQv5-0Iuu4",
+          "label": "世界最古の蒸留所が送り出す スーパー飲みやすいブレンディッドウイスキー　ブッシュミルズ ジ・オリジナル モルト含有率50％なれど3回蒸留のすっきり感【ウイスキー】【テイスティング】【レビュー】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=geWL_Su8sys",
+          "label": "【大好きアイリッシュ】ホワイトブッシュ初飲み！ブラックブッシュと比較してみた！！",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2AgRZu4mWeY",
+          "label": "安い！！家飲みオススメウイスキー！BUSHMILLS THE ORIGINAL",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -12297,7 +13898,134 @@
       "distillery_id": "woodford-reserve",
       "name_fr": "Woodford Reserve",
       "description_fr": "Woodford Reserve est un bourbon Kentucky straight de petite production, distillé dans la plus ancienne distillerie du Kentucky, fondée en 1812. Avec plus de 200 notes de saveur détectables, il offre des arômes de fruits secs, de menthe et de cacao, avec un palais riche de toffee, de caramel, de chocolat et d'épices. Un bourbon équilibré et élégant. ABV : 45,2 % Nez : Fruits secs, menthe, oranges enrobées de cacao, vanille et épices de tabac. Bouche : Riche, rond et doux, avec des agrumes complexes, de la cannelle et du cacao. Toffee, caramel, chocolat et épices. Finale : Veloutée, presque crémeuse au début avec une longue et chaude traîne.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fDidnax1tcc",
+          "label": "Sip It or Skip It: Woodford Reserve",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0x7xGoiiWAM",
+          "label": "Woodford Reserve | No Nonsense Whisky #230",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6lgKOcDtesg",
+          "label": "Woodford Reserve Straight Bourbon Whiskey Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7Qc-t1FdZIc",
+          "label": "Is Woodford Reserve Bourbon Worth Buying In 2023? | Classics Revisited",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YXPRoDWslmg",
+          "label": "WOODFORD RESERVE: Comparo 2 ediciones del Distiller's Select y otra de BONUS 😱 | Tito Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=00hs_3tajAY",
+          "label": "Conoce Woodford Reserve - Distiller´s Select [Whisky Calendario Día 3 Kentucky Straight Bourbon]",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9ynl67_ALmg",
+          "label": "Notas de cata para el Woodford Reserve- Bourbon",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Sah9BHSJBSw",
+          "label": "¡ Hay vida más allá de Jack Daniels ! Cata Woodford Reserve",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kEEi1N6FAyY",
+          "label": "Whisky Review | Woodford Reserve Distiller's Select (Português - BR)",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TcB1KGG3u6Q",
+          "label": "BOURBON WHISKEY WOODFORD RESERVE VALE A PENA?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ITqa-giLb2w",
+          "label": "WHISKY REVIEW - ELE BATE DE FRENTE COM OS GRANDES!?  WOODFORD RESERVE",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yvMmhwoheWw",
+          "label": "Degustando 045: Whisky Review Woodford Reserve",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e47nCq5tkV8",
+          "label": "【レビュー】3回蒸留の唯一無二なバーボン！『ウッドフォードリザーブ』を公園でレビュー！｜ウイスキーラウンドアップ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FMsKpHc6T7Y",
+          "label": "【ウッドフォードリザーブは、どんなバーボンウイスキー？💦】ウイスキー超特化バーテンダーがわかりやすく解説😄【2年でウイスキーの辞書を作ろう❗】【ウイスキー辞典】",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qZ7EvN6ZyU8",
+          "label": "バーボン初心者に超おすすめ！上品で滑らかなウッドフォードリザーブ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RSnPoF0TXZg",
+          "label": "【ウッドフォードリザーブ】ジムビームと何が違う？“格上バーボン”の実力",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Mg5vcdg0vgs",
+          "label": "Woodford Reserve - DISTILLER'S Select : dégustation et analyse de ce whisky !",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=di_UXi37iUE",
+          "label": "LA CHAÎNE DU WHISKY - Episode 28 : Woodford Reserve Distiller's Select",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -13489,7 +15217,43 @@
       "distillery_id": "indri",
       "name_fr": "Indri-Trini",
       "description_fr": "Présentation de 700 ml. Le premier single malt indien élevé en trois types de fûts : ex-bourbon, vin français et PX sherry. Meilleur du Show aux Whiskies of the World 2023. Fruit tropical enveloppé de miel et de raisins secs. Volume : 70cl ABV : 46% Profil de saveur Le nez Ananas caramélisé, thé noir, vanille et cerise douce. En bouche Pêche, mangue, noisette et chêne épicé. Notes de finale Moyenne-longue, chaude et nette.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gAsMx35a3s4",
+          "label": "Indri Trini Indian Single Malt - Whisky Review 265",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pNTWHxC-tuM",
+          "label": "Indri Trini Indian Single Malt Whisky Tasting/Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RjpBB9Zzr_w",
+          "label": "Indri Trini – The Three Wood | Whisky Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UatTDb569OU",
+          "label": "Indri Trini - The Three Wood, Indian Single Malt Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EJnGOrXpBk4",
+          "label": "聴くウイスキー #179 - [インドリ シングルモルトウイスキー トリニ] 2025.2.21",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -23115,6 +24879,427 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=l397X8qkE7o",
           "label": "【ねこっけウィスキー】グレンロセス12年飲んでみた",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "glenrothes-whisky-makers-cut",
+      "slug": "glenrothes-whisky-makers-cut",
+      "name": "Glenrothes Whisky Maker's Cut",
+      "description": "Expresión sin declarar de la colección Soleo de Glenrothes, madurada exclusivamente en barricas de primera fills de jerez. Presenta un perfil rico y especiado con notas de vainilla cremosa, cáscara de naranja y nuez moscada, con un final dulce de chocolate y frutos secos.",
+      "image": "/data/images/glenrothes-whisky-makers-cut.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 48.8,
+      "cask": "Sherry",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "glenrothes",
+      "name_pt": "Glenrothes Whisky Maker's Cut",
+      "description_pt": "Expressão sem declaração de idade da coleção Soleo do Glenrothes, maturada exclusivamente em barricas de primeira.fill de xerez. Apresenta um perfil rico e especiado com notas de baunilha cremosa, casca de laranja e noz-moscada, com um final doce de chocolate e frutas secas.",
+      "name_en": "Glenrothes Whisky Maker's Cut",
+      "description_en": "A no-age-statement expression from Glenrothes' Soleo Collection, matured exclusively in first-fill sherry casks. It presents a rich, spicy profile with notes of creamy vanilla, orange peel and nutmeg, with a sweet finish of chocolate and dried fruit.",
+      "name_ja": "グレンロセス ウィスキー メイカーズカット",
+      "description_ja": "グレンロセスのコレクション「ソレオ」から生まれたノーエイジステートメント。初填シェリー樽のみで熟成され、クリーミーなバニラ、オレンジピール、ナツメグのノートが豊かなスパイシーなプロフィールを形成。チョコレートとドライフルーツの甘い余韻が特徴。",
+      "name_fr": "Glenrothes Whisky Maker's Cut",
+      "description_fr": "Expression sans âge de la collection Soleo de Glenrothes, mature exclusivement en fûts de sherry first-fill. Elle présente un profil riche et épicé avec des notes de vanille crémeuse, d'écorce d'orange et de noix de muscade, avec une finale sucrée de chocolat et de fruits secs.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I5oiLGZIMCs",
+          "label": "Malt Muser — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=62_qHarX9xU",
+          "label": "Whisky.com — tasting",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bJifIYpRA5A",
+          "label": "Whisky Riffs — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EYAoMRFDL00",
+          "label": "boozedancing — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Lvz7AHR7GJY",
+          "label": "Whisky o Muerte — cata",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-kAjjAJd3os",
+          "label": "WHISKY BUBU — cata",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "mortlach-12-yo-wee-witchie",
+      "slug": "mortlach-12-yo-wee-witchie",
+      "name": "Mortlach 12 YO Wee Witchie",
+      "description": "Homenaje al still más pequeño y esencial de Mortlach, el 'Wee Witchie'. Este single malt de 12 años se ha madurado en una combinación de roble europeo y americano para realzar el carácter distintivamente robusto y carnoso que hace legendarios a los whiskies de Mortlach.",
+      "image": "/data/images/mortlach-12-yo-wee-witchie.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 43.4,
+      "cask": "Mixed",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "mortlach",
+      "name_pt": "Mortlach 12 YO Wee Witchie",
+      "description_pt": "Homenagem ao still mais pequeno e essencial de Mortlach, o 'Wee Witchie'. Este single malt de 12 anos foi maturado numa combinação de carvalho europeu e americano para realçar o carácter distintivamente robusto e encarniçado que torna lendários os whiskies Mortlach.",
+      "name_en": "Mortlach 12 YO Wee Witchie",
+      "description_en": "An homage to Mortlach's smallest yet most essential still, the 'Wee Witchie'. This12-year-old single malt has been matured in a combination of European and American oak to enhance the distinctively rich and robust character that makes Mortlach whiskies legendary.",
+      "name_ja": "モートラック 12年 ウィーウィッチー",
+      "description_ja": "モートラックの最小かつ最も重要な still「ウィーウィッチー」に敬意を表した12年シングルモルト。欧州樫と米州樫の組み合わせで熟成され、モートラックを伝説的なものとする力強く肉感的な特徴を引き立てています。",
+      "name_fr": "Mortlach 12 YO Wee Witchie",
+      "description_fr": "Hommage au alambic le plus petit mais essentiel de Mortlach, le 'Wee Witchie'. Ce single malt de 12 ans a été mature en combinaison de chêne européen et américain pour rehausser le caractère distinctement riche et robuste qui rend les whisky Mortlach légendaires.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Hb0V-1Qv_UE",
+          "label": "Gwhisky — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T1bQ4cBOoxA",
+          "label": "Malt Muser — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Z-x6_3fvL0o",
+          "label": "Whisky.com — tasting",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bRSlt1T2H54",
+          "label": "JasonWhiskyWise — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cMkAY9Qnf_g",
+          "label": "Cultura del Whisky — cata",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hF5id-A_CBo",
+          "label": "Amantes Del Whisky — reseña",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0aNOS7lnPp4",
+          "label": "HABLANDO DE WHISKY — cata",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J_F_1heJCRM",
+          "label": "ひとくちウイスキー — 12年vs16年",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "mortlach-16-yo-distillers-dram",
+      "slug": "mortlach-16-yo-distillers-dram",
+      "name": "Mortlach 16 YO Distiller's Dram",
+      "description": "Inspirado en la icónica primera botella de 16 años de Mortlach de 1992. Este single malt ha sido enteramente madurado en barricas de sherry para aportar notas frutales, aromáticas y profundas sobre la complejidad carnosa característica de Mortlach. Un whisky robusto y elegante.",
+      "image": "/data/images/mortlach-16-yo-distillers-dram.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 16,
+      "volume": "700 ml",
+      "abv": 43.4,
+      "cask": "Sherry",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "mortlach",
+      "name_pt": "Mortlach 16 YO Distiller's Dram",
+      "description_pt": "Inspirado na icónica primeira garrafa de 16 anos da Mortlach de 1992. Este single malt foi inteiramente maturado em barricas de xerez para conferir notas frutadas, aromáticas e profundas sobre a complexidade encarniçada característica de Mortlach. Um whisky robusto e elegante.",
+      "name_en": "Mortlach 16 YO Distiller's Dram",
+      "description_en": "Inspired by the iconic first bottling of Mortlach's 16-year-old from 1992. This single malt has been entirely matured in sherry casks to impart rich, fruity and fragrant notes atop the beasty complexity synonymous with Mortlach. A robust and elegant whisky.",
+      "name_ja": "モートラック 16年 ディスティラーズドラマ",
+      "description_ja": "1992年の象徴的な初 bottling にインスパイアされた16年シングルモルト。シェリー樽のみで熟成され、モートラックの代名詞である力強く複雑なキャラクターの上に、リッチでフルーティー、フェザラントなノートを添えています。",
+      "name_fr": "Mortlach 16 YO Distiller's Dram",
+      "description_fr": "Inspiré par l'emblématique première mise en bouteille du Mortlach 16 ans de 1992. Ce single malt a été entièrement mature en fûts de sherry pour apporter des notes riches, fruitées et fragrantes sur la complexité corsée synonyme de Mortlach. Un whisky robuste et élégant.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1iNTjhk7pW4",
+          "label": "Whisky.com — tasting",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2FF2B62U7nU",
+          "label": "Gwhisky — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ovlvcylNXIQ",
+          "label": "JasonWhiskyWise — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=E9fmYSgPKW8",
+          "label": "Whisky Neighbour — comparison",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2pdktNFnL_U",
+          "label": "El Whisky Bar — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8rcuvdB6G5E",
+          "label": "whisky-doc — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PiUz8fss8wM",
+          "label": "宅飲みバーTakeo — レビュー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7EDPjikKXlU",
+          "label": "Harry Tsai — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "craigellachie-13-yo",
+      "slug": "craigellachie-13-yo",
+      "name": "Craigellachie 13 YO",
+      "name_es": "Craigellachie 13 Anos",
+      "name_pt": "Craigellachie 13 Anos",
+      "name_en": "Craigellachie 13 Year Old",
+      "name_ja": "クライゲラキ 13年",
+      "description": "Craigellachie 13 años es un single malt de Speyside destilado en alambiques con worm tub condensers que le confieren un carácter único, robusto y carnoso con notas de piña, mandarina, miel de brezo, cera de abejas y un toque de sulfuro que lo hace inconfundible. Sin filtrar en frío, sin colorantes artificiales, embotellado a 46% ABV.",
+      "description_en": "Craigellachie 13 Year Old is a Speyside single malt distilled in stills with worm tub condensers, giving it a unique, robust and meaty character with notes of pineapple, tangerine, heather honey, beeswax and a touch of sulphur that makes it unmistakable. Non-chill filtered, no artificial colouring, bottled at 46% ABV.",
+      "description_pt": "Craigellachie 13 Anos é um single malt de Speyside destilado em alambiques com worm tub condensers que lhe conferem um carácter único, robusto e encarniçado com notas de abacaxi, tangerina, mel de urze, cera de abelha e um toque de enxofre que o torna inconfundível. Sem filtração a frio, sem corantes artificiais, engarrafado a 46% ABV.",
+      "description_ja": "クライゲラキ13年は、ワーム tub コンデンサー付きのスチルで蒸留されたスペイサイド・シングルモルト。パイナップル、タンジェリン、ヒーザーハニー、ビーズワックスと、他の蒸留所と異なる特徴となるショウイング・ガスのトープが特徴。フィルタリングなし、着色なし、46%ABVでエボトルされています。",
+      "description_fr": "Craigellachie 13 ans est un single malt de Speyside distillé dans des alambics équipés de worm tub condensers qui lui confèrent un caractère unique, robuste et corsé, avec des notes d’ananas, de mandarine, de miel de bruyère, de cire d’abeille et une pointe de soufre qui le rendent inimitable. Non filtré à froid, sans colorants artificiels, embouteillé à 46% vol.",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 13,
+      "volume": "700 ml",
+      "abv": 46.0,
+      "cask": "Ex-bourbon & ex-sherry",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "craigellachie",
+      "image": "/data/images/craigellachie-13-yo.webp",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sIiOrt3OOeQ",
+          "label": "Whiskey is a Journey — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WPQqGe7GuIQ",
+          "label": "Los Whiskochos — cata",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KTT6OVwzzmg",
+          "label": "Whisky Capital | Gustavo Araujo — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lV9Ck8Sr7J8",
+          "label": "宅飲みバーTakeo — レビュー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5eiS17Ejuvw",
+          "label": "Le Whisky Brunch — dégustation",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "craigellachie-17-yo",
+      "slug": "craigellachie-17-yo",
+      "name": "Craigellachie 17 YO",
+      "name_es": "Craigellachie 17 Anos",
+      "name_pt": "Craigellachie 17 Anos",
+      "name_en": "Craigellachie 17 Year Old",
+      "name_ja": "クライゲラキ 17年",
+      "description": "Craigellachie 17 años es un single malt de Speyside con una maduración inicial en ex-bourbon y ex-sherry, con aproximadamente el 50% terminado en primera fills de jerez y el resto en primera fills de bourbon. Notas de frutas exóticas ricas, sedosas y un carácter musculoso. Sin filtrar en frío, sin colorantes, embotellado a 46% ABV.",
+      "description_en": "Craigellachie 17 Year Old is a Speyside single malt with initial ex-bourbon and ex-sherry maturation, with around 50% finished in first-fill sherry and the rest in first-fill bourbon. Notes of rich, silky exotic fruit and a muscular character. Non-chill filtered, no colouring, bottled at 46% ABV.",
+      "description_pt": "Craigellachie 17 Anos é um single malt de Speyside com maturação inicial em ex-bourbon e ex-xerez, com cerca de 50% terminado em first-fill de xerez e o restante em first-fill de bourbon. Notas de frutas exóticas ricas, sedosas e um carácter musculoso. Sem filtração a frio, sem corantes, engarrafado a 46% ABV.",
+      "description_ja": "クライゲラキ17年は、初期のエクス・ボーボンとエクス・シェリー熟成から、約50%がファーストフィル・シェリー、残りがファーストフィル・ボーボンで仕上げられたスペイサイド・シングルモルト。豊かなシルキーな熱帯フルーツとマスキュラーなキャラクター。フィルタリングなし、着色なし、46%ABVでエボトルされています。",
+      "description_fr": "Craigellachie 17 ans est un single malt de Speyside avec une maturation initiale en ex-bourbon et ex-sherry, avec environ 50% terminé en first-fill sherry et le reste en first-fill bourbon. Notes de fruits exotiques riches, soyeux et un caractère musculeux. Non filtré à froid, sans colorants, embouteillé à 46% vol.",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 17,
+      "volume": "700 ml",
+      "abv": 46.0,
+      "cask": "Ex-bourbon & ex-sherry",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "craigellachie",
+      "image": "/data/images/craigellachie-17-yo.webp",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rA1BXW-_rjI",
+          "label": "Gwhisky — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GFlveDgqXQ0",
+          "label": "Whisky.com — tasting",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=19_NgAa--r0",
+          "label": "Whiskey Novice — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_QRNXWsf1Hg",
+          "label": "Moa Nilsson — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5x0wDzLhwdA",
+          "label": "Whisky Capital | Gustavo Araujo — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "cragganmore-12-yo",
+      "slug": "cragganmore-12-yo",
+      "name": "Cragganmore 12 YO",
+      "name_es": "Cragganmore 12 Anos",
+      "name_pt": "Cragganmore 12 Anos",
+      "name_en": "Cragganmore 12 Year Old",
+      "name_ja": "クレイガンモア 12年",
+      "description": "Cragganmore 12 años es el single malt insignia de esta distilería Speyside, considerada la más compleja de la región. Con sus alambiques de top plano únicos, produce un whisky con notas florales, miel, manzana verde, toronja y un toque ahumado. Embotellado a 40% ABV.",
+      "description_en": "Cragganmore 12 Year Old is the flagship single malt from this Speyside distillery, considered the most complex in the region. With its unique flat-topped stills, it produces a whisky with floral notes, honey, green apple, grapefruit and a touch of smoke. Bottled at 40% ABV.",
+      "description_pt": "Cragganmore 12 Anos é o single malt emblemático desta destilaria Speyside, considerada a mais complexa da região. Com os seus alambiques de topo plano únicos, produz um whisky com notas florais, mel, maçã verde, toranja e um toque defumado. Engarrafado a 40% ABV.",
+      "description_ja": "クレイガンモア12年は、スペイサイドで最も複雑と言われる蒸留所のイングリュ・シングルモルト。フラットトップ型のスチルで、花のノート、ハニー、青りんご、グレープフルーツと軽い煙のトープが特徴のイングリュ・フィングル・モルト。40%ABVでエボトルされています。",
+      "description_fr": "Cragganmore 12 ans est le single malt emblématique de cette distillerie du Speyside, considérée comme la plus complexe de la région. Avec ses alambics uniques à plat, elle produit un whisky aux notes florales, de miel, de pomme verte, de pamplemousse et une pointe de fumée. Embouteillé à 40% vol.",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40.0,
+      "cask": "Ex-bourbon",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "cragganmore",
+      "image": "/data/images/cragganmore-12-yo.webp",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GJmOuW_ebP0",
+          "label": "Whiskey Novice — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1dAhmLAqlcg",
+          "label": "Los Whiskochos — cata",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZUiVxMhQiNI",
+          "label": "Whisky Capital | Gustavo Araujo — review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Vfz9xsGWxDc",
+          "label": "ウイスキーサークル とーふ — レビュー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7OTQWJgdgZ4",
+          "label": "Gwhisky — dégustation",
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]

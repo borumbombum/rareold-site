@@ -1,5 +1,32 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-01 — Batch of 3 whiskies (Glenrothes Maker's Cut, Mortlach 12 + 16)
+
+- **Videos land in `data/export`'s `influencer_videos.json`, not embedded on the product.** After `data:export`, the exported `whiskies.json` shows `influencer_videos: []` or `videos: []` on each product — the actual rows live in the flat `src/lib/data/influencer_videos.json` keyed by `product_id`. Verify video counts there, not on the whisky object (`v = v.filter(x => x.product_id === slug)`).
+- **Whisky Shop (whiskyshop.com) media CDN is a valid image fallback**: `https://www.whiskyshop.com/media/catalog/product/m/o/mortlach_16yo_ps.png?width=2500&store=whiskyshop&image-type=image` downloaded and converted cleanly. Add to the fallback ladder alongside HTFW and official Shopify CDNs.
+- Mortlach distillery created complete (founded 1823, Diageo, Dufftown 57.443/-3.122) so both Mortlach products share one distillery record; coordinates present so it renders on the `/map` page.
+
+## 2026-09-01 — "Sauvignon Blanc Cask" == "White Wine Cask Edition" for Tamnavulin
+
+- Tamnavulin's Sauvignon Blanc release is the **Sauvignon Blanc Cask Edition**, sold earlier under the
+  same expression name **"White Wine Cask Edition"** — they are the same whisky. English reviews titled
+  "White Wine Cask Edition" / "White Wine Cask Finish" are exact matches for the Sauvignon Blanc slot and
+  usable for `en` (Whisky.com, Whisky Lock 163, Whiskey Straight Al, Short Pours all verified 200).
+- Non-English (es/pt/ja/fr) exact-expression reviews don't exist for this bottling. Every non-en source
+  returns either English/German/Dutch/Polish channels, or **Sauvignon Blanc wine** (grape) tasting/
+  education videos that are irrelevant, or same-brand Double Cask/Sherry/Red Wine — so those slots must
+  stay empty. There is no genuine foreign-language review of the Sauvignon Blanc Cask edition.
+- PITFALL reconfirmed: YouTube shows **auto-localized Japanese titles** on English channels (Whisky Lock,
+  Short Pours) in ja result sets — those are translation artifacts, not Japanese-narrated videos. Verify
+  the *channel* before trusting a title for language determination.
+
+- Royal Salute 30 Key To The Kingdom and Royal Salute 62 Gun Salute (and similar ultra-premium/one-off
+  collector bottlings) return, across every search source and language, only short official promos
+  (~16–31s brand spots) and retailer/product ads — no independent review/tasting of the exact expression.
+- Per the exact-whisky rule these are excluded, so such products ship with **empty** `influencer_videos`
+  (runtime English top-up can't help either, since English has none). This is the correct honest outcome.
+- Mainstream expressions (e.g. The Glenrothes 12) fill fully across languages by contrast.
+
 ## 2026-08-28 — Hotlinkable bottle image sourcing: whiskybase static CDN is IP-blocked here
 
 - `https://static.whiskybase.com/storage/whiskies/<...>-big.jpg` returns **403 from this environment**
@@ -201,3 +228,21 @@
 - **Dev server in-memory cache gotcha:** `getInfluencerVideos` uses a per-process `Map` cache (`src/lib/server/cache.ts`) with a 300s TTL. After removing rows and re-exporting, the still-running dev server served STALE non-English videos for routes already hit (the `/es/` route showed the old RS21 videos while `/whisky/...` showed correct ones). Fix: restart the dev server to clear the in-process cache. Production is immune (fresh process per deploy).
 - **kill/vite hang:** `pkill -f "vite dev"` can match and kill the calling shell wrapper, hanging the session. Use `ss -tlnp` to check the port and target the specific PID, or restart detached with `setsid nohup npm run dev -- --host &` and a bounded timeout.
 - Royal Salute final state: Signature Blend (21) keeps full es/pt/ja/fr (all exact 21); Peated and 25 YO are English-only in the DB (only exact-expression videos exist in English) — the runtime English top-up fills those slots across all languages.
+
+## 2026-09-01 — Fettercairn 12 backfill: medium brand = rich English, thin foreign
+
+- Native YouTube + Invidious both searched across es/pt/en/ja/fr. Fettercairn 12 has abundant genuine English reviews (Whiskey Novice, Whisky.com, The Grail, Good Juice, Malt Box, WhiskyJason, Whisky Wars, LetstalkWhisky, etc.).
+- **Portuguese is genuinely covered** (unexpected for a smaller Highland distillery): Porção dos Anjos Whisky (BR review) and Whisky Justificado / EP121 (BR podcast, "Fettercairn 12 anos" exact). Verified 200 by oEmbed.
+- **French is thin:** the only genuine exact-expression French review is a podcast, Eau-de-Vie "Portrait chinois d'un spiritueux - Fettercairn 12 ans" (13:28). The rest (La Maison du Whisky "Fettercairn 12 Ans – Le Monde des Whiskies") is a brand/retailer channel → excluded per rules.
+- **Japanese is thin:** only ひとくちウイスキー "フェッターケアン12年（ストレート）" (2:14) is exact-expression. It's a "straight-pour" tasting channel; short but not a Short (>1:00), included as the only genuine ja match.
+- **Spanish is genuinely dry:** no dedicated Spanish-language Fettercairn 12 review exists. The English channels (Good Juice, The Grail) auto-translate their titles into Spanish ("Reseña del Fettercairn de 12 años") but oEmbed confirms they're English — Spanish channels (El Whisky Bar 22yr, Los Whiskochos Fior) only cover other expressions.
+
+- Hankey Bannister (entry Original blend): same-brand 12/25 fallback rarely needed because the entry blend has genuine coverage in en/pt/es/ja. French is dry — no genuine French review channel covers Hankey Bannister (native+Invidious "dégustation/avis" returned only English/Spanish channels). Beware Invidious output: its (id,title) pairs are desynced — an ID can carry another video's title (e.g. Vg6dJKqpkPs mislabeled "Hankey Bannister Original - Review 113", GksEaGm_zlc labeled "ハンキーバニスター12年..."). Never trust Invidious title-vs-ID mapping; always resolve with yt-verify oEmbed, and drop any ja video whose canonical title doesn't explicitly name Hankey (qgaXO5P71vQ "日本再上陸" and DfxUWu1Pid4 "1000円台ウイスキー" were excluded despite being about the re-listed Japanese bottle). Brazilian pt has 4 exact Hero/Original reviews (Tierri Whisky x2, Vivian Leny Fins, Destilados Brasil).
+
+## 2026-09-01 — Batch 2: Craigellachie 13/17 + Cragganmore 12
+- Images: whisky.my CDN is a reliable fallback for bottle art (`https://whisky.my/cdn-cgi/image/width=1024,height=1024,fit=scale-down,quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/<SLUG>.webp`). The `onerror=redirect` param handles missing files. BigCommerce (`cdn11.bigcommerce.com`) also works for bottle product shots.
+- Video coverage by expression: Craigellachie 13 and Cragganmore 12 have full 5-language coverage (en/es/pt/ja/fr all genuine). Craigellachie 17 only has en + pt; es/ja/fr slots stay empty (per exact-whisky rule, English tops those up at runtime).
+- Portuguese overlap: Whisky Capital (Gustavo Araujo) covers 13, 17 and Cragganmore 12 — a recurring reliable BR source across expressions.
+- Distillery coords resolved from Wikipedia/official: Craigellachie 57.488/-3.185 (founded 1891, vibe worm-tub sulphurous), Cragganmore 57.410/-3.394 (founded 1869, flat-top stills). Both Speyside.
+- Python inline strings: never embed literal non-ASCII text with `\u` sequences inside single-quoted shell `python3 -c "..."` — the shell passes `\u` through and Python's `unicodeescape` errors on malformed sequences (e.g. "urze"). Instead write the script to a `.py` file with UTF-8 characters, or use raw `\uXXXX` escapes correctly formed (4 hex digits).
+- Pipeline confirmed: distilleries must be added to `distilleries.json` BEFORE products; `db:sync` orders them first. All 3 new products verified in flat `influencer_videos.json` (5 each), `npm run check` clean (0 errors, 25 baseline warnings).

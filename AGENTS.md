@@ -79,6 +79,7 @@ Already used in VoteButton, FavoriteButton, AuthButton, LanguageSwitcher, ShareB
 
 Current status of `tasks/` (authoritative — kept in sync with every task file `Status:` change, see Task workflow):
 
+- 063 [TODO] Video Language Flag On Product Page
 - 062 [TODO] Youtube Influencer Contact List
 - 000 [DONE] Images Webp Script
 - 001 [DONE] Json Data Turso Migration
