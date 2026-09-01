@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-01T16:22:01.429Z",
+  "generatedAt": "2026-09-01T21:57:39.728Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -6957,6 +6957,178 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=mvi-L8rNBO4",
           "label": "Sanson Single Malt — Review detalhado Caol Ila 18 Anos"
+        }
+      ]
+    },
+    {
+      "id": "cardhu-12-yo",
+      "slug": "cardhu-12-yo",
+      "name": "Cardhu 12 YO",
+      "distillery": {
+        "id": "cardhu",
+        "name": "Cardhu",
+        "name_es": "Cardhu",
+        "name_pt": "Cardhu",
+        "name_en": "Cardhu",
+        "name_ja": "カードゥ",
+        "name_fr": null
+      },
+      "description": "Cardhu 12 años es un single malt de Speyside de carácter suave y accesible, ideal para quienes comienzan su camino en el whisky. En nariz ofrece miel dorada, peras al vapor, piña y melón con un punto floral y herbáceo. En boca es sedoso, con plátano, toffee, vainilla y un fondo de fruta seca, cerrando con un final suave, afrutado y un sutil toque ahumado. Embotellado a 40% ABV.",
+      "image": "/data/images/cardhu-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Ex-bourbon",
+      "distillery_id": "cardhu",
+      "insertion_order": 258,
+      "featured": false,
+      "name_pt": "Cardhu 12 Anos",
+      "description_pt": "Cardhu 12 Anos é um single malt de Speyside de carácter suave e acessível, ideal para quem começa na whisky. No nariz, mel dourado, pêras cozidas, ananás e melão com um toque floral e herbal. Na boca é sedoso, com banana, caramelo, baunilha e um fundo de fruta seca, terminando suave, frutado e com um sutil toque de fumo. Engarrafado a 40% ABV.",
+      "name_en": "Cardhu 12 Year Old",
+      "description_en": "Cardhu 12 Year Old is a gentle, accessible Speyside single malt, an ideal starting point for anyone beginning their whisky journey. The nose shows golden honey, steamed pears, pineapple and melon with a floral, grassy edge. Silky on the palate with banana, toffee, vanilla and a dried-fruit richness, closing soft and fruity with a subtle hint of smoke. Bottled at 40% ABV.",
+      "name_ja": "カーデュ 12年",
+      "description_ja": "カーデュ12年は、穏やかで親しみやすいスペイサイドのシングルモルトで、ウイスキーを始める人にうってつけ。香りはゴールデンハニー、蒸し梨、パイナップル、メロンに、フローラルで草のようなニュアンス。口当たりは滑らかで、バナナ、トフィー、バニラ、ドライフルーツのコクがあり、ソフトでフルーティーなフィニッシュにほのかなスモーク。40%ABVでボトリング。",
+      "name_fr": "Cardhu 12 ans",
+      "description_fr": "Cardhu 12 ans est un single malt du Speyside doux et accessible, idéal pour débuter en whisky. Au nez, miel doré, poires vapeur, ananas et melon avec une touche florale et herbacée. En bouche, soyeux, avec banane, caramel, vanille et une richesse de fruits secs, pour une finale douce et fruitée avec une pointe de fumée. Embouteillé à 40% vol.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1mBo7iHK4ik",
+          "label": "Whisky Lovers Society — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Xg6mgjP8lbE",
+          "label": "Exploring Whiskey — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jH1GLRuvzNg",
+          "label": "Scotch Test Dummies — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uYoNyux6_Jc",
+          "label": "Whisky.com — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FRaJoo3azHE",
+          "label": "Tito Whisky — cata y reseña"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GZtE1jWXnOw",
+          "label": "Abdul Le Tavernier — explorando"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UsvBxIlbCJQ",
+          "label": "Whisky Masters — cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bngM7t-n4HI",
+          "label": "SensacionesCardhu — ritual de cata"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3mA4FXpR_xU",
+          "label": "AMB Production TV — dégustation"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AEXLqgIo77o",
+          "label": "Le Chardon — sélection de whiskies"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FTMXH4cKGhM",
+          "label": "ひとくちウイスキー — テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QnJSo40efWc",
+          "label": "宅飲みバーTakeo — レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eNrQbpYPgPU",
+          "label": "お酒の塾長 — 実況"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Er6cdcFvALM",
+          "label": "Tierri Whisky — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=k49xza5oAUE",
+          "label": "Bebendo Whisky — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uBN5g5fVYeg",
+          "label": "Destilados Brasil — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wbxuqRFlRBY",
+          "label": "WhiskyBrasil.com — review"
         }
       ]
     },
@@ -20437,6 +20609,112 @@
       "resellers_usa": []
     },
     {
+      "id": "longmorn-distillers-choice",
+      "slug": "longmorn-distillers-choice",
+      "name": "Longmorn Distiller's Choice",
+      "distillery": {
+        "id": "longmorn",
+        "name": "Longmorn",
+        "name_es": "Longmorn",
+        "name_pt": "Longmorn",
+        "name_en": "Longmorn",
+        "name_ja": "ロングモーン",
+        "name_fr": null
+      },
+      "description": "Longmorn Distiller's Choice es un single malt sin edad de Speyside, madurado en tres tipos de barrica: barricas de bourbon, hogsheads y botas de Oloroso. De nariz afrutada ofrece manzana, pera, miel y vainilla con un sutil fondo de jengibre. En boca es cremoso con malta, toffee, caramelo, naranja y un toque de chocolate, cerrando con un final largo, especiado y de roble dulce. Embotellado a 40% ABV.",
+      "image": "/data/images/longmorn-distillers-choice.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Mixed",
+      "distillery_id": "longmorn",
+      "insertion_order": 260,
+      "featured": false,
+      "name_pt": "Longmorn Distiller's Choice",
+      "description_pt": "Longmorn Distiller's Choice é um single malt sem indicação de idade de Speyside, amadurecido em três tipos de barril: barricas de bourbon, hogsheads e pipas de Oloroso. De nariz frutado, oferece maçã, pêra, mel e baunilha com um subtil fundo de gengibre. Na boca é cremoso, com malte, caramelo, toffee, laranja e um toque de chocolate, terminando com um final longo, picante e de carvalho doce. Engarrafado a 40% ABV.",
+      "name_en": "Longmorn Distiller's Choice",
+      "description_en": "Longmorn Distiller's Choice is a no-age-statement Speyside single malt, aged in three cask types: bourbon barrels, hogsheads and Oloroso sherry butts. The fruity nose shows apple, pear, honey and vanilla with a subtle ginger undertone. Creamy on the palate with malt, toffee, caramel, orange and a touch of chocolate, closing with a long, spicy, sweet-oak finish. Bottled at 40% ABV.",
+      "name_ja": "ロングモーン ディスティラーズ チョイス",
+      "description_ja": "ロングモーン ディスティラーズ チョイスは、バーボン樽、ホグスヘッド、オロロソシェリー樽の3種類の樽で熟成されたノンエイジのスペイサイド・シングルモルト。フルーティーな香りは、りんご、洋梨、ハニー、バニラにほのかなジンジャー。口当たりはクリーミーで、モルト、トフィー、キャラメル、オレンジ、チョコレートのニュアンスがあり、長くスパイシーで甘いオークのフィニッシュ。40%ABVでボトリング。",
+      "name_fr": "Longmorn Distiller's Choice",
+      "description_fr": "Longmorn Distiller's Choice est un single malt sans mention d'âge du Speyside, élevé dans trois types de fûts : fûts de bourbon, hogsheads et fûts de sherry Oloroso. Au nez fruité, pomme, poire, miel et vanille avec un fond subtil de gingembre. En bouche, crémeux, avec malt, toffee, caramel, orange et une touche de chocolat, pour une finale longue, épicée et de chêne doux. Embouteillé à 40% vol.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3tGbwxmIR58",
+          "label": "Tom's Drams — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_1_vs-Sq7OQ",
+          "label": "Whiskey Vault — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=r6aQjUsRfOA",
+          "label": "Whisky.com — tasting"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tyi2t56C8gU",
+          "label": "No Nonsense Whisky — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oPFvWlkpXRU",
+          "label": "Tito Whisky — el secreto de Speyside"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nzIKIjU41tc",
+          "label": "ひとくちウイスキー — テイスティング"
+        }
+      ]
+    },
+    {
       "id": "longrow-peated",
       "slug": "longrow-peated",
       "name": "Longrow Peated",
@@ -25767,6 +26045,154 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=j81b9hlNDbY",
           "label": "Springbank 10 Anos | Tierri Whisky (Springbank)"
+        }
+      ]
+    },
+    {
+      "id": "strathisla-12-yo",
+      "slug": "strathisla-12-yo",
+      "name": "Strathisla 12 YO",
+      "distillery": {
+        "id": "strathisla",
+        "name": "Strathisla",
+        "name_es": "Strathisla",
+        "name_pt": "Strathisla",
+        "name_en": "Strathisla",
+        "name_ja": "ストラスアイラ",
+        "name_fr": null
+      },
+      "description": "Strathisla 12 años es un single malt de Speyside de estilo clásico y acogedor, elaborado en la destilería en funcionamiento más antigua de Escocia. De nariz suave, ofrece miel de acacia, manzana, albaricoque, cera de abejas y un fondo de frutos secos. En boca es cremoso con malta, pasas con miel, toffee y un toque especiado, cerrando con un final afrutado, especiado y de mediana longitud. Embotellado a 40% ABV.",
+      "image": "/data/images/strathisla-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Mixed",
+      "distillery_id": "strathisla",
+      "insertion_order": 259,
+      "featured": false,
+      "name_pt": "Strathisla 12 Anos",
+      "description_pt": "Strathisla 12 Anos é um single malt de Speyside de estilo clássico e acolhedor, produzido na destilaria em funcionamento mais antiga da Escócia. De nariz suave, oferece mel de acácia, maçã, damasco, cera de abelha e um fundo de frutos secos. Na boca é cremoso, com malte, passas com mel, caramelo e um toque de especiarias, terminando com um final frutado, picante e de média duração. Engarrafado a 40% ABV.",
+      "name_en": "Strathisla 12 Year Old",
+      "description_en": "Strathisla 12 Year Old is a classic, welcoming Speyside single malt from Scotland's oldest operating distillery. The soft nose offers acacia honey, apple, apricot, beeswax and a nutty base. Creamy on the palate with malt, honeyed raisins, toffee and a touch of spice, closing with a fruity, spicy, medium-length finish. Bottled at 40% ABV.",
+      "name_ja": "ストラスアイラ 12年",
+      "description_ja": "ストラスアイラ12年は、スコットランド最古の操業蒸留所で造られる、クラシックで親しみやすいスペイサイドのシングルモルト。柔らかな香りに、アカシアハニー、りんご、アプリコット、蜜蝋、ナッツのニュアンス。口当たりはクリーミーで、モルト、ハニー入りレーズン、トフィー、ほのかなスパイスがあり、フルーティーでスパイシーな中程度のフィニッシュ。40%ABVでボトリング。",
+      "name_fr": "Strathisla 12 ans",
+      "description_fr": "Strathisla 12 ans est un single malt du Speyside classique et accueillant, produit dans la plus ancienne distillerie en activité d'Écosse. Au nez doux, miel d'acacia, pomme, abricot, cire d'abeille et une base de fruits secs. En bouche, crémeux, avec malt, raisins secs au miel, caramel et une pointe d'épices, pour une finale fruitée, épicée et de longueur moyenne. Embouteillé à 40% vol.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=97zN-lGlOPY",
+          "label": "thewhiskybothy — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SCFFB1nNwpw",
+          "label": "Whiskey Vault — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hEC0UEIHLIs",
+          "label": "Alison W — tasting"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jLgh-9TBXKc",
+          "label": "Ash Parmar — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=W3jXu6vwBvg",
+          "label": "Sam's Single Malt — opinión en español"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z8Oxrdn0qvU",
+          "label": "Whisky Justificado — cata"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0rq2NGMKIJQ",
+          "label": "ひろしの隠れ家 — ハイボール"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TSAsrUYHNwE",
+          "label": "小宮恒行 — 開封"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yfebEid92ak",
+          "label": "ひとくちウイスキー — テイスティング"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5dcdQNpOagA",
+          "label": "Mauricio — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=__q5h8eFIFM",
+          "label": "Mapa do Whisky — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c03A1HQ7Vls",
+          "label": "Porção dos Anjos — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gct-H4g2VP8",
+          "label": "Bebendo Whisky — review"
         }
       ]
     },

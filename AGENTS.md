@@ -79,6 +79,7 @@ Already used in VoteButton, FavoriteButton, AuthButton, LanguageSwitcher, ShareB
 
 Current status of `tasks/` (authoritative — kept in sync with every task file `Status:` change, see Task workflow):
 
+- 066 [TODO] Database And Api Plans Page
 - 065 [TODO] Api Paywall Consumer Credentials
 - 064 [TODO] Public Api Rate Limiting
 - 063 [DONE] Video Language Flag On Product Page

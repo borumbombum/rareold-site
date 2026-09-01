@@ -1,5 +1,14 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-01 — API paywall model + /database page (065/066 planning)
+
+- **Payment model for the API changed from one-time to two tiers** ($19/year yearly-billed vs $99 lifetime). When the business model shifts, the task file must be updated at plan time, not discovered mid-implementation. 065 now carries `plan` + `expires_at` columns so expiry auto-blocks yearly consumers.
+- **Payment method is still undecided (owner may accept Bitcoin/Stripe later)** — keep the out-of-band admin-gated flow from 044 and design the toggle swap-friendly rather than baking in a billing provider.
+- **Paraglide catch-all URL pattern already localizes any new static route** (`/database` → `/br/database` etc.) — only `origen`/`destileria`-style dynamic slugs need `vite.config.ts` pattern entries.
+- **`/download` is neither in the nav nor in `buildLocaleSitemap()`** — it was built without a nav link or sitemap entry. The new `/database` page must explicitly add both.
+- **"Absorb" meant full replacement, not redirect.** When the user said `/database` absorbs the db-download flow and to forget `/download`, the new page reimplements the flow; `/download` gets no redirect wiring. Don't add redirect/keep instructions the user didn't ask for.
+- **When a [DONE] task's deliverable gets superseded, add a dated Progress note, don't rewrite the history.** 044 shipped `/download`; 066 moves the purchase UI to `/database`. The 044 note records the supersession and that its API/DB machinery is reused.
+
 ## 2026-09-01 — Batch of 3 whiskies (Glenrothes Maker's Cut, Mortlach 12 + 16)
 
 - **Videos land in `data/export`'s `influencer_videos.json`, not embedded on the product.** After `data:export`, the exported `whiskies.json` shows `influencer_videos: []` or `videos: []` on each product — the actual rows live in the flat `src/lib/data/influencer_videos.json` keyed by `product_id`. Verify video counts there, not on the whisky object (`v = v.filter(x => x.product_id === slug)`).

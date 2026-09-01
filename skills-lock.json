@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "tasks": {
+      "source": "borumbombum/skills",
+      "sourceType": "github",
+      "skillPath": "skills/tasks/SKILL.md",
+      "computedHash": "8258edaef5774d513e4cee21179729b6a06cc4576d29c6a07faaf67dc7d32589"
+    },
+    "youtube-search": {
+      "source": "borumbombum/skills",
+      "sourceType": "github",
+      "skillPath": "skills/youtube-search/SKILL.md",
+      "computedHash": "beb63d1fa28e25334e42a321a3e200dd1fea73a294a3935dd73e9c115a2d0845"
+    }
+  }
+}

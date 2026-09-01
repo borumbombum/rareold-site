@@ -128,9 +128,9 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Craigellachie 13 YO - Craigellachie
 ✅ Craigellachie 17 YO - Craigellachie
 ✅ Cragganmore 12 YO - Cragganmore
-Cardhu 12 YO - Cardhu
-Strathisla 12 YO - Strathisla
-Longmorn Distiller's Choice - Longmorn
+✅ Cardhu 12 YO - Cardhu
+✅ Strathisla 12 YO - Strathisla
+✅ Longmorn Distiller's Choice - Longmorn
 Linkwood 12 YO - Linkwood
 Glen Moray Elgin Classic - Glen Moray
 Glen Moray Port Cask Finish - Glen Moray
