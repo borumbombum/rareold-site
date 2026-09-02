@@ -1,5 +1,15 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-02 — Batch of 5 whiskies (Quinta Ruban 12, Signet, Oban 14, Aberfeldy 12 + 16)
+
+- **whisky.my image CDN needs UPPERCASE upload slugs.** Lowercase guesses (`aberfeldy-16-year-old.webp`) 404; the working form is `.../wp-content/uploads/ABERFELDY-16-Year-Old.webp` (captialized like the actual filename). It 307-redirects to a real JPEG — follow redirects with `-L` and check `file`, don't trust the `curl -w %{http_code}` alone (307 ≠ actual content).
+- **More confirmed image sources** for the fallback ladder: `cdn11.bigcommerce.com` (Signet, Aberfeldy 12), `www.liquoronbroadway.com/cdn/shop/products/*.png` (Quinta Ruban 12), `cdn.shoplightspeed.com` (Oban 14). All download and convert to 500×500 webp cleanly.
+- **Invidious titles are sometimes garbled/mismatched** — e.g. a Spanish "Aberfeldy 12" search returned `zn96Uppitc4` whose oEmbed title proved to be Glenfiddich 12, and `70UU…`-style IDs whose true channel/title differed from the search result. oEmbed (via `yt-verify.mjs`) is the only authority for both exact-whisky and spoken language.
+- **Official brand-channel tastings can be the wrong language for a slot.** The Aberfeldy 16 official "Tasting" video (`pmCi1SKIawk`) is English-spoken but a search surfaced it under a Japanese query with a Russian auto-label — it belongs in `en`, never `ja`. Always judge spoken language from oEmbed author/title, not the query language or the label text.
+- **Quinta Ruban "12" vs current "14" bottling:** the present-day bottle is 14 YO (relaunched 2021). Many reviews searchable now target the 14; only videos that name/review the **12 YO Quinta Ruban** (or a 14-vs-12 head-to-head) qualify for this product. The 14-only clips were rejected.
+- **Fail-thin language results shipped as-is:** Quinta Ruban 12 (pt 1, ja 1, fr 0), Aberfeldy 12 (fr 0), Aberfeldy 16 (ja 0, fr 0) after multi-source searching found no genuine exact-expression video in those languages. English top-up fills the gaps at runtime — never pad a slot with a non-exact or wrongly-languaged video.
+- Reconfirmed pipeline check: videos live in the flat `src/lib/data/influencer_videos.json` keyed by `product_id` after `data:export`; the `whiskies.json` product objects don't embed them. Count there.
+
 ## 2026-09-01 — YouTube search: Aultmore 12 (youtube-search skill)
 
 - **French query prefixes overridden by native `yt-search`.** Every French query ("Aultmore 12 ans dégustation test avis") returned only English/Spanish channels with YouTube's auto-translated English titles — no genuine French Aultmore 12 review exists (only French channels doing other whiskies). Skill rule applied: ship zero for `fr` rather than pad with a non-French video. `Malt à propos` and `Les Grands Alambics` are French *channels* but their featured videos were Macallan/rhum, not Aultmore 12 — don't grab a same-channel different-whisky video.

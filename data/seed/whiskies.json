@@ -26642,6 +26642,596 @@
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
+    },
+    {
+      "id": "glenmorangie-quinta-ruban-12-year-old",
+      "slug": "glenmorangie-quinta-ruban-12-year-old",
+      "name": "Glenmorangie Quinta Ruban 12 Year Old",
+      "description": "Madurado en ex-bourbon y terminado dos años en barricas de roble portugués de Ruby Port, este single malt a 46% destila notas de cacao, naranja sanguina y bayas negras. En boca es sedoso y envolvente, con chocolate negro, grosella y un toque de especias dulces. Sin filtración en frío, uno de los mejores ejemplos de acabado en vino de Oporto.",
+      "image": "/data/images/glenmorangie-quinta-ruban-12-year-old.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Port Finish",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "glenmorangie",
+      "name_pt": "Glenmorangie Quinta Ruban 12 Year Old",
+      "description_pt": "Amadurecido em ex-bourbon e terminado dois anos em barricas de carvalho português de Ruby Port, este single malt a 46% despeja notas de cacau, laranja sanguínea e bagas negras. Na boca é sedoso e envolvente, com chocolate negro, groselha e um toque de especiarias doces. Sem filtração a frio, um dos melhores exemplos de finalização em vinho do Porto.",
+      "name_en": "Glenmorangie Quinta Ruban 12 Year Old",
+      "description_en": "Matured in ex-bourbon and finished for two years in Ruby Port seasoned Portuguese oak casks, this 46% single malt delivers notes of cocoa, blood orange and dark berries. Silky and embracing on the palate, with dark chocolate, blackcurrant and a hint of sweet spice. Non-chill filtered, one of the finest examples of a port cask finish.",
+      "name_ja": "Glenmorangie Quinta Ruban 12 Year Old",
+      "description_ja": "バーボン樽熟成後、ルビーポート樽で2年間フィニッシュされたシングルモルト、アルコール度数46%。カカオ、ブラッドオレンジ、ダークベリーの香り。口当たりはシルキーで、ダークチョコレート、カシス、甘いスパイスのニュアンス。ノン・チルフィルター。ポート樽フィニッシュの傑作の一つ。",
+      "name_fr": "Glenmorangie Quinta Ruban 12 Year Old",
+      "description_fr": "Mûri en ex-bourbon puis affiné deux ans en fûts de chêne portugais ayant contenu du Ruby Port, ce single malt à 46% distille des notes de cacao, d'orange sanguine et de baies noires. En bouche, il est soyeux et enveloppant, avec du chocolat noir, de la groseille et une touche d'épices douces. Non filtré à froid, l'un des plus beaux exemples de finition en vin de Porto.",
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CPQ6I1XLJbc",
+          "label": "Hablemos de Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Z9OLhCxGoPc",
+          "label": "Destila2",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o1A2M_o5AU8",
+          "label": "Cultura del Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wsRaoqvZCyc",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4F5ivVKV5rk",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3AuasONQz1o",
+          "label": "Whiskey Aficionado",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hUxr_qvWMbo",
+          "label": "Scotch 4 Dummies",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FLUW-Vc0Zps",
+          "label": "Destilados Brasil",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SftRouJMNXs",
+          "label": "モルトチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "glenmorangie-signet",
+      "slug": "glenmorangie-signet",
+      "name": "Glenmorangie Signet",
+      "description": "El single malt insignia de Glenmorangie, elaborado con cebada chocolate y café y madurado en una mezcla de roble nuevo, bourbon y jerez. De color ámbar profundo, despliega aromas de espresso, chocolate amargo y cacao con especias exóticas. En boca es rico y aterciopelado, con vainilla, dátil y nuez tostada y un final largo y cálido.",
+      "image": "/data/images/glenmorangie-signet.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Mixed",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "glenmorangie",
+      "name_pt": "Glenmorangie Signet",
+      "description_pt": "O single malt insígnia da Glenmorangie, elaborado com cevada chocolate e café e amadurecido numa mistura de carvalho novo, bourbon e xerez. De cor âmbar profunda, despeja aromas de espresso, chocolate amargo e cacau com especiarias exóticas. Na boca é rico e aveludado, com baunilha, tâmara e noz tostada, e um final longo e quente.",
+      "name_en": "Glenmorangie Signet",
+      "description_en": "Glenmorangie's flagship single malt, crafted with chocolate and coffee malted barley and matured in a mix of new oak, bourbon and sherry casks. Deep amber in colour, it unfolds aromas of espresso, dark chocolate and cocoa with exotic spices. Rich and velvety on the palate, with vanilla, date and toasted nut, and a long, warming finish.",
+      "name_ja": "Glenmorangie Signet",
+      "description_ja": "グレンモーレンジのフラッグシップ・シングルモルト。チョコレートモルトとコーヒーモルトを使用し、新樽、バーボン樽、シェリー樽を組み合わせて熟成。深い琥珀色で、エスプレッソ、ダークチョコレート、カカオとエキゾチックなスパイスの香り。口当たりはリッチでビロードのよう、バニラ、デーツ、トーストナッツ、長く温かい余韻。",
+      "name_fr": "Glenmorangie Signet",
+      "description_fr": "Le single malt emblématique de Glenmorangie, élaboré avec de l'orge chocolat et café et mûri dans un mélange de chêne neuf, de bourbon et de sherry. D'un ambre profond, il déploie des arômes d'espresso, de chocolat noir et de cacao aux épices exotiques. Riche et velouté en bouche, avec de la vanille, de la datte et de la noix grillée, et une finale longue et chaleureuse.",
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oyOXJvmxkxY",
+          "label": "El Whisky Bar",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0bRFcm3cC1I",
+          "label": "Destila2",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pGHqV2hdFoo",
+          "label": "Andres Whisky Aficionado",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cGOaazbau7A",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2481b7B7KPU",
+          "label": "McIntyre's Malts",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CLpZhjx1a3k",
+          "label": "Everything And The Barrel",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gc298nmLWg0",
+          "label": "Curiosity Public",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UW4AzS8lrJE",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4UT88JPvU0M",
+          "label": "Bebendo Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EUHowuiPXj8",
+          "label": "Destilados Brasil",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Pp_2cMf1tj8",
+          "label": "Sanson Single Malt",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8qSPz11mDhE",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=40oXE18LZdM",
+          "label": "Stephen Cannon",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QsTiHqIF0ds",
+          "label": "まるなひと",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4aCtkTHGo70",
+          "label": "HAYA CHANNEL",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RUUXrn7NnaM",
+          "label": "LA CHAÎNE DU WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sz6FnBgETx8",
+          "label": "Whisky et Cie",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "oban-14-year-old",
+      "slug": "oban-14-year-old",
+      "name": "Oban 14 Year Old",
+      "description": "Un single malt costero madurado 14 años en barricas de roble americano recarga. Delicadamente ahumado y salino, con carácter \"West Highland\". En nariz ofrece cítricos, miel y un toque de humo marino; en boca es suave y amaderado, con naranja, sal y especias cálidas, y un final persistente.",
+      "image": "/data/images/oban-14-year-old.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 14,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Bourbon",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "oban",
+      "name_pt": "Oban 14 Year Old",
+      "description_pt": "Um single malt costeiro amadurecido 14 anos em barricas de carvalho americano de recarga. Delicadamente fumado e salino, com carácter \"West Highland\". No nariz oferece citrinos, mel e um toque de fumo marinho; na boca é suave e amadeirado, com laranja, sal e especiarias quentes, e um final persistente.",
+      "name_en": "Oban 14 Year Old",
+      "description_en": "A coastal single malt matured 14 years in refill American oak casks. Delicately smoky and saline, with a \"West Highland\" character. On the nose it offers citrus, honey and a hint of sea smoke; smooth and woody on the palate, with orange, salt and warm spice, and a persistent finish.",
+      "name_ja": "Oban 14 Year Old",
+      "description_ja": "リフィル・アメリカンオーク樽で14年熟成された海辺のシングルモルト。繊細なスモークと塩味を持つ「ウエスト・ハイランド」の個性。香りは柑橘、蜂蜜、海辺の煙。味わいは滑らかでウッディ、オレンジ、塩、温かいスパイス、持続する余韻。",
+      "name_fr": "Oban 14 Year Old",
+      "description_fr": "Un single malt côtier mûri 14 ans en fûts de chêne américain de réemploi. Délicatement fumé et salin, avec un caractère « West Highland ». Au nez, des agrumes, du miel et une pointe de fumée marine ; doux et boisé en bouche, avec de l'orange, du sel et des épices chaudes, et une finale persistante.",
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8tL5LQLQWOg",
+          "label": "HABLANDO DE WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gjZfjY_HboM",
+          "label": "Amantes Del Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1SukHUQMzas",
+          "label": "Whisky o Muerte",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y5EYn7CJ7BQ",
+          "label": "WHISKY BUBU",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OxNI6S04eYM",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4c4PKwOPpXg",
+          "label": "Gwhisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0AKLzfDPb0k",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kYWGNYam_Lg",
+          "label": "Whiskey Novice",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=A-muj1BCbrw",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OLKqjmNeEAM",
+          "label": "Whisky Capital",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ev1Bfm58L4Q",
+          "label": "Bebendo Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hYrawSLddRQ",
+          "label": "Márcio Becker",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=j6zm8O_DG2k",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4bdI4FBQhg0",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mReJPsUag0c",
+          "label": "中村隆文",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JlmGv-_ZSBM",
+          "label": "D 51",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "aberfeldy-12-year-old",
+      "slug": "aberfeldy-12-year-old",
+      "name": "Aberfeldy 12 Year Old",
+      "description": "Apodado el \"Golden Dram\", este Highland malt de 12 años destaca por su dulzura melosa característica. Madurado en barricas de ex-bourbon y jerez, ofrece miel de brezo, manzana y vainilla con un toque de especias. En boca es suave y cremoso, con fruta de huerto, caramelo y un final medio y limpio.",
+      "image": "/data/images/aberfeldy-12-year-old.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Mixed",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "aberfeldy",
+      "name_pt": "Aberfeldy 12 Year Old",
+      "description_pt": "Apelidado de \"Golden Dram\", este malt de Highland de 12 anos destaca-se pela sua doçura melosa característica. Amadurecido em barricas de ex-bourbon e xerez, oferece mel de urze, maçã e baunilha com um toque de especiarias. Na boca é suave e cremoso, com fruta de pomar, caramelo e um final médio e limpo.",
+      "name_en": "Aberfeldy 12 Year Old",
+      "description_en": "Nicknamed the \"Golden Dram\", this 12-year-old Highland malt stands out for its characteristic honeyed sweetness. Matured in ex-bourbon and sherry casks, it offers heather honey, apple and vanilla with a hint of spice. Smooth and creamy on the palate, with orchard fruit, caramel and a medium, clean finish.",
+      "name_ja": "Aberfeldy 12 Year Old",
+      "description_ja": "「ゴールデン・ドラム」と呼ばれる12年熟成のハイランドモルトは、特徴的なはちみつの甘さが魅力。バーボン樽とシェリー樽で熟成され、ヘザー蜂蜜、りんご、バニラと穏やかなスパイス。口当たりは滑らかでクリーミー、果樹園のフルーツ、キャラメル、中程度でクリーンな余韻。",
+      "name_fr": "Aberfeldy 12 Year Old",
+      "description_fr": "Surnommé le « Golden Dram », ce malt des Highlands de 12 ans se distingue par sa douceur mielleuse caractéristique. Mûri en fûts d'ex-bourbon et de sherry, il offre du miel de bruyère, de la pomme et de la vanille avec une pointe d'épices. Doux et crémeux en bouche, avec des fruits de verger, du caramel et une finale moyenne et nette.",
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yI7d6g8srR0",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=71UUdcP7o-o",
+          "label": "Carmelo Di Fazio",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tynYg5fvKCk",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=H621yUkzfi8",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8SY5ikGh3mY",
+          "label": "The Scotch Brothers",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YaydP22HEw8",
+          "label": "Scotch 4 Dummies",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=99BiAovw17w",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tR046RrVBeY",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LG8H69ei5yU",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l9qwWhwtokI",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dziLvJ-500s",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YSWQ6eyJc3U",
+          "label": "ノーリカーノーライフ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uQ4Y5kMftFY",
+          "label": "ゆうのウイスキー大学",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "aberfeldy-16-year-old",
+      "slug": "aberfeldy-16-year-old",
+      "name": "Aberfeldy 16 Year Old",
+      "description": "Madurado 16 años en barricas de bourbon y terminado seis meses en jerez Oloroso de primer llenado. El matiz de Oloroso aporta profundidad a la miel de brezo característica: frutos secos, pasas, naranja confitada y especias dulces. En boca es rico y aceitoso, con un final largo de roble y frutos rojos.",
+      "image": "/data/images/aberfeldy-16-year-old.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 16,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Mixed",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "aberfeldy",
+      "name_pt": "Aberfeldy 16 Year Old",
+      "description_pt": "Amadurecido 16 anos em barricas de bourbon e finalizado seis meses em xerez Oloroso de primeiro enchimento. O matiz de Oloroso acrescenta profundidade ao mel de urze característico: frutos secos, passas, laranja cristalizada e especiarias doces. Na boca é rico e oleoso, com um final longo de carvalho e frutos vermelhos.",
+      "name_en": "Aberfeldy 16 Year Old",
+      "description_en": "Matured 16 years in bourbon casks and finished six months in first-fill Oloroso sherry. The Oloroso influence adds depth to the signature heather honey: dried fruit, raisins, candied orange and sweet spice. Rich and oily on the palate, with a long finish of oak and red fruit.",
+      "name_ja": "Aberfeldy 16 Year Old",
+      "description_ja": "バーボン樽で16年熟成後、初回充填のオロロソ・シェリー樽で6ヶ月フィニッシュ。オロロソが特徴的なヘザー蜂蜜に深みを加える：ドライフルーツ、レーズン、オレンジピール、甘いスパイス。口当たりはリッチでオイリー、オークと赤い果実の長い余韻。",
+      "name_fr": "Aberfeldy 16 Year Old",
+      "description_fr": "Mûri 16 ans en fûts de bourbon puis affiné six mois en sherry Oloroso de premier remplissage. L'influence de l'Oloroso apporte de la profondeur au miel de bruyère caractéristique : fruits secs, raisins secs, orange confite et épices douces. Riche et huileux en bouche, avec une longue finale de chêne et de fruits rouges.",
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QuMchPES33M",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y2WVT5nVtk4",
+          "label": "HABLANDO DE WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MCkmzaj6eMg",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eEKEQOfNlzg",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pldDVjUsOG4",
+          "label": "GreatDrams",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pWbeUbjfAsg",
+          "label": "The Spirits Brothers",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6uGODGjontI",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hW9uHERJS1A",
+          "label": "Sanson Single Malt",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DiP8IO8QpOs",
+          "label": "Destilados Brasil",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BPkyA4_b4N0",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     }
   ]
 }

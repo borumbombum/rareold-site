@@ -144,12 +144,12 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 
 ✅ Glenmorangie The Original 10 YO - Glenmorangie
 ✅ Glenmorangie Nectar d'Or - Glenmorangie
-Glenmorangie Quinta Ruban 12 YO - Glenmorangie
-Glenmorangie Signet - Glenmorangie
+✅ Glenmorangie Quinta Ruban 12 YO - Glenmorangie
+✅ Glenmorangie Signet - Glenmorangie
 ✅ Dalwhinnie 15 YO - Dalwhinnie
-Oban 14 YO - Oban
-Aberfeldy 12 YO - Aberfeldy
-Aberfeldy 16 YO - Aberfeldy
+✅ Oban 14 YO - Oban
+✅ Aberfeldy 12 YO - Aberfeldy
+✅ Aberfeldy 16 YO - Aberfeldy
 Aberfeldy 21 YO - Aberfeldy
 Ardmore Legacy - Ardmore
 Ben Nevis 10 YO - Ben Nevis
