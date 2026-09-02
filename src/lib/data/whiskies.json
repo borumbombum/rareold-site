@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-01T21:57:39.728Z",
+  "generatedAt": "2026-09-02T00:52:36.011Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -10473,6 +10473,218 @@
       ]
     },
     {
+      "id": "glen-moray-elgin-classic",
+      "slug": "glen-moray-elgin-classic",
+      "name": "Glen Moray Elgin Classic",
+      "distillery": {
+        "id": "glen-moray",
+        "name": "Glen Moray",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": "グレンモーレイ",
+        "name_fr": null
+      },
+      "description": "Glen Moray Elgin Classic es el single malt esencial de la destilería de Elgin, sin indicación de edad y madurado íntegramente en roble americano de ex-bourbon. De carácter ligero y afrutado, ofrece miel y malta dulce, azúcar de cebada, melocotones en almíbar y vainilla con un toque de manzana. En boca es cremoso y accesible, con un final corto y limpio. Embotellado a 40% ABV.",
+      "image": "/data/images/glen-moray-elgin-classic.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Ex-Bourbon",
+      "distillery_id": "glen-moray",
+      "insertion_order": 262,
+      "featured": false,
+      "name_pt": "Glen Moray Elgin Classic",
+      "description_pt": "Glen Moray Elgin Classic é o single malt essencial da destilaria de Elgin, sem indicação de idade e amadurecido inteiramente em carvalho americano de ex-bourbon. De carácter leve e frutado, oferece mel e malte doce, açúcar de cevada, pêssegos em calda e baunilha com um toque de maçã. Em boca é cremoso e acessível, com final curto e limpo. Engarrafado a 40% ABV.",
+      "name_en": "Glen Moray Elgin Classic",
+      "description_en": "Glen Moray Elgin Classic is the essential single malt from the Elgin distillery, non-age-statement and matured entirely in American ex-bourbon oak. Light and fruity in character, it offers honey and sweet malt, barley sugar, tinned peaches and vanilla with a hint of apple. Creamy and approachable on the palate, with a short, clean finish. Bottled at 40% ABV.",
+      "name_ja": "グレンモーレイ エルギン クラシック",
+      "description_ja": "グレンモーレイ エルギン クラシックは、エルギン蒸留所の定番シングルモルトで、ノンエイジ。アメリカンオークのバーボン樽のみで熟成される。軽やかでフルーティーなキャラクターで、はちみつと甘いモルト、麦芽糖、シロップ漬けの桃、バニラ、ほのかにりんごの香り。口当たりはクリーミーで親しみやすく、短くクリーンなフィニッシュ。40%ABVでボトリング。",
+      "name_fr": "Glen Moray Elgin Classic",
+      "description_fr": "Glen Moray Elgin Classic est le single malt essentiel de la distillerie d'Elgin, sans mention d'âge et élevé entièrement en chêne américain ex-bourbon. De caractère léger et fruité, il offre du miel et du malt sucré, du sucre d'orge, des pêches au sirop et de la vanille avec une touche de pomme. Crémeux et accessible en bouche, avec une finale courte et propre. Embouteillé à 40% vol.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0CLBmHDqDhQ",
+          "label": "The Whisky Scout — Whisk'e'y Review 180"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JMyz79OfHoE",
+          "label": "East Coast LQ Reviews — Elgin Classic review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NuS56-ll3Mo",
+          "label": "No Nonsense Whisky — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ec8fPHpDNn4",
+          "label": "The Whisky Couch — tasting &amp; pairing"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-IysGNSmTN0",
+          "label": "Tito Whisky — review"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9B37h16XrIo",
+          "label": "宅飲みバーTakeo — review"
+        }
+      ]
+    },
+    {
+      "id": "glen-moray-port-cask-finish",
+      "slug": "glen-moray-port-cask-finish",
+      "name": "Glen Moray Port Cask Finish",
+      "distillery": {
+        "id": "glen-moray",
+        "name": "Glen Moray",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": "グレンモーレイ",
+        "name_fr": null
+      },
+      "description": "Glen Moray Port Cask Finish es un single malt sin indicación de edad madurado en roble americano de ex-bourbon y terminado en barricas de vino de Oporto. De color rosa dorado, despliega toffee y vainilla tostada, frutos secos, ciruelas y un toque de cítricos y cerezas negras. En boca es dulce y especiado, redondo y suave, con un final medio de fruta oscura y chocolate. Embotellado a 40% ABV.",
+      "image": "/data/images/glen-moray-port-cask-finish.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Port Cask Finish",
+      "distillery_id": "glen-moray",
+      "insertion_order": 263,
+      "featured": false,
+      "name_pt": "Glen Moray Port Cask Finish",
+      "description_pt": "Glen Moray Port Cask Finish é um single malt sem indicação de idade amadurecido em carvalho americano de ex-bourbon e terminado em barris de Vinho do Porto. De cor rosa dourado, apresenta toffee e baunilha tostada, frutos secos, ameixas e um toque de citrinos e cerejas pretas. Em boca é doce e picante, redondo e macio, com um final médio de fruta escura e chocolate. Engarrafado a 40% ABV.",
+      "name_en": "Glen Moray Port Cask Finish",
+      "description_en": "Glen Moray Port Cask Finish is a non-age-statement single malt matured in American ex-bourbon oak and finished in port wine casks. Golden rose in colour, it offers toffee and toasted vanilla, dried fruit, plums and a hint of citrus and black cherries. Sweet and spicy, round and soft on the palate, with a medium finish of dark fruit and chocolate. Bottled at 40% ABV.",
+      "name_ja": "グレンモーレイ ポートカスクフィニッシュ",
+      "description_ja": "グレンモーレイ ポートカスクフィニッシュは、アメリカンオークのバーボン樽で熟成し、ポートワイン樽で仕上げたノンエイジ・シングルモルト。ローズゴールドの色調で、トフィーとトーストしたバニラ、ドライフルーツ、プラムに、ほのかなシトラスとブラックチェリー。口当たりは甘くスパイシーで、まろやかでソフト。ダークフルーツとチョコレートのミディアムフィニッシュ。40%ABVでボトリング。",
+      "name_fr": "Glen Moray Port Cask Finish",
+      "description_fr": "Glen Moray Port Cask Finish est un single malt sans mention d'âge élevé en chêne américain ex-bourbon puis fini en fûts de vin de Porto. De couleur rose doré, il offre toffee et vanille toastée, fruits secs, pruneaux et une touche d'agrumes et de cerises noires. Sucré et épicé en bouche, rond et doux, avec une finale moyenne de fruits sombres et de chocolat. Embouteillé à 40% vol.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q4VpP9-QA9Y",
+          "label": "No Nonsense Whisky — Port Cask Finish #94"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Xoh43wXYQRU",
+          "label": "The Single Malt Review — Episode 111"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_J5QMfQqRo4",
+          "label": "Whisky.com — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gl2NzOBI-fM",
+          "label": "Whiskey Vault — Episode 87"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1jBcEeB2exw",
+          "label": "Tito Whisky — Oporto vs Ahumado"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wi1Zf4l8c3s",
+          "label": "WHISKEROS Argentina — review"
+        }
+      ]
+    },
+    {
       "id": "glen-scotia-15-yo",
       "slug": "glen-scotia-15-yo",
       "name": "Glen Scotia 15 Year Old",
@@ -19215,6 +19427,124 @@
       ]
     },
     {
+      "id": "knockando-12-yo-master-reserve",
+      "slug": "knockando-12-yo-master-reserve",
+      "name": "Knockando 12 YO Master Reserve",
+      "distillery": {
+        "id": "knockando",
+        "name": "Knockando",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": "ノッカンド",
+        "name_fr": null
+      },
+      "description": "Knockando 12 años Master Reserve es un single malt de Speyside madurado en barricas de roble americano de ex-bourbon. De perfil ligero y floral, ofrece plátano y miel, pasas sultanas, toffee cremoso y vainilla, con un toque de canela y pimienta negra del roble. En boca es suave y equilibrado, con notas de fruta y especias y un final medio persistentemente dulce. Embotellado a 43% ABV.",
+      "image": "/data/images/knockando-12-yo-master-reserve.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Ex-Bourbon",
+      "distillery_id": "knockando",
+      "insertion_order": 265,
+      "featured": false,
+      "name_pt": "Knockando 12 YO Master Reserve",
+      "description_pt": "Knockando 12 Anos Master Reserve é um single malt do Speyside amadurecido em barris de carvalho americano de ex-bourbon. De perfil leve e floral, oferece banana e mel, passas sultanas, toffee cremoso e baunilha, com um toque de canela e pimenta-preta do carvalho. Em boca é suave e equilibrado, com notas de fruta e especiarias e um final médio persistentemente doce. Engarrafado a 43% ABV.",
+      "name_en": "Knockando 12 YO Master Reserve",
+      "description_en": "Knockando 12 Year Old Master Reserve is a Speyside single malt matured in American ex-bourbon oak casks. Light and floral in profile, it offers banana and honey, sultanas, creamy toffee and vanilla, with a hint of cinnamon and black pepper from the oak. Smooth and balanced on the palate, with fruit and spice notes and a medium, persistently sweet finish. Bottled at 43% ABV.",
+      "name_ja": "ノッカンド 12年 マスターリザーブ",
+      "description_ja": "ノッカンド 12年 マスターリザーブは、アメリカンオークのバーボン樽で熟成したスペイサイドのシングルモルト。ライトでフローラルな個性で、バナナとはちみつ、サルタナレーズン、クリーミーなトフィー、バニラに、オーク由来のシナモンとブラックペッパーがほのかに香る。口当たりは滑らかでバランスが良く、フルーツとスパイスのニュアンス、甘さが長く続くミディアムフィニッシュ。43%ABVでボトリング。",
+      "name_fr": "Knockando 12 YO Master Reserve",
+      "description_fr": "Knockando 12 ans Master Reserve est un single malt du Speyside élevé en fûts de chêne américain ex-bourbon. Au profil léger et floral, il offre banane et miel, raisins sultanas, toffee crémeux et vanille, avec une touche de cannelle et de poivre noir du chêne. Doux et équilibré en bouche, avec des notes fruitées et épicées et une finale moyenne et persistante sucrée. Embouteillé à 43% vol.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KsOGLHg9HZo",
+          "label": "Whiskey Novice — review #176"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NTtVWU694zM",
+          "label": "The Spirit Safe — Knockando 12 Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WOj-r-HtykM",
+          "label": "Whisky.com — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uV9giom2Oj0",
+          "label": "Nivla's Nightcap Notes — No. 54 Knockando 12"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TFequBfckG4",
+          "label": "El Whisky Bar — review"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_i9w-TljTic",
+          "label": "CRAZY BARTENDER KEN — ノッカンドゥ12年 紹介"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bx0_Il8aspA",
+          "label": "ひとくちウイスキー — ノッカンドゥ12年（ストレート）"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yTnZegfOnY8",
+          "label": "宅飲みバーTakeo — review"
+        }
+      ]
+    },
+    {
       "id": "la-alazana-classic",
       "slug": "la-alazana-classic",
       "name": "La Alazana Classic",
@@ -20607,6 +20937,118 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "linkwood-12-yo",
+      "slug": "linkwood-12-yo",
+      "name": "Linkwood 12 YO",
+      "distillery": {
+        "id": "linkwood",
+        "name": "Linkwood",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": "リンクウッド",
+        "name_fr": null
+      },
+      "description": "Linkwood 12 años es un single malt de la serie Flora & Fauna de Diageo, madurado durante 12 años en roble. De perfil elegante y floral, despliega notas de manzana verde, flores silvestres, miel, vainilla y cítricos con un fondo suave y delicado. En boca es ligero pero sedoso, con frutas de huerto, malta dulce y vainilla que cierran en un final medio de roble suave y especias. Embotellado a 43% ABV.",
+      "image": "/data/images/linkwood-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Ex-Bourbon & Ex-Sherry",
+      "distillery_id": "linkwood",
+      "insertion_order": 261,
+      "featured": false,
+      "name_pt": "Linkwood 12 YO",
+      "description_pt": "Linkwood 12 anos é um single malt da série Flora & Fauna da Diageo, amadurecido durante 12 anos em carvalho. De perfil elegante e floral, apresenta notas de maçã verde, flores silvestres, mel, baunilha e citrinos, com um fundo suave e delicado. Em boca é leve mas sedoso, com frutas de pomar, malte doce e baunilha a fecharem num final médio de carvalho suave e especiarias. Engarrafado a 43% ABV.",
+      "name_en": "Linkwood 12 YO",
+      "description_en": "Linkwood 12 Year Old is a single malt from Diageo's Flora & Fauna range, matured for 12 years in oak. Elegant and floral in profile, it unfolds notes of green apple, wild flowers, honey, vanilla and citrus over a soft, delicate base. Light yet silky on the palate, with orchard fruit, sweet malt and vanilla closing on a medium finish of soft oak and spice. Bottled at 43% ABV.",
+      "name_ja": "リンクウッド 12年",
+      "description_ja": "リンクウッド12年はディアジオのフローラ＆ファウナ・シリーズのシングルモルトで、オーク樽で12年熟成。エレガントでフローラルな個性が特徴で、青りんご、ワイルドフラワー、はちみつ、バニラ、シトラスの香りが柔らかく繊細なベースの上に広がる。口当たりは軽やかながら滑らかで、果樹園のフルーツ、甘いモルト、バニラに続き、ソフトなオークとスパイスのミディアムフィニッシュ。43%ABVでボトリング。",
+      "name_fr": "Linkwood 12 YO",
+      "description_fr": "Linkwood 12 ans est un single malt de la gamme Flora & Fauna de Diageo, vieilli 12 ans en fût de chêne. Au profil élégant et floral, il déploie des notes de pomme verte, de fleurs sauvages, de miel, de vanille et d'agrumes sur un fond doux et délicat. Léger mais soyeux en bouche, avec des fruits du verger, du malt sucré et de la vanille qui s'achèvent sur une finale moyenne de chêne doux et d'épices. Embouteillé à 43% vol.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AJqdrVZgBJ0",
+          "label": "Whisky Lock — Whisky Review 116"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LcTKBQuX8Ak",
+          "label": "Whiskey Novice — Flora &amp; Fauna review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RqcseLmvY7I",
+          "label": "Whisky Wednesday — Linkwood 12YO"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tc-UQj3RcnQ",
+          "label": "Whisky.com — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=s747aW5HFDM",
+          "label": "El Whisky Bar — review"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OwH5WWrXnzw",
+          "label": "宅飲みバーTakeo — review"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=au0G9FGaybg",
+          "label": "ひとくちウイスキー — リンクウッド12年（ストレート）"
+        }
+      ]
     },
     {
       "id": "longmorn-distillers-choice",
@@ -29219,6 +29661,148 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=hMmRav0ZoHw",
           "label": "Macallan Triple Cask 15 review"
+        }
+      ]
+    },
+    {
+      "id": "singleton-of-dufftown-12-yo",
+      "slug": "singleton-of-dufftown-12-yo",
+      "name": "The Singleton of Dufftown 12 YO",
+      "distillery": {
+        "id": "dufftown",
+        "name": "Dufftown",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": "ダフタウン",
+        "name_fr": null
+      },
+      "description": "The Singleton of Dufftown 12 años es un single malt de la Classic Malts Selection de Diageo, madurado en una combinación de barricas de jerez Pedro Ximénez y Oloroso y ex-bourbon de relleno. De estilo malteado y dulce, ofrece miel, toffee de naranja, frutos secos, manzanas al horno y un toque de canela. En boca es suave y mantecoso, con un final medio de roble y dulzor persistente. Embotellado a 40% ABV.",
+      "image": "/data/images/singleton-of-dufftown-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "PX & Oloroso Sherry",
+      "distillery_id": "dufftown",
+      "insertion_order": 264,
+      "featured": false,
+      "name_pt": "The Singleton of Dufftown 12 YO",
+      "description_pt": "The Singleton of Dufftown 12 Anos é um single malt da Classic Malts Selection da Diageo, amadurecido numa combinação de barris de xerez Pedro Ximénez e Oloroso e ex-bourbon de recheio. De estilo maltado e doce, oferece mel, toffee de laranja, frutos secos, maçãs assadas e um toque de canela. Em boca é suave e amanteigado, com um final médio de carvalho e doçura persistente. Engarrafado a 40% ABV.",
+      "name_en": "The Singleton of Dufftown 12 YO",
+      "description_en": "The Singleton of Dufftown 12 Year Old is a single malt from Diageo's Classic Malts Selection, matured in a combination of Pedro Ximénez and Oloroso sherry casks and refill ex-bourbon. Malty and sweet in style, it offers honey, orange toffee, dried fruit, baked apples and a hint of cinnamon. Smooth and buttery on the palate, with a medium finish of oak and lasting sweetness. Bottled at 40% ABV.",
+      "name_ja": "ザ・シングルトン オブ ダフタウン 12年",
+      "description_ja": "ザ・シングルトン オブ ダフタウン12年は、ディアジオのクラシックモルトセレクションのシングルモルトで、ペドロヒメネスとオロロソのシェリー樽とリフィルバーボン樽を組み合わせて熟成。モルティーで甘いスタイルで、はちみつ、オレンジトフィー、ドライフルーツ、焼きりんごにほのかにシナモン。口当たりは滑らかでバターのような口当たりで、オークのミディアムフィニッシュに甘さが長く続く。40%ABVでボトリング。",
+      "name_fr": "The Singleton of Dufftown 12 YO",
+      "description_fr": "The Singleton of Dufftown 12 ans est un single malt de la Classic Malts Selection de Diageo, élevé dans une combinaison de fûts de xérès Pedro Ximénez et Oloroso et de fûts ex-bourbon de remplissage. De style malté et doux, il offre miel, toffee d'orange, fruits secs, pommes au four et une touche de cannelle. Doux et beurré en bouche, avec une finale moyenne de chêne et une douceur persistante. Embouteillé à 40% vol.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2UFPwBsw7R8",
+          "label": "Whiskey Novice — review #125"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8Se8VehMRLU",
+          "label": "Moa Nilsson — Dufftown 12 review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZeM8esHSKS4",
+          "label": "The Whisky Couch — Review #173"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uIIxnXHCYME",
+          "label": "Whisky.com — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5IMwQj2isnw",
+          "label": "La Whiskería — Singleton 12 años (El Whisky de la Semana)"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ADzg_8otHoc",
+          "label": "La Guia del Whisky — Singleton 12 años Dufftown"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PVhIGmjLYRg",
+          "label": "Los Whiskochos — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YlGleILtCXg",
+          "label": "Hablando de Whisky — Singlenton Dufftown 12"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HVMKeb4cUhs",
+          "label": "ひとくちウイスキー — シングルトン オブ ダフタウン12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=in2KFPEXm8w",
+          "label": "正直者がお酒を見る — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=biM8BrlPv3I",
+          "label": "Brauna Drinks — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yDta1LD-zuw",
+          "label": "Tierri Whisky — Resumo Singleton Dufftown 12 anos"
         }
       ]
     },

@@ -255,3 +255,22 @@
 - Distillery coords resolved from Wikipedia/official: Craigellachie 57.488/-3.185 (founded 1891, vibe worm-tub sulphurous), Cragganmore 57.410/-3.394 (founded 1869, flat-top stills). Both Speyside.
 - Python inline strings: never embed literal non-ASCII text with `\u` sequences inside single-quoted shell `python3 -c "..."` — the shell passes `\u` through and Python's `unicodeescape` errors on malformed sequences (e.g. "urze"). Instead write the script to a `.py` file with UTF-8 characters, or use raw `\uXXXX` escapes correctly formed (4 hex digits).
 - Pipeline confirmed: distilleries must be added to `distilleries.json` BEFORE products; `db:sync` orders them first. All 3 new products verified in flat `influencer_videos.json` (5 each), `npm run check` clean (0 errors, 25 baseline warnings).
+
+## 2026-09-01 — Batch 3: Linkwood 12, Glen Moray Elgin Classic/Port Cask, Singleton Dufftown 12, Knockando 12
+
+- whiskybase static images 403 on direct download (server-side block). Fallback: Shopify CDN of The Whisky Barrel (`cdn/shop/files/<slug>_grande.jpg`) worked for Linkwood 12 Flora & Fauna art. houseofmalt and whiskyshop product jpgs download fine.
+- Video coverage by expression (5 products): all have geniune en + es + ja (el whisky bar/tito whisky/whiskokos/whiskeros argentina/宅飲みバーTakeo recurring). Singleton of Dufftown additionally has genuine pt (Brauna Drinks). French is dry across all 5 (no exact-expression French reviews exist); pt also dry for the 4 ex-Glen Moray ones. English tops the empty slots up at runtime.
+- Linkwood 12 coordinates from Wikipedia 57.635448/-3.286238 (Elgin); Glen Moray 57.64444/-3.34111 (Elgin, Rivers Lossie); Dufftown 57.435748/-3.12782 (founded 1895 as Dufftown-Glenlivet); Knockando 57.457/-3.343944 (founded 1898, first distillery with electric lighting). All Diageo-owned except Glen Moray (La Martiniquaise).
+- Pipeline: distilleries before products, single db:sync pass, data:export regenerates src/lib/data, npm run check 0 errors / 25 baseline warnings, queue ticks in docs after export verified.
+- Cask labels used: Linkwood 12 "Ex-Bourbon & Ex-Sherry", Glen Moray Elgin Classic "Ex-Bourbon", Port Cask Finish "Port Cask Finish", Singleton "PX & Oloroso Sherry", Knockando 12 "Ex-Bourbon".
+
+## 2026-09-01 — Video backfill batch 3: how to actually hit 4 per language
+
+- First pass shipped only 1 video per language because I delegated search to subagents with a "ONE video per language" instruction. That violates add-product Step 5 (target 4/language, floor 2). When delegating video search, instruct agents to return EVERY genuine verified match up to 4/language — or run the youtube-search skill yourself.
+- Which products have enough genuine foreign coverage vs not:
+  - The Singleton of Dufftown 12 is the goldmine: 4 en, 4 es (La Guia del Whisky, La Whiskería-Costa Rica, HABLANDO DE WHISKY, Los Whiskochos), 2 pt (Tierri Whisky RESUMO + Brauna), 2 ja (ひとくちウイスキー + 正直者がお酒を見る).
+  - Linkwood 12: 4 en, 1 es, 2 ja. Knockando 12: 4 en, 1 es, 3 ja. Glen Moray Elgin Classic: 4 en, 1 es, 1 ja. Glen Moray Port Cask: 4 en, 2 es (WHISKEROS + Tito "Oporto vs Ahumado").
+  - pt/fr remain 0 for Linkwood/Glen Morays/Knockando — no exact-expression, in-language reviews exist despite native+Invidious+websearch; the English top-up covers those slots at runtime. Do NOT pad.
+- Invidious title↔ID pairs are heavily desynced in this repo's runs (e.g. knockando `bx0_Il8aspA` labeled "ノッカンドゥ12年、カーデュー12年 飲み比べ" is actually ひとくちウイスキー's standalone "ノッカンドゥ12年（ストレート）"). ALWAYS settle with `node scripts/yt-verify.mjs` oEmbed — it is the only ground truth for expression + language.
+- Trap videos to always reject on these products (verified): "グレンマレイ クラシック で乾杯" (もかじ) is ambiguous cask; ウイスキー専門TEN's "better than Glenfiddich" is generic; Los Whiskochos "Top 5 whiskies de 12 años" is a roundup; 俺のモルト "グレンターナー ポートカスクフィニッシュ" is Glen Turner not Glen Moray; DEAD 401s (yixSa1Hv-rI) and unboxings (Whisky Makers "Unboxing Singleton Dufftown 12") don't count.
+- Ready sources per region found this batch: ja → ひとくちウイスキー (straight tastings, exact-expressions, reliable), 宅飲みバーTakeo, CRAZY BARTENDER KEN; es → El Whisky Bar, Tito Whisky, HABLANDO DE WHISKY, La Guia del Whisky, La Whiskería; en → Whisky.com, Whiskey Novice, The Spirit Safe, No Nonsense Whisky, Whisky Lock, Whisky Wednesday, Moa Nilsson, Tierri Whisky (BR, but pt).

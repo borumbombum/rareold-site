@@ -131,11 +131,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Cardhu 12 YO - Cardhu
 ✅ Strathisla 12 YO - Strathisla
 ✅ Longmorn Distiller's Choice - Longmorn
-Linkwood 12 YO - Linkwood
-Glen Moray Elgin Classic - Glen Moray
-Glen Moray Port Cask Finish - Glen Moray
-The Singleton of Dufftown 12 YO - Dufftown
-Knockando 12 YO Master Reserve - Knockando
+✅ Linkwood 12 YO - Linkwood
+✅ Glen Moray Elgin Classic - Glen Moray
+✅ Glen Moray Port Cask Finish - Glen Moray
+✅ The Singleton of Dufftown 12 YO - Dufftown
+✅ Knockando 12 YO Master Reserve - Knockando
 Glen Elgin 12 YO - Glen Elgin
 Aultmore 12 YO - Aultmore
 Tormore 14 YO - Tormore
