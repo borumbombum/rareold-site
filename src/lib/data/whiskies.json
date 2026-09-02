@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-02T18:05:10.761Z",
+  "generatedAt": "2026-09-02T19:17:30.285Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -4811,6 +4811,384 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=gs_GYp5p1r8",
           "label": "ARRAN THE BODEGA — SHERRY CASK"
+        }
+      ]
+    },
+    {
+      "id": "auchentoshan-18-yo",
+      "slug": "auchentoshan-18-yo",
+      "name": "Auchentoshan 18 Year Old",
+      "distillery": {
+        "id": "auchentoshan",
+        "name": "Auchentoshan Distillery",
+        "name_es": "Auchentoshan",
+        "name_pt": "Auchentoshan",
+        "name_en": "Auchentoshan",
+        "name_ja": "オシェントッシュ",
+        "name_fr": null
+      },
+      "description": "Destilado tres veces, este single malt de las Lowlands ofrece una textura aterciopelada con aroma a hoja de tabaco, azúcar caramelizada, té verde y almendras. En boca se percibe un estallido de cebada dulce que da paso a un toque cítrico y refrescante, con un final largo y bien equilibrado.",
+      "image": "/data/images/auchentoshan-18-yo.webp",
+      "origin": "scotland",
+      "region": "Lowlands",
+      "age": 18,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Mixed",
+      "distillery_id": "auchentoshan",
+      "insertion_order": 304,
+      "featured": false,
+      "name_pt": "Auchentoshan 18 Year Old",
+      "description_pt": "Triplo destilado, este single malt das Lowlands oferece uma textura aveludada com aroma de folha de tabaco, açúcar caramelizado, chá verde e amêndoas. Em boca percebe-se uma explosão de cevada doce que dá passagem a um toque cítrico e refrescante, com um final longo e bem equilibrado.",
+      "name_en": "Auchentoshan 18 Year Old",
+      "description_en": "Triple distilled, this Lowland single malt offers a velvety texture with aromas of tobacco leaf, caramelized sugar, green tea and almonds. On the palate, a burst of sweet barley gives way to a citrusy, refreshing note, with a long, well-balanced finish.",
+      "name_ja": "オシェントッシュ 18年",
+      "description_ja": "トリプルディスティレーションされたローランズ・シングルモルト。タバコの葉、カラメルサイダー、緑茶、アーモンドのアロマを持つベルベットのようなテクスチャー。パレットでは甘い大麦の爆発に続いてシトラスでリフレッシングなノート、ロングでよくバランスの取れたフィニッシュ。",
+      "name_fr": "Auchentoshan 18 Year Old",
+      "description_fr": "Triple distillé, ce single malt des Lowlands offre une texture veloutée aux arômes de feuille de tabac, sucre caramélisé, thé vert et amandes. En bouche, une explosion d'orge sucrée laisse place à une note citrique et rafraîchissante, avec une finale longue et bien équilibrée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0I5aecsbw5E",
+          "label": "Whisky Whistle"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1gVApvC20KQ",
+          "label": "thewhiskybothy"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ws-fO3qxcag",
+          "label": "foodquig"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XVulCPhxXTk",
+          "label": "BeerGogglesReviews"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GPAm1Car38s",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LwjM6uVUUR8",
+          "label": "Tierri Whisky"
+        }
+      ]
+    },
+    {
+      "id": "auchentoshan-american-oak",
+      "slug": "auchentoshan-american-oak",
+      "name": "Auchentoshan American Oak",
+      "distillery": {
+        "id": "auchentoshan",
+        "name": "Auchentoshan Distillery",
+        "name_es": "Auchentoshan",
+        "name_pt": "Auchentoshan",
+        "name_en": "Auchentoshan",
+        "name_ja": "オシェントッシュ",
+        "name_fr": null
+      },
+      "description": "Malt escocés de las Lowlands de triple destilación, madurado en barricas de roble americano ex-bourbon de primer y segundo llenado. De sabor suave y vibrante, ofrece notas potentes de vainilla y coco, seguidas de una capa de melocotón y un final crujiente con toque de pomelo. Su perfil ligero y afrutado lo hace ideal como aperitivo.",
+      "image": "/data/images/auchentoshan-american-oak.webp",
+      "origin": "scotland",
+      "region": "Lowlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon",
+      "distillery_id": "auchentoshan",
+      "insertion_order": 303,
+      "featured": false,
+      "name_pt": "Auchentoshan American Oak",
+      "description_pt": "Malt escocês das Lowlands triplamente destilado, maturado em barris de carvalho americano ex-bourbon de primeiro e segundo preenchimento. De sabor suave e vibrante, oferece notas poderosas de baunilha e coco, seguidas de uma camada de pêssego e um final crocante com toque de grapefruit. Seu perfil leve e frutado o torna ideal como aperitivo.",
+      "name_en": "Auchentoshan American Oak",
+      "description_en": "A triple-distilled Scottish Lowland malt, matured in first and second fill ex-Bourbon American oak casks. Smooth and vibrant, it offers powerful notes of vanilla and coconut, followed by a layer of peach and a crisp finish with a grapefruit kick. Its light, fruity profile makes it ideal as an aperitif.",
+      "name_ja": "オシェントッシュ アメリカンオーク",
+      "description_ja": "アメリカンオークのエクスバーボン樽（ファースト＆セカンドフィル）で熟成されたトリプルディスティレーションのローランズ・モルト。スムーズでバイブレント、バニラとココアのパワフルなノートに、ピーチの層、クランチーなグレープフルーツのフィニッシュ。軽やかでフルーティーなプロフィールはaperitifに最適。",
+      "name_fr": "Auchentoshan American Oak",
+      "description_fr": "Un malt triplément distillé des Lowlands écossais, vieilli en fûts de chêne américain ex-bourbon premier et deuxième remplissage. Doux et vibrant, il offre des notes puissantes de vanille et noix de coco, suivies d'une couche de pêche et d'une finale croquante avec une touche de pamplemousse. Son profil léger et fruité le rend idéal en apéritif.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IJ8irQXvEfY",
+          "label": "Whisky Shared"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P5n3bot95cY",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nUd2tuCxKPk",
+          "label": "The Whisky Critic"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vI0W6bvameE",
+          "label": "The Whisky Burn"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4BEHke0wLS8",
+          "label": "お酒の塾長"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J_Y6u7L1h4c",
+          "label": "Whisky Capital"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q1x5a4CTA50",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aAGt2XCpmpo",
+          "label": "Douglas Bessa / Companhia da Bebida"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kB7hGtbVv24",
+          "label": "Whisky com Gringo"
+        }
+      ]
+    },
+    {
+      "id": "auchentoshan-three-wood",
+      "slug": "auchentoshan-three-wood",
+      "name": "Auchentoshan Three Wood",
+      "distillery": {
+        "id": "auchentoshan",
+        "name": "Auchentoshan Distillery",
+        "name_es": "Auchentoshan",
+        "name_pt": "Auchentoshan",
+        "name_en": "Auchentoshan",
+        "name_ja": "オシェントッシュ",
+        "name_fr": null
+      },
+      "description": "Triple destilado y madurado en barricas de bourbon americano, Oloroso y Pedro Ximénez, este single malt de las Lowlands presenta una suavidad característica con fruta oscura: grosellas negras, ciruelas y naranjas, acompañadas de avellanas, canela y caramelo. En boca es sedoso y afrutado, con un final de roble dulce y persistente.",
+      "image": "/data/images/auchentoshan-three-wood.webp",
+      "origin": "scotland",
+      "region": "Lowlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Mixed",
+      "distillery_id": "auchentoshan",
+      "insertion_order": 302,
+      "featured": false,
+      "name_pt": "Auchentoshan Three Wood",
+      "description_pt": "Triplo destilado e maturado em barris de bourbon americano, Oloroso e Pedro Ximénez, este single malt das Lowlands apresenta uma suavidade característica com frutas escuras: groselhas pretas, ameixas e laranjas, acompanhadas de avelãs, canela e caramelo. Em boca é sedoso e frutado, com um final de carvalho doce e persistente.",
+      "name_en": "Auchentoshan Three Wood",
+      "description_en": "Triple distilled and matured in American oak bourbon, Oloroso and Pedro Ximénez sherry casks, this Lowland single malt presents the characteristic smoothness with dark fruit: blackcurrants, plums and oranges, accompanied by hazelnuts, cinnamon and caramel. Silky and fruity on the palate, with a sweet, lasting oaky finish.",
+      "name_ja": "オシェントッシュ トゥリーウッド",
+      "description_ja": "アメリカンオークバーボン、オロロソ、ペドロ・ヒメネスシェリー樽で熟成されたトリプルディスティレーションのシングルモルト。黒ズグ、プラム、オレンジのダークフルーツに、ヘーゼルナッツ、シナモン、キャラメルが伴う。滑らかでフルーティーなパレットに、甘く持続するオークのフィニッシュ。",
+      "name_fr": "Auchentoshan Three Wood",
+      "description_fr": "Triple distillé et vieilli en fûts de bourbon américain, Oloroso et Pedro Ximénez, ce single malt des Lowlands présente la douceur caractéristique avec des fruits noirs : cassis, prunes et oranges, accompagnés de noisettes, cannelle et caramel. Soyeux et fruité en bouche, avec une finale de chêne douce et persistante.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-cqV3dvzKUg",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eJ3Q6K_bqmU",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=f935qNOVDBc",
+          "label": "Scotch 4 Dummies"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gwwyORakLbA",
+          "label": "James Ashbourne"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2zYAzFmnoDs",
+          "label": "Catandocongusto"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6mTW7lu0pn8",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=L3nhn0D5wWw",
+          "label": "Clan de Whiskeros"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3Tnrxmu_rTo",
+          "label": "【家飲み職人】せるじお"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BfkCM4w3JIY",
+          "label": "はっちばっちチャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FYkDcW2rRkM",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o1iOX6NEzkI",
+          "label": "はっちばっちチャンネル"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cK9nPH4vM7I",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tN0i8fJ6eVo",
+          "label": "Tierri Whisky"
         }
       ]
     },
@@ -15841,6 +16219,178 @@
       ]
     },
     {
+      "id": "glenkinchie-12-yo",
+      "slug": "glenkinchie-12-yo",
+      "name": "Glenkinchie 12 Year Old",
+      "distillery": {
+        "id": "glenkinchie",
+        "name": "Glenkinchie Distillery",
+        "name_es": "Glenkinchie",
+        "name_pt": "Glenkinchie",
+        "name_en": "Glenkinchie",
+        "name_ja": "グレンキンチ",
+        "name_fr": null
+      },
+      "description": "Whisky suave y elegante de la región de Lowlands, conocido como 'El Malt de Edimburgo'. En nariz ofrece aromas florales y herbosos, con notas de vainilla, manzana verde, cítricos y un toque cremoso. En boca es ligero y delicado, con notas de crema inglesa, miel, flores y un final seco y ligeramente especiado, ideal como aperitivo.",
+      "image": "/data/images/glenkinchie-12-yo.webp",
+      "origin": "scotland",
+      "region": "Lowlands",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Bourbon",
+      "distillery_id": "glenkinchie",
+      "insertion_order": 305,
+      "featured": false,
+      "name_pt": "Glenkinchie 12 Year Old",
+      "description_pt": "Whisky suave e elegante da região de Lowlands, conhecido como 'O Malt de Edimburgo'. No nariz oferece aromas florais e herbáceos, com notas de baunilha, maçã verde, cítricos e um toque cremoso. Em boca é leve e delicado, com notas de creme inglês, mel, flores e um final seco e levemente especiado, ideal como aperitivo.",
+      "name_en": "Glenkinchie 12 Year Old",
+      "description_en": "A smooth and elegant Lowland whisky, known as 'The Edinburgh Malt'. On the nose, floral and grassy aromas with notes of vanilla, green apple, citrus and a creamy touch. Light and delicate on the palate, with crème fraîche, honey, floral notes and a dry, slightly spicy finish — ideal as an aperitif.",
+      "name_ja": "グレンキンチ 12年",
+      "description_ja": "ローランズ産のスムーズでエレガントなウイスキー、『エディンバラのモルト』として知られる。ノーズにはバニラ、グリーンアップル、シトラス、クリーミーなトッチを含むフローラル＆グラッシーなアロマ。パレットは軽やかで繊細、クレーム・フランセ、ハニー、フローラルノート、ドライでわずかにスパイシーなフィニッシュ。アペリティフに最適。",
+      "name_fr": "Glenkinchie 12 Year Old",
+      "description_fr": "Un whisky des Lowlands doux et élégant, surnommé 'Le Malt d'Édimbourg'. Au nez, des arômes floraux et herbacés avec des notes de vanille, pomme verte, agrumes et une touche crémeuse. Léger et délicat en bouche, avec crème fraîche, miel, notes florales et une finale sèche et légèrement épicée — idéal en apéritif.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-P4s3kVWUrU",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1Ug0CBGQEXU",
+          "label": "thewhiskybothy"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aXHsYFQEPnw",
+          "label": "Whisky Riffs"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jYsmcWjLYpQ",
+          "label": "Erik Wait Whisky Studies"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8OhDEOzuPfs",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IXMZsmtJsU8",
+          "label": "Tito Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QxwA7V-S8Eo",
+          "label": "La Guia del Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TtGQQzWJLQ8",
+          "label": "Non solo whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5iOQILgShgA",
+          "label": "Whisky et Cie"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2jMZJFfIJa8",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NJJvacw3hi8",
+          "label": "村田祥一"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ljKOrISd_Cs",
+          "label": "もっさんハイボール倶楽部"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pJm_Er_mgkg",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9aluNcjxcCc",
+          "label": "WhiskyBrasil.com"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e9sbOoOQO6g",
+          "label": "Mapa do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=neNHntQSQ1g",
+          "label": "Destilados Brasil"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=x3yRhKoI-Xw",
+          "label": "Whisky Capital | Gustavo Araujo"
+        }
+      ]
+    },
+    {
       "id": "glenmorangie-nectar-dor",
       "slug": "glenmorangie-nectar-dor",
       "name": "Glenmorangie Nectar d'Or",
@@ -16943,6 +17493,106 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=vEq3FV4iAUk",
           "label": "Porção dos Anjos Whisky"
+        }
+      ]
+    },
+    {
+      "id": "glenwyvis-single-malt",
+      "slug": "glenwyvis-single-malt",
+      "name": "GlenWyvis Single Malt",
+      "distillery": {
+        "id": "glenwyvis",
+        "name": "GlenWyvis Distillery",
+        "name_es": "GlenWyvis",
+        "name_pt": "GlenWyvis",
+        "name_en": "GlenWyvis",
+        "name_ja": "グレンウィヴィス",
+        "name_fr": null
+      },
+      "description": "Un single malt de las Tierras Altas escocesas con notas florales y afrutadas, destaca la pera, el sutil especiado y la dulzura malteada. Criado en una mezcla de barricas de vino, Moscatel y Marsala, ofrece un acabado complejo con chocolate oscuro y especias cálidas. Un destilado joven pero elegante, elaborado con cebada local y energía 100% renovable.",
+      "image": "/data/images/glenwyvis-single-malt.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46.5,
+      "cask": "Mixed",
+      "distillery_id": "glenwyvis",
+      "insertion_order": 301,
+      "featured": false,
+      "name_pt": "GlenWyvis Single Malt",
+      "description_pt": "Um single malt das Terras Altas da Escócia com notas florais e frutadas, destacando a pera, o sutil especiado e a doçura maltada. Criado em uma mistura de barris de vinho, Moscatel e Marsala, oferece um acabamento complexo com chocolate escuro e especiarias quentes. Um destilado jovem mas elegante, produzido com cevada local e energia 100% renovável.",
+      "name_en": "GlenWyvis Single Malt",
+      "description_en": "A Highland single malt from Dingwall, Scotland, with floral and fruity notes of pear, subtle spice and malty sweetness. Matured in a mix of wine, Moscatel and Marsala casks, it offers a complex finish of dark chocolate and warm spices. A young yet elegant spirit, crafted with local barley and 100% renewable energy.",
+      "name_ja": "グレンウィヴィス シングルモルト",
+      "description_ja": "ディンウォール産のハイランドシングルモルト。洋梨、控えめなスパイス、麦芽の甘みのフローラル＆フルーティーノート。ワイン、モスカテル、マルサラ樽のブレンドで熟成し、ダークチョコレートとウォームスパイスの複雑なフィニッシュ。地元麦芽と100%再生可能エネルギーで醸造された若くもエレガントなスピリット。",
+      "name_fr": "GlenWyvis Single Malt",
+      "description_fr": "Un single malt des Highlands de Dingwall, en Écosse, aux notes florales et fruitées de poire, d'épices subtiles et de douceur maltée. Vieilli en mélange de fûts de vin, Moscatel et Marsala, il offre une finale complexe de chocolat noir et d'épices chaudes. Un spiritueux jeune mais élégant, élaboré avec de l'orge locale et 100 % d'énergie renouvelable.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2rFSiLmY5E0",
+          "label": "The Grail"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9T07xGNseCs",
+          "label": "The Spirit Specialist"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JTPYxm38V_s",
+          "label": "Malt Mariners"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uyJf4NBB6TY",
+          "label": "Whisky Lock"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EJyCjQ0cBUg",
+          "label": "ひとくちウイスキー"
         }
       ]
     },

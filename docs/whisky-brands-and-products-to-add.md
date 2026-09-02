@@ -175,14 +175,14 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Glen Deveron 10 YO - Macduff
 ✅ Nc'nean Organic Single Malt - Nc'nean
 ✅ Ardnamurchan AD Single Malt - Ardnamurchan
-GlenWyvis Single Malt - GlenWyvis
+✅ GlenWyvis Single Malt - GlenWyvis
 
 ## Scotland — Lowlands
 
-Auchentoshan Three Wood - Auchentoshan
-Auchentoshan American Oak - Auchentoshan
-Auchentoshan 18 YO - Auchentoshan
-Glenkinchie 12 YO - Glenkinchie
+✅ Auchentoshan Three Wood - Auchentoshan
+✅ Auchentoshan American Oak - Auchentoshan
+✅ Auchentoshan 18 YO - Auchentoshan
+✅ Glenkinchie 12 YO - Glenkinchie
 Bladnoch 11 YO - Bladnoch
 Kingsbarns Dream to Dram - Kingsbarns
 Lindores Abbey MCDXCIV - Lindores Abbey
