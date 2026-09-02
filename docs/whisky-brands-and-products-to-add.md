@@ -155,11 +155,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Ben Nevis 10 YO - Ben Nevis
 ✅ Deanston 12 YO - Deanston
 ✅ Deanston Virgin Oak - Deanston
-Edradour 10 YO - Edradour
-Edradour Caledonia - Edradour
-Glen Garioch Founder's Reserve - Glen Garioch
-Glen Garioch 12 YO - Glen Garioch
-Glenglassaugh Sandend - Glenglassaugh
+✅ Edradour 10 YO - Edradour
+✅ Edradour Caledonia - Edradour
+✅ Glen Garioch Founder's Reserve - Glen Garioch
+✅ Glen Garioch 12 YO - Glen Garioch
+✅ Glenglassaugh Sandend - Glenglassaugh
 Glenglassaugh Portsoy - Glenglassaugh
 Glendronach 12 YO Original - Glendronach
 Glendronach 15 YO Revival - Glendronach

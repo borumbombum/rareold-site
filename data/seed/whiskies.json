@@ -27745,6 +27745,421 @@
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
+    },
+    {
+      "id": "edradour-10-yo",
+      "slug": "edradour-10-yo",
+      "name": "Edradour 10 YO",
+      "description": "Single malt de las Tierras Altas elaborado a mano en la destilería tradicional más pequeña de Escocia. Madurado íntegramente en barricas de jerez Oloroso en primer y segundo uso, sin filtración en frío y sin colorantes, a 46% ABV. Aromas profundos de frutas secas, pasas, toffee rico y roble a nuez; paladar pleno con pasas sultanas, melaza, cebada malteada y bizcocho de frutas empapado en jerez; final largo y cálido con riqueza a jerez y suave especia.",
+      "image": "/data/images/edradour-10-yo.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Sherry",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "edradour",
+      "name_pt": "Edradour 10 YO",
+      "description_pt": "Single malt das Terras Altas feito à mão na menor destilaria tradicional da Escócia. Totalmente amadurecido em barris de xerez Oloroso de primeiro e segundo uso, sem filtração a frio e sem corantes, a 46% ABV. Aromas profundos de frutas secas, passas, toffee rico e carvalho de nozes; paladar pleno com passas sultanas, melaço, malte de cevada e bolo de frutas embebido em xerez; final longo e quente com riqueza de xerez e especiarias suaves.",
+      "name_en": "Edradour 10 YO",
+      "description_en": "A Highlands single malt handcrafted at Scotland's smallest traditional distillery. Matured entirely in first and second-fill Oloroso sherry casks, unchill-filtered and natural colour at 46% ABV. Deep aromas of dried fruits, raisins, rich toffee and nutty oak; full palate of sultanas, treacle, malted barley and sherry-soaked fruitcake; long, warming finish with lingering sherry richness and gentle spice.",
+      "name_ja": "エドラダワー 10年",
+      "description_ja": "スコットランド最小の伝統蒸留所で手作りされるハイランドシングルモルト。ファースト/セカンドフィルのオロロソ・シェリー樽で全熟成され、ノンチルフィルター、天然色、46%で瓶詰め。ドライフルーツ、レーズン、リッチなトフィー、ナッツのオーク香。サルタナ、糖蜜、麦芽、シェリー染みのフルーツケーキ風味のフルな味わい。シェリーの豊かさと穏やかなスパイスの長く温かい余韻。",
+      "name_fr": "Edradour 10 YO",
+      "description_fr": "Un single malt des Highlands façonné à la main dans la plus petite distillerie traditionnelle d'Écosse. Entièrement vieilli en fûts de sherry Oloroso de premier et second remplissage, non filtré à froid et sans colorant, à 46% ABV. Arômes profonds de fruits secs, raisins secs, toffee riche et chêne noiseté ; palais plein de sultanes, de mélasse, d'orge maltée et de cake aux fruits imbibé de sherry ; finale longue et chaleureuse avec une richesse de sherry et une épice douce.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pzSRKJlSMcE",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8aBlXYWHnmw",
+          "label": "Scotch 4 Dummies",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9zEOQOu_LCU",
+          "label": "Know Your Drams",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WYIkOPezZrw",
+          "label": "Whisky Neighbour",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UZG4MzNikX8",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WMqUN0JI6Lc",
+          "label": "Nehomar Hernández",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sIYhQzCj85k",
+          "label": "Whisky Capital",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y8ajpdN-jpo",
+          "label": "Porção dos Anjos Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HSd5I2XjFPc",
+          "label": "はっちばっちチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=erIwQl8JAKU",
+          "label": "BAR MAR駆け出しバーテンダー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kI_Ou7PiXmc",
+          "label": "Spirituosités",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OK_rGOjp3ek",
+          "label": "La Maison du Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "edradour-caledonia",
+      "slug": "edradour-caledonia",
+      "name": "Edradour Caledonia",
+      "description": "Edición especial de Edradour, seleccionada por el compositor escocés Dougie MacLean y nombrada en honor a su famosa canción Caledonia. Madurado inicialmente en barricas de bourbon y terminado durante 4-5 años en jerez Oloroso, sin filtración en frío y a 46% ABV. Nariz de miel, sultanas, higos dulces y riqueza a jerez; paladar de almendras tostadas, ralladura de naranja, cálidas especias y pastel navideño; final sorprendentemente seco con fruta y especia.",
+      "image": "/data/images/edradour-caledonia.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Sherry",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "edradour",
+      "name_pt": "Edradour Caledonia",
+      "description_pt": "Edição especial da Edradour, selecionada pelo compositor escocês Dougie MacLean e batizada em homenagem à sua famosa canção Caledonia. Amadurecido inicialmente em barris de bourbon e terminado por 4-5 anos em xerez Oloroso, sem filtração a frio e a 46% ABV. Nariz de mel, sultanas, figos doces e riqueza de xerez; paladar de amêndoas torradas, casca de laranja, especiarias quentes e bolo de Natal; final surpreendentemente seco com fruta e especiarias.",
+      "name_en": "Edradour Caledonia",
+      "description_en": "A special Edradour release selected by Scottish songwriter Dougie MacLean and named after his famous song Caledonia. Initially matured in bourbon casks and finished for 4-5 years in Oloroso sherry, unchill-filtered at 46% ABV. Nose of honey, sultanas, sweet figs and raisiny sherry richness; palate of toasted almonds, orange zest, warming spices and Christmas cake; surprisingly dry finish with fruit and spice.",
+      "name_ja": "エドラダワー カレドニア",
+      "description_ja": "スコットランドのソングライター、ドゥギー・マクレーンが選んだ特別なエドラダワーで、彼の有名な曲「カレドニア」にちなんで名付けられた。バーボン樽で熟成後、オロロソ・シェリーで4〜5年間フィニッシュ。ノンチルフィルター、46%。蜂蜜、サルタナ、甘いイチジク、レーズンのシェリー感のある香り。トーストしたアーモンド、オレンジピール、温かいスパイス、クリスマスケーキの味わい。驚くほどドライな果実とスパイスの余韻。",
+      "name_fr": "Edradour Caledonia",
+      "description_fr": "Une édition spéciale d'Edradour sélectionnée par l'auteur-compositeur écossais Dougie MacLean et nommée d'après sa célèbre chanson Caledonia. Vieilli d'abord en fûts de bourbon puis affiné 4-5 ans en sherry Oloroso, non filtré à froid à 46% ABV. Nez de miel, sultanes, figues douces et richesse de sherry ; palais d'amandes grillées, de zeste d'orange, d'épices chaleureuses et de cake de Noël ; finale étonnamment sèche avec des fruits et des épices.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3Fg-KEMIlGg",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZgTLWwYVWtA",
+          "label": "The Whiskey Novice",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ROXwFEWCih0",
+          "label": "the whisky friend",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EnEiKyYIYFQ",
+          "label": "Scotch Down Under",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=G_tB1QszE2o",
+          "label": "Tito Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O-4k0VYVRcs",
+          "label": "Whisky o Muerte",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cPDZ4OfidOM",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qGOezcjwM4c",
+          "label": "Bebendo Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YKbYvG7iJ8Y",
+          "label": "繊月レシピチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-KTcJbUZt1I",
+          "label": "Gwhisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "glen-garioch-founders-reserve",
+      "slug": "glen-garioch-founders-reserve",
+      "name": "Glen Garioch Founder's Reserve",
+      "description": "El whisky esencial de Glen Garioch, que celebra a los hermanos Manson que fundaron la destilería en 1797 y los más de 200 años de artesanía. Sin declaración de edad, no filtrado en frío y embotellado al 48% ABV, combinando barricas de bourbon y jerez. Nariz de vainilla dulce, pomelo, manzana verde y especia sutil; paladar mantecoso y cremoso que lleva a vainilla, manzana verde y notas cítricas; final tan elegante como sutil con dulzura a miel y un toque de brezo.",
+      "image": "/data/images/glen-garioch-founders-reserve.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 48,
+      "cask": "Mixed",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "glen-garioch",
+      "name_pt": "Glen Garioch Founder's Reserve",
+      "description_pt": "O whisky essencial da Glen Garioch, que celebra os irmãos Manson que fundaram a destilaria em 1797 e os mais de 200 anos de artesanato. Sem declaração de idade, sem filtração a frio e engarrafado a 48% ABV, combinando barris de bourbon e xerez. Nariz de baunilha doce, toranja, maçã verde e especiaria sutil; paladar amanteigado e cremoso que leva a baunilha, maçã verde e notas cítricas; final elegante e sutil com doçura de mel e um toque de urze.",
+      "name_en": "Glen Garioch Founder's Reserve",
+      "description_en": "The quintessential Glen Garioch, celebrating the Manson brothers who founded the distillery in 1797 and 200+ years of craftsmanship. Non-age statement, non-chill-filtered and bottled at 48% ABV, marrying bourbon and sherry casks. Nose of sweet vanilla, grapefruit, green apple and subtle spice; buttery creamy palate leading to vanilla, green apple and citrus notes; subtle, elegant finish with honey sweetness, hints of heather and a touch of spice.",
+      "name_ja": "グレンガリオック ファウンダーズリザーブ",
+      "description_ja": "1797年に蒸留所を創業したマンソン兄弟と200年以上の職人技を称える、グレンガリオックの真髄。エイジステートメントなし、ノンチルフィルター、48%で瓶詰め。バーボン樽とシェリー樽を掛け合わせている。甘いバニラ、グレープフルーツ、青リンゴ、ほのかなスパイスの香り。バターのようにクリーミーで、バニラ、青リンゴ、柑橘へと続く味わい。蜂蜜の甘みとヘザーのヒント、ほのかなスパイスを伴う上品で繊細な余韻。",
+      "name_fr": "Glen Garioch Founder's Reserve",
+      "description_fr": "Le whisky quintessentiel de Glen Garioch, célébrant les frères Manson qui ont fondé la distillerie en 1797 et plus de 200 ans de savoir-faire. Sans mention d'âge, non filtré à froid et embouteillé à 48% ABV, mariant des fûts de bourbon et de sherry. Nez de vanille douce, pamplemousse, pomme verte et épice subtile ; palais beurré et crémeux menant à la vanille, à la pomme verte et à des notes d'agrumes ; finale subtile et élégante avec une douceur de miel, des notes de bruyère et une touche d'épice.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o0j3DIF2ZZU",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GY1jH6PFBG0",
+          "label": "A Dram A Day",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yn-j-SkiVag",
+          "label": "Whisky Whistle",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ShW9SSSAKmA",
+          "label": "The Whisky Scout",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jTS9HgkWYU8",
+          "label": "HABLANDO DE WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=C-SMPVblThc",
+          "label": "foodquig",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "glen-garioch-12-yo",
+      "slug": "glen-garioch-12-yo",
+      "name": "Glen Garioch 12 YO",
+      "description": "El 12 year old de Glen Garioch, elaborado a mano desde 1797, sin filtración en frío y embotellado al 48% ABV. Su carácter distintivo de las Tierras Altas proviene de un clásico matrimonio de barricas de bourbon y jerez: predominantemente roble americano ex-bourbon con una pequeña porción de jerez Oloroso. Nariz floral con brezo equilibrado por peras escalfadas y cebada dulce y malteada; paladar cremoso de crème brûlée y plátano maduro con ligero roble; final largo, suave y fragante.",
+      "image": "/data/images/glen-garioch-12-yo.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 48,
+      "cask": "Mixed",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "glen-garioch",
+      "name_pt": "Glen Garioch 12 YO",
+      "description_pt": "O 12 year old da Glen Garioch, feito à mão desde 1797, sem filtração a frio e engarrafado a 48% ABV. Seu caráter distintivo das Terras Altas vem de um clássico casamento de barris de bourbon e xerez: predominantemente carvalho americano ex-bourbon com uma pequena porção de xerez Oloroso. Nariz floral com urze equilibrado por peras escaldadas e cevada doce e maltada; paladar cremoso de crème brûlée e banana madura com leve carvalho; final longo, suave e fragrante.",
+      "name_en": "Glen Garioch 12 YO",
+      "description_en": "Glen Garioch's 12 year old, handcrafted since 1797, non-chill-filtered and bottled at 48% ABV. Its distinctive Highland character comes from a classic bourbon and sherry cask marriage: predominantly American oak ex-bourbon barrels with a small portion of Oloroso sherry. Heathery floral nose balanced by poached pears and sweet malted barley; creamy palate of crème brûlée and ripe banana with light oakiness; long, smooth, fragrant finish.",
+      "name_ja": "グレンガリオック 12年",
+      "description_ja": "1797年以来、手作りで造られるグレンガリオックの12年。ノンチルフィルター、48%で瓶詰め。バーボン樽とシェリー樽の古典的な組み合わせ、主にアメリカンオークのバーボン樽に少量のオロロソ・シェリー樽をブレンドしたハイランドらしい個性。ヘザーの花の香りをポーチドペアと甘い麦芽がバランス。クレームブリュレと熟したバナナ、軽いオーク感のあるクリーミーな味わい。長く滑らかで香り高い余韻。",
+      "name_fr": "Glen Garioch 12 YO",
+      "description_fr": "Le 12 ans de Glen Garioch, façonné à la main depuis 1797, non filtré à froid et embouteillé à 48% ABV. Son caractère distinctif des Highlands provient d'un mariage classique de fûts de bourbon et de sherry : principalement des fûts de chêne américain ayant contenu du bourbon avec une petite portion de sherry Oloroso. Nez floral de bruyère équilibré par des poires pochées et une orge maltée douce ; palais crémeux de crème brûlée et de banane mûre avec une légère note de chêne ; finale longue, douce et parfumée.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MAwfPWsgIAM",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8BnOPeoeKpE",
+          "label": "Whisky Riffs",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bVRXkbo7DLE",
+          "label": "Whisky Neighbour",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6lVjQwZ59rI",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=B3FSbm1Qu_k",
+          "label": "Bebendo Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yNYsIF8n_Jo",
+          "label": "俺のモルト",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rFkiNlmCRCM",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "glenglassaugh-sandend",
+      "slug": "glenglassaugh-sandend",
+      "name": "Glenglassaugh Sandend",
+      "description": "La expresión más plena de Glenglassaugh, inspirada en la playa en cuña de la bahía de Sandend donde se asienta la destilería. Madurado en barricas de bourbon, jerez y manzanilla, sin declaración de edad y embotellado al 50.5% ABV. Nariz de helado de vainilla mantecoso, frutas tropicales, chocolate y un toque de sal marina; paladar con olas de caramelo salado, piña, cereza y pomelo; final con brisa oceánica.",
+      "image": "/data/images/glenglassaugh-sandend.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 50.5,
+      "cask": "Mixed",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "glenglassaugh",
+      "name_pt": "Glenglassaugh Sandend",
+      "description_pt": "A expressão mais lusciosa da Glenglassaugh, inspirada na praia em crescente da baía de Sandend onde fica a destilaria. Amadurecido em barris de bourbon, xerez e manzanilla, sem declaração de idade e engarrafado a 50.5% ABV. Nariz de sorvete de baunilha amanteigado, frutas tropicais, chocolate e um toque de sal marinho; paladar com ondas de caramelo salgado, abacaxi, cereja e toranja; final com brisa oceânica.",
+      "name_en": "Glenglassaugh Sandend",
+      "description_en": "Glenglassaugh's most luscious expression, inspired by the crescent beach of Sandend Bay where the distillery resides. Matured in bourbon, sherry and manzanilla casks, non-age statement and bottled at 50.5% ABV. Nose of buttery vanilla ice cream, tropical fruit, chocolate and a touch of sea salt; palate of waves of salted caramel, pineapple, cherry and grapefruit; ocean-breeze finish.",
+      "name_ja": "グレングラッサ サンデンド",
+      "description_ja": "蒸留所が佇むサンデンド湾の三日月形のビーチに着想を得た、グレングラッサで最も豊かな味わいの表現。バーボン、シェリー、マンサニージャ樽で熟成。エイジステートメントなし、50.5%で瓶詰め。バターのようなバニラアイス、トロピカルフルーツ、チョコレート、ほんのりした海塩の香り。塩味キャラメルの波、パイナップル、チェリー、グレープフルーツの味わい。海風のような余韻。",
+      "name_fr": "Glenglassaugh Sandend",
+      "description_fr": "L'expression la plus luxuriante de Glenglassaugh, inspirée de la plage en croissant de la baie de Sandend où réside la distillerie. Vieilli en fûts de bourbon, de sherry et de manzanilla, sans mention d'âge et embouteillé à 50.5% ABV. Nez de glace à la vanille beurrée, de fruits tropicaux, de chocolat et une touche de sel marin ; palais de vagues de caramel salé, d'ananas, de cerise et de pamplemousse ; finale de brise océanique.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oWCLVvczPIY",
+          "label": "Whisky Whistle",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y4PqFi-Mc94",
+          "label": "WhiskyJason",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QFOdIT36_30",
+          "label": "Sippers Social Club",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qX005lIGzjA",
+          "label": "Scotch Test Dummies",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6K3ls_roRD8",
+          "label": "Eau-de-Vie",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     }
   ]
 }
