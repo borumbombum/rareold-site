@@ -165,11 +165,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Glendronach 15 YO Revival - Glendronach
 ✅ Glendronach 18 YO Allardice - Glendronach
 ✅ Clynelish 14 YO - Clynelish
-Royal Lochnagar 12 YO - Royal Lochnagar
-Royal Brackla 12 YO - Royal Brackla
-Blair Athol 12 YO - Blair Athol
-Loch Lomond Original - Loch Lomond
-Inchmurrin 12 YO - Loch Lomond
+✅ Royal Lochnagar 12 YO - Royal Lochnagar
+✅ Royal Brackla 12 YO - Royal Brackla
+✅ Blair Athol 12 YO - Blair Athol
+✅ Loch Lomond Original - Loch Lomond
+✅ Inchmurrin 12 YO - Loch Lomond
 Tullibardine Sovereign - Tullibardine
 Tullibardine 225 Sauternes Finish - Tullibardine
 Glen Deveron 10 YO - Macduff

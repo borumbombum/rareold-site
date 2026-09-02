@@ -3626,6 +3626,34 @@
     "label": "The Malted Man Cave"
   },
   {
+    "product_id": "blair-athol-12",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ZVXp61bl5bU",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "blair-athol-12",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=NFdzr5EgQ54",
+    "label": "Whisky o Muerte"
+  },
+  {
+    "product_id": "blair-athol-12",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=KYicAwIgTdY",
+    "label": "Gwhisky"
+  },
+  {
+    "product_id": "blair-athol-12",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5MtEyJp9Ido",
+    "label": "ひとくちウイスキー"
+  },
+  {
     "product_id": "bowmore-12-yo",
     "language": "en",
     "platform": "youtube",
@@ -10479,6 +10507,41 @@
     "label": "Degustação copo à copo. HIGHLAND PARK vs EDRADOUR. Cask Strength X Cask Strength."
   },
   {
+    "product_id": "inchmurrin-12",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TXQWzht_T5U",
+    "label": "No Nonsense Whisky"
+  },
+  {
+    "product_id": "inchmurrin-12",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-9Hk_qa7EqI",
+    "label": "Whisky o Muerte"
+  },
+  {
+    "product_id": "inchmurrin-12",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kRuJCrA9Am4",
+    "label": "Whisky Lovers Society"
+  },
+  {
+    "product_id": "inchmurrin-12",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=HFBaKA6ZvBA",
+    "label": "りょちの家"
+  },
+  {
+    "product_id": "inchmurrin-12",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=6qoH9p41nSE",
+    "label": "Porção dos Anjos Whisky"
+  },
+  {
     "product_id": "indri-trini",
     "language": "en",
     "platform": "youtube",
@@ -13965,6 +14028,34 @@
     "label": "ひとくちウイスキー — リンクウッド12年（ストレート）"
   },
   {
+    "product_id": "loch-lomond-original",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=EkXLuh-uPMc",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "loch-lomond-original",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=12kqUoWEncE",
+    "label": "Tito Whisky"
+  },
+  {
+    "product_id": "loch-lomond-original",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=x24Pdq24VuI",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "loch-lomond-original",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Enz8XpWzi_E",
+    "label": "Porção dos Anjos Whisky"
+  },
+  {
     "product_id": "longmorn-distillers-choice",
     "language": "en",
     "platform": "youtube",
@@ -15657,6 +15748,55 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=Y4dXX2MCeAg",
     "label": "Trenny and C"
+  },
+  {
+    "product_id": "royal-brackla-12",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5HGiIyTGF_4",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "royal-brackla-12",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=IzqpDrnK39A",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "royal-brackla-12",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VlO7zYPE8yw",
+    "label": "pour1malt"
+  },
+  {
+    "product_id": "royal-brackla-12",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7h-sK3TpUBI",
+    "label": "Whisky Roundup"
+  },
+  {
+    "product_id": "royal-brackla-12",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=fO_dCgNR7_0",
+    "label": "Bebendo Whisky"
+  },
+  {
+    "product_id": "royal-lochnagar-12",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=yeTx2lcina4",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "royal-lochnagar-12",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=PXFOm31ySYs",
+    "label": "CH.ウイスキー"
   },
   {
     "product_id": "royal-salute-21-yo-peated-blend",
