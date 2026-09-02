@@ -170,11 +170,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Blair Athol 12 YO - Blair Athol
 ✅ Loch Lomond Original - Loch Lomond
 ✅ Inchmurrin 12 YO - Loch Lomond
-Tullibardine Sovereign - Tullibardine
-Tullibardine 225 Sauternes Finish - Tullibardine
-Glen Deveron 10 YO - Macduff
-Nc'nean Organic Single Malt - Nc'nean
-Ardnamurchan AD Single Malt - Ardnamurchan
+✅ Tullibardine Sovereign - Tullibardine
+✅ Tullibardine 225 Sauternes Finish - Tullibardine
+✅ Glen Deveron 10 YO - Macduff
+✅ Nc'nean Organic Single Malt - Nc'nean
+✅ Ardnamurchan AD Single Malt - Ardnamurchan
 GlenWyvis Single Malt - GlenWyvis
 
 ## Scotland — Lowlands

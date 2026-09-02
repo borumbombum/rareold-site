@@ -2198,6 +2198,34 @@
     "label": "Tierri Whisky"
   },
   {
+    "product_id": "ardnamurchan-ad-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=rqsKnRPQxCg",
+    "label": "Whisky Whereabouts"
+  },
+  {
+    "product_id": "ardnamurchan-ad-single-malt",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-HapX9m34uI",
+    "label": "HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "ardnamurchan-ad-single-malt",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=MMNX-NaeQHY",
+    "label": "Whisky et Cie"
+  },
+  {
+    "product_id": "ardnamurchan-ad-single-malt",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bXDq8ZoEqXg",
+    "label": "ウイスキー専門TEN"
+  },
+  {
     "product_id": "arran-10-yo",
     "language": "en",
     "platform": "youtube",
@@ -6921,6 +6949,13 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=BhKg8vwcvbs",
     "label": "Whisky Review: ESPECIAL de Natal. 23/12 FETTERCAIRN 12 anos!!!!!"
+  },
+  {
+    "product_id": "glen-deveron-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Y0X5FtG0DBI",
+    "label": "Whisky.com"
   },
   {
     "product_id": "glen-elgin-12-yo",
@@ -14315,6 +14350,27 @@
     "label": "宅飲みバーTakeo — レビュー"
   },
   {
+    "product_id": "ncnean-organic-single-malt",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VnAPCRIPMos",
+    "label": "Whiskey Vault"
+  },
+  {
+    "product_id": "ncnean-organic-single-malt",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=4teULs4x0rs",
+    "label": "Spirituosités"
+  },
+  {
+    "product_id": "ncnean-organic-single-malt",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2ElPcHdEZc8",
+    "label": "ひとくちウイスキー"
+  },
+  {
     "product_id": "oban-14-year-old",
     "language": "en",
     "platform": "youtube",
@@ -18709,6 +18765,55 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=mHCl-PIVzVs",
     "label": "WhiskyJason Tormore 14 vs 16"
+  },
+  {
+    "product_id": "tullibardine-225-sauternes-finish",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=eTueuLQ4hao",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "tullibardine-225-sauternes-finish",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bdU9-5ukMRw",
+    "label": "Spirituosités"
+  },
+  {
+    "product_id": "tullibardine-225-sauternes-finish",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=RBpqbTVDA30",
+    "label": "笑って学ぶBAR - ピエールほろ酔い大学"
+  },
+  {
+    "product_id": "tullibardine-225-sauternes-finish",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=GGev-8WTJ6I",
+    "label": "Porção dos Anjos Whisky"
+  },
+  {
+    "product_id": "tullibardine-sovereign",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9B5__72GuUA",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "tullibardine-sovereign",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=fY1wUHLaSiY",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "tullibardine-sovereign",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cfLQs1f2YQY",
+    "label": "Porção dos Anjos Whisky"
   },
   {
     "product_id": "vat-69",

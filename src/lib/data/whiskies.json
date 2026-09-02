@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-02T13:22:38.708Z",
+  "generatedAt": "2026-09-02T18:05:10.761Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -3847,6 +3847,100 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Xd6-yv_X0eE",
           "label": "Tierri Whisky"
+        }
+      ]
+    },
+    {
+      "id": "ardnamurchan-ad-single-malt",
+      "slug": "ardnamurchan-ad-single-malt",
+      "name": "Ardnamurchan AD Single Malt",
+      "distillery": {
+        "id": "ardnamurchan",
+        "name": "Ardnamurchan",
+        "name_es": "Ardnamurchan",
+        "name_pt": "Ardnamurchan",
+        "name_en": "Ardnamurchan",
+        "name_ja": "アードナムルッカン",
+        "name_fr": "Ardnamurchan"
+      },
+      "description": "El Ardnamurchan AD es un single malt de las Tierras Altas escocesas, producido en la destilería Ardnamurchan, ubicada en el remoto península de Ardnamurchan en la costa oeste de Escócia. Este whisky combina un 50% de malta sin turba y un 50% de malta turba, madurado en una mezcla de barriles de bourbon (65%) y jerez (35%). Con notas de frutas de huerto, piedras mojadas, conchas de ostras y eucalipto en la nariz, y hojas de tabaco, pimienta, sal y heno en el paladar, ofrece un final costero con spray de mar y una hoguera en la playa.",
+      "image": "/data/images/ardnamurchan-ad-single-malt.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "70.0",
+      "abv": 46.8,
+      "cask": "Bourbon & Sherry",
+      "distillery_id": "ardnamurchan",
+      "insertion_order": 300,
+      "featured": false,
+      "name_pt": "Ardnamurchan AD Single Malt",
+      "description_pt": "O Ardnamurchan AD é um single malt das Terras Altas da Escócia, produzido na destilaria Ardnamurchan, localizada na remota península de Ardnamurchan na costa oeste da Escócia. Este whisky combina 55% de malta sem turfa e 50% de malta turfa, maturado em uma mistura de barris de bourbon (65%) e xerez (35%). Com notas de frutas de quintal, pedras molhadas, conchas de ostras e eucalipto no nariz, e folhas de tabaco, pimenta, sal e feno no paladar, oferece um final costeiro com spray marinho e uma fogueira na praia.",
+      "name_en": "Ardnamurchan AD Single Malt",
+      "description_en": "Ardnamurchan AD is a Highland single malt Scotch whisky produced at the Ardnamurchan distillery, located on the remote Ardnamurchan peninsula on Scotland's west coast. This whisky combines 50% unpeated and 50% peated malt, matured in a mix of bourbon (65%) and sherry (35%) casks. With notes of orchard fruit, wet pebbles, oyster shells and eucalyptus on the nose, and tobacco leaves, peppercorns, brine and hay on the palate, it finishes with coastal sea spray and bonfire on the beach.",
+      "name_ja": "アードナムル칸 AD シングルモルト",
+      "description_ja": "アードナムル칸ADは、スコットランド西海岸のremoteなアードナムル칸半島にあるアードナムル칸蒸留所で製造されるハイランド・シングルモルト。ピート无し麦芽50%とピート麦芽50%を配合し、バーボン樽（65%）とシェリー樽（35%）の組み合わせで熟成。果樹園のフルーツ、濡れた小石、牡蠣の殻、ユーカリの鼻わき、タバコの葉、胡椒、ブリン、ヘーのパレット、沿岸の海のスプレーとビーチの焚き火のフィニッシュ。",
+      "name_fr": "Ardnamurchan AD Single Malt",
+      "description_fr": "L'Ardnamurchan AD est un single malt des Highlands produit à la distillerie Ardnamurchan, située sur la lointaine péninsule d'Ardnamurchan sur la côte ouest de l'Écosse. Ce whisky combine 50% de malt sans tourbe et 50% de malt tourbé, vieilli en un mélange de fûts de bourbon (65%) et de xérès (35%). Aux notes de fruits de verger, cailloux mouillés, coquilles d'huîtres et eucalyptus au nez, et feuilles de tabac, poivrons, saun et foin en bouche, il se termine par un vaporisateur marin costier et un feu de plage.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rqsKnRPQxCg",
+          "label": "Whisky Whereabouts"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-HapX9m34uI",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MMNX-NaeQHY",
+          "label": "Whisky et Cie"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bXDq8ZoEqXg",
+          "label": "ウイスキー専門TEN"
         }
       ]
     },
@@ -11705,6 +11799,82 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=BhKg8vwcvbs",
           "label": "Whisky Review: ESPECIAL de Natal. 23/12 FETTERCAIRN 12 anos!!!!!"
+        }
+      ]
+    },
+    {
+      "id": "glen-deveron-10-yo",
+      "slug": "glen-deveron-10-yo",
+      "name": "Glen Deveron 10 YO",
+      "distillery": {
+        "id": "macduff",
+        "name": "Macduff",
+        "name_es": "Macduff",
+        "name_pt": "Macduff",
+        "name_en": "Macduff",
+        "name_ja": "マクダフ",
+        "name_fr": "Macduff"
+      },
+      "description": "El Glen Deveron 10 años es un single malt de las Tierras Altas escocesas, producido en la destilería Macduff (también conocida como Glen Deveron), ubicada en la costa noreste de Escocia. Este whisky se destila en alambics de cobre de forma característica y se madura en una combinación de barriles de roble americano y europeos. Con notas de miel, vainilla, frutas de hueso y un toque salino, ofrece un paladar suave y afrutado con un final limpio y ligeramente amargo.",
+      "image": "/data/images/glen-deveron-10-yo.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 10,
+      "volume": "70.0",
+      "abv": 40,
+      "cask": "American & European Oak",
+      "distillery_id": "macduff",
+      "insertion_order": 298,
+      "featured": false,
+      "name_pt": "Glen Deveron 10 YO",
+      "description_pt": "O Glen Deveron 10 anos é um single malt das Terras Altas da Escócia, produzido na destilaria Macduff (também conhecida como Glen Deveron), localizada na costa nordeste da Escócia. Este whisky é destilado em alambiques de cobre de forma característica e maturado em uma combinação de barris de carvalho americano e europeu. Com notas de mel, baunilha, frutas de caroço e um toque salino, oferece um paladar suave e frutado com um final limpo e ligeiramente amargo.",
+      "name_en": "Glen Deveron 10 YO",
+      "description_en": "Glen Deveron 10 Year Old is a Highland single malt Scotch whisky produced at the Macduff distillery (also known as Glen Deveron), located on the northeast coast of Scotland. The spirit is distilled in distinctive copper pot stills and matured in a combination of American and European oak casks. With notes of honey, vanilla, stone fruit and a hint of salinity, it delivers a smooth, fruity palate with a clean, slightly bitter finish.",
+      "name_ja": "グレンデヴォロン 10年",
+      "description_ja": "グレンデヴォロン10年は、スコットランド北東海岸にあるマクダフ蒸留所（グレンデヴォロンとも呼ばれる）で製造されるハイランド・シングルモルト。特徴的な銅製ポットスチルで蒸留され、アメリカンオークとユーロピアンオークの樽の組み合わせで熟成。ハチミツ、バニラ、ストーンフルーツ、ほんのりとした塩気があり、スムーズでフルーティなパレット、クリーンでほんのり苦いフィニッシュを提供します。",
+      "name_fr": "Glen Deveron 10 YO",
+      "description_fr": "Le Glen Deveron 10 ans est un single malt des Highlands produit à la distillerie Macduff (également connue sous le nom de Glen Deveron), située sur la côte nord-est de l'Écosse. Le spiritueux est distillé dans des alambics en cuivre caractéristiques et vieilli en une combinaison de fûts de chêne américain et européen. Aux notes de miel, vanille, fruits à noyau et une touche de salinité, il offre un palais doux et fruité avec une finale propre et légèrement amère.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y0X5FtG0DBI",
+          "label": "Whisky.com"
         }
       ]
     },
@@ -25235,6 +25405,94 @@
       ]
     },
     {
+      "id": "ncnean-organic-single-malt",
+      "slug": "ncnean-organic-single-malt",
+      "name": "Nc'nean Organic Single Malt",
+      "distillery": {
+        "id": "ncnean",
+        "name": "Nc'nean",
+        "name_es": "Nc'nean",
+        "name_pt": "Nc'nean",
+        "name_en": "Nc'nean",
+        "name_ja": "ンクニーアン",
+        "name_fr": "Nc'nean"
+      },
+      "description": "El Nc'nean Organic Single Malt es un single malt escocés orgánico, producido en la destilería Nc'nean, ubicada en la costa oeste de Escócia. Este whisky está elaborado con cebada orgánica escocesa y se destila en alambiques de cobre de forma suave para resaltar los sabores frutados delicados. Se madura en una combinación de barriles de vino tinto STR, barriles de whisky americano y una pequeña proporción de barriles de jerez. Con notas de limón, melocotón, albaricoque y especias, ofrece un paladar elegante y frutado con un final generoso y especiado.",
+      "image": "/data/images/ncnean-organic-single-malt.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "70.0",
+      "abv": 46,
+      "cask": "STR Red Wine & Ex-Bourbon",
+      "distillery_id": "ncnean",
+      "insertion_order": 299,
+      "featured": false,
+      "name_pt": "Nc'nean Organic Single Malt",
+      "description_pt": "O Nc'nean Organic Single Malt é um single malt escocês orgânico, produzido na destilaria Nc'nean, localizada na costa oeste da Escócia. Este whisky é elaborado com cevada orgânica escocesa e destilado em alambiques de cobre de forma suave para realçar os sabores frutados delicados. É maturado em uma combinação de barris de vinho tinto STR, barris de whisky americano e uma pequena proporção de barris de xerez. Com notas de limão, pêssego, damasco e especias, oferece um paladar elegante e frutado com um final generoso e especiado.",
+      "name_en": "Nc'nean Organic Single Malt",
+      "description_en": "Nc'nean Organic Single Malt is an organic Scottish single malt whisky produced at the Nc'nean distillery on the west coast of Scotland. Made from organic Scottish barley and gently distilled in copper pot stills to accentuate delicate fruity flavours, it is matured in a combination of STR red wine casks, American whiskey barrels and a small proportion of sherry casks. With notes of lemon, peach, apricot and spice, it delivers an elegant, fruity palate with a generous, spicy finish.",
+      "name_ja": "ノックニーアン オーガニック シングルモルト",
+      "description_ja": "ノックニーアンオーガニックシングルモルトは、スコットランド西海岸のノックニーアン蒸留所で製造されるオーガニック・スコッチ・シングルモルト。スコットランド産オーガニック大麦を使用し、繊細なフルーティな味わいを引き出すために銅製ポットスチルで穏やかに蒸留。STR赤ワイン樽、アメリカンウイスキー樽、少量のシェリー樽の組み合わせで熟成。レモン、ピーチ、アプリコット、スパイスのノートがあり、エレガントでフルーティなパレット、豊かでスパイシーなフィニッシュを提供します。",
+      "name_fr": "Nc'nean Organic Single Malt",
+      "description_fr": "Le Nc'nean Organic Single Malt est un single malt écossais biologique produit à la distillerie Nc'nean sur la côte ouest de l'Écosse. Fabriqué à partir d'orge biologique écossais et distillé doucement dans des alambics en cuivre pour accentuer les saveurs fruitées délicates, il est vieilli en une combinaison de fûts de vin rouge STR, de barils de whisky américain et d'une petite proportion de fûts de xérès. Aux notes de citron, pêche, abricot et épices, il offre un palais élégant et fruité avec une finale généreuse et épicée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VnAPCRIPMos",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4teULs4x0rs",
+          "label": "Spirituosités"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2ElPcHdEZc8",
+          "label": "ひとくちウイスキー"
+        }
+      ]
+    },
+    {
       "id": "whisky-new-forms-ex-bourbon",
       "slug": "whisky-new-forms-ex-bourbon",
       "name": "New Forms: Ex-Bourbon",
@@ -34919,6 +35177,188 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=mHCl-PIVzVs",
           "label": "WhiskyJason Tormore 14 vs 16"
+        }
+      ]
+    },
+    {
+      "id": "tullibardine-225-sauternes-finish",
+      "slug": "tullibardine-225-sauternes-finish",
+      "name": "Tullibardine 225 Sauternes Finish",
+      "distillery": {
+        "id": "tullibardine",
+        "name": "Tullibardine",
+        "name_es": "Tullibardine",
+        "name_pt": "Tullibardine",
+        "name_en": "Tullibardine",
+        "name_ja": "タリバーディン",
+        "name_fr": "Tullibardine"
+      },
+      "description": "El Tullibardine 225 Sauternes Finish es un single malt de las Tierras Altas escocesas, producido en la destilería Tullibardine. Este whisky se madura inicialmente en barriles de roble americano de primer lleno y luego se somete a una segunda maduración en barriles de 225 litros de vino dulce Sauternes. Con notas de vainilla, miel, cítricos, flores secas y un toque especiado, ofrece un paladar sedoso y aromático con un final elegante y ligeramente dulce.",
+      "image": "/data/images/tullibardine-225-sauternes-finish.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "70.0",
+      "abv": 43,
+      "cask": "Sauternes Wine Finish",
+      "distillery_id": "tullibardine",
+      "insertion_order": 297,
+      "featured": false,
+      "name_pt": "Tullibardine 225 Sauternes Finish",
+      "description_pt": "O Tullibardine 225 Sauternes Finish é um single malt das Terras Altas da Escócia, produzido na destilaria Tullibardine. Este whisky é maturado inicialmente em barris de carvalho americano de primeiro preenchimento e depois passa por uma segunda maturação em barris de 225 litros de vinho doce Sauternes. Com notas de baunilha, mel, cítricos, flores secas e um toque especiado, oferece um paladar sedoso e aromático com um final elegante e ligeiramente doce.",
+      "name_en": "Tullibardine 225 Sauternes Finish",
+      "description_en": "Tullibardine 225 Sauternes Finish is a Highland single malt Scotch whisky produced at the Tullibardine distillery. The whisky is initially matured in first-fill American oak barrels before undergoing a secondary maturation in 225-litre Sauternes sweet wine casks. With notes of vanilla, honey, citrus, dried flowers and a touch of spice, it delivers a silky, aromatic palate with an elegant, slightly sweet finish.",
+      "name_ja": "タリバーダイン 225 ソーテルヌ・フィニッシュ",
+      "description_ja": "タリバーダイン225ソーテルヌフィニッシュは、タリバーダイン蒸留所で製造されるハイランド・シングルモルト。ファーストフィルのアメリカンオーク樽で初期熟成された後、225リットルのソーテルヌ（辛口白ワイン）樽で二次熟成されます。バニラ、ハチミツ、シトラス、ドライフラワー、スパイシーなヒントがあり、セダシーで芳香の高いパレット、エレガントでほんのり甘いフィニッシュを提供します。",
+      "name_fr": "Tullibardine 225 Sauternes Finish",
+      "description_fr": "Le Tullibardine 225 Sauternes Finish est un single malt des Highlands produit à la distillerie Tullibardine. Le whisky vieillit d'abord en fûts de chêne américain premier remplissage avant de subir un second vieillissement en fûts de 225 litres de vin doux Sauternes. Aux notes de vanille, miel, agrumes, fleurs séchées et une touche épicée, il offre un palais soyeux et aromatique avec une finale élégante et légèrement sucrée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eTueuLQ4hao",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bdU9-5ukMRw",
+          "label": "Spirituosités"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RBpqbTVDA30",
+          "label": "笑って学ぶBAR - ピエールほろ酔い大学"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GGev-8WTJ6I",
+          "label": "Porção dos Anjos Whisky"
+        }
+      ]
+    },
+    {
+      "id": "tullibardine-sovereign",
+      "slug": "tullibardine-sovereign",
+      "name": "Tullibardine Sovereign",
+      "distillery": {
+        "id": "tullibardine",
+        "name": "Tullibardine",
+        "name_es": "Tullibardine",
+        "name_pt": "Tullibardine",
+        "name_en": "Tullibardine",
+        "name_ja": "タリバーディン",
+        "name_fr": "Tullibardine"
+      },
+      "description": "El Tullibardine Sovereign es un single malt de las Tierras Altas escocesas, elaborado en la destilería Tullibardine, ubicada en Blackford, Perth and Kinross. Este whisky se destila en cobre y se madura en barriles de roble americano de primer lleno (ex-bourbon). Con notas de vainilla, cereal tostado, miel y un toque especiado, ofrece un paladar cremoso y equilibrado con un final limpio y ligeramente dulce.",
+      "image": "/data/images/tullibardine-sovereign.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "70.0",
+      "abv": 43,
+      "cask": "First-fill Bourbon",
+      "distillery_id": "tullibardine",
+      "insertion_order": 296,
+      "featured": false,
+      "name_pt": "Tullibardine Sovereign",
+      "description_pt": "O Tullibardine Sovereign é um single malt das Terras Altas da Escócia, produzido na destilaria Tullibardine, localizada em Blackford, Perth and Kinross. Este whisky é destilado em cobre e maturado em barris de carvalho americano de primeiro preenchimento (ex-bourbon). Com notas de baunilha, cereal tostado, mel e um toque especiado, oferece um paladar cremoso e equilibrado com um final limpo e ligeiramente doce.",
+      "name_en": "Tullibardine Sovereign",
+      "description_en": "Tullibardine Sovereign is a Highland single malt Scotch whisky produced at the Tullibardine distillery in Blackford, Perth and Kinross. The spirit is copper-distilled and matured in first-fill American oak ex-bourbon barrels. With notes of vanilla, toasted cereal, honey and a hint of spice, it delivers a creamy, balanced palate with a clean, slightly sweet finish.",
+      "name_ja": "タリバーダイン ソヴリン",
+      "description_ja": "タリバーダインソヴリンは、パース・アンド・キンロスのブラックフォードにあるタリバーダイン蒸留所で製造されるハイランド・シングルモルト。銅製蒸留器で蒸留され、ファーストフィルのアメリカンオーク（エクスバーボン）樽で熟成。バニラ、トーストされたセリアル、ハチミツ、スパイシーなヒントがあり、クリーミーでバランスの取れたパレット、クリーンでほんのり甘いフィニッシュを提供します。",
+      "name_fr": "Tullibardine Sovereign",
+      "description_fr": "Le Tullibardine Sovereign est un single malt des Highlands produit à la distillerie Tullibardine de Blackford, Perth and Kinross. Le spiritueux est distillé dans des alambics en cuivre et vieilli en fûts de chêne américain premier remplissage (ex-bourbon). Aux notes de vanille, céréales grillées, miel et une touche épicée, il offre un palais crémeux et équilibré avec une finale propre et légèrement sucrée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9B5__72GuUA",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fY1wUHLaSiY",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cfLQs1f2YQY",
+          "label": "Porção dos Anjos Whisky"
         }
       ]
     },
