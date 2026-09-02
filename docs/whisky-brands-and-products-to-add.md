@@ -160,11 +160,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Glen Garioch Founder's Reserve - Glen Garioch
 ✅ Glen Garioch 12 YO - Glen Garioch
 ✅ Glenglassaugh Sandend - Glenglassaugh
-Glenglassaugh Portsoy - Glenglassaugh
-Glendronach 12 YO Original - Glendronach
-Glendronach 15 YO Revival - Glendronach
-Glendronach 18 YO Allardice - Glendronach
-Clynelish 14 YO - Clynelish
+✅ Glenglassaugh Portsoy - Glenglassaugh
+✅ Glendronach 12 YO Original - Glendronach
+✅ Glendronach 15 YO Revival - Glendronach
+✅ Glendronach 18 YO Allardice - Glendronach
+✅ Clynelish 14 YO - Clynelish
 Royal Lochnagar 12 YO - Royal Lochnagar
 Royal Brackla 12 YO - Royal Brackla
 Blair Athol 12 YO - Blair Athol

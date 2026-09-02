@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-09-02 — Batch: Glenglassaugh Portsoy, Clynelish 14, Glendronach 12/15/18
+
+- **Glendronach og:image naming uses `_2-1`/`_2-2` suffixes.** Guessed `GD_15YO-1-1.png`/`GD_18YO-1-1.png` 404; real ones are `GD_15YO-2-1.png` and `GD_18YO-2-2.png`. Pull the `og:image` meta from the product page instead of guessing the filename. Glendronach 12 was `GD_12YO-1-1.png` (worked as guessed) — inconsistent, so always scrape.
+- **Delegate video search to one subagent per product, return EVERY verified exact-expression match up to 4/language.** Single-agent-per-product kept each transcript small and let agents run native + Invidious + websearch + oEmbed per language properly. Every ID quoted from agent output re-verified with `yt-verify` before seeding.
+- **Regularity of foreign coverage for these sherried/coastal Highlands:** Clynelish 14 is a coverage goldmine (4 en / 4 es / 4 ja / 2 fr / 1 pt), Glendronach 12 rich in mainland-Latin Spanish (es3) + Japanese (4: 俺のモルト, ジョージア州, モルトヤマ, 宅飲み). Glendronach 15/18 es is thin (2 each: Whisky o Muerte + Julio Oñate / Los Whiskochos), ja moderate (1 / 3), and **French is 0 for all three Glendronach core expressions** — no exact in-language FR review exists; EN top-up fills at runtime.
+- **Tierri Whisky is Braz.sil (pt), not Spanish (es).** Do not double-slot the same URL; a URL may appear once per product.
+- **Reliable image sources this batch:** `img.thewhiskyexchange.com` (clyob.14yo.jpg), official distillery PNGs (Glenglassaugh `US_C_PORTSOY-...copy-3.png`, Glendronach GD_*YO). whiskybase still 403.
+
 ## 2026-09-01 — Batch add: Glen Elgin/Aultmore/Tormore/Glenmorangie ×2
 
 - **Whiskybase image CDN returns 403 to the image-prep UA** — its `static.whiskybase.com/storage/whiskies/...` URLs need a real browser origin. Use shop/CDN product shots instead (`media.nicks.com.au`, `cdn11.bigcommerce.com`, retailer uploads).
@@ -321,3 +329,11 @@
 - Language-titled auto-translated videos are a consistent trap on es/fr/ja searches: English channels (Gwhisky, Whisky.com, Whiskey Novice) get titles auto-translated, but oEmbed shows English narration. Always trust the canonical channel language, not the surfaced query language.
 - Portuguese has surprisingly broad whisky-review coverage via Whisky Capital (Gustavo Araujo) — a good go-to for core Speyside expressions.
 - Pipeline discipline confirmed: distilleries before products in seed, 3 scripts (db:sync → data:export → check) verify in ~1 pass, videos land in the flat `influencer_videos.json` keyed by product_id.
+
+## 2026-09-02 — Glendronach 15 Revival influencer videos (big-pickle)
+- English has the deepest exact-expression pool; verified Whisky.com / Erik Wait / Malt Muser / No Nonsense Whisky all name "Revival" in the oEmbed canonical title.
+- Portuguese exact-expression coverage is strong for a mainstream single malt (WhiskyBrasil, Bebendo Whisky Eng. Milton Salgado, Sanson Single Malt).
+- Spanish exact is thin but present (Whisky o Muerte, Julio Oñate) — Cultura del Whisky is embed-blocked, so omitting it left only 2.
+- French exact expression is genuinely dry (no live in-language "Glendronach 15 Revival" with a confirming oEmbed title); Malta propos/Le Chardon titles are generic (don't prove the expression) and the Whisky on the West Coast GlenDronach comparison is embed-blocked → `fr` ships zero, runtime EN top-up covers it.
+- Japanese exact-expression is 1 (もっさんハイボール倶楽部's 12/15 old-vs-new 4-bottle tasting); English Whisky Whistle's リバイバル video is machine-translated ja title on an English channel → keep out of ja.
+- Auto-translate trap this round: Scotch 4 Dummies & Whisky Wars produce Spanish/French/Japanese auto-localized titles for their English reviews — oEmbed author proves they're `en` only.

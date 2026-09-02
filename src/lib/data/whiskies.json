@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-02T09:13:16.564Z",
+  "generatedAt": "2026-09-02T11:18:58.281Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -8123,6 +8123,166 @@
       "resellers_usa": []
     },
     {
+      "id": "clynelish-14-year-old",
+      "slug": "clynelish-14-year-old",
+      "name": "Clynelish 14 Year Old",
+      "distillery": {
+        "id": "clynelish",
+        "name": "Clynelish",
+        "name_es": "Clynelish",
+        "name_pt": "Clynelish",
+        "name_en": "Clynelish",
+        "name_ja": "クライネリッシュ",
+        "name_fr": "Clynelish"
+      },
+      "description": "Presentación de 700 ml. El característico single malt del norte de Sutherland: cera de abeja, miel, fruta tropical y una salinidad costera que lo ha convertido en favorito de los aficionados y de los mezcladores de Johnnie Walker Gold Label. Emb. 46%, por encima del estándar de Diageo. Volumen: 70cl ABV: 46% El perfil de sabor El aroma Cera de vela, limón ceroso, ensalada de fruta tropical, brisa del Atlántico y flor blanca. En el paladar Ceroso y cremoso, crema de limón, miel de brezo, salinidad y especias suaves. Notas de acabado Largo, ceroso, cítrico y marino.",
+      "image": "/data/images/clynelish-14-year-old.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 14,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon",
+      "distillery_id": "clynelish",
+      "insertion_order": 287,
+      "featured": false,
+      "name_pt": "Clynelish 14 Year Old",
+      "description_pt": "Apresentação de 700 ml. O característico single malt do norte de Sutherland: cera de abelha, mel, fruta tropical e uma salinidade costeira que o tornou favorito dos entusiastas e dos blendadores de Johnnie Walker Gold Label. Engarrafado a 46%, acima do padrão da Diageo. Volume: 70cl ABV: 46% Perfil de sabor O aroma Cera de vela, limão ceroso, salada de frutas tropicais, brisa do Atlântico e flor branca. No paladar Ceroso e cremoso, coalhada de limão, mel de urze, salinidade e especiarias suaves. Notas de finalização Longo, ceroso, cítrico e marítimo.",
+      "name_en": "Clynelish 14 Year Old",
+      "description_en": "700 ml presentation. The signature single malt of northern Sutherland: beeswax, honey, tropical fruit and a coastal salinity that has made it a favourite of enthusiasts and of Johnnie Walker Gold Label blenders. Bottled at 46%, above Diageo's standard strength. Volume: 70cl ABV: 46% Flavour profile The aroma Candle wax, waxy lemon, tropical fruit salad, an Atlantic breeze and white flower. On the palate Waxy and creamy, lemon curd, heather honey, saltiness and mild spice. Finish notes Long, waxy, citrusy and maritime.",
+      "name_ja": "クライネリッシュ 14年",
+      "description_ja": "700ml入り。サザーランド北部を代表するシングルモルト。蜜蝋、蜂蜜、トロピカルフルーツ、沿岸の塩気。愛好家だけでなくジョニーウォーカー・ゴールドラベルのブレンダーにも愛される一本。ディアジオの標準より高い46%で瓶詰め。 容量：70cl アルコール度数：46% 味わいのプロファイル 香り：キャンドルワックス、ワキシーなレモン、トロピカルフルーツサラダ、大西洋の風、白い花。味わい：ワキシーでクリーミー、レモンカード、ヘザー・ハニー、塩気と穏やかなスパイス。余韻：長く、ワキシーでシトラス、マリンな余韻。",
+      "name_fr": "Clynelish 14 Year Old",
+      "description_fr": "Présentation de 700 ml. Le single malt signature du nord du Sutherland : cire d'abeille, miel, fruits tropicaux et une salinité côtière qui en a fait un favori des amateurs et des assembleurs de Johnnie Walker Gold Label. Embouteillé à 46 %, au-dessus de la norme de Diageo. Volume : 70cl ABV : 46 % Profil de saveur Le nez Cire de bougie, citron cireux, salade de fruits tropicaux, brise atlantique et fleur blanche. En bouche Cireux et crémeux, crème de citron, miel de bruyère, salinité et épices douces. Notes de finale Longue, cireuse, citronnée et maritime.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CxL6vXw3Ujo",
+          "label": "Whiskey is a Journey"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kQve1McrGOY",
+          "label": "Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mzXv6pqHxPU",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oGxH9eMkySM",
+          "label": "Whisky Central"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ECaDGLDQPiY",
+          "label": "Whiskeros Argentina"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SZRmmcVCD-E",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ULUPhrQVmLs",
+          "label": "Hablando de Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YyzMysjGSRI",
+          "label": "El Whisky Bar"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3pz2MNd0X38",
+          "label": "Whisky Cigars And Friends"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uyOWISSAZiQ",
+          "label": "La voie du whisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-0Qq5tv9VSc",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Fd8Kaq75i7s",
+          "label": "はっちばっちチャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R88npPalgkI",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VHRjWJCCj-8",
+          "label": "止まり木酔興記"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=568fRXqAA34",
+          "label": "Bebendo Whisky"
+        }
+      ]
+    },
+    {
       "id": "cragganmore-12-yo",
       "slug": "cragganmore-12-yo",
       "name": "Cragganmore 12 YO",
@@ -13455,6 +13615,438 @@
       ]
     },
     {
+      "id": "glendronach-12-year-old",
+      "slug": "glendronach-12-year-old",
+      "name": "Glendronach 12 Year Old Original",
+      "distillery": {
+        "id": "glendronach",
+        "name": "Glendronach",
+        "name_es": "Glendronach",
+        "name_pt": "Glendronach",
+        "name_en": "Glendronach",
+        "name_ja": "グレンドロナック",
+        "name_fr": "Glendronach"
+      },
+      "description": "Presentación de 700 ml. La puerta de entrada al estilo de Glendronach: rico single malt de las Tierras Altas madurado al menos 12 años en barricas de jerez Pedro Ximénez y Oloroso. Color natural y embotellado al 43%. Volumen: 70cl ABV: 43% El perfil de sabor El aroma Frutas de otoño al jerez, praliné de chocolate, pan de jengibre y pasa secada al sol. En el paladar Mora caramelizada, naranja sedosa, sultanas y especias cálidas. Notas de acabado Largo, de fruta seca y especias, con chocolate.",
+      "image": "/data/images/glendronach-12-year-old.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Jerez (Oloroso y Pedro Ximénez)",
+      "distillery_id": "glendronach",
+      "insertion_order": 288,
+      "featured": false,
+      "name_pt": "Glendronach 12 Year Old Original",
+      "description_pt": "Apresentação de 700 ml. A porta de entrada do estilo Glendronach: rico single malt das Terras Altas maturado por pelo menos 12 anos em barris de xerez Pedro Ximénez e Oloroso. Cor natural, engarrafado a 43%. Volume: 70cl ABV: 43% Perfil de sabor O aroma Frutas de outono ao xerez, praliné de chocolate, pão de gengibre e uva-passa secada ao sol. No paladar Amora caramelizada, laranja sedosa, sultanas e especiarias quentes. Notas de finalização Longo, de fruta seca e especiarias, com chocolate.",
+      "name_en": "Glendronach 12 Year Old Original",
+      "description_en": "700 ml presentation. The gateway to the Glendronach style: a rich Highland single malt matured for at least 12 years in Pedro Ximénez and Oloroso sherry casks. Natural colour, bottled at 43%. Volume: 70cl ABV: 43% Flavour profile The aroma Sherried autumn fruits, chocolate praline, gingerbread and sun-dried raisin. On the palate Caramelised bramble, silky orange, sultanas and warming spice. Finish notes Long, on dried fruit and spice, with chocolate.",
+      "name_ja": "グレンドロナック12年 オリジナル",
+      "description_ja": "700ml入り。グレンドロナックスタイルへの入り口。ペドロ・ヒメネスとオロロソのシェリー樽で最低12年熟成された、リッチなハイランド・シングルモルト。ナチュラルカラー、43%で瓶詰め。 容量：70cl アルコール度数：43% 味わいのプロファイル 香り：シェリーの秋のフルーツ、チョコレートプラリネ、ジンジャーブレッド、太陽の下で乾燥させたレーズン。味わい：キャラメリゼしたブラックベリー、シルキーなオレンジ、サルタナ、温かいスパイス。余韻：ドライフルーツとスパイス、チョコレートとともに長く続く。",
+      "name_fr": "Glendronach 12 Year Old Original",
+      "description_fr": "Présentation de 700 ml. La porte d'entrée du style Glendronach : un riche single malt des Highlands vieilli au moins 12 ans en fûts de xérès Pedro Ximénez et Oloroso. Couleur naturelle, embouteillé à 43 %. Volume : 70cl ABV : 43 % Profil de saveur Le nez Fruits d'automne au xérès, praliné au chocolat, pain d'épices et raisin sec séché au soleil. En bouche Mûre caramélisée, orange soyeuse, sultanes et épices réchauffantes. Notes de finale Longue, sur les fruits secs et les épices, avec du chocolat.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1JZ7yGnqt_8",
+          "label": "Bevvy"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5gmsWZ3L3AM",
+          "label": "thewhiskybothy"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gNDJ_S0P9cg",
+          "label": "Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wbcvk-FOMFo",
+          "label": "McIntyre's Malts"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BR0c3aToWsg",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jy-E0KvO5Ok",
+          "label": "Cultura del Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sjdI18CNvmI",
+          "label": "La Wiskada"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-d6vP0h3D4s",
+          "label": "俺のモルト"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6Eb_rR7MTNE",
+          "label": "ジョージア州に住んでるよ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pWx_0jWi0Uc",
+          "label": "モルトヤマ下野孔明"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zIaagn1N0X4",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0fLZqxHBs3I",
+          "label": "Márcio Becker"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eyfq7Qgkr8Q",
+          "label": "Bebendo Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=j0oGGYQwDUE",
+          "label": "WhiskyBrasil.com"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mF6juNR8mQo",
+          "label": "Além do Rótulo"
+        }
+      ]
+    },
+    {
+      "id": "glendronach-15-year-old-revival",
+      "slug": "glendronach-15-year-old-revival",
+      "name": "Glendronach 15 Year Old Revival",
+      "distillery": {
+        "id": "glendronach",
+        "name": "Glendronach",
+        "name_es": "Glendronach",
+        "name_pt": "Glendronach",
+        "name_en": "Glendronach",
+        "name_ja": "グレンドロナック",
+        "name_fr": "Glendronach"
+      },
+      "description": "Presentación de 700 ml. El Relanzamiento devolvió al mercado este clásico: quince años en barricas de jerez Pedro Ximénez y Oloroso de Andalucía. Riqueza excepcional, sin filtrar en frío y sin color añadido, al 46%. Volumen: 70cl ABV: 46% El perfil de sabor El aroma Cereza marrasquino, mora madura y chocolate con menta, con naranja amarga y licor de nuez. En el paladar Albaricoque glaseado con miel, higo maduro, cereza negra y moscovado. Notas de acabado Largo, con miel oscura, amargos herbales y chocolate negro.",
+      "image": "/data/images/glendronach-15-year-old-revival.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 15,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Jerez (Oloroso y Pedro Ximénez)",
+      "distillery_id": "glendronach",
+      "insertion_order": 289,
+      "featured": false,
+      "name_pt": "Glendronach 15 Year Old Revival",
+      "description_pt": "Apresentação de 700 ml. O Revival trouxe de volta ao mercado este clássico: quinze anos em barris de xerez Pedro Ximénez e Oloroso da Andaluzia. Riqueza excecional, sem filtração a frio e sem cor adicionada, a 46%. Volume: 70cl ABV: 46% Perfil de sabor O aroma Cereja marasquino, amora madura e chocolate com menta, com laranja amarga e licor de noz. No paladar Damasco glaceado com mel, figo maduro, cereja preta e mascavo. Notas de finalização Longo, com mel escuro, amargos de ervas e chocolate amargo.",
+      "name_en": "Glendronach 15 Year Old Revival",
+      "description_en": "700 ml presentation. The Revival brought this classic back to market: fifteen years in Pedro Ximénez and Oloroso sherry casks from Andalusia. Exceptional richness, non-chill filtered and uncoloured, at 46%. Volume: 70cl ABV: 46% Flavour profile The aroma Maraschino cherry, ripe bramble and dark chocolate mint, with orange bitters and walnut liqueur. On the palate Honey-glazed apricot, ripe fig, black cherry and muscovado. Finish notes Long, with dark honey, herbal bitters and dark chocolate.",
+      "name_ja": "グレンドロナック15年 リバイバル",
+      "description_ja": "700ml入り。復活(リバイバル)により市場に戻ったクラシック。アンダルシア産のペドロ・ヒメネスとオロロソのシェリー樽で15年熟成。ノンチルフィルター、色無添加で46%瓶詰め。 容量：70cl アルコール度数：46% 味わいのプロファイル 香り：マラスキーノチェリー、熟したブラックベリー、チョコレートミント、オレンジビターズとウォールナッツリキュール。味わい：ハチミツをかけたアプリコット、熟したイチジク、ブラックチェリー、マスコバド。余韻：ダークハニー、ハーブの苦味、ダークチョコレートとともに長く続く。",
+      "name_fr": "Glendronach 15 Year Old Revival",
+      "description_fr": "Présentation de 700 ml. Le Revival a ramené ce classique sur le marché : quinze ans en fûts de xérès Pedro Ximénez et Oloroso d'Andalousie. Richesse exceptionnelle, non filtré à froid et non coloré, à 46 %. Volume : 70cl ABV : 46 % Profil de saveur Le nez Cerise marasquin, mûre mûre et chocolat à la menthe, avec de l'orange amère et de la liqueur de noix. En bouche Abricot glacé au miel, figue mûre, cerise noire et muscovado. Notes de finale Longue, avec du miel sombre, des amers herbacés et du chocolat noir.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4sIBcSpq0iY",
+          "label": "Malt Muser"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JdLcO6o7c40",
+          "label": "Erik Wait Whisky Studies"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LtpcxeQxpjI",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SN9HQ0xNdEI",
+          "label": "No Nonsense Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QS4H3t7AA_g",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cv_Ec5MzBbU",
+          "label": "Julio Oñate Whiskylover"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DFxUiPUau34",
+          "label": "もっさんハイボール倶楽部"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8gQ_jUpNGU0",
+          "label": "WhiskyBrasil"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gwKs5FuECDU",
+          "label": "Bebendo Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nNof5XbPHas",
+          "label": "Sanson Single Malt"
+        }
+      ]
+    },
+    {
+      "id": "glendronach-18-year-old-allardice",
+      "slug": "glendronach-18-year-old-allardice",
+      "name": "Glendronach 18 Year Old Allardice",
+      "distillery": {
+        "id": "glendronach",
+        "name": "Glendronach",
+        "name_es": "Glendronach",
+        "name_pt": "Glendronach",
+        "name_en": "Glendronach",
+        "name_ja": "グレンドロナック",
+        "name_fr": "Glendronach"
+      },
+      "description": "Presentación de 700 ml. Nombrado en honor al fundador James Allardice, este single malt de 18 años madurado íntegramente en barricas de jerez Oloroso es descrito por los expertos como 'la bomba de jerez definitiva'. Melaza oscura, pimienta de Jamaica y nuez en un final largo. Volumen: 70cl ABV: 46% El perfil de sabor El aroma Dulce, melaza oscura y azúcar moscovado, con compota de frutas y cerezas amarena. En el paladar Rico, oscuro y profundo: fruta estofada, pimienta de Jamaica, Oloroso añejo y pan de nuez tostado. Notas de acabado Tremendamente complejo y largo.",
+      "image": "/data/images/glendronach-18-year-old-allardice.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 18,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Jerez (Oloroso)",
+      "distillery_id": "glendronach",
+      "insertion_order": 290,
+      "featured": false,
+      "name_pt": "Glendronach 18 Year Old Allardice",
+      "description_pt": "Apresentação de 700 ml. Nomeado em homenagem ao fundador James Allardice, este single malt de 18 anos maturado integralmente em barris de xerez Oloroso é descrito pelos especialistas como 'a bomba de xerez definitiva'. Melado escuro, pimenta-da-jamaica e noz num final longo. Volume: 70cl ABV: 46% Perfil de sabor O aroma Doce, melado escuro e açúcar mascavo, com compota de frutas e cerejas amarena. No paladar Rico, escuro e profundo: fruta estufada, pimenta-da-jamaica, Oloroso envelhecido e pão de nozes tostado. Notas de finalização Tremendamente complexo e longo.",
+      "name_en": "Glendronach 18 Year Old Allardice",
+      "description_en": "700 ml presentation. Named after founder James Allardice, this 18-year-old single malt matured entirely in Oloroso sherry casks is described by connoisseurs as the 'ultimate sherry bomb'. Dark treacle, allspice and walnut on a long finish. Volume: 70cl ABV: 46% Flavour profile The aroma Sweet, with dark treacle and muscovado sugar, fruit compote and morello cherries. On the palate Rich, dark and deep: stewed fruits, allspice, aged Oloroso and toasted walnut bread. Finish notes Tremendously complex and long.",
+      "name_ja": "グレンドロナック18年 アラーダイス",
+      "description_ja": "700ml入り。創業者ジェームズ・アラーダイスに敬意を表して命名された、全面オロロソ・シェリー樽熟成の18年シングルモルト。愛好家から「究極のシェリーボム」と称される。濃い糖蜜、オールスパイス、ウォールナッツの長い余韻。 容量：70cl アルコール度数：46% 味わいのプロファイル 香り：甘く、ダークトレクルとマスコバドシュガー、フルーツコンポート、モレロチェリー。味わい：豊かで濃く奥深い。煮込んだフルーツ、オールスパイス、熟成オロロソ、トーストしたウォールナッツブレッド。余韻：非常に複雑で長い。",
+      "name_fr": "Glendronach 18 Year Old Allardice",
+      "description_fr": "Présentation de 700 ml. Nommé en hommage au fondateur James Allardice, ce single malt de 18 ans vieilli entièrement en fûts de xérès Oloroso est décrit par les connaisseurs comme la « bombe de xérès ultime ». Mélasse sombre, piment de la Jamaïque et noix sur une longue finale. Volume : 70cl ABV : 46 % Profil de saveur Le nez Doux, mélasse sombre et sucre muscovado, compote de fruits et cerises griottes. En bouche Riche, sombre et profond : fruits compotés, piment de la Jamaïque, Oloroso vieilli et pain de noix grillé. Notes de finale Extrêmement complexe et longue.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Dm9bult2yjE",
+          "label": "Malt Muser"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R4-XoQGG-fE",
+          "label": "Whisky Shared"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZIOAgIn9U00",
+          "label": "Durbins Bourbon"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yQWUEFP4gUE",
+          "label": "Casks-n-Que"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_HfO7FleMrc",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eBmwjYrC9JU",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J-IKB9ruOrI",
+          "label": "酒総合ちゃんねる"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JAjKaJ3ktqI",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xjt1qvYUl_Q",
+          "label": "せるじおのWhisky Radio"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1rI6fb4YBuc",
+          "label": "Bebendo Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O2dUMJyuwAA",
+          "label": "Mapa do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qVqHT7nn-LQ",
+          "label": "WhiskyBrasil.com"
+        }
+      ]
+    },
+    {
       "id": "glenfarclas-105-cask-strength",
       "slug": "glenfarclas-105-cask-strength",
       "name": "Glenfarclas 105 Cask Strength",
@@ -14203,6 +14795,112 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=yUOHJLFgaAU",
           "label": "Review Glenfiddich 18 PT-BR"
+        }
+      ]
+    },
+    {
+      "id": "glenglassaugh-portsoy",
+      "slug": "glenglassaugh-portsoy",
+      "name": "Glenglassaugh Portsoy",
+      "distillery": {
+        "id": "glenglassaugh",
+        "name": "Glenglassaugh",
+        "name_es": "Glenglassaugh",
+        "name_pt": "Glenglassaugh",
+        "name_en": "Glenglassaugh",
+        "name_ja": "グレングラッサ",
+        "name_fr": "Glenglassaugh"
+      },
+      "description": "Presentación de 700 ml. Malt a turba inspirado en el puerto pesquero vecino de Portsoy: turba rica y carácter marítimo se unen a notas de fruta tropical, chocolate oscuro y salsa de soja. Madurado en barricas de jerez, bourbon y porto, y embotellado al 49.1%. Volumen: 70cl ABV: 49.1% El perfil de sabor El aroma Olas marinas ricas con fruta tropical, soja oscura al jerez, regaliz y kelp. En el paladar Cuerpo pleno con chocolate oscuro, mango carbonizado, treacle y un toque de sal marina. Notas de acabado Ahumado y salado dulce, largo y envolvente.",
+      "image": "/data/images/glenglassaugh-portsoy.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 49.1,
+      "cask": "Jerez, bourbon y porto",
+      "distillery_id": "glenglassaugh",
+      "insertion_order": 286,
+      "featured": false,
+      "name_pt": "Glenglassaugh Portsoy",
+      "description_pt": "Apresentação de 700 ml. Malte turfado inspirado no aldeia piscatória vizinha de Portsoy: turfa rica e caráter marítimo unem-se a notas de fruta tropical, chocolate amargo e molho de soja. Maturado em barris de xerez, bourbon e porto, engarrafado a 49.1%. Volume: 70cl ABV: 49.1% Perfil de sabor O aroma Ondas marítimas ricas com fruta tropical, molho de soja escuro de xerez, alcaçuz e kelp. No paladar Corpo pleno com chocolate amargo, manga carbonizada, treacle e um toque de sal marinho. Notas de finalização Esfumado e salgado-doce, longo e envolvente.",
+      "name_en": "Glenglassaugh Portsoy",
+      "description_en": "700 ml presentation. A peated malt inspired by the neighbouring fishing village of Portsoy: rich peat and maritime character joined by tropical fruit, dark chocolate and soy sauce. Matured in sherry, bourbon and port casks, bottled at 49.1%. Volume: 70cl ABV: 49.1% Flavour profile The aroma Rich maritime waves with tropical fruit, sherried dark soy, liquorice and sea kelp. On the palate Full bodied with dark chocolate, charred mango, treacle and a crack of sea salt. Finish notes Smoky and salt-sweet, long and enveloping.",
+      "name_ja": "グレングラッサ ポートソイ",
+      "description_ja": "700ml入り。隣町の漁港ポートソイに着想を得たピーテッドモルト。豊かなピートと海の個性に、トロピカルフルーツ、ダークチョコレート、醤油のようなニュアンスが重なる。シェリー、バーボン、ポート樽で熟成、49.1%で瓶詰め。 容量：70cl アルコール度数：49.1% 味わいのプロファイル 香り：トロピカルフルーツ、シェリーのダークソイ、リコリス、海藻を伴う豊かな海風。味わい：ダークチョコレート、焼いたマンゴー、糖蜜、海塩のヒビ割れ。余韻：スモーキーで塩甘い、長く包み込むような余韻。",
+      "name_fr": "Glenglassaugh Portsoy",
+      "description_fr": "Présentation de 700 ml. Un malt tourbé inspiré du village de pêche voisin de Portsoy : tourbe riche et caractère maritime rejoignant des notes de fruit tropical, de chocolat noir et de sauce soja. Vieilli en fûts de xérès, de bourbon et de porto, embouteillé à 49.1 %. Volume : 70cl ABV : 49.1 % Profil de saveur Le nez Vagues maritimes riches accompagnées de fruits tropicaux, de soja sombre au xérès, de réglisse et de varech. En bouche Plein corps avec du chocolat noir, de la mangue carbonisée, de la mélasse et une pointe de sel marin. Notes de finale Fumée et salé-sucré, longue et enveloppante.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9t8KtdNipW4",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DuAvhBeIu3U",
+          "label": "WhiskyJason"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Jp2Tr7PzndQ",
+          "label": "Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hh-SDB9hDo0",
+          "label": "Exploring Whiskey"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1nf1nAH4gDs",
+          "label": "Dram FM"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w-Lyn-URRHc",
+          "label": "Tierri Whisky"
         }
       ]
     },

@@ -1,5 +1,13 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-02 — Batch of 5 whiskies (Glenglassaugh Portsoy, Clynelish 14, Glendronach 12/15/18)
+
+- **Glendronach og:image URLs use `_2-1` / `_2-2` suffixes, not the obvious `_1-1`.** Guessing `GD_15YO-1-1.png` / `GD_18YO-1-1.png` 404s; the real files are `GD_15YO-2-1.png` and `GD_18YO-2-2.png` (confirmed via the product page's `og:image` meta). Always scrape the `og:image` meta rather than guessing the filename pattern.
+- **whiskybase CDN 403s persist** for `static.whiskybase.com/...` — the working Clynelish 14 image was `img.thewhiskyexchange.com/900/clyob.14yo.jpg`.
+- **A "Portuguese" channel is not a Spanish channel.** Tierri Whisky (`w-Lyn-URRHc`) review of Portsoy is Brazilian Portuguese ("Avaliação..."), so it belongs in `pt` only — do not also slot it under `es`. Verify the narration language from the oEmbed title, not the channel name.
+- **Video coverage varies by product:** Portsoy is thin (en4 / pt1 / ja1 — no exact es or fr review exists despite full native+Invidious+oEmbed search); Clynelish 14 is the richest (en4 / es4 / ja4 / fr2 / pt1); Glendronach 12 (en/es/pt/ja all ≥3, fr0), 15 (en4/es2/pt3/ja1, fr0), 18 (en4/es2/pt3/ja3, fr0). French exact-expression reviews for Glendronach core range simply don't exist — English top-up covers those slots at runtime. Do NOT pad.
+- **Two new distilleries** (Glendronach 1826 / Forgue, Aberdeenshire 57.4847,-2.6255; Clynelish new 1967 / Brora 58.0243,-3.8692) with full 5-locale descriptions + coords so they plot on /map on first insert (`ON CONFLICT DO NOTHING`).
+
 ## 2026-09-02 — Batch of 5 whiskies (Aberfeldy 21, Ardmore Legacy, Ben Nevis 10, Deanston 12 + Virgin Oak)
 
 - **whiskybase.com image URLs 403 with the default request.** Several candidate images (`static.whiskybase.com/storage/...`) returned HTTP 403. Swap to a different working source instead of retrying: `img.thewhiskyexchange.com/330/...` (Aberfeldy 21), the official distillery PNG (Ben Nevis 10), `img.thewhiskyexchange.com/540/...` (Deanston Virgin Oak) all worked.
@@ -298,3 +306,20 @@
 - Invidious title↔ID pairs are heavily desynced in this repo's runs (e.g. knockando `bx0_Il8aspA` labeled "ノッカンドゥ12年、カーデュー12年 飲み比べ" is actually ひとくちウイスキー's standalone "ノッカンドゥ12年（ストレート）"). ALWAYS settle with `node scripts/yt-verify.mjs` oEmbed — it is the only ground truth for expression + language.
 - Trap videos to always reject on these products (verified): "グレンマレイ クラシック で乾杯" (もかじ) is ambiguous cask; ウイスキー専門TEN's "better than Glenfiddich" is generic; Los Whiskochos "Top 5 whiskies de 12 años" is a roundup; 俺のモルト "グレンターナー ポートカスクフィニッシュ" is Glen Turner not Glen Moray; DEAD 401s (yixSa1Hv-rI) and unboxings (Whisky Makers "Unboxing Singleton Dufftown 12") don't count.
 - Ready sources per region found this batch: ja → ひとくちウイスキー (straight tastings, exact-expressions, reliable), 宅飲みバーTakeo, CRAZY BARTENDER KEN; es → El Whisky Bar, Tito Whisky, HABLANDO DE WHISKY, La Guia del Whisky, La Whiskería; en → Whisky.com, Whiskey Novice, The Spirit Safe, No Nonsense Whisky, Whisky Lock, Whisky Wednesday, Moa Nilsson, Tierri Whisky (BR, but pt).
+
+## 2026-09-02 — Batch: Edradour 10 YO, Edradour Caledonia, Glen Garioch Founder's Reserve, Glen Garioch 12 YO, Glenglassaugh Sandend
+
+- 3 new distilleries (Edradour 1825/Pitlochry, Glen Garioch 1797/Oldmeldrum, Glenglassaugh 1875/Sandend Bay). All with town-level coords for /map.
+- Video coverage: Edradour 10 YO full 5/9 (en4 es2 fr2 ja3 pt2). Caledonia en4 es2 pt2 fr1 ja1. Glen Garioch FR en4 es2. Glen Garioch 12 en4 ja2 pt1. Sandend en4 fr1. pt/fr/ja gaps on the newer/obscure expressions have NO exact in-language reviews despite native+Invidious+oEmbed search — English top-up covers at runtime (do NOT pad).
+- Invidious ↔ oEmbed desync again proved fatal: `efCtVcNpQnU` labeled "グレンガリオック12年" was actually Glen Scotia 12 (SAKETRY); `7gIIrK55xYU` "Glen Garioch Founders" was really Glenlivet Illicit Still; `b8oJQlItvBM` Glen Garioch "JA" was a Chinese distillery-tour (好總監瞎談). ALWAYS yt-verify.
+- Glen Garioch 12 genuine ja sources found: 俺のモルト (グレンギリー12年 リクエストボトル), ひとくちウイスキー. Glen Garioch FR es: HABLANDO DE WHISKY + foodquig.
+- whiskybase static images remain 403-blocked. Reliable sources this batch: img.thewhiskyexchange.com (TWE product codes, e.g. edrob.10yov1.jpg, edrob.12yo.jpg), i0.wp.com malt-review PNGs (Garioch-Founders-Reserve / Garioch-12), mensjournal t_share PNG (Sandend).
+
+## 2026-09-02 — Glendronach 15 Revival video research (youtube-search skill)
+
+- **French is genuinely dry for this exact expression.** No live in-language French video whose oEmbed title confirms the "Glendronach 15 Revival" was found. French candidates were either embed-blocked (`gcQFmw167GY` Whisky on the West Coast GlenDronach 15/18/21 comparison = BLOCK) or had generic titles that don't prove the exact expression (Le Chardon "Pourquoi les experts ne jurent que par ce whisky à 50€" `5zPWaV6HYGc`, Malt à propos "Quel est le meilleur whisky de 15 ans d'âge ?" `wbfAPEIrCWw`). Per the exact-expression rule, ship ZERO for `fr` rather than include an unconfirmed-expression video.
+- **Spanish exact-expression is thin (2 found):** Whisky o Muerte "Glendronach 15: entramos en la recta final del core range" (`QS4H3t7AA_g`, 23:57) and Julio Oñate Whiskylover "Un Glendronach 15 años..." (`cv_Ec5MzBbU`, short 3:15). Cultura del Whisky "Glendronach 15 Revival" (`c3S1Lwle5qA`) is embed-blocked → discarded.
+- **Portuguese has 3 exact:** WhiskyBrasil "Glendronach 15 Review" (`8gQ_jUpNGU0`), Bebendo Whisky Eng. Milton Salgado "Whisky 227: GlenDronach 15 anos Revival" (`gwKs5FuECDU`), Sanson Single Malt "Explorando o GlenDronach 15 Anos" (`nNof5XbPHas`).
+- **Japanese has 1 exact:** もっさんハイボール倶楽部's 4-bottle vertical tasting of Glendronach 12 & 15 old/new (`DFxUiPUau34`) — a genuine `ja` multi-expression tasting that covers the 15 Revival. The 5XIOWqzMFaU "15 リバイバル 新旧比較" appears Japanese-titled but is the English Whisky Whistle channel (machine-translated) → rejected for `ja`.
+- **English is deep (verified 200):** Whisky.com, Erik Wait Whisky Studies, Malt Muser, No Nonsense Whisky, Deni Kay, Whisky Bloke, Noels, Malt Activist, etc. all exact "Revival".
+- Auto-translate trap reconfirmed: Scotch 4 Dummies and Whisky Wars surface auto-localized es/fr/ja titles ("Reseña...", "Critique de whisky", "Reseña de whisky") but are English channels — never slot them as genuine foreign. oEmbed author is the gate.
