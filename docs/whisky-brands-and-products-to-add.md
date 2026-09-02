@@ -136,14 +136,14 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Glen Moray Port Cask Finish - Glen Moray
 ✅ The Singleton of Dufftown 12 YO - Dufftown
 ✅ Knockando 12 YO Master Reserve - Knockando
-Glen Elgin 12 YO - Glen Elgin
-Aultmore 12 YO - Aultmore
-Tormore 14 YO - Tormore
+✅ Glen Elgin 12 YO - Glen Elgin
+✅ Aultmore 12 YO - Aultmore
+✅ Tormore 14 YO - Tormore
 
 ## Scotland — Highlands
 
-Glenmorangie The Original 10 YO - Glenmorangie
-Glenmorangie Nectar d'Or - Glenmorangie
+✅ Glenmorangie The Original 10 YO - Glenmorangie
+✅ Glenmorangie Nectar d'Or - Glenmorangie
 Glenmorangie Quinta Ruban 12 YO - Glenmorangie
 Glenmorangie Signet - Glenmorangie
 ✅ Dalwhinnie 15 YO - Dalwhinnie

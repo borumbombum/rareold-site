@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-02T00:52:36.011Z",
+  "generatedAt": "2026-09-02T02:35:14.279Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -4327,6 +4327,166 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=gs_GYp5p1r8",
           "label": "ARRAN THE BODEGA — SHERRY CASK"
+        }
+      ]
+    },
+    {
+      "id": "aultmore-12-yo",
+      "slug": "aultmore-12-yo",
+      "name": "Aultmore 12 Year Old",
+      "distillery": {
+        "id": "aultmore",
+        "name": "Aultmore",
+        "name_es": "Aultmore",
+        "name_pt": "Aultmore",
+        "name_en": "Aultmore",
+        "name_ja": "オルトモア",
+        "name_fr": "Aultmore"
+      },
+      "description": "Un malt elegante y herbáceo de la serie The Last Great Malts de Dewar's, madurado en ex-bourbon. Fruta del huerto, miel de brezo y flores silvestres en nariz; en boca es sorprendentemente texturizado y aceitoso, con especias suaves y un final limpio y refrescante. Sin filtración en frío ni colorantes artificiales.",
+      "image": "/data/images/aultmore-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon",
+      "distillery_id": "aultmore",
+      "insertion_order": 267,
+      "featured": false,
+      "name_pt": "Aultmore 12 Year Old",
+      "description_pt": "Um malt elegante e herbáceo da série The Last Great Malts da Dewar's, amadurecido em ex-bourbon. Fruta do pomar, mel de urze e flores silvestres no nariz; na boca é surpreendentemente texturizado e oleoso, com especiarias suaves e um final limpo e refrescante. Sem filtração a frio nem corantes artificiais.",
+      "name_en": "Aultmore 12 Year Old",
+      "description_en": "An elegant, herbal malt from Dewar's The Last Great Malts series, matured in ex-bourbon casks. Orchard fruit, heather honey and wildflowers on the nose; the palate is surprisingly textured and oily, with soft spices and a clean, refreshing finish. Non-chill filtered with no artificial colouring.",
+      "name_ja": "Aultmore 12 Year Old",
+      "description_ja": "デュワーズの「ザ・ラストグレートモルツ」シリーズの、エレガントでハーバルなモルト。元バーボン樽で熟成。リンゴやナシの果実、ヘザー蜂蜜、ワイルドフラワーの香りに、驚くほどテクスチャーのあるオイリーな味わい、穏やかなスパイス、すっきりと爽やかな余韻。ノン・チルフィルター、着色料不使用。",
+      "name_fr": "Aultmore 12 Year Old",
+      "description_fr": "Un malt élégant et herbacé de la série The Last Great Malts de Dewar's, mûri en fûts d'ex-bourbon. Fruits du verger, miel de bruyère et fleurs sauvages au nez ; en bouche, une texture étonnamment huileuse, des épices douces et une finale nette et rafraîchissante. Non filtré à froid et sans coloration artificielle.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-T2WFwZH0oc",
+          "label": "Erik Wait Whisky Studies"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IZNmj4CUucE",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MtnjlpLvcBo",
+          "label": "Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tnfJINCivSE",
+          "label": "The Whiskey Dictionary"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0Usk6ozK4pE",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IvOkuqtoKYI",
+          "label": "Piojo Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kCjEJqOT5UE",
+          "label": "Amantes Del Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yWtiq-gYmBI",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Fh7RIDGuy5s",
+          "label": "ウイスキーチャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cqAzOvttwRY",
+          "label": "Bar studio TV"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mgAyfZJQv0c",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tS6y84Nw-oc",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PrUkiTuqS0M",
+          "label": "Sanson Single Malt"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ipemkekftVI",
+          "label": "Bebendo Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vFJPetwyXPc",
+          "label": "Porção dos Anjos"
         }
       ]
     },
@@ -10207,6 +10367,136 @@
       ]
     },
     {
+      "id": "glen-elgin-12-yo",
+      "slug": "glen-elgin-12-yo",
+      "name": "Glen Elgin 12 Year Old",
+      "distillery": {
+        "id": "glen-elgin",
+        "name": "Glen Elgin",
+        "name_es": "Glen Elgin",
+        "name_pt": "Glen Elgin",
+        "name_en": "Glen Elgin",
+        "name_ja": "グレンエルギン",
+        "name_fr": "Glen Elgin"
+      },
+      "description": "Un single malt de Speyside de carácter dulce y afrutado, llamado a menudo \"pastel de frutas en botella\". Miel, mazapán, almendras tostadas y manzana roja, con un final sedoso de vainilla y caramelo. Destilado con gusanos de condensación que aportan peso y complejidad.",
+      "image": "/data/images/glen-elgin-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Bourbon",
+      "distillery_id": "glen-elgin",
+      "insertion_order": 266,
+      "featured": false,
+      "name_pt": "Glen Elgin 12 Year Old",
+      "description_pt": "Um single malt de Speyside de caráter doce e frutado, muitas vezes chamado de \"bolo de frutas em garrafa\". Mel, maçapão, amêndoas tostadas e maçã vermelha, com final sedoso de baunilha e caramelo. Destilado com serpentins de condensação que conferem peso e complexidade.",
+      "name_en": "Glen Elgin 12 Year Old",
+      "description_en": "A Speyside single malt with a sweet, fruity character often called \"fruitcake in a bottle\". Honey, marzipan, toasted almonds and red apple, with a silky vanilla and caramel finish. Distilled with worm tub condensers that give the spirit weight and complexity.",
+      "name_ja": "Glen Elgin 12 Year Old",
+      "description_ja": "「瓶の中のフルーツケーキ」とも呼ばれる、甘くフルーティーな性格を持つスペイサイドのシングルモルト。はちみつ、マジパン、トーストしたアーモンド、紅玉りんご、そしてシルキーなバニラとキャラメルの余韻。ワームタブ凝縮器による蒸留が重さと複雑さを生み出す。",
+      "name_fr": "Glen Elgin 12 Year Old",
+      "description_fr": "Un single malt du Speyside au caractère doux et fruité, souvent surnommé « gâteau aux fruits en bouteille ». Miel, massepain, amandes grillées et pomme rouge, avec une finale soyeuse de vanille et de caramel. Distillé avec des condenseurs en serpentin qui apportent corps et complexité.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EDcm6iwUwNg",
+          "label": "Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X92qcn9T9Yw",
+          "label": "Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uLWOP41miYU",
+          "label": "THE WHISKY COUCH"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w-nAn2s2cRE",
+          "label": "Whiskey Novice"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g58ZOFXWQxw",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ichn02LvH-o",
+          "label": "Piojo Whisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YAL3Uu5Faf8",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cp_cKiFq4Mw",
+          "label": "秘密結社S"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lrf-fVp4cmg",
+          "label": "秘密結社S"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=N8KluvXpgsM",
+          "label": "Bebendo Whisky"
+        }
+      ]
+    },
+    {
       "id": "glen-grant-10-yo",
       "slug": "glen-grant-10-yo",
       "name": "Glen Grant 10 YO",
@@ -13179,6 +13469,368 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=nQgs1yH6F2Q",
           "label": "生方佑（昭和スタイルのショットバー クエルクス）"
+        }
+      ]
+    },
+    {
+      "id": "glenmorangie-nectar-dor",
+      "slug": "glenmorangie-nectar-dor",
+      "name": "Glenmorangie Nectar d'Or",
+      "distillery": {
+        "id": "glenmorangie",
+        "name": "Glenmorangie",
+        "name_es": "Glenmorangie",
+        "name_pt": "Glenmorangie",
+        "name_en": "Glenmorangie",
+        "name_ja": "グレンモーレンジ",
+        "name_fr": "Glenmorangie"
+      },
+      "description": "Un whisky inspirado en las pastelerías francesas: madurado en ex-bourbon y terminado en barricas de vino dulce Sauternes. Aromas de limón, dátil y jengibre; en boca es sedoso, con avellana, caramelo, almendra tostada y miel de brezo. Final largo y cálido con especias y un toque de vino de postre. Sin filtración en frío.",
+      "image": "/data/images/glenmorangie-nectar-dor.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Sauternes Finish",
+      "distillery_id": "glenmorangie",
+      "insertion_order": 270,
+      "featured": false,
+      "name_pt": "Glenmorangie Nectar d'Or",
+      "description_pt": "Um whisky inspirado nas pastelarias francesas: amadurecido em ex-bourbon e finalizado em barricas de vinho doce Sauternes. Aromas de limão, tâmara e gengibre; na boca é sedoso, com avelã, caramelo, amêndoa tostada e mel de urze. Final longo e quente com especiarias e um toque de vinho de sobremesa. Sem filtração a frio.",
+      "name_en": "Glenmorangie Nectar d'Or",
+      "description_en": "A whisky inspired by French pâtisserie: matured in ex-bourbon and finished in Sauternes sweet-wine casks. Aromas of lemon, date and ginger; silky on the palate with hazelnut, caramel, toasted almond and heather honey. A long, warm finish of spices with a touch of dessert wine. Non-chill filtered.",
+      "name_ja": "Glenmorangie Nectar d'Or",
+      "description_ja": "フランスのパティスリーにインスピレーションを得たウイスキー。バーボン樽熟成後、ソーテルヌの貴腐ワイン樽でフィニッシュ。レモン、デーツ、ジンジャーの香り。口当たりはシルキーで、ヘーゼルナッツ、キャラメル、トーストアーモンド、ヘザー蜂蜜。スパイスとデザートワインのニュアンスが残る、長く温かい余韻。ノン・チルフィルター。",
+      "name_fr": "Glenmorangie Nectar d'Or",
+      "description_fr": "Un whisky inspiré de la pâtisserie française : mûri en ex-bourbon puis affiné en fûts de vin doux de Sauternes. Arômes de citron, de datte et de gingembre ; soyeux en bouche, avec de la noisette, du caramel, de l'amande grillée et du miel de bruyère. Finale longue et chaleureuse aux épices et à la pointe de vin de dessert. Non filtré à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=McJgBMwSZ64",
+          "label": "Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SSgQd8AWWhQ",
+          "label": "The Whiskey Dictionary"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qHPkaGeu_38",
+          "label": "The Whisky Diaries"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xn-vV3wCrXA",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2w2DdeabwhE",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DIwB_cIRaoY",
+          "label": "Amantes Del Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PWYZpLHx1M8",
+          "label": "La Wiskada"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XTMDSWD3y6g",
+          "label": "DON LICORES"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BMPN1ub9Dk8",
+          "label": "Les Enthousiastes Podcask"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=N4Y8dp_w5_A",
+          "label": "la centrale whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Nt8e-hp5BSA",
+          "label": "Spirituosités"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Au2F71_mNgA",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=U_qBh9cv06o",
+          "label": "ぐーやんのウイスキー道"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g35Hjct8HJM",
+          "label": "ひろしの隠れ家"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yHz3KHyTDf4",
+          "label": "Hamtaro Samurai"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mDmOwO-nWK8",
+          "label": "WhiskyBrasil.com"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qvgXr6yF9Kg",
+          "label": "Destilados Brasil"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zmGJJt0-3sA",
+          "label": "Bebendo Whisky"
+        }
+      ]
+    },
+    {
+      "id": "glenmorangie-the-original",
+      "slug": "glenmorangie-the-original",
+      "name": "Glenmorangie The Original 10 Year Old",
+      "distillery": {
+        "id": "glenmorangie",
+        "name": "Glenmorangie",
+        "name_es": "Glenmorangie",
+        "name_pt": "Glenmorangie",
+        "name_en": "Glenmorangie",
+        "name_ja": "グレンモーレンジ",
+        "name_fr": "Glenmorangie"
+      },
+      "description": "El whisky insignia de Glenmorangie, destilado en las cobres más altas de Escocia y madurado 10 años en roble blanco americano. Cítricos, melocotón maduro y vainilla cremosa en nariz; en boca es sedoso y afrutado, con un final largo de naranja y melocotón. Suavidad y elegancia en un clásico.",
+      "image": "/data/images/glenmorangie-the-original.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon",
+      "distillery_id": "glenmorangie",
+      "insertion_order": 269,
+      "featured": false,
+      "name_pt": "Glenmorangie The Original 10 Year Old",
+      "description_pt": "O whisky insígnia da Glenmorangie, destilado nos alambiques mais altos da Escócia e amadurecido 10 anos em carvalho branco americano. Citrinos, pêssego maduro e baunilha cremosa no nariz; na boca é sedoso e frutado, com um longo final de laranja e pêssego. Suavidade e elegância num clássico.",
+      "name_en": "Glenmorangie The Original 10 Year Old",
+      "description_en": "Glenmorangie's flagship whisky, distilled in Scotland's tallest stills and matured 10 years in American white oak. Citrus, ripe peach and creamy vanilla on the nose; the palate is silky and fruity with a long orange and peach finish. Smoothness and elegance in a classic.",
+      "name_ja": "Glenmorangie The Original 10 Year Old",
+      "description_ja": "スコットランドで最も高い蒸留器で蒸留され、アメリカン・ホワイトオーク樽で10年熟成されたグレンモーレンジのフラッグシップ。柑橘、完熟ピーチ、クリーミーなバニラの香り。味わいはシルキーでフルーティー、オレンジとピーチの長い余韻。クラシックな滑らかさとエレガンス。",
+      "name_fr": "Glenmorangie The Original 10 Year Old",
+      "description_fr": "Le whisky emblématique de Glenmorangie, distillé dans les alambics les plus hauts d'Écosse et mûri 10 ans en chêne blanc américain. Agrumes, pêche mûre et vanille crémeuse au nez ; en bouche, il est soyeux et fruité avec une longue finale d'orange et de pêche. La douceur et l'élégance dans un classique.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1gLgk6pmnTE",
+          "label": "No Nonsense Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5P8icWYaEgc",
+          "label": "Charred Barrel Society"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6nDF0tPsusk",
+          "label": "The Whiskey Dictionary"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=azb5sUqOCtg",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NnOTxqNqZMQ",
+          "label": "Whisky Mexico"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dKODWRBuNA4",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=twuqQC5oBxA",
+          "label": "Sam's Single Malt"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yINmHSyQdDs",
+          "label": "La Wiskada"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DPFx5s5u7tM",
+          "label": "LA CHAÎNE DU WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xeOhKrlpaF4",
+          "label": "AlexWhiskyBlog"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zniHGr34pZc",
+          "label": "John's Drams"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2-O8MoPdAE4",
+          "label": "晩ジロー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BDAS-Vsa3HE",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HH7Bp2RRF7Q",
+          "label": "もっさんハイボール倶楽部"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LXDMUkFGTmM",
+          "label": "家飲み職人せるじお"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JhNJSoBqAIc",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YZv9rQtkYs8",
+          "label": "Porção dos Anjos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iFV0yYaPVfE",
+          "label": "WhiskyBrasil.com"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l3zMabsIRLs",
+          "label": "Mauricio"
         }
       ]
     },
@@ -31013,6 +31665,94 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=S7zLUQ6dCP8",
           "label": "聴くウイスキー #75 — トラベイグ ザ レガシー 2017 (Dram FM)"
+        }
+      ]
+    },
+    {
+      "id": "tormore-14-yo",
+      "slug": "tormore-14-yo",
+      "name": "Tormore 14 Year Old",
+      "distillery": {
+        "id": "tormore",
+        "name": "Tormore",
+        "name_es": "Tormore",
+        "name_pt": "Tormore",
+        "name_en": "Tormore",
+        "name_ja": "トーモア",
+        "name_fr": "Tormore"
+      },
+      "description": "Un Speyside ligero y elegante con notas de melón, pera y nueces. En boca es suave y redondo, con dulzor de caramelo de malta, vainilla y un toque especiado. Final limpio y persistente con matices de fruta fresca y roble tostado. Elaborado por la destilería conocida como la \"Perla de Speyside\".",
+      "image": "/data/images/tormore-14-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 14,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Bourbon",
+      "distillery_id": "tormore",
+      "insertion_order": 268,
+      "featured": false,
+      "name_pt": "Tormore 14 Year Old",
+      "description_pt": "Um Speyside leve e elegante com notas de melão, pera e nozes. Na boca é suave e redondo, com doçura de caramelo de malte, baunilha e um toque picante. Final limpo e persistente com nuances de fruta fresca e carvalho tostado. Produzido pela destilaria conhecida como \"Pérola de Speyside\".",
+      "name_en": "Tormore 14 Year Old",
+      "description_en": "A light, elegant Speyside with notes of melon, pear and nuts. The palate is soft and rounded, with sweet malt caramel, vanilla and a hint of spice. A clean, persistent finish with nuances of fresh fruit and toasted oak. Crafted by the distillery known as the \"Pearl of Speyside\".",
+      "name_ja": "Tormore 14 Year Old",
+      "description_ja": "メロン、洋ナシ、ナッツのノートを持つ、軽やかでエレガントなスペイサイド。味わいは柔らかく丸みがあり、甘いモルトキャラメル、バニラ、ほのかなスパイス。\"スペイサイドの真珠\"と呼ばれる蒸留所が生み出す、フレッシュなフルーツとトーストオークが残るクリーンで長い余韻。",
+      "name_fr": "Tormore 14 Year Old",
+      "description_fr": "Un Speyside léger et élégant avec des notes de melon, de poire et de fruits secs. En bouche, il est souple et rond, avec un caramel de malt sucré, de la vanille et une pointe d'épice. Finale nette et persistante aux nuances de fruit frais et de chêne toasté. Élaboré par la distillerie surnommée la « Perle du Speyside ».",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=196_gsXU1oo",
+          "label": "No Nonsense Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ljbj1lnRQIw",
+          "label": "Kosher Spirit Tormore 14YR"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mHCl-PIVzVs",
+          "label": "WhiskyJason Tormore 14 vs 16"
         }
       ]
     },

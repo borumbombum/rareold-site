@@ -1,5 +1,12 @@
 # Learnings
 
+## 2026-09-01 — Batch add: Glen Elgin/Aultmore/Tormore/Glenmorangie ×2
+
+- **Whiskybase image CDN returns 403 to the image-prep UA** — its `static.whiskybase.com/storage/whiskies/...` URLs need a real browser origin. Use shop/CDN product shots instead (`media.nicks.com.au`, `cdn11.bigcommerce.com`, retailer uploads).
+- **Whiskybase search pages expose exact image URLs in the HTML** (e.g. Cadenhead's Tormore 14 → `cadenhead.shop/wp-content/uploads/2026/02/Tormore-14-YO.png`); grep the product page for `.png/.jpg` to grab a direct link.
+- **`npm run db:sync` re-prints totals, not inserts** — verify new rows by diffing counts before/after (distilleries 98→102, products 262→267, videos +75) rather than trusting a "seeded N" line.
+- **Niche Speyside expressions (Glen Elgin 12, Aultmore 12) have spotty non-EN coverage**: Aultmore shipped en/es/pt/ja; Glen Elgin shipped en/es/pt/ja but no fr; Tormore 14 had honest exact-expression videos only in en (3). Ship zero for a language rather than pad — runtime EN top-up covers the gap.
+
 ## 2026-09-01 — Video search pitfall for less-niche Speyside single malts
 
 - **`influencer_videos` can't be verified from the exported product object** — the export splits them out to `src/lib/data/influencer_videos.json` keyed by `product_id`, so `f.influencer_videos` on a whisky is 0. Always check the flat list. (Glenrothes Maker's Cut + Mortlach 12/16.)

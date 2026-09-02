@@ -1,5 +1,13 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-01 — YouTube search: Aultmore 12 (youtube-search skill)
+
+- **French query prefixes overridden by native `yt-search`.** Every French query ("Aultmore 12 ans dégustation test avis") returned only English/Spanish channels with YouTube's auto-translated English titles — no genuine French Aultmore 12 review exists (only French channels doing other whiskies). Skill rule applied: ship zero for `fr` rather than pad with a non-French video. `Malt à propos` and `Les Grands Alambics` are French *channels* but their featured videos were Macallan/rhum, not Aultmore 12 — don't grab a same-channel different-whisky video.
+- **Invidious auto-escapes HTML entities** (`Can&#39;t`), so read `|||`-split titles carefully; oEmbed is the authority.
+- **One Invidious candidate (dBrjv_ph_Bc) verified as a DIFFERENT whisky** (Aberfeldy 12) even though it appeared in the Aultmore 12 Japanese search — always oEmbed-verify, never trust query relevance or translated titles.
+- **Embeds: `ATGdhRk4zsE` (Cultura del Whisky) verified as BLOCK** — embed-blocked videos must be discarded per the skill; there will sometimes be a solid-looking candidate that fails the embed check.
+- Aultmore 12 had deep multi-language coverage (en/es/pt/ja all ≥3 verified). If any search returns this many exacts, still verify every candidate before shipping.
+
 ## 2026-09-01 — API paywall model + /database page (065/066 planning)
 
 - **Payment model for the API changed from one-time to two tiers** ($19/year yearly-billed vs $99 lifetime). When the business model shifts, the task file must be updated at plan time, not discovered mid-implementation. 065 now carries `plan` + `expires_at` columns so expiry auto-blocks yearly consumers.
