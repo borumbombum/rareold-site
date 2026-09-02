@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-02T03:17:48.015Z",
+  "generatedAt": "2026-09-02T07:22:58.166Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -767,6 +767,118 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=hW9uHERJS1A",
           "label": "Sanson Single Malt"
+        }
+      ]
+    },
+    {
+      "id": "aberfeldy-21-year-old",
+      "slug": "aberfeldy-21-year-old",
+      "name": "Aberfeldy 21 Year Old",
+      "distillery": {
+        "id": "aberfeldy",
+        "name": "Aberfeldy",
+        "name_es": "Aberfeldy",
+        "name_pt": "Aberfeldy",
+        "name_en": "Aberfeldy",
+        "name_ja": "アバフェルディ",
+        "name_fr": "Aberfeldy"
+      },
+      "description": "Single malt escocés de las Highland, madurado 21 años en una combinación de costosas barricas de jerez y bourbon. Ofrece notas de miel de brezo, frutos secos y coco tostado con un suave toque de humo, todo envuelto en un final largo y aterciopelado. Una expresión madura y elegante del carácter Golden Dram.",
+      "image": "/data/images/aberfeldy-21-year-old.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 21,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Mixed",
+      "distillery_id": "aberfeldy",
+      "insertion_order": 276,
+      "featured": false,
+      "name_pt": "Aberfeldy 21 Year Old",
+      "description_pt": "Single malt escocês das Highlands, amadurecido 21 anos numa combinação de caras barricas de xerez e bourbon. Oferece notas de mel de urze, frutos secos e coco tostado com um leve toque de fumo, envolvido num final longo e aveludado. Uma expressão madura e elegante do caráter Golden Dram.",
+      "name_en": "Aberfeldy 21 Year Old",
+      "description_en": "A Highland single malt Scotch, matured 21 years in a combination of expensive sherry and bourbon casks. It offers notes of heather honey, nuts and toasted coconut with a soft hint of smoke, all wrapped in a long, velvety finish. A mature and elegant expression of the Golden Dram character.",
+      "name_ja": "Aberfeldy 21 Year Old",
+      "description_ja": "高価なシェリー樽とバーボン樽を組み合わせて21年間熟成したハイランド・シングルモルト・スコッチ。ヘザー蜂蜜、ナッツ、トーストしたココナッツにほのかなスモーキーさを伴い、長くビロードのような余韻に包まれる。ゴールデンドラムの成熟した優雅な表情。",
+      "name_fr": "Aberfeldy 21 Year Old",
+      "description_fr": "Single malt écossais des Highlands, mûri 21 ans dans une combinaison de fûts de sherry et de bourbon coûteux. Il offre des notes de miel de bruyère, de noix et de noix de coco grillée avec une pointe de fumée, enveloppés dans une finale longue et veloutée. Une expression mûre et élégante du caractère Golden Dram.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3ENn_xMDmBg",
+          "label": "GreatDrams — Aberfeldy 21 Year Old"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DzMyaaRPkeE",
+          "label": "Whisky.com — Aberfeldy 21 Years"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QLNQrgqORNs",
+          "label": "THE WHISKY COUCH — Aberfeldy 21 Tasting"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oQ_q3BMAugk",
+          "label": "Darryl Lim — Aberfeldy 21 YO Review"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XC2yk300Ip4",
+          "label": "Skymalt — Aberfeldy 21 ans"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CYmFXbp5hwk",
+          "label": "ひとくちウイスキー — アバフェルディ21年"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=C4tHWTBl33g",
+          "label": "Sanson Single Malt — Aberfeldy 12/16/21"
         }
       ]
     },
@@ -5063,6 +5175,136 @@
       ]
     },
     {
+      "id": "ben-nevis-10-year-old",
+      "slug": "ben-nevis-10-year-old",
+      "name": "Ben Nevis 10 Year Old",
+      "distillery": {
+        "id": "ben-nevis",
+        "name": "Ben Nevis",
+        "name_es": "Ben Nevis",
+        "name_pt": "Ben Nevis",
+        "name_en": "Ben Nevis",
+        "name_ja": "ベンネビス",
+        "name_fr": "Ben Nevis"
+      },
+      "description": "El whisky insignia de Ben Nevis, envejecido 10 años en barricas de ex-bourbon y jerez. Ofrece una nariz floral con miel, cera de abeja y caramelo, seguida de un paladar pleno con notas de chocolate oscuro, cereal y especias, y un final largo y envolvente. Un robusto Highland malt de gran personalidad.",
+      "image": "/data/images/ben-nevis-10-year-old.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Mixed",
+      "distillery_id": "ben-nevis",
+      "insertion_order": 278,
+      "featured": false,
+      "name_pt": "Ben Nevis 10 Year Old",
+      "description_pt": "O whisky emblemático de Ben Nevis, envelhecido 10 anos em barricas de ex-bourbon e xerez. Oferece um nariz floral com mel, cera de abelha e caramelo, seguido de um paladar pleno com notas de chocolate escuro, cereal e especiarias, e um final longo e envolvente. Um robusto malt das Highlands com grande personalidade.",
+      "name_en": "Ben Nevis 10 Year Old",
+      "description_en": "Ben Nevis's flagship whisky, matured 10 years in ex-bourbon and sherry casks. It offers a floral nose with honey, beeswax and caramel, followed by a full palate with notes of dark chocolate, cereal and spice, and a long, enveloping finish. A robust Highland malt with real personality.",
+      "name_ja": "Ben Nevis 10 Year Old",
+      "description_ja": "ベンネビスの代表的なウイスキーで、バーボン樽とシェリー樽で10年間熟成。ハチミツ、ビーズワックス、キャラメルの花のようなアロマに、ダークチョコレート、穀物、スパイスの豊かな味わい、長く包み込むような余韻。個性豊かなハイランドモルト。",
+      "name_fr": "Ben Nevis 10 Year Old",
+      "description_fr": "Le whisky emblématique de Ben Nevis, mûri 10 ans en fûts d'ex-bourbon et de sherry. Il offre un nez floral avec du miel, de la cire d'abeille et du caramel, suivi d'un palais plein de notes de chocolat noir, de céréales et d'épices, et d'une finale longue et enveloppante. Un malt des Highlands robuste avec une vraie personnalité.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BHXH283sT54",
+          "label": "The Single Malt Review - Ben Nevis 10 Years Old Ep142"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BQQvRZ7TdCE",
+          "label": "Whisky.com - Ben Nevis 10 Years"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e4MB33M87BA",
+          "label": "Whisky Wednesday - Ben Nevis 10YO 2021 46%"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tC2FKtgFMXA",
+          "label": "Whiskey Novice - Ben Nevis 10 review #167"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0Nb7ICJU3_4",
+          "label": "HABLANDO DE WHISKY - BEN NEVIS 10"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oKAoVvewvGg",
+          "label": "Spirituosités - Ben Nevis 10 Highland Single Malt"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PtwmWYGCb0k",
+          "label": "ノーリカーノーライフ - ベンネヴィス10年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Uk4MFnK7qCc",
+          "label": "ウィスキーを飲む人 - BEN NEVIS 10yo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X0PlsVW4uqc",
+          "label": "テンダリー宮崎 優子 - ベン・ネヴェス10年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cNOQwP1eGpM",
+          "label": "ハイボーず - ベン・ネヴィス10年 テイスティング"
+        }
+      ]
+    },
+    {
       "id": "benriach-the-original-ten",
       "slug": "benriach-the-original-ten",
       "name": "Benriach The Original Ten",
@@ -9277,6 +9519,302 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=TizXjhQ50nY",
           "label": "Whisky Review | Dalwhinnie 15 anos (Português PT - BR)"
+        }
+      ]
+    },
+    {
+      "id": "deanston-12-year-old",
+      "slug": "deanston-12-year-old",
+      "name": "Deanston 12 Year Old",
+      "distillery": {
+        "id": "deanston",
+        "name": "Deanston",
+        "name_es": "Deanston",
+        "name_pt": "Deanston",
+        "name_en": "Deanston",
+        "name_ja": "ディーンストン",
+        "name_fr": "Deanston"
+      },
+      "description": "Single malt de las Highland envejecido 12 años en barricas de bourbon, sin filtración en frío ni colorantes artificiales. Destaca por su dulzura cremosa con notas de fruta, miel y vainilla, y un característico toque de clavo en el final. Un whisky orgánico certificado de gran suavidad.",
+      "image": "/data/images/deanston-12-year-old.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46.3,
+      "cask": "Bourbon",
+      "distillery_id": "deanston",
+      "insertion_order": 279,
+      "featured": false,
+      "name_pt": "Deanston 12 Year Old",
+      "description_pt": "Single malt das Highlands envelhecido 12 anos em barricas de bourbon, sem filtração a frio nem corantes artificiais. Destaca-se pela sua doçura cremosa com notas de fruta, mel e baunilha, e um característico toque de cravo no final. Um whisky orgânico certificado de grande suavidade.",
+      "name_en": "Deanston 12 Year Old",
+      "description_en": "A Highland single malt matured 12 years in bourbon casks, non-chill-filtered and with no artificial coloring. It stands out for its creamy sweetness with notes of fruit, honey and vanilla, and a characteristic clove hint on the finish. A certified organic whisky of great smoothness.",
+      "name_ja": "Deanston 12 Year Old",
+      "description_ja": "バーボン樽で12年間熟成したハイランド・シングルモルト。ノンチルフィルタードで無着色。クリーミーな甘さにフルーツ、ハチミツ、バニラのノート、余韻にクローブの特徴的なヒント。認証オーガニックの滑らかなウイスキー。",
+      "name_fr": "Deanston 12 Year Old",
+      "description_fr": "Un single malt des Highlands mûri 12 ans en fûts de bourbon, non filtré à froid et sans coloration artificielle. Il se distingue par sa douceur crémeuse avec des notes de fruits, de miel et de vanille, et une touche de clou de girofle caractéristique en finale. Un whisky biologique certifié d'une grande douceur.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2-i7tbQoaXQ",
+          "label": "The Grail: Deanston 12 Single Malt Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cHlLxnrEu24",
+          "label": "Whisky Central: Deanston 12 Scotch Whisky Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mig4p_8hjQ4",
+          "label": "Gwhisky: Deanston 12 REVIEW"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=q4dZWa1Usxs",
+          "label": "WAS IT WORTH IT WHISKY: Deanston 12 Year Old Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=38Q4LR_JpDc",
+          "label": "TheOneGlassMan: Deanston 12"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=seW3tFUMDv0",
+          "label": "Whisky o Muerte: Deanston 12 cata y reseña"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=svgZLIcISWE",
+          "label": "El Whisky Bar: Deanston 12 años"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AsyD40UPj1s",
+          "label": "Whisky et Cie: Le Deanston 12 ans"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iOa6qLRqoTg",
+          "label": "ひとくちウイスキー: ディーンストン12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pv5AL4DcaSg",
+          "label": "秘密結社S: 推しの１本ディーンストン12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y4tthBXFaFA",
+          "label": "秘密結社S: ディーンストン12年"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AiT0XCfXgOM",
+          "label": "WhiskyBrasil.com: Deanston 12 anos Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bgK445fI6Ko",
+          "label": "Destilados Brasil: Deanston 12 anos Review 430"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fY4DkZEH7QE",
+          "label": "Whisky com Gringo: Deanston 12 anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=foWmDhkPAYE",
+          "label": "Bebendo Whisky: Deanston 12 anos"
+        }
+      ]
+    },
+    {
+      "id": "deanston-virgin-oak",
+      "slug": "deanston-virgin-oak",
+      "name": "Deanston Virgin Oak",
+      "distillery": {
+        "id": "deanston",
+        "name": "Deanston",
+        "name_es": "Deanston",
+        "name_pt": "Deanston",
+        "name_en": "Deanston",
+        "name_ja": "ディーンストン",
+        "name_fr": "Deanston"
+      },
+      "description": "Single malt de las Highland sin declaración de edad, madurado en barricas de bourbon y terminado durante 9-12 meses en roble americano virgen. Presenta notas de miel suave, naranjas confitadas, vainilla cremosa, caramelo y especias aromáticas, con un toque de cera característico.",
+      "image": "/data/images/deanston-virgin-oak.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46.3,
+      "cask": "Bourbon",
+      "distillery_id": "deanston",
+      "insertion_order": 280,
+      "featured": false,
+      "name_pt": "Deanston Virgin Oak",
+      "description_pt": "Single malt das Highlands sem declaração de idade, amadurecido em barricas de bourbon e terminado durante 9-12 meses em carvalho americano virgem. Apresenta notas de mel suave, laranjas cristalizadas, baunilha cremosa, caramelo e especiarias aromáticas, com um toque de cera característico.",
+      "name_en": "Deanston Virgin Oak",
+      "description_en": "A non-age-stated Highland single malt, matured in bourbon casks and finished for 9-12 months in virgin American oak. It presents notes of soft honey, candied oranges, creamy vanilla, caramel and aromatic spice, with a characteristic waxy touch.",
+      "name_ja": "Deanston Virgin Oak",
+      "description_ja": "エイジステートメントのないハイランド・シングルモルト。バーボン樽で熟成後、新樽のアメリカンオークで9〜12ヶ月フィニッシュ。柔らかなハチミツ、オレンジピール、クリーミーなバニラ、キャラメル、芳香なスパイスに特徴的なワックス感を伴う。",
+      "name_fr": "Deanston Virgin Oak",
+      "description_fr": "Un single malt des Highlands sans déclaration d'âge, mûri en fûts de bourbon puis affiné 9 à 12 mois en chêne américain vierge. Il présente des notes de miel doux, d'oranges confites, de vanille crémeuse, de caramel et d'épices aromatiques, avec un toucher cireux caractéristique.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8UXpTjdz69Q",
+          "label": "Honest Sips"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=D9oN0D6Ziog",
+          "label": "No Nonsense Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NcIU1iNcyYA",
+          "label": "Erik Wait Whisky Studies"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cDwi4uZvxiI",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DauwSB8cDeo",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rrmORkGOT5o",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DNDAtera01A",
+          "label": "Gwhisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jpQ_I4x9UBk",
+          "label": "Whisky Seekers - ディーンストン・ヴァージンオーク"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ur7H_wxH0Zw",
+          "label": "Whisky Seekers - デーンストン・バージンオーク"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YQyQekgezO4",
+          "label": "Porção dos Anjos Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kY9Dw1nd93k",
+          "label": "Tierri Whisky"
         }
       ]
     },
@@ -29009,6 +29547,142 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=oX68jQ2s1B0",
           "label": "This Cheap Scotch Shouldn’t Be This Good | Tamnavulin Wine Cask Finish Review"
+        }
+      ]
+    },
+    {
+      "id": "ardmore-legacy",
+      "slug": "ardmore-legacy",
+      "name": "The Ardmore Legacy",
+      "distillery": {
+        "id": "ardmore",
+        "name": "Ardmore",
+        "name_es": "Ardmore",
+        "name_pt": "Ardmore",
+        "name_en": "Ardmore",
+        "name_ja": "アードモア",
+        "name_fr": "Ardmore"
+      },
+      "description": "Single malt de las Highland sin declaración de edad, elaborado con un 80% de malta turbada y un 20% sin turbo. Presenta notas de miel dulce, manzana y vainilla con un suave fondo ahumado y especias al final. Una accesible y versátil introducción a la casa Ardmore.",
+      "image": "/data/images/ardmore-legacy.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon",
+      "distillery_id": "ardmore",
+      "insertion_order": 277,
+      "featured": false,
+      "name_pt": "The Ardmore Legacy",
+      "description_pt": "Single malt das Highlands sem declaração de idade, elaborado com 80% de malte turfado e 20% sem turfa. Apresenta notas de mel doce, maçã e baunilha com um suave fundo defumado e especiarias no final. Uma introdução acessível e versátil à casa Ardmore.",
+      "name_en": "The Ardmore Legacy",
+      "description_en": "A non-age-stated Highland single malt, made with 80% peated malt and 20% unpeated. It presents notes of sweet honey, apple and vanilla with a soft smoky undertone and spice on the finish. An accessible, versatile introduction to the Ardmore house style.",
+      "name_ja": "The Ardmore Legacy",
+      "description_ja": "エイジステートメントのないハイランド・シングルモルトで、80%のピート麦芽と20%の非ピート麦芽で造られている。甘い蜂蜜、りんご、バニラのノートに柔らかなスモーキーさと余韻のスパイス。アードモアのハウススタイルを気軽に楽しめる一本。",
+      "name_fr": "The Ardmore Legacy",
+      "description_fr": "Un single malt des Highlands sans déclaration d'âge, élaboré avec 80 % de malt tourbé et 20 % non tourbé. Il présente des notes de miel doux, de pomme et de vanille avec un fond fumé doux et des épices en finale. Une introduction accessible et polyvalente au style de la maison Ardmore.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0DgD3TxVk00",
+          "label": "The Ardmore Legacy — Erik Wait Whisky Studies"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZONKg2KSm14",
+          "label": "Ardmore Legacy — Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yTdHl1-Bleg",
+          "label": "The Ardmore Legacy Review — Everything Whiskey"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z1sqrrdyLMI",
+          "label": "The Ardmore Legacy — No Nonsense Whisky #121"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1l-rMgqBkAo",
+          "label": "The Ardmore Legacy — Hablando de Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HdtNinah3_8",
+          "label": "Ardmore Legacy Whisky Review — Whisky Gómez"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7lQFEpskZg0",
+          "label": "アードモアレガシーをのむ — 宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IIUbZpsFpRc",
+          "label": "アードモア レガシー（ストレート）— ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kc1nF2jiOgo",
+          "label": "アードモア レガシー — CH.ウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lRkJyQAPuWM",
+          "label": "アードモア レガシー 軽く一杯 — お酒の塾長"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-gzx7YmXyL4",
+          "label": "Ardmore Legacy — Porção dos Anjos Whisky"
         }
       ]
     },

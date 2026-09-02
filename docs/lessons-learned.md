@@ -1,6 +1,12 @@
 # Lessons learned (errors and corrections)
 
-## 2026-09-02 — Batch of 5 whiskies (Quinta Ruban 12, Signet, Oban 14, Aberfeldy 12 + 16)
+## 2026-09-02 — Batch of 5 whiskies (Aberfeldy 21, Ardmore Legacy, Ben Nevis 10, Deanston 12 + Virgin Oak)
+
+- **whiskybase.com image URLs 403 with the default request.** Several candidate images (`static.whiskybase.com/storage/...`) returned HTTP 403. Swap to a different working source instead of retrying: `img.thewhiskyexchange.com/330/...` (Aberfeldy 21), the official distillery PNG (Ben Nevis 10), `img.thewhiskyexchange.com/540/...` (Deanston Virgin Oak) all worked.
+- **`data:export` does NOT embed videos in `whiskies.json`.** Product objects carry a `videos` array, but the flat `src/lib/data/influencer_videos.json` (keyed by `product_id`) is the authoritative count. Verify per-language video counts there, not on the `whiskies.json` product.
+- **`videosForLocale` requires a min of the localized videos and tops up with English** (`src/lib/utils/videos.ts`). Shipping fewer than 4 for a thin language (es/pt/ja/fr) is fine and expected — English fills the row. Aberfeldy 21 (es 0), Ben Nevis 10 (pt 0), Ardmore Legacy (fr 0) all shipped thin on honest-search grounds.
+- **Multi-expression tastings qualify.** A Portuguese video tasting Aberfeldy 12/16/21 together (`C4tHWTBl33g`) is a legit exact-expression PT slot for the 21 — it covers the 21 among the set.
+- **New distilleries run `ON CONFLICT DO NOTHING`** — the Ardmore, Ben Nevis and Deanston records had to be complete (coords, all 5 locale descriptions) on first insert or they'd stay broken.
 
 - **whisky.my image CDN needs UPPERCASE upload slugs.** Lowercase guesses (`aberfeldy-16-year-old.webp`) 404; the working form is `.../wp-content/uploads/ABERFELDY-16-Year-Old.webp` (captialized like the actual filename). It 307-redirects to a real JPEG — follow redirects with `-L` and check `file`, don't trust the `curl -w %{http_code}` alone (307 ≠ actual content).
 - **More confirmed image sources** for the fallback ladder: `cdn11.bigcommerce.com` (Signet, Aberfeldy 12), `www.liquoronbroadway.com/cdn/shop/products/*.png` (Quinta Ruban 12), `cdn.shoplightspeed.com` (Oban 14). All download and convert to 500×500 webp cleanly.

@@ -150,11 +150,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Oban 14 YO - Oban
 ✅ Aberfeldy 12 YO - Aberfeldy
 ✅ Aberfeldy 16 YO - Aberfeldy
-Aberfeldy 21 YO - Aberfeldy
-Ardmore Legacy - Ardmore
-Ben Nevis 10 YO - Ben Nevis
-Deanston 12 YO - Deanston
-Deanston Virgin Oak - Deanston
+✅ Aberfeldy 21 YO - Aberfeldy
+✅ Ardmore Legacy - Ardmore
+✅ Ben Nevis 10 YO - Ben Nevis
+✅ Deanston 12 YO - Deanston
+✅ Deanston Virgin Oak - Deanston
 Edradour 10 YO - Edradour
 Edradour Caledonia - Edradour
 Glen Garioch Founder's Reserve - Glen Garioch
