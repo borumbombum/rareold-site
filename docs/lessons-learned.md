@@ -1,5 +1,14 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-02 — Batch of 5 whiskies (Royal Lochnagar 12, Royal Brackla 12, Blair Athol 12, Loch Lomond Original, Inchmurrin 12)
+
+- **Diageo `malts.com` product image URLs return HTML, not images** (the Classic Malts pages are client-rendered; the `.../packshot.png` guesses 404). Use retail CDN sources instead: `thespiritco.com/cdn/shop/products/...` (Royal Lochnagar 12), `whiskeyreviewer.com/wp-content/uploads/...` (Royal Brackla 12), `jeffreyst.com/cdn/shop/files/...` (Blair Athol F&F), `cdn11.bigcommerce.com/images/stencil/...` (Loch Lomond Original), `theliquorbarn.com/cdn/shop/files/...` (Inchmurrin 12).
+- **`curl file` is the ground truth for downloads** — a `231`/`200` HTTP code on a guessed product CDN URL can still be an HTML doc. Check `file <download>` before converting; the failed `.png`/`.webp` guesses were HTML.
+- **Loch Lomond Original is 40% ABV with no age statement, Inchmurrin 12 is 46% non-chill-filtered** (three American oak cask types, straight-neck stills). Both are Highland (distillery at Alexandria, 55.9923,-4.5766).
+- **Video coverage diversity confirmed again:** Blair Athol 12 (es/fr/ja/en — no pt), Loch Lomond Original (es/pt/ja/en — no fr), Loch Lomond and Royal Brackla (all five), Royal Lochnagar (en/ja only) all shipped honest-search results with no padding; English tops up.
+- **`ON CONFLICT DO NOTHING` for the 4 new distilleries** — each record was complete (coords + 5-locale descriptions) on first insert so they plot on /map and render localized.
+- **Inchmurrin 12's sub-assigned French slot `kRuJCrA9Am4` was actually an ENGLISH-spoken video** ("Inchmurrin 12 year old single malt whisky review", channel Whisky Lovers Society) mislabeled `fr` by the search sub-agent. Caught via oEmbed — a non-localized video must not be placed in a non-`en` slot. Removed and re-synced; no genuine French Inchmurrin 12 review exists, so `fr` ships empty (English tops up at runtime).
+
 ## 2026-09-02 — Batch of 5 whiskies (Glenglassaugh Portsoy, Clynelish 14, Glendronach 12/15/18)
 
 - **Glendronach og:image URLs use `_2-1` / `_2-2` suffixes, not the obvious `_1-1`.** Guessing `GD_15YO-1-1.png` / `GD_18YO-1-1.png` 404s; the real files are `GD_15YO-2-1.png` and `GD_18YO-2-2.png` (confirmed via the product page's `og:image` meta). Always scrape the `og:image` meta rather than guessing the filename pattern.
