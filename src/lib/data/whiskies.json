@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-03T03:05:57.455Z",
+  "generatedAt": "2026-09-03T20:50:24.083Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -5787,6 +5787,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=utiHdWsjNTc",
           "label": "Whisky ES"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HVc2DFvlO_4",
+          "label": "ひとくちウイスキー"
         }
       ]
     },
@@ -14249,6 +14255,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=n5SvLMHWx50",
           "label": "Maltophile"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eLqYZyS-C18",
+          "label": "ひとくちウイスキー"
         }
       ]
     },
@@ -15917,6 +15929,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=hh-SDB9hDo0",
           "label": "Exploring Whiskey"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tfMP_wsTb2Y",
+          "label": "Andres Whisky Aficionado"
         },
         {
           "language": "ja",
@@ -30577,6 +30595,18 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=tb4oB4uVupU",
           "label": "Whisky reviewer"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RS3imTBKiYg",
+          "label": "Catandocongusto"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jUnM21w_yqo",
+          "label": "HABLANDO DE WHISKY"
         },
         {
           "language": "fr",

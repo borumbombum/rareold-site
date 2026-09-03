@@ -361,3 +361,8 @@
 
 - The same auto-translation trap cuts both ways: it inflates false es/pt/ja/fr candidates on niche products, but on truly-famous single malts the genuine in-language coverage is deep. The deciding factor is always the oEmbed author/language, never the displayed search title.
 - Diminishing returns: after 5 waves the remaining gaps are dominated by products that genuinely lack foreign-language, exact-expression reviews (community distilleries, NAS/comparison expressions, Argentina/India micro-brands). Filling further requires either relaxing the exact-expression rule (rejected) or accepting honest-dry floors and closing out the task.
+
+## 2026-09-03 — exhaustion is a signal, not a failure
+
+- After 4 dedicated waves the per-wave yield fell 65→17→5. When five independent agents each return "dry" for the same product across a language, that is empirical confirmation the coverage doesn't exist — not a search failure. The correct engineering response is to stop expanding and document the honest-dry floor.
+- Language-specific coverage ceilings differ by market: ja/es/pt have broad single-malt reviewer communities; fr is the weakest, skewing to well-known brands only. Plan foreign-language fill ratios expecting fr to be the bottleneck.

@@ -3318,6 +3318,13 @@
     "label": "Whisky ES"
   },
   {
+    "product_id": "balblair-18-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=HVc2DFvlO_4",
+    "label": "ひとくちウイスキー"
+  },
+  {
     "product_id": "balvenie-caribbean-cask-14-yo",
     "language": "en",
     "platform": "youtube",
@@ -8351,6 +8358,13 @@
     "label": "Maltophile"
   },
   {
+    "product_id": "glencadam-10-yo",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=eLqYZyS-C18",
+    "label": "ひとくちウイスキー"
+  },
+  {
     "product_id": "glencadam-origin",
     "language": "en",
     "platform": "youtube",
@@ -9315,6 +9329,13 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=hh-SDB9hDo0",
     "label": "Exploring Whiskey"
+  },
+  {
+    "product_id": "glenglassaugh-portsoy",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=tfMP_wsTb2Y",
+    "label": "Andres Whisky Aficionado"
   },
   {
     "product_id": "glenglassaugh-portsoy",
@@ -17344,6 +17365,20 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=tb4oB4uVupU",
     "label": "Whisky reviewer"
+  },
+  {
+    "product_id": "smokehead-design",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=RS3imTBKiYg",
+    "label": "Catandocongusto"
+  },
+  {
+    "product_id": "smokehead-design",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=jUnM21w_yqo",
+    "label": "HABLANDO DE WHISKY"
   },
   {
     "product_id": "smokehead-design",

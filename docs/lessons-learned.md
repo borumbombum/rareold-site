@@ -358,3 +358,9 @@
 - Yield drops sharply as gaps narrow: this round of mainstream 2-gap products (Glasgow 1770×4, Longmorn DC, Talisker 18/DE, Dalmore KA, Glenturret 12, Tomatin 14/CS, Tomintoul 12/tlath, Auchentoshan 18/AO, Kavalan solist-vinho, Amrut, Paul John) is genuinely dry in pt/fr/ja/es — no in-language exact-expression review exists. Expect diminishing marginal returns from here.
 - Auto-translated-title traps were the main risk: `6KXKsGZ4cyA` (irishman "ja"), `eFw0CP5RM6Y` (aberfeldy "ja") looked Japanese but oEmbed showed English audio — dropped. Never trust a search result's displayed title language.
 - Per-language gaps now es 67, pt 90, ja 50, fr 153. fr is the persistent biggest gap; French whisky YouTube largely doesn't cover these mid-tier single malts precisely.
+
+## 2026-09-03 — Backfill wave 4h (final, +5 videos effectively exhausted)
+
+- Marginal yield collapsed to near-zero: 5 agents returned only 5 usable videos. The catalog's in-language YouTube coverage is exhausted. Remaining gaps are genuinely dry niche expressions.
+- Spanish channels (HABLANDO DE WHISKY, Catandocongusto, Andres Whisky Aficionado) and Japanese (ひとくち) still deliver exact-expression reviews for base/standard expressions, even on mid-tier products (Smokehead Design, Glenglassaugh Portsoy).
+- Fenymore: French whisky YouTube essentially doesn't produce reviews for mid-tier single malts (Talisker 18/DE, Speyburn, Linkwood, Glen Moray, Tormore) — fr remains the largest persistent gap at 153 and should be treated as largely un-fillable without relaxing rules.
