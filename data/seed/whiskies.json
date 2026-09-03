@@ -1544,6 +1544,13 @@
           "language": "en",
           "url": "https://www.youtube.com/watch?v=VbkmzCZ0N6I",
           "label": "Gwhisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lndnHBl2Dj0",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -1583,6 +1590,34 @@
           "language": "en",
           "url": "https://www.youtube.com/watch?v=DQm30uv_mL4",
           "label": "Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_Ve2uqvx5So",
+          "label": "Amantes Del Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9crGIM7RSic",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qUxxxL1fwE0",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5sWrmR1z5U8",
+          "label": "Les Grands Alambics",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -1618,6 +1653,97 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=sznR2hHTnCc",
           "label": "",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i_aVcKIlM3c",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ET5LqM1eDfk",
+          "label": "Whisky o Muerte",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hRHTw_qhveE",
+          "label": "Whisky o Muerte",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l8wct3ESJXo",
+          "label": "HABLANDO DE WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CMfCxzp9nDM",
+          "label": "Loucos Por Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ItNIuac3bI",
+          "label": "Mapa do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T67EpU-u0r4",
+          "label": "Whisky Capital",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XRL9aR_WfNA",
+          "label": "ITARU's BAR channel",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c-Q5ULa1TP0",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FzzHbCbyH-M",
+          "label": "Whisky Roundup / Hatsugai",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=89Hr2U_wW2Y",
+          "label": "もふチャンTV",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TG7YTVuKEOA",
+          "label": "Whisky et Cie",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DMjqd8d8OQw",
+          "label": "La Maison du Whisky Officiel",
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
@@ -2021,6 +2147,27 @@
           "language": "es",
           "url": "https://www.youtube.com/watch?v=P1zeh-EKdBY",
           "label": "Whisky Lovers"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_2gTgdK7gok",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g_dzdlIDGxM",
+          "label": "甘粕おさけ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0f4mC9LSUSA",
+          "label": "もっさんハイボール倶楽部",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -2075,6 +2222,20 @@
           "language": "pt",
           "url": "https://www.youtube.com/watch?v=2N8tG1LoAIQ",
           "label": "Whisky BR"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eQhjzTU66Es",
+          "label": "Whisky o Muerte",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1vCWci_mk0g",
+          "label": "Whisky et Cie",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -2227,6 +2388,34 @@
           "language": "en",
           "url": "https://www.youtube.com/watch?v=qlzkS0dgEe0",
           "label": "Whisky Mystery"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lBYeAk9dhFw",
+          "label": "せるじおのWhisky Radio",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wF7fgEKOywk",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X2DQXuirCBU",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QeV2ZoeZAlY",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -2520,7 +2709,29 @@
       "distillery_id": "casanegra",
       "name_fr": "Casanegra Andes Single Malt",
       "description_fr": "Le premier Andes single malt au monde, créé par les frères Gabriel et Cristian Williams à Las Compuertas, Luján de Cuyo, Mendoza, avec une traçabilité 100 % andine. Tous les processus, du maltage à la maturation en fûts toastés dans leur propre tonnellerie, sont réalisés intégralement à la distillerie. Lots limités de 1000 bouteilles.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4PeBguN00v0",
+          "label": "Alterrados",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mlRV3cD5vg4",
+          "label": "Pasión por el Vino Tv",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hBvFDWEC8A0",
+          "label": "Andino Streaming",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -3272,6 +3483,13 @@
           "language": "en",
           "url": "https://www.youtube.com/watch?v=y7WA2ryiJZE",
           "label": "Dingle Single Malt Irish Whiskey | Whiskey is a Journey"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5VlwuQL8APM",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -3723,7 +3941,22 @@
       "distillery_id": "emc-pampa",
       "name_fr": "Pampa Single Malt",
       "description_fr": "Single Malt élaboré avec du malt importé d'Écosse, dans ses versions Distilling et Heavily Peated.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LYUht9fTaEo",
+          "label": "Whisky Argentina",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cTPOs3ziyJE",
+          "label": "Whisky Club Madrid",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -4554,6 +4787,20 @@
           "language": "pt",
           "url": "https://www.youtube.com/watch?v=3U6CGLh47A4",
           "label": "Whisky BR"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c0SKl1Oq-1U",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vo4kxKBzRzk",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -4593,6 +4840,13 @@
           "language": "en",
           "url": "https://www.youtube.com/watch?v=yhj7H_KpLDs",
           "label": "Glendalough Double Barrel Whiskey REVIEW | The Whiskey Nerd"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pe8s4QF7fZk",
+          "label": "HABLANDO DE WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -4696,6 +4950,76 @@
           "language": "pt",
           "url": "https://www.youtube.com/watch?v=j2MAV6COW78",
           "label": "Whisky BR"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QvKBzEVlZF0",
+          "label": "Whisky o Muerte",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=43kSPY2Jeto",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rYTcj2-Z_hI",
+          "label": "HABLANDO DE WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8Lqgyqx7oSk",
+          "label": "Amantes Del Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SsfrQIRs8xk",
+          "label": "ノーリカーノーライフ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7nGTVDNcmaM",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bIYq6NEZgJU",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ru3KI0H7SWE",
+          "label": "ちゃんぽんちから",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qqgUwlNKnQs",
+          "label": "la cave d'à côté",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=23Sds2lHfIo",
+          "label": "L'homme qui parle whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -4760,6 +5084,62 @@
           "language": "es",
           "url": "https://www.youtube.com/watch?v=kvn-FG57hb0",
           "label": "Whisky Argentina"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ayCZPjrvjsA",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z9_O5syLLGs",
+          "label": "Bebendo Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DU-grJXt8IU",
+          "label": "Jornada do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=19n5oOSxzeY",
+          "label": "俺のモルト",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fx0l-77H8JI",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5g9hwLo3ssk",
+          "label": "もっさんハイボール倶楽部",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mKbCChJ2QT4",
+          "label": "もふチャンTV",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pyLCe7akBJQ",
+          "label": "Juste Un Doigt",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -5639,7 +6019,36 @@
       "distillery_id": "hankey-bannister",
       "name_fr": "Hankey Bannister Heritage",
       "description_fr": "Présentation de 700 ml. Créé à l'origine en 1924, notre Master Blender a revigoré cette cuvée pour les palais les plus exigeants d'aujourd'hui. Cette délicieuse recréation possède des notes de miel, de caramel et une touche fumée. Notes de dégustation COULEUR Ambre doré. NEZ Fumée douce, avec des traces d'orange brûlée et de pomme verte, notes épicées de vanille et de caramel. GOÛT De plein corps avec des touches de miel et de caramel, avec une finale longue et complexe.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JqOmg_4K7As",
+          "label": "thewhiskybothy",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1FBsPpl4J70",
+          "label": "Whisky Wednesday",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1JPh0qXLmcs",
+          "label": "Jason Debly",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=V7AYqsVtrGY",
+          "label": "Whisky in my Garden",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -8536,7 +8945,15 @@
       "distillery_id": "la-alazana",
       "name_fr": "La Alazana Classic",
       "description_fr": "Premier single malt argentin, distillé dans la farm distillery de la famille Serenelli à Las Golondrinas, Lago Puelo, Chubut (Patagonie). Eau de sources de la Cordillère des Andes, double distillation en alambics de cuivre et maturation en fûts de chêne américain et français ayant auparavant contenu bourbon, xérès, cognac et vin.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bF6HGqSxB9A",
+          "label": "Catador Itinerante",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -8691,7 +9108,36 @@
       "distillery_id": "legacy",
       "name_fr": "Legacy samll batch",
       "description_fr": "Présentation 750 ml. Le blend du Whisky canadien Legacy Small Batch est supervisé par le maître assembleur Drew Mayville. En tant que Canadien, il travaille dans l'industrie des boissons depuis plus de 30 ans et supervise tous les whiskys Buffalo Trace ainsi que l'empreinte de Legacy. ABV : 40 % Nez : le nez est brillant et s'ouvre sur des touches de cardamome, de clou de girofle et de genévrier. Après un moment, un arôme plus fort de conifères et de pins pointe. Bouche : la saveur de ce whisky est dominée par une douceur florale. L'épice est toujours présente, mais des saveurs décidément plus complexes apparaissent. Imaginez la mélasse coupée de poivre moulu et un piquant subtil de seigle.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jafYemL6_Ng",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S-Ts3LEuwC4",
+          "label": "Fenrir",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=urd1LF4YmW4",
+          "label": "Keeping It Neat",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Vr-WONEGA4c",
+          "label": "Truths, Proofs & Firewater Reviews",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -8776,7 +9222,43 @@
       "distillery_id": "macarthurs",
       "name_fr": "MacArthur&#8217;s",
       "description_fr": "Présentation de 1 litre. Le whisky MacArthur’s est plus doux et plus facile à boire que plusieurs des whiskys que vous pouvez trouver aujourd'hui sur le marché. Le fait d'avoir une masse d'au moins 51 % de seigle crée un profil de saveur beaucoup plus épicé et procure une alternative distincte et un complément à la douceur du whisky MacArthur’s. Les single malts ont généralement plus de goût que les whiskies blend et sont utilisés pour faire ces blends. Très polyvalent et à l'attrait universel, il a un goût audacieux et distinctif qui brille même lorsqu'il est assemblé. NOTE DE DÉGUSTATION : Couleur : Or pur. Odeur : Il a un nez jeune et léger avec quelques céréales, un peu de malt, des toasts et de la margarine, des coquilles de noix, de la paille, de la vanille, du sucre, du miel léger, de la poire, un peu de poivre et quelques notes d'agrumes (mandarine). Saveur : Douceur sucrée et céréalière, coquilles de noix, herbe légère et miel, un peu d'orge, agrumes (mandarine et citron), caramel léger, fruit et poivre de verger léger.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CvfhSoUAeco",
+          "label": "foodquig",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4dBrD5V3M88",
+          "label": "みずき&カオリの酒豪旅",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=f4CqH9dG19E",
+          "label": "ウイスキー大好き ミディアムチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SCPuCJzhp0o",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ChFvg40cKtM",
+          "label": "ハイボールおじさんの宅飲み研究所",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -10540,6 +11022,27 @@
           "language": "es",
           "url": "https://www.youtube.com/watch?v=479ixC0jzxE",
           "label": "Whisky Lovers"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gnkr3G89ONk",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DerFUVRPFQo",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ssqifBXsQrQ",
+          "label": "Heritage Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -10623,6 +11126,27 @@
           "language": "ja",
           "url": "https://www.youtube.com/watch?v=p2pFvK_j7eg",
           "label": "Whisky review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QrpMdg7f7yM",
+          "label": "HABLANDO DE WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zEbPQ59haM4",
+          "label": "Kata-dores",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sA8C4lYYxDw",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -10731,6 +11255,13 @@
           "language": "en",
           "url": "https://www.youtube.com/watch?v=8_Xzauq7uI8",
           "label": "Whisky Lock"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aAyN3fpH-7U",
+          "label": "Sam's Single Malt",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -10765,6 +11296,13 @@
           "language": "en",
           "url": "https://www.youtube.com/watch?v=KastK4Q6nvY",
           "label": "The Whisky Burn"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lzjk4KqWwEM",
+          "label": "ハイボールおじさんの宅飲み研究所",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -10843,6 +11381,20 @@
           "language": "en",
           "url": "https://www.youtube.com/watch?v=yEkaL6sXHrk",
           "label": "Bob"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qmgK-vAn5jE",
+          "label": "ハイボールおじさんの宅飲み研究所",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tZEA8bDmxT4",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -15282,7 +15834,36 @@
       "distillery_id": "indri",
       "name_fr": "Kamet Indian Single Malt",
       "description_fr": "Présentation de 700 ml. Distillé dans la distillerie Indri de Piccadily (Haryana) à partir d'orge six-rows de l'Himalaya et assemblé par Nancy Fraley. Influence vineuse : ex-bourbon, chêne français à vin et PX/Oloroso. Nommé d'après le troisième plus haut sommet de l'Himalaya indien. Volume : 70cl ABV : 46% Profil de saveur Le nez Fruit vineux, vanille, caramel et raisins secs subtils. En bouche Attaque vive, fruits frais et secs, épices et chocolat noir. Notes de finale Longue, noisetée aux tanins équilibrés.",
-      "influencer_videos": []
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Sze3tqbjwgg",
+          "label": "MultiCasking | Whiskey & Slushies",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZyYwVdGaEe0",
+          "label": "Bourbon Drop",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qCA32LFB4D0",
+          "label": "Ambrosia Magazine",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IUWBoixo2V8",
+          "label": "Whiskey Wonder Woman",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     },
     {
       "featured": false,
@@ -24490,14 +25071,14 @@
           "language": "en",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=nbyCmkwpMkc",
-          "label": "Royal Salute 21 tasting — Whisky in my Garden",
+          "label": "Royal Salute 21 years old tasting",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
           "language": "en",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=AZydHBrOhkA",
-          "label": "Royal Salute 21 Signature Blend — Royal Salute",
+          "label": "Royal Salute 21 Signature Blend",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -24518,7 +25099,7 @@
           "language": "es",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=2qPtezERAiE",
-          "label": "Royal Salute 21 cata de whisky — Whisky o Muerte",
+          "label": "Royal Salute 21 cata de whisky",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -24539,21 +25120,21 @@
           "language": "es",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=JS-ewqhRLfU",
-          "label": "Royal Salute 21 vs JW Blue — Cultura del Whisky",
+          "label": "Royal Salute 21 vs JW Blue Label — Cata",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
           "language": "pt",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=LCU8fwoelho",
-          "label": "Royal Salute 21 anos Review — WhiskyBrasil",
+          "label": "Royal Salute 21 anos Review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
           "language": "pt",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=fwivTvOKvC8",
-          "label": "Degustação Royal Salute 21 Anos — Jornada do Whisky",
+          "label": "Degustação Royal Salute 21 Anos",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -24574,28 +25155,28 @@
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=YE__ujDGgbc",
-          "label": "ロイヤルサルート21年を味わう — ウイ好きーチャンネル",
+          "label": "ロイヤルサルート21年を味わう",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=OUj1QY1QiV4",
-          "label": "ロイヤル サルート 21年 — ショットバー クエルクス",
+          "label": "ロイヤル サルート 21年",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=-0n5_n2Th5g",
-          "label": "ロイヤルサルート21年 レビュー — 宅飲みバーTakeo",
+          "label": "至高のブレンディッドスコッチ ロイヤルサルート21年",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Y24au0o2fkk",
-          "label": "ウイスキー初心者 ロイヤルサルート21年 — はっちばっち",
+          "label": "ウイスキー初心者が飲んでみた ロイヤルサルート21年",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -25135,7 +25716,7 @@
       "region": "Speyside",
       "age": 13,
       "volume": "700 ml",
-      "abv": 46.0,
+      "abv": 46,
       "cask": "Ex-bourbon & ex-sherry",
       "resellers_uy": [],
       "resellers_br": [],
@@ -25197,7 +25778,7 @@
       "region": "Speyside",
       "age": 17,
       "volume": "700 ml",
-      "abv": 46.0,
+      "abv": 46,
       "cask": "Ex-bourbon & ex-sherry",
       "resellers_uy": [],
       "resellers_br": [],
@@ -25259,7 +25840,7 @@
       "region": "Speyside",
       "age": 12,
       "volume": "700 ml",
-      "abv": 40.0,
+      "abv": 40,
       "cask": "Ex-bourbon",
       "resellers_uy": [],
       "resellers_br": [],
@@ -25670,7 +26251,7 @@
           "language": "en",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=tc-UQj3RcnQ",
-          "label": "Whisky.com — Linkwood 12 years review",
+          "label": "Whisky.com — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -25698,14 +26279,14 @@
           "language": "es",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=s747aW5HFDM",
-          "label": "El Whisky Bar — Linkwood 12 años (Flora y Fauna)",
+          "label": "El Whisky Bar — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=OwH5WWrXnzw",
-          "label": "宅飲みバーTakeo — リンクウッド12年 飲み比べ",
+          "label": "宅飲みバーTakeo — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -25747,7 +26328,7 @@
           "language": "en",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=NuS56-ll3Mo",
-          "label": "No Nonsense Whisky — Elgin Classic (Best Budget?)",
+          "label": "No Nonsense Whisky — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -25775,14 +26356,14 @@
           "language": "es",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=-IysGNSmTN0",
-          "label": "Tito Whisky — Elgin Classic: entrada a Glen Moray",
+          "label": "Tito Whisky — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=9B37h16XrIo",
-          "label": "宅飲みバーTakeo — グレンマレイ クラシック レビュー",
+          "label": "宅飲みバーTakeo — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
@@ -25817,7 +26398,7 @@
           "language": "en",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=_J5QMfQqRo4",
-          "label": "Whisky.com — Port Cask Finish review",
+          "label": "Whisky.com — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -25845,7 +26426,7 @@
           "language": "es",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Wi1Zf4l8c3s",
-          "label": "Whiskeros Argentina — Port Cask review",
+          "label": "WHISKEROS Argentina — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -25853,6 +26434,20 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=1jBcEeB2exw",
           "label": "Tito Whisky — Oporto vs Ahumado",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ioS_YY8n378",
+          "label": "Whisky com Gringo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MSNSlL9Xy5o",
+          "label": "Porção dos Anjos Whisky",
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
@@ -25887,7 +26482,7 @@
           "language": "en",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=uIIxnXHCYME",
-          "label": "Whisky.com — Singleton of Dufftown 12 review",
+          "label": "Whisky.com — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -25915,7 +26510,7 @@
           "language": "es",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=PVhIGmjLYRg",
-          "label": "Los Whiskochos — un single malt para empezar",
+          "label": "Los Whiskochos — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -25943,7 +26538,7 @@
           "language": "pt",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=biM8BrlPv3I",
-          "label": "Brauna Drinks — Singleton Dufftown 12 review",
+          "label": "Brauna Drinks — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -25957,7 +26552,7 @@
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=in2KFPEXm8w",
-          "label": "正直者がお酒を見る — シングルトン ダフタウン 12年",
+          "label": "正直者がお酒を見る — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -25999,7 +26594,7 @@
           "language": "en",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=WOj-r-HtykM",
-          "label": "Whisky.com — Knockando 12 review",
+          "label": "Whisky.com — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -26027,14 +26622,14 @@
           "language": "es",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=TFequBfckG4",
-          "label": "El Whisky Bar — Knockando 12 Years Old",
+          "label": "El Whisky Bar — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=yTnZegfOnY8",
-          "label": "宅飲みバーTakeo — ノッカンドゥ12年 飲んでみた",
+          "label": "宅飲みバーTakeo — review",
           "created_at": "2000-01-01T00:00:00.000Z"
         },
         {
@@ -26326,6 +26921,13 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Ljbj1lnRQIw",
           "label": "Kosher Spirit Tormore 14YR",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NaAOAoGAdEo",
+          "label": "Kusumoto Daisuke",
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
@@ -29135,6 +29737,27 @@
           "url": "https://www.youtube.com/watch?v=Y0X5FtG0DBI",
           "label": "Whisky.com",
           "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T_h5EN_TsH0",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ymM2pOkI6ow",
+          "label": "ひろしの隠れ家",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TPmDS5pN6Jc",
+          "label": "もっさんの極上裏路地酒場",
+          "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -29271,11 +29894,41 @@
       "description_fr": "Un single malt des Highlands de Dingwall, en Écosse, aux notes florales et fruitées de poire, d'épices subtiles et de douceur maltée. Vieilli en mélange de fûts de vin, Moscatel et Marsala, il offre une finale complexe de chocolat noir et d'épices chaudes. Un spiritueux jeune mais élégant, élaboré avec de l'orge locale et 100 % d'énergie renouvelable.",
       "distillery_id": "glenwyvis",
       "influencer_videos": [
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=2rFSiLmY5E0", "label": "The Grail", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=9T07xGNseCs", "label": "The Spirit Specialist", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=JTPYxm38V_s", "label": "Malt Mariners", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=uyJf4NBB6TY", "label": "Whisky Lock", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=EJyCjQ0cBUg", "label": "ひとくちウイスキー", "created_at": "2000-01-01T00:00:00.000Z" }
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2rFSiLmY5E0",
+          "label": "The Grail",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9T07xGNseCs",
+          "label": "The Spirit Specialist",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JTPYxm38V_s",
+          "label": "Malt Mariners",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uyJf4NBB6TY",
+          "label": "Whisky Lock",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EJyCjQ0cBUg",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
       ]
     },
     {
@@ -29304,19 +29957,97 @@
       "description_fr": "Triple distillé et vieilli en fûts de bourbon américain, Oloroso et Pedro Ximénez, ce single malt des Lowlands présente la douceur caractéristique avec des fruits noirs : cassis, prunes et oranges, accompagnés de noisettes, cannelle et caramel. Soyeux et fruité en bouche, avec une finale de chêne douce et persistante.",
       "distillery_id": "auchentoshan",
       "influencer_videos": [
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=-cqV3dvzKUg", "label": "Whisky.com", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=eJ3Q6K_bqmU", "label": "Whiskey Vault", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=f935qNOVDBc", "label": "Scotch 4 Dummies", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=gwwyORakLbA", "label": "James Ashbourne", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=6mTW7lu0pn8", "label": "Los Whiskochos", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=L3nhn0D5wWw", "label": "Clan de Whiskeros", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=2zYAzFmnoDs", "label": "Catandocongusto", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=tN0i8fJ6eVo", "label": "Tierri Whisky", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=cK9nPH4vM7I", "label": "Tierri Whisky", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=FYkDcW2rRkM", "label": "ひとくちウイスキー", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=BfkCM4w3JIY", "label": "はっちばっちチャンネル", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=o1iOX6NEzkI", "label": "はっちばっちチャンネル", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=3Tnrxmu_rTo", "label": "【家飲み職人】せるじお", "created_at": "2000-01-01T00:00:00.000Z" }
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-cqV3dvzKUg",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eJ3Q6K_bqmU",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=f935qNOVDBc",
+          "label": "Scotch 4 Dummies",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gwwyORakLbA",
+          "label": "James Ashbourne",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6mTW7lu0pn8",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=L3nhn0D5wWw",
+          "label": "Clan de Whiskeros",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2zYAzFmnoDs",
+          "label": "Catandocongusto",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tN0i8fJ6eVo",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cK9nPH4vM7I",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FYkDcW2rRkM",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BfkCM4w3JIY",
+          "label": "はっちばっちチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o1iOX6NEzkI",
+          "label": "はっちばっちチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3Tnrxmu_rTo",
+          "label": "【家飲み職人】せるじお",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
       ]
     },
     {
@@ -29345,15 +30076,69 @@
       "description_fr": "Un malt triplément distillé des Lowlands écossais, vieilli en fûts de chêne américain ex-bourbon premier et deuxième remplissage. Doux et vibrant, il offre des notes puissantes de vanille et noix de coco, suivies d'une couche de pêche et d'une finale croquante avec une touche de pamplemousse. Son profil léger et fruité le rend idéal en apéritif.",
       "distillery_id": "auchentoshan",
       "influencer_videos": [
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=P5n3bot95cY", "label": "Whisky.com", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=IJ8irQXvEfY", "label": "Whisky Shared", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=nUd2tuCxKPk", "label": "The Whisky Critic", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=vI0W6bvameE", "label": "The Whisky Burn", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=J_Y6u7L1h4c", "label": "Whisky Capital", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=kB7hGtbVv24", "label": "Whisky com Gringo", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=aAGt2XCpmpo", "label": "Douglas Bessa / Companhia da Bebida", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=Q1x5a4CTA50", "label": "Tierri Whisky", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=4BEHke0wLS8", "label": "お酒の塾長", "created_at": "2000-01-01T00:00:00.000Z" }
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P5n3bot95cY",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IJ8irQXvEfY",
+          "label": "Whisky Shared",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nUd2tuCxKPk",
+          "label": "The Whisky Critic",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vI0W6bvameE",
+          "label": "The Whisky Burn",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J_Y6u7L1h4c",
+          "label": "Whisky Capital",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kB7hGtbVv24",
+          "label": "Whisky com Gringo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aAGt2XCpmpo",
+          "label": "Douglas Bessa / Companhia da Bebida",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q1x5a4CTA50",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4BEHke0wLS8",
+          "label": "お酒の塾長",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
       ]
     },
     {
@@ -29382,12 +30167,48 @@
       "description_fr": "Triple distillé, ce single malt des Lowlands offre une texture veloutée aux arômes de feuille de tabac, sucre caramélisé, thé vert et amandes. En bouche, une explosion d'orge sucrée laisse place à une note citrique et rafraîchissante, avec une finale longue et bien équilibrée.",
       "distillery_id": "auchentoshan",
       "influencer_videos": [
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=XVulCPhxXTk", "label": "BeerGogglesReviews", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=0I5aecsbw5E", "label": "Whisky Whistle", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=1gVApvC20KQ", "label": "thewhiskybothy", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=Ws-fO3qxcag", "label": "foodquig", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=LwjM6uVUUR8", "label": "Tierri Whisky", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=GPAm1Car38s", "label": "ひとくちウイスキー", "created_at": "2000-01-01T00:00:00.000Z" }
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XVulCPhxXTk",
+          "label": "BeerGogglesReviews",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0I5aecsbw5E",
+          "label": "Whisky Whistle",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1gVApvC20KQ",
+          "label": "thewhiskybothy",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ws-fO3qxcag",
+          "label": "foodquig",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LwjM6uVUUR8",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GPAm1Car38s",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
       ]
     },
     {
@@ -29416,23 +30237,125 @@
       "description_fr": "Un whisky des Lowlands doux et élégant, surnommé 'Le Malt d'Édimbourg'. Au nez, des arômes floraux et herbacés avec des notes de vanille, pomme verte, agrumes et une touche crémeuse. Léger et délicat en bouche, avec crème fraîche, miel, notes florales et une finale sèche et légèrement épicée — idéal en apéritif.",
       "distillery_id": "glenkinchie",
       "influencer_videos": [
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=jYsmcWjLYpQ", "label": "Erik Wait Whisky Studies", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=1Ug0CBGQEXU", "label": "thewhiskybothy", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=-P4s3kVWUrU", "label": "Whiskey Vault", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=aXHsYFQEPnw", "label": "Whisky Riffs", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=IXMZsmtJsU8", "label": "Tito Whisky", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=8OhDEOzuPfs", "label": "HABLANDO DE WHISKY", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=QxwA7V-S8Eo", "label": "La Guia del Whisky", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=TtGQQzWJLQ8", "label": "Non solo whisky", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=9aluNcjxcCc", "label": "WhiskyBrasil.com", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=neNHntQSQ1g", "label": "Destilados Brasil", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=x3yRhKoI-Xw", "label": "Whisky Capital | Gustavo Araujo", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=e9sbOoOQO6g", "label": "Mapa do Whisky", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=2jMZJFfIJa8", "label": "宅飲みバーTakeo", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=pJm_Er_mgkg", "label": "ひとくちウイスキー", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=ljKOrISd_Cs", "label": "もっさんハイボール倶楽部", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=NJJvacw3hi8", "label": "村田祥一", "created_at": "2000-01-01T00:00:00.000Z" },
-        { "language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=5iOQILgShgA", "label": "Whisky et Cie", "created_at": "2000-01-01T00:00:00.000Z" }
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jYsmcWjLYpQ",
+          "label": "Erik Wait Whisky Studies",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1Ug0CBGQEXU",
+          "label": "thewhiskybothy",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-P4s3kVWUrU",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aXHsYFQEPnw",
+          "label": "Whisky Riffs",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IXMZsmtJsU8",
+          "label": "Tito Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8OhDEOzuPfs",
+          "label": "HABLANDO DE WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QxwA7V-S8Eo",
+          "label": "La Guia del Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TtGQQzWJLQ8",
+          "label": "Non solo whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9aluNcjxcCc",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=neNHntQSQ1g",
+          "label": "Destilados Brasil",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=x3yRhKoI-Xw",
+          "label": "Whisky Capital | Gustavo Araujo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e9sbOoOQO6g",
+          "label": "Mapa do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2jMZJFfIJa8",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pJm_Er_mgkg",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ljKOrISd_Cs",
+          "label": "もっさんハイボール倶楽部",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NJJvacw3hi8",
+          "label": "村田祥一",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5iOQILgShgA",
+          "label": "Whisky et Cie",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
       ]
     }
   ]

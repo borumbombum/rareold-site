@@ -1,4 +1,6 @@
-Status: [TODO]
+Status: [DONE]
+
+> **Superseded by 067** — replaced by migrating the catalog to a local SQLite-backed search index (self-hosted, not sharded build-time JSON).
 
 # Catalog detail pagination — homepage/all-origin paging off slim index
 

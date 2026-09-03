@@ -337,3 +337,22 @@
 - French exact expression is genuinely dry (no live in-language "Glendronach 15 Revival" with a confirming oEmbed title); Malta propos/Le Chardon titles are generic (don't prove the expression) and the Whisky on the West Coast GlenDronach comparison is embed-blocked → `fr` ships zero, runtime EN top-up covers it.
 - Japanese exact-expression is 1 (もっさんハイボール倶楽部's 12/15 old-vs-new 4-bottle tasting); English Whisky Whistle's リバイバル video is machine-translated ja title on an English channel → keep out of ja.
 - Auto-translate trap this round: Scotch 4 Dummies & Whisky Wars produce Spanish/French/Japanese auto-localized titles for their English reviews — oEmbed author proves they're `en` only.
+
+## 2026-09-03 — Local SQLite migration architecture
+
+- Swapping remote Turso for a local SQLite file in SvelteKit is a multi-part change, not just a connection URL: it forces `adapter-node` (or any long-lived process) because serverless functions can't hold an open writable SQLite file — you must leave the Vercel `adapter-vercel`.
+- `@libsql/client` supports `url: 'file:...'` (tests already use `file::memory:`), so the initial detach can keep the `Client` interface and all server modules untouched before deciding on a native driver (`node:sqlite`/`better-sqlite3`).
+- Persistence in a container is only real if the SQLite file lives on a bind-mounted/volume path outside the container image — otherwise every rebuild resets live data.
+- The catalog-scale rationale is better served by an SQLite-backed search index (e.g. FTS5) than by sharding build-time JSON — hence 056–059 being superseded by 067.
+
+## 2026-09-03 — video-export shape & niche-language foraging
+
+- `src/lib/data/influencer_videos.json` is a flat array of `{product_id, language, platform, url, label, ...}` rows from Turso; the seed nests the same data per-product under `influencer_videos[]`. Parity scripts must reconcile these two shapes by `(product_id, language, url, label)`.
+- Exact-expression rule strictly outranks "fill a slot." Small craft whiskies (Madoc, La Alazana Peated, Catto's 12/25) are genuinely dry because reviewers taste the distillery/range, never the exact bottle. Shipping the generic/wrong-expression video is worse than shipping none.
+- Native-language feature/interview content can be the only real coverage for micro-batch distilleries (Casanegra, EMC Pampa) — it's expression-exact and in-language, even if not a "formal tasting." Judges should weigh local-language coverage priority (owner directive) against the formal-tasting soft preference.
+
+## 2026-09-03 — mainstream single malts have deep foreign coverage; niche don't
+
+- Famous single malts (Arran 10, Glenfarclas 105/12, Balblair) have abundant es/ja/pt/fr reviews — always search all languages for mainstream products, they fill fast. Ultra-niche (Cu Bòcan, Penderyn portwood, Wolfburn, community distilleries) are en-only or dry.
+- Invidious is degrading (mostly `inv.nadeko.net` now); native yt-search.mjs carries the load. Don't over-rely on Invidious — run both.
+- Auto-translated titles of English channels (Whisky.com, thewhiskybothy, Ralfy, Whiskey Vault) keep surfacing in es/pt/ja/fr searches — oEmbed author is the only reliable gate.

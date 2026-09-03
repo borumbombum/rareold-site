@@ -332,3 +332,23 @@
 - **Japanese has 1 exact:** もっさんハイボール倶楽部's 4-bottle vertical tasting of Glendronach 12 & 15 old/new (`DFxUiPUau34`) — a genuine `ja` multi-expression tasting that covers the 15 Revival. The 5XIOWqzMFaU "15 リバイバル 新旧比較" appears Japanese-titled but is the English Whisky Whistle channel (machine-translated) → rejected for `ja`.
 - **English is deep (verified 200):** Whisky.com, Erik Wait Whisky Studies, Malt Muser, No Nonsense Whisky, Deni Kay, Whisky Bloke, Noels, Malt Activist, etc. all exact "Revival".
 - Auto-translate trap reconfirmed: Scotch 4 Dummies and Whisky Wars surface auto-localized es/fr/ja titles ("Reseña...", "Critique de whisky", "Reseña de whisky") but are English channels — never slot them as genuine foreign. oEmbed author is the gate.
+
+## 2026-09-03 — Task-list migration to `.tasks/TASKS.md` + 067 created
+
+- Migrated the task list from AGENTS.md `## Tasks` into `.tasks/TASKS.md` (per the `tasks` skill section 18). AGENTS.md now holds only a pointer line. Task files stay in `tasks/`.
+- 056–059 (JSON sharding/split for scale) are superseded by **067 Local SQLite Migration** — flat sharded-JSON is abandoned in favor of a single self-hosted SQLite DB with an efficient search index.
+- 067 is the **LAST task**, deferred to project completion (owner sequencing); flagged "DO NOT AUTO-PICK" in the file and "(LAST TASK)" on the board line so it is never auto-selected early.
+- 067 plan (recorded, not implemented): manually download Turso DB → local SQLite file; app connects via a sqlite3 driver (local `file:`); switch `adapter-vercel` → `adapter-node`; Docker Compose + Cloudflare Tunnel serving production on a local server/homelab; SQLite bind-mounted outside the container for persistence.
+
+## 2026-09-03 — Backfill batch 4e (last 6 real zero-video products + conv.)
+
+- Batch 4e closed 7 of 13 remaining zero-video products (23 verified videos injected). ZERO: 15→8, of which 2 (royal-salute-30/62) are permanent honest-dry; 6 real zeros stay (Catto's 12/25, La Alazana Peated, Madoc ×3).
+- Full parity pipeline confirmed for a pure-append batch: `data:export` puts influencer videos in `src/lib/data/influencer_videos.json` as a FLAT array keyed by `product_id` (NOT nested in `whiskies.json`) — parity checks must compare seed-nested vs export-flat via the `product_id|language|url|label` tuple, not assume nesting.
+- Ultra-niche Argentine single malts (Casanegra, EMC Pampa) have NO formal review tastings on YouTube — only Spanish brand-founder/feature content. For these, expression-exact native-language (es) feature content was the honest best option; documented rather than padded. La Alazana Peated and the Madoc line were left dry because existing videos never name an exact expression (Madoc), or name a distinct expression (Haidd Merlys ≠ Peated).
+- Soup-of-blends lesson: Catto's 12/25 have no dedicated reviews; all Catto's coverage is the base no-age blend/3yo — cross-using to the 12/25 would violate the exact-expression rule.
+
+## 2026-09-03 — Backfill wave 4f (partials, +65 videos)
+
+- Second full-honesty expansion: 65 oEmbed-verified videos across 19 mainstream partials. Best yields: Arran 10 (es/pt/ja/fr all filled), Glenfarclas 105 + 12 (es/ja/pt/fr). Rich Japanese (Takeo, ひとくち, もっさん, 俺のモルト) and Spanish (Whisky o Muerte, HABLANDO DE WHISKY, Los Whiskochos) coverage exists for famous single malts.
+- Genuine-dry stays dry: cu-bocan, dingle batch/potstill, craigellachie-17, glen-garioch, glenrothes, royal-lochnagar, penderyn, wolfburn, glenglassaugh, glenwyvis etc. have no exact-expression non-English reviews — never pad.
+- Label drift is a recurring parity issue: the seed holds richer labels than Turso/export for older rows ("X — review" short form). Full-catalog seed↔export parity requires a dedicated reconcile pass aligning seed labels/langs to the DB by URL (23 fields this wave).

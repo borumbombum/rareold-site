@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-02T19:17:30.285Z",
+  "generatedAt": "2026-09-03T02:14:52.860Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -3073,6 +3073,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=VbkmzCZ0N6I",
           "label": "Gwhisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lndnHBl2Dj0",
+          "label": "ひとくちウイスキー"
         }
       ]
     },
@@ -3155,6 +3161,30 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=L2QHzxO-NCE",
           "label": "Whiskey Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_Ve2uqvx5So",
+          "label": "Amantes Del Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5sWrmR1z5U8",
+          "label": "Les Grands Alambics"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9crGIM7RSic",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qUxxxL1fwE0",
+          "label": "宅飲みバーTakeo"
         }
       ]
     },
@@ -4017,6 +4047,84 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=sznR2hHTnCc",
           "label": ""
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ET5LqM1eDfk",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hRHTw_qhveE",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i_aVcKIlM3c",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l8wct3ESJXo",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DMjqd8d8OQw",
+          "label": "La Maison du Whisky Officiel"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TG7YTVuKEOA",
+          "label": "Whisky et Cie"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=89Hr2U_wW2Y",
+          "label": "もふチャンTV"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FzzHbCbyH-M",
+          "label": "Whisky Roundup / Hatsugai"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XRL9aR_WfNA",
+          "label": "ITARU's BAR channel"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c-Q5ULa1TP0",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ItNIuac3bI",
+          "label": "Mapa do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CMfCxzp9nDM",
+          "label": "Loucos Por Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T67EpU-u0r4",
+          "label": "Whisky Capital"
         }
       ]
     },
@@ -5443,6 +5551,24 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=P1zeh-EKdBY",
           "label": "Whisky Lovers"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0f4mC9LSUSA",
+          "label": "もっさんハイボール倶楽部"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_2gTgdK7gok",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g_dzdlIDGxM",
+          "label": "甘粕おさけ"
         }
       ]
     },
@@ -5531,6 +5657,18 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lkCPQPuE0DI",
           "label": "Whiskey Takes"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eQhjzTU66Es",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1vCWci_mk0g",
+          "label": "Whisky et Cie"
         },
         {
           "language": "pt",
@@ -6239,6 +6377,30 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=qlzkS0dgEe0",
           "label": "Whisky Mystery"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QeV2ZoeZAlY",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X2DQXuirCBU",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lBYeAk9dhFw",
+          "label": "せるじおのWhisky Radio"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wF7fgEKOywk",
+          "label": "宅飲みバーTakeo"
         }
       ]
     },
@@ -8444,7 +8606,27 @@
           "price": null
         }
       ],
-      "resellers_usa": []
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4PeBguN00v0",
+          "label": "Alterrados"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hBvFDWEC8A0",
+          "label": "Andino Streaming"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mlRV3cD5vg4",
+          "label": "Pasión por el Vino Tv"
+        }
+      ]
     },
     {
       "id": "cattos",
@@ -10623,6 +10805,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=y7WA2ryiJZE",
           "label": "Dingle Single Malt Irish Whiskey | Whiskey is a Journey"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5VlwuQL8APM",
+          "label": "ひとくちウイスキー"
         }
       ]
     },
@@ -12253,6 +12441,24 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Y0X5FtG0DBI",
           "label": "Whisky.com"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TPmDS5pN6Jc",
+          "label": "もっさんの極上裏路地酒場"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T_h5EN_TsH0",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ymM2pOkI6ow",
+          "label": "ひろしの隠れ家"
         }
       ]
     },
@@ -13079,6 +13285,18 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Wi1Zf4l8c3s",
           "label": "WHISKEROS Argentina — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MSNSlL9Xy5o",
+          "label": "Porção dos Anjos Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ioS_YY8n378",
+          "label": "Whisky com Gringo"
         }
       ]
     },
@@ -14073,6 +14291,18 @@
           "label": "Whisky reviewer"
         },
         {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c0SKl1Oq-1U",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vo4kxKBzRzk",
+          "label": "宅飲みバーTakeo"
+        },
+        {
           "language": "pt",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=28plrfEutk0",
@@ -14165,6 +14395,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=yhj7H_KpLDs",
           "label": "Glendalough Double Barrel Whiskey REVIEW | The Whiskey Nerd"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pe8s4QF7fZk",
+          "label": "HABLANDO DE WHISKY"
         }
       ]
     },
@@ -14781,6 +15017,66 @@
           "label": "Gwhisky"
         },
         {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=43kSPY2Jeto",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8Lqgyqx7oSk",
+          "label": "Amantes Del Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QvKBzEVlZF0",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rYTcj2-Z_hI",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=23Sds2lHfIo",
+          "label": "L'homme qui parle whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qqgUwlNKnQs",
+          "label": "la cave d'à côté"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7nGTVDNcmaM",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ru3KI0H7SWE",
+          "label": "ちゃんぽんちから"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SsfrQIRs8xk",
+          "label": "ノーリカーノーライフ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bIYq6NEZgJU",
+          "label": "ひとくちウイスキー"
+        },
+        {
           "language": "pt",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=L_tvN2DK1Is",
@@ -14903,6 +15199,54 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=kvn-FG57hb0",
           "label": "Whisky Argentina"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pyLCe7akBJQ",
+          "label": "Juste Un Doigt"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=19n5oOSxzeY",
+          "label": "俺のモルト"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5g9hwLo3ssk",
+          "label": "もっさんハイボール倶楽部"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fx0l-77H8JI",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mKbCChJ2QT4",
+          "label": "もふチャンTV"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DU-grJXt8IU",
+          "label": "Jornada do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ayCZPjrvjsA",
+          "label": "WhiskyBrasil.com"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z9_O5syLLGs",
+          "label": "Bebendo Whisky"
         }
       ]
     },
@@ -18194,7 +18538,33 @@
           "price": null
         }
       ],
-      "resellers_usa": []
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1FBsPpl4J70",
+          "label": "Whisky Wednesday"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1JPh0qXLmcs",
+          "label": "Jason Debly"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JqOmg_4K7As",
+          "label": "thewhiskybothy"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=V7AYqsVtrGY",
+          "label": "Whisky in my Garden"
+        }
+      ]
     },
     {
       "id": "hazelburn-10-yo",
@@ -21302,7 +21672,33 @@
           "price": null
         }
       ],
-      "resellers_usa": []
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IUWBoixo2V8",
+          "label": "Whiskey Wonder Woman"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Sze3tqbjwgg",
+          "label": "MultiCasking | Whiskey & Slushies"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZyYwVdGaEe0",
+          "label": "Bourbon Drop"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qCA32LFB4D0",
+          "label": "Ambrosia Magazine"
+        }
+      ]
     },
     {
       "id": "kavalan-classic",
@@ -23670,7 +24066,15 @@
           "price": null
         }
       ],
-      "resellers_usa": []
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bF6HGqSxB9A",
+          "label": "Catador Itinerante"
+        }
+      ]
     },
     {
       "id": "la-alazana-peated",
@@ -24996,7 +25400,33 @@
           "price": null
         }
       ],
-      "resellers_usa": []
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S-Ts3LEuwC4",
+          "label": "Fenrir"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Vr-WONEGA4c",
+          "label": "Truths, Proofs & Firewater Reviews"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jafYemL6_Ng",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=urd1LF4YmW4",
+          "label": "Keeping It Neat"
+        }
+      ]
     },
     {
       "id": "linkwood-12-yo",
@@ -25612,7 +26042,39 @@
           "price": null
         }
       ],
-      "resellers_usa": []
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CvfhSoUAeco",
+          "label": "foodquig"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4dBrD5V3M88",
+          "label": "みずき&カオリの酒豪旅"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ChFvg40cKtM",
+          "label": "ハイボールおじさんの宅飲み研究所"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SCPuCJzhp0o",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=f4CqH9dG19E",
+          "label": "ウイスキー大好き ミディアムチャンネル"
+        }
+      ]
     },
     {
       "id": "madoc-ahumado-suave-43",
@@ -27914,7 +28376,21 @@
           "price": null
         }
       ],
-      "resellers_usa": []
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LYUht9fTaEo",
+          "label": "Whisky Argentina"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cTPOs3ziyJE",
+          "label": "Whisky Club Madrid"
+        }
+      ]
     },
     {
       "id": "paul-john-classic-select-casks",
@@ -30129,6 +30605,24 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=479ixC0jzxE",
           "label": "Whisky Lovers"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ssqifBXsQrQ",
+          "label": "Heritage Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DerFUVRPFQo",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gnkr3G89ONk",
+          "label": "Tierri Whisky"
         }
       ]
     },
@@ -30295,10 +30789,28 @@
           "label": "Whisky review"
         },
         {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QrpMdg7f7yM",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zEbPQ59haM4",
+          "label": "Kata-dores"
+        },
+        {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=p2pFvK_j7eg",
           "label": "Whisky review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sA8C4lYYxDw",
+          "label": "Tierri Whisky"
         }
       ]
     },
@@ -30499,6 +31011,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=C3a_PDBPvLY",
           "label": "Whisky In The 6"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aAyN3fpH-7U",
+          "label": "Sam's Single Malt"
         }
       ]
     },
@@ -30575,6 +31093,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=KastK4Q6nvY",
           "label": "The Whisky Burn"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lzjk4KqWwEM",
+          "label": "ハイボールおじさんの宅飲み研究所"
         }
       ]
     },
@@ -30739,6 +31263,18 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=yEkaL6sXHrk",
           "label": "Bob"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qmgK-vAn5jE",
+          "label": "ハイボールおじさんの宅飲み研究所"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tZEA8bDmxT4",
+          "label": "ひとくちウイスキー"
         }
       ]
     },
@@ -35827,6 +36363,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=mHCl-PIVzVs",
           "label": "WhiskyJason Tormore 14 vs 16"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NaAOAoGAdEo",
+          "label": "Kusumoto Daisuke"
         }
       ]
     },

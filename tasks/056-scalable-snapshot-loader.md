@@ -1,4 +1,6 @@
-Status: [TODO]
+Status: [DONE]
+
+> **Superseded by 067** — replaced by migrating the catalog to a local SQLite-backed search index (self-hosted, not sharded build-time JSON).
 
 # Scalable snapshot loader — split JSON export for 30k catalog
 
