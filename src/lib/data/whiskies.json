@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-03T02:14:52.860Z",
+  "generatedAt": "2026-09-03T03:05:57.455Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -743,6 +743,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=y2WVT5nVtk4",
           "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=a13JsNvDano",
+          "label": "CROSSROAD LAB"
         },
         {
           "language": "pt",
@@ -6603,6 +6609,12 @@
           "label": "Whiskey4Breakfast"
         },
         {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oSJtKmFDI6s",
+          "label": "Malt à propos"
+        },
+        {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Msclhd2l0YU",
@@ -8041,6 +8053,12 @@
           "label": "Probemos Bushmills Etiqueta Blanca - Whiskey Irlandés"
         },
         {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LqoN2N6FRLE",
+          "label": "Le Whisky Brunch"
+        },
+        {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=2AgRZu4mWeY",
@@ -8063,6 +8081,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=wWA16TqUVjA",
           "label": "安ウイスキーを彷徨う ブッシュミルズ ジ・オリジナル（ホワイトブッシュ） アイリッシュの飲みやすさがおいしい一本ですね【ウイスキー】【レビュー】【テイスティング】"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Tc6HlUBRYmA",
+          "label": "Além do Rótulo"
         }
       ]
     },
@@ -13973,6 +13997,24 @@
           "label": "Whisky.com"
         },
         {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Id7moR_35FA",
+          "label": "El Whisky Bar"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hX81Oi6kCSU",
+          "label": "Whisky o Muerte"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vZHQwauR-UE",
+          "label": "Sam's Single Malt"
+        },
+        {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=h8SXoOCwII8",
@@ -16347,6 +16389,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Ebeu7LOUp14",
           "label": "おつかれとろ"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SWitYXxuXqQ",
+          "label": "Porção dos Anjos Whisky"
         }
       ]
     },
@@ -24587,6 +24635,12 @@
           "label": "#WhiskyTour2019 - Destilería Lagg — MundoWhiskyTv"
         },
         {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=paUzWvDpa-o",
+          "label": "Whisky et Cie"
+        },
+        {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=9pMvXqCl3A8",
@@ -24603,6 +24657,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=mIgzFGsY00Q",
           "label": "ラグ蒸溜所のウイスキー飲んでみました！ — ありざわ(旧アランガール)"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6Ga9uTG5OEk",
+          "label": "Porção dos Anjos Whisky"
         }
       ]
     },
@@ -26391,6 +26451,12 @@
           "label": "Amantes Del Whisky — reseña"
         },
         {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GqtDbwsWVn4",
+          "label": "Whiskey Novice"
+        },
+        {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=J_F_1heJCRM",
@@ -26503,6 +26569,12 @@
           "label": "whisky-doc — review"
         },
         {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=L7x6bOH3Mdc",
+          "label": "Whisky on the West Coast"
+        },
+        {
           "language": "ja",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=7EDPjikKXlU",
@@ -26513,6 +26585,18 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=PiUz8fss8wM",
           "label": "宅飲みバーTakeo — レビュー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BQyMOuZ9G3I",
+          "label": "Bebendo Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YT1nr_yH5c8",
+          "label": "Bebendo Whisky"
         }
       ]
     },
@@ -30705,6 +30789,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=bnwx_lCqIOc",
           "label": "Whisky cata"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DCcELqRqwXg",
+          "label": "Heritage Whisky"
         },
         {
           "language": "ja",
@@ -36035,6 +36125,12 @@
           "label": "Scotch Test Dummies"
         },
         {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iKCOxohKaJQ",
+          "label": "NINOBAR SOMMELIER"
+        },
+        {
           "language": "fr",
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=d4cQ5X5Fnic",
@@ -36263,6 +36359,12 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=YC-IhG9pd3w",
           "label": "Torabhaig Allt Gleann — HABLANDO DE WHISKY"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Oc9AiXwu7DI",
+          "label": "Le Whisky Brunch"
         },
         {
           "language": "ja",

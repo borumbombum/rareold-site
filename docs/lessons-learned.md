@@ -352,3 +352,9 @@
 - Second full-honesty expansion: 65 oEmbed-verified videos across 19 mainstream partials. Best yields: Arran 10 (es/pt/ja/fr all filled), Glenfarclas 105 + 12 (es/ja/pt/fr). Rich Japanese (Takeo, ひとくち, もっさん, 俺のモルト) and Spanish (Whisky o Muerte, HABLANDO DE WHISKY, Los Whiskochos) coverage exists for famous single malts.
 - Genuine-dry stays dry: cu-bocan, dingle batch/potstill, craigellachie-17, glen-garioch, glenrothes, royal-lochnagar, penderyn, wolfburn, glenglassaugh, glenwyvis etc. have no exact-expression non-English reviews — never pad.
 - Label drift is a recurring parity issue: the seed holds richer labels than Turso/export for older rows ("X — review" short form). Full-catalog seed↔export parity requires a dedicated reconcile pass aligning seed labels/langs to the DB by URL (23 fields this wave).
+
+## 2026-09-03 — Backfill wave 4g (partials round 2, +17 videos)
+
+- Yield drops sharply as gaps narrow: this round of mainstream 2-gap products (Glasgow 1770×4, Longmorn DC, Talisker 18/DE, Dalmore KA, Glenturret 12, Tomatin 14/CS, Tomintoul 12/tlath, Auchentoshan 18/AO, Kavalan solist-vinho, Amrut, Paul John) is genuinely dry in pt/fr/ja/es — no in-language exact-expression review exists. Expect diminishing marginal returns from here.
+- Auto-translated-title traps were the main risk: `6KXKsGZ4cyA` (irishman "ja"), `eFw0CP5RM6Y` (aberfeldy "ja") looked Japanese but oEmbed showed English audio — dropped. Never trust a search result's displayed title language.
+- Per-language gaps now es 67, pt 90, ja 50, fr 153. fr is the persistent biggest gap; French whisky YouTube largely doesn't cover these mid-tier single malts precisely.

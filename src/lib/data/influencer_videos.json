@@ -379,6 +379,13 @@
   },
   {
     "product_id": "aberfeldy-16-year-old",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=a13JsNvDano",
+    "label": "CROSSROAD LAB"
+  },
+  {
+    "product_id": "aberfeldy-16-year-old",
     "language": "pt",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=6uGODGjontI",
@@ -4019,6 +4026,13 @@
   },
   {
     "product_id": "benromach-speyside-15-yo",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=oSJtKmFDI6s",
+    "label": "Malt à propos"
+  },
+  {
+    "product_id": "benromach-speyside-15-yo",
     "language": "ja",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=Msclhd2l0YU",
@@ -4880,6 +4894,13 @@
   },
   {
     "product_id": "bushmills-original",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=LqoN2N6FRLE",
+    "label": "Le Whisky Brunch"
+  },
+  {
+    "product_id": "bushmills-original",
     "language": "ja",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=2AgRZu4mWeY",
@@ -4905,6 +4926,13 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=wWA16TqUVjA",
     "label": "安ウイスキーを彷徨う ブッシュミルズ ジ・オリジナル（ホワイトブッシュ） アイリッシュの飲みやすさがおいしい一本ですね【ウイスキー】【レビュー】【テイスティング】"
+  },
+  {
+    "product_id": "bushmills-original",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Tc6HlUBRYmA",
+    "label": "Além do Rótulo"
   },
   {
     "product_id": "caol-ila-12-yo",
@@ -8191,6 +8219,27 @@
   },
   {
     "product_id": "glenallachie-15-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Id7moR_35FA",
+    "label": "El Whisky Bar"
+  },
+  {
+    "product_id": "glenallachie-15-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hX81Oi6kCSU",
+    "label": "Whisky o Muerte"
+  },
+  {
+    "product_id": "glenallachie-15-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vZHQwauR-UE",
+    "label": "Sam's Single Malt"
+  },
+  {
+    "product_id": "glenallachie-15-yo",
     "language": "ja",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=h8SXoOCwII8",
@@ -9490,6 +9539,13 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=Ebeu7LOUp14",
     "label": "おつかれとろ"
+  },
+  {
+    "product_id": "glengoyne-15-yo",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SWitYXxuXqQ",
+    "label": "Porção dos Anjos Whisky"
   },
   {
     "product_id": "glengoyne-18-yo",
@@ -14372,6 +14428,13 @@
   },
   {
     "product_id": "lagg-kilmory-edition",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=paUzWvDpa-o",
+    "label": "Whisky et Cie"
+  },
+  {
+    "product_id": "lagg-kilmory-edition",
     "language": "ja",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=9pMvXqCl3A8",
@@ -14390,6 +14453,13 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=mIgzFGsY00Q",
     "label": "ラグ蒸溜所のウイスキー飲んでみました！ — ありざわ(旧アランガール)"
+  },
+  {
+    "product_id": "lagg-kilmory-edition",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=6Ga9uTG5OEk",
+    "label": "Porção dos Anjos Whisky"
   },
   {
     "product_id": "laphroaig-10-yo",
@@ -15177,6 +15247,13 @@
   },
   {
     "product_id": "mortlach-12-yo-wee-witchie",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=GqtDbwsWVn4",
+    "label": "Whiskey Novice"
+  },
+  {
+    "product_id": "mortlach-12-yo-wee-witchie",
     "language": "ja",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=J_F_1heJCRM",
@@ -15226,6 +15303,13 @@
   },
   {
     "product_id": "mortlach-16-yo-distillers-dram",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=L7x6bOH3Mdc",
+    "label": "Whisky on the West Coast"
+  },
+  {
+    "product_id": "mortlach-16-yo-distillers-dram",
     "language": "ja",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=7EDPjikKXlU",
@@ -15237,6 +15321,20 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=PiUz8fss8wM",
     "label": "宅飲みバーTakeo — レビュー"
+  },
+  {
+    "product_id": "mortlach-16-yo-distillers-dram",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=BQyMOuZ9G3I",
+    "label": "Bebendo Whisky"
+  },
+  {
+    "product_id": "mortlach-16-yo-distillers-dram",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=YT1nr_yH5c8",
+    "label": "Bebendo Whisky"
   },
   {
     "product_id": "ncnean-organic-single-malt",
@@ -17330,6 +17428,13 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=bnwx_lCqIOc",
     "label": "Whisky cata"
+  },
+  {
+    "product_id": "smokehead-rum-cask",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=DCcELqRqwXg",
+    "label": "Heritage Whisky"
   },
   {
     "product_id": "smokehead-rum-cask",
@@ -19587,6 +19692,13 @@
   },
   {
     "product_id": "tomintoul-peaty-tang",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=iKCOxohKaJQ",
+    "label": "NINOBAR SOMMELIER"
+  },
+  {
+    "product_id": "tomintoul-peaty-tang",
     "language": "fr",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=d4cQ5X5Fnic",
@@ -19689,6 +19801,13 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=YC-IhG9pd3w",
     "label": "Torabhaig Allt Gleann — HABLANDO DE WHISKY"
+  },
+  {
+    "product_id": "torabhaig-legacy-series-ch1",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Oc9AiXwu7DI",
+    "label": "Le Whisky Brunch"
   },
   {
     "product_id": "torabhaig-legacy-series-ch1",

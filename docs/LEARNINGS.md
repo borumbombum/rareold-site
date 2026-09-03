@@ -356,3 +356,8 @@
 - Famous single malts (Arran 10, Glenfarclas 105/12, Balblair) have abundant es/ja/pt/fr reviews — always search all languages for mainstream products, they fill fast. Ultra-niche (Cu Bòcan, Penderyn portwood, Wolfburn, community distilleries) are en-only or dry.
 - Invidious is degrading (mostly `inv.nadeko.net` now); native yt-search.mjs carries the load. Don't over-rely on Invidious — run both.
 - Auto-translated titles of English channels (Whisky.com, thewhiskybothy, Ralfy, Whiskey Vault) keep surfacing in es/pt/ja/fr searches — oEmbed author is the only reliable gate.
+
+## 2026-09-03 — two-side of the foreign-coverage coin
+
+- The same auto-translation trap cuts both ways: it inflates false es/pt/ja/fr candidates on niche products, but on truly-famous single malts the genuine in-language coverage is deep. The deciding factor is always the oEmbed author/language, never the displayed search title.
+- Diminishing returns: after 5 waves the remaining gaps are dominated by products that genuinely lack foreign-language, exact-expression reviews (community distilleries, NAS/comparison expressions, Argentina/India micro-brands). Filling further requires either relaxing the exact-expression rule (rejected) or accepting honest-dry floors and closing out the task.
