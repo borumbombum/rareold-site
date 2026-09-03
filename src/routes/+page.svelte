@@ -30,9 +30,44 @@
     seedRating(data.countryCode, data.rating);
     const locale = $derived(getLocale());
 
+    const PAGE_SIZE = 100;
+    let visible = $state(PAGE_SIZE);
+    let observer: IntersectionObserver | null = null;
+    let sentinel: HTMLElement | null = $state(null);
+
+    function armObserver(): void {
+        if (!browser || !sentinel) return;
+        observer?.disconnect();
+        observer = null;
+        if (visible >= ranked.length) return;
+        observer = new IntersectionObserver(
+            (entries) => {
+                if (entries[0]?.isIntersecting && visible < ranked.length) {
+                    visible += PAGE_SIZE;
+                }
+                if (visible >= ranked.length) {
+                    observer?.disconnect();
+                    observer = null;
+                }
+            },
+            { rootMargin: "200px 0px" },
+        );
+        observer.observe(sentinel);
+    }
+
     onMount(() => {
         initSort();
         refreshRating(data.products.map((p) => p.slug));
+    });
+
+    const regionSortKey = $derived(`${filters.origin}|${filters.region}|${filters.sort}`);
+    let lastKey = "";
+    $effect(() => {
+        if (regionSortKey !== lastKey) {
+            lastKey = regionSortKey;
+            visible = PAGE_SIZE;
+        }
+        armObserver();
     });
 
     const regionsForOrigin = $derived(regionsByOrigin(data.products)[filters.origin] ?? []);
@@ -113,22 +148,26 @@
 
         {#if mode === "grid"}
             <div class="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
-                {#each ranked as product, i (product.slug)}
+                {#each ranked.slice(0, visible) as product, i (product.slug)}
                     <ProductCard {product} rank={i + 1} country={data.countryCode} />
                 {/each}
             </div>
         {:else if mode === "list"}
             <div class="flex flex-col gap-3">
-                {#each ranked as product, i (product.slug)}
+                {#each ranked.slice(0, visible) as product, i (product.slug)}
                     <ProductRow {product} rank={i + 1} country={data.countryCode} />
                 {/each}
             </div>
         {:else}
             <div class="divide-y divide-zinc-100 dark:divide-zinc-800">
-                {#each ranked as product, i (product.slug)}
+                {#each ranked.slice(0, visible) as product, i (product.slug)}
                     <ProductCompact {product} rank={i + 1} country={data.countryCode} />
                 {/each}
             </div>
+        {/if}
+
+        {#if visible < ranked.length}
+            <div bind:this={sentinel} aria-hidden="true" class="pointer-events-none h-px w-px"></div>
         {/if}
     </div>
 </section>

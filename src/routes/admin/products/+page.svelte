@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
-	import { Plus, Pencil, Trash2, X, Loader2, Star, MonitorPlay, Camera } from '@lucide/svelte';
+	import { Plus, Pencil, Trash2, X, Loader2, Star, MonitorPlay, Camera, ExternalLink } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
+	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { LOCALE_CONFIG } from '$lib/utils/locales';
 	import originData from '$lib/data/origins.json';
@@ -293,9 +294,22 @@
 {#if form}
 	<div class="mt-5 rounded-2xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900">
 		<div class="flex items-center justify-between">
-			<h2 class="font-display text-base font-semibold text-zinc-900 dark:text-white">
-				{isNew ? m.admin_products_new_title() : `${m.admin_products_edit_title()} ${form.name ?? ''}`}
-			</h2>
+			<div class="flex items-center gap-2">
+				<h2 class="font-display text-base font-semibold text-zinc-900 dark:text-white">
+					{isNew ? m.admin_products_new_title() : `${m.admin_products_edit_title()} ${form.name ?? ''}`}
+				</h2>
+				{#if !isNew && form.id}
+					<a
+						href={localizeHref(`/whisky/${form.id}`, { locale: getLocale() })}
+						target="_blank"
+						rel="noopener noreferrer"
+						title={m.admin_pages_preview()}
+						class="grid h-8 w-8 place-items-center rounded-lg text-zinc-500 transition hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-white"
+					>
+						<ExternalLink size={15} />
+					</a>
+				{/if}
+			</div>
 			<button
 				onclick={() => (form = null)}
 				class="grid h-8 w-8 place-items-center rounded-full text-zinc-500 transition hover:bg-zinc-100 dark:hover:bg-zinc-800"
@@ -511,6 +525,15 @@
 				<td class="px-4 py-2.5 text-right tabular-nums">{p.review_count || '—'}</td>
 					<td class="px-4 py-2.5">
 						<div class="flex justify-end gap-1">
+							<a
+								href={localizeHref(`/whisky/${p.id}`, { locale: getLocale() })}
+								target="_blank"
+								rel="noopener noreferrer"
+								title={m.admin_pages_preview()}
+								class="grid h-8 w-8 place-items-center rounded-lg text-zinc-500 transition hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-white"
+							>
+								<ExternalLink size={15} />
+							</a>
 							<button
 								onclick={() => openEdit(p.id)}
 								title={m.admin_products_edit()}

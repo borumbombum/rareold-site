@@ -1,5 +1,23 @@
 # Learnings
 
+## 2026-09-03 — Homepage infinite scroll (IntersectionObserver)
+
+- **`IntersectionObserver` + `rootMargin` is the cleanest way to pre-load before the bottom.** A
+  sentinel `<div>` plus `rootMargin: "200px 0px"` fires the callback 200px before the viewport
+  reaches the end of loaded content — exactly the "load before they hit the bottom" UX, no scroll
+  listener or button needed.
+- **In Svelte 5, keep observer state in `$state` refs and let a `$effect` own the arm/reset.**
+  `sentinel` is a `$state<HTMLElement|null>` bound with `bind:this`; the sentinel mounts/unmounts
+  as `{#if visible < ranked.length}` changes, so the effect that reads `sentinel` re-arms the
+  observer whenever the element (dis)appears. Re-arming on every `visible` change is harmless
+  (disconnect + re-observe the current element) and guarantees a fresh observer after each batch.
+- **Avoid `$state(regionSortKey)` for an effect-diff sentinel** — it triggers the "captures only
+  the initial value" svelte warning (and svelte-check warns about it). Use a plain `let lastKey =
+  ""` and diff inside the effect; the effect only depends on the `$derived` key, so it's reactive
+  without the extra warning. Kept `npm run check` at 0 errors / 25 warnings (baseline).
+- **CSS-only approach, no message keys needed** — infinite scroll introduces no visible UI text,
+  so no `messages/*.json` changes or Paraglide rebuild. Deliberately avoids a "Load more" button.
+
 ## 2026-09-02 — Batch: Glenglassaugh Portsoy, Clynelish 14, Glendronach 12/15/18
 
 - **Glendronach og:image naming uses `_2-1`/`_2-2` suffixes.** Guessed `GD_15YO-1-1.png`/`GD_18YO-1-1.png` 404; real ones are `GD_15YO-2-1.png` and `GD_18YO-2-2.png`. Pull the `og:image` meta from the product page instead of guessing the filename. Glendronach 12 was `GD_12YO-1-1.png` (worked as guessed) — inconsistent, so always scrape.

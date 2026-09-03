@@ -4,8 +4,9 @@ Authoritative task list for this repo. One task file per task in `tasks/`, named
 
 Current status of `tasks/` (authoritative — kept in sync with every task file `Status:` change, see Task workflow):
 
-- 068 [TODO] Admin Product Links
-- 067 [TODO] Local SQLite Migration (LAST TASK — deferred to project completion)
+- 069 [TODO] Backfill Remaining Localized Videos
+- 068 [DONE] Admin Product Links
+- 067 [TODO] Local SQLite Migration (homepage infinite scroll done 2026-09-03; still covers origin-page pagination + SQLite backing)
 - 066 [TODO] Database And Api Plans Page
 - 065 [TODO] Api Paywall Consumer Credentials
 - 064 [TODO] Public Api Rate Limiting
@@ -68,7 +69,7 @@ Current status of `tasks/` (authoritative — kept in sync with every task file 
 - 054 [DONE] Add Whiskies Vat69 Scapa Tobermory Ledaig Torabhaig
 - 055 [DONE] Add Whiskies Raasay Harris Abhainn Saxa Lagg
 - 056 [DONE] Scalable Snapshot Loader Split Json Export (superseded by 067)
-- 057 [DONE] Catalog Detail Pagination Slim Index (superseded by 067)
+- 057 [DONE] Catalog Detail Pagination (homepage infinite scroll implemented 2026-09-03; origin pages + SQLite backing folded into 067)
 - 058 [DONE] Catalog Finer Shards Search (superseded by 067)
 - 059 [DONE] Catalog Counts Ranking Snapshot Metadata (superseded by 067)
 - 060 [DONE] Add 10 Speyside Whiskies Backfill Distillery Descriptions

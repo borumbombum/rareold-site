@@ -1,5 +1,16 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-03 — Homepage infinite scroll
+
+- **Drafted the observer effect in several passes with junk left over** (an unused `origin()`
+  helper, a stray `$effect`, and dead `prevKey`/`lastReset` state). Cleaned it down to one
+  `$effect` that diffs a plain `lastKey` string against the `$derived` filter key, resets
+  `visible`, and re-arms the observer. Lesson: don't accumulate draft effects; write the final
+  effect once, with `sentinel` as the single re-arm trigger.
+- **`$state(regionSortKey)` for the reset diff introduced a svelte-check warning** ("captures only
+  the initial value") that pushed the count from 25 to 26. Switched to `let lastKey = ""` +
+  diff-in-effect; back to 0 errors / 25 warnings.
+
 ## 2026-09-02 — Batch of 5 whiskies (Royal Lochnagar 12, Royal Brackla 12, Blair Athol 12, Loch Lomond Original, Inchmurrin 12)
 
 - **Diageo `malts.com` product image URLs return HTML, not images** (the Classic Malts pages are client-rendered; the `.../packshot.png` guesses 404). Use retail CDN sources instead: `thespiritco.com/cdn/shop/products/...` (Royal Lochnagar 12), `whiskeyreviewer.com/wp-content/uploads/...` (Royal Brackla 12), `jeffreyst.com/cdn/shop/files/...` (Blair Athol F&F), `cdn11.bigcommerce.com/images/stencil/...` (Loch Lomond Original), `theliquorbarn.com/cdn/shop/files/...` (Inchmurrin 12).

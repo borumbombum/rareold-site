@@ -2686,6 +2686,29 @@
       "website": "https://www.malts.com/en-gb/distilleries/glenkinchie",
       "latitude": 55.8912,
       "longitude": -2.891
+    },
+    {
+      "id": "bladnoch",
+      "slug": "bladnoch",
+      "name": "Bladnoch",
+      "name_es": "Bladnoch",
+      "name_pt": "Bladnoch",
+      "name_en": "Bladnoch",
+      "name_ja": "ブラドノック",
+      "name_fr": "Bladnoch",
+      "description": "Destilería de malta de las Lowlands escocesas fundada en 1817 por los hermanos McClelland, considerada el whisky más meridional de Escocia y la destilería privada más antigua del país. Situada a orillas del río Bladnoch en Galloway, fue restaurada y reabierta en 2017 por el empresario australiano David Prior. Produce whiskies ligeros, florales y herbáceos con un perfil elegante y refrescante.",
+      "description_es": null,
+      "description_pt": "Destilaria de malte das Lowlands escocesas fundada em 1817 pelos irmãos McClelland, considerada o whisky mais meridional da Escócia e a destilaria privada mais antiga do país. Situada nas margens do rio Bladnoch em Galloway, foi restaurada e reaberta em 2017 pelo empresário australiano David Prior. Produz whiskies leves, florais e herbáceos com um perfil elegante e refrescante.",
+      "description_en": "A Scottish Lowland malt distillery founded in 1817 by the McClelland brothers, regarded as Scotland's most southerly whisky distillery and the country's oldest privately owned distillery. Situated on the banks of the River Bladnoch in Galloway, it was restored and reopened in 2017 by Australian entrepreneur David Prior. It produces light, floral and grassy whiskies with an elegant, refreshing profile.",
+      "description_ja": "1817年にマクレランド兄弟によって設立されたスコットランドのローランズ・モルト蒸留所。スコットランド最南端のウイスキー蒸留所であり、同国最古の個人所有蒸留所とされる。ガロウェイのブラドノック川のほとりに位置し、2017年にオーストラリアの実業家デイビッド・プライアーによって修復・再開された。軽やかでフローラル、草のような、エレガントで爽やかなウイスキーを製造する。",
+      "description_fr": "Une distillerie de malt des Lowlands écossaises fondée en 1817 par les frères McClelland, considérée comme la distillerie la plus méridionale d'Écosse et la plus ancienne distillerie privée du pays. Située sur les rives de la rivière Bladnoch, en Galloway, elle a été restaurée et rouverte en 2017 par l'entrepreneur australien David Prior. Elle produit des whiskies légers, floraux et herbacés, au profil élégant et rafraîchissant.",
+      "country": "scotland",
+      "region": "Lowlands",
+      "founded": 1817,
+      "image": null,
+      "website": "https://www.bladnoch.com",
+      "latitude": 54.8549,
+      "longitude": -4.4562
     }
   ],
   "generatedAt": "2026-08-22T04:15:22.357Z"
