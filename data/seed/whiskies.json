@@ -30581,6 +30581,251 @@
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
+    },
+    {
+      "featured": false,
+      "id": "kingsbarns-dream-to-dram",
+      "slug": "kingsbarns-dream-to-dram",
+      "name": "Kingsbarns Dream to Dram",
+      "description": "Primer single malt insignia de Kingsbarns, destilado en 2015 y embotellado a 46% ABV sin filtración en frío y con color natural. Madurado en barricas de primer llenado de bourbon de Heaven Hill y barricas de vino STR (raspadas, tostadas y re-carbonizadas). Muy afrutado y ligero: en nariz ofrece plátano, piña, vainilla y bayas de verano, mientras que en boca destacan toffee, masa de hojaldre, grosellas rojas y un toque de jengibre, con un final suave y especiado.",
+      "image": "/data/images/kingsbarns-dream-to-dram.webp",
+      "origin": "scotland",
+      "region": "Lowlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon + STR",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Kingsbarns Dream to Dram",
+      "description_pt": "Primeiro single malt de assinatura da Kingsbarns, destilado em 2015 e engarrafado a 46% ABV sem filtração a frio e com cor natural. Amadurecido em barris de primeiro enchimento de bourbon de Heaven Hill e barris de vinho STR (raspados, tostados e re-carbonizados). Muito frutado e leve: no nariz oferece banana, ananás, baunilha e bagas de verão, enquanto em boca destacam-se toffee, massa folhada, groselhas vermelhas e um toque de gengibre, com final suave e especiado.",
+      "name_en": "Kingsbarns Dream to Dram",
+      "description_en": "The first flagship single malt from Kingsbarns, distilled in 2015 and bottled at 46% ABV without chill filtration and with natural colour. Matured in first-fill ex-bourbon casks from Heaven Hill and STR (shaved, toasted and re-charred) wine casks. Very fruity and light: banana, pineapple, vanilla and summer berries on the nose, while toffee, custard pastry, redcurrants and a hint of ginger come through on the palate, with a soft, spicy finish.",
+      "name_ja": "キングスバーンズ ドリームトゥドラム",
+      "description_ja": "キングスバーンズ初のフラッグシップ・シングルモルト。2015年蒸留、チルフィルタリングなし・自然色のまま46% ABVで瓶詰め。ヘブンヒル産ファーストフィルバーボン樽とSTR（シェーブ・トースト・リチャー）ワイン樽で熟成。非常にフルーティで軽やか：ノーズはバナナ、パイナップル、バニラ、夏のベリー。パレットはトフィー、カスタードペストリー、レッドカラント、ジンジャーのニュアンス、柔らかくスパイシーなフィニッシュ。",
+      "name_fr": "Kingsbarns Dream to Dram",
+      "description_fr": "Le premier single malt phare de Kingsbarns, distillé en 2015 et embouteillé à 46 % ABV sans filtration à froid et avec couleur naturelle. Vieilli en fûts de bourbon de premier remplissage de Heaven Hill et en fûts de vin STR (rasés, toastés et re-carbonisés). Très fruité et léger : banane, ananas, vanille et baies d'été au nez, tandis qu'en bouche ressortent toffee, pâte à l'anglaise, groseilles rouges et une pointe de gingembre, avec une finale douce et épicée.",
+      "distillery_id": "kingsbarns",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kHvsL5mNoLE",
+          "label": "Gwhisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CxiEFjmnYlE",
+          "label": "WhiskyJason",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yNDoHItChrQ",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=h9_A3agi6nA",
+          "label": "No Nonsense Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aK-mdRJT0uQ",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "lindores-abbey-mcdxciv",
+      "slug": "lindores-abbey-mcdxciv",
+      "name": "Lindores Abbey MCDXCIV",
+      "description": "Single malt insignia de Lindores Abbey, embotellado a 46% ABV, de nombre MCDXCIV (1494) en honor al primer registro escrito de destilación de whisky escocés. Madurado en barricas de ex-bourbon, jerez oloroso y barricas STR de vino tinto de Borgoña, y aunado en botas de jerez. Suave y elegante, con vainilla, caramelo, manzanas verdes, frutos secos, pasas, cítricos y un final ligero con notas de canela.",
+      "image": "/data/images/lindores-abbey-mcdxciv.webp",
+      "origin": "scotland",
+      "region": "Lowlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon + Sherry + STR",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Lindores Abbey MCDXCIV",
+      "description_pt": "Single malt de assinatura da Lindores Abbey, engarrafado a 46% ABV, de nome MCDXCIV (1494) em homenagem ao primeiro registo escrito de destilação de whisky escocês. Amadurecido em barris de ex-bourbon, xerez oloroso e barris STR de vinho tinto da Borgonha, e casado em cascos de xerez. Suave e elegante, com baunilha, caramelo, maçãs verdes, frutos secos, passas, citrinos e um final leve com notas de canela.",
+      "name_en": "Lindores Abbey MCDXCIV",
+      "description_en": "The flagship single malt from Lindores Abbey, bottled at 46% ABV, named MCDXCIV (1494) after the earliest written record of Scotch whisky distillation. Matured in ex-bourbon barrels, oloroso sherry butts and STR Burgundy red-wine barriques, then married in sherry butts. Smooth and elegant, with vanilla, caramel, green apples, dried fruit, raisins, citrus and a light finish with cinnamon notes.",
+      "name_ja": "リンドーズ・アビー MCDXCIV",
+      "description_ja": "リンドレス修道院のフラッグシップ・シングルモルト。スコッチウイスキー蒸留の最古の記録である1494年（MCDXCIV）にちなんで名付けられ、46% ABVで瓶詰め。元バーボン樽、オロロソシェリー樽、STRブルゴーニュ赤ワイン樽で熟成し、シェリー樽でマリッジ。滑らかでエレガント。バニラ、キャラメル、青リンゴ、ドライフルーツ、レーズン、シトラス、シナモンの余韻。",
+      "name_fr": "Lindores Abbey MCDXCIV",
+      "description_fr": "Le single malt phare de Lindores Abbey, embouteillé à 46 % ABV, nommé MCDXCIV (1494) d'après la plus ancienne mention écrite de la distillation du whisky écossais. Vieilli en fûts de bourbon, fûts d'oloroso et barriques STR de vin rouge de Bourgogne, puis assemblé en fûts de xérès. Doux et élégant, avec des notes de vanille, caramel, pommes vertes, fruits secs, raisins secs, agrumes et une finale légère à la cannelle.",
+      "distillery_id": "lindores-abbey",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=N-ncfpl5870",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9QXnj7Bu_0s",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z-H2WOUtxhA",
+          "label": "Moa Nilsson",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sLYPY4f7j48",
+          "label": "Whisky Lock",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=axGZuPgacRk",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "annandale-man-osword",
+      "slug": "annandale-man-osword",
+      "name": "Annandale Man O'Sword",
+      "description": "Man O'Sword es el single malt turbado (peated) de Annandale, elaborado como maduración de barrica única en barricas de ex-bourbon, oloroso y STR. En nariz ofrece humo de turba persistente, manzana verde asada, vainilla y especias; en boca resulta untuoso, con caramelo, miel y un toque ahumado asado. El final es medio-largo, con ceniza, cítricos y madera dulce.",
+      "image": "/data/images/annandale-man-osword.webp",
+      "origin": "scotland",
+      "region": "Lowlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon + Sherry + STR",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Annandale Man O'Sword",
+      "description_pt": "Man O'Sword é o single malt turfado (peated) da Annandale, elaborado como maturação em barril único em barris de ex-bourbon, oloroso e STR. No nariz oferece fumo de turfa persistente, maçã verde assada, baunilha e especiarias; em boca é untuoso, com caramelo, mel e um toque defumado assado. O final é médio-longo, com cinzas, citrinos e madeira doce.",
+      "name_en": "Annandale Man O'Sword",
+      "description_en": "Man O'Sword is Annandale's peated single malt, made as a single-cask maturation in ex-bourbon, oloroso and STR casks. The nose offers persistent peat smoke, roasted green apple, vanilla and spice; the palate is rich, with caramel, honey and a roasted smoky touch. The finish is medium to long, with ash, citrus and sweet wood.",
+      "name_ja": "アナンデール マンオソード",
+      "description_ja": "マンオソードはアナンデールのピーテッド・シングルモルト。元バーボン樽、オロロソ樽、STR樽でのシングルカスク熟成。ノーズは持続的なピートスモーク、ローストした青リンゴ、バニラ、スパイス。パレットは濃厚でキャラメル、ハチミツ、ローストしたスモーキーなニュアンス。フィニッシュは中〜長く、アッシュ、シトラス、甘いウッド。",
+      "name_fr": "Annandale Man O'Sword",
+      "description_fr": "Man O'Sword est le single malt tourbé d'Annandale, élaboré en single cask dans des fûts de bourbon, d'oloroso et STR. Au nez, une fumée de tourbe persistante, de la pomme verte rôtie, de la vanille et des épices ; en bouche, il est riche, avec caramel, miel et une touche fumée rôtie. La finale est moyennement longue, avec des cendres, des agrumes et du bois doux.",
+      "distillery_id": "annandale",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sRwEX9oVJ3Y",
+          "label": "WhiskyJason",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SKVB0MiWfYE",
+          "label": "The Whisky Speaker",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8B6RADiWhSM",
+          "label": "WhiskyJason",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jOBB9T5fx7Q",
+          "label": "Scotch Sunday Whisky Reviews",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=u3kBZ-Ml71s",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "holyrood-arrival",
+      "slug": "holyrood-arrival",
+      "name": "Holyrood Arrival Single Malt",
+      "description": "Holyrood Arrival es el primer single malt de la destilería de Edimburgo, madurado en barricas de bourbon y jerez Oloroso y Pedro Ximénez. En nariz ofrece frutos secos, mango, pasas y mantequilla sobre bizcocho recién horneado, toffee y cuero. En boca destacan caramelo, vainilla, jengibre, galletas y pasas, con un final prolongado a tarta de manzana y especias dulces.",
+      "image": "/data/images/holyrood-arrival.webp",
+      "origin": "scotland",
+      "region": "Lowlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon + Sherry + Rum",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Holyrood Arrival Single Malt",
+      "description_pt": "Holyrood Arrival é o primeiro single malt da destilaria de Edimburgo, amadurecido em barris de bourbon e xerez Oloroso e Pedro Ximénez. No nariz oferece frutos secos, manga, passas e manteiga sobre bolo acabado de assar, toffee e couro. Em boca destacam-se caramelo, baunilha, gengibre, bolachas e passas, com um final prolongado a tarte de maçã e especiarias doces.",
+      "name_en": "Holyrood Arrival Single Malt",
+      "description_en": "Holyrood Arrival is the distillery's first single malt from Edinburgh, matured in bourbon barrels and Oloroso and Pedro Ximénez sherry casks. The nose offers dried fruit, mango, raisins and butter over freshly baked sponge, toffee and leather. The palate features caramel, vanilla, ginger, biscuits and raisins, with a long finish of apple pie and sweet spices.",
+      "name_ja": "ホリルード アライバル シングルモルト",
+      "description_ja": "ホリルード蒸留所初のシングルモルト。バーボン樽、オロロソ＆ペドロヒメネスシェリー樽で熟成。ノーズはドライフルーツ、マンゴー、レーズン、焼きたてのスポンジケーキの上にバター、トフィー、レザー。パレットはキャラメル、バニラ、ジンジャー、ビスケット、レーズン。アップルパイと甘いスパイスの長いフィニッシュ。",
+      "name_fr": "Holyrood Arrival Single Malt",
+      "description_fr": "Holyrood Arrival est le premier single malt de la distillerie d'Édimbourg, vieilli en fûts de bourbon et en fûts de xérès Oloroso et Pedro Ximénez. Au nez, des fruits secs, de la mangue, des raisins secs et du beurre sur une génoise fraîche, du toffee et du cuir. En bouche, caramel, vanille, gingembre, biscuits et raisins secs, avec une finale longue de tarte aux pommes et d'épices douces.",
+      "distillery_id": "holyrood",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eS5c_GprPXU",
+          "label": "Robertson Wellen",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=38EaQrJ8l2M",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sAFfSeiDp2A",
+          "label": "Scotch on the Bayou",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bhN2buDWi8A",
+          "label": "Drinking Out Loud",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     }
   ]
 }

@@ -183,11 +183,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Auchentoshan American Oak - Auchentoshan
 ✅ Auchentoshan 18 YO - Auchentoshan
 ✅ Glenkinchie 12 YO - Glenkinchie
-Bladnoch 11 YO - Bladnoch
-Kingsbarns Dream to Dram - Kingsbarns
-Lindores Abbey MCDXCIV - Lindores Abbey
-Annandale Man O'Sword - Annandale
-Holyrood Single Malt - Holyrood
+✅ Bladnoch 11 YO - Bladnoch
+✅ Kingsbarns Dream to Dram - Kingsbarns
+✅ Lindores Abbey MCDXCIV - Lindores Abbey
+✅ Annandale Man O'Sword - Annandale
+✅ Holyrood Single Malt - Holyrood
 Clydeside Stobcross - Clydeside
 Port of Leith One - Port of Leith
 RyeLaw Rye - Borders Distillery

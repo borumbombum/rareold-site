@@ -384,3 +384,10 @@
 
 - After 4 dedicated waves the per-wave yield fell 65→17→5. When five independent agents each return "dry" for the same product across a language, that is empirical confirmation the coverage doesn't exist — not a search failure. The correct engineering response is to stop expanding and document the honest-dry floor.
 - Language-specific coverage ceilings differ by market: ja/es/pt have broad single-malt reviewer communities; fr is the weakest, skewing to well-known brands only. Plan foreign-language fill ratios expecting fr to be the bottleneck.
+
+## 2026-09-04 — Lowlands batch: ship, images, and the two-language ceiling
+
+- A product can have all seed+image done and still never ship: Bladnoch 11 had been committed a week earlier without `data:export` (network flake left it out of `src/lib/data/`), so the queue line stayed unticked. The pipeline is incomplete until the exported JSON contains it — verify the flat `influencer_videos.json` + `whiskies.json`, not just the seed.
+- new Lowlands single malts (Kingsbarns, Lindores, Annandale, Holyrood) are essentially en+ja only in reviewer coverage; es/pt/fr are honest-dry for these exact expressions. ひとくちウイスキー is the single reliable ja reviewer for these niche expressions.
+- Image sourcing ladder when whiskybase is IP-blocked and TWX codes are guessy: official distillery Shopify/OG images and whisky-online.com Shopify products are the most trustworthy; a TWX 7408-byte response means you guessed a wrong code (placeholder). Dimension/`file` check every download.
+- The ASR-caption-language check (`captionTracks.languageCode`) is the only reliable narration gate — even WhiskyNotes CS and The Whisky Waiter review-format videos narrate in German for these products.
