@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-04T05:16:06.720Z",
+  "generatedAt": "2026-09-04T07:20:39.867Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -5897,6 +5897,178 @@
       ]
     },
     {
+      "id": "ballantines-finest",
+      "slug": "ballantines-finest",
+      "name": "Ballantine's Finest",
+      "distillery": {
+        "id": "chivas-brothers",
+        "name": "Chivas Brothers",
+        "name_es": "Chivas Brothers",
+        "name_pt": "Chivas Brothers",
+        "name_en": "Chivas Brothers",
+        "name_ja": "チヴァス・ブラザーズ",
+        "name_fr": null
+      },
+      "description": "Ballantine's Finest es el blended Scotch insignia de la marca, una receta desde 1910 que combina whiskies de las cuatro regiones de Escocia. Color dorado claro. En nariz, suave y elegante con miel de brezo y un toque de especias. En boca, equilibrado con sabores sutiles y dulces: chocolate con leche, manzana roja y vainilla. Final fresco y redondo con un brillo persistente. El blended Scotch más vendido de Europa.",
+      "image": "/data/images/ballantines-finest.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": null,
+      "distillery_id": "chivas-brothers",
+      "insertion_order": 320,
+      "featured": false,
+      "name_pt": "Ballantine's Finest",
+      "description_pt": "Ballantine's Finest é o blended Scotch insignia da marca, uma receita desde 1910 que combina whiskies das quatro regiões da Escócia. Cor dourado clara. No nariz, suave e elegante com mel de urze e um toque de especiarias. Na boca, equilibrado com sabores sutis e doces: chocolate com leite, maçã vermelha e baunilha. Final fresco e redondo com um brilho persistente. O blended Scotch mais vendido da Europa.",
+      "name_en": "Ballantine's Finest",
+      "description_en": "Ballantine's Finest is the brand's flagship blended Scotch, a recipe dating from 1910 combining whiskies from Scotland's four regions. Pale gold in colour. The nose is smooth and elegant with heather honey and a touch of spice. The palate is balanced with subtle, sweet flavours: milk chocolate, red apple and vanilla. A fresh, rounded finish with a lingering glow. Europe's best-selling blended Scotch.",
+      "name_ja": "バランタインズ フィネスト",
+      "description_ja": "バランタインズ フィネストは、1910年から続く同ブランドのフラッグシップブレンデッドスコッチで、スコットランド4つの地域のウイスキーをブレンド。淡い金色。鼻にはスムースでエレガントなヒースハニーとスパイスのタッチ。口に含むと、ミルクチョコレート、赤リンゴ、バニラの繊細で甘いフレーバーのバランスが良い。フレッシュで-roundedなフィニッシュに-moderateな輝き。ヨーロッパで最も売れているブレンデッドスコッチ。",
+      "name_fr": "Ballantine's Finest",
+      "description_fr": "Ballantine's Finest est le blended Scotch phare de la marque, une recette datant de 1910 combinant des whiskies des quatre régions d'Écosse. Couleur or pâle. Le nez est doux et élégant avec du miel de bruyère et une touche d'épices. En bouche, équilibré avec des saveurs subtiles et sucrées : chocolat au lait, pomme rouge et vanille. Un final frais et rond avec un éclat persistant. Le blended Scotch le plus vendu d'Europe.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7unv0CHoudk",
+          "label": "the Whisky Legends"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aw_g8JwD1rM",
+          "label": "Whisky Lock"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=d6TfjkhwDhc",
+          "label": "Whisky Impressions"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=v4Z5LVsHvVs",
+          "label": "Whisky Lock"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5DWF_fO4xf8",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ED7TOeaXHYU",
+          "label": "Bespoke Unit"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nwOZeL-qxmM",
+          "label": "Tito Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VlpS_bmK_tU",
+          "label": "Ale Degustation"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wr9mzLpRPCk",
+          "label": "Foyer Fute"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3Ku2CMax514",
+          "label": "あかつきとウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HfL7LB0nNjg",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kiDDQDHJ2Rc",
+          "label": "CKV362017"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pTSb_1H67OE",
+          "label": "もかじと乾杯-cheers-"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q3cFHTjM6ZI",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cshvPzt2EDk",
+          "label": "Jornada do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eBjcd3TZxOI",
+          "label": "Porção dos Anjos Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=v1h9bv9PBAs",
+          "label": "WhiskyBrasil.com"
+        }
+      ]
+    },
+    {
       "id": "ben-nevis-10-year-old",
       "slug": "ben-nevis-10-year-old",
       "name": "Ben Nevis 10 Year Old",
@@ -9105,6 +9277,386 @@
         }
       ],
       "resellers_usa": []
+    },
+    {
+      "id": "chivas-regal-12-yo",
+      "slug": "chivas-regal-12-yo",
+      "name": "Chivas Regal 12 Años",
+      "distillery": {
+        "id": "chivas-brothers",
+        "name": "Chivas Brothers",
+        "name_es": "Chivas Brothers",
+        "name_pt": "Chivas Brothers",
+        "name_en": "Chivas Brothers",
+        "name_ja": "チヴァス・ブラザーズ",
+        "name_fr": null
+      },
+      "description": "Chivas Regal 12 es el blended Scotch de referencia de la casa, un whisky suave y equilibrado con corazón de Strathisla. En nariz, hierbas silvestres, brezo, miel y frutas de huerto. En boca, redondo y cremoso con miel, vainilla, avellana y caramelo toffee. Final rico y persistente con notas de frutas y un toque especiado. Destilado y embotellado en Escocia.",
+      "image": "/data/images/chivas-regal-12-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Mixed",
+      "distillery_id": "chivas-brothers",
+      "insertion_order": 318,
+      "featured": false,
+      "name_pt": "Chivas Regal 12 Anos",
+      "description_pt": "Chivas Regal 12 é o blended Scotch de referência da casa, um whisky suave e equilibrado com coração de Strathisla. No nariz, ervas silvestres, urze, mel e frutas de quintal. Na boca, redondo e cremoso com mel, baunilha, avelã e caramelo toffee. Final rico e persistente com notas de frutas e um toque especiado. Destilado e engarrafado na Escócia.",
+      "name_en": "Chivas Regal 12 YO",
+      "description_en": "Chivas Regal 12 is the house's benchmark blended Scotch, a smooth and balanced whisky with Strathisla at its heart. The nose offers wild herbs, heather, honey and orchard fruits. The palate is round and creamy with honey, vanilla, hazelnut and toffee caramel. A rich, persistent finish with fruit notes and a spicy touch. Distilled and bottled in Scotland.",
+      "name_ja": "チヴァス・レガル 12年",
+      "description_ja": "チヴァス・レガル12年は、同ブランドの代表ブレンデッドスコッチで、ストラシスラ蒸留所を中核とするスムースでバランスの取れたウイスキー。鼻にはワイルドハーブ、ヒース、ハニー、果樹園フルーツの香り。口に含むと、丸みのあるクリーミーなテクスチャーにハニー、バニラ、ヘーゼルナット、トフィーキャラメル。リッチで長く続くフィニッシュにフルーツノートとスパイシーなタッチ。スコットランドで蒸留・瓶詰め。",
+      "name_fr": "Chivas Regal 12 Ans",
+      "description_fr": "Chivas Regal 12 est le blended Scotch de référence de la maison, un whisky souple et équilibré avec Strathisla en son cœur. Le nez offre des herbes sauvages, de la bruyère, du miel et des fruits de verger. En bouche, rond et crémeux avec miel, vanille, noisette et caramel toffee. Un final riche et persistant avec des notes de fruits et une touche épicée. Distillé et mis en bouteille en Écosse.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0KylC-aemTQ",
+          "label": "No Nonsense Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3sfLZ2catsc",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aDPXJKq6TjU",
+          "label": "Moa Nilsson"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ikA5un1MuMI",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-ROiZDBtybY",
+          "label": "Monkey Drinks"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WOALJuAG23c",
+          "label": "Honest Sips"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YKjC6pXyc7A",
+          "label": "Tito Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jOyl_D__KLw",
+          "label": "Honest Sips"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aoUpPkeJH5M",
+          "label": "AlexWhiskyBlog"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eJRcRKJKY9I",
+          "label": "Whisky Whistle"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fvop-uxv2Mc",
+          "label": "Intoxicated Opinions"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iSjkCJSZmMA",
+          "label": "Drinks And Chill"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=32kOUFYQtAc",
+          "label": "CROSSROAD LAB"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7XP_uL3nnZc",
+          "label": "ウイスキーパトロール"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RPPQxvnR4vY",
+          "label": "つっちーのBar研究室"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wmH--tnomW4",
+          "label": "ウイスキー大好き ミディアムチャンネル"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RXZNB2k-CqM",
+          "label": "Márcio Becker"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dzhcyV33yFw",
+          "label": "Norton no Mundo do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fE5lRBqzpc8",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wU-dOY9Q4K0",
+          "label": "WhiskyBrasil.com"
+        }
+      ]
+    },
+    {
+      "id": "chivas-regal-18-yo",
+      "slug": "chivas-regal-18-yo",
+      "name": "Chivas Regal 18 Años",
+      "distillery": {
+        "id": "chivas-brothers",
+        "name": "Chivas Brothers",
+        "name_es": "Chivas Brothers",
+        "name_pt": "Chivas Brothers",
+        "name_en": "Chivas Brothers",
+        "name_ja": "チヴァス・ブラザーズ",
+        "name_fr": null
+      },
+      "description": "Chivas Regal 18 es un blended Scotch premium con 18 años de maduración, una de las expresiones más valoradas de la gama Chivas. En nariz, frutas secas, toffee mantequilloso y chocolate amargo con notas florales. En boca, chocolate amelo aterciopelado, notas florales y un suave toque ahumado dulce. Final extremadamente cálido y largo con especias y madera de roble. Más de 85 notas de sabor.",
+      "image": "/data/images/chivas-regal-18-yo.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": 18,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": null,
+      "distillery_id": "chivas-brothers",
+      "insertion_order": 319,
+      "featured": false,
+      "name_pt": "Chivas Regal 18 Anos",
+      "description_pt": "Chivas Regal 18 é um blended Scotch premium com 18 anos de maturação, uma das expressões mais valoradas da gama Chivas. No nariz, frutas secas, toffee manteigoso e chocolate amargo com notas florais. Na boca, chocolate amelo aveludado, notas florais e um suave toque defumado doce. Final extremamente quente e longo com especiarias e madeira de carvalho. Mais de 85 notas de sabor.",
+      "name_en": "Chivas Regal 18 YO",
+      "description_en": "Chivas Regal 18 is a premium blended Scotch with 18 years of maturation, one of the most valued expressions in the Chivas range. The nose reveals dried fruits, buttery toffee and bitter chocolate with floral notes. The palate delivers velvety dark chocolate, floral notes and a gentle sweet smoky touch. An extremely warm, long finish with spices and oak wood. Over 85 flavour notes.",
+      "name_ja": "チヴァス・レガル 18年",
+      "description_ja": "チヴァス・レガル18年は、18年の熟成を経たプレミアムブレンデッドスコッチで、チヴァス・レガルシリーズ中最も評価の高いエクスプレッションの一つ。鼻にはドライフルーツ、バタートフィー、ビターチョコレート、フローラルノート。口に含むと、ベルベットのようなダークチョコレート、フローラルノート、穏やかな甘いスモークのタッチ。スパイスとオークウッドの-極めてウォームで-longなフィニッシュ。85以上のフレーバーノート。",
+      "name_fr": "Chivas Regal 18 Ans",
+      "description_fr": "Chivas Regal 18 est un blended Scotch premium avec 18 ans de maturation, l'une des expressions les plus appréciées de la gamme Chivas. Le nez révèle des fruits secs, du toffee beurré et du chocolat amer avec des notes florales. En bouche, chocolat noir velouté, notes florales et une douce touche fumée sucrée. Un final extrêmement chaleureux et long avec des épices et du bois de chêne. Plus de 85 notes de saveur.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EFEqpMtMy38",
+          "label": "The Single Malt Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_xoE7oFSoAo",
+          "label": "thewhiskybothy"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=m8QLy7FkG0I",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xjghGl4GVFo",
+          "label": "The Dram Club"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Jk1IS0dtLgg",
+          "label": "Hablemos de Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UpD68__zFgA",
+          "label": "Tito Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=k3jGXn4--JU",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pZyeFJPN7wc",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HQICJExLR8c",
+          "label": "AlexWhiskyBlog"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NYwvbrlm2j0",
+          "label": "Malt à propos"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RUUXrn7NnaM",
+          "label": "lachaineduwhisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ensdmBpStHw",
+          "label": "Whiskey Lore"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0wTslrA-93c",
+          "label": "CH.ウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KJD6xinuwrA",
+          "label": "はっちばっちチャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WeCzc_CMUz4",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=h9HzKDAhcXs",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S4fGAgpHXaY",
+          "label": "Além do Rótulo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eNMFkU1NuuA",
+          "label": "Norton no Mundo do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n_zbUtys7Rs",
+          "label": "Destilados Brasil"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wPZmc6KYE5I",
+          "label": "WhiskyBrasil.com"
+        }
+      ]
     },
     {
       "id": "clydeside-stobcross",
@@ -22253,6 +22805,338 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=tRipgbXJlaM",
           "label": "Jornada do Whisky review"
+        }
+      ]
+    },
+    {
+      "id": "johnnie-walker-blue-label",
+      "slug": "johnnie-walker-blue-label",
+      "name": "Johnnie Walker Blue Label",
+      "distillery": {
+        "id": "johnnie-walker",
+        "name": "Johnnie Walker",
+        "name_es": "Johnnie Walker",
+        "name_pt": "Johnnie Walker",
+        "name_en": "Johnnie Walker",
+        "name_ja": "ジョニーウォーカー",
+        "name_fr": "Johnnie Walker"
+      },
+      "description": "Johnnie Walker Blue Label es la joya de la corona de la marca, un blended Scotch de nivel ultra premium que contiene whiskies de destilerías cerradas y fantasmas. En nariz, vainilla, caramelo, miel, pétalos de rosa y humo de turba suave con frutos secos. En boca, una textura aterciopelada con toffee, helado de vainilla, frutas oscuras y un toque de chocolate amargo. Final largo y elegante con humo, especias y un sutil toque marítimo.",
+      "image": "/data/images/johnnie-walker-blue-label.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": null,
+      "distillery_id": "johnnie-walker",
+      "insertion_order": 317,
+      "featured": false,
+      "name_pt": "Johnnie Walker Blue Label",
+      "description_pt": "Johnnie Walker Blue Label é a joia da coroa da marca, um blended Scotch de nível ultra premium que contém whiskies de destilarias fechadas e fantasma. No nariz, baunilha, caramelo, mel, pétalas de rosa e fumo de turfa suave com frutos secos. Na boca, uma textura aveludada com toffee, sorvete de baunilha, frutas escuras e um toque de chocolate amargo. Final longo e elegante com fumo, especiarias e um sutil toque marítimo.",
+      "name_en": "Johnnie Walker Blue Label",
+      "description_en": "Johnnie Walker Blue Label is the crown jewel of the brand, an ultra-premium blended Scotch containing whiskies from closed and ghost distilleries. The nose offers vanilla, caramel, honey, rose petals and gentle peat smoke with dried fruits. The palate delivers a velvety texture with toffee, vanilla ice cream, dark fruits and a touch of bitter chocolate. A long, elegant finish with smoke, spices and a subtle maritime note.",
+      "name_ja": "ジョンニーウォーカー ブルーラベル",
+      "description_ja": "ジョンニーウォーカー ブルーラベルは、同ブランドのisekai中最高峰のウイスキーで、閉鎖された蒸留所やゴースト蒸留所のウイスキーを含む超プレミアムブレンデッドスコッチです。鼻にはバニラ、カラメル、ハニー、バラの花びら、穏やかなピートスモークとドライフルーツ。口に含むと、トフィー、バニラアイスクリーム、ダークフルーツ、ビターチョコレートのタッチを伴うベルベットのようなテクスチャー。スモーク、スパイス、控えめなマリタイムノートの-longでエレガントなフィニッシュ。",
+      "name_fr": "Johnnie Walker Blue Label",
+      "description_fr": "Johnnie Walker Blue Label est le joyau de la couronne de la marque, un blended Scotch ultra-premium contenant des whiskies de distilleries fermées et fantômes. Le nez offre vanille, caramel, miel, pétales de rose et une douce fumée de tourbe avec des fruits secs. En bouche, une texture veloutée avec toffee, glace à la vanille, fruits foncés et une touche de chocolat amer. Un final long et élégant avec fumée, épices et une subtile note maritime.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4-gcn20SCpk",
+          "label": "The Whisky Enthusiast"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EawDBAWWpIs",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fNM_OmC3fu0",
+          "label": "Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rKRRpfX1DcY",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SfAq9HZgjy8",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XqE3AlYX_Jc",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cSxGFgwQzkM",
+          "label": "Green Jar"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hYIPxmCNDLw",
+          "label": "Tito Whisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2BsGBsTEnMw",
+          "label": "Bar Workaholic"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5HADjGFW204",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=A-P1_Vmu7YI",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yfzITVKXib8",
+          "label": "ITARU's BAR channel"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LInEQXdmS2M",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QZk7KRShReg",
+          "label": "Jornada do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=telkP7fUeQA",
+          "label": "Márcio Becker"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vzvHNwK_peM",
+          "label": "Jornada do Whisky"
+        }
+      ]
+    },
+    {
+      "id": "johnnie-walker-green-label-15-yo",
+      "slug": "johnnie-walker-green-label-15-yo",
+      "name": "Johnnie Walker Green Label 15 Años",
+      "distillery": {
+        "id": "johnnie-walker",
+        "name": "Johnnie Walker",
+        "name_es": "Johnnie Walker",
+        "name_pt": "Johnnie Walker",
+        "name_en": "Johnnie Walker",
+        "name_ja": "ジョニーウォーカー",
+        "name_fr": "Johnnie Walker"
+      },
+      "description": "Johnnie Walker Green Label es un blended malt de 15 años que combina whiskies de las mejores destilerías de maltas de Escocia, incluyendo Speyside, las Tierras Altas, Islay y Skye. En nariz ofrece hierba fresca, musgo húmedo, tabaco de pipa y cereales malteados. En boca, una fusión compleja de frutas maltosas y humo de Islay: vainilla, miel oscura, manzana y pera, con notas de sándalo y madera ahumada. Final medio-largo, limpio y ahumado con especias de roble.",
+      "image": "/data/images/johnnie-walker-green-label-15-yo.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": 15,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": null,
+      "distillery_id": "johnnie-walker",
+      "insertion_order": 316,
+      "featured": false,
+      "name_pt": "Johnnie Walker Green Label 15 Anos",
+      "description_pt": "Johnnie Walker Green Label é um blended malt de 15 anos que combina whiskies das melhores destilarias de maltes da Escócia, incluindo Speyside, Highlands, Islay e Skye. No nariz oferece erva fresca, musgo húmido, tabaco de cachimbo e cereais maltados. Na boca, uma fusão complexa de frutas maltadas e fumo de Islay: baunilha, mel escuro, maçã e pera, com notas de sândalo e madeira defumada. Final médio-longo, limpo e defumado com especiarias de carvalho.",
+      "name_en": "Johnnie Walker Green Label 15 YO",
+      "description_en": "Johnnie Walker Green Label is a 15-year-old blended malt combining whiskies from Scotland's finest malt distilleries across Speyside, the Highlands, Islay and Skye. The nose offers fresh grass, damp moss, pipe tobacco and malted cereals. The palate reveals a complex fusion of malty fruits and Islay smoke: vanilla, dark honey, apple and pear, with sandalwood and smoky wood notes. A clean, smoky medium-long finish with oak spices.",
+      "name_ja": "ジョンニーウォーカー グリーンラベル 15年",
+      "description_ja": "ジョンニーウォーカー グリーンラベルは、スペイサイド、ハイランド、イスレー、スカイなどスコットランド最高のモルト蒸留所から選ばれたウイスキーをブレンドした15年のブレンデッドモルトです。鼻にはフレッシュなハーブ、湿ったコケ、パイプタバコ、麦芽穀物の香り。口に含むと、麦芽フルーツとイスレーのスモークの複雑な融合：バニラ、ダークハニー、リンゴと梨、サンダルウッドとスモーキーウッドのノート。オークスパイスの-cleanでスモーキーなミディアムロングフィニッシュ。",
+      "name_fr": "Johnnie Walker Green Label 15 Ans",
+      "description_fr": "Johnnie Walker Green Label est un blended malt de 15 ans combinant des whiskies des meilleures distilleries de malt d'Écosse, de Speyside aux Highlands, en passant par Islay et Skye. Le nez offre de l'herbe fraîche, de la mousse humide, du tabac à pipe et des céréales maltées. En bouche, une fusion complexe de fruits maltés et de fumée d'Ilay : vanille, miel foncé, pomme et poire, avec des notes de santal et de bois fumé. Un final moyen-long, propre et fumé avec des épices de chêne.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VlP0fpSxWew",
+          "label": "No Nonsense Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_QxWDT8CZpY",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fMIAbLu_EME",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ioUo9rG9qRk",
+          "label": "Whisky Riffs"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bQDHk3qcTnI",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bS9usW7dXac",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yOgjxCMYXjA",
+          "label": "Nehomar Hernández"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zAoHEKHAZEc",
+          "label": "Cultura del Whisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O_9HcKpRCsE",
+          "label": "お酒の塾長"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gViwnRfecxY",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i9vnF_WbDKw",
+          "label": "CROSSROAD LAB"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=q3VdGAvghtA",
+          "label": "HAYA CHANNEL"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IZAGeD4D1QA",
+          "label": "Márcio Becker"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OW8KLgnCAzI",
+          "label": "Jornada do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q2h11W4fPqU",
+          "label": "Jornada do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qcvaxVSEglc",
+          "label": "WhiskyBrasil.com"
         }
       ]
     },

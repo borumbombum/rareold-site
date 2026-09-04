@@ -196,11 +196,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ## Scotland — Grains & Blends
 
 ✅ Johnnie Walker Black Label 12 YO - Johnnie Walker
-Johnnie Walker Green Label 15 YO - Johnnie Walker
-Johnnie Walker Blue Label - Johnnie Walker
-Chivas Regal 12 YO - Chivas Regal
-Chivas Regal 18 YO - Chivas Regal
-Ballantine's Finest - Ballantine's
+✅ Johnnie Walker Green Label 15 YO - Johnnie Walker
+✅ Johnnie Walker Blue Label - Johnnie Walker
+✅ Chivas Regal 12 YO - Chivas Regal
+✅ Chivas Regal 18 YO - Chivas Regal
+✅ Ballantine's Finest - Ballantine's
 Dewar's White Label - Dewar's
 Cutty Sark Prohibition - Cutty Sark
 Monkey Shoulder - William Grant & Sons
