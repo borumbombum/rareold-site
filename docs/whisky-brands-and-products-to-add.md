@@ -188,14 +188,14 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Lindores Abbey MCDXCIV - Lindores Abbey
 ✅ Annandale Man O'Sword - Annandale
 ✅ Holyrood Single Malt - Holyrood
-Clydeside Stobcross - Clydeside
-Port of Leith One - Port of Leith
-RyeLaw Rye - Borders Distillery
-Lochlea Our Barley - Lochlea
+✅ Clydeside Stobcross - Clydeside
+✅ Port of Leith Table Whisky - Port of Leith
+✅ RyeLaw - InchDairnie
+✅ Lochlea Our Barley - Lochlea
 
 ## Scotland — Grains & Blends
 
-Johnnie Walker Black Label 12 YO - Johnnie Walker
+✅ Johnnie Walker Black Label 12 YO - Johnnie Walker
 Johnnie Walker Green Label 15 YO - Johnnie Walker
 Johnnie Walker Blue Label - Johnnie Walker
 Chivas Regal 12 YO - Chivas Regal

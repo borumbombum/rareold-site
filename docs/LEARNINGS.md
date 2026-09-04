@@ -391,3 +391,8 @@
 - new Lowlands single malts (Kingsbarns, Lindores, Annandale, Holyrood) are essentially en+ja only in reviewer coverage; es/pt/fr are honest-dry for these exact expressions. ひとくちウイスキー is the single reliable ja reviewer for these niche expressions.
 - Image sourcing ladder when whiskybase is IP-blocked and TWX codes are guessy: official distillery Shopify/OG images and whisky-online.com Shopify products are the most trustworthy; a TWX 7408-byte response means you guessed a wrong code (placeholder). Dimension/`file` check every download.
 - The ASR-caption-language check (`captionTracks.languageCode`) is the only reliable narration gate — even WhiskyNotes CS and The Whisky Waiter review-format videos narrate in German for these products.
+
+## 2026-09-04 — fact-check queue lines before trusting distillery attribution
+
+- The user-owned queue file is authoritative for *what* to add, but not always *accurate*: "Port of Leith One" and "RyeLaw — Borders Distillery" were both wrong against reality. Before seeding, cross-check the expression's real producer/packaging — a single web check (boarding-style search on the product name) catches these, and the correction should be reflected in the ticked queue line so the record matches shipped data.
+- Blended brands with no stills map cleanly to the owner's corporate HQ; new-distillery NAS single malts + single grains are the driest for es/pt/fr reviewer coverage, while famous blends (JW Black Label) still fill all five languages.
