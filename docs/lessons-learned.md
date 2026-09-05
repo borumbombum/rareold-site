@@ -407,3 +407,10 @@
 - **Image sources this batch were pure Shopify/CDN product shots** (internetwines, oldandrarewhisky, theliquorshop.sg, douglaslaing official, CloudFront official for William Lawson's) — no whiskybase 403 workaround needed; all 5 prepared as 500×500 webp in one parallel run.
 - **Seed JSON edits anchored on unique per-entry text** (the tail of each `description_fr`) rather than the repeated `"influencer_videos": []` string, so the 5 video blocks landed on the right products without touching neighboring entries.
 - **W&M pt shipped at 1** (honest dry beyond Tierri's NAS review; the Tierri fight video was excluded because it is already on teacher-'s and never names Triple Matured). Big Peat es/fr and the other four fr slots stayed empty — English top-up covers at runtime.
+
+## 2026-09-05 — Batch: 5 blends (Scallywag, Rock Oyster, Timorous Beastie, The Peat Monster, The Spice Tree)
+
+- **Same-liquid product renames straddle the exact-expression rule:** Rock Oyster → Rock Island (Apr 2019) is the identical NAS liquid under a new label; both titles are valid for the product, so the en slot mixed 2 Oyster + 2 Island reviews. The hard rule is about expression/age/version, not brand marketing history — but only when verifiably the same product.
+- **The 46.8%/NAS gate rejects aged siblings aggressively:** Timorous Beastie 10/21/40yo and Scallywag 10yo/cask-strength channels kept appearing in search and were all dropped; only the exact NAS bottling qualified. A 2025-dated Scallywag video still passes (same NAS product, newer batch).
+- **Compass Box's first distillery record:** new `compass-box` anchored at the Chiswick HQ, and the recipe was double-checked (Peat Monster = Caol Ila+Laphroaig refill hogsheads at 46%; Spice Tree = ex-bourbon Highland malts + new French oak hybrid casks at 46%) so `cask` values aren't invented.
+- **55 videos across 5 products all re-verified in one pass via `yt-verify.mjs`** after subagent research; per-language honest-dry spots (Scallywag es=0/pt=1, Timorous es/pt=0, Spice Tree es=0/fr=1, Peat Monster fr=1, Rock Oyster fr=0) were shipped short exactly as the skill prescribes — never padded.

@@ -411,3 +411,10 @@
 - Generic-titled "Whyte And Mackay Blended Scotch" reviews ARE Triple Matured: "Special" was discontinued; it is the current core blend. Acceptable when the channel + video target the current label.
 - Blend-brand distillery anchoring worked cleanly for /map: J&B→London heritage (Justerini & Brooks, Pall Mall — same pattern as Cutty Sark/Berry Bros), Whyte & Mackay→Glasgow HQ (Dalmore House), Bell's→Perth, William Lawson's→Macduff (its home malt distillery), Douglas Laing→Glasgow HQ.
 - 61 videos shipped (14/9/14/15/9, all oEmbed-reverified live in one pass after subagent research). Exported JSON is the ship gate, not the seed.
+
+## 2026-09-05 — Batch: 5 more blends (Scallywag, Rock Oyster, Timorous Beastie, The Peat Monster, The Spice Tree)
+
+- **Renamed-but-same-liquid products are one expression, not two:** Rock Oyster was re-labelled Rock Island in Apr 2019 (identical NAS liquid). `yt-search`/oEmbed titles naming either label qualify for the product; both names were spread across the en slot (2 R. Oyster + 2 R. Island) — rejecting half would have wrongly halved the best-filled language.
+- **Coverage tiering holds again, both directions:** es and fr stayed honest-dry for the niche blends (Scallywag es=0/fr=2; Timorous es=0; Spice Tree es=0/fr=1; Rock Oyster fr=0), while Peat Monster — the closest this batch has to "famous" — was the only one to fill es(3)+pt(3)+ja(3)+en(4). The 46.8% NAS exact-expression gate rejects TIMOROUS 10/21/40yo, Scallywag 10yo/cask-strength and Spice Tree Extravaganza/Spaniard routinely.
+- **Single-pass oEmbed re-verification of every ID is the ship gate:** 55 IDs across 5 products re-verified live after 5 parallel subagents; every kept title names the exact expression in the exact language. The 2025 Scallywag batch video (Jq0Lhinciwo, Spirituosités) passed because it is the same NAS product, just a newer batch.
+- **Compass Box anchoring for /map:** a blend house with no stills anchors to its London HQ (Chiswick Studios, 9 Power Road W4 5PY → 51.4891, -0.2729), same owner-HQ rule as Grouse/Smokehead/Douglas Laing.

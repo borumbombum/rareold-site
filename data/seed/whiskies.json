@@ -33253,6 +33253,531 @@
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
+    },
+    {
+      "id": "scallywag",
+      "slug": "scallywag",
+      "name": "Scallywag",
+      "description": "Blended malt de Speyside de Douglas Laing, embotellado en pequeños lotes y creado exclusivamente con single malts de destilerías como Mortlach, Macallan y Glenrothes. Madurado principalmente en botas de jerez español con un aporte de barricas de bourbon. Sin filtrar en frío y sin colorante añadido, explota en fruta oscura, chocolate, especias navideñas y vainilla, embotellado al 46%.",
+      "image": "/data/images/scallywag.webp",
+      "origin": "scotland",
+      "region": "Speyside",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Jerez (40% de primer llenado) y bourbon",
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Scallywag",
+      "description_pt": "Blended malt de Speyside da Douglas Laing, engarrafado em pequenos lotes e criado exclusivamente com single malts de destilarias como Mortlach, Macallan e Glenrothes. Maturado principalmente em butts de xerez espanhol com um aporte de barricas de bourbon. Sem filtração a frio e sem corante, explode em fruta escura, chocolate, especiarias natalinas e baunilha, engarrafado a 46%.",
+      "name_en": "Scallywag",
+      "description_en": "A small-batch Speyside blended malt from Douglas Laing, made exclusively from single malts distilled at Mortlach, Macallan and Glenrothes, among others. Matured predominantly in Spanish sherry butts with a contribution of bourbon casks. Non-chill-filtered with no added colouring, it delivers an explosion of dark fruit, chocolate, festive spice and vanilla, bottled at 46%.",
+      "name_ja": "スキャリワッグ",
+      "description_ja": "ダグラス・レインによるスモールバッチのスペイサイド・ブレンデッドモルト。モートラック、マッカラン、グレンロセスなどの蒸溜所のシングルモルトのみで構成。スペインのシェリー樽（バット）主体で熟成し、バーボン樽を一部使用。ノン・チルフィルター、着色料無添加で、ダークフルーツ、チョコレート、クリスマスのスパイス、バニラの風味が弾けます。46%瓶詰め。",
+      "distillery_id": "douglas-laing",
+      "name_fr": "Scallywag",
+      "description_fr": "Blended malt de Speyside de Douglas Laing, embouteillé en petits lots et créé exclusivement à partir de single malts de distilleries comme Mortlach, Macallan et Glenrothes. Mûri principalement dans des fûts de sherry espagnol avec une part de fûts de bourbon. Ni filtré à froid ni coloré, il éclate en fruits noirs, chocolat, épices de Noël et vanille, embouteillé à 46%.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y7M2FTDdgws",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uJvQvCkFxV4",
+          "label": "No Nonsense Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qHYKhBn61gs",
+          "label": "Uncensored Whiskey Reviews",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-0ItVXf6LZ4",
+          "label": "The Whisky Enthusiast",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=G4p9NnP11s4",
+          "label": "Porção dos Anjos Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Zb1s2JWeMm8",
+          "label": "Hamtaro Samurai",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=B56iQi7H-80",
+          "label": "ハイボールおじさんの宅飲み研究所",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=L7l1_6nQ6a0",
+          "label": "酒総合ちゃんねる",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zf2ClntVUnc",
+          "label": "素人ずぶの",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rRDsTvvEo84",
+          "label": "Spirituosités",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Jq0Lhinciwo",
+          "label": "Spirituosités",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "rock-oyster",
+      "slug": "rock-oyster",
+      "name": "Rock Oyster",
+      "description": "Blended malt costero de Douglas Laing que reúne single malts de las islas de Islay, Arran, Jura y Orkney. Vendido hoy también como Rock Island, es una celebración sutil y dulce del mar: sal marina, turba ahumada, miel y pimienta, con un carácter marítimo envolvente. Sin colorante ni filtración en frío, embotellado al 46,8%.",
+      "image": "/data/images/rock-oyster.webp",
+      "origin": "scotland",
+      "region": "Islands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46.8,
+      "cask": null,
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Rock Oyster",
+      "description_pt": "Blended malt costeiro da Douglas Laing que reúne single malts das ilhas de Islay, Arran, Jura e Orkney. Vendido hoje também como Rock Island, é uma celebração sutil e doce do mar: sal marinho, turfa fumada, mel e pimenta, com um caráter marítimo envolvente. Sem corante e sem filtração a frio, engarrafado a 46,8%.",
+      "name_en": "Rock Oyster",
+      "description_en": "A coastal blended malt from Douglas Laing that brings together single malts from the islands of Islay, Arran, Jura and Orkney. Now also sold as Rock Island, it is a subtle, sweet celebration of the sea: sea salt, gentle peated smoke, honey and pepper in a maritime, mouth-coating character. No added colouring, non-chill-filtered, bottled at 46.8%.",
+      "name_ja": "ロック・オイスター",
+      "description_ja": "アイラ、アラン、ジュラ、オークニー諸島のシングルモルトを集めた、ダグラス・レインによる海辺のブレンデッドモルト。現在はロック・アイランドとしても販売。潮風の塩気、ほどよいピートスモーク、ハチミツ、ブラックペッパーが絡み合う、繊細で甘やかな海の祝祭です。着色料無添加、ノン・チルフィルターで46.8%瓶詰め。",
+      "distillery_id": "douglas-laing",
+      "name_fr": "Rock Oyster",
+      "description_fr": "Blended malt côtier de Douglas Laing assemblant des single malts des îles d'Islay, Arran, Jura et Orkney. Vendu aujourd'hui aussi sous le nom de Rock Island, c'est une célébration subtile et douce de la mer : sel marin, fumée de tourbe douce, miel et poivre. Sans colorant ni filtration à froid, embouteillé à 46,8%.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c3ebWgI-3nc",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kOq6XDkRXkM",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rMund9TcT0o",
+          "label": "Uncensored Whiskey Reviews",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2gZh-_w-1h4",
+          "label": "No Nonsense Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RCEj9Px1Upo",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CxIoJIxGexo",
+          "label": "Hablando de Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UhJRpdJwELg",
+          "label": "Porção dos Anjos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Fp3B_FH30ZQ",
+          "label": "せるじお Whisky Radio",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=B3r3zwV6EcA",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ZWTQ0eSbRQ",
+          "label": "Dram FM",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "timorous-beastie",
+      "slug": "timorous-beastie",
+      "name": "Timorous Beastie",
+      "description": "Blended malt de las Highlands de la serie Remarkable Regional Malts de Douglas Laing, bautizado con un verso del poeta Robert Burns. Creado con single malts de destilerías como Glen Garioch, Dalmore y Glengoyne, madurados en barricas de roble americano. Sin filtrar en frío y sin colorante añadido, ofrece vainilla, cebada malteada, merengue, miel y cítricos al 46,8%.",
+      "image": "/data/images/timorous-beastie.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46.8,
+      "cask": "Ex-bourbon",
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Timorous Beastie",
+      "description_pt": "Blended malt das Highlands da série Remarkable Regional Malts da Douglas Laing, batizado com um verso do poeta Robert Burns. Criado com single malts de destilarias como Glen Garioch, Dalmore e Glengoyne, maturados em barricas de carvalho americano. Sem filtração a frio e sem corante, oferece baunilha, cevada maltada, merengue, mel e citrinos a 46,8%.",
+      "name_en": "Timorous Beastie",
+      "description_en": "A Highland blended malt from Douglas Laing's Remarkable Regional Malts range, named after a verse by poet Robert Burns. Crafted from single malts distilled at Glen Garioch, Dalmore and Glengoyne, among others, and matured in American oak casks. Non-chill-filtered and uncoloured, it brings vanilla, malted barley, meringue, honey and citrus at 46.8%.",
+      "name_ja": "ティモラス・ビースティー",
+      "description_ja": "ロバート・バーンズの詩の一節にちなんで名付けられた、ダグラス・レイン「リマーカブル・リージョナル・モルト」シリーズのハイランド・ブレンデッドモルト。グレングァリオーク、ダルモア、グレングイなどの蒸溜所のシングルモルトをアメリカンオーク樽で熟成。ノン・チルフィルター、着色料無添加で、バニラ、麦芽、メレンゲ、ハチミツ、シトラスが広がります。46.8%瓶詰め。",
+      "distillery_id": "douglas-laing",
+      "name_fr": "Timorous Beastie",
+      "description_fr": "Blended malt des Highlands de la gamme Remarkable Regional Malts de Douglas Laing, baptisé d'après un vers du poète Robert Burns. Composé de single malts de distilleries comme Glen Garioch, Dalmore et Glengoyne, mûris en fûts de chêne américain. Ni filtré à froid ni coloré, il offre vanille, orge maltée, meringue, miel et agrumes à 46,8%.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WA1SaWGQlzY",
+          "label": "No Nonsense Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3ngqe6r9JPA",
+          "label": "Robertson Wellen pour1malt",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lZLM3oHKM6o",
+          "label": "Whisky Turntable",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w_RBs6qE3vI",
+          "label": "The Whisky Enthusiast",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7MAyofGHJ9s",
+          "label": "Dram FM",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n9Q7AItiAk0",
+          "label": "アルコーギーチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wvtetI50bv8",
+          "label": "La voie du whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=434rVoKZqMg",
+          "label": "Malt à propos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "the-peat-monster",
+      "slug": "the-peat-monster",
+      "name": "The Peat Monster",
+      "description": "Blended malt turbado de Compass Box compuesto mayoritariamente por Caol Ila y Laphroaig madurados en barricas refill, con un toque de malta de las Highlands afinada en roble francés. Pese a su nombre, es de los ahumados más accesibles: humo de hoguera y bruma marina, tocino ahumado, vainilla y miel, con un final largo y ceniciento. Al 46%, con color natural y sin filtración en frío.",
+      "image": "/data/images/the-peat-monster.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Ex-Bourbon",
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "The Peat Monster",
+      "description_pt": "Blended malt turfado da Compass Box composto maioritariamente por Caol Ila e Laphroaig maturados em barricas refill, com um toque de malt das Highlands afinado em carvalho francês. Apesar do nome, é um dos fumados mais acessíveis: fumo de fogueira e bruma marítima, bacon fumado, baunilha e mel, com um final longo e cinzento. A 46%, cor natural e sem filtração a frio.",
+      "name_en": "The Peat Monster",
+      "description_en": "A peated blended malt from Compass Box made predominantly of Caol Ila and Laphroaig matured in refill hogsheads, with a touch of Highland malt finished in French oak. Despite its name, it is one of the most approachable smoky whiskies: bonfire smoke and sea spray, smoked bacon, vanilla and honey, with a long, ashy finish. Bottled at 46% with natural colour and no chill filtration.",
+      "name_ja": "ザ・ピートモンスター",
+      "description_ja": "リフィル・ホグスヘッドで熟成したカオル・イラとラフロイグが主体の、コンパス・ボックスによるピーテッド・ブレンデッドモルト。フレンチオークで仕上げたハイランドモルトをほんの少し加えています。その名に反して、焚き火のスモークと潮風、ほどよいベーコンの燻製香、バニラとハチミツがバランス良く絡み合う、最も飲みやすいスモーキーモルトのひとつです。長く灰を思わせる余韻。46%、着色料無添加、ノン・チルフィルター。",
+      "distillery_id": "compass-box",
+      "name_fr": "The Peat Monster",
+      "description_fr": "Blended malt tourbé de Compass Box composé principalement de Caol Ila et Laphroaig mûris en fûts refill, avec une touche de malt des Highlands affiné en chêne français. Malgré son nom, c'est l'un des whiskies fumés les plus accessibles : fumée de feu de camp et embruns, bacon fumé, vanille et miel, avec une longue finale cendrée. À 46%, couleur naturelle et non filtré à froid.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dc_b4IlQM1k",
+          "label": "No Nonsense Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wYRQmoju5Q4",
+          "label": "Scotch Test Dummies",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dKwJwVB57d4",
+          "label": "Whisky Neighbour",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qqdwkf78yqQ",
+          "label": "Whisky Clan",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I6ZswAw5lJs",
+          "label": "Tito Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8qaUotOzC9E",
+          "label": "Whisky o Muerte",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-M1gP2tGbZ0",
+          "label": "Whiskeros Argentina",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AS9ywhQKy5k",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Mk8Z_a3s8Nc",
+          "label": "Whisky Capital",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4ysbVhurQkM",
+          "label": "Arte e curiosidade.",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=a6eeDoa-Fvk",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ba34IQyxoXM",
+          "label": "つっちーのBar研究室",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FS0ay9tcKeY",
+          "label": "CROSSROAD LAB",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cq-SxCZ1T8c",
+          "label": "La Maison du Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "the-spice-tree",
+      "slug": "the-spice-tree",
+      "name": "The Spice Tree",
+      "description": "Blended malt de Compass Box dedicado a la especia del roble: maltas de las Highlands maduradas y afinadas en barricas híbridas propias, con cabeza de roble francés nuevo muy tostado procedente de los Vosgos. En nariz, clavo, jengibre, canela, nuez moscada y vainilla; en boca, pleno, redondo y dulce, con un final especiado. Al 46%, color natural y sin filtración en frío.",
+      "image": "/data/images/the-spice-tree.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon & New French Oak",
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "The Spice Tree",
+      "description_pt": "Blended malt da Compass Box dedicado à especiaria do carvalho: maltes das Highlands maturados e afinados em barricas híbridas próprias, com cabeças de carvalho francês novo muito tostado, proveniente dos Vosges. No nariz, cravo, gengibre, canela, noz-moscada e baunilha; na boca, pleno, redondo e doce, com um final picante. A 46%, cor natural e sem filtração a frio.",
+      "name_en": "The Spice Tree",
+      "description_en": "A Compass Box blended malt devoted to oak-derived spice: Highland malts matured and finished in the company's own hybrid casks, built with heavily toasted new French oak heads from the Vosges. Clove, ginger, cinnamon, nutmeg and vanilla on the nose; the palate is full, round and sweet, with a long spice-laced finish. Bottled at 46% with natural colour and no chill filtration.",
+      "name_ja": "ザ・スパイスツリー",
+      "description_ja": "オーク由来のスパイスに特化したコンパス・ボックスのブレンデッドモルト。ヴォージュ産の強度のトーストをかけた新品フレンチオークのヘッドを備えた同社独自のハイブリッド樽で、ハイランドモルトを熟成・フィニッシュします。クローブ、ジンジャー、シナモン、ナツメグ、バニラの香り。味わいはふくよかで円やか、甘みを帯び、長くスパイシーな余韻へ。46%、着色料無添加、ノン・チルフィルター。",
+      "distillery_id": "compass-box",
+      "name_fr": "The Spice Tree",
+      "description_fr": "Blended malt de Compass Box dédié aux épices du chêne : des malts des Highlands mûris et affinés dans des fûts hybrides maison, tête en chêne français neuf très toasté des Vosges. Au nez, clou de girofle, gingembre, cannelle, noix de muscade et vanille ; en bouche, ample, rond et doux, avec une finale épicée. À 46%, couleur naturelle et non filtré à froid.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rXtb8h0qebI",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Xskc3zWv5_A",
+          "label": "Whisky Whereabouts",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ggyha_d1ZBI",
+          "label": "The Single Malt Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0rw58PRmUIs",
+          "label": "Whisky MaltContent Reviews",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9f7rDh1bYOk",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=a16wvrbRQQc",
+          "label": "Bebendo Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Hds-TosQjzI",
+          "label": "Whisky Capital",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iqT1ndATSzc",
+          "label": "ITARU's BAR channel",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=r-Mml3T9uXk",
+          "label": "Bar studio TV byミヤモリ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J7aTYmg0Llg",
+          "label": "酒のつまみになるお酒",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EkHYW72VCL8",
+          "label": "ジョージア州に住んでるよ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X5pDwTYMCD8",
+          "label": "La Chaîne du Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     }
   ]
 }

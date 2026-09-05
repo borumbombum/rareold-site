@@ -211,11 +211,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Bell's Original - Bell's
 ✅ William Lawson's - William Lawson's
 ✅ Big Peat - Douglas Laing
-Scallywag - Douglas Laing
-Rock Oyster - Douglas Laing
-Timorous Beastie - Douglas Laing
-The Peat Monster - Compass Box
-The Spice Tree - Compass Box
+✅ Scallywag - Douglas Laing
+✅ Rock Oyster - Douglas Laing
+✅ Timorous Beastie - Douglas Laing
+✅ The Peat Monster - Compass Box
+✅ The Spice Tree - Compass Box
 Hedonism - Compass Box
 Haig Club Clubman - Cameronbridge
 Girvan Patent Still No. 4 - Girvan
