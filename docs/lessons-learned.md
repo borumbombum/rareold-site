@@ -400,3 +400,10 @@
 - **Two independent verification passes beat one:** all 80 video IDs came from 5 parallel subagents, then each ID got re-verified end-to-end via `scripts/yt-verify.mjs` (oEmbed title + author + spoken language) in the main agent session. Several subagent picks that failed the expression/language gate were dropped and replaced before seeding.
 - **`created_at` must be normalized for video rows:** all 80 new videos use `"2000-01-01T00:00:00.000Z"`, matching the catalog convention — arbitrary download timestamps would diverge from every existing suggestion row.
 - **Export sanity-check per product, not just counts:** after `data:export`, verified `src/lib/data/influencer_videos.json` has per-product counts 16/14/18/16/16 (not just "3341 total"), since the flat file is what the frontend actually loads.
+
+## 2026-09-05 — Batch: 5 blends (J&B Rare, W&M Triple Matured, Bell's Original, William Lawson's, Big Peat)
+
+- **No new production code touched; still re-verify the frontend JSON, not the seed:** all 5 products + 5 brand/distillery records + images were staged cleanly, and the ship gate is `src/lib/data/whiskies.json` after `data:export` (verified per-product video counts + numeric lat/lng for the 5 new distilleries so they render on `/map`).
+- **Image sources this batch were pure Shopify/CDN product shots** (internetwines, oldandrarewhisky, theliquorshop.sg, douglaslaing official, CloudFront official for William Lawson's) — no whiskybase 403 workaround needed; all 5 prepared as 500×500 webp in one parallel run.
+- **Seed JSON edits anchored on unique per-entry text** (the tail of each `description_fr`) rather than the repeated `"influencer_videos": []` string, so the 5 video blocks landed on the right products without touching neighboring entries.
+- **W&M pt shipped at 1** (honest dry beyond Tierri's NAS review; the Tierri fight video was excluded because it is already on teacher-'s and never names Triple Matured). Big Peat es/fr and the other four fr slots stayed empty — English top-up covers at runtime.

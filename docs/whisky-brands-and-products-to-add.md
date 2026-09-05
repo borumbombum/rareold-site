@@ -206,11 +206,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Monkey Shoulder - William Grant & Sons
 ✅ Grant's Triple Wood - Grant's
 ✅ Teacher's Highland Cream - Teacher's
-J&B Rare - J&B
-Whyte & Mackay Triple Matured - Whyte & Mackay
-Bell's Original - Bell's
-William Lawson's - William Lawson's
-Big Peat - Douglas Laing
+✅ J&B Rare - J&B
+✅ Whyte & Mackay Triple Matured - Whyte & Mackay
+✅ Bell's Original - Bell's
+✅ William Lawson's - William Lawson's
+✅ Big Peat - Douglas Laing
 Scallywag - Douglas Laing
 Rock Oyster - Douglas Laing
 Timorous Beastie - Douglas Laing

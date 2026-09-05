@@ -4,6 +4,7 @@ Authoritative task list for this repo. One task file per task in `tasks/`, named
 
 Current status of `tasks/` (authoritative — kept in sync with every task file `Status:` change, see Task workflow):
 
+- 070 [DONE] Add 5 Blends Jb Whyte Mackay Bells Lawson Big Peat
 - 069 [TODO] Backfill Remaining Localized Videos
 - 068 [DONE] Admin Product Links
 - 067 [TODO] Local SQLite Migration (homepage infinite scroll done 2026-09-03; still covers origin-page pagination + SQLite backing)
