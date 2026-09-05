@@ -396,3 +396,10 @@
 
 - The user-owned queue file is authoritative for *what* to add, but not always *accurate*: "Port of Leith One" and "RyeLaw — Borders Distillery" were both wrong against reality. Before seeding, cross-check the expression's real producer/packaging — a single web check (boarding-style search on the product name) catches these, and the correction should be reflected in the ticked queue line so the record matches shipped data.
 - Blended brands with no stills map cleanly to the owner's corporate HQ; new-distillery NAS single malts + single grains are the driest for es/pt/fr reviewer coverage, while famous blends (JW Black Label) still fill all five languages.
+
+## 2026-09-05 — blends batch: famous = full coverage, mid-tier = en+pt first
+
+- Blended-whisky coverage is tiered: world-famous blends (Monkey Shoulder, JW Black Label) fill es+en+pt+ja+fr; mid-tier blends (Dewar's White Label, Cutty Sark Prohibition, Grant's Triple Wood, Teacher's Highland Cream) are en+pt-mostly, and fr is uniformly dry for them (French whisky reviewers only cover flagship blends). Expect the fr slot to stay honest-dry on everything but the top tier until reviewers pick up mid-tier blends.
+- **Seasoned-prep workflow:** a product can be fully seeded and still not ship if `influencer_videos` is empty and `data:export` was never run — the queue line stays unticked until the flat `influencer_videos.json` + `whiskies.json` actually contain the product (this batch's 5 products + images had been prepped but never synced/exported). Always check liveness via `src/lib/data/`, not the seed, before dedup.
+- **80-video batch, single-shot verification:** with 80 IDs across 5 products, running every ID through `yt-verify.mjs` (oEmbed title + author + spoken language) in one pass — while trusting subagent research only as candidates — caught expression drifts (e.g., a Cutty Sark Prohibition pickup that was actually the base Cutty Sark) and language mismatches that would have shipped wrong without the gate.
+- Image sources stayed clean because no new images were needed: all 5 webp files were already in `data/images/` as uncommitted prep, so TWX guessing was skipped entirely.

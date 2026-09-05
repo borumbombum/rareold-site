@@ -31245,22 +31245,118 @@
       "name_fr": "Johnnie Walker Green Label 15 Ans",
       "description_fr": "Johnnie Walker Green Label est un blended malt de 15 ans combinant des whiskies des meilleures distilleries de malt d'Écosse, de Speyside aux Highlands, en passant par Islay et Skye. Le nez offre de l'herbe fraîche, de la mousse humide, du tabac à pipe et des céréales maltées. En bouche, une fusion complexe de fruits maltés et de fumée d'Ilay : vanille, miel foncé, pomme et poire, avec des notes de santal et de bois fumé. Un final moyen-long, propre et fumé avec des épices de chêne.",
       "influencer_videos": [
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=fMIAbLu_EME", "label": "Whisky.com", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=VlP0fpSxWew", "label": "No Nonsense Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=_QxWDT8CZpY", "label": "Whiskey Vault", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=ioUo9rG9qRk", "label": "Whisky Riffs", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=bQDHk3qcTnI", "label": "HABLANDO DE WHISKY", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=zAoHEKHAZEc", "label": "Cultura del Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=yOgjxCMYXjA", "label": "Nehomar Hernández", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=bS9usW7dXac", "label": "Los Whiskochos", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=Q2h11W4fPqU", "label": "Jornada do Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=IZAGeD4D1QA", "label": "Márcio Becker", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=qcvaxVSEglc", "label": "WhiskyBrasil.com", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=OW8KLgnCAzI", "label": "Jornada do Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=gViwnRfecxY", "label": "宅飲みバーTakeo", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=i9vnF_WbDKw", "label": "CROSSROAD LAB", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=O_9HcKpRCsE", "label": "お酒の塾長", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=q3VdGAvghtA", "label": "HAYA CHANNEL", "created_at": "2000-01-01T00:00:00.000Z"}
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fMIAbLu_EME",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VlP0fpSxWew",
+          "label": "No Nonsense Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_QxWDT8CZpY",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ioUo9rG9qRk",
+          "label": "Whisky Riffs",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bQDHk3qcTnI",
+          "label": "HABLANDO DE WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zAoHEKHAZEc",
+          "label": "Cultura del Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yOgjxCMYXjA",
+          "label": "Nehomar Hernández",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bS9usW7dXac",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q2h11W4fPqU",
+          "label": "Jornada do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IZAGeD4D1QA",
+          "label": "Márcio Becker",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qcvaxVSEglc",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OW8KLgnCAzI",
+          "label": "Jornada do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gViwnRfecxY",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i9vnF_WbDKw",
+          "label": "CROSSROAD LAB",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O_9HcKpRCsE",
+          "label": "お酒の塾長",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=q3VdGAvghtA",
+          "label": "HAYA CHANNEL",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
       ]
     },
     {
@@ -31289,22 +31385,118 @@
       "name_fr": "Johnnie Walker Blue Label",
       "description_fr": "Johnnie Walker Blue Label est le joyau de la couronne de la marque, un blended Scotch ultra-premium contenant des whiskies de distilleries fermées et fantômes. Le nez offre vanille, caramel, miel, pétales de rose et une douce fumée de tourbe avec des fruits secs. En bouche, une texture veloutée avec toffee, glace à la vanille, fruits foncés et une touche de chocolat amer. Un final long et élégant avec fumée, épices et une subtile note maritime.",
       "influencer_videos": [
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=fNM_OmC3fu0", "label": "Gwhisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=EawDBAWWpIs", "label": "Whiskey Vault", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=rKRRpfX1DcY", "label": "Whisky.com", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=4-gcn20SCpk", "label": "The Whisky Enthusiast", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=hYIPxmCNDLw", "label": "Tito Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=SfAq9HZgjy8", "label": "Los Whiskochos", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=XqE3AlYX_Jc", "label": "HABLANDO DE WHISKY", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=cSxGFgwQzkM", "label": "Green Jar", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=QZk7KRShReg", "label": "Jornada do Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=telkP7fUeQA", "label": "Márcio Becker", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=LInEQXdmS2M", "label": "Tierri Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=vzvHNwK_peM", "label": "Jornada do Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=yfzITVKXib8", "label": "ITARU's BAR channel", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=2BsGBsTEnMw", "label": "Bar Workaholic", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=5HADjGFW204", "label": "宅飲みバーTakeo", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=A-P1_Vmu7YI", "label": "宅飲みバーTakeo", "created_at": "2000-01-01T00:00:00.000Z"}
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fNM_OmC3fu0",
+          "label": "Gwhisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EawDBAWWpIs",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rKRRpfX1DcY",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4-gcn20SCpk",
+          "label": "The Whisky Enthusiast",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hYIPxmCNDLw",
+          "label": "Tito Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SfAq9HZgjy8",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XqE3AlYX_Jc",
+          "label": "HABLANDO DE WHISKY",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cSxGFgwQzkM",
+          "label": "Green Jar",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QZk7KRShReg",
+          "label": "Jornada do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=telkP7fUeQA",
+          "label": "Márcio Becker",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LInEQXdmS2M",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vzvHNwK_peM",
+          "label": "Jornada do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yfzITVKXib8",
+          "label": "ITARU's BAR channel",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2BsGBsTEnMw",
+          "label": "Bar Workaholic",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5HADjGFW204",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=A-P1_Vmu7YI",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
       ]
     },
     {
@@ -31333,26 +31525,146 @@
       "name_fr": "Chivas Regal 12 Ans",
       "description_fr": "Chivas Regal 12 est le blended Scotch de référence de la maison, un whisky souple et équilibré avec Strathisla en son cœur. Le nez offre des herbes sauvages, de la bruyère, du miel et des fruits de verger. En bouche, rond et crémeux avec miel, vanille, noisette et caramel toffee. Un final riche et persistant avec des notes de fruits et une touche épicée. Distillé et mis en bouteille en Écosse.",
       "influencer_videos": [
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=ikA5un1MuMI", "label": "Whiskey Vault", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=3sfLZ2catsc", "label": "Whisky.com", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=aDPXJKq6TjU", "label": "Moa Nilsson", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=0KylC-aemTQ", "label": "No Nonsense Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=YKjC6pXyc7A", "label": "Tito Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=-ROiZDBtybY", "label": "Monkey Drinks", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=jOyl_D__KLw", "label": "Honest Sips", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=WOALJuAG23c", "label": "Honest Sips", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=fE5lRBqzpc8", "label": "Tierri Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=wU-dOY9Q4K0", "label": "WhiskyBrasil.com", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=RXZNB2k-CqM", "label": "Márcio Becker", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=dzhcyV33yFw", "label": "Norton no Mundo do Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=32kOUFYQtAc", "label": "CROSSROAD LAB", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=7XP_uL3nnZc", "label": "ウイスキーパトロール", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=RPPQxvnR4vY", "label": "つっちーのBar研究室", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=wmH--tnomW4", "label": "ウイスキー大好き ミディアムチャンネル", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=aoUpPkeJH5M", "label": "AlexWhiskyBlog", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=eJRcRKJKY9I", "label": "Whisky Whistle", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=fvop-uxv2Mc", "label": "Intoxicated Opinions", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=iSjkCJSZmMA", "label": "Drinks And Chill", "created_at": "2000-01-01T00:00:00.000Z"}
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ikA5un1MuMI",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3sfLZ2catsc",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aDPXJKq6TjU",
+          "label": "Moa Nilsson",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0KylC-aemTQ",
+          "label": "No Nonsense Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YKjC6pXyc7A",
+          "label": "Tito Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-ROiZDBtybY",
+          "label": "Monkey Drinks",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jOyl_D__KLw",
+          "label": "Honest Sips",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WOALJuAG23c",
+          "label": "Honest Sips",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fE5lRBqzpc8",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wU-dOY9Q4K0",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RXZNB2k-CqM",
+          "label": "Márcio Becker",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dzhcyV33yFw",
+          "label": "Norton no Mundo do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=32kOUFYQtAc",
+          "label": "CROSSROAD LAB",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7XP_uL3nnZc",
+          "label": "ウイスキーパトロール",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RPPQxvnR4vY",
+          "label": "つっちーのBar研究室",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wmH--tnomW4",
+          "label": "ウイスキー大好き ミディアムチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aoUpPkeJH5M",
+          "label": "AlexWhiskyBlog",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eJRcRKJKY9I",
+          "label": "Whisky Whistle",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fvop-uxv2Mc",
+          "label": "Intoxicated Opinions",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iSjkCJSZmMA",
+          "label": "Drinks And Chill",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
       ]
     },
     {
@@ -31381,26 +31693,146 @@
       "name_fr": "Chivas Regal 18 Ans",
       "description_fr": "Chivas Regal 18 est un blended Scotch premium avec 18 ans de maturation, l'une des expressions les plus appréciées de la gamme Chivas. Le nez révèle des fruits secs, du toffee beurré et du chocolat amer avec des notes florales. En bouche, chocolat noir velouté, notes florales et une douce touche fumée sucrée. Un final extrêmement chaleureux et long avec des épices et du bois de chêne. Plus de 85 notes de saveur.",
       "influencer_videos": [
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=m8QLy7FkG0I", "label": "Whisky.com", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=_xoE7oFSoAo", "label": "thewhiskybothy", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=xjghGl4GVFo", "label": "The Dram Club", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=EFEqpMtMy38", "label": "The Single Malt Review", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=UpD68__zFgA", "label": "Tito Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=pZyeFJPN7wc", "label": "Tierri Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=k3jGXn4--JU", "label": "Tierri Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=Jk1IS0dtLgg", "label": "Hablemos de Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=S4fGAgpHXaY", "label": "Além do Rótulo", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=wPZmc6KYE5I", "label": "WhiskyBrasil.com", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=eNMFkU1NuuA", "label": "Norton no Mundo do Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=n_zbUtys7Rs", "label": "Destilados Brasil", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=WeCzc_CMUz4", "label": "ひとくちウイスキー", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=KJD6xinuwrA", "label": "はっちばっちチャンネル", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=h9HzKDAhcXs", "label": "宅飲みバーTakeo", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=0wTslrA-93c", "label": "CH.ウイスキー", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=RUUXrn7NnaM", "label": "lachaineduwhisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=HQICJExLR8c", "label": "AlexWhiskyBlog", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=NYwvbrlm2j0", "label": "Malt à propos", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=ensdmBpStHw", "label": "Whiskey Lore", "created_at": "2000-01-01T00:00:00.000Z"}
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=m8QLy7FkG0I",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_xoE7oFSoAo",
+          "label": "thewhiskybothy",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xjghGl4GVFo",
+          "label": "The Dram Club",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EFEqpMtMy38",
+          "label": "The Single Malt Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UpD68__zFgA",
+          "label": "Tito Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pZyeFJPN7wc",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=k3jGXn4--JU",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Jk1IS0dtLgg",
+          "label": "Hablemos de Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S4fGAgpHXaY",
+          "label": "Além do Rótulo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wPZmc6KYE5I",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eNMFkU1NuuA",
+          "label": "Norton no Mundo do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n_zbUtys7Rs",
+          "label": "Destilados Brasil",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WeCzc_CMUz4",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KJD6xinuwrA",
+          "label": "はっちばっちチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=h9HzKDAhcXs",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0wTslrA-93c",
+          "label": "CH.ウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RUUXrn7NnaM",
+          "label": "lachaineduwhisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HQICJExLR8c",
+          "label": "AlexWhiskyBlog",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NYwvbrlm2j0",
+          "label": "Malt à propos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ensdmBpStHw",
+          "label": "Whiskey Lore",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
       ]
     },
     {
@@ -31429,23 +31861,830 @@
       "name_fr": "Ballantine's Finest",
       "description_fr": "Ballantine's Finest est le blended Scotch phare de la marque, une recette datant de 1910 combinant des whiskies des quatre régions d'Écosse. Couleur or pâle. Le nez est doux et élégant avec du miel de bruyère et une touche d'épices. En bouche, équilibré avec des saveurs subtiles et sucrées : chocolat au lait, pomme rouge et vanille. Un final frais et rond avec un éclat persistant. Le blended Scotch le plus vendu d'Europe.",
       "influencer_videos": [
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=d6TfjkhwDhc", "label": "Whisky Impressions", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=aw_g8JwD1rM", "label": "Whisky Lock", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=v4Z5LVsHvVs", "label": "Whisky Lock", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "en", "platform": "youtube", "url": "https://www.youtube.com/watch?v=7unv0CHoudk", "label": "the Whisky Legends", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=5DWF_fO4xf8", "label": "Los Whiskochos", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=ED7TOeaXHYU", "label": "Bespoke Unit", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "es", "platform": "youtube", "url": "https://www.youtube.com/watch?v=nwOZeL-qxmM", "label": "Tito Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=v1h9bv9PBAs", "label": "WhiskyBrasil.com", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=Q3cFHTjM6ZI", "label": "Tierri Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=cshvPzt2EDk", "label": "Jornada do Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "pt", "platform": "youtube", "url": "https://www.youtube.com/watch?v=eBjcd3TZxOI", "label": "Porção dos Anjos Whisky", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=pTSb_1H67OE", "label": "もかじと乾杯-cheers-", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=3Ku2CMax514", "label": "あかつきとウイスキー", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=HfL7LB0nNjg", "label": "宅飲みバーTakeo", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "ja", "platform": "youtube", "url": "https://www.youtube.com/watch?v=kiDDQDHJ2Rc", "label": "CKV362017", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=wr9mzLpRPCk", "label": "Foyer Fute", "created_at": "2000-01-01T00:00:00.000Z"},
-        {"language": "fr", "platform": "youtube", "url": "https://www.youtube.com/watch?v=VlpS_bmK_tU", "label": "Ale Degustation", "created_at": "2000-01-01T00:00:00.000Z"}
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=d6TfjkhwDhc",
+          "label": "Whisky Impressions",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aw_g8JwD1rM",
+          "label": "Whisky Lock",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=v4Z5LVsHvVs",
+          "label": "Whisky Lock",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7unv0CHoudk",
+          "label": "the Whisky Legends",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5DWF_fO4xf8",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ED7TOeaXHYU",
+          "label": "Bespoke Unit",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nwOZeL-qxmM",
+          "label": "Tito Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=v1h9bv9PBAs",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q3cFHTjM6ZI",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cshvPzt2EDk",
+          "label": "Jornada do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eBjcd3TZxOI",
+          "label": "Porção dos Anjos Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pTSb_1H67OE",
+          "label": "もかじと乾杯-cheers-",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3Ku2CMax514",
+          "label": "あかつきとウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HfL7LB0nNjg",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kiDDQDHJ2Rc",
+          "label": "CKV362017",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wr9mzLpRPCk",
+          "label": "Foyer Fute",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VlpS_bmK_tU",
+          "label": "Ale Degustation",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "dewars-white-label",
+      "slug": "dewars-white-label",
+      "name": "Dewar's White Label",
+      "description": "El blended Scotch insignia de Dewar's, creado por primera vez en 1899. Una mezcla de hasta treinta malta y granos simples, con Aberfeldy como malta base. Notas de miel, cítricos y vainilla con un toque sutil de humo. Suave, equilibrado y versátil.",
+      "image": "/data/images/dewars-white-label.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": null,
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Dewar's White Label",
+      "description_pt": "O blended Scotch insignia da Dewar's, criado pela primeira vez em 1899. Uma mistura de até trinta maltes e grãos simples, com Aberfeldy como malte base. Notas de mel, cítricos e baunilha com um toque sutil de fumaça. Suave, equilibrado e versátil.",
+      "name_en": "Dewar's White Label",
+      "description_en": "Dewar's flagship blended Scotch, first created in 1899. A blend of up to thirty single malts and grains, with Aberfeldy as its base malt. Notes of honey, citrus and vanilla with a subtle hint of smoke. Smooth, balanced and versatile.",
+      "name_ja": "デュワー ホワイトレーベル",
+      "description_ja": "1899年に初リリースされたデュワーのフラッグシップ・ブレンドスコッチ。アバーフェルディをベースモルトとする、最大30種のシングルモルトとグレーンのブレンド。蜂蜜、シトラス、バニラのノートにかすかなスモークのヒント。スムーズでバランスが取れた多用途なウイスキー。",
+      "distillery_id": "dewars",
+      "name_fr": "Dewar's White Label",
+      "description_fr": "Le blended Scotch emblématique de Dewar's, créé pour la première fois en 1899. Un mélange jusqu'à trente malts et grains simples, avec Aberfeldy comme malt de base. Notes de miel, agrumes et vanille avec une touche subtile de fumée. Doux, équilibré et polyvalent.",
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VjfFGSI71ec",
+          "label": "Destilando Historias",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-FoZfp0tqIo",
+          "label": "La Guia del Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ej7X7X5gHno",
+          "label": "Nehomar Hernández",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LBTp7FrCzIc",
+          "label": "Whisky Masters",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mHwvwetGfWk",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3GefFGGORu4",
+          "label": "Honest Sips",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ox-9C-mp9aA",
+          "label": "Whisky Central",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hsBaOY--YAA",
+          "label": "The Whiskey Novice",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UJawzZJMCYY",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Z2Oat2uAUuw",
+          "label": "Destilados Brasil",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0cbT3rLfhWc",
+          "label": "Whisky com Gringo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mQ_89gxwYZA",
+          "label": "Whisky com Gringo - vs 12 anos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tQNoUp0DY7A",
+          "label": "晩ジロー - ホワイトラベル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T9Bz9HX1XCo",
+          "label": "俺のモルト - ホワイトラベル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P75E_W9abfw",
+          "label": "のみての集い",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JBkGNgg-S_0",
+          "label": "Orcaドル円ファイター - ハイボール",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "cutty-sark-prohibition",
+      "slug": "cutty-sark-prohibition",
+      "name": "Cutty Sark Prohibition",
+      "description": "Edición especial de Cutty Sark embotellada al 50% ABV, creada como homenaje al Capitán Bill McCoy, legendario contrabandista de la era de la Prohibición. Un blended Scotch robusto y lleno de sabor con notas de vainilla, cítricos y un final suave y complejo.",
+      "image": "/data/images/cutty-sark-prohibition.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 50,
+      "cask": null,
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Cutty Sark Prohibition",
+      "description_pt": "Edição especial do Cutty Sark engarrafada a 50% ABV, criada como homenagem ao Capitão Bill McCoy, lendário contrabandista da era da Proibição. Um blended Scotch robusto e cheio de sabor com notas de baunilha, cítricos e um final suave e complexo.",
+      "name_en": "Cutty Sark Prohibition",
+      "description_en": "Special edition Cutty Sark bottled at 50% ABV, created as a tribute to Captain Bill McCoy, legendary smuggler of the Prohibition era. A rich and robust blended Scotch with notes of vanilla, citrus and a smooth, complex finish.",
+      "name_ja": "カティーサーク プロヒビション",
+      "description_ja": "50% ABVでボトリングされたカティーサークの特別版。禁止時代の伝説的な密輸師ビル・マッコイ船長に敬意を表して作られた。バニラ、シトラスのノートを持つリッチでロバストなブレンドスコッチ。",
+      "distillery_id": "cutty-sark",
+      "name_fr": "Cutty Sark Prohibition",
+      "description_fr": "Édition spéciale de Cutty Sark embouteillée à 50% ABV, créée en hommage au Capitaine Bill McCoy, contrebandier légendaire de l'ère de la Prohibition. Un blended Scotch riche et corsé avec des notes de vanille, d'agrumes et une finale douce et complexe.",
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TEemkQxFxvo",
+          "label": "La Wiskada",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Dppwcx2c3A8",
+          "label": "Whisky Lock",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=N6mdDfGbXKc",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aRwCsVjGqus",
+          "label": "Além do Rótulo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=A_ODgalC2d4",
+          "label": "Porção dos Anjos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vIvgX-bOsdg",
+          "label": "Companhia da Bebida",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4a5th_deIO4",
+          "label": "もかじと乾杯 - 飲み比べ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ji_UPL7sd7o",
+          "label": "もっさんハイボール倶楽部",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7v4Ns9nDzqM",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=px0emFeab9k",
+          "label": "酒総合ちゃんねる",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FZwRN23ZaTQ",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xx6k9RadMik",
+          "label": "Jeff Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=phJD4pXH_uc",
+          "label": "The Whiskey Novice",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=h7ayxFGYK3s",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "monkey-shoulder",
+      "slug": "monkey-shoulder",
+      "name": "Monkey Shoulder",
+      "description": "Blended malt Scotch whisky de William Grant & Sons, elaborado con malta de Glenfiddich, Balvenie e Kininvie. Notas de naranja, vainilla cremosa y miel con roble especiado. Sedoso y cremoso, ideal para cócteles y para disfrutar solo.",
+      "image": "/data/images/monkey-shoulder.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": null,
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Monkey Shoulder",
+      "description_pt": "Blended malt Scotch whisky da William Grant & Sons, elaborado com malte de Glenfiddich, Balvenie e Kininvie. Notas de laranja, baunilha cremosa e mel com carvalho especiado. Sedoso e cremoso, ideal para coquetéis e para desfrutar sozinho.",
+      "name_en": "Monkey Shoulder",
+      "description_en": "Blended malt Scotch whisky from William Grant & Sons, crafted using malts from Glenfiddich, Balvenie and Kininvie. Notes of zesty orange, creamy vanilla and honey with spiced oak. Silky and creamy, perfect for cocktails and sipping neat.",
+      "name_ja": "モンキーショルダー",
+      "description_ja": "ウィリアム・グラント・アンド・サンズのブレンドモルトスコッチ。グレンフィディック、バルヴェニー、キンインビーのモルトをブレンド。オレンジ、クリーミーなバニラ、蜂蜜、スパイスの効いたオークのノート。滑らかでクリーミー、カクテルやストレートに最適。",
+      "distillery_id": "william-grant-sons",
+      "name_fr": "Monkey Shoulder",
+      "description_fr": "Blended malt Scotch whisky de William Grant & Sons, élaboré à partir de malts de Glenfiddich, Balvenie et Kininvie. Notes d'orange acidulée, de vanille crémeuse et de miel avec du chêle épicé. Soyeux et crémeux, parfait pour les cocktails et la dégustation pure.",
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TrZkayVGCE4",
+          "label": "Whisky Argentina - cata",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ur_Y5bom-0U",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VdaYoi0E4X8",
+          "label": "Monkey Drinks",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3059LwnUKbA",
+          "label": "Bymariadelapena - cata",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FwuTJCFr6jU",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4pExeUIkE28",
+          "label": "The Whiskey Novice",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xhjoDGDKLO0",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o9XTOE-GDGs",
+          "label": "The Single Malt Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vu_yKYj7t9k",
+          "label": "Jornada do Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=s9jQYfT9-HE",
+          "label": "O Vitruviano - vale a pena?",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WeTxPNPt8xA",
+          "label": "Whisky do Mundo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6dUP5b47PaY",
+          "label": "Porção dos Anjos - Batch 27",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dfVIIFnisSY",
+          "label": "ひとくちウイスキー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7LOvVfCmAgo",
+          "label": "せるじおのハイボールチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2OFOREblaPg",
+          "label": "ごぶりやホッシーチャンネル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QlTtuAIwn6E",
+          "label": "Anime Shot Bar C-Part",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QoVOFxg1_B0",
+          "label": "Malt à propos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pghFFBIFNlc",
+          "label": "C pas un Dram!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "grants-triple-wood",
+      "slug": "grants-triple-wood",
+      "name": "Grant's Triple Wood",
+      "description": "El blended Scotch insignia de Grant's, madurado en tres tipos de madera: roble americano virgen, roble americano de primeraFill y roble americano de relleno de bourbon. Notas de toffee, miel y plátano con un toque de limoncillo y roble. Final de cebada, caramelo y malvavisco tostado.",
+      "image": "/data/images/grants-triple-wood.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Mixed",
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Grant's Triple Wood",
+      "description_pt": "O blended Scotch insignia da Grant's, maturado em três tipos de madeira: carvalho americano virgem, carvalho americano first-fill e carvalho americano de recheio de bourbon. Notas de toffee, mel e banana com um toque de limoncinho e carvalho. Final de cevada, caramelo e marshmallow torrado.",
+      "name_en": "Grant's Triple Wood",
+      "description_en": "Grant's flagship blended Scotch, matured in three types of wood: virgin American oak, first-fill ex-bourbon and refill American oak. Notes of toffee, honey and banana with a touch of lemongrass and oak. Finish of barley, caramel and toasted marshmallow.",
+      "name_ja": "グラウンツ トリプルウッド",
+      "description_ja": "3種のオークで熟成されたグラウンツのフラッグシップ・ブレンドスコッチ。バージンアメリカンオーク、ファーストフィル・エグバーボン、リフィル・アメリカンオーク。トフィー、蜂蜜、バナナ、レモングラス、オークのノート。 barley、キャラメル、トーストマシュマロのフィニッシュ。",
+      "distillery_id": "william-grant-sons",
+      "name_fr": "Grant's Triple Wood",
+      "description_fr": "Le blended Scotch emblématique de Grant's, vieilli dans trois types de bois : chêne américain neuf, chêne américain first-fill et chêne américain de recharge. Notes de toffee, miel et banane avec une touche de citronnelle et de chêne. Finale d'orge, caramel et guimauve grillée.",
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z8F9iQGmolY",
+          "label": "Un Whisky a la Vez",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R4Jg0Iw9EEs",
+          "label": "Catandocongusto",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aK5LRDITops",
+          "label": "La Cava de Guillermo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3nQtDK6E5e0",
+          "label": "Los Whiskochos",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QSRmdJsWdK0",
+          "label": "The Whiskey Novice",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WfYyEyHzRYg",
+          "label": "Honest Sips",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hHh6GHr_0aU",
+          "label": "Thrifty Whiskey",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ya262NgFBkQ",
+          "label": "Bespoke Unit",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7JubJ7vDH-0",
+          "label": "Tierri Whisky",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=94SG01qoBg0",
+          "label": "Além do Rótulo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EuCvoQ5mbhI",
+          "label": "Jota Cellar",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=atuLFjoh7Qg",
+          "label": "Destilados Brasil",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1KyeG2C1bcI",
+          "label": "ひとり酒ひとり語りバッカスズキ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RY8gFs3JEAM",
+          "label": "酒チューブ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O_Z1mS9IJYs",
+          "label": "ドラムズ・ジャパン",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=m_GYhj9a_co",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "teachers-highland-cream",
+      "slug": "teachers-highland-cream",
+      "name": "Teacher's Highland Cream",
+      "description": "Famoso blended Scotch con uno de los contenidos de malta más altos del mercado (45%). La malta insignia es Ardmore, completamente turbada. Notas de miel, toffee, chocolate con leche y una distinctiva toque de humo de turba de las Tierras Altas.",
+      "image": "/data/images/teachers-highland-cream.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": null,
+      "url": "",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Teacher's Highland Cream",
+      "description_pt": "Famoso blended Scotch com um dos maiores teores de malte do mercado (45%). O malte insignia é Ardcompletamente defumado. Notas de mel, toffee, chocolate com leite e um toque distintivo de fumaça de turfa das Terras Altas.",
+      "name_en": "Teacher's Highland Cream",
+      "description_en": "Famous blended Scotch with one of the highest malt contents on the market (45%). The fingerprint malt is Ardmore, fully peated. Notes of honey, toffee, milk chocolate and a distinctive Highland peat smoke touch.",
+      "name_ja": "ティーチャーズ ハイランドクリーム",
+      "description_ja": "モルト含有率45%の高さで知られる有名なブレンドスコッチ。フィンガープリント・モルトは完全にピートされたアルドモア。蜂蜜、トフィー、ミルクチョコレート、ハイランドピートスモークの特徴的なノート。",
+      "distillery_id": "teachers",
+      "name_fr": "Teacher's Highland Cream",
+      "description_fr": "Célèbre blended Scotch avec l'un des contenus en malt les plus élevés du marché (45%). Le malt signature est Ardmore, complètement tourbé. Notes de miel, toffee, chocolat au lait et une touche distinctive de fumée de tourbe des Highlands.",
+      "influencer_videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fqL57yuvrSQ",
+          "label": "Destilando Historias",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wms1lSP-wkU",
+          "label": "YOUNGS&VICIOUS",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2pe5Uloq180",
+          "label": "La Whiskería - Costa Rica",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=A0JNxx2fI3M",
+          "label": "La Whiskería - Martes Whiskero",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JikQo51k7X4",
+          "label": "WhiskyBrasil.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bHFjo5hDcRw",
+          "label": "Além do Rótulo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XaIBfcc372k",
+          "label": "Companhia da Bebida",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ItammMuYcCk",
+          "label": "Tierri Whisky - vs Whyte & Mackay",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q7rDUe58qIc",
+          "label": "Whisky.com",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=thLBgGutDsU",
+          "label": "Whiskey Vault",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=elXDaqhrIig",
+          "label": "Honest Sips",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oiFr2YpCgI0",
+          "label": "The Whiskey Nerd",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9v-YFE_-Rrg",
+          "label": "宅飲みバーTakeo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nR4muYEA8V0",
+          "label": "のみての集い",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P_S1bvSPyJM",
+          "label": "晩ジロー",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yibtVvdR8HE",
+          "label": "ひとり酒ひとり語りバッカスズキ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
       ]
     }
   ]

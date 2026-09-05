@@ -6244,6 +6244,104 @@
     "label": "Tierri Whisky"
   },
   {
+    "product_id": "cutty-sark-prohibition",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=FZwRN23ZaTQ",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=h7ayxFGYK3s",
+    "label": "Whiskey Vault"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=phJD4pXH_uc",
+    "label": "The Whiskey Novice"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xx6k9RadMik",
+    "label": "Jeff Whisky"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Dppwcx2c3A8",
+    "label": "Whisky Lock"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TEemkQxFxvo",
+    "label": "La Wiskada"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=4a5th_deIO4",
+    "label": "もかじと乾杯 - 飲み比べ"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7v4Ns9nDzqM",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ji_UPL7sd7o",
+    "label": "もっさんハイボール倶楽部"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=px0emFeab9k",
+    "label": "酒総合ちゃんねる"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=A_ODgalC2d4",
+    "label": "Porção dos Anjos"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=N6mdDfGbXKc",
+    "label": "Tierri Whisky"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=aRwCsVjGqus",
+    "label": "Além do Rótulo"
+  },
+  {
+    "product_id": "cutty-sark-prohibition",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vIvgX-bOsdg",
+    "label": "Companhia da Bebida"
+  },
+  {
     "product_id": "dalmore-12-yo",
     "language": "en",
     "platform": "youtube",
@@ -6963,6 +7061,118 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=kY9Dw1nd93k",
     "label": "Tierri Whisky"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=3GefFGGORu4",
+    "label": "Honest Sips"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Ox-9C-mp9aA",
+    "label": "Whisky Central"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hsBaOY--YAA",
+    "label": "The Whiskey Novice"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mHwvwetGfWk",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-FoZfp0tqIo",
+    "label": "La Guia del Whisky"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=LBTp7FrCzIc",
+    "label": "Whisky Masters"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VjfFGSI71ec",
+    "label": "Destilando Historias"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ej7X7X5gHno",
+    "label": "Nehomar Hernández"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=JBkGNgg-S_0",
+    "label": "Orcaドル円ファイター - ハイボール"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=P75E_W9abfw",
+    "label": "のみての集い"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=T9Bz9HX1XCo",
+    "label": "俺のモルト - ホワイトラベル"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=tQNoUp0DY7A",
+    "label": "晩ジロー - ホワイトラベル"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0cbT3rLfhWc",
+    "label": "Whisky com Gringo"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=UJawzZJMCYY",
+    "label": "Tierri Whisky"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Z2Oat2uAUuw",
+    "label": "Destilados Brasil"
+  },
+  {
+    "product_id": "dewars-white-label",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mQ_89gxwYZA",
+    "label": "Whisky com Gringo - vs 12 anos"
   },
   {
     "product_id": "dingle",
@@ -11051,6 +11261,118 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=EJyCjQ0cBUg",
     "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QSRmdJsWdK0",
+    "label": "The Whiskey Novice"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WfYyEyHzRYg",
+    "label": "Honest Sips"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Ya262NgFBkQ",
+    "label": "Bespoke Unit"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hHh6GHr_0aU",
+    "label": "Thrifty Whiskey"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=3nQtDK6E5e0",
+    "label": "Los Whiskochos"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=R4Jg0Iw9EEs",
+    "label": "Catandocongusto"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=aK5LRDITops",
+    "label": "La Cava de Guillermo"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=z8F9iQGmolY",
+    "label": "Un Whisky a la Vez"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1KyeG2C1bcI",
+    "label": "ひとり酒ひとり語りバッカスズキ"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=O_Z1mS9IJYs",
+    "label": "ドラムズ・ジャパン"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=RY8gFs3JEAM",
+    "label": "酒チューブ"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=m_GYhj9a_co",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7JubJ7vDH-0",
+    "label": "Tierri Whisky"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=94SG01qoBg0",
+    "label": "Além do Rótulo"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=EuCvoQ5mbhI",
+    "label": "Jota Cellar"
+  },
+  {
+    "product_id": "grants-triple-wood",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=atuLFjoh7Qg",
+    "label": "Destilados Brasil"
   },
   {
     "product_id": "hakushu-12-year-old",
@@ -16219,6 +16541,132 @@
     "label": "ウイスキー大好き ミディアムチャンネル"
   },
   {
+    "product_id": "monkey-shoulder",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=4pExeUIkE28",
+    "label": "The Whiskey Novice"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=FwuTJCFr6jU",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=o9XTOE-GDGs",
+    "label": "The Single Malt Review"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xhjoDGDKLO0",
+    "label": "Whiskey Vault"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=3059LwnUKbA",
+    "label": "Bymariadelapena - cata"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TrZkayVGCE4",
+    "label": "Whisky Argentina - cata"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VdaYoi0E4X8",
+    "label": "Monkey Drinks"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ur_Y5bom-0U",
+    "label": "Los Whiskochos"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QoVOFxg1_B0",
+    "label": "Malt à propos"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=pghFFBIFNlc",
+    "label": "C pas un Dram!"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2OFOREblaPg",
+    "label": "ごぶりやホッシーチャンネル"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7LOvVfCmAgo",
+    "label": "せるじおのハイボールチャンネル"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QlTtuAIwn6E",
+    "label": "Anime Shot Bar C-Part"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=dfVIIFnisSY",
+    "label": "ひとくちウイスキー"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=6dUP5b47PaY",
+    "label": "Porção dos Anjos - Batch 27"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WeTxPNPt8xA",
+    "label": "Whisky do Mundo"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=s9jQYfT9-HE",
+    "label": "O Vitruviano - vale a pena?"
+  },
+  {
+    "product_id": "monkey-shoulder",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vu_yKYj7t9k",
+    "label": "Jornada do Whisky"
+  },
+  {
     "product_id": "mortlach-12-yo-wee-witchie",
     "language": "en",
     "platform": "youtube",
@@ -19591,6 +20039,118 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=oX68jQ2s1B0",
     "label": "This Cheap Scotch Shouldn’t Be This Good | Tamnavulin Wine Cask Finish Review"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Q7rDUe58qIc",
+    "label": "Whisky.com"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=elXDaqhrIig",
+    "label": "Honest Sips"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=oiFr2YpCgI0",
+    "label": "The Whiskey Nerd"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=thLBgGutDsU",
+    "label": "Whiskey Vault"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2pe5Uloq180",
+    "label": "La Whiskería - Costa Rica"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=A0JNxx2fI3M",
+    "label": "La Whiskería - Martes Whiskero"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Wms1lSP-wkU",
+    "label": "YOUNGS&VICIOUS"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=fqL57yuvrSQ",
+    "label": "Destilando Historias"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9v-YFE_-Rrg",
+    "label": "宅飲みバーTakeo"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=P_S1bvSPyJM",
+    "label": "晩ジロー"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=nR4muYEA8V0",
+    "label": "のみての集い"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=yibtVvdR8HE",
+    "label": "ひとり酒ひとり語りバッカスズキ"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ItammMuYcCk",
+    "label": "Tierri Whisky - vs Whyte & Mackay"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=JikQo51k7X4",
+    "label": "WhiskyBrasil.com"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=XaIBfcc372k",
+    "label": "Companhia da Bebida"
+  },
+  {
+    "product_id": "teachers-highland-cream",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=bHFjo5hDcRw",
+    "label": "Além do Rótulo"
   },
   {
     "product_id": "the-glenlivet-12-yo",

@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-04T07:20:39.867Z",
+  "generatedAt": "2026-09-05T00:10:35.430Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -10519,6 +10519,160 @@
       ]
     },
     {
+      "id": "cutty-sark-prohibition",
+      "slug": "cutty-sark-prohibition",
+      "name": "Cutty Sark Prohibition",
+      "distillery": {
+        "id": "cutty-sark",
+        "name": "Cutty Sark",
+        "name_es": "Cutty Sark",
+        "name_pt": "Cutty Sark",
+        "name_en": "Cutty Sark",
+        "name_ja": "カティーサーク",
+        "name_fr": null
+      },
+      "description": "Edición especial de Cutty Sark embotellada al 50% ABV, creada como homenaje al Capitán Bill McCoy, legendario contrabandista de la era de la Prohibición. Un blended Scotch robusto y lleno de sabor con notas de vainilla, cítricos y un final suave y complejo.",
+      "image": "/data/images/cutty-sark-prohibition.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 50,
+      "cask": null,
+      "distillery_id": "cutty-sark",
+      "insertion_order": 322,
+      "featured": false,
+      "name_pt": "Cutty Sark Prohibition",
+      "description_pt": "Edição especial do Cutty Sark engarrafada a 50% ABV, criada como homenagem ao Capitão Bill McCoy, lendário contrabandista da era da Proibição. Um blended Scotch robusto e cheio de sabor com notas de baunilha, cítricos e um final suave e complexo.",
+      "name_en": "Cutty Sark Prohibition",
+      "description_en": "Special edition Cutty Sark bottled at 50% ABV, created as a tribute to Captain Bill McCoy, legendary smuggler of the Prohibition era. A rich and robust blended Scotch with notes of vanilla, citrus and a smooth, complex finish.",
+      "name_ja": "カティーサーク プロヒビション",
+      "description_ja": "50% ABVでボトリングされたカティーサークの特別版。禁止時代の伝説的な密輸師ビル・マッコイ船長に敬意を表して作られた。バニラ、シトラスのノートを持つリッチでロバストなブレンドスコッチ。",
+      "name_fr": "Cutty Sark Prohibition",
+      "description_fr": "Édition spéciale de Cutty Sark embouteillée à 50% ABV, créée en hommage au Capitaine Bill McCoy, contrebandier légendaire de l'ère de la Prohibition. Un blended Scotch riche et corsé avec des notes de vanille, d'agrumes et une finale douce et complexe.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FZwRN23ZaTQ",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=h7ayxFGYK3s",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=phJD4pXH_uc",
+          "label": "The Whiskey Novice"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xx6k9RadMik",
+          "label": "Jeff Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Dppwcx2c3A8",
+          "label": "Whisky Lock"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TEemkQxFxvo",
+          "label": "La Wiskada"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4a5th_deIO4",
+          "label": "もかじと乾杯 - 飲み比べ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7v4Ns9nDzqM",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ji_UPL7sd7o",
+          "label": "もっさんハイボール倶楽部"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=px0emFeab9k",
+          "label": "酒総合ちゃんねる"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=A_ODgalC2d4",
+          "label": "Porção dos Anjos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=N6mdDfGbXKc",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aRwCsVjGqus",
+          "label": "Além do Rótulo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vIvgX-bOsdg",
+          "label": "Companhia da Bebida"
+        }
+      ]
+    },
+    {
       "id": "dalmore-12-yo",
       "slug": "dalmore-12-yo",
       "name": "Dalmore 12 YO",
@@ -11623,6 +11777,172 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=kY9Dw1nd93k",
           "label": "Tierri Whisky"
+        }
+      ]
+    },
+    {
+      "id": "dewars-white-label",
+      "slug": "dewars-white-label",
+      "name": "Dewar's White Label",
+      "distillery": {
+        "id": "dewars",
+        "name": "Dewar's",
+        "name_es": "Dewar's",
+        "name_pt": "Dewar's",
+        "name_en": "Dewar's",
+        "name_ja": "デュワー",
+        "name_fr": null
+      },
+      "description": "El blended Scotch insignia de Dewar's, creado por primera vez en 1899. Una mezcla de hasta treinta malta y granos simples, con Aberfeldy como malta base. Notas de miel, cítricos y vainilla con un toque sutil de humo. Suave, equilibrado y versátil.",
+      "image": "/data/images/dewars-white-label.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": null,
+      "distillery_id": "dewars",
+      "insertion_order": 321,
+      "featured": false,
+      "name_pt": "Dewar's White Label",
+      "description_pt": "O blended Scotch insignia da Dewar's, criado pela primeira vez em 1899. Uma mistura de até trinta maltes e grãos simples, com Aberfeldy como malte base. Notas de mel, cítricos e baunilha com um toque sutil de fumaça. Suave, equilibrado e versátil.",
+      "name_en": "Dewar's White Label",
+      "description_en": "Dewar's flagship blended Scotch, first created in 1899. A blend of up to thirty single malts and grains, with Aberfeldy as its base malt. Notes of honey, citrus and vanilla with a subtle hint of smoke. Smooth, balanced and versatile.",
+      "name_ja": "デュワー ホワイトレーベル",
+      "description_ja": "1899年に初リリースされたデュワーのフラッグシップ・ブレンドスコッチ。アバーフェルディをベースモルトとする、最大30種のシングルモルトとグレーンのブレンド。蜂蜜、シトラス、バニラのノートにかすかなスモークのヒント。スムーズでバランスが取れた多用途なウイスキー。",
+      "name_fr": "Dewar's White Label",
+      "description_fr": "Le blended Scotch emblématique de Dewar's, créé pour la première fois en 1899. Un mélange jusqu'à trente malts et grains simples, avec Aberfeldy comme malt de base. Notes de miel, agrumes et vanille avec une touche subtile de fumée. Doux, équilibré et polyvalent.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3GefFGGORu4",
+          "label": "Honest Sips"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ox-9C-mp9aA",
+          "label": "Whisky Central"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hsBaOY--YAA",
+          "label": "The Whiskey Novice"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mHwvwetGfWk",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-FoZfp0tqIo",
+          "label": "La Guia del Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LBTp7FrCzIc",
+          "label": "Whisky Masters"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VjfFGSI71ec",
+          "label": "Destilando Historias"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ej7X7X5gHno",
+          "label": "Nehomar Hernández"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JBkGNgg-S_0",
+          "label": "Orcaドル円ファイター - ハイボール"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P75E_W9abfw",
+          "label": "のみての集い"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T9Bz9HX1XCo",
+          "label": "俺のモルト - ホワイトラベル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tQNoUp0DY7A",
+          "label": "晩ジロー - ホワイトラベル"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0cbT3rLfhWc",
+          "label": "Whisky com Gringo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UJawzZJMCYY",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Z2Oat2uAUuw",
+          "label": "Destilados Brasil"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mQ_89gxwYZA",
+          "label": "Whisky com Gringo - vs 12 anos"
         }
       ]
     },
@@ -18873,6 +19193,172 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=EJyCjQ0cBUg",
           "label": "ひとくちウイスキー"
+        }
+      ]
+    },
+    {
+      "id": "grants-triple-wood",
+      "slug": "grants-triple-wood",
+      "name": "Grant's Triple Wood",
+      "distillery": {
+        "id": "william-grant-sons",
+        "name": "William Grant & Sons",
+        "name_es": "William Grant & Sons",
+        "name_pt": "William Grant & Sons",
+        "name_en": "William Grant & Sons",
+        "name_ja": "ウィリアム・グラント・アンド・サンズ",
+        "name_fr": null
+      },
+      "description": "El blended Scotch insignia de Grant's, madurado en tres tipos de madera: roble americano virgen, roble americano de primeraFill y roble americano de relleno de bourbon. Notas de toffee, miel y plátano con un toque de limoncillo y roble. Final de cebada, caramelo y malvavisco tostado.",
+      "image": "/data/images/grants-triple-wood.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Mixed",
+      "distillery_id": "william-grant-sons",
+      "insertion_order": 324,
+      "featured": false,
+      "name_pt": "Grant's Triple Wood",
+      "description_pt": "O blended Scotch insignia da Grant's, maturado em três tipos de madeira: carvalho americano virgem, carvalho americano first-fill e carvalho americano de recheio de bourbon. Notas de toffee, mel e banana com um toque de limoncinho e carvalho. Final de cevada, caramelo e marshmallow torrado.",
+      "name_en": "Grant's Triple Wood",
+      "description_en": "Grant's flagship blended Scotch, matured in three types of wood: virgin American oak, first-fill ex-bourbon and refill American oak. Notes of toffee, honey and banana with a touch of lemongrass and oak. Finish of barley, caramel and toasted marshmallow.",
+      "name_ja": "グラウンツ トリプルウッド",
+      "description_ja": "3種のオークで熟成されたグラウンツのフラッグシップ・ブレンドスコッチ。バージンアメリカンオーク、ファーストフィル・エグバーボン、リフィル・アメリカンオーク。トフィー、蜂蜜、バナナ、レモングラス、オークのノート。 barley、キャラメル、トーストマシュマロのフィニッシュ。",
+      "name_fr": "Grant's Triple Wood",
+      "description_fr": "Le blended Scotch emblématique de Grant's, vieilli dans trois types de bois : chêne américain neuf, chêne américain first-fill et chêne américain de recharge. Notes de toffee, miel et banane avec une touche de citronnelle et de chêne. Finale d'orge, caramel et guimauve grillée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QSRmdJsWdK0",
+          "label": "The Whiskey Novice"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WfYyEyHzRYg",
+          "label": "Honest Sips"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ya262NgFBkQ",
+          "label": "Bespoke Unit"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hHh6GHr_0aU",
+          "label": "Thrifty Whiskey"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3nQtDK6E5e0",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R4Jg0Iw9EEs",
+          "label": "Catandocongusto"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=aK5LRDITops",
+          "label": "La Cava de Guillermo"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z8F9iQGmolY",
+          "label": "Un Whisky a la Vez"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1KyeG2C1bcI",
+          "label": "ひとり酒ひとり語りバッカスズキ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O_Z1mS9IJYs",
+          "label": "ドラムズ・ジャパン"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RY8gFs3JEAM",
+          "label": "酒チューブ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=m_GYhj9a_co",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7JubJ7vDH-0",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=94SG01qoBg0",
+          "label": "Além do Rótulo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EuCvoQ5mbhI",
+          "label": "Jota Cellar"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=atuLFjoh7Qg",
+          "label": "Destilados Brasil"
         }
       ]
     },
@@ -28127,6 +28613,184 @@
       "resellers_usa": []
     },
     {
+      "id": "monkey-shoulder",
+      "slug": "monkey-shoulder",
+      "name": "Monkey Shoulder",
+      "distillery": {
+        "id": "william-grant-sons",
+        "name": "William Grant & Sons",
+        "name_es": "William Grant & Sons",
+        "name_pt": "William Grant & Sons",
+        "name_en": "William Grant & Sons",
+        "name_ja": "ウィリアム・グラント・アンド・サンズ",
+        "name_fr": null
+      },
+      "description": "Blended malt Scotch whisky de William Grant & Sons, elaborado con malta de Glenfiddich, Balvenie e Kininvie. Notas de naranja, vainilla cremosa y miel con roble especiado. Sedoso y cremoso, ideal para cócteles y para disfrutar solo.",
+      "image": "/data/images/monkey-shoulder.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": null,
+      "distillery_id": "william-grant-sons",
+      "insertion_order": 323,
+      "featured": false,
+      "name_pt": "Monkey Shoulder",
+      "description_pt": "Blended malt Scotch whisky da William Grant & Sons, elaborado com malte de Glenfiddich, Balvenie e Kininvie. Notas de laranja, baunilha cremosa e mel com carvalho especiado. Sedoso e cremoso, ideal para coquetéis e para desfrutar sozinho.",
+      "name_en": "Monkey Shoulder",
+      "description_en": "Blended malt Scotch whisky from William Grant & Sons, crafted using malts from Glenfiddich, Balvenie and Kininvie. Notes of zesty orange, creamy vanilla and honey with spiced oak. Silky and creamy, perfect for cocktails and sipping neat.",
+      "name_ja": "モンキーショルダー",
+      "description_ja": "ウィリアム・グラント・アンド・サンズのブレンドモルトスコッチ。グレンフィディック、バルヴェニー、キンインビーのモルトをブレンド。オレンジ、クリーミーなバニラ、蜂蜜、スパイスの効いたオークのノート。滑らかでクリーミー、カクテルやストレートに最適。",
+      "name_fr": "Monkey Shoulder",
+      "description_fr": "Blended malt Scotch whisky de William Grant & Sons, élaboré à partir de malts de Glenfiddich, Balvenie et Kininvie. Notes d'orange acidulée, de vanille crémeuse et de miel avec du chêle épicé. Soyeux et crémeux, parfait pour les cocktails et la dégustation pure.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4pExeUIkE28",
+          "label": "The Whiskey Novice"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FwuTJCFr6jU",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o9XTOE-GDGs",
+          "label": "The Single Malt Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xhjoDGDKLO0",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3059LwnUKbA",
+          "label": "Bymariadelapena - cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TrZkayVGCE4",
+          "label": "Whisky Argentina - cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VdaYoi0E4X8",
+          "label": "Monkey Drinks"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ur_Y5bom-0U",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QoVOFxg1_B0",
+          "label": "Malt à propos"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pghFFBIFNlc",
+          "label": "C pas un Dram!"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2OFOREblaPg",
+          "label": "ごぶりやホッシーチャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7LOvVfCmAgo",
+          "label": "せるじおのハイボールチャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QlTtuAIwn6E",
+          "label": "Anime Shot Bar C-Part"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dfVIIFnisSY",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6dUP5b47PaY",
+          "label": "Porção dos Anjos - Batch 27"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WeTxPNPt8xA",
+          "label": "Whisky do Mundo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=s9jQYfT9-HE",
+          "label": "O Vitruviano - vale a pena?"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vu_yKYj7t9k",
+          "label": "Jornada do Whisky"
+        }
+      ]
+    },
+    {
       "id": "mortlach-12-yo-wee-witchie",
       "slug": "mortlach-12-yo-wee-witchie",
       "name": "Mortlach 12 YO Wee Witchie",
@@ -34813,6 +35477,172 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=oX68jQ2s1B0",
           "label": "This Cheap Scotch Shouldn’t Be This Good | Tamnavulin Wine Cask Finish Review"
+        }
+      ]
+    },
+    {
+      "id": "teachers-highland-cream",
+      "slug": "teachers-highland-cream",
+      "name": "Teacher's Highland Cream",
+      "distillery": {
+        "id": "teachers",
+        "name": "Teacher's",
+        "name_es": "Teacher's",
+        "name_pt": "Teacher's",
+        "name_en": "Teacher's",
+        "name_ja": "ティーチャーズ",
+        "name_fr": null
+      },
+      "description": "Famoso blended Scotch con uno de los contenidos de malta más altos del mercado (45%). La malta insignia es Ardmore, completamente turbada. Notas de miel, toffee, chocolate con leche y una distinctiva toque de humo de turba de las Tierras Altas.",
+      "image": "/data/images/teachers-highland-cream.webp",
+      "origin": "scotland",
+      "region": "Highlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": null,
+      "distillery_id": "teachers",
+      "insertion_order": 325,
+      "featured": false,
+      "name_pt": "Teacher's Highland Cream",
+      "description_pt": "Famoso blended Scotch com um dos maiores teores de malte do mercado (45%). O malte insignia é Ardcompletamente defumado. Notas de mel, toffee, chocolate com leite e um toque distintivo de fumaça de turfa das Terras Altas.",
+      "name_en": "Teacher's Highland Cream",
+      "description_en": "Famous blended Scotch with one of the highest malt contents on the market (45%). The fingerprint malt is Ardmore, fully peated. Notes of honey, toffee, milk chocolate and a distinctive Highland peat smoke touch.",
+      "name_ja": "ティーチャーズ ハイランドクリーム",
+      "description_ja": "モルト含有率45%の高さで知られる有名なブレンドスコッチ。フィンガープリント・モルトは完全にピートされたアルドモア。蜂蜜、トフィー、ミルクチョコレート、ハイランドピートスモークの特徴的なノート。",
+      "name_fr": "Teacher's Highland Cream",
+      "description_fr": "Célèbre blended Scotch avec l'un des contenus en malt les plus élevés du marché (45%). Le malt signature est Ardmore, complètement tourbé. Notes de miel, toffee, chocolat au lait et une touche distinctive de fumée de tourbe des Highlands.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q7rDUe58qIc",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=elXDaqhrIig",
+          "label": "Honest Sips"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oiFr2YpCgI0",
+          "label": "The Whiskey Nerd"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=thLBgGutDsU",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2pe5Uloq180",
+          "label": "La Whiskería - Costa Rica"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=A0JNxx2fI3M",
+          "label": "La Whiskería - Martes Whiskero"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wms1lSP-wkU",
+          "label": "YOUNGS&VICIOUS"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fqL57yuvrSQ",
+          "label": "Destilando Historias"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9v-YFE_-Rrg",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P_S1bvSPyJM",
+          "label": "晩ジロー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nR4muYEA8V0",
+          "label": "のみての集い"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yibtVvdR8HE",
+          "label": "ひとり酒ひとり語りバッカスズキ"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ItammMuYcCk",
+          "label": "Tierri Whisky - vs Whyte & Mackay"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JikQo51k7X4",
+          "label": "WhiskyBrasil.com"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XaIBfcc372k",
+          "label": "Companhia da Bebida"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bHFjo5hDcRw",
+          "label": "Além do Rótulo"
         }
       ]
     },

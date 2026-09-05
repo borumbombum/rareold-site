@@ -201,11 +201,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Chivas Regal 12 YO - Chivas Regal
 ✅ Chivas Regal 18 YO - Chivas Regal
 ✅ Ballantine's Finest - Ballantine's
-Dewar's White Label - Dewar's
-Cutty Sark Prohibition - Cutty Sark
-Monkey Shoulder - William Grant & Sons
-Grant's Triple Wood - Grant's
-Teacher's Highland Cream - Teacher's
+✅ Dewar's White Label - Dewar's
+✅ Cutty Sark Prohibition - Cutty Sark
+✅ Monkey Shoulder - William Grant & Sons
+✅ Grant's Triple Wood - Grant's
+✅ Teacher's Highland Cream - Teacher's
 J&B Rare - J&B
 Whyte & Mackay Triple Matured - Whyte & Mackay
 Bell's Original - Bell's
