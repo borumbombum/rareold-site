@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-06T00:20:31.452Z",
+  "generatedAt": "2026-09-06T01:18:00.336Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -23689,6 +23689,124 @@
       ]
     },
     {
+      "id": "jameson-18-yo",
+      "slug": "jameson-18-yo",
+      "name": "Jameson 18 Year Old",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Mezcla de whiskey de pot still y de grano, triple destilado, con una nariz de aceites aromáticos, toffee especiado y madera sobre un fondo de vainilla y cuero. En boca es meloso y muy equilibrado, con toffee, especias, jerez suave y frutos secos. Final largo donde la madera, la especia y el toffee predominan. Cada botella está numerada individualmente.",
+      "image": "/data/images/jameson-18-yo.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": 18,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon y jerez, terminado en bourbon de primer llenado",
+      "distillery_id": "midleton",
+      "insertion_order": 341,
+      "featured": false,
+      "name_pt": "Jameson 18 Year Old",
+      "description_pt": "Blend de whiskey de pot still e de grão, triplamente destilado, com nariz de óleos aromáticos, toffee especiado e madeira sobre um fundo de baunilha e couro. Em boca é meloso e muito equilibrado, com toffee, especiarias, xerez suave e frutos secos. Final longo onde a madeira, a especiaria e o toffee predominam. Cada garrafa é numerada individualmente.",
+      "name_en": "Jameson 18 Year Old",
+      "description_en": "A blend of pot still and grain whiskey, triple distilled, with an aromatic nose of spiced toffee and wood over vanilla and leather. The palate is honeyed and very balanced, with toffee, spice, soft sherry and dried fruit. A long finish where wood, spice and toffee dominate. Each bottle is individually numbered.",
+      "name_ja": "ジェムソン 18年",
+      "description_ja": "ポットスチルとグレーンのウイスキーをブレンドし、3回蒸留。芳香なスパイス香のトフィーとウッディな香りに、バニラとレザーの奥行きが広がります。口当たりは蜂蜜のようにまろやかで非常にバランスが良く、トフィー、スパイス、ほのかなシェリー、ナッツの風味。ウッド、スパイス、トフィーが長く続く余韻へ。各ボトルには個別のナンバーが入っています。",
+      "name_fr": "Jameson 18 Year Old",
+      "description_fr": "Un blend de pot still et de grain, triple distillé, avec un nez aromatique de toffee épicée et de bois sur un fond de vanille et de cuir. En bouche, c'est onctueux et très équilibré, avec du toffee, des épices, un xérès doux et des fruits secs. Finale longue où dominent le bois, l'épice et le toffee. Chaque bouteille est numérotée individuellement.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=027zg8pX-30",
+          "label": "The Crumby Beard — Jameson 18 Year Old Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1Lrm7A14NRU",
+          "label": "Whisky Whistle — Jameson 18 Year Old Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9zTZd8aQVKw",
+          "label": "The Whiskey Nerd — Jameson 18 Year Old Whiskey Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tfLwhc89V3g",
+          "label": "Whiskey Vault — Jameson 18 Year Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NDKu4gJP4pE",
+          "label": "El Whisky Bar — Jameson 18 años, el gran Whiskey Irlandés"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WasvuK_aOzo",
+          "label": "はっちばっちチャンネル — ジェムソン18年を飲んでみた"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rVl5rkdNuJs",
+          "label": "ドラムズ・ジャパン — ジェムソン18年テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rlmB8sIRVS8",
+          "label": "はっちばっちチャンネル — ジェムソン18年アフターテイスティング"
+        }
+      ]
+    },
+    {
       "id": "jameson-black-barrel",
       "slug": "jameson-black-barrel",
       "name": "Jameson Black Barrel",
@@ -32833,6 +32951,106 @@
       ]
     },
     {
+      "id": "powers-gold-label",
+      "slug": "powers-gold-label",
+      "name": "Powers Gold Label",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Blended irlandés triple destilado con alto contenido de pot still, que le da cuerpo y carácter especiado. Aroma de canela, clavo y pimienta blanca con manzana y pera maduras sobre roble tostado. En boca es especiado y dulce, con fruta de huerta, vainilla y una base de cebada. Final medio-largo con aceites de pot still y un cierre a miel.",
+      "image": "/data/images/powers-gold-label.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 43.2,
+      "cask": "Roble americano (ex-bourbon)",
+      "distillery_id": "midleton",
+      "insertion_order": 345,
+      "featured": false,
+      "name_pt": "Powers Gold Label",
+      "description_pt": "Blended irlandês triplamente destilado com alto teor de pot still, que lhe dá corpo e carácter apimentado. Aroma de canela, cravo e pimenta branca com maçã e pêra maduras sobre carvalho tostado. Em boca é apimentado e doce, com fruta de pomar, baunilha e uma base de cevada. Final médio-longo com óleos de pot still e um fecho a mel.",
+      "name_en": "Powers Gold Label",
+      "description_en": "A triple-distilled Irish blend with a high pot still content that gives it body and spicy character. Aroma of cinnamon, clove and white pepper with ripe apple and pear over toasted oak. The palate is spicy and sweet, with orchard fruit, vanilla and a barley base. A medium-long finish with pot still oils and a honeyed close.",
+      "name_ja": "パワーズ ゴールドレーベル",
+      "description_ja": "ポットスチルの比率が高い、3回蒸留のアイリッシュブレンド。ボディとスパイシーな個性を生み出します。シナモン、クローブ、ホワイトペッパーの香りに、トーストオークの上で熟したリンゴと洋ナシ。スパイシーで甘い口当たりで、オーチャードフルーツ、バニラ、そして大麦のベース。ポットスチルオイルと蜂蜜のような締めくくりの、中〜長い余韻。",
+      "name_fr": "Powers Gold Label",
+      "description_fr": "Un blend irlandais triple distillé à forte teneur en pot still, qui lui confère corps et caractère épicé. Arôme de cannelle, de clou de girofle et de poivre blanc avec de la pomme et de la poire mûres sur du chêne grillé. En bouche, épicé et doux, avec des fruits de verger, de la vanille et une base d'orge. Finale mi-longue avec des huiles de pot still et une finition mielleuse.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0Rv7Ux4FJLo",
+          "label": "Whisky.com — Powers Gold Label Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Lg5mnPEzkJc",
+          "label": "The Whiskey Nerd — Powers Gold Label Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OLO3eUykALo",
+          "label": "Jason Debly — Powers Gold Label Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_N8WU4s2WUU",
+          "label": "The Whiskey Shed — Powers Gold Label, an Irishman's opinion"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qB13Ckk9_LQ",
+          "label": "ひとくちウイスキー — パワーズ ゴールドラベル"
+        }
+      ]
+    },
+    {
       "id": "rampur-indian-single-malt",
       "slug": "rampur-indian-single-malt",
       "name": "Rampur Indian Single Malt",
@@ -32917,6 +33135,396 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Y4dXX2MCeAg",
           "label": "Trenny and C"
+        }
+      ]
+    },
+    {
+      "id": "redbreast-12-yo",
+      "slug": "redbreast-12-yo",
+      "name": "Redbreast 12 Year Old",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Single pot still triple destilado con cebada malteada y sin maltear. Aroma complejo, especiado y afrutado con notas de roble tostado. En boca es pleno y sedoso, con un equilibrio armonioso de especias, fruta, jerez y tostado. Final largo y satisfecho en el que persisten esos sabores.",
+      "image": "/data/images/redbreast-12-yo.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Barricas de bourbon y botas de oloroso",
+      "distillery_id": "midleton",
+      "insertion_order": 342,
+      "featured": false,
+      "name_pt": "Redbreast 12 Year Old",
+      "description_pt": "Single pot still triplamente destilado com cevada maltada e não maltada. Aroma complexo, apimentado e frutado com notas de carvalho tostado. Em boca é pleno e sedoso, com um equilíbrio harmonioso de especiarias, fruta, xerez e torrado. Final longo e satisfatório onde esses sabores persistem.",
+      "name_en": "Redbreast 12 Year Old",
+      "description_en": "A single pot still whiskey, triple distilled from malted and unmalted barley. Complex, spiced and fruity aroma with toasted oak notes. The palate is full and silky, a harmonious balance of spice, fruit, sherry and toast. Long, satisfying finish where those flavours linger.",
+      "name_ja": "レッドブレスト 12年",
+      "description_ja": "モルト麦とアンモルト麦を使ったシングルポットスチルを3回蒸留。トーストしたオークのノートを伴う、複雑でスパイシーかつフルーティーな香り。口当たりは豊かでシルキーで、スパイス、果実、シェリー、トーストが調和。長く満足感のあるフィニッシュへと続きます。",
+      "name_fr": "Redbreast 12 Year Old",
+      "description_fr": "Un single pot still triple distillé à partir d'orge maltée et non maltée. Arôme complexe, épicé et fruité avec des notes de chêne grillé. En bouche, plein et soyeux, un équilibre harmonieux d'épices, de fruits, de xérès et de grillé. Finale longue et satisfaisante où ces saveurs persistent.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1-ebcYEtWM8",
+          "label": "Whiskey is a Journey — Redbreast 12 Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I6stmin_260",
+          "label": "Whiskey Vault — Redbreast 12 Review and Tasting"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O7YZUw2P5ug",
+          "label": "The Crumby Beard — Is Redbreast 12 REALLY That Good?"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tJLqgtXfsRE",
+          "label": "The Whiskey Nerd — Redbreast 12 Irish Whiskey Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3GDZNfW4miI",
+          "label": "La Wiskada — Notas de cata RedBreast 12 años"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=M-f9hIJMUpw",
+          "label": "Amantes Del Whisky — Redbreast 12 Single Pot Still"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=m4IQ1f5PCqg",
+          "label": "El Whisky Bar — Redbreast 12 años, Single Pot Still"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ykJWnHue4Yc",
+          "label": "Los Whiskochos — Probemos Redbreast de 12 años"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BuakRfWFg9o",
+          "label": "Spirituosités — Red Breast 12"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=58m0Nc4J93I",
+          "label": "平日休みの秘密基地 — クリーミーなレッドブレスト12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PdBWd3IBA8g",
+          "label": "ひとくちウイスキー — レッドブレスト12年テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kc2H1vdzXSs",
+          "label": "ウルツァイト先生のウイスキー教室 — レッドブレスト12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mjQ3ulKk2kc",
+          "label": "ドラムズ・ジャパン — レッドブレスト12年テイスティング"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=96vdBfRK3Ng",
+          "label": "Porção dos Anjos Whisky — Review Redbreast 12 anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9g1zJtbZxRg",
+          "label": "Whisky com Gringo — Meu whiskey irlandês favorito"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ISsZ2zO23os",
+          "label": "Márcio Becker — Review Redbreast 12 anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=M4JkvNg5A3M",
+          "label": "Além do Rótulo — Redbreast 12 anos é bom mesmo?"
+        }
+      ]
+    },
+    {
+      "id": "redbreast-cask-strength",
+      "slug": "redbreast-cask-strength",
+      "name": "Redbreast 12 Year Old Cask Strength",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Single pot still triple destilado, madurado 12 años en barricas de bourbon y oloroso y embotellado sin diluir, lo que concentra todo el carácter de la casa. Nariz intensa de fruta tropical, albaricoque, pasas doradas y especias navideñas. En boca es denso y cremoso, muy afrutado y especiado, con el pot still oil muy presente. Final largo, cálido y persistente.",
+      "image": "/data/images/redbreast-cask-strength.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 57.5,
+      "cask": "Barricas de bourbon y oloroso, a plena fuerza",
+      "distillery_id": "midleton",
+      "insertion_order": 344,
+      "featured": false,
+      "name_pt": "Redbreast 12 Year Old Cask Strength",
+      "description_pt": "Single pot still triplamente destilado, amadurecido 12 anos em barricas de bourbon e oloroso e engarrafado sem diluir, o que concentra todo o carácter da casa. Nariz intensa de fruta tropical, damasco, passas douradas e especiarias de Natal. Em boca é denso e cremoso, muito frutado e especiado, com o pot still oil muito presente. Final longo, quente e persistente.",
+      "name_en": "Redbreast 12 Year Old Cask Strength",
+      "description_en": "A triple-distilled single pot still whiskey, matured for 12 years in bourbon and oloroso casks and bottled at cask strength, concentrating the full character of the house style. An intense nose of tropical fruit, apricot, golden raisins and festive spice. Dense and creamy on the palate, very fruity and spicy with the pot still oil very present. Long, warm, persistent finish.",
+      "name_ja": "レッドブレスト 12年 カスクストレングス",
+      "description_ja": "3回蒸留のシングルポットスチルをバーボン樽とオロロソ樽で12年熟成し、加水せずに瓶詰めしたカスクストレングス。ハウススタイルの個性が凝縮されています。トロピカルフルーツ、アプリコット、ゴールデンレーズン、そしてクリスマスらしいスパイスの濃厚な香り。密度が高くクリーミーで、とてもフルーティーかつスパイシー、ポットスチルオイルの存在感が際立ちます。長く温かく持続する余韻。",
+      "name_fr": "Redbreast 12 Year Old Cask Strength",
+      "description_fr": "Un single pot still triple distillé, vieilli 12 ans en fûts de bourbon et d'oloroso et mis en bouteille sans dilution, ce qui concentre tout le caractère de la maison. Nez intense de fruits tropicaux, d'abricot, de raisins secs dorés et d'épices de Noël. En bouche, dense et crémeux, très fruité et épicé, avec l'huile de pot still bien présente. Finale longue, chaleureuse et persistante.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=04yMf_hGY7I",
+          "label": "Whiskey is a Journey — Redbreast 12 Cask Strength Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2TsjvesY5CU",
+          "label": "The Whiskey Nerd — Redbreast 12 Cask Strength Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=36RSsLM8Wo8",
+          "label": "Whisky.com — Redbreast 12 Cask Strength Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yQGWgILwjGs",
+          "label": "Whiskey4Breakfast with Ronan — Redbreast 12 Cask Strength Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-SzAnRWpaB0",
+          "label": "Whisky o Muerte — Redbreast 12 Cask Strength, cata"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O4pSSVcbUj8",
+          "label": "LA CHAÎNE DU WHISKY — Redbreast 12 Cask Strength"
+        }
+      ]
+    },
+    {
+      "id": "redbreast-lustau",
+      "slug": "redbreast-lustau",
+      "name": "Redbreast Lustau Edition",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Single pot still triple destilado. Nariz intensa de fruta oscura, cereza y ciruela, con miel, vainilla y especias dulces por el acabado en oloroso. En boca es rico y especiado, con fruta madura, frutos secos y un punto seco y balsámico del jerez. Final largo y cálido con roble español. Sin filtrar en frío.",
+      "image": "/data/images/redbreast-lustau.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon y jerez, rematado en oloroso de Lustau",
+      "distillery_id": "midleton",
+      "insertion_order": 343,
+      "featured": false,
+      "name_pt": "Redbreast Lustau Edition",
+      "description_pt": "Single pot still triplamente destilado. Nariz intensa de fruta escura, cereja e ameixa, com mel, baunilha e especiarias doces graças ao acabamento em oloroso. Em boca é rico e especiado, com fruta madura, frutos secos e um ponto seco e balsâmico do xerez. Final longo e quente com carvalho espanhol. Sem filtragem a frio.",
+      "name_en": "Redbreast Lustau Edition",
+      "description_en": "A triple-distilled single pot still whiskey. An intense nose of dark fruit, cherry and plum, with honey, vanilla and sweet spice from the oloroso finish. The palate is rich and spicy, with ripe fruit, nuts and a dry, balsamic edge from the sherry. A long, warm finish with Spanish oak. Non-chill filtered.",
+      "name_ja": "レッドブレスト ラストー エディション",
+      "description_ja": "3回蒸留のシングルポットスチル。オロロソ・フィニッシュ由来のハチミツ、バニラ、甘いスパイスに、ダークフルーツ、チェリー、プラムの濃厚な香り。リッチでスパイシーな口当たりで、熟した果実、ナッツ、シェリー特有のドライでバルサミックなニュアンス。スパニッシュオークの長く温かい余韻。ノンチルフィルタード。",
+      "name_fr": "Redbreast Lustau Edition",
+      "description_fr": "Un single pot still triple distillé. Nez intense de fruits noirs, de cerise et de prune, avec du miel, de la vanille et des épices douces apportés par la finition oloroso. En bouche, riche et épicé, avec des fruits mûrs, des fruits secs et un côté sec et balsamique du xérès. Finale longue et chaleureuse avec du chêne espagnol. Non filtré à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IDpKKIjQgOM",
+          "label": "The Whiskey Nerd — Redbreast Lustau Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KHs_gYBE8I4",
+          "label": "The Whisky Diaries — Redbreast Lustau Edition Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OVpt0HtjjCE",
+          "label": "The Whiskey Chaser Brian — Redbreast Lustau Edition Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=b0pwAC7BCRw",
+          "label": "Whiskey is a Journey — Redbreast Lustau Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HIilxIQUifk",
+          "label": "Whisky o Muerte — Redbreast Lustau, sherry finish 46%"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Sp8oOTrUj9U",
+          "label": "Cultura del Whisky — Redbreast Lustau, análisis"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yNdj10Ny2g8",
+          "label": "Todo Whisky — Single Pot Still y Redbreast Lustau"
         }
       ]
     },

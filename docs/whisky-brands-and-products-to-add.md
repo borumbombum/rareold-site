@@ -225,11 +225,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Jameson Irish Whiskey - Midleton
 ✅ Jameson Caskmates Stout Edition - Midleton
 ✅ Jameson Black Barrel - Midleton
-Jameson 18 YO - Midleton
-Redbreast 12 YO - Midleton
-Redbreast Lustau Edition - Midleton
-Redbreast Cask Strength - Midleton
-Powers Gold Label - Midleton
+✅ Jameson 18 YO - Midleton
+✅ Redbreast 12 YO - Midleton
+✅ Redbreast Lustau Edition - Midleton
+✅ Redbreast Cask Strength - Midleton
+✅ Powers Gold Label - Midleton
 Powers John's Lane Release - Midleton
 Green Spot - Midleton
 Yellow Spot 12 YO - Midleton
