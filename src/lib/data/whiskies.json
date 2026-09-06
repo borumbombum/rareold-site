@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-06T01:18:00.336Z",
+  "generatedAt": "2026-09-06T03:15:00.803Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -19717,6 +19717,136 @@
       ]
     },
     {
+      "id": "green-spot",
+      "slug": "green-spot",
+      "name": "Green Spot",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Single pot still clásico de la casa Mitchell & Son, elaborado en Midleton y madurado en barricas de bourbon nuevas y de relleno junto a botas de jerez. Nariz de manzana verde, fruta de huerta, cebada dulce y roble tostado. En boca es cremoso y goloso, con manzana, miel y vainilla, especias características del pot still como clavo y canela, hacia un final medio, cálido y ligeramente seco.",
+      "image": "/data/images/green-spot.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon nuevo y de relleno, y jerez",
+      "distillery_id": "midleton",
+      "insertion_order": 347,
+      "featured": false,
+      "name_pt": "Green Spot",
+      "description_pt": "Single pot still clássico da Mitchell & Son, produzido em Midleton e maturado em barricas de bourbon novas e de reutilização, juntamente com botas de xerez. Nariz de maçã verde, fruta de pomar, cevada doce e carvalho tostado. Na boca é cremoso e guloso, com maçã, mel e baunilha, especiarias características do pot still como cravo e canela, para um final médio, quente e ligeiramente seco.",
+      "name_en": "Green Spot",
+      "description_en": "A classic single pot still from Mitchell & Son, made in Midleton and matured in new and refill bourbon barrels along with sherry butts. Aroma of green apple, orchard fruit, sweet barley and toasted oak. The palate is creamy and full-bodied, with green apple, honey and vanilla, characteristic pot still spices like clove and cinnamon, towards a medium, warm, gently drying finish.",
+      "name_ja": "グリーンスポット",
+      "description_ja": "ミッチェル&サンのクラシックなシングルポットスチル。ミドルトンで造られ、新樽とリフィル・バーボン樽、シェリー・バットで熟成。青リンゴ、オーチャードフルーツ、甘い大麦、トーストオークの香り。口当たりはクリーミーでフルボディ。青リンゴ、ハチミツ、バニラに、クローブやシナモンのようなポットスチル特有のスパイスが広がり、温かく軽く乾いた余韻が続きます。",
+      "name_fr": "Green Spot",
+      "description_fr": "Un single pot still classique de Mitchell & Son, élaboré à Midleton et vieilli en fûts de bourbon neufs et de réemploi ainsi qu’en fûts de sherry. Nez de pomme verte, de fruits de verger, d’orge douce et de chêne grillé. En bouche, crémeux et gourmand, avec pomme, miel et vanille, des épices typiques du pot still comme le clou de girofle et la cannelle, vers une finale moyenne, chaude et légèrement sèche.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QxreHz9mixY",
+          "label": "Whiskey Vault — Episode 25: Green Spot Single Pot Still"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SgmwnweEqSQ",
+          "label": "The Crumby Beard — Green Spot Irish Whiskey Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eS-hM0a9ggQ",
+          "label": "Whisky.com — Green Spot Whiskey Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=so0h-9Vr3-Y",
+          "label": "Whiskey is a Journey — Green Spot Single Pot Still Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HYKA0YJebBQ",
+          "label": "Cultura del Whisky — Green Spot, un whiskey irlandés impresionante"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ysqHeT0JfV8",
+          "label": "DEGUST'Emoi — Dégustation d'un Green Spot 3x Distilled"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0jOCGTXguH0",
+          "label": "宅飲みバーTakeo — グリーンスポット テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=llLGgdGEGcE",
+          "label": "宅飲みバーTakeo — グリーンスポット レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wSR_pmTntgQ",
+          "label": "ひとくちウイスキー — グリーンスポット"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NC36r5U-Qs8",
+          "label": "Whisky com Gringo — Review do Green Spot com a minha esposa"
+        }
+      ]
+    },
+    {
       "id": "haig-club-clubman",
       "slug": "haig-club-clubman",
       "name": "Haig Club Clubman",
@@ -29783,6 +29913,112 @@
       "resellers_usa": []
     },
     {
+      "id": "midleton-very-rare",
+      "slug": "midleton-very-rare",
+      "name": "Midleton Very Rare",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "El blended irlandés insignia de Midleton, elaborado con pot still y whiskey de grano propios, de entre 12 y 20 años, criado en barricas de roble americano ex-bourbon ligeramente carbonizadas. Nariz de vainilla, miel y fruta de huerto —manzana y pera— con especias propias del pot still como canela, jengibre y pimienta blanca. En boca es cremoso y goloso, con caramelo, toffee y crème caramel sobre roble tostado, y un final medio-largo, suave y dulce, con canela y un susurro de naranja asada.",
+      "image": "/data/images/midleton-very-rare.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Ex-bourbon americano",
+      "distillery_id": "midleton",
+      "insertion_order": 350,
+      "featured": false,
+      "name_pt": "Midleton Very Rare",
+      "description_pt": "O blended irlandês emblemático de Midleton, feito com pot still e whiskey de grão próprios, entre 12 e 20 anos, maturado em barricas de carvalho americano ex-bourbon levemente carbonizadas. Nariz de baunilha, mel e fruta de pomar —maçã e pêra— com especiarias próprias do pot still como canela, gengibre e pimenta branca. Na boca é cremoso e guloso, com caramelo, toffee e crème caramel sobre carvalho tostado, e um final médio-longo, suave e doce, com canela e um sussurro de laranja assada.",
+      "name_en": "Midleton Very Rare",
+      "description_en": "Midleton's flagship Irish blend, crafted from the distillery's own pot still and grain whiskeys, aged 12 to 20 years and matured in lightly charred ex-bourbon American oak barrels. Aroma of vanilla, honey and orchard fruit — apple and pear — with pot still spice like cinnamon, ginger and white pepper. The palate is creamy and luscious, with butterscotch, toffee and crème caramel over toasted oak, and a medium-long, gently sweet finish of warm oak, cinnamon and a whisper of roasted orange.",
+      "name_ja": "ミドルトン ベリー レア",
+      "description_ja": "ミドルトンの看板アイリッシュブレンド。自社蒸留のポットスチル＆グレーンウイスキーを12年から20年熟成し、軽くチャーしたバーボン樽で仕上げています。バニラ、ハチミツ、オーチャードフルーツ（リンゴと洋ナシ）に、シナモン、ジンジャー、ホワイトペッパーのポットスチルのスパイス。バタースコッチ、トフィー、クレームキャラメルがトーストオークの上に広がるクリーミーでリュシャスな口当たり。温かいオーク、シナモン、焼きオレンジの微かな香りが続く、中〜長く穏やかな甘い余韻。",
+      "name_fr": "Midleton Very Rare",
+      "description_fr": "Le blend irlandais emblématique de Midleton, élaboré à partir de pot still et de grain de la distillerie, âgés de 12 à 20 ans, vieillis en fûts de chêne américain ex-bourbon légèrement carbonisés. Nez de vanille, de miel et de fruits de verger — pomme et poire — avec des épices de pot still comme la cannelle, le gingembre et le poivre blanc. En bouche, crémeux et gourmand, avec caramel, toffee et crème caramel sur du chêne grillé, et une finale mi-longue, douce et suave, de chêne chaud, de cannelle et un murmure d’orange rôtie.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YRHVI31qBe8",
+          "label": "Whiskey Vault — Midleton Very Rare Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eq7d9S_hdaU",
+          "label": "The Whiskey Nerd — Midleton Very Rare Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pYMw5fdxYOQ",
+          "label": "Whisky.com — Midleton Very Rare Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yuYdbdWQBm8",
+          "label": "Erik Wait Whisky Studies — Midleton Very Rare 2019"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0b4YvGyQOdg",
+          "label": "The Barrel Buddies — 第170話 ミドルトン ベリーレア 2023 レビュー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BAXzUOH8a64",
+          "label": "Márcio Becker — Degustando 038: Midleton Very Rare 2005"
+        }
+      ]
+    },
+    {
       "id": "monkey-shoulder",
       "slug": "monkey-shoulder",
       "name": "Monkey Shoulder",
@@ -33051,6 +33287,100 @@
       ]
     },
     {
+      "id": "powers-johns-lane",
+      "slug": "powers-johns-lane",
+      "name": "Powers John's Lane Release",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Single pot still de 12 años, triple destilado y criado en barricas de bourbon americano con una pequeña proporción de jerez oloroso. En nariz es terroso, con cuero y tabaco sobre madera carbonizada, chocolate oscuro y toffee. En boca es pleno y especiado, con vainilla, miel y albaricoque seco, hacia un final largo, dulce y persistente de roble tostado.",
+      "image": "/data/images/powers-johns-lane.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon americano y jerez oloroso",
+      "distillery_id": "midleton",
+      "insertion_order": 346,
+      "featured": false,
+      "name_pt": "Powers John's Lane Release",
+      "description_pt": "Single pot still premium de 12 anos, triplamente destilado e maturado em barricas de bourbon americano com uma pequena proporção de xerez oloroso. No nariz é terroso, com couro e tabaco sobre madeira carbonizada, chocolate negro e toffee. Na boca é pleno e picante, com baunilha, mel e damasco seco, para um final longo, doce e persistente de carvalho tostado.",
+      "name_en": "Powers John's Lane Release",
+      "description_en": "A 12-year-old single pot still, triple distilled and matured in American bourbon casks with a small proportion of Oloroso sherry. The nose is earthy — leather and tobacco over charred wood, dark chocolate and treacle toffee. The palate is full-bodied and spicy, with vanilla, honey and dried apricot, leading to a long, honeyed and persistent finish on toasted oak.",
+      "name_ja": "パワーズ ジョンズ レーン",
+      "description_ja": "アメリカン・バーボン樽で12年熟成し、オロロソ・シェリーのスピリッツを少量加えたシングルポットスチル。アーシーな香りで、焦がしたウッドにレザーとタバコ、ダークチョコレート、糖蜜トフィー。口当たりはフルボディでスパイシー、バニラ、ハチミツ、ドライアプリコットから、トーストオークの上で蜂蜜のように長く続く余韻へ。",
+      "name_fr": "Powers John's Lane Release",
+      "description_fr": "Un single pot still d'environ 12 ans, triple distillé et vieilli en fûts de bourbon américain avec une petite proportion de sherry Oloroso. Le nez est terreux — cuir et tabac sur du bois carbonisé, chocolat noir et toffee. En bouche, ample et épicé, avec vanille, miel et abricot sec, menant à une finale longue, mielleuse et persistante sur du chêne grillé.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=a_03c_1w2Rs",
+          "label": "Whiskey is a Journey — Powers 12 John's Lane Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kIAxwc6E1VQ",
+          "label": "Gwhisky — Powers 12 John's Lane REVIEW"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vYaPx2dBrlQ",
+          "label": "Whiskey Vault — A Hymn for Lower Proof: Powers John's Lane"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ydsO2yS8378",
+          "label": "Whiskey4Breakfast with Ronan — Powers John's Lane Single Pot Still"
+        }
+      ]
+    },
+    {
       "id": "rampur-indian-single-malt",
       "slug": "rampur-indian-single-malt",
       "name": "Rampur Indian Single Malt",
@@ -33135,6 +33465,106 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Y4dXX2MCeAg",
           "label": "Trenny and C"
+        }
+      ]
+    },
+    {
+      "id": "red-spot-15-yo",
+      "slug": "red-spot-15-yo",
+      "name": "Red Spot 15 Years Old",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Single pot still de 15 años madurado en barricas de bourbon americano, butts de jerez oloroso y casks de vino Marsala siciliano. Nariz de especias de pot still y fruta cocida —manzana horneada, mango y cereza negra— con avellana y cuero nuevo. En boca es dulce y afrutado por el Marsala, con pimienta negra machacada, roble americano y cebada malteada, hacia un final largo de fruta, especias y roble suave.",
+      "image": "/data/images/red-spot-15-yo.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": 15,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon, jerez oloroso y Marsala",
+      "distillery_id": "midleton",
+      "insertion_order": 349,
+      "featured": false,
+      "name_pt": "Red Spot 15 Years Old",
+      "description_pt": "Single pot still de 15 anos maturado em barricas de bourbon americano, butts de xerez oloroso e barricas de vinho Marsala siciliano. Nariz de especiarias de pot still e fruta cozinhada —maçã assada, manga e cereja preta— com avelã e couro novo. Na boca é doce e frutado pelo Marsala, com pimenta preta quebrada, carvalho americano e cevada malteada, para um final longo de fruta, especiarias e carvalho suave.",
+      "name_en": "Red Spot 15 Years Old",
+      "description_en": "A 15-year-old single pot still matured in American bourbon casks, Oloroso sherry butts and Sicilian Marsala wine casks. Nose of pot still spices and cooked fruit — baked apple, mango and black cherry — with hazelnut and new leather. The palate is sweet and fruity from the Marsala, with cracked black pepper, American oak and malted barley, towards a long finish of fruit, spice and gentle oak.",
+      "name_ja": "レッドスポット 15年",
+      "description_ja": "アメリカン・バーボン樽、オロロソ・シェリー・バット、シチリアのマルサラワイン樽で15年熟成したシングルポットスチル。ポットスチルのスパイスと煮た果実（焼きリンゴ、マンゴー、ブラックチェリー）、ヘーゼルナッツと新品のレザーの香り。マルサラ由来の甘くフルーティな口当たりに、粗びきブラックペッパー、アメリカンオーク、麦芽大麦。フルーツ、スパイス、穏やかなオークが長く続く余韻へ。",
+      "name_fr": "Red Spot 15 Ans",
+      "description_fr": "Un single pot still 15 ans d'âge vieilli en fûts de bourbon américain, fûts de sherry Oloroso et fûts de vin Marsala sicilien. Nez d'épices de pot still et de fruits cuits — pomme rôtie, mangue et cerise noire — avec noisette et cuir neuf. En bouche, doux et fruité grâce au Marsala, avec du poivre noir concassé, du chêne américain et de l'orge malté, vers une finale longue de fruits, d'épices et de chêne doux.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0lrLYZ7EU-Y",
+          "label": "The Whisky Diaries — Red Spot 15 Years Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JEoxpziZnWI",
+          "label": "Malt Muser — Red Spot 15 Years Old Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YJmhUmxxb20",
+          "label": "Three Minute Tasting — Red Spot 15 Year Old Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_Qsepibb6FU",
+          "label": "The Whiskey Chaser Brian — Red Spot 15 Yr Old Review"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R-VU7vzDRcU",
+          "label": "ひとくちウイスキー — レッドスポット15年"
         }
       ]
     },
@@ -45193,6 +45623,136 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=pMgBdfEXLSA",
           "label": "Tierri Whisky review"
+        }
+      ]
+    },
+    {
+      "id": "yellow-spot-12-yo",
+      "slug": "yellow-spot-12-yo",
+      "name": "Yellow Spot 12 Years Old",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Single pot still madurado íntegramente 12 años en tres tipos de barrica: bourbon americano, butts de jerez español y barricas de vino de Málaga. Nariz de miel, especias de pot still, café, chocolate con leche y crème brûlée, con manzana roja sobre roble tostado. En boca es dulce y complejo, con especias, melocotón meloso del vino de Málaga, uva roja y cebada seca en un final largo y elegante.",
+      "image": "/data/images/yellow-spot-12-yo.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon, jerez y vino de Málaga",
+      "distillery_id": "midleton",
+      "insertion_order": 348,
+      "featured": false,
+      "name_pt": "Yellow Spot 12 Years Old",
+      "description_pt": "Single pot still maturado integralmente durante 12 anos em três tipos de barrica: bourbon americano, butts de xerez espanhol e barricas de vinho de Málaga. Nariz de mel, especiarias de pot still, café, chocolate de leite e crème brûlée, com maçã vermelha sobre carvalho tostado. Na boca é doce e complexo, com especiarias, pêssego meloso do vinho de Málaga, uva vermelha e cevada seca num final longo e elegante.",
+      "name_en": "Yellow Spot 12 Years Old",
+      "description_en": "A single pot still fully matured for 12 years in three cask types: American bourbon, Spanish sherry butts and Spanish Malaga wine casks. Nose of honey, pot still spices, coffee, milk chocolate and crème brûlée, with red apple over toasted oak. The palate is sweet and complex, with spice, honeyed peach from the Malaga wine, red grape and dry barley in a long, sophisticated finish.",
+      "name_ja": "イエロースポット 12年",
+      "description_ja": "アメリカン・バーボン、スペイン・シェリー・バット、スペイン・マラガ・ワイン樽の3種類の樽で12年間熟成したシングルポットスチル。ハチミツ、ポットスチルのスパイス、コーヒー、ミルクチョコレート、クレームブリュレの香りに、トーストオークの上の赤リンゴ。口当たりは甘く複雑で、スパイス、マラガワイン由来の蜂蜜のようなピーチ、赤ぶどう、そしてドライな大麦が長くエレガントな余韻へ続きます。",
+      "name_fr": "Yellow Spot 12 Ans",
+      "description_fr": "Un single pot still entièrement vieilli 12 ans dans trois types de fûts : bourbon américain, fûts de sherry espagnol et fûts de vin de Málaga. Nez de miel, d’épices de pot still, de café, de chocolat au lait et de crème brûlée, avec de la pomme rouge sur du chêne grillé. En bouche, doux et complexe, avec des épices, une pêche mielleuse du vin de Málaga, du raisin rouge et de l’orge sèche, dans une finale longue et sophistiquée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-QMuQpfCSjg",
+          "label": "Whiskey Vault — Yellow Spot 12 Review with Redbreast 12 comparison"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IxvIECivs4I",
+          "label": "Whiskey is a Journey — Yellow Spot Single Pot Still"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hQXLe1cGEvQ",
+          "label": "Ralfy — Yellow Spot @ 46% (review 854)"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lqkMr1G2cMs",
+          "label": "Whisky.com — Yellow Spot 12 Years Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CaKj3oX2pq8",
+          "label": "Whisky o Muerte — Yellow Spot 12 años, cata y opinión"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MOI04JNV3CM",
+          "label": "El Whisky Bar — Yellow Spot 12 años, Single Pot Still"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zLMMOI7cmUQ",
+          "label": "Los Whiskochos — Probemos Yellow Spot"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yka36fp9R4I",
+          "label": "La Chaîne du Whisky — Green Spot & Yellow Spot"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OYtuXPaZHFM",
+          "label": "ひとくちウイスキー — イエロースポット12年"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=X5ytbHLSMuU",
+          "label": "Porção dos Anjos Whisky — Redbreast 12 vs Yellow Spot 12"
         }
       ]
     }

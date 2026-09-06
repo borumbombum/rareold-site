@@ -230,11 +230,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Redbreast Lustau Edition - Midleton
 ✅ Redbreast Cask Strength - Midleton
 ✅ Powers Gold Label - Midleton
-Powers John's Lane Release - Midleton
-Green Spot - Midleton
-Yellow Spot 12 YO - Midleton
-Red Spot 15 YO - Midleton
-Midleton Very Rare - Midleton
+✅ Powers John's Lane Release - Midleton
+✅ Green Spot - Midleton
+✅ Yellow Spot 12 YO - Midleton
+✅ Red Spot 15 YO - Midleton
+✅ Midleton Very Rare - Midleton
 Method and Madness Single Pot Still - Midleton
 Teeling Small Batch - Teeling
 Teeling Single Malt - Teeling

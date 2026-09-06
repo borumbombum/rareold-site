@@ -1,5 +1,13 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-06 — Batch of 5 Midleton pot still whiskies (Powers John's Lane, Green Spot, Yellow Spot 12, Red Spot 15, Midleton Very Rare)
+
+- **A single-quote inside a single-quoted JS string in my seed-append script** broke the first write (`'Powers John's Lane Release'`). Caught by the script not running; rewrote the fragile strings with double quotes / backticks before executing. Lesson: never hand-roll sed-style quoting for brand names with apostrophes (John's Lane, DEGUST'Emoi) — use double-quoted JS strings in the append script.
+- **The export schema evolved under me.** The add-product skill says `data:export` embeds `influencer_videos` on each product — the current `db-export.mjs` instead writes a flat `src/lib/data/influencer_videos.json` array AND a per-product `videos` key on `whiskies.json` (plus a nested `distillery` object). Verify counts via `w.videos` on the export (build-time JSON), not a hardcoded field name.
+- **`item` vs `whiskies.json` keys:** the seed entries still carry `featured`, `url`, `distillery_id` and flat `name_pt/description_pt/...` fields; the export flattens them differently (`distillery` object, `featured` boolean, `insertion_order`). Don't confuse the two shapes when verifying a batch.
+- **The queue's first unticked lines were one distillery (Midleton), not five.** De-dup + reuse meant zero new distillery records — a whole skills step (Step 2) was skippable once de-dup confirmed `midleton` exists.
+- **First model run couldn't render images** — the research subagents had already HTTP-verified every image URL (200) and picked studio product shots, so I shipped without a visual check. Trust curl 200 + source reputation; note the limitation in the task file.
+
 ## 2026-09-03 — Homepage infinite scroll
 
 - **Drafted the observer effect in several passes with junk left over** (an unused `origin()`

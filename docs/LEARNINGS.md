@@ -1,5 +1,15 @@
 # Learnings
 
+## 2026-09-06 — Batch: 5 Midleton pot still whiskies (Powers John's Lane, Green/Yellow/Red Spot, Midleton Very Rare)
+
+- **Reuse-a-distillery batch is the fastest add-product shape.** All 5 queue lines pointed at `midleton` (already in the DB from the prior Irish batch), so Step 2 (distillery creation), map verification, and origin work were all skipped. Check de-dup on the whole batch before researching — if one distillery serves the batch, parallel video search is the only long pole.
+- **One video-search subagent per product, then re-verify 100% myself.** Each agent ran native YT + Invidious + websearch per language and returned every verified exact-expression match. Before seeding I re-ran `yt-verify.mjs` over all 35 IDs — cheap, catches agent drift, and gives an immutable audit trail. 35/35 live with correct language + exact-expression oEmbed titles.
+- **Spot-range coverage is uneven but honest-searchable.** classic Green Spot is the richest (en4/es1/pt1/ja3/fr1); Yellow Spot 12 gets strong en/es but one each pt/ja/fr; Powers John's Lane, Red Spot 15 and Midleton Very Rare are en-only (plus ja/pt scraps). No exact-expression es/fr reviews exist for the pricier bottles — English top-up handles the row at runtime. Never pad.
+- **Judgment calls on multi-whisky videos:** singles were a lead subject we accepted (Redbreast 12 vs Yellow Spot 12 pt; Green Spot & Yellow Spot fr; Yellow Spot 12 with Redbreast comparison en), but a **3-whisky roundup** (Blue + Yellow + Green Spot es) was rejected as not-a-dedicated-review. Consistent with the previous batch's RB-CS-vs comparison precedent.
+- **oEmbed is the language ground truth.** Several "Spanish-looking" candidates were English/Japanese channels under YouTube auto-translated titles; oEmbed titles + channel names resolved it.
+- **Image sourcing this batch:** `img.thewhiskyexchange.com` (Powers), `martinsofflicence.ie` CDN (Green Spot), `mitchellandson.com` official CDN (Yellow/Red Spot), S3 product shot (Midleton Very Rare) — all 200 + converted cleanly to 500×500 webp.
+- **Apostrophes in brand strings (John's Lane, DEGUST'Emoi) are the #1 seed-script bug** — always double-quote JS strings containing them.
+
 ## 2026-09-03 — Homepage infinite scroll (IntersectionObserver)
 
 - **`IntersectionObserver` + `rootMargin` is the cleanest way to pre-load before the bottom.** A
