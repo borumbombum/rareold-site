@@ -216,15 +216,15 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Timorous Beastie - Douglas Laing
 ✅ The Peat Monster - Compass Box
 ✅ The Spice Tree - Compass Box
-Hedonism - Compass Box
-Haig Club Clubman - Cameronbridge
-Girvan Patent Still No. 4 - Girvan
+✅ Hedonism - Compass Box
+✅ Haig Club Clubman - Cameronbridge
+✅ Girvan Patent Still No. 4 - Girvan
 
 ## Ireland
 
 ✅ Jameson Irish Whiskey - Midleton
-Jameson Caskmates Stout Edition - Midleton
-Jameson Black Barrel - Midleton
+✅ Jameson Caskmates Stout Edition - Midleton
+✅ Jameson Black Barrel - Midleton
 Jameson 18 YO - Midleton
 Redbreast 12 YO - Midleton
 Redbreast Lustau Edition - Midleton

@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-05T03:10:24.778Z",
+  "generatedAt": "2026-09-06T00:20:31.452Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -13867,6 +13867,82 @@
       ]
     },
     {
+      "id": "girvan-patent-still-no-4",
+      "slug": "girvan-patent-still-no-4",
+      "name": "Girvan Patent Still No. 4",
+      "distillery": {
+        "id": "girvan",
+        "name": "Girvan",
+        "name_es": "Girvan",
+        "name_pt": "Girvan",
+        "name_en": "Girvan",
+        "name_ja": "ガーヴァン",
+        "name_fr": "Girvan"
+      },
+      "description": "El single grain de entrada de la gama Girvan Patent Still, que toma su nombre del 'No. 4', el alambique de columna ('Apparatus', 'Apps') que la destilería inauguró en 1992 para destilar al vacío, un método pionero que produce un destilado excepcionalmente limpio y ligero. Elaborado con una mezcla de trigo y cebada malteada y madurado en barricas de bourbon de primer y segundo llenado. Suave y dulce, con cereal, vainilla, fruta confitada y un toque de caramelo.",
+      "image": "/data/images/girvan-patent-still-no-4.webp",
+      "origin": "scotland",
+      "region": "Lowlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 42,
+      "cask": "Bourbon",
+      "distillery_id": "girvan",
+      "insertion_order": 338,
+      "featured": false,
+      "name_pt": "Girvan Patent Still No. 4",
+      "description_pt": "O single grain de entrada da gama Girvan Patent Still, que deve o nome ao 'No. 4', o alambique de coluna ('Apparatus', 'Apps') que a destilaria inaugurou em 1992 para destilar a vácuo, um método pioneiro que produz um destilado excecionalmente limpo e leve. Elaborado com uma mistura de trigo e cevada malteada e maturado em barricas de bourbon de primeiro e segundo enchimento. Suave e doce, com cereal, baunilha, fruta cristalizada e um toque de caramelo.",
+      "name_en": "Girvan Patent Still No. 4",
+      "description_en": "The entry-level single grain in the Girvan Patent Still range, named for the 'No. 4' column still ('Apparatus', 'Apps') that the distillery commissioned in 1992 to distil under vacuum, a pioneering method that produces an exceptionally clean, light spirit. Made from a mash of wheat and malted barley and matured in first- and refill bourbon barrels. Soft and sweet, with cereal, vanilla, candied fruit and a hint of caramel.",
+      "name_ja": "ガーヴァン・パテントスチル No.4",
+      "description_ja": "ガーヴァン・パテントスチル・シリーズのエントリーシングルグレーン。1992年に蒸溜所が導入した真空蒸留用コラムスチル「No.4（アプリ）」にちなんで名付けられた。卓越した清らかさと軽さを持つ蒸留方法の先駆け。小麦と麦芽大麦を仕込み、バーボン樽（ファースト／リフィル）で熟成。柔らかく甘やかで、シリアル、バニラ、砂糖漬けフルーツ、ほのかなキャラメル。",
+      "name_fr": "Girvan Patent Still No. 4",
+      "description_fr": "Le single grain d'entrée de gamme de la distillerie Girvan, nommé d'après le « No. 4 », l'alambic à colonne ('Apparatus', 'Apps') que la distillerie a installé en 1992 pour distiller sous vide, une méthode pionnière qui produit un distillat exceptionnellement propre et léger. Élaboré à partir d'un mélange de blé et d'orge maltée et vieilli en fûts de bourbon de première et de seconde mise. Doux et suave, avec des céréales, de la vanille, des fruits confits et une pointe de caramel.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Qja6QIB9skc",
+          "label": "Whisky.com"
+        }
+      ]
+    },
+    {
       "id": "glen-deveron-10-yo",
       "slug": "glen-deveron-10-yo",
       "name": "Glen Deveron 10 YO",
@@ -19641,6 +19717,136 @@
       ]
     },
     {
+      "id": "haig-club-clubman",
+      "slug": "haig-club-clubman",
+      "name": "Haig Club Clubman",
+      "distillery": {
+        "id": "cameronbridge",
+        "name": "Cameronbridge",
+        "name_es": "Cameronbridge",
+        "name_pt": "Cameronbridge",
+        "name_en": "Cameronbridge",
+        "name_ja": "キャメロンブリッジ",
+        "name_fr": "Cameronbridge"
+      },
+      "description": "Single grain whisky de Cameronbridge, la segunda expresión de la casa Haig Club, creada para acercar el whisky a los principiantes. Destilado en alambique de columna a partir de trigo (90%) y malta de cebada (10%), y madurado en barricas de bourbon de primer llenado, además de barricas recargadas y rejuvenecidas. Dulce y suave, con vainilla, bizcocho, coco, mantequilla, miel y un toque de canela.",
+      "image": "/data/images/haig-club-clubman.webp",
+      "origin": "scotland",
+      "region": "Lowlands",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon",
+      "distillery_id": "cameronbridge",
+      "insertion_order": 337,
+      "featured": false,
+      "name_pt": "Haig Club Clubman",
+      "description_pt": "Um single grain whisky de Cameronbridge, a segunda expressão da casa Haig Club, criada para aproximar o whisky de quem está a começar. Destilado em alambique de coluna a partir de trigo (90%) e malte de cevada (10%), e maturado em barricas de bourbon de primeiro enchimento, além de barricas reutilizadas e rejuvenescidas. Doce e suave, com baunilha, pão-de-ló, coco, manteiga, mel e um toque de canela.",
+      "name_en": "Haig Club Clubman",
+      "description_en": "A single grain whisky from Cameronbridge and the second expression from Haig Club, created to ease beginners into whisky. Column-distilled from 90% wheat and 10% malted barley, matured in first-fill bourbon barrels plus refill and rejuvenated casks. Sweet and soft, with vanilla, sponge cake, coconut, butter, honey and a hint of cinnamon.",
+      "name_ja": "ヘイグ・クラブ クラブマン",
+      "description_ja": "キャメロンブリッジ産のシングルグレーンウイスキーで、ヘイグ・クラブの2番目のリリース。ウイスキー初心者にも楽しめるよう造られた。小麦90%・麦芽大麦10%をコラムスチルで蒸留し、バーボン樽（ファーストフィル）、リフィル樽、再生樽で熟成。甘くまろやかで、バニラ、スポンジケーキ、ココナッツ、バター、ハチミツ、シナモンのニュアンス。",
+      "name_fr": "Haig Club Clubman",
+      "description_fr": "Un single grain whisky de Cameronbridge et la deuxième expression de la maison Haig Club, créée pour initier les débutants au whisky. Distillé en colonne à partir de 90 % de blé et 10 % d'orge maltée, vieilli en fûts de bourbon de première mise ainsi qu'en fûts réutilisés et régénérés. Doux et souple, avec de la vanille, du génoise, de la noix de coco, du beurre, du miel et une pointe de cannelle.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2q5l5aIavXQ",
+          "label": "WhiskeyAntics"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DWW7lfMVFtU",
+          "label": "John's Drams"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZvyfER6LWnI",
+          "label": "Whisky Wednesday"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qIuNekAW2pc",
+          "label": "THE WHISKY COUCH"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=A2ifL57tV2E",
+          "label": "DON LICORES"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ocE9ByhJhOY",
+          "label": "cristian gamez"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vWLjmodpp1Y",
+          "label": "WdeWhisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=j2cbIr_Nhek",
+          "label": "Maison Malin"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6P_O_5wzlc4",
+          "label": "榎商店"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o5DxhmKrHkA",
+          "label": "ひとくちウイスキー"
+        }
+      ]
+    },
+    {
       "id": "hakushu-12-year-old",
       "slug": "hakushu-12-year-old",
       "name": "Hakushu 12 Years Old",
@@ -20417,6 +20623,112 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=h28u0Fq82nM",
           "label": "Hazelburn 12 review | WhiskyBrasil"
+        }
+      ]
+    },
+    {
+      "id": "hedonism",
+      "slug": "hedonism",
+      "name": "Hedonism",
+      "distillery": {
+        "id": "compass-box",
+        "name": "Compass Box",
+        "name_es": "Compass Box",
+        "name_pt": "Compass Box",
+        "name_en": "Compass Box",
+        "name_ja": "コンパス・ボックス",
+        "name_fr": "Compass Box"
+      },
+      "description": "Un blended grain whisky de Compass Box elaborado exclusivamente con whiskies de grano escoceses de gran carácter, sobre todo de Cameronbridge, madurados en barricas de bourbon recargadas. Ligero, cremoso y floral, con vainilla, naranja confitada, mantequilla, melocotón, higos, café y un carácter tropical, dulce y suave. Sin colorante añadido y sin filtrar en frío.",
+      "image": "/data/images/hedonism.webp",
+      "origin": "scotland",
+      "region": "Blended Scotch",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Bourbon",
+      "distillery_id": "compass-box",
+      "insertion_order": 336,
+      "featured": false,
+      "name_pt": "Hedonism",
+      "description_pt": "Um blended grain whisky da Compass Box elaborado exclusivamente com whiskies de grão escoceses de caráter excecional, sobretudo de Cameronbridge, amadurecidos em barricas de bourbon reutilizadas. Leve, cremoso e floral, com baunilha, laranja cristalizada, manteiga, pêssego, figos, café e um caráter tropical, doce e suave. Sem corante e sem filtragem a frio.",
+      "name_en": "Hedonism",
+      "description_en": "A Compass Box blended grain whisky made exclusively from characterful single grain Scotch whiskies, chiefly Cameronbridge, matured in refill bourbon barrels. Light, creamy and floral, with vanilla, candied orange, butter, peach, figs, coffee and a sweet, soft tropical character. No added colour, non-chill filtered.",
+      "name_ja": "ヘドニズム",
+      "description_ja": "キャメロンブリッジを中心とした優れたスコッチ・シングルグレーンウイスキーのみをブレンドし、バーボン樽（リフィル）で熟成したコンパス・ボックスのブレンデッドグレーンウイスキー。軽やかでクリーミー、フローラルな香りにバニラ、オレンジピール、バター、ピーチ、イチジク、コーヒー、トロピカルで甘く柔らかな味わい。添加着色なし、ノンチルフィルタード。",
+      "name_fr": "Hedonism",
+      "description_fr": "Un blended grain whisky de Compass Box élaboré exclusivement à partir de whiskies de grain écossais au caractère affirmé, principalement de Cameronbridge, vieillis en fûts de bourbon réutilisés. Léger, crémeux et floral, avec de la vanille, de l'orange confite, du beurre, de la pêche, des figues, du café et un caractère tropical, doux et souple. Sans colorant, non filtré à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2p7Fvla7oXw",
+          "label": "The Whisky Enthusiast"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QhGA70vH0N4",
+          "label": "Scotch Test Dummies"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gu9qkffr-Hc",
+          "label": "Whisky Wednesday"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jZzx4Y9mAwg",
+          "label": "Jason Debly"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O7x9K3DtOUc",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=czEP_tgrMlY",
+          "label": "WhiskyBrasil.com"
         }
       ]
     },
@@ -23373,6 +23685,314 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=gvwx7tbknEA",
           "label": "Tierri Whisky"
+        }
+      ]
+    },
+    {
+      "id": "jameson-black-barrel",
+      "slug": "jameson-black-barrel",
+      "name": "Jameson Black Barrel",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "El Jameson más intenso de la gama, un blended de whiskey de pote y de grano en el que se seleccionan a mano barricas de bourbon de primer llenado de 'doble carbonización': se vuelven a quemar por dentro para despertar más sabor de la madera, con una pequeña aportación de barricas de jerez. Caramelo quemado, miel, vainilla, plátano flambeado, especias dulces, moca y un final de roble tostado intenso. Sin filtrar en frío.",
+      "image": "/data/images/jameson-black-barrel.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon de doble carbonización",
+      "distillery_id": "midleton",
+      "insertion_order": 340,
+      "featured": false,
+      "name_pt": "Jameson Black Barrel",
+      "description_pt": "O Jameson mais intenso da gama, um blended de whiskey de pot still e de grão em que se selecionam à mão barricas de bourbon de primeiro enchimento de 'dupla carbonização': voltam a ser queimadas por dentro para despertar mais sabor da madeira, com um pequeno aporte de barricas de xerez. Caramelo queimado, mel, baunilha, banana flambada, especiarias doces, moca e um final de carvalho tostado intenso. Sem filtragem a frio.",
+      "name_en": "Jameson Black Barrel",
+      "description_en": "The most intense Jameson, a blend of pot still and grain whiskey built on hand-selected first-fill bourbon barrels that are 'double charred' - re-fired inside to wake up more flavour from the wood - with a small contribution of sherry casks. Burnt caramel, honey, vanilla, flambéed banana, sweet spices, mocha and an intense toasted-oak finish. Non-chill filtered.",
+      "name_ja": "ジェムソン ブラックバレル",
+      "description_ja": "最も力強いジェムソン。ポットスチルとグレーンのブレンドで、ハンドセレクトしたファーストフィル・バーボン樽に再度チャー（焼き入れ）を施し、ウッディな風味を引き出した後、少量のシェリー樽も加える。焦がしキャラメル、ハチミツ、バニラ、フランベしたバナナ、甘いスパイス、モカ、そして力強いトーストオークの余韻。ノンチルフィルタード。",
+      "name_fr": "Jameson Black Barrel",
+      "description_fr": "Le Jameson le plus intense de la gamme, un blend de pot still et de grain fondé sur des fûts de bourbon de première mise sélectionnés à la main et « double charred » (double carbonisation) : re-calcinés à l'intérieur pour réveiller davantage le boisé, avec une petite part de fûts de sherry. Caramel brûlé, miel, vanille, banane flambée, épices douces, moka et une finale intense de chêne grillé. Non filtré à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2VzKkt4Dag4",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=U0TZe4Ie-wk",
+          "label": "Erik Wait"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZqAkwHEm7lA",
+          "label": "Whisky Lock"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=v-dZL3lBbZE",
+          "label": "Whisky Wednesday"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0Ycdz2Evu2I",
+          "label": "Catanes"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Mn7iWlo-vBA",
+          "label": "Piojo Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=p6IEANjlWqA",
+          "label": "WHISKY A Puertas Cerradas"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xZMiQXojZ24",
+          "label": "Whisky Argentina"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4XRIA1KKJls",
+          "label": "ウイスキー大好き"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AbtcowhGLi8",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CFPc4jeqkrY",
+          "label": "BAR MAR駆け出しバーテンダー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=L_qUscrtyFU",
+          "label": "酒チューブ"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=G4sMDi2iz9w",
+          "label": "Além do Rótulo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=a82d0pCfmwk",
+          "label": "Porção dos Anjos"
+        }
+      ]
+    },
+    {
+      "id": "jameson-caskmates-stout",
+      "slug": "jameson-caskmates-stout",
+      "name": "Jameson Caskmates Stout",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Creado junto a la brasería Franciscan Well de Cork: Jameson envía sus barricas de roble americano a la cervecería y las recupera apenas unas semanas después, cargadas de los matices de la stout. Sobre la base clásica de Jameson - vainilla, cítricos dulces y especias - se acumulan capas de chocolate, café, caramelo y vainilla del stout, con un final más largo y aterciopelado. Sin filtrar en frío.",
+      "image": "/data/images/jameson-caskmates-stout.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Bourbon con terminado en barricas de stout",
+      "distillery_id": "midleton",
+      "insertion_order": 339,
+      "featured": false,
+      "name_pt": "Jameson Caskmates Stout",
+      "description_pt": "Criado com a cervejeira Franciscan Well, de Cork: a Jameson envia as suas barricas de carvalho americano para a cervejeira e recupera-as apenas algumas semanas depois, carregadas dos matizes da stout. Sobre a base clássica de Jameson - baunilha, citrinos doces e especiarias - acumulam-se camadas de chocolate, café, caramelo e baunilha da stout, com um final mais longo e aveludado. Sem filtragem a frio.",
+      "name_en": "Jameson Caskmates Stout",
+      "description_en": "Created with the Franciscan Well brewery in Cork: Jameson ships its American oak barrels to the brewery and gets them back just a few weeks later, loaded with stout character. On the classic Jameson base of vanilla, sweet citrus and spice settle layers of chocolate, coffee, caramel and stout-vanilla notes, with a longer, velvet finish. Non-chill filtered.",
+      "name_ja": "ジェムソン カスクメイツ スタウト",
+      "description_ja": "コークのフランシスカン・ウェル醸造所との共同企画。ジェムソンはアメリカンオークの樽を醸造所へ送り、数週間後にスタウトの風味を染み込ませて戻す。定番ジェムソンのバニラ、甘い柑橘、スパイスのベースに、チョコレート、コーヒー、キャラメル、スタウト由来のバニラが重なり、より長くビロードのような余韻。ノンチルフィルタード。",
+      "name_fr": "Jameson Caskmates Stout",
+      "description_fr": "Créé avec la brasserie Franciscan Well de Cork : Jameson envoie ses fûts de chêne américain à la brasserie et les récupère quelques semaines plus tard, chargés de caractère de stout. Sur la base classique Jameson de vanille, d'agrumes doux et d'épices se posent des couches de chocolat, de café, de caramel et de notes de vanille du stout, avec une finale plus longue et veloutée. Non filtré à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6-a9S6sgM58",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9dFkcoBxfSc",
+          "label": "The Single Malt Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JPhBqCnczH8",
+          "label": "Jeff Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pZMRzTVEQsU",
+          "label": "Barley Lads"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=H-USYU0JE0A",
+          "label": "Whisky Argentina"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tU1EaSRXTi4",
+          "label": "The Whiskey Nerd"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uabqrN4B6Zk",
+          "label": "Whiskey Dealer"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zazhn4NyCIg",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QrrFVNttJyg",
+          "label": "ウイスキー藤村"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R0M5Hpto-9A",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=awX0AJN4aKY",
+          "label": "宅飲みバーTakeo"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qcXku0vyFtU",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=U2Dy4UXexMA",
+          "label": "Porção dos Anjos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=a82d0pCfmwk",
+          "label": "Porção dos Anjos"
         }
       ]
     },
