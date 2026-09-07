@@ -1,5 +1,14 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-07 — Batch of 5 Irish whiskies (Pearse Lyons The Original, Slane, Tullamore D.E.W. Original, Tullamore D.E.W. 12, Kilbeggan Small Batch Rye)
+
+- **The queue can contain fabricated/nonexistent products.** "The Dublin Liberties Dead Man's Punch" does not exist anywhere — the real Dublin Liberties range is Oak Devil, Copper Alley, Murder Lane, Keeper's Coin, King of Hell, Dead Rabbit and Dubliner. When a research agent can't verify a product exists, don't fabricate specs — flag it and ask the user. Skipped the line, took the next real product (Kilbeggan Small Batch Rye).
+- **The `yt-search` agent was right to distrust one of its own pt picks.** For Tullamore D.E.W. Original it listed `9k6lOmTC-6c` ("Review Tullamore Dew **12** anos" — Bebendo Whisky) as a "hybrid Original vs 12" pt video. The oEmbed title ground truth clearly says it's the 12-year, so it belongs on the 12 YO product, never the Original. Always trust the oEmbed title, not the agent's soft justification.
+- **A general brand "解説"/explanation video isn't a dedicated review of a specific bottling.** `dRt5sJNRbIY` (晩ジロー "タラモアデュー解説") is a brand overview — not confirmed as the Original or the 12. Dropped it from both products; both had 3 solid ja videos without it.
+- **Same channel/video across two products is fine, but only when it actually matches each.** `_EK6apR1xx4` (La Casa del Whisky) is a confirmed Original/flagship review (use on Original es), but its title never mentions the 12, so it was NOT used on the 12 product.
+- **Niche Irish single expressions have near-zero non-English YouTube coverage.** Pearse Lyons (en only), Slane (en only), Kilbeggan Small Batch Rye (en only), Tullamore 12 (en/pt/ja), Tullamore Original (all five). This is honest-search reality, not a gap — English top-up fills the row at runtime. Never pad.
+- **The `whiskies.json` export is an object `{ source, generatedAt, whiskies }`, not a bare array** — my first verify assumed an array. Use `req.whiskies.find(...)` and read `p.distillery.name` (nested object) and `p.videos` (embedded), while the flat `influencer_videos.json` is the authoritative per-product per-language count.
+
 ## 2026-09-06 — Batch of 5 Midleton pot still whiskies (Powers John's Lane, Green Spot, Yellow Spot 12, Red Spot 15, Midleton Very Rare)
 
 - **A single-quote inside a single-quoted JS string in my seed-append script** broke the first write (`'Powers John's Lane Release'`). Caught by the script not running; rewrote the fragile strings with double quotes / backticks before executing. Lesson: never hand-roll sed-style quoting for brand names with apostrophes (John's Lane, DEGUST'Emoi) — use double-quoted JS strings in the append script.

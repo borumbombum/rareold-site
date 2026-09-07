@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-07T00:10:54.854Z",
+  "generatedAt": "2026-09-07T14:55:05.945Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -26019,6 +26019,100 @@
       ]
     },
     {
+      "id": "kilbeggan-small-batch-rye",
+      "slug": "kilbeggan-small-batch-rye",
+      "name": "Kilbeggan Small Batch Rye",
+      "distillery": {
+        "id": "kilbeggan",
+        "name": "Kilbeggan Distillery",
+        "name_es": "Kilbeggan Distillery",
+        "name_pt": "Kilbeggan Distillery",
+        "name_en": "Kilbeggan Distillery",
+        "name_ja": "キルベガン蒸留所",
+        "name_fr": "Kilbeggan Distillery"
+      },
+      "description": "Whisky irlandés de centeno de edición limitada, con un 30% de rye en el mash bill, doble destilado en alambiques de cobre. Nariz de frutas verdes suaves, crema, pimienta blanca, cítricos y jengibre. En boca, una crema de vainilla texturizada con especias florales, clavo y orejón que crece hacia un crescendo de especias cálidas y sequedad de galleta. Final inmenso y matizado, mantecoso, que retorna a la vainilla con especias persistentes. 43% ABV.",
+      "image": "/data/images/kilbeggan-small-batch-rye.webp",
+      "origin": "ireland",
+      "region": "Westmeath",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Ex-bourbon",
+      "distillery_id": "kilbeggan",
+      "insertion_order": 360,
+      "featured": false,
+      "name_pt": "Kilbeggan Small Batch Rye",
+      "description_pt": "Whisky irlandês de centeio de edição limitada, com cerca de 30% de centeio no mash bill, duplamente destilado em alambiques de cobre. Nariz de frutas verdes suaves, creme, pimenta branca, citrinos e gengibre. Na boca, um creme de baunilha texturizado com especiarias florais, cravo e damasco que cresce para um crescendo de especiarias quentes e secura de bolacha. Final imenso e nuançado, amanteigado, que regressa à baunilha com especiarias persistentes. 43% ABV.",
+      "name_en": "Kilbeggan Small Batch Rye",
+      "description_en": "A limited-edition Irish rye whiskey with around 30% rye in the mash bill, double-distilled in copper pot stills. A nose of soft green fruit, cream, white pepper, citrus and ginger. A textured vanilla-cream palate with floral spice, clove and apricot that builds to a crescendo of warm spice and biscuit dryness. An immense, nuanced, buttery finish that returns to vanilla with lingering spice. 43% ABV.",
+      "name_ja": "キルベガン スモールバッチ ライ",
+      "description_ja": "マッシュビルの約30%にライ麦を使用した限定生産のアイリッシュライウイスキー。銅製ポットスチルで二重蒸留されます。柔らかな青い果実、クリーム、ホワイトペッパー、シトラス、ジンジャーの香り。テクスチャーのあるバニラクリームの味わいにフローラルなスパイス、クローブ、アプリコットが広がり、温かいスパイスとビスケットのドライ感のクレッシェンドへと高まります。バニラへと回帰しスパイスが長く残る、深みのあるバターのような余韻。アルコール度数43%。",
+      "name_fr": "Kilbeggan Small Batch Rye",
+      "description_fr": "Un whiskey irlandais de seigle en édition limitée, avec environ 30 % de seigle dans le mash bill, double distillation en alambics de cuivre. Un nez de fruits verts doux, de crème, de poivre blanc, d'agrumes et de gingembre. Une bouche de crème de vanille texturée avec des épices florales, du clou de girofle et de l'abricot, qui monte vers un crescendo d'épices chaudes et de sécheresse de biscuit. Finale immense et nuancée, beurrée, qui revient à la vanille avec des épices persistantes. 43 % ABV.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=09lHLHP9gcg",
+          "label": "The Whiskey Dictionary — Kilbeggan Small Batch Rye"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AKkHpJeBkIk",
+          "label": "The Barley Lads — Kilbeggan Small Batch Rye #23"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FkTD-UR8Krs",
+          "label": "Whiskey Vault — Kilbeggan Small Batch Rye Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Lk59Zg4wppU",
+          "label": "The Whiskey Shed — Kilbeggan Small Batch Rye, An Irishman's Opinion"
+        }
+      ]
+    },
+    {
       "id": "kilchoman-loch-gorm",
       "slug": "kilchoman-loch-gorm",
       "name": "Kilchoman Loch Gorm",
@@ -32621,6 +32715,94 @@
       ]
     },
     {
+      "id": "pearse-lyons-original",
+      "slug": "pearse-lyons-original",
+      "name": "Pearse Lyons The Original",
+      "distillery": {
+        "id": "pearse-lyons",
+        "name": "Pearse Lyons Distillery",
+        "name_es": "Pearse Lyons Distillery",
+        "name_pt": "Pearse Lyons Distillery",
+        "name_en": "Pearse Lyons Distillery",
+        "name_ja": "ピアース・ライオンズ蒸留所",
+        "name_fr": "Pearse Lyons Distillery"
+      },
+      "description": "El blended insignia de Pearse Lyons Distillery, madurado en barricas de ex-bourbon de Town Branch, en Kentucky. Nariz cítrica con un toque de humo y tonos mielados de cereal. En boca es suave y sedosa, con notas de menta, chocolate con leche, vainilla, roble ligero y caramelo. Final crujiente y especiado, con un toque de miel y un carácter maltoso equilibrado. 43% ABV.",
+      "image": "/data/images/pearse-lyons-original.webp",
+      "origin": "ireland",
+      "region": "Dublin",
+      "age": 5,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Ex-bourbon",
+      "distillery_id": "pearse-lyons",
+      "insertion_order": 356,
+      "featured": false,
+      "name_pt": "Pearse Lyons The Original",
+      "description_pt": "O blended de assinatura da Pearse Lyons Distillery, amadurecido em barricas de ex-bourbon de Town Branch, em Kentucky. Nariz cítrica com um toque de fumo e tons melados de cereal. Na boca é suave e sedosa, com notas de menta, chocolate ao leite, baunilha, carvalho leve e caramelo. Final crocante e especiado, com um toque de mel e um caráter maltado equilibrado. 43% ABV.",
+      "name_en": "Pearse Lyons The Original",
+      "description_en": "The flagship blend of Pearse Lyons Distillery, matured in ex-bourbon barrels from Town Branch, Kentucky. A citrusy nose with a touch of smoke and honeyed cereal notes. A smooth, silky palate with mint, milk chocolate, vanilla, light oak and caramel. A crisp, spicy finish with a hint of honey and a balanced malty character. 43% ABV.",
+      "name_ja": "ピアース・ライオンズ ジ・オリジナル",
+      "description_ja": "ピアース・ライオンズ蒸留所の看板ブレンド。ケンタッキー州タウン・ブランチのバーボン樽で熟成されています。シトラスに軽いスモークとハチミツのような穀物の香り。口当たりは滑らかでシルキー、ミント、ミルクチョコレート、バニラ、軽いオークとキャラメルの風味。キリッとしたスパイシーな余韻にハチミツの風味とバランスの取れたモルティな味わい。アルコール度数43%。",
+      "name_fr": "Pearse Lyons The Original",
+      "description_fr": "Le blend signature de Pearse Lyons Distillery, vieilli en fûts de bourbon usagés de Town Branch, dans le Kentucky. Un nez d'agrumes avec une touche de fumée et des notes céréalières mielleuses. Une bouche douce et soyeuse, avec de la menthe, du chocolat au lait, de la vanille, du chêne léger et du caramel. Finale croustillante et épicée, avec une pointe de miel et un caractère malté équilibré. 43 % ABV.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KFJCqN5zZcE",
+          "label": "Whiskey Vault — Pearse Original Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=THsC09WlR-I",
+          "label": "Whisky Shared — Pearse Lyons 5, 7 & 12 Year Tasting"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kvokcoYpgEM",
+          "label": "WhiskyJason #74 — Pearse Irish Whiskey The Original"
+        }
+      ]
+    },
+    {
       "id": "penderyn-madeira",
       "slug": "penderyn-madeira",
       "name": "Penderyn Madeira",
@@ -35695,6 +35877,100 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=cTqu3FF-o5w",
           "label": "Shetland Reel Blended Malt Scotch Whisky — Ale Degustation"
+        }
+      ]
+    },
+    {
+      "id": "slane-irish-whiskey",
+      "slug": "slane-irish-whiskey",
+      "name": "Slane Irish Whiskey",
+      "distillery": {
+        "id": "slane",
+        "name": "Slane Distillery",
+        "name_es": "Slane Distillery",
+        "name_pt": "Slane Distillery",
+        "name_en": "Slane Distillery",
+        "name_ja": "スレイン蒸留所",
+        "name_fr": "Slane Distillery"
+      },
+      "description": "Whisky irlandés de mezcla, complejo y suave, madurado en tres tipos de barrica: roble virgen americano, barricas de whiskey americano sazonadas y barricas de Oloroso de Jerez. En nariz ofrece fruta compleja con toques de caramelo, mantequilla y vainilla, con especias y roble tostado. En boca es especiado al inicio pero rápidamente se endulza con caramelo intenso, vainilla y caramelo de mantequilla sobre frutos secos. Final persistente, con frutos secos y azúcar de madera caramelizada. 40% ABV.",
+      "image": "/data/images/slane-irish-whiskey.webp",
+      "origin": "ireland",
+      "region": "Meath",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Triple cask (roble virgen, sazonado, Oloroso)",
+      "distillery_id": "slane",
+      "insertion_order": 357,
+      "featured": false,
+      "name_pt": "Slane Irish Whiskey",
+      "description_pt": "Whisky irlandês de mistura, complexo e suave, amadurecido em três tipos de barrica: carvalho virgem americano, barricas de whiskey americano temperadas e barricas de Oloroso de Jerez. No nariz oferece fruta complexa com toques de caramelo, manteiga e baunilha, com especiarias e carvalho tostado. Na boca é especiado no início mas rapidamente adocica com caramelo intenso, baunilha e caramelo de manteiga sobre frutos secos. Final persistente, com frutos secos e açúcar de madeira caramelizada. 40% ABV.",
+      "name_en": "Slane Irish Whiskey",
+      "description_en": "A complex yet smooth blended Irish whiskey matured in three cask types: virgin American oak, seasoned American whiskey casks and Oloroso sherry casks from Jerez. The nose offers complex fruit with hints of caramel, butterscotch and vanilla, with spice and toasted oak. A spicy start that quickly sweetens into intense caramel, vanilla and butterscotch over a deep layer of dried fruit. A persistent finish of dried fruit and caramelized wood sugar. 40% ABV.",
+      "name_ja": "スレイン アイリッシュウイスキー",
+      "description_ja": "3種の樽（ヴァージンアメリカンオーク、シーズンドアメリカンウイスキー樽、ヘレス産オロロソシェリー樽）で熟成した、複雑でありながら滑らかなブレンデッド・アイリッシュウイスキー。香りは複雑な果実にキャラメル、バタースコッチ、バニラ、スパイスとトーストオークのニュアンス。味わいは最初スパイシーながら、すぐに濃厚なキャラメル、バニラ、バタースコッチへと甘くなり、ドライフルーツの奥行きに包まれます。ドライフルーツとキャラメル化した樽の糖分が続く余韻。アルコール度数40%。",
+      "name_fr": "Slane Irish Whiskey",
+      "description_fr": "Un whisky irlandais de mélange, complexe et doux, vieilli dans trois types de fûts : chêne vierge américain, fûts de whisky américain assaisonnés et fûts d'Oloroso de Jerez. Au nez, des fruits complexes avec des touches de caramel, de beurre et de vanille, avec des épices et du chêne toasté. En bouche, épicé au départ mais qui devient rapidement doux avec un caramel intense, de la vanille et du beurre caramélisé sur des fruits secs. Finale persistante, de fruits secs et de sucre de bois caramélisé. 40 % ABV.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=75z_n8y5cd0",
+          "label": "Jeff Whisky Review #20 — Slane Irish Whiskey Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FwWITwRp_yU",
+          "label": "Whisky.com — Slane Triple Casked"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GUZlOWQQtT0",
+          "label": "Erik Wait Whisky Studies — Slane Triple Casked"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RayzAllLCnQ",
+          "label": "The Whiskey Nerd — Slane Triple Cask REVIEW"
         }
       ]
     },
@@ -42623,6 +42899,284 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=NaAOAoGAdEo",
           "label": "Kusumoto Daisuke"
+        }
+      ]
+    },
+    {
+      "id": "tullamore-dew-12-yo-special-reserve",
+      "slug": "tullamore-dew-12-yo-special-reserve",
+      "name": "Tullamore D.E.W. 12 YO Special Reserve",
+      "distillery": {
+        "id": "tullamore-dew",
+        "name": "Tullamore D.E.W.",
+        "name_es": "Tullamore D.E.W.",
+        "name_pt": "Tullamore D.E.W.",
+        "name_en": "Tullamore D.E.W.",
+        "name_ja": "タラモア・デュー",
+        "name_fr": "Tullamore D.E.W."
+      },
+      "description": "Edición Special Reserve de 12 años de Tullamore D.E.W., un blended triple madurado entre 12 y 15 años en barricas de bourbon y botas de oloroso, con una alta proporción de pot still y malta. En nariz, dulzura de miel y praliné con frutas secas, vainilla y mermelada de fresa. En boca es ligera y sedosa pero robusta y cremosa, con chocolate, nueces, especias suaves y roble tostado. Final de longitud media, especiado, que desaparece en un agradable amargor dulce de roble y frutos secos. 40% ABV.",
+      "image": "/data/images/tullamore-dew-12-yo-special-reserve.webp",
+      "origin": "ireland",
+      "region": "Offaly",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Ex-bourbon, sherry oloroso (triple cask)",
+      "distillery_id": "tullamore-dew",
+      "insertion_order": 359,
+      "featured": false,
+      "name_pt": "Tullamore D.E.W. 12 YO Special Reserve",
+      "description_pt": "Edição Special Reserve de 12 anos da Tullamore D.E.W., um blend triplamente amadurecido entre 12 e 15 anos em barricas de bourbon e botas de oloroso, com uma alta proporção de pot still e malte. No nariz, doçura de mel e praliné com frutas secas, baunilha e compota de morango. Na boca é leve e sedosa mas robusta e cremosa, com chocolate, nozes, especiarias suaves e carvalho tostado. Final de média duração, especiado, que desaparece num agradável amargor doce de carvalho e frutos secos. 40% ABV.",
+      "name_en": "Tullamore D.E.W. 12 YO Special Reserve",
+      "description_en": "The 12-year Special Reserve edition of Tullamore D.E.W., a blend matured for between 12 and 15 years in bourbon casks and oloroso sherry butts, with a high proportion of pot still and malt whiskey. A nose of honey and praline sweetness with dried fruit, vanilla and strawberry jam. A light yet silky palate that is robust and creamy, with chocolate, nuts, soft spice and toasted oak. A medium, spicy finish that fades into a pleasant sweet bitterness of oak and dried fruit. 40% ABV.",
+      "name_ja": "タラモア・デュー 12年 スペシャルリザーブ",
+      "description_ja": "タラモア・デューの12年スペシャルリザーブ。バーボン樽とオロロソシェリーのバットで12〜15年熟成したブレンドで、ポットスチルとモルトの割合が高いのが特徴です。ハチミツとプラリネの甘さにドライフルーツ、バニラ、イチゴジャムの香り。軽やかでシルキーながら力強くクリーミーな味わいで、チョコレート、ナッツ、穏やかなスパイス、トーストオークが広がります。オークとドライフルーツの心地よい甘い苦味へと消えていく、中程度のスパイシーな余韻。アルコール度数40%。",
+      "name_fr": "Tullamore D.E.W. 12 YO Special Reserve",
+      "description_fr": "L'édition Special Reserve 12 ans de Tullamore D.E.W., un blend vieilli entre 12 et 15 ans en fûts de bourbon et en fûts d'oloroso, avec une forte proportion de pot still et de malt. Au nez, une douceur de miel et de praliné avec des fruits secs, de la vanille et de la confiture de fraise. Une bouche légère et soyeuse mais robuste et crémeuse, avec du chocolat, des noix, des épices douces et du chêne toasté. Finale de longueur moyenne, épicée, qui s'évanouit dans une agréable amertume douce de chêne et de fruits secs. 40 % ABV.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6RJeKb1x4JU",
+          "label": "The Liquor Connoisseur — Tullamore D.E.W. 12 Year Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7fQ0ZWxazvA",
+          "label": "The Whiskey Chaser Brian — Tullamore D.E.W. 12 Yr Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CZPliDTkPps",
+          "label": "Straight Talk Whiskey — Tullamore Dew 12 Year Special Reserve"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tKjqEX2lRJo",
+          "label": "The Whiskey Dictionary — Tullamore D.E.W. 12 Year"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4Em5GSHMtls",
+          "label": "ひとくちウイスキー — タラモアデュー12年"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S1hx0J-FAOI",
+          "label": "酒チューブ — タラモアデュー12年 レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yNpDtCoE07A",
+          "label": "お酒の塾長 — タラモアデュー12年"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9k6lOmTC-6c",
+          "label": "Bebendo Whisky — Review Tullamore Dew 12 anos"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VqTdscgedv4",
+          "label": "Whisky com Gringo — Tullamore Dew 12 anos"
+        }
+      ]
+    },
+    {
+      "id": "tullamore-dew-original",
+      "slug": "tullamore-dew-original",
+      "name": "Tullamore D.E.W. Original",
+      "distillery": {
+        "id": "tullamore-dew",
+        "name": "Tullamore D.E.W.",
+        "name_es": "Tullamore D.E.W.",
+        "name_pt": "Tullamore D.E.W.",
+        "name_en": "Tullamore D.E.W.",
+        "name_ja": "タラモア・デュー",
+        "name_fr": "Tullamore D.E.W."
+      },
+      "description": "El clásico blended irlandés triple destilado de Tullamore D.E.W., combinación de pot still, malta y grano madurada en barricas de ex-bourbon y ex-sherry. Nariz suave y fresca con citricos, vainilla, miel y malta de cereal con roble tostado. En boca es cremoso y ligero, con dulzor de miel, toffee y nueces, equilibrado con especias de roble y pimienta. Final corto y limpio, con vainilla y un toque seco de cereal. 40% ABV.",
+      "image": "/data/images/tullamore-dew-original.webp",
+      "origin": "ireland",
+      "region": "Offaly",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Ex-bourbon, ex-sherry (triple blend)",
+      "distillery_id": "tullamore-dew",
+      "insertion_order": 358,
+      "featured": false,
+      "name_pt": "Tullamore D.E.W. Original",
+      "description_pt": "O clássico blended irlandês triplamente destilado da Tullamore D.E.W., combinação de pot still, malte e grão amadurecida em barricas de ex-bourbon e ex-sherry. Nariz suave e fresco com citrinos, baunilha, mel e malte de cereal com carvalho tostado. Na boca é cremoso e leve, com doçura de mel, toffee e nozes, equilibrado com especiarias de carvalho e pimenta. Final curto e limpo, com baunilha e um toque seco de cereal. 40% ABV.",
+      "name_en": "Tullamore D.E.W. Original",
+      "description_en": "The classic triple-distilled blended Irish whiskey from Tullamore D.E.W., a combination of pot still, malt and grain matured in ex-bourbon and ex-sherry casks. A soft, fresh nose of citrus, vanilla, honey and cereal malt with toasted oak. A creamy, light palate with honey sweetness, toffee and nuts, balanced by oak spice and pepper. A short, clean finish of vanilla and a dry cereal touch. 40% ABV.",
+      "name_ja": "タラモア・デュー オリジナル",
+      "description_ja": "タラモア・デューの看板商品となる、三重蒸留のクラシックなブレンデッド・アイリッシュウイスキー。ポットスチル、モルト、グレーンをバーボン樽とシェリー樽で熟成したブレンドです。シトラス、バニラ、ハチミツ、トーストオークを伴う穀物モルトの柔らかくフレッシュな香り。口当たりはクリーミーで軽やか、ハチミツの甘さ、トフィー、ナッツにオークのスパイスとペッパーがバランス良く続きます。バニラと穀物のドライな余韻が短く清潔に続きます。アルコール度数40%。",
+      "name_fr": "Tullamore D.E.W. Original",
+      "description_fr": "Le blended irlandais classique triple distillation de Tullamore D.E.W., une combinaison de pot still, de malt et de grain vieillie en fûts de bourbon et de sherry usagés. Un nez doux et frais d'agrumes, de vanille, de miel et de malt céréalier avec du chêne toasté. Une bouche crémeuse et légère, avec une douceur de miel, de toffee et de noix, équilibrée par des épices de chêne et du poivre. Finale courte et nette, de vanille et d'une touche céréalière sèche. 40 % ABV.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=U0LfwzhHKzk",
+          "label": "No Nonsense Whisky #188 — Tullamore DEW Original"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bM33Qissexk",
+          "label": "The Whisky Guy — Tullamore DEW Original, Whisky Ambassador Talks"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hqVDoWpJHqA",
+          "label": "The Last Call — Tullamore Dew Original Irish Whiskey Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kGmd2a6RMbw",
+          "label": "Whisky.com — Whiskey Review/Tasting: Tullamore D.E.W"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2MGOTmg4t20",
+          "label": "La Whiskería — Tullamore DEW Irish Whiskey"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_EK6apR1xx4",
+          "label": "La Casa del Whisky — Analizando Tullamore D.E.W."
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y5LQe3-55Eg",
+          "label": "La Guia del Whisky — Tullamore DEW Original"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_Vg-I5saP6k",
+          "label": "PIGEON BAR DRINKS — Tullamore DEW"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WOHfFFOCvt4",
+          "label": "宅飲みバーTakeo — タラモアデュー テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=c3rcmQ3_7_s",
+          "label": "CROSSROAD LAB — タラモア・デュー ハイボール"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=udodWz0CAsM",
+          "label": "バッカスズキ — タラモアデュー レビュー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OIfxOukfq0c",
+          "label": "E NO E — Tullamore D.E.W. Blended Irish Whiskey"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XgZ2UfvaAdI",
+          "label": "Destilados Brasil — Tullamore Dew Review 224"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wCRCfsZxlRY",
+          "label": "Além do Rótulo — Tullamore DEW Review"
         }
       ]
     },

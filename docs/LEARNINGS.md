@@ -1,5 +1,12 @@
 # Learnings
 
+## 2026-09-07 — Batch: 5 Irish whiskies (Pearse Lyons, Slane, Tullamore Original, Tullamore 12, Kilbeggan Rye)
+
+- **Research-first catches fabricated queue lines before any work.** The 5th line (Dublin Liberties Dead Man's Punch) turned out not to exist. Sending research agents to verify product facts first — not just specs — surfaced this before distillery/image/video work, letting the batch pivot to the next real product (Kilbeggan). Verify existence, then specs, then everything else.
+- **oEmbed remains the only authority for spoken language and exact expression.** A majority of these Irish whiskies are en-only because their YouTube coverage genuinely is; the few non-English finds (Tullamore's es/pt/ja/fr) all had to be re-checked because search-surface titles are auto-translated. The pt mix-up (12 anos on Original) and the brand-overview ja video would have been wrongly seeded without re-verification.
+- **New-distillery batches are heavier than reuse batches.** 4 brand-new distilleries each needed full 5-locale descriptions + researched town-level coordinates (Pearse Lyons Dublin 8, Slane Castle Meath, Tullamore Clonminch Offaly, Kilbeggan Westmeath). Each still added ~13 min to the run but the /map correctness depends on complete first-insert records (`ON CONFLICT DO NOTHING`).
+- **The Irish brand bottlings with real crossover coverage share one trait: they're mass-market global brands.** Tullamore D.E.W. Original (world #2 Irish) got all five languages; the craft/limited expressions (Pearse, Slane, Kilbeggan Rye, Tullamore 12) are thin or en-only. Coverage level tracks brand scale, not category.
+
 ## 2026-09-06 — Batch: 5 Midleton pot still whiskies (Powers John's Lane, Green/Yellow/Red Spot, Midleton Very Rare)
 
 - **Reuse-a-distillery batch is the fastest add-product shape.** All 5 queue lines pointed at `midleton` (already in the DB from the prior Irish batch), so Step 2 (distillery creation), map verification, and origin work were all skipped. Check de-dup on the whole batch before researching — if one distillery serves the batch, parallel video search is the only long pole.

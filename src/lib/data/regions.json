@@ -102,9 +102,21 @@
     "sort_order": 13
   },
   {
+    "id": "ireland-meath",
+    "origin_id": "ireland",
+    "name": "Meath",
+    "sort_order": 13
+  },
+  {
     "id": "scotland-highlands",
     "origin_id": "scotland",
     "name": "Highlands",
+    "sort_order": 14
+  },
+  {
+    "id": "ireland-offaly",
+    "origin_id": "ireland",
+    "name": "Offaly",
     "sort_order": 14
   },
   {
@@ -117,6 +129,12 @@
     "id": "scotland-islay",
     "origin_id": "scotland",
     "name": "Islay",
+    "sort_order": 16
+  },
+  {
+    "id": "ireland-westmeath",
+    "origin_id": "ireland",
+    "name": "Westmeath",
     "sort_order": 16
   },
   {

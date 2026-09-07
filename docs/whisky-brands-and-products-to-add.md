@@ -240,12 +240,12 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Teeling Single Malt - Teeling
 ✅ Teeling Single Pot Still - Teeling
 ✅ Roe & Co Blended Irish Whiskey - Roe & Co
-Pearse Lyons The Original - Pearse Lyons
+✅ Pearse Lyons The Original - Pearse Lyons
 The Dublin Liberties Dead Man's Punch - Dublin Liberties
-Slane Irish Whiskey - Slane
-Tullamore D.E.W. Original - Tullamore D.E.W.
-Tullamore D.E.W. 12 YO Special Reserve - Tullamore D.E.W.
-Kilbeggan Small Batch Rye - Kilbeggan
+✅ Slane Irish Whiskey - Slane
+✅ Tullamore D.E.W. Original - Tullamore D.E.W.
+✅ Tullamore D.E.W. 12 YO Special Reserve - Tullamore D.E.W.
+✅ Kilbeggan Small Batch Rye - Kilbeggan
 The Tyrconnell 10 YO - Cooley
 Connemara Peated Single Malt - Cooley
 The Busker Single Pot Still - Royal Oak
