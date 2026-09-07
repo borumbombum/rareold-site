@@ -90,10 +90,22 @@
     "sort_order": 9
   },
   {
+    "id": "ireland-carlow",
+    "origin_id": "ireland",
+    "name": "Carlow",
+    "sort_order": 10
+  },
+  {
     "id": "japan-honshu",
     "origin_id": "japan",
     "name": "Honshu",
     "sort_order": 10
+  },
+  {
+    "id": "ireland-donegal",
+    "origin_id": "ireland",
+    "name": "Donegal",
+    "sort_order": 12
   },
   {
     "id": "scotland-blended-scotch",
@@ -123,6 +135,12 @@
     "id": "scotland-islands",
     "origin_id": "scotland",
     "name": "Islands",
+    "sort_order": 15
+  },
+  {
+    "id": "ireland-louth",
+    "origin_id": "ireland",
+    "name": "Louth",
     "sort_order": 15
   },
   {

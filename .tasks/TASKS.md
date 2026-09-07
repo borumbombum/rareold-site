@@ -4,6 +4,7 @@ Authoritative task list for this repo. One task file per task in `tasks/`, named
 
 Current status of `tasks/` (authoritative — kept in sync with every task file `Status:` change, see Task workflow):
 
+- 077 [DONE] Add 5 Irish whiskies (Tyrconnell 10 YO, Connemara Peated, Busker Single Pot Still, Silkie Legendary, McConnell's Sherry Cask)
 - 076 [DONE] Add 5 Irish whiskies (Pearse Lyons, Slane, Tullamore D.E.W. x2, Kilbeggan; Dead Man's Punch skipped - nonexistent)
 - 075 [DONE] Add 5 Irish whiskies (Method & Madness, Teeling x3, Roe & Co)
 - 074 [DONE] Add 5 Midleton pot still whiskies (Powers John's Lane, Green/Yellow/Red Spot, Midleton Very Rare)

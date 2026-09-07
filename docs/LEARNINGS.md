@@ -1,5 +1,12 @@
 # Learnings
 
+## 2026-09-07 — Batch: 5 Irish whiskies (Tyrconnell 10 YO Port Cask, Connemara Peated, Busker Single Pot Still, Silkie Legendary, McConnell's Sherry Cask)
+
+- **Oembed is the ship gate for labels as well as URLs.** All 36 video IDs were verified live via `curl .../oembed` in one pass; labels were written straight from returned title+author_name. This made the whole batch label-proof with zero memory round-trips (the failure mode documented in the Teeling/Roe batch).
+- **Peated/brand-revival Irish whiskies cover erratically and that's expected.** Connemara Peated (a category icon) filled 12 slots (en4/es3/pt2/ja3) — the first pt+ja-rich Irish in the batch; Silkie (2019 start-up brand) only en4/es1; McConnell's (revived brand, new 2024 distillery) en4/ja1; Tyrconnell (Cooley portfolio) en3. fr = 0 across all 5 — age and brand fame drive coverage, not origin.
+- **Region auto-derivation is a silent feature of db-sync.** Seeds only name a county string; counties not in the region list (Louth, Carlow, Donegal here) get region rows created automatically from the products, so a county-first region strategy needs zero migration. Verified `ireland-louth/carlow/donegal` appeared in exported regions.json without touching ORIGIN_META.
+- **Web facts for distilleries resolve fast from official/about pages:** Cooley 1987 John Teeling peninsula, Royal Oak 2016 Illva Saronno Holloden House 52.70/-6.98, Sliabh Liag Ardara 2022 (first legal Donegal in 175y), McConnell's Crumlin Road Gaol Apr 2024 (1776 brand revived 2020) 54.61/-5.94 — all plotted on /map.
+
 ## 2026-09-07 — Batch: 5 Irish whiskies (Pearse Lyons, Slane, Tullamore Original, Tullamore 12, Kilbeggan Rye)
 
 - **Research-first catches fabricated queue lines before any work.** The 5th line (Dublin Liberties Dead Man's Punch) turned out not to exist. Sending research agents to verify product facts first — not just specs — surfaced this before distillery/image/video work, letting the batch pivot to the next real product (Kilbeggan). Verify existence, then specs, then everything else.

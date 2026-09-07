@@ -246,11 +246,11 @@ The Dublin Liberties Dead Man's Punch - Dublin Liberties
 ✅ Tullamore D.E.W. Original - Tullamore D.E.W.
 ✅ Tullamore D.E.W. 12 YO Special Reserve - Tullamore D.E.W.
 ✅ Kilbeggan Small Batch Rye - Kilbeggan
-The Tyrconnell 10 YO - Cooley
-Connemara Peated Single Malt - Cooley
-The Busker Single Pot Still - Royal Oak
-The Legendary Silkie - Sliabh Liag
-McConnell's Sherry Cask - McConnell's
+✅ The Tyrconnell 10 YO - Cooley
+✅ Connemara Peated Single Malt - Cooley
+✅ The Busker Single Pot Still - Royal Oak
+✅ The Legendary Silkie - Sliabh Liag
+✅ McConnell's Sherry Cask - McConnell's
 Dunville's Three Crowns - Echlinville
 Hinch Small Batch - Hinch
 Clonakilty Port Cask - Clonakilty

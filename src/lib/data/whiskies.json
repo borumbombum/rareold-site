@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-07T14:55:05.945Z",
+  "generatedAt": "2026-09-07T15:46:46.077Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -10205,6 +10205,148 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=568fRXqAA34",
           "label": "Bebendo Whisky"
+        }
+      ]
+    },
+    {
+      "id": "connemara-peated-single-malt",
+      "slug": "connemara-peated-single-malt",
+      "name": "Connemara Peated Single Malt",
+      "distillery": {
+        "id": "cooley",
+        "name": "Cooley Distillery",
+        "name_es": "Cooley Distillery",
+        "name_pt": "Cooley Distillery",
+        "name_en": "Cooley Distillery",
+        "name_ja": "クーリー蒸留所",
+        "name_fr": "Cooley Distillery"
+      },
+      "description": "El primer single malt ahumado irlandés de la era moderna y uno de los pocos whiskies turbados que produce Irlanda. Elaborado en la destilería Cooley a partir de cebada malteada secada sobre fogatas de turba, recuperando el estilo habitual en Irlanda antes del siglo XX. Doblemente destilado y criado en barricas de ex-bourbon, ofrece un humo delicado y bien integrado. Nariz de turba, brezo, notas florales y miel. Boca envolvente de miel, pera, malta dulce, vainilla y humo terroso. Final medio, con miel y brasas que se desvanecen. Embotellado al 40%.",
+      "image": "/data/images/connemara-peated-single-malt.webp",
+      "origin": "ireland",
+      "region": "Louth",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Ex-bourbon",
+      "distillery_id": "cooley",
+      "insertion_order": 362,
+      "featured": false,
+      "name_pt": "Connemara Peated Single Malt",
+      "description_pt": "O primeiro single malt irlandês defumado da era moderna e um dos poucos whiskies turfados que a Irlanda produz. Elaborado na destilaria Cooley a partir de cevada malteada secada sobre fogueiras de turfa, recuperando o estilo habitual na Irlanda antes do século XX. Duplamente destilado e envelhecido em barris de ex-bourbon, oferece um fumo delicado e bem integrado. Nariz de turfa, urze, notas florais e mel. Boca envolvente de mel, pera, malte doce, baunilha e fumo terroso. Final médio, com mel e brasas que se desvanecem. Engarrafado a 40%.",
+      "name_en": "Connemara Peated Single Malt",
+      "description_en": "The first peated Irish single malt of the modern era and one of the only smoky whiskeys Ireland produces. Made at the Cooley Distillery from malted barley dried over peat fires, reviving the style common in Ireland before the 20th century. Double distilled and matured in ex-bourbon barrels, it delivers a delicate, well-integrated smoke. Nose of peat, heather, floral notes and honey. A creamy palate of honey, pear, sweet malt, vanilla and earthy smoke. Medium finish, with honey and dying embers. Bottled at 40% ABV.",
+      "name_ja": "コネマラ ピーテッド シングルモルト",
+      "description_ja": "近代における最初のピーテッド・アイリッシュシングルモルトで、アイルランドで造られる数少ないスモーキーなウイスキーのひとつ。20世紀以前のアイルランドで一般的だった製法を復活させ、ピートの火で乾燥させた麦芽をクーリー蒸留所で蒸溜します。二回蒸溜、バーボン樽熟成により、繊細でよく調和したスモークを実現。香りはピート、ヒース、フローラル、ハチミツ。味わいはハチミツ、洋梨、甘い麦芽、バニラ、土っぽいスモークが広がるクリーミーな口当たり。余韻は中程度で、ハチミツと消えゆく残り火。アルコール度数40%。",
+      "name_fr": "Connemara Peated Single Malt",
+      "description_fr": "Le premier single malt irlandais tourbé de l'ère moderne et l'un des rares whiskeys fumés produits en Irlande. Élaboré à la distillerie Cooley à partir d'orge maltée séchée sur des feux de tourbe, renouant avec le style courant en Irlande avant le XXe siècle. Doublement distillé et vieilli en fûts de bourbon, il offre une fumée délicate et bien intégrée. Nez de tourbe, de bruyère, de notes florales et de miel. Une bouche enveloppante de miel, poire, malt doux, vanille et fumée terreuse. Finale moyenne, miel et braises qui s'éteignent. Embouteillé à 40 %.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1mxsaynqp_U",
+          "label": "No Nonsense Whisky — Connemara Peated Single Malt"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UjiK-2YLONo",
+          "label": "Whisky.com — Connemara Original"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Uk5OnDAyKRY",
+          "label": "The Whiskey Novice — Connemara Peated"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cgGhTWEgIQE",
+          "label": "The Whiskey Dictionary — Connemara Peated Single Malt"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LY0Cpp5bF64",
+          "label": "Tito Whisky — Connemara Peated Single Malt"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Vf-1cOZIJco",
+          "label": "Hablando de Whisky — Connemara Original"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=l5HY_DvVkFg",
+          "label": "Los Whiskochos — Connemara Irish Whiskey (En Español)"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5PSUVS95gqs",
+          "label": "いい親父ちゅーぶ — カネマラ オリジナル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=EL66rIrDKOs",
+          "label": "ひとり酒ひとり語り — 異端児カネマラ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=em8roAGHCmE",
+          "label": "はっちばっちチャンネル — カネマラ オリジナル ピーテッド"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-TQuxv7NBbc",
+          "label": "Porção dos Anjos Whisky — Connemara Original"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F04_-ZUGLbM",
+          "label": "Bebendo Whisky — Connemara (Single Malt)"
         }
       ]
     },
@@ -30007,6 +30149,106 @@
       "resellers_usa": []
     },
     {
+      "id": "mcconnells-sherry-cask",
+      "slug": "mcconnells-sherry-cask",
+      "name": "McConnell's Sherry Cask",
+      "distillery": {
+        "id": "mcconnells",
+        "name": "McConnell's Distillery",
+        "name_es": "McConnell's Distillery",
+        "name_pt": "McConnell's Distillery",
+        "name_en": "McConnell's Distillery",
+        "name_ja": "マコーネルズ蒸留所",
+        "name_fr": "McConnell's Distillery"
+      },
+      "description": "Un blended irlandés de la histórica marca de Belfast McConnell's, resucitada en 2020. El blend base pasa cinco años en barricas de primer llenado de ex-bourbon y termina ocho meses en barricas de jerez Oloroso. Embotellado al 46% sin filtración en frío. Nariz de higos secos, chocolate negro y especias persistentes. Boca de azúcar moreno, cerezas negras y frutos rojos sobre un fondo de vainilla y roble. Final largo de roble tostado, un toque de cuero y clavo.",
+      "image": "/data/images/mcconnells-sherry-cask.webp",
+      "origin": "ireland",
+      "region": "Antrim",
+      "age": 5,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Ex-bourbon, acabado en jerez Oloroso",
+      "distillery_id": "mcconnells",
+      "insertion_order": 365,
+      "featured": false,
+      "name_pt": "McConnell's Sherry Cask",
+      "description_pt": "Um blended irlandês da histórica marca de Belfast McConnell's, ressuscitada em 2020. O blend base passa cinco anos em barris de primeiro uso ex-bourbon e termina oito meses em barris de xerez Oloroso. Engarrafado a 46% sem filtração a frio. Nariz de figos secos, chocolate negro e especiarias persistentes. Boca de açúcar mascavo, cerejas negras e frutos vermelhos sobre um fundo de baunilha e carvalho. Final longo de carvalho tostado, um toque de couro e cravo.",
+      "name_en": "McConnell's Sherry Cask",
+      "description_en": "An Irish blend from the historic Belfast brand McConnell's, revived in 2020. The base blend spends five years in first-fill ex-bourbon barrels and finishes for eight months in Oloroso sherry casks. Bottled at 46% ABV without chill filtration. Nose of dried figs, dark chocolate and lingering spice. A palate of demerara sugar, dark cherries and black fruits over vanilla and oak. A long finish of toasted oak, a touch of leather and clove.",
+      "name_ja": "マコーネルズ シェリーカスク",
+      "description_ja": "2020年に復活したベルファストの歴史的ブランド、マコーネルズによるアイリッシュ・ブレンデッド。ベースのブレンドはバーボン樽の初詰めで5年熟成した後、オロロソ・シェリー樽で8ヶ月フィニッシュされます。アルコール度数46%、コールドフィルターなし。ドライフィグ、ダークチョコレート、長く続くスパイスの香り。デメララシュガー、黒さくらんぼ、黒系果実の味わいをバニラとオークが支えます。トーストしたオークと皮革、クローブのニュアンスを伴う長い余韻。",
+      "name_fr": "McConnell's Sherry Cask",
+      "description_fr": "Un blended irlandais de la marque historique de Belfast McConnell's, relancée en 2020. Le blend de base passe cinq ans en fûts de premier remplissage ex-bourbon puis finit huit mois en fûts de xérès Oloroso. Embouteillé à 46 % sans filtration à froid. Nez de figues sèches, de chocolat noir et d'épices persistantes. Une bouche de sucre roux, de cerises noires et de fruits rouges sur un fond de vanille et de chêne. Longue finale de chêne grillé, une pointe de cuir et de clou de girofle.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8on1cHNMmrw",
+          "label": "The Whiskey Novice — McConnell's Sherry Cask Finish"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GfIxU-dnoLQ",
+          "label": "Blue Pig Reviews — McConnell's Sherry Cask Finish"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UI6Zc4XxhrA",
+          "label": "4 Leaf Whiskey — McConnell's Sherry Cask Finish"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cHunVKKO4tA",
+          "label": "The Whiskey Chaser Brian — McConnell's 5 YO Sherry Cask Finish"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zlc4IRtZtp8",
+          "label": "Dram FM — マコーネルズ 5年 シェリーカスクフィニッシュ"
+        }
+      ]
+    },
+    {
       "id": "method-and-madness-single-pot-still",
       "slug": "method-and-madness-single-pot-still",
       "name": "Method and Madness Single Pot Still",
@@ -35881,6 +36123,106 @@
       ]
     },
     {
+      "id": "silkie-legendary",
+      "slug": "silkie-legendary",
+      "name": "Silkie The Legendary",
+      "distillery": {
+        "id": "sliabh-liag",
+        "name": "Sliabh Liag Distillers",
+        "name_es": "Sliabh Liag Distillers",
+        "name_pt": "Sliabh Liag Distillers",
+        "name_en": "Sliabh Liag Distillers",
+        "name_ja": "スリアブリアッグ蒸留所",
+        "name_fr": "Sliabh Liag Distillers"
+      },
+      "description": "El primer lanzamiento de Sliabh Liag Distillers, inspirado en las leyendas de las focas silkie de la costa de Donegal. Un blended irlandés que combina single malts de doble y triple destilación, suave whisky de grano y un toque de malta turbada. Embotellado a mano al 46% sin filtración en frío. Nariz de manzana verde, frutos rojos maduros y un humo delicado. Boca muy suave y mantecosa, con miel, pan de jengibre y ralladura de naranja. Final de dulzura ahumada de roble con especias cálidas.",
+      "image": "/data/images/silkie-legendary.webp",
+      "origin": "ireland",
+      "region": "Donegal",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Ex-bourbon",
+      "distillery_id": "sliabh-liag",
+      "insertion_order": 364,
+      "featured": false,
+      "name_pt": "Silkie The Legendary",
+      "description_pt": "O primeiro lançamento da Sliabh Liag Distillers, inspirado nas lendas das focas silkie da costa de Donegal. Um blended irlandês que combina single malts de dupla e tripla destilação, suave whisky de grãos e um toque de malte turfado. Engarrafado à mão a 46% sem filtração a frio. Nariz de maçã verde, frutos vermelhos maduros e um fumo delicado. Boca muito suave e amanteigada, com mel, pão de gengibre e raspa de laranja. Final de doçura fumada de carvalho com especiarias quentes.",
+      "name_en": "Silkie The Legendary",
+      "description_en": "The first release from Sliabh Liag Distillers, inspired by the legends of the silkie seals of the Donegal coast. An Irish blend of double and triple distilled single malts, soft grain whiskey and a hint of peated malt. Hand-bottled at 46% ABV without chill filtration. Nose of green apple, ripe red fruits and a delicate smoke. A very smooth, buttery palate of honey, gingerbread and orange zest. A finish of oaky, smoky sweetness with warming spice.",
+      "name_ja": "シルキー ザ・レジェンダリー",
+      "description_ja": "ドニゴール海岸の伝説的な「シルキー」(アザラシの妖精)から着想を得た、スリアブリアッグ蒸留所の最初のリリース。二回・三回蒸溜のシングルモルト、柔らかなグレーンウイスキー、そしてほんの少しのピーテッドモルトをブレンドしたアイリッシュウイスキー。ハンドボトリング、アルコール度数46%、コールドフィルターなし。青りんご、熟した赤い果実、繊細なスモークの香り。非常に滑らかでバターのような口当たりに、ハチミツ、ジンジャーブレッド、オレンジピール。オークのスモーキーな甘さと温かいスパイスの余韻へと続きます。",
+      "name_fr": "Silkie The Legendary",
+      "description_fr": "Le premier lancement de Sliabh Liag Distillers, inspiré des légendes des silkie, phoques-fées de la côte du Donegal. Un blended irlandais alliant single malts doublement et triplement distillés, un whiskey de grain souple et une pointe de malt tourbé. Embouteillé à la main à 46 % sans filtration à froid. Nez de pomme verte, de fruits rouges mûrs et d'une fumée délicate. Une bouche très souple et beurrée, miel, pain d'épices et zeste d'orange. Finale de douceur boisée et fumée aux épices chaudes.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=37VdKUoDVH8",
+          "label": "The Whiskey Shed — The Legendary Silkie"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=L661gD3Hqn0",
+          "label": "The Whiskey Geeks — The Legendary Silkie"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_IZeqYsymEc",
+          "label": "Whisky Heathens — The Legendary Silkie"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=llmIDC8c92E",
+          "label": "Hood Sommelier — Silkie Irish Whiskey"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wYAmw2XyQhI",
+          "label": "Los Whiskochos — Silkie The Legendary"
+        }
+      ]
+    },
+    {
       "id": "slane-irish-whiskey",
       "slug": "slane-irish-whiskey",
       "name": "Slane Irish Whiskey",
@@ -39473,6 +39815,142 @@
       ]
     },
     {
+      "id": "busker-single-pot-still",
+      "slug": "busker-single-pot-still",
+      "name": "The Busker Single Pot Still",
+      "distillery": {
+        "id": "royal-oak",
+        "name": "Royal Oak Distillery",
+        "name_es": "Royal Oak Distillery",
+        "name_pt": "Royal Oak Distillery",
+        "name_en": "Royal Oak Distillery",
+        "name_ja": "ロイヤルオーク蒸留所",
+        "name_fr": "Royal Oak Distillery"
+      },
+      "description": "Un single pot still de la Royal Oak Distillery, el estilo más tradicional de Irlanda: cebada malteada y sin maltear en partes iguales, destilada en alambiques de cobre. Madurado en barricas de ex-bourbon y jerez, y embotellado al 44,3% sin filtración en frío ni colorantes. Nariz rica y compleja de flores frescas, miel, roble, fudge y aceite de clavo. Boca especiada e intensa con un toque pimentoso, equilibrada con caramelo y toffee. Final largo, cálido y especiado, con un sutil recuerdo de fruta.",
+      "image": "/data/images/busker-single-pot-still.webp",
+      "origin": "ireland",
+      "region": "Carlow",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 44.3,
+      "cask": "Ex-bourbon, ex-sherry",
+      "distillery_id": "royal-oak",
+      "insertion_order": 363,
+      "featured": false,
+      "name_pt": "The Busker Single Pot Still",
+      "description_pt": "Um single pot still da Royal Oak Distillery, o estilo mais tradicional da Irlanda: cevada malteada e não malteada em partes iguais, destilada em alambiques de cobre. Maturado em barris de ex-bourbon e xerez, e engarrafado a 44,3% sem filtração a frio nem corantes. Nariz rico e complexo de flores frescas, mel, carvalho, fudge e óleo de cravo. Boca picante e intensa com um toque apimentado, equilibrada com caramelo e toffee. Final longo, quente e picante, com um sutil eco de fruta.",
+      "name_en": "The Busker Single Pot Still",
+      "description_en": "A single pot still from the Royal Oak Distillery, Ireland's most traditional style: malted and unmalted barley in equal parts, distilled in copper pot stills. Matured in ex-bourbon and sherry casks, and bottled at 44.3% ABV without chill filtration or colouring. A rich, complex nose of fresh flowers, honey, oak, fudge and clove oil. A spicy, intense palate with a peppery bite, balanced by caramel and toffee. A long, warm, spicy finish with a subtle echo of fruit.",
+      "name_ja": "ザ・バスカー シングルポットスチル",
+      "description_ja": "アイリッシュウイスキーで最も伝統的なスタイル、ロイヤルオーク蒸留所によるシングルポットスチル。モルテッド・アンモルテッドバーレーを等量使い、銅製ポットスチルで蒸溜します。バーボン樽とシェリー樽で熟成し、アルコール度数44.3%、コールドフィルターなし・着色なしでボトリング。フレッシュな花、ハチミツ、オーク、ファッジ、クローブオイルの豊かで複雑な香り。口当たりはスパイシーで力強く、胡椒のような刺激をキャラメルとトフィーが包み込みます。長く温かい、スパイシーな余韻に果実の面影が漂います。",
+      "name_fr": "The Busker Single Pot Still",
+      "description_fr": "Un single pot still de la Royal Oak Distillery, le style le plus traditionnel d'Irlande : orge maltée et non maltée à parts égales, distillées en alambics de cuivre. Mûri en fûts de bourbon et de xérès, embouteillé à 44,3 % sans filtration à froid ni colorant. Un nez riche et complexe de fleurs fraîches, miel, chêne, fudge et huile de clou de girofle. Une bouche épicée et intense avec une pointe poivrée, équilibrée par le caramel et le toffee. Finale longue, chaude et épicée, avec un discret écho de fruit.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QvOd1Khf6DU",
+          "label": "The Barley Lads — The Busker Single Pot Still"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=R6UQrqSM5Hk",
+          "label": "Whisky Heathens — The Busker Single Pot Still"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VzshwKIle0g",
+          "label": "WhiskyJason — Busker Single Pot Still"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_mWv6hUFMRg",
+          "label": "Kata-dores — The Busker"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rCfy8aFTRTI",
+          "label": "Fenrir — Busker Single Pot Still"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6Jm58wRv-So",
+          "label": "ひとくちウイスキー — バスカー シングルポットスチル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JBU9SyOqEME",
+          "label": "ショウタロウの日常飲み — バスカーシングルポットスチル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=npepCgh1aDc",
+          "label": "いい親父ちゅーぶ — バスカーシングルポットスチル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=reFR6s5orrE",
+          "label": "Whisky Roundup/Hatsugai — バスカーシングルポットスチル"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_OJWhVi7TOo",
+          "label": "Whisky com Gringo — Busker Irish Whiskey"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eAyr2J1CFxM",
+          "label": "Porção dos Anjos Whisky — The Busker"
+        }
+      ]
+    },
+    {
       "id": "chita-single-grain",
       "slug": "chita-single-grain",
       "name": "The Chita Single Grain",
@@ -41465,6 +41943,94 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=a16wvrbRQQc",
           "label": "Bebendo Whisky"
+        }
+      ]
+    },
+    {
+      "id": "tyrconnell-10yo-port-cask-finish",
+      "slug": "tyrconnell-10yo-port-cask-finish",
+      "name": "The Tyrconnell 10 YO Port Cask Finish",
+      "distillery": {
+        "id": "cooley",
+        "name": "Cooley Distillery",
+        "name_es": "Cooley Distillery",
+        "name_pt": "Cooley Distillery",
+        "name_en": "Cooley Distillery",
+        "name_ja": "クーリー蒸留所",
+        "name_fr": "Cooley Distillery"
+      },
+      "description": "Single malt irlandés de 10 años, destilado dos veces a partir de cebada 100% malteada en la destilería Cooley. Envejece en barricas de roble americano de ex-bourbon y finaliza entre 6 y 8 meses en barricas de Oporto, que añaden capas de fruta roja madura y un toque de ceniza al carácter herbal del destilado. Nariz dulce y afrutada con vainilla, cereales y notas de arándano ácido. Boca seca y dulce a la vez, con vainilla, azúcar moreno y concentrado de fruta. Final suave y medio, con fruta y toffee. Embotellado al 46% sin filtración en frío.",
+      "image": "/data/images/tyrconnell-10yo-port-cask-finish.webp",
+      "origin": "ireland",
+      "region": "Louth",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Ex-bourbon, acabado en barricas de Oporto",
+      "distillery_id": "cooley",
+      "insertion_order": 361,
+      "featured": false,
+      "name_pt": "The Tyrconnell 10 YO Port Cask Finish",
+      "description_pt": "Single malt irlandês de 10 anos, destilado duas vezes a partir de cevada 100% malteada na destilaria Cooley. Envelhece em barris de carvalho americano ex-bourbon e termina entre 6 e 8 meses em barris de vinho do Porto, que acrescentam camadas de fruta vermelha madura e um toque de cinza ao caráter herbal do destilado. Nariz doce e frutado com baunilha, cereais e notas de cranberry ácido. Boca seca e doce ao mesmo tempo, com baunilha, açúcar mascavo e concentrado de fruta. Final suave e médio, com fruta e toffee. Engarrafado a 46% sem filtração a frio.",
+      "name_en": "The Tyrconnell 10 YO Port Cask Finish",
+      "description_en": "A 10-year-old Irish single malt, double distilled from 100% malted barley at the Cooley Distillery. It matures in American white oak ex-bourbon barrels and finishes for 6 to 8 months in port casks, adding layers of ripe red fruit and a hint of ash to the spirit's herbal character. Sweet and fruity on the nose with vanilla, cereal grains and tart cranberry notes. The palate is dry and sweet at once, with vanilla, brown sugar and fruit concentrate. A smooth, medium finish of fruit and toffee. Bottled at 46% ABV without chill filtration.",
+      "name_ja": "ティロコネル 10年 ポートカスクフィニッシュ",
+      "description_ja": "クーリー蒸留所でオオムギ麦芽100%から二回蒸溜されたシングルモルト、10年熟成。アメリカンオークのバーボン樽で熟成した後、6〜8ヶ月ポート樽でフィニッシュされ、酒質のハーブらしさに熟した赤い果実の層と微かな灰のニュアンスが加わります。香りは甘くフルーティーで、バニラ、穀物、酸味のあるクランベリーのノート。味わいはドライでありながら甘く、バニラ、ブラウンシュガー、凝縮した果実。余韻は滑らかで中程度、果実とタフィー。アルコール度数46%、コールドフィルター不使用。",
+      "name_fr": "The Tyrconnell 10 YO Port Cask Finish",
+      "description_fr": "Un single malt irlandais de 10 ans, doublement distillé à partir d'orge 100 % maltée à la distillerie Cooley. Il mûrit en fûts de chêne américain ex-bourbon puis est fini pendant 6 à 8 mois en fûts de porto, qui apportent des couches de fruits rouges mûrs et une pointe de cendres au caractère herbacé du distillat. Un nez doux et fruité avec de la vanille, des céréales et des notes d'airelle acidulée. En bouche, sec et doux à la fois, avec de la vanille, du sucre brun et du concentré de fruits. Une finale souple et moyenne, fruitée et caramélisée. Embouteillé à 46 % sans filtration à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Fi558u7THcg",
+          "label": "Aged N Barreled — Tyrconnell Port 10"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SMG5-U4AB5s",
+          "label": "Whisky.com — Tyrconnell 10 Years Port Finish"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ptKG18dXPwk",
+          "label": "Irish Whiskey Review — Tyrconnell 10yo Single Malt Port Cask"
         }
       ]
     },
