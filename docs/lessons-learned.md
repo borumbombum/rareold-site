@@ -1,5 +1,11 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-07 — Kilbeggan Small Batch Rye: wrong bottle image (from batch 076)
+
+- **The previous batch's 076 image for `kilbeggan-small-batch-rye` was the wrong bottle** (user reported `/es/whisky/kilbeggan-small-batch-rye` still showing an incorrect image). Root cause: no provenance/trace of the source URL was kept for that batch, so there was no way to audit what got embedded. Fix: re-sourced straight from the bottler's exact expression page — the official product-tile PNG `https://www.kilbegganwhiskey.com/sites/default/files/2024-09/kilbeggan-whiskey-bottle-small-batch-rye.png` (1500×1500, transparent bg, orange center matching the rye label) → replaced `data/images/kilbeggan-small-batch-rye.webp` (12.6 KB) via `prepare-image.mjs`.
+- **Lesson: batch 076 has no image-source provenance in the repo** — verify the current webp against the official product page and rebuild from the brand's `sites/default/files/` Drupal media (age gate is bypassable; the direct file path is predictable from the product page HTML, e.g. `…/whiskeys/kilbeggan-small-batch-rye`).
+- **No seed/DB change needed for an image swap**: the seed `image` field already points at `/data/images/kilbeggan-small-batch-rye.webp`, so only the binary was replaced; `db:sync`/`data:export` are untouched by this fix.
+
 ## 2026-09-07 — Batch of 5 Irish whiskies (Tyrconnell 10 YO Port Cask, Connemara Peated, Busker Single Pot Still, Silkie Legendary, McConnell's Sherry Cask)
 
 - **Region names auto-derive from products, but the user queue's region grouping is county-level** — Tyrconnell/Connemara (Cooley, Louth), Busker (Royal Oak, Carlow), Silkie (Sliabh Liag, Donegal) produced 3 brand-new regions (`ireland-louth/carlow/donegal`) automatically from the products' `region` field in db-sync; no ORIGIN_META edit needed. The `region` column follows the distillery's county, and the region list in `regions.json` just grows.
