@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-06T03:15:00.803Z",
+  "generatedAt": "2026-09-07T00:10:54.854Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -29913,6 +29913,100 @@
       "resellers_usa": []
     },
     {
+      "id": "method-and-madness-single-pot-still",
+      "slug": "method-and-madness-single-pot-still",
+      "name": "Method and Madness Single Pot Still",
+      "distillery": {
+        "id": "midleton",
+        "name": "Midleton",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "El single pot still experimental de Method and Madness, el laboratorio de Midleton. Creado con un mash de cebada malteada y sin maltear, destilado tres veces y madurado en barricas de bourbon y jerez antes de un acabado único en barricas de castaño francés. En nariz, jengibre rallado, canela, vainilla dulce, menta y regaliz rojo; en boca, caramelo, plátano asado, manzana roja y un punto herbal, con chocolate amargo y especias suaves. Final medio-largo, especiado y goloso, con cacao y roble cálido. 46% ABV, sin filtración en frío.",
+      "image": "/data/images/method-and-madness-single-pot-still.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Ex-bourbon y ex-jerez, terminado en castaño francés",
+      "distillery_id": "midleton",
+      "insertion_order": 351,
+      "featured": false,
+      "name_pt": "Method and Madness Single Pot Still",
+      "description_pt": "O single pot still experimental da Method and Madness, o laboratório da Midleton. Feito com um mash de cevada malteada e sem maltear, destilado três vezes e maturado em barricas de bourbon e xerez antes de um acabamento único em barricas de castanho francês. No nariz, gengibre ralado, canela, baunilha doce, menta e alcaçuz vermelho; na boca, caramelo, banana assada, maçã vermelha e um toque herbal, com chocolate amargo e especiarias suaves. Final médio-longo, picante e guloso, com cacau e carvalho quente. 46% ABV, sem filtração a frio.",
+      "name_en": "Method and Madness Single Pot Still",
+      "description_en": "The experimental single pot still from Method and Madness, Midleton's laboratory. A mash of malted and unmalted barley, triple distilled and matured in bourbon and sherry casks before a unique finish in French chestnut casks. Nose of grated ginger, cinnamon, sweet vanilla, mint and red liquorice; palate of caramel, ripe banana, red apple and a herbal edge, with bitter chocolate and soft spice. Medium-long, spicy and indulgent finish of cocoa and warm oak. 46% ABV, non-chill-filtered.",
+      "name_ja": "メソッド・アンド・マッドネス シングルポットスチル",
+      "description_ja": "ミドルトンの実験室、メソッド・アンド・マッドネスによるシングルポットスチル。モルテッド＆アンモルテッド大麦を原料に3回蒸留し、バーボン樽とシェリー樽で熟成後、フレンチ・チェスナット樽というユニークなフィニッシュを施しています。香りは擦り下ろしジンジャー、シナモン、甘いバニラ、ミント、赤い甘草。味わいはキャラメル、焼きバナナ、紅玉リンゴにハーブのニュアンス、ビターチョコレートと柔らかなスパイス。中〜長い、スパイシーで贅沢な余韻にココアと温かなオーク。アルコール度数46%、ノンチルフィルター。",
+      "name_fr": "Method and Madness Single Pot Still",
+      "description_fr": "Le single pot still expérimental de Method and Madness, le laboratoire de Midleton. Un alcool de malt d'orge malté et non malté, triplement distillé puis vieilli en fûts de bourbon et de xérès avant une finition unique en fûts de châtaignier français. Nez de gingembre râpé, de cannelle, de vanille douce, de menthe et de réglisse rouge ; en bouche, caramel, banane rôtie, pomme rouge et une touche herbacée, avec du chocolat amer et de l'épice douce. Finale mi-longue, épicée et gourmande, de cacao et de chêne chaleureux. 46 % ABV, non filtré à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7CcdDtlOVc4",
+          "label": "Whiskey is a Journey — Method and Madness French Chestnut Single Pot Still"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FtLeOP8ssnQ",
+          "label": "Scotch Sunday Whisky Reviews — Method and Madness Single Pot Still Chestnut Finish"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=b58vH1gIqkA",
+          "label": "4 Leaf Whiskey — Method and Madness Single Pot Still, French Chestnut Cask"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=m8iOlbjYVCE",
+          "label": "WhiskyXing — Method & Madness Single Pot Still Chestnut Casks"
+        }
+      ]
+    },
+    {
       "id": "midleton-very-rare",
       "slug": "midleton-very-rare",
       "name": "Midleton Very Rare",
@@ -34089,6 +34183,136 @@
       ]
     },
     {
+      "id": "roe-and-co",
+      "slug": "roe-and-co",
+      "name": "Roe & Co Blended Irish Whiskey",
+      "distillery": {
+        "id": "roe-and-co",
+        "name": "Roe & Co Distillery",
+        "name_es": "Roe & Co Distillery",
+        "name_pt": "Roe & Co Distillery",
+        "name_en": "Roe & Co Distillery",
+        "name_ja": "ロー＆コ蒸留所",
+        "name_fr": "Roe & Co Distillery"
+      },
+      "description": "Blended irlandés premium de Diageo en homenaje a George Roe, creado por la master blender Caroline Martin con cinco bartenders de Dublín. Mezcla de whiskies de malta y de grano envejecidos en barricas de bourbon de primer lleno, sin filtración en frío y embotellado a 45%. Nariz cremosa y fragante, con especias suaves y azúcar hilado; en boca, peras especiadas, vainilla amaderada y caramelo; final largo, suave y aterciopelado.",
+      "image": "/data/images/roe-and-co.webp",
+      "origin": "ireland",
+      "region": "Dublin",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 45,
+      "cask": "Ex-bourbon de primer lleno",
+      "distillery_id": "roe-and-co",
+      "insertion_order": 355,
+      "featured": false,
+      "name_pt": "Roe & Co Blended Irish Whiskey",
+      "description_pt": "Blended irlandês premium da Diageo em homenagem a George Roe, criado pela master blender Caroline Martin com cinco bartenders de Dublin. Mistura de whiskies de malte e grão maturados em barricas de bourbon de primeiro uso, sem filtração a frio e engarrafado a 45%. Nariz cremoso e fragrante, com especiarias suaves e açúcar fiado; na boca, peras picantes, baunilha amadeirada e caramelo; final longo, suave e aveludado.",
+      "name_en": "Roe & Co Blended Irish Whiskey",
+      "description_en": "Diageo's premium blended Irish whiskey honouring George Roe, crafted by master blender Caroline Martin with five of Dublin's top bartenders. A blend of malt and grain whiskeys aged in first-fill bourbon casks, non-chill-filtered and bottled at 45%. A creamy, fragrant nose of soft spice and spun sugar; a palate of spiced pears, woody vanilla and caramel; a long, gentle, velvety finish.",
+      "name_ja": "ロー＆コー ブレンデッド アイリッシュウイスキー",
+      "description_ja": "ディアジオのプレミアム・アイリッシュブレンデッドウイスキー。ジョージ・ロウに敬意を表し、マスターブレンダー・キャロライン・マーティンがダブリンのトップバーテンダー5人と共同で造り上げました。ファーストフィル・バーボン樽で熟成したモルト＆グレーンウイスキーのブレンドを非冷却濾過し、45%で瓶詰め。ソフトなスパイスと綿菓子のような甘い香り。スパイス風味の洋梨、ウッディなバニラ、キャラメルの口当たり。長く穏やかでビロードのような余韻。",
+      "name_fr": "Roe & Co Blended Irish Whiskey",
+      "description_fr": "Un blended irlandais premium de Diageo en hommage à George Roe, élaboré par le master blender Caroline Martin avec cinq bartenders de Dublin. Un assemblage de whiskies de malt et de grain vieillis en fûts de bourbon de premier remplissage, non filtré à froid et embouteillé à 45 %. Un nez crémeux et parfumé, d'épices douces et de sucre filé ; une bouche de poires épicées, de vanille boisée et de caramel ; une finale longue, douce et veloutée.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CSR2O5gQdvk",
+          "label": "Whisky.com — Whisky Review/Tasting: Roe&Co"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RjenBmGn6gc",
+          "label": "Keeping It Neat — Roe & Co Blended Irish Whiskey (Blind Review)"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WgsJ7aVmpp8",
+          "label": "Intoxicated Opinions — Roe & Co Irish Whiskey Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vj3WmnnHEH4",
+          "label": "The Whiskey Dictionary — Roe & Co Irish Whiskey Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=g49ICw-OMq4",
+          "label": "Hablando de Whisky — Cata Roe & Co whiskey irlandés"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wQB8dcX1KDE",
+          "label": "Los Whiskochos — Probemos Whiskey Roe & Co"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6UwKDDLfIRs",
+          "label": "【家飲み職人】せるじおのハイボールチャンネル — ロー＆コー／ROE&CO 開封・紹介"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VjJmk-M0lr8",
+          "label": "宅飲みバーTakeo — ロー＆コー カクテル向けブレンディッドウイスキー テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VzjP_Rcd1H0",
+          "label": "笑のもとsakeチャンネル — ロー&コー 新商品"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bVGFt60yMkA",
+          "label": "ハイボールおじさんの宅飲み研究所【ハイラボ】 — ローアンドコー 開封レビュー"
+        }
+      ]
+    },
+    {
       "id": "royal-brackla-12",
       "slug": "royal-brackla-12",
       "name": "Royal Brackla 12 YO",
@@ -37999,6 +38223,354 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=bHFjo5hDcRw",
           "label": "Além do Rótulo"
+        }
+      ]
+    },
+    {
+      "id": "teeling-single-malt",
+      "slug": "teeling-single-malt",
+      "name": "Teeling Single Malt",
+      "distillery": {
+        "id": "teeling",
+        "name": "Teeling Distillery",
+        "name_es": "Teeling Distillery",
+        "name_pt": "Teeling Distillery",
+        "name_en": "Teeling Distillery",
+        "name_ja": "ティーリング蒸留所",
+        "name_fr": "Teeling Distillery"
+      },
+      "description": "Single malt de 100% cebada malteada, destilado tres veces y terminado en cinco barricas de vino: jerez, Oporto rubí, Oporto blanco Caravelos, Madeira y Borgoña blanca. Cada barrica suma capas en una 'sinfonía' afrutada: nariz de frutas tropicales y melón con un toque de chocolate; paladar de frutas de huerto, frutos rojos y chocolate semiamargo con especia suave; final largo y lujoso con maracuyá y piña. 46% ABV, sin filtración en frío.",
+      "image": "/data/images/teeling-single-malt.webp",
+      "origin": "ireland",
+      "region": "Dublin",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Terminado en cinco barricas de vino",
+      "distillery_id": "teeling",
+      "insertion_order": 353,
+      "featured": false,
+      "name_pt": "Teeling Single Malt",
+      "description_pt": "Single malt de 100% cevada malteada, destilado três vezes e terminado em cinco barricas de vinho: xerez, Porto ruby, Porto branco Caravelos, Madeira e Borgonha branca. Cada barrica soma camadas numa 'sinfonia' frutada: nariz de frutas tropicais e melão com um toque de chocolate; paladar de frutas de pomar, frutos vermelhos e chocolate meio amargo com especiaria suave; final longo e luxuoso com maracujá e abacaxi. 46% ABV, sem filtração a frio.",
+      "name_en": "Teeling Single Malt",
+      "description_en": "A single malt of 100% malted barley, triple distilled and finished in five wine casks: sherry, ruby Port, Caravelos white Port, Madeira and white Burgundy. Each cask adds layers to this fruit-forward 'symphony': a nose of tropical fruit and melon with a hint of chocolate; a palate of orchard fruit, mixed berries and bitter-sweet chocolate with soft spice; a luxurious, long finish of passionfruit and pineapple. 46% ABV, non-chill-filtered.",
+      "name_ja": "ティーリング シングルモルト",
+      "description_ja": "100％モルテッド大麦を使用し、3回蒸留。シェリー、ルビーポート、カラベロス白ポート、マデイラ、白ブルゴーニュの5種のワイン樽でフィニッシュされたシングルモルト。各樽が「シンフォニー」の名にふさわしいフルーティな味わいを重ねます：トロピカルフルーツとメロンにチョコレートの香り。オーチャードフルーツとベリー類、ビターテイストのチョコレートとソフトなスパイスの口当たり。パッションフルーツとパイナップルの余韻が続く、長く贅沢なフィニッシュ。アルコール度数46%、ノンチルフィルター。",
+      "name_fr": "Teeling Single Malt",
+      "description_fr": "Un single malt 100 % orge maltée, triplement distillé et fini dans cinq fûts de vin : xérès, Porto rubis, Porto blanc Caravelos, Madère et bourgogne blanc. Chaque fût apporte une couche à cette « symphonie » fruitée : un nez de fruits tropicaux et de melon avec une touche de chocolat ; une bouche de fruits de verger, de fruits rouges et de chocolat mi-doux avec une épice légère ; une finale longue et luxueuse de fruit de la passion et d'ananas. 46 % ABV, non filtré à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=M4UY95rJpXE",
+          "label": "Cult Of Whisky — Teeling Single Malt Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ftri_6ClMIQ",
+          "label": "Whiskey is a Journey — Teeling: Single Malt"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=k09wOW1b48Q",
+          "label": "Whiskey Vault — Teeling Single Malt Review and Tasting"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mVDaltpXlw0",
+          "label": "The Whiskey Nerd — Teeling Single Malt Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=h6O_D0QbYSs",
+          "label": "La Wiskada — ¿Qué hace tan especial al Teeling Single Malt?"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BLuuFwtpeBs",
+          "label": "ひとくちウイスキー — ティーリング シングルモルト"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=HtagTbtDKXo",
+          "label": "宅飲みバーTakeo — ティーリング シングルモルト テイスティング"
+        }
+      ]
+    },
+    {
+      "id": "teeling-single-pot-still",
+      "slug": "teeling-single-pot-still",
+      "name": "Teeling Single Pot Still",
+      "distillery": {
+        "id": "teeling",
+        "name": "Teeling Distillery",
+        "name_es": "Teeling Distillery",
+        "name_pt": "Teeling Distillery",
+        "name_en": "Teeling Distillery",
+        "name_ja": "ティーリング蒸留所",
+        "name_fr": "Teeling Distillery"
+      },
+      "description": "El primer pot still destilado en Dublín en casi 50 años, con la receta clásica de la capital: 50% cebada malteada y 50% sin maltear, destilado tres veces y madurado en roble americano virgen, barricas de bourbon y de jerez. Nariz de canela, pomelo, cream soda y almendras tostadas; en boca, pimienta blanca que da paso a kumquats maduros, melocotón con crema y miel; final seco y especiado con azúcar muscovado oscuro. 46% ABV, sin filtración en frío.",
+      "image": "/data/images/teeling-single-pot-still.webp",
+      "origin": "ireland",
+      "region": "Dublin",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Roble americano virgen, bourbon y jerez",
+      "distillery_id": "teeling",
+      "insertion_order": 354,
+      "featured": false,
+      "name_pt": "Teeling Single Pot Still",
+      "description_pt": "O primeiro pot still destilado em Dublin em quase 50 anos, com a receita clássica da capital: 50% cevada malteada e 50% sem maltear, destilado três vezes e maturado em carvalho americano virgem, barricas de bourbon e de xerez. Nariz de canela, toranja, cream soda e amêndoas torradas; na boca, pimenta branca que dá lugar a kumquats maduros, pêssego com creme e mel; final seco e picante com açúcar mascavo escuro. 46% ABV, sem filtração a frio.",
+      "name_en": "Teeling Single Pot Still",
+      "description_en": "The first pot still whiskey distilled in Dublin in nearly 50 years, using the capital's classic recipe: 50% malted and 50% unmalted barley, triple distilled and matured in American virgin oak, bourbon and sherry casks. Nose of cinnamon, grapefruit, cream soda and roasted almonds; palate of white pepper giving way to ripe kumquats, peaches and cream and honey; a dry, spicy finish of dark muscovado sugar. 46% ABV, non-chill-filtered.",
+      "name_ja": "ティーリング シングルポットスチル",
+      "description_ja": "ほぼ50年ぶりにダブリンで蒸留されたポットスチルウイスキー。首都の伝統的なレシピ（モルテッド大麦50％、アンモルテッド大麦50％）を使い、3回蒸留し、ヴァージンアメリカンオーク、バーボン樽、シェリー樽で熟成。シナモン、グレープフルーツ、クリームソーダ、ローストアーモンドの香り。ホワイトペッパーの刺激から、熟したキンカン、ピーチ＆クリーム、ハチミツへと続く味わい。ダークマスコバド糖の甘さが冴える、ドライでスパイシーな余韻。アルコール度数46%、ノンチルフィルター。",
+      "name_fr": "Teeling Single Pot Still",
+      "description_fr": "Le premier pot still distillé à Dublin depuis près de 50 ans, avec la recette classique de la capitale : 50 % d'orge maltée et 50 % non maltée, triplement distillé et vieilli en chêne américain vierge, fûts de bourbon et de xérès. Nez de cannelle, de pamplemousse, de cream soda et d'amandes torréfiées ; en bouche, le poivre blanc laisse place aux kumquats mûrs, à la pêche à la crème et au miel ; une finale sèche et épicée de sucre muscovado foncé. 46 % ABV, non filtré à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SmUhsEy22bg",
+          "label": "Whiskey Lore — Tasting 95: Teeling Single Pot Still"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lBu5DY1oq7c",
+          "label": "WhiskyJason — Teeling Single Pot Still Batch 1 Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wpa6TVfdtRg",
+          "label": "Erik Wait Whisky Studies — Teeling Single Pot Still"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lGvzuYuETqA",
+          "label": "NINOBAR SOMMELIER — Cata de Teeling Single Pot Still"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TbMfSL91gYI",
+          "label": "宅飲みバーTakeo — ティーリング ポットスチル テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pIC92W7ORlI",
+          "label": "ドラムズ・ジャパン — ティーリング ポットスチル テイスティング"
+        }
+      ]
+    },
+    {
+      "id": "teeling-small-batch",
+      "slug": "teeling-small-batch",
+      "name": "Teeling Small Batch",
+      "distillery": {
+        "id": "teeling",
+        "name": "Teeling Distillery",
+        "name_es": "Teeling Distillery",
+        "name_pt": "Teeling Distillery",
+        "name_en": "Teeling Distillery",
+        "name_ja": "ティーリング蒸留所",
+        "name_fr": "Teeling Distillery"
+      },
+      "description": "El blended insignia de Teeling: whiskies de grano y de malta totalmente envejecidos en barricas de bourbon y casados después hasta 12 meses en barricas de ron centroamericano. Nariz floral y herbal con vainilla, pasas al ron y pimienta de Jamaica; en boca, cremosa y golosa, con miel, fruta seca, albaricoque y una especia cálida. Final largo y envolvente, con roble y un dulzor que perdura. 46% ABV, sin filtración en frío.",
+      "image": "/data/images/teeling-small-batch.webp",
+      "origin": "ireland",
+      "region": "Dublin",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Ex-bourbon, terminado en ron centroamericano",
+      "distillery_id": "teeling",
+      "insertion_order": 352,
+      "featured": false,
+      "name_pt": "Teeling Small Batch",
+      "description_pt": "O blended de assinatura da Teeling: whiskies de grão e malte totalmente maturados em barricas de bourbon e depois casados por até 12 meses em barricas de rum centro-americano. Nariz floral e herbal com baunilha, passas ao rum e pimenta da Jamaica; na boca, cremoso e guloso, com mel, fruta seca, damasco e uma especiaria quente. Final longo e envolvente, com carvalho e um dulçor que perdura. 46% ABV, sem filtração a frio.",
+      "name_en": "Teeling Small Batch",
+      "description_en": "Teeling's flagship blend: grain and malt whiskeys fully matured in ex-bourbon barrels then married for up to 12 months in Central American rum casks. A floral, herbal nose of vanilla, rum raisins and allspice; a creamy, indulgent palate of honey, dried fruit, apricot and warm spice. A long, warming finish of oak and lingering sweetness. 46% ABV, non-chill-filtered.",
+      "name_ja": "ティーリング スモールバッチ",
+      "description_ja": "ティーリングの看板ブレンド。グレーン＆モルトウイスキーをバーボン樽で熟成後、中央アメリカのラム樽で最大12か月カスケットし仕上げています。バニラ、ラムレーズン、オールスパイスが広がるフローラルでハーバルな香り。ハチミツ、ドライフルーツ、アプリコットと温かなスパイスが広がるクリーミーでリッチな味わい。オークと長く続く甘さの、長く温かい余韻。アルコール度数46%、ノンチルフィルター。",
+      "name_fr": "Teeling Small Batch",
+      "description_fr": "Le blend signature de Teeling : des whiskies de grain et de malt entièrement vieillis en fûts de bourbon puis mariés jusqu'à 12 mois en fûts de rhum centraméricain. Un nez floral et herbacé de vanille, de raisins au rhum et de piment de la Jamaïque ; une bouche crémeuse et gourmande, de miel, de fruits secs, d'abricot et d'épices chaudes. Finale longue et enveloppante, de chêne et d'une douceur persistante. 46 % ABV, non filtré à froid.",
+      "resellers_uy": [
+        {
+          "name": "Alambique",
+          "url": "https://alambique.com.uy",
+          "price": null
+        },
+        {
+          "name": "Malthaus",
+          "url": "https://malthaus.uy",
+          "price": null
+        },
+        {
+          "name": "Mercado Libre Uruguay",
+          "url": "https://listado.mercadolibre.com.uy",
+          "price": null
+        }
+      ],
+      "resellers_br": [
+        {
+          "name": "Amazon",
+          "url": "https://www.amazon.com.br",
+          "price": null
+        },
+        {
+          "name": "Mercado Livre",
+          "url": "https://www.mercadolivre.com.br",
+          "price": null
+        },
+        {
+          "name": "Imexco Importadora",
+          "url": "https://www.imexco.com.br",
+          "price": null
+        }
+      ],
+      "resellers_usa": [],
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9VhGbQey17M",
+          "label": "Scotch Test Dummies — Teeling Small Batch #122"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MxeNrQTixcA",
+          "label": "Whiskey Vault — What Is Whisky? Teeling Small Batch"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q4lBlHi9wEM",
+          "label": "The Whiskey Dictionary — Teeling Small Batch"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QiY0eA8vSx0",
+          "label": "No Nonsense Whisky — Teeling Small Batch #193"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RGz7PYsyCbs",
+          "label": "Hablando de Whisky — Teeling Small Batch"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bwmknNGFhTo",
+          "label": "Los Whiskochos — Calendario de Adviento Día 1: Teeling Small Batch"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rUU_1cUNyhY",
+          "label": "Tito Whisky — Cata y reseña Teeling Small Batch"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rz-RXeS41Lg",
+          "label": "Amantes Del Whisky — Teeling Small Batch Ep#9"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qpYJf4GnBNA",
+          "label": "宅飲みバーTakeo — ティーリング スモールバッチ 飲んでみる"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=F_j1t3qfUJI",
+          "label": "Tierri Whisky — Teeling Small Batch Irlandês"
         }
       ]
     },

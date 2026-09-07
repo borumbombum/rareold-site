@@ -4,6 +4,7 @@ Authoritative task list for this repo. One task file per task in `tasks/`, named
 
 Current status of `tasks/` (authoritative — kept in sync with every task file `Status:` change, see Task workflow):
 
+- 075 [DONE] Add 5 Irish whiskies (Method & Madness, Teeling x3, Roe & Co)
 - 074 [DONE] Add 5 Midleton pot still whiskies (Powers John's Lane, Green/Yellow/Red Spot, Midleton Very Rare)
 - 073 [DONE] Add 5 Irish whiskies: Jameson 18, Redbreast 12, Redbreast Lustau, Redbreast Cask Strength, Powers Gold Label
 - 072 [DONE] Add 5 whiskies: Hedonism, Haig Club, Girvan, Jameson Caskmates, Jameson Black Barrel

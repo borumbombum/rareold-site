@@ -439,3 +439,11 @@
 - **Batch-sensitive ABV must be picked deliberately:** Redbreast CS ships at 57.5% (B1/24 batch) — the expression is cask-strength by nature; Jameson 18 at 46% (current EU bottling, not the older 40% US-only), Powers Gold at 43.2% (EU Distiller's Cut) vs 40% IE domestic. Exact expression, exact label; ABV follows the bottle we listed.
 - **TWE CDN stayed the image source of the whole batch** (img.thewhiskyexchange.com/900/…): all five shots verified HTTP 200 and cleaned to 500×500 webp in one parallel `prepare-image.mjs` run.
 - **43 videos, one-pass `yt-verify.mjs` audit after 5 parallel subagents** — every kept URL verified live; the ids file included a leading-dash ID (`-SzAnRWpaB0`) that works fine piped via stdin.
+## 2026-09-07 — Batch: 5 Irish whiskies (Method & Madness SPS, Teeling x3, Roe & Co)
+
+- **Two new distilleries in one batch (teeling, roe-and-co) = the long pole again**: full records (coordinates, founded, website, 5-language descriptions) plus map verification, before any video work. Midleton reused for Method & Madness.
+- **Whisky.com titles can conflate brand slogan with product:** "Teeling - The Spirit of Dublin" is the *poitín* (52.2%, 2016) review, not the matured Single Pot Still — dropped. Check the oEmbed title against the EXACT expression, especially for distillery-launch-era reviews.
+- **Never write seed labels from memory — take them from the `yt-verify.mjs` audit.** I drafted ja channel names for Roe & Co from partial subagent output and three were wrong (`【家飲み職人】せるじお…`, `ハイボールおじさんの宅飲み研究所【ハイラボ】`); one `yt-verify.mjs` pass corrected them. Verify labels in the same command that verifies the URLs.
+- **Coverage follows fame tiering even inside a new brand:** Teeling Small Batch (flagship) filled 8 slots (es4/en4 + ja/pt), while Single Pot Still (new, 2019 Dublin revival) and Method & Madness got en+es/ja scraps. Roe & Co (Diageo launch) filled en4/es2/ja4. fr = 0 for all 5 — English top-up at runtime.
+- **Multi-source image hunt again:** Teeling official CDN PNGs (`d1mp96cehvcx4f.cloudfront.net`, strip `-320x399` suffix), Roe & Co Contentful `bottle.webp`, whiskyrant.com for Method & Madness — all 200, all cleaned to 500×500 webp.
+- **Reusing one URL across two products is legal** (uniqueness rule is per product) — nothing shared this batch, but confirmed the prior precedent.

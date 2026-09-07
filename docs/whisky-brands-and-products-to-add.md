@@ -235,11 +235,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Yellow Spot 12 YO - Midleton
 ✅ Red Spot 15 YO - Midleton
 ✅ Midleton Very Rare - Midleton
-Method and Madness Single Pot Still - Midleton
-Teeling Small Batch - Teeling
-Teeling Single Malt - Teeling
-Teeling Single Pot Still - Teeling
-Roe & Co Blended Irish Whiskey - Roe & Co
+✅ Method and Madness Single Pot Still - Midleton
+✅ Teeling Small Batch - Teeling
+✅ Teeling Single Malt - Teeling
+✅ Teeling Single Pot Still - Teeling
+✅ Roe & Co Blended Irish Whiskey - Roe & Co
 Pearse Lyons The Original - Pearse Lyons
 The Dublin Liberties Dead Man's Punch - Dublin Liberties
 Slane Irish Whiskey - Slane
