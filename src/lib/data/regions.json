@@ -102,6 +102,12 @@
     "sort_order": 10
   },
   {
+    "id": "ireland-clare",
+    "origin_id": "ireland",
+    "name": "Clare",
+    "sort_order": 11
+  },
+  {
     "id": "ireland-donegal",
     "origin_id": "ireland",
     "name": "Donegal",
@@ -118,6 +124,12 @@
     "origin_id": "ireland",
     "name": "Meath",
     "sort_order": 13
+  },
+  {
+    "id": "ireland-down",
+    "origin_id": "ireland",
+    "name": "Down",
+    "sort_order": 14
   },
   {
     "id": "scotland-highlands",

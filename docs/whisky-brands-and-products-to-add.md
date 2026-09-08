@@ -241,7 +241,7 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Teeling Single Pot Still - Teeling
 ✅ Roe & Co Blended Irish Whiskey - Roe & Co
 ✅ Pearse Lyons The Original - Pearse Lyons
-The Dublin Liberties Dead Man's Punch - Dublin Liberties
+✅ The Dublin Liberties Dead Man's Punch - Dublin Liberties (added as Dead Rabbit Irish Whiskey)
 ✅ Slane Irish Whiskey - Slane
 ✅ Tullamore D.E.W. Original - Tullamore D.E.W.
 ✅ Tullamore D.E.W. 12 YO Special Reserve - Tullamore D.E.W.
@@ -251,10 +251,10 @@ The Dublin Liberties Dead Man's Punch - Dublin Liberties
 ✅ The Busker Single Pot Still - Royal Oak
 ✅ The Legendary Silkie - Sliabh Liag
 ✅ McConnell's Sherry Cask - McConnell's
-Dunville's Three Crowns - Echlinville
-Hinch Small Batch - Hinch
-Clonakilty Port Cask - Clonakilty
-Knappogue Castle 12 YO - Knappogue Castle
+✅ Dunville's Three Crowns - Echlinville
+✅ Hinch Small Batch - Hinch
+✅ Clonakilty Port Cask - Clonakilty
+✅ Knappogue Castle 12 YO - Knappogue Castle
 The Sexton Single Malt - The Sexton
 Proper No. Twelve Irish Whiskey - Proper No. Twelve
 

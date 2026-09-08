@@ -36258,6 +36258,354 @@
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
+    },
+    {
+      "featured": false,
+      "id": "dead-rabbit-irish-whiskey",
+      "slug": "dead-rabbit-irish-whiskey",
+      "name": "Dead Rabbit Irish Whiskey",
+      "description": "Whisky irlandés de mezcla elaborado por Dublin Liberties Distillery en colaboración con el famoso pub neoyorquino The Dead Rabbit Grocery and Grog. Con un 44% de alcohol, este whisky presenta aromas de piel de naranja, vainilla, flores recién cortadas, treacle y especias. En boca es rico y aterciopelado, con notas de cítricos, toffee, especias de madera, cuero y hoja de tabaco. Acompañamientos recomendados: cerdo, pastas, langosta, pato, tocino de maple.",
+      "image": "/data/images/dead-rabbit-irish-whiskey.webp",
+      "origin": "ireland",
+      "region": "Dublin",
+      "age": null,
+      "volume": null,
+      "abv": 44,
+      "cask": null,
+      "url": null,
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Dead Rabbit Irish Whiskey",
+      "description_pt": "Whisky irlandês de mistura elaborado pela Dublin Liberties Distillery em colaboração com o famoso bar neoyorquino The Dead Rabbit Grocery and Grog. Com 44% de álcool, este whisky apresenta aromas de casca de laranja, baunilha, flores recém-cortadas, treacle e especiarias. Na boca é rico e aveludado, com notas de cítricos, toffee, especiarias de madeira, couro e folha de tabaco. Acompanhamentos recomendados: porco, massas, lagosta, pato, bacon de maple.",
+      "name_en": "Dead Rabbit Irish Whiskey",
+      "description_en": "Irish blended whiskey produced by Dublin Liberties Distillery in collaboration with the famous New York City pub The Dead Rabbit Grocery and Grog. At 44% ABV, this whiskey features aromas of orange peel, vanilla, fresh-cut flowers, treacle, and spice. On the palate it is rich and velvety, with notes of orange citrus, toffee, wood spice, leather, and tobacco leaf. Recommended pairings: pork, pastas, lobster, maple-braised bacon, duck, pastry.",
+      "name_ja": "デッドラビット アイリッシュウイスキー",
+      "description_ja": "ニューヨークの有名なパブ「The Dead Rabbit Grocery and Grog」との共同開発により、ダブリン・リバティーズ蒸留所が製造したブレンドアイリッシュウイスキー。ABV44%で、オレンジピール、バニラ、生花、トレイクル、スパイスのアロマ。口に含むとリッチでベルベットのような飲み口で、オレンジシトラス、トフィー、ウッドスパイス、レザー、タバコリーフのノート。",
+      "distillery_id": "dublin-liberties",
+      "name_fr": "Dead Rabbit Irish Whiskey",
+      "description_fr": "Whisky irlandais blends produit par la Dublin Liberties Distillery en collaboration avec le célèbre bar new-yorkais The Dead Rabbit Grocery and Grog. À 40 % d'alcool, ce whisky présente des arômes de zeste d'orange, de vanille, de fleurs fraîchement coupées, de treacle et d'épices. En bouche, il est riche et velouté, avec des notes de fruits agrumes, de toffee, d'épices boisées, de cuir et de feuille de tabac. Accords recommandés : porc, pâtes, homard, canard, bacon à l'érable.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=k-lIOCB4meQ",
+          "label": "Whiskey Vault — Dead Rabbit Irish Whiskey Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TbgFmllcQyw",
+          "label": "WhiskyJason — The Dead Rabbit Irish Whiskey Review #150",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=z5d670Lnc2o",
+          "label": "Durbins Bourbon — Dead Rabbit Whiskey Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Y0Z8yKu-c28",
+          "label": "Straight Talk Whiskey — Dead Rabbit Irish Whiskey - Review 107",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vFpE6q8I4QE",
+          "label": "The Whisky Party — Reseña del whiskey irlandés Dead Rabbit",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "dunvilles-three-crowns",
+      "slug": "dunvilles-three-crowns",
+      "name": "Dunville's Three Crowns",
+      "description": "Whisky irlandés de mezcla de 43.5% ABV, producido por Echlinville Distillery en Kircubbin, Co. Down, Irlanda del Norte. Dunville's fue una de las marcas de whisky más famosas de Irlanda en el siglo XIX, y fue revivida por Echlinville Distillery. Aromas cremosos de caramelo, toffee y frutas de huerto con notas florales. Acompañamientos recomendados: cerdo, ostras, asados.",
+      "image": "/data/images/dunvilles-three-crowns.webp",
+      "origin": "ireland",
+      "region": "Down",
+      "age": null,
+      "volume": null,
+      "abv": 43.5,
+      "cask": null,
+      "url": null,
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Dunville's Three Crowns",
+      "description_pt": "Whisky irlandês de mistura de 43.5% ABV, produzido pela Echlinville Distillery em Kircubbin, Co. Down, Irlanda do Norte. Dunville's foi uma das marcas de whisky mais famosas da Irlanda no século XIX, e foi revivida pela Echlinville Distillery. Aromas cremosos de caramelo, toffee e frutas de quinteira com notas florais. Acompanhamentos recomendados: porco, ostras, assados.",
+      "name_en": "Dunville's Three Crowns",
+      "description_en": "Irish blended whiskey at 43.5% ABV, produced by Echlinville Distillery in Kircubbin, Co. Down, Northern Ireland. Dunville's was one of Ireland's most famous whiskey brands in the 1800s, revived by Echlinville Distillery. Creamy aromas of caramel, toffee, and orchard fruits with floral notes. Recommended pairings: pork, oysters, roasts.",
+      "name_ja": "ダンヴィルズ スリークラウンズ",
+      "description_ja": "北アイルランド、ダウン郡キルカブビンのエックリンビル蒸留所が製造する43.5% ABVのブレンドアイリッシュウイスキー。ダンヴィルズは19世紀にアイルランドで最も有名なウイスキーブランドの一つで、エックリンビル蒸留所によって復活した。キャラメル、トフィー、果樹園フルーツのクリーミーなアロマにフローラルなノート。おすすめペアリング：豚肉、牡蠣、ロースト。",
+      "distillery_id": "echlinville",
+      "name_fr": "Dunville's Three Crowns",
+      "description_fr": "Whisky irlandais blends à 40 % d'alcool, produit par la Echlinville Distillery à Kircubbin, comté de Down, Irlande du Nord. Dunville's était l'une des marques de whisky les plus célèbres d'Irlande au XIXe siècle, relancée par la Echlinville Distillery. Arômes crémeux de caramel, toffee et fruits de verger avec des notes florales. Accords recommandés : porc, huîtres, rôtis.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=uN8CovCH8h4",
+          "label": "Whiskey Vault — Dunville's Belfast Three Crowns (Peated) Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nQ4NIzR1Eik",
+          "label": "Erik Wait Whisky Studies — Dunville's Three Crowns Peated Blended Irish Whiskey",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QkHtVsm9rlU",
+          "label": "WhiskyJason — Dunville's Three Crowns Irish Whiskey Review #43",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=G_yOoNBaq48",
+          "label": "Whiskey Lore — TASTING 47: Dunville's Three Crown Peated Irish Whiskey",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DNKm6OPMN-c",
+          "label": "Non solo whisky — Dunville's Three Crowns Peated Blended Irish Whiskey 43.5%",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "hinch-small-batch",
+      "slug": "hinch-small-batch",
+      "name": "Hinch Small Batch",
+      "description": "Whisky irlandés de mezcla de 43% ABV, producido por Hinch Distillery en Boardmills, Co. Down, Irlanda del Norte. Es una mezcla de malta única de doble destilación y grano de triple destilación, madurada en barriles de roble de bourbon de primera fill. Aromas de frutas de huerto, cítricos, vainilla, especias cálidas, miel y roble tostado. Acompañamientos recomendados: ostras, mariscos, pastas.",
+      "image": "/data/images/hinch-small-batch.webp",
+      "origin": "ireland",
+      "region": "Down",
+      "age": null,
+      "volume": null,
+      "abv": 43,
+      "cask": "Bourbon Cask",
+      "url": null,
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Hinch Small Batch",
+      "description_pt": "Whisky irlandês de mistura de 43% ABV, produzido pela Hinch Distillery em Boardmills, Co. Down, Irlanda do Norte. É uma mistura de malte único de dupla destilação e grão de tripla destilação, envelhecida em barris de carvalho americano de bourbon de primeira fill. Aromas de frutas de quinteira, cítricos, baunilha, especiarias quentes, mel e carvalho tostado. Acompanhamentos recomendados: ostras, frutos do mar, massas.",
+      "name_en": "Hinch Small Batch",
+      "description_en": "Irish blended whiskey at 43% ABV, produced by Hinch Distillery in Boardmills, Co. Down, Northern Ireland. A blend of double-distilled single malt and triple-distilled single grain, matured in first-fill ex-bourbon barrels. Aromas of orchard fruits, citrus zest, vanilla, warm spice, honey, and toasted oak. Recommended pairings: oysters, seafood, pastas.",
+      "name_ja": "ヒンチ スモールバッチ",
+      "description_ja": "北アイルランド、ダウン郡ボードミルズのヒンチ蒸留所が製造する43% ABVのブレンドアイリッシュウイスキー。二重蒸留シングルモルトと三重蒸留シングルグレーンのブレンドで、ファーストフィルのエクスバーボンバレルで熟成。果樹園フルーツ、シトロネスト、バニラ、温かみのあるスパイス、ハチミツ、トーストオークのアロマ。おすすめペアリング：牡蠣、シーフード、パスタ。",
+      "distillery_id": "hinch",
+      "name_fr": "Hinch Small Batch",
+      "description_fr": "Whisky irlandais blends à 40 % d'alcool, produit par la Hinch Distillery à Boardmills, comté de Down, Irlande du Nord. Un mélange de single malt à double distillation et de single grain à triple distillation, vieilli en fûts de chêne ex-bourbon de première fill. Arômes de fruits de verger, zeste d'orange, vanille, épices chaudes, miel et chêne grillé. Accords recommandés : huîtres, fruits de mer, pâtes.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=h5gr9YpBpVo",
+          "label": "The Single Malt Review — Hinch Small Batch Bourbon Cask",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GpSngaSZHuk",
+          "label": "Whiskey Straight Al — Hinch Small Batch | Whiskey Straight #91",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZhXAsJtzsyE",
+          "label": "The Whiskey Chaser Brian — Hinch Irish Whiskey Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ojeiaMrlUgc",
+          "label": "Whisky Wednesday — Hinch Blended Whiskey, 43%",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MHjfCunU0Hc",
+          "label": "HABLANDO DE WHISKY — HINCH BOURBON CASK",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WholHwy2gxI",
+          "label": "WHISKY BUBU — HINCH IRISH WHISKEY SMALL BATCH",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ebmFD0j3QuU",
+          "label": "The Mad Mick — Reseña de whisky Mad Micks #205. Whisky irlandés de malta única Hinch",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "clonakilty-port-cask",
+      "slug": "clonakilty-port-cask",
+      "name": "Clonakilty Port Cask",
+      "description": "Whisky irlandés de mezcla de 43.6% ABV, producido por Clonakilty Distillery en Clonakilty, Co. Cork, Irlanda. Sin filtración en frío y sin colorantes añadidos. Aromas de miel, cacao y frutas oscuras (manzanas, peras, nectarinas). En boca es sedoso y suave, con frutas oscuras secas ricas. Acompañamientos recomendados: cerdo, asados, pastas, chocolate, queso azul.",
+      "image": "/data/images/clonakilty-port-cask.webp",
+      "origin": "ireland",
+      "region": "Cork",
+      "age": null,
+      "volume": null,
+      "abv": 43.6,
+      "cask": "Port Cask",
+      "url": null,
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Clonakilty Port Cask",
+      "description_pt": "Whisky irlandês de mistura de 43.6% ABV, produzido pela Clonakilty Distillery em Clonakilty, Co. Cork, Irlanda. Sem filtração a frio e sem corantes adicionados. Aromas de mel, cacau e frutas escuras (maçãs, peras, nectarinas). Na boca é sedoso e suave, com frutas escuras secas ricas. Acompanhamentos recomendados: porco, assados, massas, chocolate, queijo azul.",
+      "name_en": "Clonakilty Port Cask",
+      "description_en": "Irish blended whiskey at 43.6% ABV, produced by Clonakilty Distillery in Clonakilty, Co. Cork, Ireland. Non-chill-filtered with no added colour. Aromas of honey, cocoa, and dark fruit (apples, pears, nectarines). On the palate it is silky smooth with rich dark dried fruits. Recommended pairings: pork, roasts, pastas, chocolate, blue cheese.",
+      "name_ja": "クロナキルティ ポートカスク",
+      "description_ja": "アイルランド、コーク郡クロナキルティのクロナキルティ蒸留所が製造する43.6% ABVのブレンドアイリッシュウイスキー。冷過濾不使用、着色不使用。蜂蜜、ココア、ダークフルーツ（リンゴ、梨、ネクタリン）のアロマ。口に含むとシルキーで滑らか、リッチなダークドライフルーツ。おすすめペアリング：豚肉、ロースト、パスタ、チョコレート、ブルーチーズ。",
+      "distillery_id": "clonakilty",
+      "name_fr": "Clonakilty Port Cask",
+      "description_fr": "Whisky irlandais blends à 43,6 % d'alcool, produit par la Clonakilty Distillery à Clonakilty, comté de Cork, Irlande. Non filtré à froid, sans colorants ajoutés. Arômes de miel, cacao et fruits foncés (pommes, poires, nectarines). En bouche, il est soyeux et doux, avec des fruits secs foncés riches. Accords recommandés : porc, rôtis, pâtes, chocolat, fromage bleu.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=s007td1wJ4g",
+          "label": "Whiskey Vault — Clonakilty Port Cask Finish Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=p9IqUoBc_9g",
+          "label": "Whisky Wednesday — Clonakilty Port Cask 43.6%",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7yzvrGa0Wyc",
+          "label": "WhiskyJason — Clonakilty Port Cask Irish Whiskey Review #66",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=63lllI8aujI",
+          "label": "Whisky_Buzz — Clonakilty Port Cask - Whiskey Review in English",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1gUmM9wjJug",
+          "label": "Amantes Del Whisky — Descubre el Mejor Whiskey Clonakilty ¡Probamos 3 Expresiones Diferentes!",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZtCMEIk7vlg",
+          "label": "My 21 Gun Saloon — Mike Trujillo - Old Fashioned de Whiskey Irlandés Clonakilty Port Cask",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=L8twWtWHUOI",
+          "label": "My 21 Gun Saloon — Alvin Tharp - Whisky irlandés Clonakilty Port Cask servido solo",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "featured": false,
+      "id": "knappogue-castle-12-yo",
+      "slug": "knappogue-castle-12-yo",
+      "name": "Knappogue Castle 12 YO",
+      "description": "Whisky irlandés de malta única con una edad mínima de 12 años, producido por Irish Distillers (subsidiaria de Pernod Ricard) en Midleton, Co. Cork. Sin filtración en frío y sin colorantes añadidos. Aromas frescos, ligeros y complejos con notas de frutas y un sutil toque de turba. Los colores van del naranja al dorado. Acompañamientos recomendados: postres, quesos.",
+      "image": "/data/images/knappogue-castle-12-yo.webp",
+      "origin": "ireland",
+      "region": "Clare",
+      "age": 12,
+      "volume": null,
+      "abv": 40,
+      "cask": "Bourbon",
+      "url": null,
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "name_pt": "Knappogue Castle 12 YO",
+      "description_pt": "Whisky irlandês de malte único com uma idade mínima de 12 anos, produzido pela Irish Distillers (subsidiária da Pernod Ricard) em Midleton, Co. Cork. Sem filtração a frio e sem corantes adicionados. Aromas frescos, leves e complexos com notas de frutas e um sutil toque de turfa. Os tons vão do laranja ao dourado. Acompanhamentos recomendados: sobremesas, queijos.",
+      "name_en": "Knappogue Castle 12 YO",
+      "description_en": "Single malt Irish whiskey aged a minimum of 12 years, produced by Irish Distillers (a Pernod Ricard subsidiary) at Midleton, Co. Cork. Non-chill-filtered with no added colour. Fresh, light, and complex aromas with fruit notes and a subtle hint of peat. Colours range from orange to gold. Recommended pairings: desserts, cheese.",
+      "name_ja": "ナポーグキャッスル 12年",
+      "description_ja": "アイルランド、コーク郡ミドルトンのアイリッシュ・ディスティラーズ（ペルノ・リカードの子会社）が製造する最低12年熟成のシングルモルトアイリッシュウイスキー。冷過濾不使用、着色不使用。フレッシュで軽やか、複雑なアロマにフルーツのノートとほのかなピートのヒント。色調はオレンジからゴールド。おすすめペアリング：デザート、チーズ。",
+      "distillery_id": "knappogue-castle",
+      "name_fr": "Knappogue Castle 12 YO",
+      "description_fr": "Whisky irlandais de malt vieilli au minimum 12 ans, produit par Irish Distillers (filiale de Pernod Ricard) à Midleton, comté de Cork. Non filtré à froid, sans colorants ajoutés. Arômes frais, légers et complexes avec des notes de fruits et un subtil soupçon de tourbe. Les couleurs vont de l'orange à l'or. Accords recommandés : desserts, fromages.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YNCem7FF2qE",
+          "label": "Whiskey Vault — Knappogue Castle 12 Year Single Malt Irish Whiskey Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kgsP_F8pn7g",
+          "label": "No Nonsense Whisky — Knappogue Castle 12 yr #264",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o-sGwVPY3Qg",
+          "label": "Seaway Whisky Wire — Knappogue Castle 12-Year Old Single Malt Irish Whiskey",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BvjrIFl5kpw",
+          "label": "The Barley Lads — Knappogue Castle 12 Irish Whiskey | 5 Minute Whiskey Reviews #29",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XZsGkd_tLG0",
+          "label": "Non solo whisky — Knappogue Castle 12 Year Old Single Malt Irish Whiskey 40%",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     }
   ]
 }
