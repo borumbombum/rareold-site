@@ -1,5 +1,24 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-08 — Batch of 5 Irish whiskies (Dead Rabbit, Dunville's Three Crowns, Hinch Small Batch, Clonakilty Port Cask, Knappogue Castle 12)
+
+- **Niche Irish single expressions have thin non-English coverage.** Dead Rabbit / Dunville's Three Crowns / Knappogue Castle 12 each shipped with only 4 en + 1 es (the "es" slot sometimes being an Italian channel "Non solo whisky" that covers Irish whiskies). Hinch (3 es) and Clonakilty (3 es) had better Spanish coverage. No pt/ja/fr exact-expression reviews exist after exhaustive multi-source search — English top-up fills those rows at runtime. Never pad.
+- **Queue replacement product:** the line "The Dublin Liberties Dead Man's Punch" doesn't exist; user confirmed Dead Rabbit Irish Whiskey as the substitute (same distillery, Dublin Liberties).
+- **whiskybase static CDN 403s persist** even with alternative URL patterns — used oakandbarrelnyc.com, hinchdistillery.com CDN, thewhiskyexchange.com, and Wikimedia Commons (fixed path `/1/12/` not `/1/19/`) instead.
+- **The seed whisky schema** keeps base Spanish on `name`/`description` (no `_es` override), with `name_en/description_en/name_pt/description_pt/name_ja/description_ja/name_fr/description_fr` as the localized columns and `distillery_id` linking to a distillery record.
+- **Co-authored products still need their own distillery record** even when a brand (e.g. Dead Rabbit vendor Dublin Liberties) is itself a producer — the product's `distillery_id` points to Dublin Liberties, and that record needs complete coords so /map renders it.
+- **Knappogue Castle** is not a distillery but a castle/brand; production is at Midleton by Irish Distillers. Its distillery record was created with the brand name "Knappogue Castle" + region Clare, coords at the castle — flag this nuance for anyone researching it later.
+
+## 2026-09-08 — Isolating the heart effect into a standalone HTML example
+
+- The heart click effect lives in `FavoriteButton.svelte`/`FollowDistilleryButton.svelte` (the `burst()` particle spawner) and `app.css` (`heartPop`, `heartParticleBurst`). It isolated cleanly into `static/santandalong.html` as a dependency-free demo.
+- The whole effect is just **two CSS keyframes** plus a **`burst(x, y)` JS function** that spawns fixed-position `span.heart-particle` elements at the button's center (`--tx`/`--ty` CSS vars, removed after 700ms).
+- No Svelte needed: replace `<Heart>` from `@lucide/svelte` with an inline SVG whose `fill` toggles between `none` and `currentColor`.
+- The pop animation class is retriggered on each click by removing, then re-adding it with `void btn.offsetWidth` between (forces a reflow so `animation` restarts) — `classList.add` alone won't restart on repeated clicks.
+- Static Sveltekit dir here is `static/` (not `public/`) — served at `/santandalong.html`.
+
+- **`/whisky/silkie-legendary` showed an image that wasn't a bottle** (user-reported). The previous image showed the wrong subject entirely, not just a different Silkie expression. Re-sourced straight from the brand's official site — `https://silkiewhiskey.com/wp-content/uploads/2021/02/silkie-1-1.png` (clean standalone bottle, white/transparent bg, matches the review-video subject) → replaced `data/images/silkie-legendary.webp` (14.9 KB) via `prepare-image.mjs`. Same file path, so no seed/DB/export sync was needed — re-running `prepare-image.mjs <url> <slug>` overwrites in place. This mirrors the earlier Kilbeggan fix (same root cause: no provenance kept for the original batch image).
+
 ## 2026-09-07 — Kilbeggan Small Batch Rye: wrong bottle image (from batch 076)
 
 - **The previous batch's 076 image for `kilbeggan-small-batch-rye` was the wrong bottle** (user reported `/es/whisky/kilbeggan-small-batch-rye` still showing an incorrect image). Root cause: no provenance/trace of the source URL was kept for that batch, so there was no way to audit what got embedded. Fix: re-sourced straight from the bottler's exact expression page — the official product-tile PNG `https://www.kilbegganwhiskey.com/sites/default/files/2024-09/kilbeggan-whiskey-bottle-small-batch-rye.png` (1500×1500, transparent bg, orange center matching the rye label) → replaced `data/images/kilbeggan-small-batch-rye.webp` (12.6 KB) via `prepare-image.mjs`.
