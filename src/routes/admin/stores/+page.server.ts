@@ -9,5 +9,5 @@ export const load: PageServerLoad = async ({ cookies, url }) => {
 	const countries = await listStoreCountries();
 	const requested = url.searchParams.get('country');
 	const country = requested && countries.some((c) => c.code === requested) ? requested : countries[0]?.code ?? null;
-	return { countries, stores: await listStores(country) };
+	return { countries, stores: await listStores(country), activeCountry: country };
 };

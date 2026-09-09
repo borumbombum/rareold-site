@@ -494,3 +494,7 @@
 - **Coverage follows fame tiering even inside a new brand:** Teeling Small Batch (flagship) filled 8 slots (es4/en4 + ja/pt), while Single Pot Still (new, 2019 Dublin revival) and Method & Madness got en+es/ja scraps. Roe & Co (Diageo launch) filled en4/es2/ja4. fr = 0 for all 5 — English top-up at runtime.
 - **Multi-source image hunt again:** Teeling official CDN PNGs (`d1mp96cehvcx4f.cloudfront.net`, strip `-320x399` suffix), Roe & Co Contentful `bottle.webp`, whiskyrant.com for Method & Madness — all 200, all cleaned to 500×500 webp.
 - **Reusing one URL across two products is legal** (uniqueness rule is per product) — nothing shared this batch, but confirmed the prior precedent.
+
+## 2026-09-09 — Country filter dropdown bug fix
+
+- **Dropdown state not reflecting URL param after navigation.** The stores admin page (`/admin/stores`) uses `window.location.search` to navigate with `?country=XX`, but `filterCountry` was always initialized to `data.countries[0].code`. The server resolved the country from the URL but never returned it to the client. Fix: server returns `activeCountry` in data, client reads it on init. Always ensure client-side state is initialized from server-resolved values when using URL-based filtering.

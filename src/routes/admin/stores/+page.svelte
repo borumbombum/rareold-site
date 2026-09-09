@@ -27,7 +27,7 @@
 	let isNew = $state(false);
 	let busy = $state(false);
 	let error = $state('');
-	let filterCountry = $state(data.countries.length ? data.countries[0].code : '');
+	let filterCountry = $state(data.activeCountry ?? (data.countries.length ? data.countries[0].code : ''));
 
 	const countries = $derived(data.countries);
 	const stores = $derived(data.stores);
