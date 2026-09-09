@@ -255,14 +255,14 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Hinch Small Batch - Hinch
 ✅ Clonakilty Port Cask - Clonakilty
 ✅ Knappogue Castle 12 YO - Knappogue Castle
-The Sexton Single Malt - The Sexton
-Proper No. Twelve Irish Whiskey - Proper No. Twelve
+✅ The Sexton Single Malt - The Sexton
+✅ Proper No. Twelve Irish Whiskey - Proper No. Twelve
 
 ## USA — Kentucky & Tennessee
 
-Jim Beam White Label - Jim Beam
-Jim Beam Double Oak - Jim Beam
-Knob Creek 9 YO - Jim Beam
+✅ Jim Beam White Label - Jim Beam
+✅ Jim Beam Double Oak - Jim Beam
+✅ Knob Creek 9 YO - Jim Beam
 Basil Hayden's Kentucky Bourbon - Jim Beam
 Booker's Bourbon - Jim Beam
 Baker's 7 YO - Jim Beam
