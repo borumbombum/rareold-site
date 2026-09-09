@@ -9,7 +9,9 @@ export const DUMP_TABLES = [
 	'distilleries',
 	'products',
 	'influencer_videos',
-	'resellers',
+	'store_countries',
+	'stores',
+	'product_stores',
 	'pages'
 ] as const;
 

@@ -42,13 +42,14 @@ function slugify(s) {
 		.replace(/^-+|-+$/g, '');
 }
 
-const [whiskiesData, resellersData] = await Promise.all([
+const [whiskiesData, storesData] = await Promise.all([
 	readFile(resolve(SEED_DIR, 'whiskies.json'), 'utf8').then(JSON.parse),
-	readFile(resolve(SEED_DIR, 'resellers.json'), 'utf8').then(JSON.parse)
+	readFile(resolve(SEED_DIR, 'stores.json'), 'utf8').then(JSON.parse)
 ]);
 
 const whiskies = whiskiesData.whiskies;
-const resellers = resellersData.resellers;
+const storeCountries = storesData.store_countries ?? [];
+const stores = storesData.stores ?? [];
 
 let distilleries = [];
 try {
@@ -245,10 +246,17 @@ const insertInfluencerVideos = whiskies.flatMap((w) =>
 	)
 );
 
-const insertResellers = resellers.map((r) =>
+const insertStoreCountries = storeCountries.map((s) =>
 	stmt(
-		'INSERT INTO resellers (id, name, url, country, price, sort_order) VALUES (?, ?, ?, ?, ?, ?) ON CONFLICT(id) DO NOTHING',
-		[r.id, r.name, r.url, r.country, r.price ?? null, r.sort_order ?? 0]
+		'INSERT INTO store_countries (code, name, currency, sort_order, active) VALUES (?, ?, ?, ?, ?) ON CONFLICT(code) DO NOTHING',
+		[s.code, s.name, s.currency, s.sort_order ?? 0, s.active === false || s.active === 0 ? 0 : 1]
+	)
+);
+
+const insertStores = stores.map((s) =>
+	stmt(
+		'INSERT INTO stores (id, store_country_code, name, url, logo_url, sort_order) VALUES (?, ?, ?, ?, ?, ?) ON CONFLICT(id) DO NOTHING',
+		[s.id, s.store_country_code, s.name, s.url, s.logo_url ?? null, s.sort_order ?? 0]
 	)
 );
 
@@ -271,7 +279,7 @@ try {
 	);
 } catch { /* no pages seed file */ }
 
-await tx.batch([...insertOrigins, ...insertRegions, ...insertDistilleries, ...insertProducts, ...insertInfluencerVideos, ...insertResellers, ...insertPages]);
+await tx.batch([...insertOrigins, ...insertRegions, ...insertDistilleries, ...insertProducts, ...insertInfluencerVideos, ...insertStoreCountries, ...insertStores, ...insertPages]);
 
 // Locale columns on existing rows are backfilled (ON CONFLICT DO UPDATE for
 // _pt, _en, _ja fields) so new translations in the seed propagate. Other edits
@@ -285,7 +293,8 @@ const summary = await client.execute(
 		(SELECT COUNT(*) FROM distilleries) AS distilleries,
 		(SELECT COUNT(*) FROM products) AS products,
 		(SELECT COUNT(*) FROM influencer_videos) AS influencer_videos,
-		(SELECT COUNT(*) FROM resellers) AS resellers`
+		(SELECT COUNT(*) FROM store_countries) AS store_countries,
+		(SELECT COUNT(*) FROM stores) AS stores`
 );
 
 console.log('[db-sync] Seeded (bootstrap-only, never overwrites existing rows):');

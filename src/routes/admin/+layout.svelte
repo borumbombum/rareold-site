@@ -13,6 +13,8 @@
 		{ href: '/admin/distilleries', label: m.admin_nav_distilleries() },
 		{ href: '/admin/reviews', label: m.admin_nav_reviews() },
 		{ href: '/admin/users', label: m.admin_nav_users() },
+		{ href: '/admin/store-countries', label: m.admin_nav_store_countries() },
+		{ href: '/admin/stores', label: m.admin_nav_stores() },
 		{ href: '/admin/pages', label: m.admin_nav_pages() },
 		{ href: '/admin/downloads', label: m.admin_nav_downloads() }
 	]);

@@ -1,15 +1,12 @@
 <script lang="ts">
 	import { ArrowRight, Star } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
-	import { formatNumber } from '$lib/utils/format';
 	import { originFlag, originKey, originLabel } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
-	import { resellersFor } from '$lib/utils/resellers';
 	import { ratingStore } from '$lib/stores/rating.svelte';
 	import VoteButton from './VoteButton.svelte';
 	import PlayVideosButton from './PlayVideosButton.svelte';
 	import { videosForLocale } from '$lib/utils/videos';
-	import { m } from '$lib/paraglide/messages';
 	import type { CountryCode, Whisky } from '$lib/types';
 
 	let {
@@ -27,7 +24,6 @@
 	const href = $derived(localizeHref(`/whisky/${slug}`));
 	const flag = $derived(originFlag(product));
 	const name = $derived(l10n(product, 'name') ?? product.name);
-	const storesCount = $derived(resellersFor(product, country).length);
 	const ratingEntry = $derived(ratingStore.get(slug));
 	const avgRating = $derived(ratingEntry.avg_rating);
 	const reviewCount = $derived(ratingEntry.review_count);
@@ -45,7 +41,6 @@
 	<span class="hidden shrink-0 text-zinc-400 md:inline">{product.region ?? ''}</span>
 	<span class="hidden shrink-0 text-zinc-400 md:inline">{product.abv != null ? `${product.abv}%` : ''}</span>
 	<span class="hidden shrink-0 text-zinc-400 md:inline">{product.age != null ? `${product.age}y` : ''}</span>
-	<span class="shrink-0 text-zinc-400">{storesCount}</span>
 	<span class="inline-flex shrink-0 items-center gap-1 text-zinc-400 tabular-nums">
 		<Star size={12} class="text-amber-500" fill="currentColor" />
 		{avgRating > 0 ? avgRating.toFixed(1) : '—'}

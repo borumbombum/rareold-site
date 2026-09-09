@@ -1,10 +1,8 @@
 <script lang="ts">
-	import { ArrowRight, Store, Star } from '@lucide/svelte';
+	import { ArrowRight, Star } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
-	import { formatNumber } from '$lib/utils/format';
 	import { originFlag, originKey, originLabel } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
-	import { resellersFor } from '$lib/utils/resellers';
 	import { ratingStore } from '$lib/stores/rating.svelte';
 	import VoteButton from './VoteButton.svelte';
 	import FavoriteButton from './FavoriteButton.svelte';
@@ -29,7 +27,6 @@
 	const flag = $derived(originFlag(product));
 	const originKeyLabel = $derived(originKey(product));
 	const name = $derived(l10n(product, 'name') ?? product.name);
-	const storesCount = $derived(resellersFor(product, country).length);
 	const ratingEntry = $derived(ratingStore.get(slug));
 	const avgRating = $derived(ratingEntry.avg_rating);
 	const reviewCount = $derived(ratingEntry.review_count);
@@ -85,11 +82,7 @@
 			<p class="text-xs text-zinc-500 dark:text-zinc-400">{l10n(product.distillery, 'name')}</p>
 		{/if}
 
-		<div class="mt-auto flex items-center justify-between gap-2 pt-2">
-			<p class="flex items-center gap-1.5 text-xs text-zinc-400">
-				<Store size={14} />
-				{m.stores_count({ count: formatNumber(storesCount, locale) })}
-			</p>
+		<div class="mt-auto flex items-center justify-end gap-2 pt-2">
 			<a
 				href={href}
 				class="flex shrink-0 items-center gap-1.5 rounded-full bg-zinc-900 px-3.5 py-2 text-xs font-semibold text-white transition hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"

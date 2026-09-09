@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { invalidateAll } from '$app/navigation';
-	import { Plus, Pencil, Trash2, X, Loader2, Star, MonitorPlay, Camera, ExternalLink } from '@lucide/svelte';
+	import { Plus, Pencil, Trash2, X, Loader2, Star, MonitorPlay, Camera, ExternalLink, Check } from '@lucide/svelte';
 	import { m } from '$lib/paraglide/messages';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { ui } from '$lib/stores/ui.svelte';
@@ -48,6 +48,106 @@
 	let editingId = $state<string | null>(null);
 	let busy = $state(false);
 	let error = $state('');
+
+	interface AdminProductStore {
+		product_id: string;
+		store_id: string;
+		url: string | null;
+		price: number | null;
+		store_name: string;
+		store_country_code: string;
+	}
+
+	const STORE_COUNTRIES = (data.storeCountries ?? []).filter((c) => c.active);
+	let productStores = $state<AdminProductStore[]>([]);
+	let productStoresBusy = $state(false);
+	let newPsCountry = $state('');
+	let newPsStore = $state('');
+	let newPsUrl = $state('');
+	let newPsPrice = $state('');
+
+	const storesByCountry = (code: string) =>
+		(data.stores ?? []).filter((s) => s.store_country_code === code);
+
+	const availableStoresForCountry = (code: string) =>
+		storesByCountry(code).filter((s) => !productStores.some((ps) => ps.store_id === s.id));
+
+	async function loadProductStores(productId: string) {
+		productStoresBusy = true;
+		try {
+			const res = await fetch(`/api/admin/product-stores?product=${encodeURIComponent(productId)}`);
+			productStores = res.ok ? await res.json() : [];
+		} catch {
+			productStores = [];
+		} finally {
+			productStoresBusy = false;
+		}
+	}
+
+	async function saveStoreLink(link: AdminProductStore) {
+		productStoresBusy = true;
+		try {
+			const res = await fetch('/api/admin/product-stores', {
+				method: 'PUT',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					product_id: link.product_id,
+					store_id: link.store_id,
+					url: link.url?.trim() || null,
+					price: link.price == null || String(link.price) === '' ? null : Number(link.price)
+				})
+			});
+			if (res.ok) ui.showToast(m.admin_store_countries_saved());
+			else ui.showToast(m.error_generic(), true);
+		} finally {
+			productStoresBusy = false;
+		}
+	}
+
+	async function addStoreLink() {
+		if (!editingId || !newPsStore) return;
+		const url = newPsUrl.trim() || null;
+		const price = newPsPrice === '' ? null : Number(newPsPrice);
+		productStoresBusy = true;
+		try {
+			const res = await fetch('/api/admin/product-stores', {
+				method: 'PUT',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					product_id: editingId,
+					store_id: newPsStore,
+					url,
+					price
+				})
+			});
+			if (res.ok) {
+				newPsUrl = '';
+				newPsPrice = '';
+				newPsStore = '';
+				ui.showToast(m.admin_product_stores_saved());
+				await loadProductStores(editingId);
+			} else {
+				ui.showToast(m.error_generic(), true);
+			}
+		} finally {
+			productStoresBusy = false;
+		}
+	}
+
+	async function removeStoreLink(storeId: string) {
+		if (!editingId) return;
+		if (!confirm(m.admin_stores_delete_confirm())) return;
+		const res = await fetch(
+			`/api/admin/product-stores?product=${encodeURIComponent(editingId)}&store=${encodeURIComponent(storeId)}`,
+			{ method: 'DELETE' }
+		);
+		if (res.ok) {
+			ui.showToast(m.admin_product_stores_deleted());
+			await loadProductStores(editingId);
+		} else {
+			ui.showToast(m.error_generic(), true);
+		}
+	}
 
 	interface ProductForm {
 		id: string;
@@ -180,6 +280,7 @@
 			name_fr: null,
 			description_fr: null
 		};
+		productStores = [];
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
@@ -212,6 +313,10 @@
 		};
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 		loadVideos(id);
+		productStores = [];
+		newPsCountry = STORE_COUNTRIES[0]?.code ?? '';
+		newPsStore = '';
+		loadProductStores(id);
 	}
 
 	async function save() {
@@ -462,6 +567,81 @@
 					>
 						<Plus size={14} />
 						{m.admin_videos_add()}
+					</button>
+				</div>
+			</div>
+
+			<div class="mt-6 rounded-xl border border-zinc-200 p-4 dark:border-zinc-800">
+				<h3 class="font-display text-sm font-semibold text-zinc-900 dark:text-white">{m.admin_product_stores_title()}</h3>
+				<p class="mt-1 text-xs text-zinc-500 dark:text-zinc-400">{m.admin_product_stores_hint()}</p>
+
+				<ul class="mt-3 divide-y divide-zinc-100 dark:divide-zinc-800">
+					{#each productStores as link (link.store_id)}
+						<li class="flex flex-wrap items-center gap-2 py-2 text-sm">
+							<span class="min-w-0 flex-1 truncate font-medium text-zinc-700 dark:text-zinc-300">{link.store_name}</span>
+							<span class="rounded bg-zinc-100 px-1.5 py-0.5 text-[10px] uppercase text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">{link.store_country_code}</span>
+							<input
+								bind:value={link.url}
+								placeholder={m.admin_product_stores_url()}
+								class="{inputClass} w-40 sm:w-56"
+							/>
+							<input
+								bind:value={link.price}
+								type="number"
+								step="0.01"
+								min="0"
+								placeholder={m.admin_table_price()}
+								class="{inputClass} w-24"
+							/>
+							<button
+								onclick={() => saveStoreLink(link)}
+								title={m.admin_pages_save()}
+								class="grid h-8 w-8 shrink-0 place-items-center rounded-lg text-zinc-500 transition hover:bg-emerald-50 hover:text-emerald-600 disabled:opacity-50 dark:hover:bg-emerald-950"
+								disabled={productStoresBusy}
+							>
+								<Check size={14} />
+							</button>
+							<button
+								onclick={() => removeStoreLink(link.store_id)}
+								title={m.admin_products_delete()}
+								class="grid h-7 w-7 shrink-0 place-items-center rounded-lg text-zinc-400 transition hover:bg-red-50 hover:text-red-600 dark:hover:bg-red-950"
+							>
+								<Trash2 size={14} />
+							</button>
+						</li>
+					{:else}
+						<li class="py-2 text-sm text-zinc-500 dark:text-zinc-400">{m.admin_product_stores_none()}</li>
+					{/each}
+				</ul>
+
+				<div class="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-[auto_1fr_1fr_1fr_auto]">
+					<select bind:value={newPsCountry} onchange={() => (newPsStore = '')} class={inputClass}>
+						{#each STORE_COUNTRIES as c (c.code)}
+							<option value={c.code}>{c.code} — {c.name}</option>
+						{/each}
+					</select>
+					<select bind:value={newPsStore} class={inputClass}>
+						<option value="">—</option>
+						{#each availableStoresForCountry(newPsCountry) as s (s.id)}
+							<option value={s.id}>{s.name}</option>
+						{/each}
+					</select>
+					<input bind:value={newPsUrl} placeholder={m.admin_product_stores_url()} class={inputClass} />
+					<input
+						bind:value={newPsPrice}
+						type="number"
+						step="0.01"
+						min="0"
+						placeholder={m.admin_table_price()}
+						class={inputClass}
+					/>
+					<button
+						onclick={addStoreLink}
+						disabled={productStoresBusy || !newPsStore}
+						class="inline-flex items-center justify-center gap-1.5 rounded-lg bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition hover:bg-zinc-700 disabled:opacity-60 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
+					>
+						<Plus size={14} />
+						{m.admin_product_stores_add()}
 					</button>
 				</div>
 			</div>

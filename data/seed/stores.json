@@ -1,0 +1,16 @@
+{
+	"store_countries": [
+		{ "code": "UY", "name": "Uruguay", "currency": "UYU", "sort_order": 1, "active": 1 },
+		{ "code": "BR", "name": "Brazil", "currency": "BRL", "sort_order": 2, "active": 1 },
+		{ "code": "US", "name": "United States", "currency": "USD", "sort_order": 3, "active": 1 },
+		{ "code": "EN", "name": "English", "currency": "USD", "sort_order": 4, "active": 1 }
+	],
+	"stores": [
+		{ "id": "alambique", "store_country_code": "UY", "name": "Alambique", "url": "https://alambique.com.uy", "logo_url": null, "sort_order": 1 },
+		{ "id": "malthaus", "store_country_code": "UY", "name": "Malthaus", "url": "https://malthaus.uy", "logo_url": null, "sort_order": 2 },
+		{ "id": "ml-uy", "store_country_code": "UY", "name": "Mercado Libre Uruguay", "url": "https://listado.mercadolibre.com.uy", "logo_url": null, "sort_order": 3 },
+		{ "id": "amazon", "store_country_code": "BR", "name": "Amazon", "url": "https://www.amazon.com.br", "logo_url": null, "sort_order": 1 },
+		{ "id": "ml-br", "store_country_code": "BR", "name": "Mercado Livre", "url": "https://www.mercadolivre.com.br", "logo_url": null, "sort_order": 2 },
+		{ "id": "imexco", "store_country_code": "BR", "name": "Imexco Importadora", "url": "https://www.imexco.com.br", "logo_url": null, "sort_order": 3 }
+	]
+}

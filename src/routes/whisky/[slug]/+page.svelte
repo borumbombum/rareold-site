@@ -6,7 +6,6 @@
 	import { ratingStore, refreshRating, seedRating } from '$lib/stores/rating.svelte';
 	import { originFlag, originLabel, originSlug } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
-	import { resellersFor } from '$lib/utils/resellers';
 	import { ui } from '$lib/stores/ui.svelte';
 	import { m } from '$lib/paraglide/messages';
 	import FavoriteButton from '$lib/components/FavoriteButton.svelte';
@@ -69,8 +68,6 @@
 		return list;
 	});
 
-	const resellers = $derived(resellersFor(product, country));
-	const resellerCurrency = $derived(country === 'BR' ? 'BRL' : 'UYU');
 	const alternates = $derived(buildHreflangAlternates(`/whisky/${slug}`, getUrlOrigin()));
 </script>
 
@@ -190,7 +187,7 @@
 				</div>
 			</div>
 
-			<StoreList {resellers} currency={resellerCurrency} {locale} />
+			<StoreList productSlug={product.slug} />
 
 		<ReviewSection productId={product.id} countryCode={country} initial={data.reviews} />
 	</div>

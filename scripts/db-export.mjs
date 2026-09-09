@@ -25,30 +25,6 @@ if (!url || !authToken) {
 
 const client = createClient({ url, authToken });
 
-// Resellers come from Turso. product_id NULL = country-wide default store;
-// product_id set = per-product listing (deep link + price) that wins over defaults.
-const resellersRes = await client.execute(
-	'SELECT id, name, url, country, price, sort_order, product_id FROM resellers ORDER BY country, sort_order, name COLLATE NOCASE'
-);
-
-const countryDefaults = { UY: [], BR: [], US: [] };
-const byProduct = new Map();
-for (const r of resellersRes.rows) {
-	const item = { name: r.name, url: r.url, price: r.price ?? null };
-	if (r.product_id) {
-		const map = byProduct.get(r.product_id) ?? {};
-		(map[r.country] = map[r.country] ?? []).push(item);
-		byProduct.set(r.product_id, map);
-	} else {
-		(countryDefaults[r.country] = countryDefaults[r.country] ?? []).push(item);
-	}
-}
-
-const resellersFor = (productId, country) => {
-	const own = byProduct.get(productId)?.[country];
-	return own && own.length > 0 ? own : (countryDefaults[country] ?? []);
-};
-
 const productsRes = await client.execute(
 	`SELECT p.id, p.name, p.description, p.image, p.origin_id, r.name AS region_name,
 	        p.age, p.volume, p.abv, p.cask, p.distillery_id, p.rowid AS insertion_order, p.featured,
@@ -115,9 +91,6 @@ const whiskies = productsRes.rows.map((row) => {
 		description_ja: row.description_ja ?? null,
 		name_fr: row.name_fr ?? null,
 		description_fr: row.description_fr ?? null,
-		resellers_uy: resellersFor(row.id, 'UY'),
-		resellers_br: resellersFor(row.id, 'BR'),
-		resellers_usa: resellersFor(row.id, 'US'),
 		...(videosByProduct.has(row.id) ? { videos: videosByProduct.get(row.id) } : {})
 	};
 });

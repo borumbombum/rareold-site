@@ -1,10 +1,8 @@
 <script lang="ts">
-	import { ArrowRight, Store, Star } from '@lucide/svelte';
+	import { ArrowRight, Star } from '@lucide/svelte';
 	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
-	import { formatNumber } from '$lib/utils/format';
 	import { originFlag } from '$lib/utils/origins';
 	import { l10n } from '$lib/utils/l10n';
-	import { resellersFor } from '$lib/utils/resellers';
 	import { ratingStore } from '$lib/stores/rating.svelte';
 	import VoteButton from './VoteButton.svelte';
 	import FavoriteButton from './FavoriteButton.svelte';
@@ -28,7 +26,6 @@
 	const href = $derived(localizeHref(`/whisky/${slug}`));
 	const flag = $derived(originFlag(product));
 	const name = $derived(l10n(product, 'name') ?? product.name);
-	const storesCount = $derived(resellersFor(product, country).length);
 	const ratingEntry = $derived(ratingStore.get(slug));
 	const avgRating = $derived(ratingEntry.avg_rating);
 	const reviewCount = $derived(ratingEntry.review_count);
@@ -71,10 +68,6 @@
 			{flag} {name}
 		</a>
 		<p class="mt-0.5 text-xs text-zinc-500 dark:text-zinc-400">{product.distillery ? l10n(product.distillery, 'name') : ''}</p>
-		<p class="mt-1.5 flex items-center gap-1.5 text-xs text-zinc-400">
-			<Store size={12} />
-			{m.stores_count({ count: formatNumber(storesCount, locale) })}
-		</p>
 	</div>
 
 	<div class="flex w-full shrink-0 items-center justify-end gap-1.5 sm:w-auto">

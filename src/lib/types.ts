@@ -63,11 +63,22 @@ export interface VideoInfo {
 	thumbnailUrl?: string;
 }
 
-/** A store where a whisky can be bought (Turso `resellers`, exported per product). */
-export interface Reseller {
+/** A store where a whisky can be bought (Turso `stores` + `product_stores`). */
+export interface Store {
+	id: string;
 	name: string;
 	url: string;
 	price: number | null;
+	logo_url: string | null;
+}
+
+/** A store country (Turso `store_countries`): where stores operate. */
+export interface StoreCountry {
+	code: string;
+	name: string;
+	currency: string;
+	sort_order: number;
+	active: boolean;
 }
 
 export interface ProductVideo {
@@ -102,9 +113,6 @@ export interface Whisky {
 	description_ja: string | null;
 	name_fr: string | null;
 	description_fr: string | null;
-	resellers_uy: Reseller[];
-	resellers_br: Reseller[];
-	resellers_usa: Reseller[];
 	videos?: ProductVideo[];
 }
 

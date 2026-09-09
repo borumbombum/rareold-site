@@ -36,9 +36,6 @@ function makeProduct(overrides: Partial<Whisky> = {}): Whisky {
 		description_ja: null,
 		name_fr: null,
 		description_fr: null,
-		resellers_uy: [],
-		resellers_br: [],
-		resellers_usa: [],
 		...overrides
 	};
 }
