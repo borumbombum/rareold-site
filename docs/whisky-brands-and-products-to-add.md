@@ -263,11 +263,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Jim Beam White Label - Jim Beam
 ✅ Jim Beam Double Oak - Jim Beam
 ✅ Knob Creek 9 YO - Jim Beam
-Basil Hayden's Kentucky Bourbon - Jim Beam
-Booker's Bourbon - Jim Beam
-Baker's 7 YO - Jim Beam
-Maker's Mark - Maker's Mark
-Maker's Mark 46 - Maker's Mark
+✅ Basil Hayden's Kentucky Bourbon - Jim Beam
+✅ Booker's Bourbon - Jim Beam
+✅ Baker's 7 YO - Jim Beam
+✅ Maker's Mark - Maker's Mark
+✅ Maker's Mark 46 - Maker's Mark
 Four Roses Yellow Label - Four Roses
 Four Roses Small Batch - Four Roses
 Four Roses Single Barrel - Four Roses

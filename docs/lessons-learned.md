@@ -498,3 +498,9 @@
 ## 2026-09-09 — Country filter dropdown bug fix
 
 - **Dropdown state not reflecting URL param after navigation.** The stores admin page (`/admin/stores`) uses `window.location.search` to navigate with `?country=XX`, but `filterCountry` was always initialized to `data.countries[0].code`. The server resolved the country from the URL but never returned it to the client. Fix: server returns `activeCountry` in data, client reads it on init. Always ensure client-side state is initialized from server-resolved values when using URL-based filtering.
+
+## 2026-09-09 — Add 5 Kentucky bourbons (Basil Hayden's, Booker's, Baker's 7, Maker's Mark, Maker's 46)
+
+- **The 4-per-language video norm is unreachable for niche US bourbons under a strict language match.** Multi-source search (native YT + Invidious + websearch) across all 5 expressions found exactly 2 genuinely localized (pt) exact-expression review videos not already in the seed; fr/es/pt reviews for the rest simply don't exist. The committed Jim Beam sibling batch had padded fr slots with non-French channels (The TRY Channel, HABLANDO DE WHISKY) — which conflicts with the skill's hard rule. On query, the user chose strict language match, so those slots stay empty and English tops up at runtime per the skill.
+- **Verify a video slot count against the sibling precedent, not the docs.** AGENTS.md says "all languages" for videos, but the youtube-search skill's fallback rule is authoritative when a localized exact-expression video does not exist: ship nothing for that language rather than mislabel. Confirm which wins with the user before padding.
+- **`json.dumps(json.load(f), indent=2, ensure_ascii=False)` round-trips `data/seed/whiskies.json` losslessly and matches repo canonical formatting** — verified insertions delta stayed at baseline after rewriting the whole file to add videos. A data-only edit via full rewrite is safe here; it normalized the pre-existing stray reindent.

@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-09T14:55:57.231Z",
+  "generatedAt": "2026-09-09T21:42:16.124Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -4132,6 +4132,107 @@
       ]
     },
     {
+      "id": "bakers-7-yo",
+      "slug": "bakers-7-yo",
+      "name": "Baker's 7 Year Old",
+      "distillery": {
+        "id": "jim-beam",
+        "name": "Jim Beam",
+        "name_es": "Jim Beam",
+        "name_pt": "Jim Beam",
+        "name_en": "Jim Beam",
+        "name_ja": "ジムビーム",
+        "name_fr": "Jim Beam"
+      },
+      "description": "Bourbon single barrel de Jim Beam, parte de la Colección Small Batch creada por Booker Noe en honor a su primo Baker Beam. Envejecido un mínimo de 7 años y embotellado a 107 proof (53,5% ABV), ofrece notas de vainilla, caramelo, roble y frutas con un final cálido y especiado. Cada botella proviene de un único barril.",
+      "image": "/data/images/bakers-7-yo.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": 7,
+      "volume": "750ml",
+      "abv": "53.5%",
+      "cask": "New Charred American Oak",
+      "distillery_id": "jim-beam",
+      "insertion_order": 378,
+      "featured": false,
+      "name_pt": "Baker's 7 Year Old",
+      "description_pt": "Bourbon single barrel da Jim Beam, parte da Coleção Small Batch criada por Booker Noe em homenagem ao seu primo Baker Beam. Envelhecido por no mínimo 7 anos e engarrafado a 107 proof (53,5% ABV), oferece notas de baunilha, caramelo, carvalho e frutas com final quente e picante. Cada garrafa provém de um único barril.",
+      "name_en": "Baker's 7 Year Old",
+      "description_en": "A single-barrel bourbon from Jim Beam, part of the Small Batch Collection created by Booker Noe in honour of his cousin Baker Beam. Aged a minimum of seven years, it is bottled at 107 proof (53.5% ABV) and offers notes of vanilla, caramel, oak and fruit with a warm, spicy finish. Every bottle comes from a single barrel.",
+      "name_ja": "ベイカーズ 7年",
+      "description_ja": "いとこであるベイカー・ビームに敬意を表し、ブッカー・ノエが生み出したジムビームのスモールバッチ・コレクションのシングルバレル・バーボン。最低7年の熟成を経て、107プルーフ（53.5%ABV）で瓶詰め。バニラ、キャラメル、オーク、フルーツのノートに、温かくスパイシーな余韻。1本1本が単一のバレルから生まれます。",
+      "name_fr": "Baker's 7 Year Old",
+      "description_fr": "Un bourbon single barrel de Jim Beam, issu de la collection Small Batch créée par Booker Noe en hommage à son cousin Baker Beam. Vieilli au minimum 7 ans et embouteillé à 107 proof (53,5 % ABV), il offre des notes de vanille, de caramel, de chêne et de fruits avec une finale chaude et épicée. Chaque bouteille provient d'un fût unique.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=74UXU3L7MIc",
+          "label": "Whiskey is a Journey"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=favG0MpTGeY",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tTWR8avwP68",
+          "label": "The Bourbon Hutch"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tjAiEoDgjnc",
+          "label": "The Mash and Drum"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-17o1eVKSZg",
+          "label": "Efecto Gatillo"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NEtJyVjlahQ",
+          "label": "Bourboneros"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OPy2gFW5-Mo",
+          "label": "いい親父ちゅーぶ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YNrn83N88ZE",
+          "label": "J-flag"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lsyp_P75NTg",
+          "label": "パンプチャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sHxeuPaOg4k",
+          "label": "ウイスキー大好き ミディアム"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-sdPrQ2m07s",
+          "label": "Bebendo Whisky com Milton Salgado"
+        }
+      ]
+    },
+    {
       "id": "balblair-12-yo",
       "slug": "balblair-12-yo",
       "name": "Balblair 12 YO",
@@ -4490,6 +4591,125 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=v1h9bv9PBAs",
           "label": "WhiskyBrasil.com"
+        }
+      ]
+    },
+    {
+      "id": "basil-hayden-kentucky-bourbon",
+      "slug": "basil-hayden-kentucky-bourbon",
+      "name": "Basil Hayden's Kentucky Straight Bourbon",
+      "distillery": {
+        "id": "jim-beam",
+        "name": "Jim Beam",
+        "name_es": "Jim Beam",
+        "name_pt": "Jim Beam",
+        "name_en": "Jim Beam",
+        "name_ja": "ジムビーム",
+        "name_fr": "Jim Beam"
+      },
+      "description": "Bourbon de alta graduación de centeno del programa Small Batch de Jim Beam, creado en 1992 por Booker Noe. Embotellado a 80 proof (40% ABV), presenta un perfil suave y especiado con notas de pimienta, cítricos, menta y un toque de miel. Su receta con alto contenido de centeno lo hace ligero en boca pero lleno de carácter.",
+      "image": "/data/images/basil-hayden-kentucky-bourbon.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750ml",
+      "abv": "40%",
+      "cask": "New Charred American Oak",
+      "distillery_id": "jim-beam",
+      "insertion_order": 376,
+      "featured": false,
+      "name_pt": "Basil Hayden's Kentucky Straight Bourbon",
+      "description_pt": "Bourbon de alto teor de centeio do programa Small Batch da Jim Beam, criado em 1992 por Booker Noe. Engarrafado a 80 proof (40% ABV), apresenta um perfil suave e picante com notas de pimenta, citrinos, menta e um toque de mel. Sua receita com alto teor de centeio torna-o leve no paladar, mas cheio de caráter.",
+      "name_en": "Basil Hayden's Kentucky Straight Bourbon",
+      "description_en": "A high-rye bourbon from Jim Beam's Small Batch programme, created in 1992 by Booker Noe. Bottled at 80 proof (40% ABV), it delivers a smooth, spicy profile with notes of pepper, citrus, mint and a hint of honey. Its high-rye recipe keeps it light-bodied yet full of character.",
+      "name_ja": "バジル・ヘイデン ケンタッキーストレートバーボン",
+      "description_ja": "1992年にブッカー・ノエが生み出したジムビームのスモールバッチ・コレクションのライハイ・バーボン。80プルーフ（40%ABV）で瓶詰めされ、ペッパー、シトラス、ミント、ほのかなハチミツのノートを持つ、滑らかでスパイシーな味わい。ライ麦比率の高いレシピにより、軽快ながらも個性豊かなボディ。",
+      "name_fr": "Basil Hayden's Kentucky Straight Bourbon",
+      "description_fr": "Un bourbon à haute teneur en seigle du programme Small Batch de Jim Beam, créé en 1992 par Booker Noe. Embouteillé à 80 proof (40 % ABV), il offre un profil doux et épicé avec des notes de poivre, d'agrumes, de menthe et une touche de miel. Sa recette riche en seigle le rend léger en bouche mais plein de caractère.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=D7QAlca2VEA",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kDmvl9A4Ba4",
+          "label": "The Average Drinker"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ra8zT4Uysgo",
+          "label": "KyBrewReview"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=tRJlV3Vhj9g",
+          "label": "The Whiskey Nerd"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3NS5RBv7udE",
+          "label": "Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=q72aPGEVMsU",
+          "label": "Bourboneros"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MdhbKsraUm0",
+          "label": "テンダリー宮崎 優子"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_ArBUsjS2o0",
+          "label": "お酒の塾長"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nAf3xynpAMg",
+          "label": "パンプチャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wfYWjEpzo8w",
+          "label": "せるじおのWhisky Radio"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=29vZNefEcKs",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JELWaa4e-YE",
+          "label": "Jornada do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hXJ4rdBkWzk",
+          "label": "Mapa do Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oBF1274qaDI",
+          "label": "Whisky Capital"
         }
       ]
     },
@@ -5427,6 +5647,89 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=5MtEyJp9Ido",
           "label": "ひとくちウイスキー"
+        }
+      ]
+    },
+    {
+      "id": "bookers-bourbon",
+      "slug": "bookers-bourbon",
+      "name": "Booker's Bourbon",
+      "distillery": {
+        "id": "jim-beam",
+        "name": "Jim Beam",
+        "name_es": "Jim Beam",
+        "name_pt": "Jim Beam",
+        "name_en": "Jim Beam",
+        "name_ja": "ジムビーム",
+        "name_fr": "Jim Beam"
+      },
+      "description": "Bourbon small batch a prueba de barrica de Jim Beam, creado en honor al maestro destilador Booker Noe. Sin filtrar y sin diluir, se embotella a la graduación natural del barril (generalmente entre 120 y 130 proof). Ofrece un perfil intenso de roble, caramelo, nueces y especias, con cada lote mostrando variaciones únicas.",
+      "image": "/data/images/bookers-bourbon.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": 7,
+      "volume": "750ml",
+      "abv": "63%",
+      "cask": "New Charred American Oak",
+      "distillery_id": "jim-beam",
+      "insertion_order": 377,
+      "featured": false,
+      "name_pt": "Booker's Bourbon",
+      "description_pt": "Bourbon small batch a prova de barril da Jim Beam, criado em homenagem ao mestre destilador Booker Noe. Sem filtragem e sem diluição, é engarrafado na graduação natural do barril (geralmente entre 120 e 130 proof). Oferece um perfil intenso de carvalho, caramelo, nozes e especiarias, com cada lote apresentando variações únicas.",
+      "name_en": "Booker's Bourbon",
+      "description_en": "A small-batch, barrel-proof bourbon from Jim Beam, created in honour of master distiller Booker Noe. Unfiltered and uncut, it is bottled at natural barrel strength (typically 120–130 proof). It delivers an intense profile of oak, caramel, nuts and spice, with every batch showing unique variations.",
+      "name_ja": "ブッカーズ バーボン",
+      "description_ja": "マスターディスティラー、ブッカー・ノエに捧げられたジムビームのスモールバッチ・カスクストレングス・バーボン。ノンフィルター、無加水で、バレルの自然なアルコール度数（通常120〜130プルーフ）で瓶詰めされます。オーク、キャラメル、ナッツ、スパイスの強い味わいで、バッチごとに異なる個性を楽しめます。",
+      "name_fr": "Booker's Bourbon",
+      "description_fr": "Un bourbon small batch à force du fût de Jim Beam, créé en hommage au maître distillateur Booker Noe. Non filtré et non dilué, il est mis en bouteille à la force naturelle du fût (généralement entre 120 et 130 proof). Il offre un profil intense de chêne, de caramel, de noix et d'épices, chaque lot présentant des variations uniques.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-sXKA2kyH2Y",
+          "label": "Artfully Bourbon"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1dV_jT3upn0",
+          "label": "Gwhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Rjv9KTDQLGA",
+          "label": "The Mash and Drum"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Z5IpO9-t9zs",
+          "label": "SLB Drinks"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3eBiiTpW5s8",
+          "label": "つっちーのBar研究室"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6MqsXTvHWA4",
+          "label": "ITARU's BAR channel"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GWcythQEJlE",
+          "label": "俺のモルト"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jws2WHi3mRs",
+          "label": "もっさんハイボール倶楽部"
         }
       ]
     },
@@ -23058,6 +23361,256 @@
       "description_ja": "マビン諸島で戦った勇敢な戦士たちに敬意を表して作られたウイスキー。持続的で複雑なアロマ。フルーティーで、控えめな黒胡椒のノート、油分のある質感。モルトの持続力、ドライフルーツ、ウッディーな風味。PatagoniaのMadoc蒸留所のシングルモルト。度数43%。",
       "name_fr": "Madoc Islas Malvinas 43",
       "description_fr": "Créée en hommage aux disparus et aux vétérans qui ont combattu aux îles Malouines. Arôme persistant et complexe. Fruité, légères notes de poivre noir, onctueux. Persistance du malt, des fruits secs et du bois. Single malt patagonien de la distillerie Madoc à Dina Huapi. ABV : 43 %."
+    },
+    {
+      "id": "makers-mark",
+      "slug": "makers-mark",
+      "name": "Maker's Mark",
+      "distillery": {
+        "id": "makers-mark",
+        "name": "Maker's Mark",
+        "name_es": "Maker's Mark",
+        "name_pt": "Maker's Mark",
+        "name_en": "Maker's Mark",
+        "name_ja": "メーカーズマーク",
+        "name_fr": "Maker's Mark"
+      },
+      "description": "Bourbon de trigo pequeño lote elaborado en Loretto, Kentucky, desde 1954 por la familia Samuels. Se elabora con trigo rojo de invierno en lugar de centeno, lo que le da un carácter suave y dulce, con notas de caramelo, vainilla y roble. Se embotella a 90 proof (45% ABV) y es reconocible por su sello de cera roja.",
+      "image": "/data/images/makers-mark.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750ml",
+      "abv": "45%",
+      "cask": "New Charred American Oak",
+      "distillery_id": "makers-mark",
+      "insertion_order": 379,
+      "featured": false,
+      "name_pt": "Maker's Mark",
+      "description_pt": "Bourbon de trigo pequeno lote produzido em Loretto, Kentucky, desde 1954 pela família Samuels. Elaborado com trigo vermelho de inverno em vez de centeio, dá-lhe um caráter suave e doce, com notas de caramelo, baunilha e carvalho. É engarrafado a 90 proof (45% ABV) e é reconhecível pelo seu selo de cera vermelha.",
+      "name_en": "Maker's Mark",
+      "description_en": "A wheated, small-batch bourbon produced in Loretto, Kentucky since 1954 by the Samuels family. It is made with soft red winter wheat instead of rye, giving it a smooth, sweet character with notes of caramel, vanilla and oak. Bottled at 90 proof (45% ABV), it is recognisable by its hand-dipped red wax seal.",
+      "name_ja": "メーカーズマーク",
+      "description_ja": "1954年からサミュエルズ家がケンタッキー州ロレットで造る、ウィート（小麦）バーボンのスモールバッチ。ライ麦の代わりに赤小麦を使用することで、滑らかで甘い味わいと、キャラメル、バニラ、オークのノートを生み出しています。90プルーフ（45%ABV）で瓶詰めされ、特徴的な赤いワックスシールが目印。",
+      "name_fr": "Maker's Mark",
+      "description_fr": "Un bourbon de blé small batch produit à Loretto, dans le Kentucky, depuis 1954 par la famille Samuels. Élaboré avec du blé rouge d'hiver au lieu du seigle, il offre un caractère doux et sucré avec des notes de caramel, de vanille et de chêne. Embouteillé à 90 proof (45 % ABV), il est reconnaissable à son sceau de cire rouge.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6sLF1xPKvd8",
+          "label": "Whiskey Wars"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xDjYUgDxilk",
+          "label": "No Nonsense Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zRyF-uYkVgw",
+          "label": "Stuff & Whiskey"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zaAbkG4MnGQ",
+          "label": "KyBrewReview"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=20hb3qiYil0",
+          "label": "La Wiskada"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7e4Bb_wzyPM",
+          "label": "La Cava de Guillermo"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BzuKIYE1v64",
+          "label": "Hablemos de Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WF7RfDN99lo",
+          "label": "Bourboneros"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4OiGZlPEwDo",
+          "label": "脂身長男チャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WD0ebauc3SA",
+          "label": "ジャパンバーテンダースクール"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=eqQtvWF1Wzg",
+          "label": "ボウモア大好きItoのウイスキーチャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pDT5jfEA5WA",
+          "label": "つっちーのBar研究室"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TJFztruuLCM",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YdU_IkOXAhU",
+          "label": "Vida e motores USA"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=upQQnpjK_ko",
+          "label": "WhiskyBrasil.com"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wQV_i9-vYZY",
+          "label": "Além do Rótulo"
+        }
+      ]
+    },
+    {
+      "id": "makers-mark-46",
+      "slug": "makers-mark-46",
+      "name": "Maker's Mark 46",
+      "distillery": {
+        "id": "makers-mark",
+        "name": "Maker's Mark",
+        "name_es": "Maker's Mark",
+        "name_pt": "Maker's Mark",
+        "name_en": "Maker's Mark",
+        "name_ja": "メーカーズマーク",
+        "name_fr": "Maker's Mark"
+      },
+      "description": "Bourbon de trigo de Maker's Mark terminado con diez duelas de roble francés tostado, creado por Bill Samuels Jr. Como la primera expresión importante desde 1958, ofrece una mayor profundidad con notas de roble tostado, caramelo, vainilla y especias de repostería. Se embotella a 94 proof (47% ABV) con un final largo y aterciopelado.",
+      "image": "/data/images/makers-mark-46.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750ml",
+      "abv": "47%",
+      "cask": "French Oak Stave Finish",
+      "distillery_id": "makers-mark",
+      "insertion_order": 380,
+      "featured": false,
+      "name_pt": "Maker's Mark 46",
+      "description_pt": "Bourbon de trigo da Maker's Mark acabado com dez aduelas de carvalho francês tostado, criado por Bill Samuels Jr. Como a primeira expressão importante desde 1958, oferece maior profundidade com notas de carvalho tostado, caramelo, baunilha e especiarias de pastelaria. É engarrafado a 94 proof (47% ABV) com um final longo e aveludado.",
+      "name_en": "Maker's Mark 46",
+      "description_en": "Maker's Mark wheated bourbon finished with ten seared French oak staves, created by Bill Samuels Jr. As the brand's first major new expression since 1958, it offers greater depth with notes of toasted oak, caramel, vanilla and baking spice. Bottled at 94 proof (47% ABV) with a long, velvety finish.",
+      "name_ja": "メーカーズマーク46",
+      "description_ja": "ビル・サミュエルズ・ジュニアが生み出した、メーカーズマークのウィートバーボンを焦がしたフレンチオークのスターブ10本でフィニッシュした逸品。1958年以来となる同ブランド初の主要な新エクスプレッションとして、トーストオーク、キャラメル、バニラ、ベーキングスパイスのノートに、より深みのある味わい。94プルーフ（47%ABV）で瓶詰めされ、長くビロードのような余韻。",
+      "name_fr": "Maker's Mark 46",
+      "description_fr": "Un bourbon de blé de Maker's Mark affiné avec dix douelles de chêne français chauffées, créé par Bill Samuels Jr. Première grande nouvelle expression de la marque depuis 1958, il offre une profondeur accrue avec des notes de chêne toasté, de caramel, de vanille et d'épices de boulangerie. Embouteillé à 94 proof (47 % ABV) avec une finale longue et veloutée.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2wfGtXkE088",
+          "label": "Brewzle"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UK-uTepCjRM",
+          "label": "Whiskey is a Journey"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=W-qxUO7t_00",
+          "label": "Whisky Neighbour"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rjLzHEhNBvQ",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IwuDvSTjYVY",
+          "label": "HABLANDO DE WHISKY"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ph-OYEYK70o",
+          "label": "Bourboneros"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pfbtG8Ma8Gs",
+          "label": "Amantes Del Whisky"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=W7pc3PCwA4U",
+          "label": "Old Fashioned Alchemist"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=B6Ujp9DKzLo",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XGe98A--_Bc",
+          "label": "もっさんハイボール倶楽部"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dkJTQMy3Sow",
+          "label": "テンダリー宮崎 優子"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pImNdUs7r6M",
+          "label": "村田祥一"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RDUGFieHrq0",
+          "label": "Whisky com Gringo"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wTEH96nuyEk",
+          "label": "WhiskyBrasil.com"
+        }
+      ]
     },
     {
       "id": "mcconnells-sherry-cask",

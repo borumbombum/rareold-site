@@ -3579,6 +3579,29 @@
       "website": "https://www.properno12.com",
       "latitude": 53.35,
       "longitude": -6.26
+    },
+    {
+      "id": "makers-mark",
+      "slug": "makers-mark",
+      "name": "Maker's Mark",
+      "name_es": "Maker's Mark",
+      "name_pt": "Maker's Mark",
+      "name_en": "Maker's Mark",
+      "name_ja": "メーカーズマーク",
+      "name_fr": "Maker's Mark",
+      "description": "Destilería de bourbon de trigo fundada en 1953 por la familia Samuels en Loretto, Kentucky. Famosa por su bourbon de pequeño lote sellado con cera roja, en la actualidad es propiedad de Suntory Global Spirits y es una parada del Kentucky Bourbon Trail. Envejece sus barricas rotando cada una a mano en almacenes con energía solar.",
+      "description_es": null,
+      "description_pt": "Destilaria de bourbon de trigo fundada em 1953 pela família Samuels em Loretto, Kentucky. Famosa pelo seu bourbon de pequeno lote selado com cera vermelha, hoje é propriedade da Suntory Global Spirits e é uma parada do Kentucky Bourbon Trail. Envelhece seus barris girando cada um manualmente em armazéns com energia solar.",
+      "description_en": "Wheated bourbon distillery founded in 1953 by the Samuels family in Loretto, Kentucky. Famous for its red-wax-sealed small-batch bourbon, it is now owned by Suntory Global Spirits and is a stop on the Kentucky Bourbon Trail. Each barrel is rotated by hand in solar-powered warehouses.",
+      "description_ja": "1953年にサミュエルズ家がケンタッキー州ロレットで創業したウィート・バーボン蒸留所。赤いワックスシールで知られるスモールバッチ・バーボンが看板で、現在はサントリー・グローバル・スピリッツが所有し、ケンタッキー・バーボン・トレイルのスポットの一つ。樽は一つひとつ手作業で回転させ、太陽光発電の倉庫で熟成。",
+      "description_fr": "Distillerie de bourbon de blé fondée en 1953 par la famille Samuels à Loretto, dans le Kentucky. Célèbre pour son bourbon small batch scellé d'un cachet de cire rouge, elle appartient aujourd'hui à Suntory Global Spirits et constitue une étape du Kentucky Bourbon Trail. Chaque fût est retourné à la main dans des entrepôts alimentés par énergie solaire.",
+      "country": "usa",
+      "region": "Kentucky",
+      "founded": 1953,
+      "image": null,
+      "website": "https://www.makersmark.com",
+      "latitude": 37.64778,
+      "longitude": -85.34889
     }
   ],
   "generatedAt": "2026-08-22T04:15:22.357Z"
