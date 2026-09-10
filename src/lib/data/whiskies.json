@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-10T17:03:46.148Z",
+  "generatedAt": "2026-09-10T18:05:46.926Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -2351,6 +2351,83 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=qUxxxL1fwE0",
           "label": "宅飲みバーTakeo"
+        }
+      ]
+    },
+    {
+      "id": "angels-envy-kentucky-bourbon",
+      "slug": "angels-envy-kentucky-bourbon",
+      "name": "Angel's Envy Kentucky Bourbon",
+      "distillery": {
+        "id": "angels-envy",
+        "name": "Angel's Envy Distillery",
+        "name_es": "Angel's Envy Distillery",
+        "name_pt": "Angel's Envy Distillery",
+        "name_en": "Angel's Envy Distillery",
+        "name_ja": "エンジェルズ・エンヴィ蒸留所",
+        "name_fr": null
+      },
+      "description": "Bourbon Kentucky Straight de Angel's Envy que envejece entre cuatro y seis años en barrica nueva de roble americano carbonizado y se termina durante tres a seis meses en barricas de vino de Oporto rubí. A 43,3% vol, ofrece vainilla, pasas, sirope de arce y frutos secos tostados al aroma, con fruta madura y chocolate amargo en boca.",
+      "image": "/data/images/angels-envy-kentucky-bourbon.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 43.3,
+      "cask": "New charred American oak, finished in ruby port wine casks",
+      "distillery_id": "angels-envy",
+      "insertion_order": 394,
+      "featured": false,
+      "name_pt": "Angel's Envy Kentucky Bourbon",
+      "description_pt": "Bourbon Kentucky Straight da Angel's Envy que envelhece entre quatro e seis anos em barril novo de carvalho americano carbonizado e termina durante três a seis meses em barris de vinho do Porto rubi. A 43,3% vol, oferece baunilha, passas, xarope de bordo e frutos secos tostados no aroma, com fruta madura e chocolate amargo no paladar.",
+      "name_en": "Angel's Envy Kentucky Bourbon",
+      "description_en": "A Kentucky Straight bourbon from Angel's Envy, aged four to six years in new charred American oak and finished for three to six months in ruby port wine casks. At 43.3% ABV it offers vanilla, raisins, maple syrup and toasted nuts on the nose, with ripe fruit and bitter chocolate on the palate.",
+      "name_ja": "エンジェルズ・エンヴィ ケンタッキー・バーボン",
+      "description_ja": "エンジェルズ・エンヴィのケンタッキー・ストレートバーボン。新樽チャーのアメリカンオークで4〜6年熟成後、ルビーポートワイン樽で3〜6ヶ月フィニッシュ。アルコール度数43.3%。香りはバニラ、レーズン、メープルシロップ、トーストしたナッツ。口当たりは熟した果実とビターチョコレート。",
+      "name_fr": "Angel's Envy Kentucky Bourbon",
+      "description_fr": "Un bourbon Kentucky Straight d'Angel's Envy, vieilli de quatre à six ans en chêne américain neuf carbonisé, puis fini de trois à six mois en fûts de vin de Porto rubis. À 43,3 % vol, il offre vanille, raisins secs, sirop d'érable et fruits secs toastés au nez, avec des fruits mûrs et du chocolat amer en bouche.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0HgbsDUJNJA",
+          "label": "The Whiskey Dictionary"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WkuaJSaWjVE",
+          "label": "SLB Drinks"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ucFztWDz3Dk",
+          "label": "The Crumby Beard"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wFgWmrfQ-t4",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8IRYtFP3dPk",
+          "label": "Cultura del Whisky"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5ViLBo-yZ-E",
+          "label": "せるじおのハイボールチャンネル"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4INFNJ9kUlc",
+          "label": "Whisky com Gringo"
         }
       ]
     },
@@ -6501,6 +6578,101 @@
       ]
     },
     {
+      "id": "bulleit-bourbon",
+      "slug": "bulleit-bourbon",
+      "name": "Bulleit Bourbon",
+      "distillery": {
+        "id": "bulleit",
+        "name": "Bulleit Distilling Co.",
+        "name_es": "Bulleit Distilling Co.",
+        "name_pt": "Bulleit Distilling Co.",
+        "name_en": "Bulleit Distilling Co.",
+        "name_ja": "バレット蒸留所",
+        "name_fr": null
+      },
+      "description": "Bourbon Kentucky Straight de la Bulleit Distilling Co., elaborado con una receta de alto contenido en centeno: 68% maíz, 28% centeno y 4% malta de cebada. A 45% vol, ofrece ámbar medio, carácter especiado y roble dulce; medio paladar suave con arce, roble y nuez moscada, y un final largo, seco y satinado con un toque de toffee.",
+      "image": "/data/images/bulleit-bourbon.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 45,
+      "cask": "New charred American oak",
+      "distillery_id": "bulleit",
+      "insertion_order": 395,
+      "featured": false,
+      "name_pt": "Bulleit Bourbon",
+      "description_pt": "Bourbon Kentucky Straight da Bulleit Distilling Co., elaborado com uma receita de alto teor de centeio: 68% milho, 28% centeio e 4% malte de cevada. A 45% vol, apresenta âmbar médio, caráter picante e carvalho doce; meio do paladar suave com bordo, carvalho e noz-moscada, e um final longo, seco e acetinado com um toque de toffee.",
+      "name_en": "Bulleit Bourbon",
+      "description_en": "A Kentucky Straight bourbon from the Bulleit Distilling Co., made with a high-rye recipe: 68% corn, 28% rye and 4% malted barley. At 45% ABV it is medium amber with a bold, spicy character and sweet oak aromas; a smooth mid-palate of maple, oak and nutmeg, and a long, dry, satiny finish with a touch of toffee.",
+      "name_ja": "バレット・バーボン",
+      "description_ja": "バレット蒸留所のケンタッキー・ストレート・バーボン。コーン68%、ライ麦28%、大麦麦芽4%のハイライ麦レシピが特徴。アルコール度数45%。メディアムアンバーの色調で、甘いオークと穏やかなスパイス。滑らかなミドルはメープル、オーク、ナツメグ。余韻は長く、ドライでサテンのような質感、軽いトフィー。",
+      "name_fr": "Bulleit Bourbon",
+      "description_fr": "Un bourbon Kentucky Straight de la Bulleit Distilling Co., élaboré selon une recette à forte teneur en seigle : 68 % de maïs, 28 % de seigle et 4 % d'orge maltée. À 45 % vol, il est ambre moyen, avec un caractère épicé et des arômes de chêne doux ; un milieu de bouche soyeux d'érable, de chêne et de muscade, et une finale longue, sèche et satinée, avec une touche de toffee.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VIlL8TCbJiI",
+          "label": "Steve Miller"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=denL77lUB9M",
+          "label": "No Nonsense Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=j0FvBQuafuc",
+          "label": "Whiskey Wars"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rDkSBpEPUyI",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3LWR2pOLSS8",
+          "label": "Bourboneros"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wZRaaRm2meI",
+          "label": "Whisky Argentina"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wq1OnwNNcJc",
+          "label": "Monsieur Bourbon & Whiskey"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6D7lV8G16ys",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WP0Jb4j-pSc",
+          "label": "Tierri Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sRNUVUK3b1M",
+          "label": "WhiskyBrasil.com"
+        }
+      ]
+    },
+    {
       "id": "bunnahabhain-12-yo",
       "slug": "bunnahabhain-12-yo",
       "name": "Bunnahabhain 12 YO",
@@ -9877,6 +10049,184 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=DNKm6OPMN-c",
           "label": "Non solo whisky — Dunville's Three Crowns Peated Blended Irish Whiskey 43.5%"
+        }
+      ]
+    },
+    {
+      "id": "eh-taylor-jr-small-batch",
+      "slug": "eh-taylor-jr-small-batch",
+      "name": "E.H. Taylor Jr. Small Batch",
+      "distillery": {
+        "id": "buffalo-trace",
+        "name": "Buffalo Trace Distillery",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Edición de la serie Colonel E.H. Taylor Jr. de Buffalo Trace, un bourbon Kentucky Straight elaborado con el Mash #1 en pequeños lotes. A 50% vol, ofrece maíz caramelo, caramelo de mantequilla y regaliz en boca, sobre un fondo de roble y especias suaves. Final con un toque de pimienta y tabaco.",
+      "image": "/data/images/eh-taylor-jr-small-batch.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 50,
+      "cask": "New charred American oak",
+      "distillery_id": "buffalo-trace",
+      "insertion_order": 392,
+      "featured": false,
+      "name_pt": "E.H. Taylor Jr. Small Batch",
+      "description_pt": "Edição da série Colonel E.H. Taylor Jr. da Buffalo Trace, um bourbon Kentucky Straight produzido com o Mash #1 em pequenos lotes. A 50% vol, oferece milho caramelizado, caramelo de manteiga e alcaçuz no paladar, sobre um fundo de carvalho e especiarias suaves. Final com um toque de pimenta e tabaco.",
+      "name_en": "E.H. Taylor Jr. Small Batch",
+      "description_en": "An edition from Buffalo Trace's Colonel E.H. Taylor Jr. series, a Kentucky Straight bourbon made with Mash #1 in small batches. At 50% ABV it offers caramel corn, butterscotch and licorice on the palate, over a bed of oak and soft spice. The finish carries a touch of pepper and tobacco.",
+      "name_ja": "E.H.テイラーJr. スモールバッチ",
+      "description_ja": "バッファロー・トレースのカーネル・E.H.テイラーJr.シリーズのエディション。マッシュ#1を小ロットで仕込み、ケンタッキー・ストレート・バーボンとして瓶詰め。アルコール度数50%。キャラメルコーン、バタースコッチ、リコリスに、オークと穏やかなスパイスの土台。余韻にはペッパーとタバコのニュアンス。",
+      "name_fr": "E.H. Taylor Jr. Small Batch",
+      "description_fr": "Une édition de la série Colonel E.H. Taylor Jr. de Buffalo Trace, un bourbon Kentucky Straight élaboré en petits lots avec le Mash #1. À 50 % vol, il offre maïs caramélisé, caramel au beurre et réglisse en bouche, sur un fond de chêne et d'épices douces. La finale laisse entrevoir poivre et tabac.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cRBEcf9f5O0",
+          "label": "The Average Drinker"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hRtszZNkwys",
+          "label": "Whiskey is a Journey"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=if6egquNNZI",
+          "label": "Brewzle"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vFWrKpmRJws",
+          "label": "The Bourbon Hutch"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=N1nW7WxWrwQ",
+          "label": "Bourboneros"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fTIutaWfYcc",
+          "label": "ウイスキーチャンネル"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=n5scXISNWlQ",
+          "label": "It's Bourbon Night"
+        }
+      ]
+    },
+    {
+      "id": "eagle-rare-10-yo",
+      "slug": "eagle-rare-10-yo",
+      "name": "Eagle Rare 10 Year Old",
+      "distillery": {
+        "id": "buffalo-trace",
+        "name": "Buffalo Trace Distillery",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Bourbon de Kentucky añejado durante diez años en barricas nuevas de roble americano carbonizado y elaborado en pequeños lotes por Buffalo Trace. A 45% vol, despliega toffee, piel de naranja, miel, hierbas, cuero y roble en nariz, con notas de almendra confitada y cacao intenso en boca. Final seco y prolongado.",
+      "image": "/data/images/eagle-rare-10-yo.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": 10,
+      "volume": "750 ml",
+      "abv": 45,
+      "cask": "New charred American oak",
+      "distillery_id": "buffalo-trace",
+      "insertion_order": 391,
+      "featured": false,
+      "name_pt": "Eagle Rare 10 Year Old",
+      "description_pt": "Bourbon de Kentucky envelhecido por dez anos em barris novos de carvalho americano carbonizado e produzido em pequenos lotes pela Buffalo Trace. A 45% vol, revela toffee, casca de laranja, mel, ervas, couro e carvalho no nariz, com notas de amêndoa confitada e cacau intenso no paladar. Final seco e prolongado.",
+      "name_en": "Eagle Rare 10 Year Old",
+      "description_en": "A Kentucky bourbon aged for ten years in new charred American oak barrels and crafted in small batches by Buffalo Trace. At 45% ABV it unfolds toffee, orange peel, honey, herbs, leather and oak on the nose, with notes of candied almond and rich cocoa on the palate. Dry, lingering finish.",
+      "name_ja": "イーグル・レア 10年",
+      "description_ja": "バッファロー・トレースが小ロットで造る、新品チャー（内側を焦がした）アメリカンオーク樽で10年熟成したケンタッキー・バーボン。アルコール度数45%。香りはトフィー、オレンジピール、ハチミツ、ハーブ、革、オーク。口当たりは砂糖漬けアーモンドとコクのあるココア。ドライで長い余韻。",
+      "name_fr": "Eagle Rare 10 Year Old",
+      "description_fr": "Un bourbon du Kentucky vieilli dix ans en fûts neufs de chêne américain carbonisé et élaboré en petits lots par Buffalo Trace. À 45 % vol, il déploie toffee, zeste d'orange, miel, herbes, cuir et chêne au nez, avec des notes d'amande confite et de cacao intense en bouche. Finale sèche et persistante.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7SEq3IX_78g",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Lp5ll_5UYzU",
+          "label": "Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wxu5vH3WaVI",
+          "label": "Whiskey is a Journey"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Yy0MbV_arAo",
+          "label": "No Nonsense Whisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=614lD8Iu8ac",
+          "label": "Bourboneros"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xv481NapuLs",
+          "label": "Destila2"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2fFvL9vmkIY",
+          "label": "酒チューブ"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dGodELdLcxU",
+          "label": "ウルツァイト先生のウイスキー教室"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ozc3RXUJiPY",
+          "label": "ひとくちウイスキー"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6s7ijjpH5D8",
+          "label": "Whisky Capital"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VkFHmnn7BWw",
+          "label": "Bebendo Whisky com Eng. Milton Salgado"
         }
       ]
     },
@@ -34531,6 +34881,77 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=yFFHK5cIuUw",
           "label": "Vat 69 — Review 96, Destilados Brasil"
+        }
+      ]
+    },
+    {
+      "id": "wl-weller-special-reserve",
+      "slug": "wl-weller-special-reserve",
+      "name": "W.L. Weller Special Reserve",
+      "distillery": {
+        "id": "buffalo-trace",
+        "name": "Buffalo Trace Distillery",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "Bourbon de trigo (wheated) de Buffalo Trace, llamado el \"The Original Wheated Bourbon\". A 45% vol, es suave y accesible: nariz de caramelo y miel, con notas de mantecado y madera dulce en boca. Final corto y redondo con un hilo de madreselva.",
+      "image": "/data/images/wl-weller-special-reserve.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 45,
+      "cask": "New charred American oak",
+      "distillery_id": "buffalo-trace",
+      "insertion_order": 393,
+      "featured": false,
+      "name_pt": "W.L. Weller Special Reserve",
+      "description_pt": "Bourbon de trigo (wheated) da Buffalo Trace, conhecido como \"The Original Wheated Bourbon\". A 45% vol, é suave e acessível: nariz de caramelo e mel, com notas de caramelo de manteiga e madeira doce no paladar. Final curto e redondo com um fio de madressilva.",
+      "name_en": "W.L. Weller Special Reserve",
+      "description_en": "A wheated bourbon from Buffalo Trace, billed as \"The Original Wheated Bourbon\". At 45% ABV it is smooth and approachable: a nose of caramel and honey, with notes of butterscotch and soft wood on the palate. A short, rounded finish with a thread of honeysuckle.",
+      "name_ja": "W.L.ウェラー スペシャルリザーブ",
+      "description_ja": "バッファロー・トレースのホイーテッドバーボン、「オリジナル・ホイーテッドバーボン」。アルコール度数45%。滑らかで親しみやすい味わいで、香りはキャラメルとハチミツ、口当たりはバタースコッチと柔らかなウッド。短く丸みのある余韻にスイカズラが漂う。",
+      "name_fr": "W.L. Weller Special Reserve",
+      "description_fr": "Un bourbon de blé (wheated) de Buffalo Trace, qualifié de « The Original Wheated Bourbon ». À 45 % vol, il est doux et accessible : un nez de caramel et de miel, avec des notes de caramel au beurre et de bois tendre en bouche. Finale courte et ronde, un fil de chèvrefeuille.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=bjyQJY8R9DA",
+          "label": "Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nr26mig6fh4",
+          "label": "Those Bourbon Guys"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qRKPnMtzfso",
+          "label": "The Barley Lads"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rymu1efVRgg",
+          "label": "Whiskey is a Journey"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IrI3FJSsRK4",
+          "label": "Alfredo Rubio"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3HNJ7bimc1g",
+          "label": "ひとくちウイスキー"
         }
       ]
     },

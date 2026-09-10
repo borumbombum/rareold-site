@@ -278,11 +278,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Old Forester 1910 Old Fine Whisky - Brown-Forman
 ✅ Woodford Reserve Double Oaked - Woodford Reserve
 ✅ Blanton's Original Single Barrel - Buffalo Trace
-Eagle Rare 10 YO - Buffalo Trace
-E.H. Taylor Jr Small Batch - Buffalo Trace
-W.L. Weller Special Reserve - Buffalo Trace
-Angel's Envy Kentucky Bourbon - Angel's Envy
-Bulleit Bourbon - Bulleit
+✅ Eagle Rare 10 YO - Buffalo Trace
+✅ E.H. Taylor Jr Small Batch - Buffalo Trace
+✅ W.L. Weller Special Reserve - Buffalo Trace
+✅ Angel's Envy Kentucky Bourbon - Angel's Envy
+✅ Bulleit Bourbon - Bulleit
 Michter's US\*1 Small Batch Bourbon - Michter's
 Willett Pot Still Reserve - Willett
 Noah's Mill - Willett

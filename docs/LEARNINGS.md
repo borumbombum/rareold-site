@@ -471,3 +471,9 @@
 ## 2026-09-10 — Invidious title→ID mapping is unstable across queries
 
 While searching, the *same* video ID showed different titles and the *same* Spanish title ("!El Doble de Tostado!") attached to two different IDs across queries (native vs invidious vs query variants). The mapping is per-request channel guessing by YouTube. Never trust a title-ID pairing from a single search line — always resolve the id via `yt-verify.mjs` oEmbed, which is the authoritative title+channel.
+
+## 2026-09-10 — Brand-site image extraction for bot-protected websites
+
+- **Angel's Envy** is WordPress but bot-protected (curl 403, later 200 on `angelsenvy.com` product page with a browser UA via webfetch) and renders almost no content server-side. It has no `og:image`. The official bottle render is exposed in the page's embedded JSON: `"engraving":{"bottle_image_url":"https://d3cqmwe6z7cbal.cloudfront.net/wp-content/uploads/sites/2/2024/12/...1200x1550.png",...}` — grep the downloaded HTML for that object. That CloudFront asset downloads 200 and is the actual product bottle.
+- **Bulleit** is Contentful-backed: `images.ctfassets.net/awz4vj3h97d6/.../bulleit-bourbon.jpg`. Grep the product page for image URLs; the bare `bulleit-bourbon.jpg` is the bottle, `-hero.jpg`/`-tout.jpg` are lifestyle/hero crops.
+- **Brand-founded vs distillery-founded:** bulleit.com states "founded 1987" while third-party sources (Whisky Auctioneer) say "founded 2017" (distillery opening). Decision rule used: match the brand's own official story for `founded`, and fold the 2017 Shelbyville opening into the description. Applies to brand-led records where company and physical distillery foundation differ.
