@@ -268,11 +268,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Baker's 7 YO - Jim Beam
 ✅ Maker's Mark - Maker's Mark
 ✅ Maker's Mark 46 - Maker's Mark
-Four Roses Yellow Label - Four Roses
-Four Roses Small Batch - Four Roses
-Four Roses Single Barrel - Four Roses
-Wild Turkey 101 - Wild Turkey
-Wild Turkey Rare Breed - Wild Turkey
+✅ Four Roses Yellow Label - Four Roses
+✅ Four Roses Small Batch - Four Roses
+✅ Four Roses Single Barrel - Four Roses
+✅ Wild Turkey 101 - Wild Turkey
+✅ Wild Turkey Rare Breed - Wild Turkey
 Russell's Reserve 10 YO - Wild Turkey
 Old Forester 86 Proof - Brown-Forman
 Old Forester 1910 Old Fine Whisky - Brown-Forman

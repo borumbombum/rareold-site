@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-09T21:42:16.124Z",
+  "generatedAt": "2026-09-10T13:19:57.095Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -10840,6 +10840,297 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=BhKg8vwcvbs",
           "label": "Whisky Review: ESPECIAL de Natal. 23/12 FETTERCAIRN 12 anos!!!!!"
+        }
+      ]
+    },
+    {
+      "id": "four-roses-bourbon",
+      "slug": "four-roses-bourbon",
+      "name": "Four Roses Bourbon",
+      "distillery": {
+        "id": "four-roses",
+        "name": "Four Roses",
+        "name_es": "Four Roses",
+        "name_pt": "Four Roses",
+        "name_en": "Four Roses",
+        "name_ja": "フォア・ローゼス",
+        "name_fr": "Four Roses"
+      },
+      "description": "El bourbon de acceso de Four Roses, una mezcla de las diez recetas de la destilería (dos mash bills y cinco cepas de levadura). De carácter floral y afrutado, con notas de miel, vainilla, pera y manzana, y un final suave y agradable. Botellado al 40%, es un bourbon clásico y versátil, ideal para cócteles o para iniciarse en el estilo.",
+      "image": "/data/images/four-roses-bourbon.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 40,
+      "cask": "New Charred American Oak",
+      "distillery_id": "four-roses",
+      "insertion_order": 381,
+      "featured": false,
+      "name_pt": "Four Roses Bourbon",
+      "description_pt": "O bourbon de entrada da Four Roses, uma mistura das dez receitas da destilaria (dois mash bills e cinco cepas de levedura). De caráter floral e frutado, com notas de mel, baunilha, pera e maçã, e final suave e agradável. Engarrafado a 40%, é um bourbon clássico e versátil, ideal para coquetéis ou para quem está começando no estilo.",
+      "name_en": "Four Roses Bourbon",
+      "description_en": "Four Roses' entry-level bourbon, a blend of the distillery's ten recipes (two mash bills and five yeast strains). Floral and fruity character with notes of honey, vanilla, pear and apple, and a smooth, pleasant finish. Bottled at 40%, it's a classic, versatile bourbon, ideal for cocktails or for getting started in the style.",
+      "name_ja": "フォア・ローゼス バーボン",
+      "description_ja": "フォア・ローゼスの入門バーボンで、蒸留所の10レシピ（2つのマッシュビルと5種の酵母）をブレンド。フローラルでフルーティーな個性で、ハチミツ、バニラ、洋梨、リンゴのノート、なめらかで心地よいフィニッシュ。40度で瓶詰めされた、カクテルにもストレートにも合う定番のバーボン。",
+      "name_fr": "Four Roses Bourbon",
+      "description_fr": "Le bourbon d'entrée de gamme de Four Roses, un mélange des dix recettes de la distillerie (deux mash bills et cinq souches de levure). Caractère floral et fruité, avec des notes de miel, de vanille, de poire et de pomme, et une finale douce et agréable. Embouteillé à 40 %, c'est un bourbon classique et polyvalent, idéal en cocktail ou pour découvrir le style.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=08dgq2Xbvfw",
+          "label": "Whisky.com - Four Roses Yellow Label"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=T5uCn4aNy24",
+          "label": "Whiskey Warehouse - Four Roses Yellow Label Bourbon Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lrQUlfqU2nk",
+          "label": "Liquor Camp - FOUR ROSES BOURBON REVIEW aka YELLOW LABEL"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pjRmxZMnkMA",
+          "label": "Keeping It Neat - Four Roses Yellow Label Review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=V16DQm5ByYI",
+          "label": "LIBANDO - Probemos FOUR ROSES Bourbon Whiskey"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yyIMkswqu28",
+          "label": "Bourboneros - ¿CUÁL ES EL MEJOR BOURBON FOUR ROSES?"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2h0HNycYM7E",
+          "label": "ZigZaag - FOUR ROSES : Les 4 Bourbons de la marque"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3B3MXuw18RE",
+          "label": "Bourbinsane - フォアローゼズ イエローラベル レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DnDdjitn8jU",
+          "label": "酒総合ちゃんねる - 【定番】フォアローゼズ【バーボン】"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wjmjvraj0ag",
+          "label": "せるじおのハイボールチャンネル - フォアローゼズ イエローラベル解説"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=neuUD47Iyqo",
+          "label": "宅飲みバーTakeo - フォアローゼス バーボン テイスティング"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BhldmzU7fP0",
+          "label": "Destilados Brasil - Four Roses Bourbon Review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RFNz-rsB1Ag",
+          "label": "Porção dos Anjos - Four Roses BOURBON 80 proof"
+        }
+      ]
+    },
+    {
+      "id": "four-roses-single-barrel",
+      "slug": "four-roses-single-barrel",
+      "name": "Four Roses Single Barrel",
+      "distillery": {
+        "id": "four-roses",
+        "name": "Four Roses",
+        "name_es": "Four Roses",
+        "name_pt": "Four Roses",
+        "name_en": "Four Roses",
+        "name_ja": "フォア・ローゼス",
+        "name_fr": "Four Roses"
+      },
+      "description": "Un único barril de la receta OBSV de Four Roses (60% maíz, 35% centeno), seleccionado a mano por el maestro destilador y embotellado al 50%. De carácter frutal y especiado, con notas de ciruela, cereza, pera, cacao y vainilla con arce, y un final largo y equilibrado. Un single barrel intenso y elegante.",
+      "image": "/data/images/four-roses-single-barrel.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 50,
+      "cask": "New Charred American Oak",
+      "distillery_id": "four-roses",
+      "insertion_order": 383,
+      "featured": false,
+      "name_pt": "Four Roses Single Barrel",
+      "description_pt": "Um único barril da receita OBSV da Four Roses (60% milho, 35% centeio), selecionado à mão pelo mestre destilador e engarrafado a 50%. De caráter frutado e condimentado, com notas de ameixa, cereja, pera, cacau e baunilha com bordo, e final longo e equilibrado. Um single barrel intenso e elegante.",
+      "name_en": "Four Roses Single Barrel",
+      "description_en": "A single barrel of Four Roses' OBSV recipe (60% corn, 35% rye), hand-selected by the master distiller and bottled at 50%. Fruity and spicy character with notes of plum, cherry, pear, cocoa and vanilla with maple, and a long, balanced finish. An intense, elegant single barrel.",
+      "name_ja": "フォア・ローゼス シングルバレル",
+      "description_ja": "フォア・ローゼスのOBSVレシピ（トウモロコシ60%、ライ麦35%）の単一樽をマスターディスティラーが手選びし、50度で瓶詰め。フルーティーでスパイシーな個性。プラム、チェリー、洋梨、ココア、メープル風味のバニラのノート、長くバランスの取れたフィニッシュ。力強くエレガントなシングルバレル。",
+      "name_fr": "Four Roses Single Barrel",
+      "description_fr": "Un fût unique de la recette OBSV de Four Roses (60 % maïs, 35 % seigle), sélectionné à la main par le maître distillateur et embouteillé à 50 %. Caractère fruité et épicé, avec des notes de prune, de cerise, de poire, de cacao et de vanille érable, et une finale longue et équilibrée. Un single barrel intense et élégant.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3T5Qnf0qm48",
+          "label": "Fred Minnick - Bourbon Review: Four Roses Single Barrel"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=G-BmsQw3E3I",
+          "label": "Whiskey is a Journey - Four Roses Single Barrel Bourbon Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KrFQFxJ6s9s",
+          "label": "Tortured Bourbon - Four Roses Single Barrel OBSV Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Vy-QA0T43JE",
+          "label": "Whisky.com - Four Roses Single Barrel 100 Proof"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XnoBo0XLmYk",
+          "label": "Bourboneros - Four Roses Single Barrel ¿Mejor que Blanton's?"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Q3DGzMELFZw",
+          "label": "酒総合ちゃんねる - フォアローゼスシングルバレル飲んでみた"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oY4-HYXINs0",
+          "label": "ひとくちウイスキー - フォアローゼズ3種をストレートで飲み比べ"
+        }
+      ]
+    },
+    {
+      "id": "four-roses-small-batch",
+      "slug": "four-roses-small-batch",
+      "name": "Four Roses Small Batch",
+      "distillery": {
+        "id": "four-roses",
+        "name": "Four Roses",
+        "name_es": "Four Roses",
+        "name_pt": "Four Roses",
+        "name_en": "Four Roses",
+        "name_ja": "フォア・ローゼス",
+        "name_fr": "Four Roses"
+      },
+      "description": "Mezcla de cuatro de las diez recetas de Four Roses, de carácter redondo y equilibrado. Notas de caramelo y vainilla con especias suaves de centeno, frutos secos y un toque de cacao, con un final medio-largo y especiado. Botellado al 45%, es el paso adelante premium de la casa dentro de una botella con forma de capullo de rosa.",
+      "image": "/data/images/four-roses-small-batch.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 45,
+      "cask": "New Charred American Oak",
+      "distillery_id": "four-roses",
+      "insertion_order": 382,
+      "featured": false,
+      "name_pt": "Four Roses Small Batch",
+      "description_pt": "Mistura de quatro das dez receitas da Four Roses, de caráter redondo e equilibrado. Notas de caramelo e baunilha com especiarias suaves de centeio, frutos secos e um toque de cacau, com final médio-longo e condimentado. Engarrafado a 45%, é o passo adiante premium da casa numa garrafa em forma de botão de rosa.",
+      "name_en": "Four Roses Small Batch",
+      "description_en": "A blend of four of Four Roses' ten recipes, round and balanced in character. Caramel and vanilla notes with soft rye spices, dried fruit and a touch of cocoa, with a medium-long, spicy finish. Bottled at 45%, it's the house's premium step up, in a bottle shaped like a rosebud.",
+      "name_ja": "フォア・ローゼス スモールバッチ",
+      "description_ja": "フォア・ローゼスの10レシピのうち4つをブレンドした、丸みのあるバランスのいい個性。キャラメルとバニラのノート、柔らかなライ麦のスパイス、ドライフルーツとココアのタッチ、中〜長めでスパイシーなフィニッシュ。45度で瓶詰めされ、薔薇のつぼみの形をしたボトルが特徴の同社プレミアムライン。",
+      "name_fr": "Four Roses Small Batch",
+      "description_fr": "Un mélange de quatre des dix recettes de Four Roses, au caractère rond et équilibré. Notes de caramel et de vanille avec de douces épices de seigle, des fruits secs et une touche de cacao, avec une finale moyennement longue et épicée. Embouteillé à 45 %, c'est le pas en avant premium de la maison, dans une bouteille en forme de bouton de rose.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=E0PGd7p4rd4",
+          "label": "Stuff & Whiskey - Is Four Roses Small Batch WORTH BUYING?"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=J6Oa3G2-KrA",
+          "label": "The Whiskey Nerd - A New WINNER Four Roses Small Batch"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=heRBWrNWHPs",
+          "label": "Whisky.com - Four Roses Small Batch Whiskey Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rTxKzFpHXv8",
+          "label": "Whisky Central - Four Roses Small Batch Review!"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=I1RRuLD6HXM",
+          "label": "La Wiskada - Notas de cata para Four Roses Small Batch"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ze7F3mJPcSc",
+          "label": "Todo Whisky - Cata de Four Roses Small Batch"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jQwIwGFJRjA",
+          "label": "HABLANDO DE WHISKY - Cata Four Roses Small Batch"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3H85d6gUVmY",
+          "label": "おさけとぼくと - WOODFORD RESERVE vs Four Roses SMALL BATCH"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=oY4-HYXINs0",
+          "label": "ひとくちウイスキー - フォアローゼズ3種をストレートで飲み比べ"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KPygD8uEcQQ",
+          "label": "Porção dos Anjos Whisky - Review Four Roses Small Batch"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Vgmd9KhWKiI",
+          "label": "WhiskyBrasil.com - Four Roses Small Batch"
         }
       ]
     },
@@ -35609,6 +35900,172 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=kAngcHsC1T8",
           "label": "Tierri Whisky"
+        }
+      ]
+    },
+    {
+      "id": "wild-turkey-101",
+      "slug": "wild-turkey-101",
+      "name": "Wild Turkey 101",
+      "distillery": {
+        "id": "wild-turkey",
+        "name": "Wild Turkey",
+        "name_es": "Wild Turkey",
+        "name_pt": "Wild Turkey",
+        "name_en": "Wild Turkey",
+        "name_ja": "ワイルド・ターキー",
+        "name_fr": "Wild Turkey"
+      },
+      "description": "El icónico bourbon de Wild Turkey, embotellado a 101 proof (50,5%) con su receta de alto contenido en centeno. Envejecido entre 6 y 8 años en roble americano nuevo con carbón profundo, ofrece vainilla, caramelo, naranja, canela y un final largo y especiado. Un clásico americano lleno de carácter.",
+      "image": "/data/images/wild-turkey-101.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 50.5,
+      "cask": "New Charred American Oak",
+      "distillery_id": "wild-turkey",
+      "insertion_order": 384,
+      "featured": false,
+      "name_pt": "Wild Turkey 101",
+      "description_pt": "O icônico bourbon da Wild Turkey, engarrafado a 101 proof (50,5%) com sua receita de alto teor de centeio. Envelhecido entre 6 e 8 anos em carvalho americano novo com carbonização profunda, oferece baunilha, caramelo, laranja, canela e final longo e condimentado. Um clássico americano cheio de caráter.",
+      "name_en": "Wild Turkey 101",
+      "description_en": "Wild Turkey's iconic bourbon, bottled at 101 proof (50.5%) with its high-rye mash bill. Aged between 6 and 8 years in new American oak with deep char, it offers vanilla, caramel, orange, cinnamon and a long, spicy finish. An American classic full of character.",
+      "name_ja": "ワイルドターキー 101",
+      "description_ja": "ワイルド・ターキーの伝説的バーボン。ハイライ麦配合で101プルーフ（50.5度）瓶詰め。深いチャーの新しいアメリカンオーク樽で6〜8年熟成。バニラ、キャラメル、オレンジ、シナモンのノートと、長くスパイシーなフィニッシュ。個性豊かなアメリカン・クラシック。",
+      "name_fr": "Wild Turkey 101",
+      "description_fr": "Le bourbon iconique de Wild Turkey, embouteillé à 101 proof (50,5 %) avec son mash bill riche en seigle. Vieilli entre 6 et 8 ans en chêne américain neuf fortement grillé, il offre vanille, caramel, orange, cannelle et une finale longue et épicée. Un classique américain plein de caractère.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0-jDsM5O0qI",
+          "label": "The Crumby Beard - Wild Turkey 101: Worth The Hype?"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1k2lR-0tpP0",
+          "label": "The Mash and Drum - Wild Turkey 101"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ToDoV1oe1Js",
+          "label": "thewhiskybothy - Wild Turkey 101 bourbon"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AZumgZ-jsWM",
+          "label": "Cultura del Whisky - Wild Turkey 101 revisión"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P36SR09HrQ0",
+          "label": "Whisky o Muerte - Cata Wild Turkey 101"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ESMSkacEChw",
+          "label": "家飲み職人 - ワイルドターキーバーボン101レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TI7BD3NXcX4",
+          "label": "もかじと乾杯 - ワイルドターキー101テイスティング"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1md35TbvZbs",
+          "label": "Além do Rótulo - WILD TURKEY 101 Degustação"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Z_XyFdv_N10",
+          "label": "Porção dos Anjos - Wild Turkey 101 proof"
+        }
+      ]
+    },
+    {
+      "id": "wild-turkey-rare-breed",
+      "slug": "wild-turkey-rare-breed",
+      "name": "Wild Turkey Rare Breed",
+      "distillery": {
+        "id": "wild-turkey",
+        "name": "Wild Turkey",
+        "name_es": "Wild Turkey",
+        "name_pt": "Wild Turkey",
+        "name_en": "Wild Turkey",
+        "name_ja": "ワイルド・ターキー",
+        "name_fr": "Wild Turkey"
+      },
+      "description": "El barrel proof de Wild Turkey, barricas sin diluir de bourbon de 6, 8 y 12 años seleccionadas por Jimmy Russell. A 58,4%, despliega miel, frutas maduras, caramelo salado y especias intensas de roble, con un final muy largo y cálido. El bourbon más puro de la casa a plena fuerza.",
+      "image": "/data/images/wild-turkey-rare-breed.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 58.4,
+      "cask": "New Charred American Oak",
+      "distillery_id": "wild-turkey",
+      "insertion_order": 385,
+      "featured": false,
+      "name_pt": "Wild Turkey Rare Breed",
+      "description_pt": "O barrel proof da Wild Turkey, barris sem diluição de bourbon de 6, 8 e 12 anos selecionados por Jimmy Russell. A 58,4%, apresenta mel, frutas maduras, caramelo salgado e especiarias intensas de carvalho, com final muito longo e quente. O bourbon mais puro da casa em plena força.",
+      "name_en": "Wild Turkey Rare Breed",
+      "description_en": "Wild Turkey's barrel proof, undiluted barrels of 6, 8 and 12 year old bourbon selected by Jimmy Russell. At 58.4%, it unfolds honey, ripe fruit, salted caramel and intense oak spices, with a very long, warming finish. The house's purest bourbon at full strength.",
+      "name_ja": "ワイルドターキー レアブリード",
+      "description_ja": "ワイルド・ターキーのバレルプルーフ。ジミー・ラッセルが選んだ6年、8年、12年のバーボンを無希釈でブレンド。58.4度で、ハチミツ、熟した果実、塩キャラメル、力強いオークのスパイスが広がり、とても長く温かいフィニッシュ。同社の最もピュアなバーボン。",
+      "name_fr": "Wild Turkey Rare Breed",
+      "description_fr": "Le barrel proof de Wild Turkey, des fûts non dilués de bourbons de 6, 8 et 12 ans sélectionnés par Jimmy Russell. À 58,4 %, il déploie du miel, des fruits mûrs, du caramel salé et d'intenses épices de chêne, avec une finale très longue et chaleureuse. Le bourbon le plus pur de la maison à pleine puissance.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NKLvkH-7psE",
+          "label": "Gwhisky - The ULTIMATE Bourbon? Wild Turkey Rare Breed NCF Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_9Gz-uO-ljo",
+          "label": "ralfy review 1013 - Wild Turkey Rare Breed 58.4%"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xnbIn2c1ozE",
+          "label": "The Average Drinker - Wild Turkey Rare Breed NCF Review"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2BZs_szbR5o",
+          "label": "正直者がお酒を見る - ワイルドターキーレアブリード正直レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NB_ZM1h80tI",
+          "label": "ひとくちウイスキー - ワイルドターキー レアブリード テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mYv2rlb2iCA",
+          "label": "あんらいチャンネル - 58.4度！ワイルドターキーレアブリード"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rmA6BTx2MWU",
+          "label": "Tierri Whisky - WHISKY REVIEW WILD TURKEY RARE BREED UM BOURBON FULL PROOF"
         }
       ]
     },
