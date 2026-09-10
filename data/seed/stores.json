@@ -2,8 +2,9 @@
 	"store_countries": [
 		{ "code": "UY", "name": "Uruguay", "currency": "UYU", "sort_order": 1, "active": 1 },
 		{ "code": "BR", "name": "Brazil", "currency": "BRL", "sort_order": 2, "active": 1 },
-		{ "code": "US", "name": "United States", "currency": "USD", "sort_order": 3, "active": 1 },
-		{ "code": "EN", "name": "English", "currency": "USD", "sort_order": 4, "active": 1 }
+		{ "code": "EN", "name": "English", "currency": "USD", "sort_order": 3, "active": 1 },
+		{ "code": "JP", "name": "Japan", "currency": "JPY", "sort_order": 4, "active": 1 },
+		{ "code": "FR", "name": "France", "currency": "EUR", "sort_order": 5, "active": 1 }
 	],
 	"stores": [
 		{ "id": "alambique", "store_country_code": "UY", "name": "Alambique", "url": "https://alambique.com.uy", "logo_url": null, "sort_order": 1 },

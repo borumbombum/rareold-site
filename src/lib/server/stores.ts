@@ -194,11 +194,13 @@ export async function getStoresForProduct(
 	const wanted = countryCode && /^[A-Z]{2}$/.test(countryCode) ? countryCode : FALLBACK_COUNTRY;
 	const direct = await pick(wanted);
 	if (direct && direct.stores.length > 0) return direct;
-	if (direct) {
-		const fallback = await pick(FALLBACK_COUNTRY);
-		if (fallback) return fallback;
-	}
-	return { country: FALLBACK_COUNTRY, currency: 'USD', stores: [] };
+
+	// Visitor's country has no configured stores (not registered, or registered but empty):
+	// fall back to the English store country. When that country row is absent, still report
+	// EN as the effective country so the UI never silently reports ''.
+	const fallback = await pick(FALLBACK_COUNTRY);
+	if (fallback && fallback.stores.length > 0) return fallback;
+	return { country: FALLBACK_COUNTRY, currency: fallback?.currency ?? 'USD', stores: [] };
 }
 
 export async function listProductStores(productId: string, db: Client = turso): Promise<ProductStoreRow[]> {
