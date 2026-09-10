@@ -37024,6 +37024,330 @@
           "created_at": "2000-01-01T00:00:00.000Z"
         }
       ]
+    },
+    {
+      "id": "russells-reserve-10-yo",
+      "slug": "russells-reserve-10-yo",
+      "name": "Russell's Reserve 10 Year Old",
+      "description": "El bourbon insignia de la familia Russell, salido de los rincones favoritos de la destilería Wild Turkey. Envejecido durante diez años en barriles de roble americano nuevo con carbón n.º 4, ofrece vainilla, caramelo y toffee a 90 proof (45% vol), con un final suave y equilibrado.",
+      "image": "/data/images/russells-reserve-10-yo.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": 10,
+      "volume": "750 ml",
+      "abv": 45,
+      "cask": "New Charred American Oak",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "wild-turkey",
+      "name_pt": "Russell's Reserve 10 Year Old",
+      "description_pt": "O bourbon carro-chefe da família Russell, vindo dos cantos favoritos da destilaria Wild Turkey. Envelhecido por dez anos em barris de carvalho americano novo com carbonização nº 4, oferece baunilha, caramelo e toffee a 90 proof (45% vol), com final suave e equilibrado.",
+      "name_en": "Russell's Reserve 10 Year Old",
+      "description_en": "The flagship bourbon from the Russell family, drawn from Wild Turkey's favorite warehouse ricks. Aged for ten years in new American oak barrels with a No. 4 char, it delivers vanilla, caramel and toffee at 90 proof (45% ABV), with a smooth, balanced finish.",
+      "name_ja": "ラッセルズ・リザーブ 10年",
+      "description_ja": "ラッセル家のフラッグシップ・バーボン。ワイルド・ターキーの蒸留所で最上級の樽から選び抜かれ、新しいアメリカンオーク樽（カーボン4番チャー）で10年間熟成。バニラ、キャラメル、トフィーの香りを90プルーフ（45度）で楽しめ、滑らかでバランスの取れたフィニッシュ。",
+      "name_fr": "Russell's Reserve 10 Year Old",
+      "description_fr": "Le bourbon emblématique de la famille Russell, issu des ricks préférés de la distillerie Wild Turkey. Vieilli pendant dix ans en fûts de chêne américain neuf avec un charbon n° 4, il offre vanille, caramel et toffee à 90 proof (45 % vol), avec une finale douce et équilibrée.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o3uVRhUnm4Q",
+          "label": "Whisky.com - Russell's Reserve 10 years review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hLQa4xwH0Oc",
+          "label": "The Mash and Drum - Russell's Reserve 10 Year Bourbon",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=B8RSIy8MNRs",
+          "label": "Drums & Drams - Russell's Reserve 10 Year Bourbon",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=kZiQukGNoWQ",
+          "label": "Jones N Mann - Russell's Reserve 10 YR Whiskey Review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pn1vGSnn0FU",
+          "label": "La Wiskada - Notas de Cata Russell's Reserve 10 años",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "old-forester-86-proof",
+      "slug": "old-forester-86-proof",
+      "name": "Old Forester 86 Proof",
+      "description": "El bourbon del primer embotellador de Estados Unidos, creado por George Garvin Brown en 1870. A 86 proof (43% vol), despliega notas de cítricos, miel y menta con un toque de roble ligeramente tostado. Un bourbon de Kentucky con carácter aromático, imprescindible en la coctelería clásica.",
+      "image": "/data/images/old-forester-86-proof.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 43,
+      "cask": "New Charred American Oak",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "old-forester",
+      "name_pt": "Old Forester 86 Proof",
+      "description_pt": "O bourbon do primeiro engarrafador dos Estados Unidos, criado por George Garvin Brown em 1870. A 86 proof (43% vol), apresenta notas de cítricos, mel e hortelã com um toque de carvalho levemente tostado. Um bourbon de Kentucky com caráter aromático, essencial na coquetelaria clássica.",
+      "name_en": "Old Forester 86 Proof",
+      "description_en": "The bourbon from America's first bottled bourbon distiller, created by George Garvin Brown in 1870. At 86 proof (43% ABV) it unfolds notes of citrus, honey and mint with a hint of lightly toasted oak. A Kentucky bourbon with aromatic character, a must for classic cocktail making.",
+      "name_ja": "オールド・フォレスター 86プルーフ",
+      "description_ja": "1870年にジョージ・ガービン・ブラウンが創業した、アメリカ初の瓶詰めバーボンの定番。86プルーフ（43度）で、柑橘、ハチミツ、ミントのノートに軽くトーストしたオークのニュアンス。アロマティックな個性を持つケンタッキー・バーボンで、クラシックカクテルに欠かせない。",
+      "name_fr": "Old Forester 86 Proof",
+      "description_fr": "Le bourbon du premier embouteilleur des États-Unis, créé par George Garvin Brown en 1870. À 86 proof (43 % vol), il déploie des notes d'agrumes, de miel et de menthe avec une touche de chêne légèrement toasté. Un bourbon du Kentucky au caractère aromatique, indispensable en coquetellerie classique.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ydHWhweX84U",
+          "label": "Whisky.com - Old Forester 86 Proof review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=8b5i353_PZ8",
+          "label": "The Crumby Beard - Old Forester 86 Proof",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ilo6RsUZK14",
+          "label": "Whiskey Wars - Old Forester 86 Proof review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=W4IsNNORhT8",
+          "label": "Whisky Wednesday - Old Forester 86 Proof",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "old-forester-1910-old-fine-whisky",
+      "slug": "old-forester-1910-old-fine-whisky",
+      "name": "Old Forester 1910 Old Fine Whisky",
+      "description": "El cuarto lanzamiento de la serie Whiskey Row de Old Forester, inspirado en el incendio de 1910, cuando el whisky se reubicó en barriles nuevos carbonizados. Doblemente barriqueado: primero en barril nuevo carbonizado y después en roble tostado, entrega mantequilla cremosa, toffee y roble carbonizado a 93 proof (46,5%).",
+      "image": "/data/images/old-forester-1910-old-fine-whisky.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 46.5,
+      "cask": "New Charred American Oak (double-barreled)",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "old-forester",
+      "name_pt": "Old Forester 1910 Old Fine Whisky",
+      "description_pt": "O quarto lançamento da série Whiskey Row da Old Forester, inspirado no incêndio de 1910, quando o whisky foi realocado em barris novos carbonizados. Duplamente barricado: primeiro em barril novo carbonizado e depois em carvalho tostado, entrega manteiga cremosa, toffee e carvalho carbonizado a 93 proof (46,5%).",
+      "name_en": "Old Forester 1910 Old Fine Whisky",
+      "description_en": "The fourth release in Old Forester's Whiskey Row series, inspired by the 1910 fire that forced the whisky into freshly charred barrels. Double-barreled — first new charred oak, then toasted oak — it delivers creamy butterscotch, toffee and charred oak at 93 proof (46.5% ABV).",
+      "name_ja": "オールド・フォレスター 1910 オールド・ファインヴィスキー",
+      "description_ja": "オールド・フォレスターのウィスキー・ロウ・シリーズ第4弾。1910年の火災で、新品のチャー樽に移し替えざるを得なかった出来事に着想を得た。新品チャー樽で熟成後、トーストしたオーク樽で二度目の熟成を施し、クリーミーなバタースコッチ、トフィー、チャーオークの風味を93プルーフ（46.5度）で楽しめる。",
+      "name_fr": "Old Forester 1910 Old Fine Whisky",
+      "description_fr": "Quatrième cru de la série Whiskey Row d'Old Forester, inspiré de l'incendie de 1910 qui força le whisky dans des fûts neufs carbonisés. Doublement fûté — d'abord en chêne neuf carbonisé, puis en chêne toasté — il offre beurre crémeux, toffee et chêne carbonisé à 93 proof (46,5 % vol).",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5IIraEZt-N4",
+          "label": "Bourbon Junkies - Old Forester 1910 review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=blwhJqem4zM",
+          "label": "The Average Drinker - Old Forester 1910 blind review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JT992qgKaBQ",
+          "label": "Jeremy Siers - Old Forester 1910 Leaf & Barrel",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3l30rc24lic",
+          "label": "Whiskey Vault - Old Forester 1910 review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "woodford-reserve-double-oaked",
+      "slug": "woodford-reserve-double-oaked",
+      "name": "Woodford Reserve Double Oaked",
+      "description": "Bourbon de Kentucky que se madura dos veces: envejece en barril nuevo carbonizado y luego pasa a un segundo barril de roble americano profundamente tostado y ligeramente carbonizado. A 45,2% vol, ofrece frutas oscuras, caramelo, mazapán y vainilla sobre una textura rica y cremosa.",
+      "image": "/data/images/woodford-reserve-double-oaked.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 45.2,
+      "cask": "Twice-barreled: charred then toasted American oak",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "woodford-reserve",
+      "name_pt": "Woodford Reserve Double Oaked",
+      "description_pt": "Bourbon de Kentucky que amadurece duas vezes: envelhece em barril novo carbonizado e depois passa para um segundo barril de carvalho americano profundamente tostado e levemente carbonizado. A 45,2% vol, oferece frutas escuras, caramelo, maçapão e baunilha sobre uma textura rica e cremosa.",
+      "name_en": "Woodford Reserve Double Oaked",
+      "description_en": "A Kentucky bourbon that matures twice: it ages in a new charred barrel, then is finished in a second deeply toasted, lightly charred American oak barrel. At 45.2% ABV it offers dark fruit, caramel, marzipan and vanilla over a rich, creamy texture.",
+      "name_ja": "ウッドフォード・リザーブ ダブルオーク",
+      "description_ja": "2度の熟成を経たケンタッキー・バーボン。新しいチャー樽で熟成後、深くトーストして軽くチャーした2本目のアメリカンオーク樽で仕上げ熟成。45.2度で、ダークフルーツ、キャラメル、マジパン、バニラの風味に、豊かでクリーミーな質感。",
+      "name_fr": "Woodford Reserve Double Oaked",
+      "description_fr": "Un bourbon du Kentucky qui mûrit deux fois : il vieillit en fût neuf carbonisé, puis est fini dans un second fût de chêne américain profondément toasté et légèrement carbonisé. À 45,2 % vol, il offre fruits noirs, caramel, massepain et vanille sur une texture riche et crémeuse.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Iq0col-hex8",
+          "label": "Whiskey Vault - Woodford Reserve Double Oaked review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mauU45bul9k",
+          "label": "Whiskey is a Journey - Woodford Reserve Double Oaked",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P-rQ89pA_fE",
+          "label": "Whisky Wednesday - Woodford Reserve Double Oaked",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Bb169R8Ve_I",
+          "label": "Bourbon Junkies - Woodford Reserve Double Oaked",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=igWzrjRAI1E",
+          "label": "Destila2 - Woodford Reserve Double Oaked",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=-OXdx8xmvcA",
+          "label": "CROSSROAD LAB 2nd - ウッドフォードリザーブ・ダブルオーク",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QXQtS4rse2s",
+          "label": "パンプチャンネル - ウッドフォードリザーブ ダブルオーク飲み比べ",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VeGbJzznHBE",
+          "label": "俺のモルト - ウッドフォードリザーブ ダブルオークド",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "blantons-original-single-barrel",
+      "slug": "blantons-original-single-barrel",
+      "name": "Blanton's Original Single Barrel",
+      "description": "El primer bourbon comercial de barril único del mundo, creado por Elmer T. Lee en 1984 y embotellado de una sola barrica seleccionada. A 93 proof (46,5%), ofrece nuez moscada, vainilla y miel con un toque de especias; cada botella se corona con una figura de caballo del legendario tapón de Blanton's.",
+      "image": "/data/images/blantons-original-single-barrel.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 46.5,
+      "cask": "New Charred American Oak",
+      "resellers_uy": [],
+      "resellers_br": [],
+      "resellers_usa": [],
+      "distillery_id": "buffalo-trace",
+      "name_pt": "Blanton's Original Single Barrel",
+      "description_pt": "O primeiro bourbon comercial de barril único do mundo, criado por Elmer T. Lee em 1984 e engarrafado de um único barril selecionado. A 93 proof (46,5%), oferece noz-moscada, baunilha e mel com um toque de especiarias; cada garrafa é coroada com uma figura de cavalo da lendária rolha de Blanton's.",
+      "name_en": "Blanton's Original Single Barrel",
+      "description_en": "The world's first commercially released single barrel bourbon, created by Elmer T. Lee in 1984 and bottled from a single selected barrel. At 93 proof (46.5% ABV) it offers nutmeg, vanilla and honey with a touch of spice; each bottle is crowned with a horse figure from Blanton's legendary stopper.",
+      "name_ja": "ブラントン オリジナル シングルバレル",
+      "description_ja": "1984年にエルマー・T・リーが生み出した、世界初の商業用シングルバレル・バーボン。厳選された単一のバーレルからそのまま瓶詰めされ、93プルーフ（46.5度）。ナツメグ、バニラ、ハチミツにスパイスのアクセント。各ボトルのコルクにはブラントン伝説の馬のフィギュアが乗る。",
+      "name_fr": "Blanton's Original Single Barrel",
+      "description_fr": "Le premier bourbon commercial de fût unique au monde, créé par Elmer T. Lee en 1984 et embouteillé depuis un seul fût sélectionné. À 93 proof (46,5 % vol), il offre noix de muscade, vanille et miel avec une touche d'épices ; chaque bouteille est couronnée d'une figurine de cheval du légendaire bouchon de Blanton's.",
+      "influencer_videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MIjpl-5IsWY",
+          "label": "The Whiskey Dictionary - Blanton's Original Single Barrel",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i4ybRTaccXY",
+          "label": "Whiskey Vault - Blanton's Single Barrel review",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=U-mARb7FOjs",
+          "label": "The Mash and Drum - Blanton's Single Barrel",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rPS_yX9m-Ko",
+          "label": "The Single Malt Review - Blanton's Original Single Barrel",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Edfek0YZEA8",
+          "label": "ひとくちウイスキー - ブラントン（ストレート）",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zwGGLSkxEXk",
+          "label": "Bar お酒の美術館 - ブラントン シングルバレル",
+          "created_at": "2000-01-01T00:00:00.000Z"
+        }
+      ]
     }
   ]
 }

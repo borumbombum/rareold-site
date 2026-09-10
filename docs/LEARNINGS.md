@@ -468,3 +468,6 @@
 
 - **Localized exact-expression video search for niche bourbons is a genuinely thin tail.** For the 5 products (all with existing en4/ja4 coverage), exhaustive search yielded just 2 new genuine pt videos: `YdU_IkOXAhU` (Vida e motores USA, "Makers mark vale a pena?") and `wTEH96nuyEk` (WhiskyBrasil.com). Booker's has no non-EN/JA reviews at all. Lesson: when a batch's sibling products were padded loosely (non-matching-language channels in fr slots), flag it and let the user choose strict-vs-precedent rather than silently replicating either.
 - **Seed-file rewrite safety:** editing `data/seed/whiskies.json` via full `json.dumps(indent=2, ensure_ascii=False)` rewrite is lossless and matches repo style; do the same `git diff --stat` baseline check after any such rewrite to prove no formatting churn was introduced.
+## 2026-09-10 — Invidious title→ID mapping is unstable across queries
+
+While searching, the *same* video ID showed different titles and the *same* Spanish title ("!El Doble de Tostado!") attached to two different IDs across queries (native vs invidious vs query variants). The mapping is per-request channel guessing by YouTube. Never trust a title-ID pairing from a single search line — always resolve the id via `yt-verify.mjs` oEmbed, which is the authoritative title+channel.

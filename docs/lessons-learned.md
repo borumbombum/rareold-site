@@ -512,3 +512,11 @@
 - **Official current product name beats the queue's legacy name**: queue said "Four Roses Yellow Label", but Four Roses rebranded it to "Four Roses Bourbon" in 2018; used the official name in the store and flagged it.
 - **A video can legally repeat across two different products** (uniqueness is per product): `oY4-HYXINs0` (Japanese 3-varieties comparison incl. the exact expressions) is on both Four Roses Small Batch and Single Barrel.
 - **`npm run check` baseline is 0 errors / 29 warnings** (some pre-existing svelte 5 `$derived` "reference only captures initial value" warnings) — unchanged by this batch.
+
+## 2026-09-10 — Add 5 Kentucky bourbons (Russell's Reserve 10, Old Forester 86/1910, Woodford Double Oaked, Blanton's)
+
+- **Brand sites are og:image goldmines.** russellsreserve.com, oldforester.com, woodfordreserve.com and the Buffalo Trace CMS all publish product bottle renders in `og:image` (or page-image PNGs) that download 200 clean and convert to 500×500 webp — no Whiskybase blocked-CDN pitfalls.
+- **Strict-match yielded a thin non-English tail even for famous bourbons:** genuine es only for Russell's Reserve (`pn1vGSnn0FU`, channel "La Wiskada") and Woodford Double Oaked (`igWzrjRAI1E`, "Destila2"); genuine ja for Woodford Double Oaked (x3) and Blanton's (x2); nothing for ES/PT/FR on Old Forester 86 or 1910, and nothing in pt/fr anywhere. Don't pad — English tops up.
+- **Invidious is mandatory for non-Latin + non-English discovery; native has a Spanish blind spot.** Native `yt-search.mjs` returned only English channels for "cata/degustación" queries; only Invidious (inv.nadeko.net) surfaced the real Spanish/Japanese channels preserving original titles.
+- **Ambiguous generic titles get dropped even when live:** Japanese videos titled only "Old Forester (straight)" / "Blanton (straight)" can't be confirmed as the exact 86-proof/Single-Barrel expression, so they were rejected per the exact-expression gate.
+- **Build baseline again unchanged: `npm run check` 0 errors / 29 pre-existing warnings.**

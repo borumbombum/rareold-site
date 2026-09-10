@@ -4620,6 +4620,48 @@
     "label": "ひとくちウイスキー"
   },
   {
+    "product_id": "blantons-original-single-barrel",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=MIjpl-5IsWY",
+    "label": "The Whiskey Dictionary - Blanton's Original Single Barrel"
+  },
+  {
+    "product_id": "blantons-original-single-barrel",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=U-mARb7FOjs",
+    "label": "The Mash and Drum - Blanton's Single Barrel"
+  },
+  {
+    "product_id": "blantons-original-single-barrel",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=i4ybRTaccXY",
+    "label": "Whiskey Vault - Blanton's Single Barrel review"
+  },
+  {
+    "product_id": "blantons-original-single-barrel",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=rPS_yX9m-Ko",
+    "label": "The Single Malt Review - Blanton's Original Single Barrel"
+  },
+  {
+    "product_id": "blantons-original-single-barrel",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Edfek0YZEA8",
+    "label": "ひとくちウイスキー - ブラントン（ストレート）"
+  },
+  {
+    "product_id": "blantons-original-single-barrel",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=zwGGLSkxEXk",
+    "label": "Bar お酒の美術館 - ブラントン シングルバレル"
+  },
+  {
     "product_id": "bookers-bourbon",
     "language": "en",
     "platform": "youtube",
@@ -19439,6 +19481,62 @@
     "label": "WHISKY REVIEW - OLD BALLANTRUAN UM NECTAR DOS DEUSES (MAS NEM TANTO)"
   },
   {
+    "product_id": "old-forester-1910-old-fine-whisky",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=3l30rc24lic",
+    "label": "Whiskey Vault - Old Forester 1910 review"
+  },
+  {
+    "product_id": "old-forester-1910-old-fine-whisky",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5IIraEZt-N4",
+    "label": "Bourbon Junkies - Old Forester 1910 review"
+  },
+  {
+    "product_id": "old-forester-1910-old-fine-whisky",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=JT992qgKaBQ",
+    "label": "Jeremy Siers - Old Forester 1910 Leaf & Barrel"
+  },
+  {
+    "product_id": "old-forester-1910-old-fine-whisky",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=blwhJqem4zM",
+    "label": "The Average Drinker - Old Forester 1910 blind review"
+  },
+  {
+    "product_id": "old-forester-86-proof",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=8b5i353_PZ8",
+    "label": "The Crumby Beard - Old Forester 86 Proof"
+  },
+  {
+    "product_id": "old-forester-86-proof",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Ilo6RsUZK14",
+    "label": "Whiskey Wars - Old Forester 86 Proof review"
+  },
+  {
+    "product_id": "old-forester-86-proof",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=W4IsNNORhT8",
+    "label": "Whisky Wednesday - Old Forester 86 Proof"
+  },
+  {
+    "product_id": "old-forester-86-proof",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ydHWhweX84U",
+    "label": "Whisky.com - Old Forester 86 Proof review"
+  },
+  {
     "product_id": "old-pulteney-12-yo",
     "language": "en",
     "platform": "youtube",
@@ -21432,6 +21530,41 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=wHfz-IXBCg4",
     "label": "Royal Salute 25 Year Old"
+  },
+  {
+    "product_id": "russells-reserve-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=B8RSIy8MNRs",
+    "label": "Drums & Drams - Russell's Reserve 10 Year Bourbon"
+  },
+  {
+    "product_id": "russells-reserve-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hLQa4xwH0Oc",
+    "label": "The Mash and Drum - Russell's Reserve 10 Year Bourbon"
+  },
+  {
+    "product_id": "russells-reserve-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kZiQukGNoWQ",
+    "label": "Jones N Mann - Russell's Reserve 10 YR Whiskey Review"
+  },
+  {
+    "product_id": "russells-reserve-10-yo",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=o3uVRhUnm4Q",
+    "label": "Whisky.com - Russell's Reserve 10 years review"
+  },
+  {
+    "product_id": "russells-reserve-10-yo",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=pn1vGSnn0FU",
+    "label": "La Wiskada - Notas de Cata Russell's Reserve 10 años"
   },
   {
     "product_id": "ryelaw",
@@ -27284,6 +27417,62 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=yvMmhwoheWw",
     "label": "Degustando 045: Whisky Review Woodford Reserve"
+  },
+  {
+    "product_id": "woodford-reserve-double-oaked",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Bb169R8Ve_I",
+    "label": "Bourbon Junkies - Woodford Reserve Double Oaked"
+  },
+  {
+    "product_id": "woodford-reserve-double-oaked",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Iq0col-hex8",
+    "label": "Whiskey Vault - Woodford Reserve Double Oaked review"
+  },
+  {
+    "product_id": "woodford-reserve-double-oaked",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=P-rQ89pA_fE",
+    "label": "Whisky Wednesday - Woodford Reserve Double Oaked"
+  },
+  {
+    "product_id": "woodford-reserve-double-oaked",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mauU45bul9k",
+    "label": "Whiskey is a Journey - Woodford Reserve Double Oaked"
+  },
+  {
+    "product_id": "woodford-reserve-double-oaked",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=igWzrjRAI1E",
+    "label": "Destila2 - Woodford Reserve Double Oaked"
+  },
+  {
+    "product_id": "woodford-reserve-double-oaked",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-OXdx8xmvcA",
+    "label": "CROSSROAD LAB 2nd - ウッドフォードリザーブ・ダブルオーク"
+  },
+  {
+    "product_id": "woodford-reserve-double-oaked",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QXQtS4rse2s",
+    "label": "パンプチャンネル - ウッドフォードリザーブ ダブルオーク飲み比べ"
+  },
+  {
+    "product_id": "woodford-reserve-double-oaked",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VeGbJzznHBE",
+    "label": "俺のモルト - ウッドフォードリザーブ ダブルオークド"
   },
   {
     "product_id": "yamazaki-12-year-old",

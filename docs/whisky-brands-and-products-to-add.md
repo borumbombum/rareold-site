@@ -273,11 +273,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Four Roses Single Barrel - Four Roses
 ✅ Wild Turkey 101 - Wild Turkey
 ✅ Wild Turkey Rare Breed - Wild Turkey
-Russell's Reserve 10 YO - Wild Turkey
-Old Forester 86 Proof - Brown-Forman
-Old Forester 1910 Old Fine Whisky - Brown-Forman
-Woodford Reserve Double Oaked - Woodford Reserve
-Blanton's Original Single Barrel - Buffalo Trace
+✅ Russell's Reserve 10 YO - Wild Turkey
+✅ Old Forester 86 Proof - Brown-Forman
+✅ Old Forester 1910 Old Fine Whisky - Brown-Forman
+✅ Woodford Reserve Double Oaked - Woodford Reserve
+✅ Blanton's Original Single Barrel - Buffalo Trace
 Eagle Rare 10 YO - Buffalo Trace
 E.H. Taylor Jr Small Batch - Buffalo Trace
 W.L. Weller Special Reserve - Buffalo Trace
