@@ -214,5 +214,11 @@
     "origin_id": "usa",
     "name": "Rye",
     "sort_order": 24
+  },
+  {
+    "id": "usa-tennessee",
+    "origin_id": "usa",
+    "name": "Tennessee",
+    "sort_order": 34
   }
 ]

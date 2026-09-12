@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-09-12 — Batch: 5 US whiskies (Barrell Bourbon, JD Old No. 7, Gentleman Jack, Dickel Barrel Select, Uncle Nearest 1884)
+
+- **A region branch new to the catalog needs zero infra work** — `usa-tennessee` appeared automatically in `regions.json` the moment products with `region: "Tennessee"` synced. Regions are 100% product-derived during db-sync.
+- **Mainstream vs niche coverage split is stark and predictable.** JD/Gentleman Jack (globally iconic) → full es/pt/ja coverage in one pass. Dickel Barrel Select / Uncle Nearest 1884 (niche) → en-only plus a lucky Japanese Dickel explainer; es/pt/fr don't exist after native + 2 Invidious + websearch. Plan for it, don't fight it.
+- **Brands with corporate Drupal/Contentful/WP sites ship perfect transparent renders.** JD media at their Drupal file store (`live-jd24-backend.pantheonsite.io`), Dickel listing tile at `images.ctfassets.net` (Contentful), Uncle Nearest bottle at `wp-content/themes/`. When a Qian retailer JPG has an opaque white bg, check the brand's CMS asset buckets before grabbing it.
+- **Never infer spoken language from an oEmbed title alone.** A channel with an English-sounding name but English auto-title couldn't be placed in a ja slot without proof of narration — dropping it is the correct call even when coverage is thin (GJ ja stayed ≥2).
+- **Parallel per-product video agents + a single 40-ID oEmbed re-audit beats serial searching** — 5 agents covered 4 products × 5 languages in minutes; the re-audit caught nothing dead and confirmed all titles exact-expression.
+
 ## 2026-09-12 — Batch review/corrections: 5 KY bourbons (Michter's US1 SB, Willett Pot Still, Noah's Mill, Peerless SB, Rabbit Hole Dareringer)
 
 - **`db:sync`'s `ON CONFLICT DO UPDATE` only backfills locale columns** (`_pt/_en/_ja/_fr`), never base fields like `abv`, `cask`, or `image`. So a wrong ABV in seed + DB needs a direct Turso SQL `UPDATE`, not a re-sync — re-running db:sync would silently leave the value stale. Verify specs against official pages before and after sync.

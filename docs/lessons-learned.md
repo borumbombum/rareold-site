@@ -1,5 +1,15 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-12 — Batch of 5 US whiskies (Barrell Bourbon, Jack Daniel's Old No. 7, Gentleman Jack, George Dickel Barrel Select, Uncle Nearest 1884)
+
+- **Tennessee is the first USA region beyond Kentucky** — `usa-tennessee` auto-created from the products' `region` field during db:sync; no ORIGIN_META change needed (usa origin already existed).
+- **Mainstream Tennessees get full es/pt/ja coverage; niche ones don't.** JD Old No. 7 shipped en/es/pt/ja 4/4/4/4 and Gentleman Jack 4/4/3/3 — these are globally reviewed whiskies. George Dickel Barrel Select and Uncle Nearest 1884 are niche: en 4 each, plus a lone Japanese Dickel explainer; es/pt/fr are honest zeros. Never pad — English tops up at runtime.
+- **Find the official product render, not a retailer photo.** All 4 new images were official brand assets: two from Jack Daniel's own Drupal media (`live-jd24-backend.pantheonsite.io/.../files/...`), George Dickel from its Contentful CDN (`images.ctfassets.net/pmptz2pavs5h/...` — the 700×700 listing tile in the `whiskies` carousel is a transparent cutout), Uncle Nearest from its WordPress theme dir (`bottle-1884-lft.png`). Retailer JPGs (theliquorbarn.com) had opaque white backgrounds.
+- **Barrell Bourbon batch reviews exist ONLY in English** — es/pt/ja/fr channels (Tito Whisky, WhiskyBrasil, ウイスキーチャンネル…) cover mainstream brands, never niche cask-strength blends. Barrell ships en-only.
+- **Auto-translated oEmbed titles are a language trap for English-titled channels** — one "ja" pick (Cynical Mikey) showed an English oEmbed title and its spoken language couldn't be confirmed; dropped it rather than risk an English video in a ja slot. Enforced via the channel + preserved-title rule.
+- **All 40 candidate videos batch-verified live via `yt-verify.mjs` in one pass** — zero dead links; confirms oEmbed is the right final gate even after per-product agent research.
+- **db:sync counts confirm the batch:** distilleries 168→176 (+4: barrell-craft-spirits, jack-daniels, george-dickel, uncle-nearest), products 397→402 (+5), videos 4042→4085 (+43 = Barrell en4 + JD no7 16 + GJ 14 + Dickel 5 + UN 4).
+
 ## 2026-09-11 — Batch of 5 US bourbons (Michter's US*1 Small Batch, Willett Pot Still Reserve, Noah's Mill, Kentucky Peerless Small Batch, Rabbit Hole Dareringer)
 
 - **Niche bourbons have thin/es split coverage.** Most of these shipped en-heavy with few es/pt/ja/fr: Michter's en4/es4/ja3; Willett Pot Still en4/ja4 (no es/pt/fr at all); Noah's Mill en4/es2/pt1/ja1; Peerless en4/es1; Dareringer en4/es1/fr2. The Japanese "Willett Pot Still" and "Michter's" channels (ひとくちウイスキー, 榎商店, ウイスキーチャンネル, Bourbon Brothers, 甘粕おさけ) have genuine in-language coverage; no French exists for Peerless/Michter's/Willett/Noah's Mill, no Portuguese for Michter's/Willett/Peerless/Dareringer. English top-up fills gaps at runtime. Never pad.

@@ -288,11 +288,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Noah's Mill - Willett
 ✅ Kentucky Peerless Small Batch - Peerless
 ✅ Rabbit Hole Dareringer - Rabbit Hole
-Barrell Bourbon - Barrell Craft Spirits
-Jack Daniel's Old No. 7 - Jack Daniel's
-Gentleman Jack - Jack Daniel's
-George Dickel Barrel Select - George Dickel
-Uncle Nearest 1884 Small Batch - Uncle Nearest
+✅ Barrell Bourbon - Barrell Craft Spirits
+✅ Jack Daniel's Old No. 7 - Jack Daniel's
+✅ Gentleman Jack - Jack Daniel's
+✅ George Dickel Barrel Select - George Dickel
+✅ Uncle Nearest 1884 Small Batch - Uncle Nearest
 
 ## USA — Rye & Craft
 

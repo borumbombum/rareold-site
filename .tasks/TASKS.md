@@ -4,6 +4,7 @@ Authoritative task list for this repo. One task file per task in `tasks/`, named
 
 Current status of `tasks/` (authoritative — kept in sync with every task file `Status:` change, see Task workflow):
 
+- 081 [DONE] Add 5 US whiskies (Barrell, Jack Daniel's x2, George Dickel, Uncle Nearest)
 - 080 [DONE] Add 5 US bourbons (Michter's, Willett x2, Peerless, Rabbit Hole)
 - 079 [DONE] Add 5 US bourbons (Four Roses x3, Wild Turkey x2)
 - 078 [IN_PROGRESS] HIGH PRIORITY Stores Admin + IP-Based Dynamic Fetching

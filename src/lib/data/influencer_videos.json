@@ -3927,6 +3927,34 @@
     "label": "Balvenie Portwood 21 Review — WhiskyBrasil.com"
   },
   {
+    "product_id": "barrell-bourbon",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Z6kX-LtPtYM",
+    "label": "EveryDay Drinker"
+  },
+  {
+    "product_id": "barrell-bourbon",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cCGTV7AkPII",
+    "label": "Bourbon Barkeep"
+  },
+  {
+    "product_id": "barrell-bourbon",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=w5XiI08f8Gw",
+    "label": "Whiskey Knows"
+  },
+  {
+    "product_id": "barrell-bourbon",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ytSpAq9vsOQ",
+    "label": "Less Cash More Mash"
+  },
+  {
     "product_id": "basil-hayden-kentucky-bourbon",
     "language": "en",
     "platform": "youtube",
@@ -9322,6 +9350,139 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=Vgmd9KhWKiI",
     "label": "WhiskyBrasil.com - Four Roses Small Batch"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=6aUkuVVcN0U",
+    "label": "Whisky.com — review"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=K9g9uSw5puM",
+    "label": "DJs BrewTube — review"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=UWSAeJkjdpY",
+    "label": "Bourbon Junkies — review"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=w6D0_2ZkEp8",
+    "label": "Whiskey Vault — review"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=7zkf26ZMJZQ",
+    "label": "El Barman Virtual — cata"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=D6yyT463iDw",
+    "label": "CatandoConVitoco — cata"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=s660vWacyf0",
+    "label": "La Casa del Whisky — review"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xrJITuelJFU",
+    "label": "HABLANDO DE WHISKY — Gentleman Jack"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TKKFbndgILk",
+    "label": "酒チューブ — コスパ紹介"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=XsdOqT-MDww",
+    "label": "Hamtaro Samurai — テイスティング"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=k-pa0SUrOLw",
+    "label": "お酒の塾長 — 実況"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=XnICwSbsGe4",
+    "label": "WhiskyBrasil — review"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wcFow-L3yr0",
+    "label": "DegustAção — review"
+  },
+  {
+    "product_id": "gentleman-jack",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=y1InuEVZw7U",
+    "label": "Além do Rótulo — degustação"
+  },
+  {
+    "product_id": "george-dickel-barrel-select",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=3KO4BKFn_mw",
+    "label": "Whiskey Vault — review"
+  },
+  {
+    "product_id": "george-dickel-barrel-select",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QCp1xX_f__4",
+    "label": "Scotch Test Dummies — review"
+  },
+  {
+    "product_id": "george-dickel-barrel-select",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Xxbe8r-Mu3c",
+    "label": "Whisky.com — review"
+  },
+  {
+    "product_id": "george-dickel-barrel-select",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=_UHY3h5D4O0",
+    "label": "funwithwhiskey — review"
+  },
+  {
+    "product_id": "george-dickel-barrel-select",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=LhJyvM9SwtU",
+    "label": "ウイスキーチャンネル — 解説"
   },
   {
     "product_id": "girvan-patent-still-no-4",
@@ -14733,6 +14894,118 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=dqfsiCtg4_s",
     "label": "『アイル・オブ・ラッセイ蒸留所』解説 — Whisky Roundup/Hatsugai"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=E76ZbbEq-2k",
+    "label": "Jay Theriot — Old No. 7"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=IHmPjUA6aOw",
+    "label": "Julien Miquel — Old No.7 review"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=NlZy6Izaew0",
+    "label": "Whisky.com — Old No. 7"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=OCo3aRBKqBI",
+    "label": "Brewzle — Old No. 7 review"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1zYIEeCGWto",
+    "label": "Tito Whisky — cata y reseña"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=P73-yJRxaGw",
+    "label": "CatandoConVitoco — cata"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=o3u047FvuYU",
+    "label": "Los Whiskochos — historia y cata"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xbDphaQJ4fM",
+    "label": "Un Whisky a la Vez — reseña"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=6Uf7NjHOfwY",
+    "label": "宅飲みストレイシープ — ご紹介"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=IEUzF_vyzLw",
+    "label": "Whisky Roundup — レビュー"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=NkHRMpShTJo",
+    "label": "バッカスズキ — レビュー"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wKrFT5zOBhA",
+    "label": "俺のモルト — ブラックラベル"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Ayp1mshcav0",
+    "label": "Porção dos Anjos — degustação"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=GHMsMWBNqA0",
+    "label": "Márcio Becker — degustação"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ibjBeT4Iew4",
+    "label": "BRODIG TV — degustação"
+  },
+  {
+    "product_id": "jack-daniels-old-no-7",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=rCgRtET2seo",
+    "label": "Tierri Whisky — avaliação"
   },
   {
     "product_id": "jameson-18-yo",
@@ -25947,6 +26220,34 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=ptKG18dXPwk",
     "label": "Irish Whiskey Review — Tyrconnell 10yo Single Malt Port Cask"
+  },
+  {
+    "product_id": "uncle-nearest-1884-small-batch",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=05HFTHAPzfI",
+    "label": "Brad's Bourbon Reviews — review"
+  },
+  {
+    "product_id": "uncle-nearest-1884-small-batch",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=6b7XnfC22po",
+    "label": "Jones N Mann — review"
+  },
+  {
+    "product_id": "uncle-nearest-1884-small-batch",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=9JK1XpSJh1Y",
+    "label": "The Liquor Connoisseur — review"
+  },
+  {
+    "product_id": "uncle-nearest-1884-small-batch",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VmPEIJ86Gqw",
+    "label": "My Bourbon Journey — review"
   },
   {
     "product_id": "vat-69",

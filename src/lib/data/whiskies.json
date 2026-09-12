@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-12T01:46:44.287Z",
+  "generatedAt": "2026-09-12T19:44:22.475Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -4668,6 +4668,65 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=v1h9bv9PBAs",
           "label": "WhiskyBrasil.com"
+        }
+      ]
+    },
+    {
+      "id": "barrell-bourbon",
+      "slug": "barrell-bourbon",
+      "name": "Barrell Bourbon",
+      "distillery": {
+        "id": "barrell-craft-spirits",
+        "name": "Barrell Craft Spirits",
+        "name_es": "Barrell Craft Spirits",
+        "name_pt": "Barrell Craft Spirits",
+        "name_en": "Barrell Craft Spirits",
+        "name_ja": "バレルクラフトスピリッツ",
+        "name_fr": "Barrell Craft Spirits"
+      },
+      "description": "Mezcla a fuerza de barrica de bourbons straight de Kentucky, Tennessee, Indiana y Maryland, con edades de 8 a 15 años. Elaborado por el embotellador independiente Barrell Craft Spirits, cada lote es un ensamblaje único: el Batch 038 ofrece un paladar oscuro y terroso con caramelo brillante, frutas tropicales, especias de centeno y un final largo de roble tostado y chocolate. Sin filtrar y embotellado al 58,5% ABV.",
+      "image": "/data/images/barrell-bourbon.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 58.5,
+      "cask": "New charred American oak",
+      "distillery_id": "barrell-craft-spirits",
+      "insertion_order": 401,
+      "featured": false,
+      "name_pt": "Barrell Bourbon",
+      "description_pt": "Blend à prova de barril de bourbons straight de Kentucky, Tennessee, Indiana e Maryland, com idades de 8 a 15 anos. Produzido pelo engarrafador independente Barrell Craft Spirits, cada lote é uma montagem única: o Batch 038 oferece um paladar escuro e terroso com caramelo brilhante, frutas tropicais, especiarias de centeio e um final longo de carvalho tostado e chocolate. Sem filtração e engarrafado a 58,5% ABV.",
+      "name_en": "Barrell Bourbon",
+      "description_en": "Cask-strength blend of straight bourbons from Kentucky, Tennessee, Indiana and Maryland, aged 8 to 15 years. Crafted by independent bottler Barrell Craft Spirits, each batch is a unique assembly: Batch 038 delivers a dark, earthy palate with bright caramel, tropical fruit, rye spice and a long finish of toasted oak and chocolate. Unfiltered and bottled at 58.5% ABV.",
+      "name_ja": "バレル・バーボン",
+      "description_ja": "ケンタッキー、テネシー、インディアナ、メリーランド産のストレートバーボンを8〜15年熟成してブレンドしたカスクストレングス・ブレンド。インディペンデント・ボトラー、バレルクラフトスピリッツが手がけ、各バッチは唯一無二の構成。バッチ038は、明るいキャラメル、トロピカルフルーツ、ライ麦スパイス、トーストオークとチョコレートの長いフィニッシュを持つ、ダークで土っぽい味わい。ノンチルフィルター、58.5%ABVで瓶詰め。",
+      "name_fr": "Barrell Bourbon",
+      "description_fr": "Assemblage à la force du fût de bourbons straight du Kentucky, du Tennessee, de l'Indiana et du Maryland, âgés de 8 à 15 ans. Élaboré par l'embouteilleur indépendant Barrell Craft Spirits, chaque lot est un assemblage unique : le Batch 038 propose un palais sombre et terreux, avec un caramel lumineux, des fruits tropicaux, des épices de seigle et une longue finale de chêne toasté et de chocolat. Non filtré et embouteillé à 58,5 % ABV.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Z6kX-LtPtYM",
+          "label": "EveryDay Drinker"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=cCGTV7AkPII",
+          "label": "Bourbon Barkeep"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w5XiI08f8Gw",
+          "label": "Whiskey Knows"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ytSpAq9vsOQ",
+          "label": "Less Cash More Mash"
         }
       ]
     },
@@ -11552,6 +11611,190 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=Vgmd9KhWKiI",
           "label": "WhiskyBrasil.com - Four Roses Small Batch"
+        }
+      ]
+    },
+    {
+      "id": "gentleman-jack",
+      "slug": "gentleman-jack",
+      "name": "Gentleman Jack",
+      "distillery": {
+        "id": "jack-daniels",
+        "name": "Jack Daniel's",
+        "name_es": "Jack Daniel's",
+        "name_pt": "Jack Daniel's",
+        "name_en": "Jack Daniel's",
+        "name_ja": "ジャック・ダニエル",
+        "name_fr": "Jack Daniel's"
+      },
+      "description": "Tennessee Whiskey de Jack Daniel's que se distingue por su doble filtrado con carbón de arce azucarado: una vez antes del añejamiento y otra después, el único whiskey del mundo con ese doble proceso. El resultado es una textura extraordinariamente suave y limpia, con nariz de roble nuevo, vainilla y caramelo, sabores delicados de madera y un final redondo y cremoso. Lanzado en 1988 en homenaje al propio Jack Daniel. Embotellado al 40% ABV.",
+      "image": "/data/images/gentleman-jack.webp",
+      "origin": "usa",
+      "region": "Tennessee",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 40,
+      "cask": "New charred American oak",
+      "distillery_id": "jack-daniels",
+      "insertion_order": 403,
+      "featured": false,
+      "name_pt": "Gentleman Jack",
+      "description_pt": "Tennessee Whiskey da Jack Daniel's que se distingue pela dupla filtração com carvão de bordo-açucareiro: uma vez antes do envelhecimento e outra depois, o único whisky do mundo com esse duplo processo. O resultado é uma textura extraordinariamente suave e limpa, com nariz de carvalho novo, baunilha e caramelo, sabores delicados de madeira e um final redondo e cremoso. Lançado em 1988 em homenagem ao próprio Jack Daniel. Engarrafado a 40% ABV.",
+      "name_en": "Gentleman Jack",
+      "description_en": "Jack Daniel's Tennessee whiskey distinguished by its double mellowing through sugar maple charcoal: once before aging and once after, making it the only whiskey in the world to undergo that double process. The result is an extraordinarily smooth, clean texture, with a nose of new oak, vanilla and caramel, delicate woody flavors and a round, creamy finish. Launched in 1988 as a tribute to Jack Daniel himself. Bottled at 40% ABV.",
+      "name_ja": "ジェントルマン ジャック",
+      "description_ja": "ジャック・ダニエルのテネシー・ウイスキー。サトウカエデの炭による二重のカーボンフィルターが特徴で、熟成前と熟成後の2回通すのは世界で唯一。結果は格段に滑らかで透明感のある味わい。香りは新樽のオーク、バニラ、キャラメル、繊細なウッディな風味と、まろやかでクリーミーなフィニッシュ。ジャック・ダニエル自身への敬意として1988年に発売。40%ABV。",
+      "name_fr": "Gentleman Jack",
+      "description_fr": "Le Tennessee Whiskey de Jack Daniel's qui se distingue par sa double filtration au charbon d'érable à sucre : une fois avant le vieillissement et une fois après, ce qui en fait le seul whiskey au monde à subir ce double processus. Il en résulte une texture extraordinairement douce et nette, avec un nez de chêne neuf, de vanille et de caramel, des saveurs boisées délicates et une finale ronde et crémeuse. Lancé en 1988 en hommage à Jack Daniel lui-même. Embouteillé à 40 % ABV.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6aUkuVVcN0U",
+          "label": "Whisky.com — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=K9g9uSw5puM",
+          "label": "DJs BrewTube — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UWSAeJkjdpY",
+          "label": "Bourbon Junkies — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w6D0_2ZkEp8",
+          "label": "Whiskey Vault — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7zkf26ZMJZQ",
+          "label": "El Barman Virtual — cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=D6yyT463iDw",
+          "label": "CatandoConVitoco — cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=s660vWacyf0",
+          "label": "La Casa del Whisky — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xrJITuelJFU",
+          "label": "HABLANDO DE WHISKY — Gentleman Jack"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=TKKFbndgILk",
+          "label": "酒チューブ — コスパ紹介"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XsdOqT-MDww",
+          "label": "Hamtaro Samurai — テイスティング"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=k-pa0SUrOLw",
+          "label": "お酒の塾長 — 実況"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XnICwSbsGe4",
+          "label": "WhiskyBrasil — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wcFow-L3yr0",
+          "label": "DegustAção — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=y1InuEVZw7U",
+          "label": "Além do Rótulo — degustação"
+        }
+      ]
+    },
+    {
+      "id": "george-dickel-barrel-select",
+      "slug": "george-dickel-barrel-select",
+      "name": "George Dickel Barrel Select",
+      "distillery": {
+        "id": "george-dickel",
+        "name": "George Dickel",
+        "name_es": "George Dickel",
+        "name_pt": "George Dickel",
+        "name_en": "George Dickel",
+        "name_ja": "ジョージ・ディッケル",
+        "name_fr": "George Dickel"
+      },
+      "description": "Tennessee Whisky de pequeña producción de Cascade Hollow Distilling Co., seleccionado a mano entre solo 10 barricas de entre 10 y 12 años de maduración. Elaborado con maceración de 84% maíz, se enfría y suaviza con carbón de arce azucarado (proceso Lincoln County) y madura en barricas nuevas de roble blanco. Nariz floral con vainilla y especias; boca equilibrada, rica y sedosa, con caramelo y un toque de carbón. Embotellado al 43% ABV.",
+      "image": "/data/images/george-dickel-barrel-select.webp",
+      "origin": "usa",
+      "region": "Tennessee",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 43,
+      "cask": "New charred American oak",
+      "distillery_id": "george-dickel",
+      "insertion_order": 404,
+      "featured": false,
+      "name_pt": "George Dickel Barrel Select",
+      "description_pt": "Tennessee Whisky de pequena produção da Cascade Hollow Distilling Co., selecionado à mão entre apenas 10 barris com 10 a 12 anos de maturação. Elaborado com mash de 84% de milho, é arrefecido e suavizado com carvão de bordo-açucareiro (processo Lincoln County) e amadurece em barris novos de carvalho branco. Nariz floral com baunilha e especiarias; boca equilibrada, rica e sedosa, com caramelo e um toque de carvão. Engarrafado a 43% ABV.",
+      "name_en": "George Dickel Barrel Select",
+      "description_en": "Small-batch Tennessee whisky from Cascade Hollow Distilling Co., hand-selected from just 10 barrels aged 10 to 12 years. Made from an 84% corn mash bill, it is chilled and mellowed through sugar maple charcoal (Lincoln County Process) and matured in new white oak barrels. A floral nose with vanilla and spice; an equally balanced, rich and silky palate with caramel and a hint of charcoal. Bottled at 43% ABV.",
+      "name_ja": "ジョージ・ディッケル バレル・セレクト",
+      "description_ja": "キャスケード・ホロー蒸留所の小ロットのテネシー・ウイスキー。10〜12年間熟成したわずか10樽から手作業で選ばれる。コーン84%のマッシュビルで造られ、冷却後サトウカエデの炭で濾過（リンカーン郡方式）し、ホワイトオークの新樽で熟成。フローラルな香りにバニラとスパイス。バランスの取れたリッチでシルキーな口当たり、キャラメルと炭のニュアンス。43%ABV。",
+      "name_fr": "George Dickel Barrel Select",
+      "description_fr": "Tennessee whisky de petite production issu de la Cascade Hollow Distilling Co., sélectionné à la main parmi seulement 10 fûts vieillis 10 à 12 ans. Élaboré à partir d'un mashbill à 84 % de maïs, il est refroidi et adouci au charbon d'érable à sucre (processus Lincoln County), puis mûri en fûts neufs de chêne blanc. Nez floral avec vanille et épices ; bouche équilibrée, riche et soyeuse, avec du caramel et une pointe de charbon. Embouteillé à 43 % ABV.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=3KO4BKFn_mw",
+          "label": "Whiskey Vault — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QCp1xX_f__4",
+          "label": "Scotch Test Dummies — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Xxbe8r-Mu3c",
+          "label": "Whisky.com — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_UHY3h5D4O0",
+          "label": "funwithwhiskey — review"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=LhJyvM9SwtU",
+          "label": "ウイスキーチャンネル — 解説"
         }
       ]
     },
@@ -19026,6 +19269,137 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=gvwx7tbknEA",
           "label": "Tierri Whisky"
+        }
+      ]
+    },
+    {
+      "id": "jack-daniels-old-no-7",
+      "slug": "jack-daniels-old-no-7",
+      "name": "Jack Daniel's Old No. 7",
+      "distillery": {
+        "id": "jack-daniels",
+        "name": "Jack Daniel's",
+        "name_es": "Jack Daniel's",
+        "name_pt": "Jack Daniel's",
+        "name_en": "Jack Daniel's",
+        "name_ja": "ジャック・ダニエル",
+        "name_fr": "Jack Daniel's"
+      },
+      "description": "El Tennessee Whiskey más icónico del mundo, destilado en Lynchburg, Tennessee. Con una maceración de 80% maíz, se suaviza goteando a través de carbón de arce azucarado y madura en barricas nuevas de roble blanco carbonizadas durante al menos cuatro años. En nariz ofrece vainilla, azúcar moreno y ligeros toques de plátano; en boca, caramelo, nueces tostadas y notas frutales con un final suave, seco y de roble. Embotellado al 40% ABV.",
+      "image": "/data/images/jack-daniels-old-no-7.webp",
+      "origin": "usa",
+      "region": "Tennessee",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 40,
+      "cask": "New charred American oak",
+      "distillery_id": "jack-daniels",
+      "insertion_order": 402,
+      "featured": false,
+      "name_pt": "Jack Daniel's Old No. 7",
+      "description_pt": "O Tennessee Whiskey mais icónico do mundo, destilado em Lynchburg, Tennessee. Com um mash de 80% de milho, é suavizado passando gota a gota por carvão de bordo-açucareiro e amadurece em barris novos de carvalho branco carbonizados durante pelo menos quatro anos. No nariz oferece baunilha, açúcar mascavado e ligeiros toques de banana; na boca, caramelo, nozes tostadas e notas frutadas com um final suave, seco e de carvalho. Engarrafado a 40% ABV.",
+      "name_en": "Jack Daniel's Old No. 7",
+      "description_en": "The world's most iconic Tennessee whiskey, distilled in Lynchburg, Tennessee. Made from an 80% corn mash bill, it is mellowed by dripping through sugar maple charcoal and matured in new charred white oak barrels for at least four years. The nose shows vanilla, brown sugar and faint banana; the palate brings caramel, toasted nuts and fruity notes with a smooth, dry, oaky finish. Bottled at 40% ABV.",
+      "name_ja": "ジャック・ダニエル オールド・No.7",
+      "description_ja": "テネシー州リンチバーグで蒸留される、世界で最も象徴的なテネシー・ウイスキー。コーン80%のマッシュビルで造られ、サトウカエデの炭を一滴ずつ通過させてなめらかにし、内側を焦がしたホワイトオークの新樽で少なくとも4年間熟成。香りはバニラ、ブラウンシュガー、ほのかにバナナ。口当たりはキャラメル、トーストしたナッツ、フルーティーなニュアンス、フィニッシュは滑らかでドライ、オークの余韻。40%ABVで瓶詰め。",
+      "name_fr": "Jack Daniel's Old No. 7",
+      "description_fr": "Le Tennessee Whiskey le plus emblématique au monde, distillé à Lynchburg, dans le Tennessee. Élaboré à partir d'une macération à 80 % de maïs, il est adouci en filtrant goutte à goutte à travers du charbon d'érable à sucre, puis mûri en fûts neufs de chêne blanc carbonisés pendant au moins quatre ans. Au nez, vanille, cassonade et de légères notes de banane ; en bouche, caramel, fruits secs grillés et notes fruitées avec une finale douce, sèche et boisée. Embouteillé à 40 % ABV.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=E76ZbbEq-2k",
+          "label": "Jay Theriot — Old No. 7"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IHmPjUA6aOw",
+          "label": "Julien Miquel — Old No.7 review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NlZy6Izaew0",
+          "label": "Whisky.com — Old No. 7"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OCo3aRBKqBI",
+          "label": "Brewzle — Old No. 7 review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1zYIEeCGWto",
+          "label": "Tito Whisky — cata y reseña"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P73-yJRxaGw",
+          "label": "CatandoConVitoco — cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=o3u047FvuYU",
+          "label": "Los Whiskochos — historia y cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xbDphaQJ4fM",
+          "label": "Un Whisky a la Vez — reseña"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6Uf7NjHOfwY",
+          "label": "宅飲みストレイシープ — ご紹介"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IEUzF_vyzLw",
+          "label": "Whisky Roundup — レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NkHRMpShTJo",
+          "label": "バッカスズキ — レビュー"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wKrFT5zOBhA",
+          "label": "俺のモルト — ブラックラベル"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ayp1mshcav0",
+          "label": "Porção dos Anjos — degustação"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GHMsMWBNqA0",
+          "label": "Márcio Becker — degustação"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ibjBeT4Iew4",
+          "label": "BRODIG TV — degustação"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rCgRtET2seo",
+          "label": "Tierri Whisky — avaliação"
         }
       ]
     },
@@ -27571,13 +27945,13 @@
       "insertion_order": 400,
       "featured": false,
       "name_pt": "Rabbit Hole Dareringer",
-      "description_pt": "Bourbon straight da Rabbit Hole com receita de trigo (65% milho, 25% trigo, 10% malte) terminado em barricas de Xerez Pedro Ximénez. Doce e pleno, oferece passas, figos, chocolate, caramelo e especiarias doces sobre uma base cremosa de bourbon. Engarrafado a 45%, sem declaração de idade, é referência em acabamentos de PX.",
+      "description_pt": "Bourbon straight da Rabbit Hole com receita de trigo (65% milho, 25% trigo, 10% malte) terminado em barricas de Xerez Pedro Ximénez. Doce e pleno, oferece passas, figos, chocolate, caramelo e especiarias doces sobre uma base cremosa de bourbon. Engarrafado a 46,5%, sem declaração de idade, é referência em acabamentos de PX.",
       "name_en": "Rabbit Hole Dareringer",
-      "description_en": "A straight bourbon from Rabbit Hole with a wheated recipe (65% corn, 25% wheat, 10% malt) finished in Pedro Ximénez sherry casks. Sweet and full, it offers raisins, figs, chocolate, caramel and sweet spice over a creamy bourbon base. Bottled at 45% with no age statement, it is a benchmark for PX finishes.",
+      "description_en": "A straight bourbon from Rabbit Hole with a wheated recipe (65% corn, 25% wheat, 10% malt) finished in Pedro Ximénez sherry casks. Sweet and full, it offers raisins, figs, chocolate, caramel and sweet spice over a creamy bourbon base. Bottled at 46.5% with no age statement, it is a benchmark for PX finishes.",
       "name_ja": "ラビットホール デアリンガー",
-      "description_ja": "ラビットホールの小麦系レシピ（コーン65%、小麦25%、モルト10%）によるストレートバーボンをペドロヒメネス・シェリー樽でフィニッシュ。レーズン、イチジク、チョコレート、キャラメル、甘いスパイスのノートをクリーミーなバーボンベースに乗せた、甘く豊かな味わい。ノンエイジ45度瓶詰め、PXフィニッシュの基準となる一本。",
+      "description_ja": "ラビットホールの小麦系レシピ（コーン65%、小麦25%、モルト10%）によるストレートバーボンをペドロヒメネス・シェリー樽でフィニッシュ。レーズン、イチジク、チョコレート、キャラメル、甘いスパイスのノートをクリーミーなバーボンベースに乗せた、甘く豊かな味わい。ノンエイジ46.5度瓶詰め、PXフィニッシュの基準となる一本。",
       "name_fr": "Rabbit Hole Dareringer",
-      "description_fr": "Un bourbon straight de Rabbit Hole élaboré avec une recette de blé (65 % de maïs, 25 % de blé, 10 % de malt) fini en fûts de sherry Pedro Ximénez. Sucré et généreux, il offre raisins secs, figues, chocolat, caramel et épices douces sur une base crémeuse de bourbon. Embouteillé à 45 % sans mention d'âge, c'est une référence des finales PX.",
+      "description_fr": "Un bourbon straight de Rabbit Hole élaboré avec une recette de blé (65 % de maïs, 25 % de blé, 10 % de malt) fini en fûts de sherry Pedro Ximénez. Sucré et généreux, il offre raisins secs, figues, chocolat, caramel et épices douces sur une base crémeuse de bourbon. Embouteillé à 46,5 % sans mention d'âge, c'est une référence des finales PX.",
       "videos": [
         {
           "language": "en",
@@ -35082,6 +35456,65 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=cfLQs1f2YQY",
           "label": "Porção dos Anjos Whisky"
+        }
+      ]
+    },
+    {
+      "id": "uncle-nearest-1884-small-batch",
+      "slug": "uncle-nearest-1884-small-batch",
+      "name": "Uncle Nearest 1884 Small Batch",
+      "distillery": {
+        "id": "uncle-nearest",
+        "name": "Uncle Nearest",
+        "name_es": "Uncle Nearest",
+        "name_pt": "Uncle Nearest",
+        "name_en": "Uncle Nearest",
+        "name_ja": "アンクル・ニアレスト",
+        "name_fr": "Uncle Nearest"
+      },
+      "description": "Tennessee Whiskey de pequeño lote destilado, añejado y embotellado por completo en Nearest Green Distillery, en Shelbyville. Cada lote se selecciona a mano bajo la dirección de Victoria Eady Butler, maestra de mezclas y descendiente de quinta generación del legendario Nearest Green. Nariz de miel, azúcar moreno, cedro y naranja; boca de caramelo, chocolate, canela y hoja de tabaco, con un final largo, suave y especiado. Embotellado al 46,5% ABV.",
+      "image": "/data/images/uncle-nearest-1884.webp",
+      "origin": "usa",
+      "region": "Tennessee",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 46.5,
+      "cask": "New charred American oak",
+      "distillery_id": "uncle-nearest",
+      "insertion_order": 405,
+      "featured": false,
+      "name_pt": "Uncle Nearest 1884 Small Batch",
+      "description_pt": "Tennessee Whiskey de pequeno lote destilado, envelhecido e engarrafado inteiramente na Nearest Green Distillery, em Shelbyville. Cada lote é selecionado à mão sob a direção de Victoria Eady Butler, master blender e descendente de quinta geração do lendário Nearest Green. Nariz de mel, açúcar mascavado, cedro e laranja; boca de caramelo, chocolate, canela e folha de tabaco, com um final longo, suave e especiado. Engarrafado a 46,5% ABV.",
+      "name_en": "Uncle Nearest 1884 Small Batch",
+      "description_en": "Small-batch Tennessee whiskey distilled, aged and bottled entirely at Nearest Green Distillery in Shelbyville. Every batch is hand-selected under master blender Victoria Eady Butler, a fifth-generation descendant of the legendary Nearest Green. Notes of honey, brown sugar, cedar and orange on the nose; a palate of caramel, chocolate, cinnamon and tobacco leaf with a long, smooth, spicy finish. Bottled at 46.5% ABV.",
+      "name_ja": "アンクル・ニアレスト 1884 スモールバッチ",
+      "description_ja": "シェルビービルのニアレスト・グリーン蒸留所で蒸留・熟成・瓶詰めまで一貫して行われる小ロットのテネシー・ウイスキー。伝説のニアレスト・グリーンの5代目の子孫であるマスターブレンダー、ビクトリア・イーディ・バトラーの指揮の下、各バッチが手作業で選ばれる。香りはハチミツ、ブラウンシュガー、シダー、オレンジ。味わいはキャラメル、チョコレート、シナモン、タバコの葉で、長く滑らかでスパイシーなフィニッシュ。46.5%ABV。",
+      "name_fr": "Uncle Nearest 1884 Small Batch",
+      "description_fr": "Tennessee whiskey de petit lot distillé, vieilli et embouteillé entièrement à la Nearest Green Distillery, à Shelbyville. Chaque lot est sélectionné à la main sous la direction du master blender Victoria Eady Butler, descendant de cinquième génération du légendaire Nearest Green. Nez de miel, cassonade, cèdre et orange ; bouche de caramel, chocolat, cannelle et feuille de tabac, avec une finale longue, douce et épicée. Embouteillé à 46,5 % ABV.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=05HFTHAPzfI",
+          "label": "Brad's Bourbon Reviews — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6b7XnfC22po",
+          "label": "Jones N Mann — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9JK1XpSJh1Y",
+          "label": "The Liquor Connoisseur — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VmPEIJ86Gqw",
+          "label": "My Bourbon Journey — review"
         }
       ]
     },
