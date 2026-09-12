@@ -296,12 +296,12 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 
 ## USA — Rye & Craft
 
-Bulleit 95 Rye - Bulleit
-Michter's US\*1 Single Barrel Rye - Michter's
+✅ Bulleit 95 Rye - Bulleit
+✅ Michter's US\*1 Single Barrel Rye - Michter's
 ✅ WhistlePig 10 YO Rye - WhistlePig
-High West Double Rye! - High West
-Westward American Single Malt - Westward
-Stranahan's Colorado Whiskey - Stranahan's
+✅ High West Double Rye! - High West
+✅ Westward American Single Malt - Westward
+✅ Stranahan's Colorado Whiskey - Stranahan's
 
 ## Japan
 

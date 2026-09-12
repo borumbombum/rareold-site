@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-12T19:44:22.475Z",
+  "generatedAt": "2026-09-12T20:24:23.017Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -6633,6 +6633,107 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=x6eOOAHJegw",
           "label": "BUFFALO TRACE! Degustação completa, analise, história e curiosidades do Melhor Bourbon do Brasil"
+        }
+      ]
+    },
+    {
+      "id": "bulleit-95-rye",
+      "slug": "bulleit-95-rye",
+      "name": "Bulleit 95 Rye",
+      "distillery": {
+        "id": "bulleit",
+        "name": "Bulleit Distilling Co.",
+        "name_es": "Bulleit Distilling Co.",
+        "name_pt": "Bulleit Distilling Co.",
+        "name_en": "Bulleit Distilling Co.",
+        "name_ja": "バレット蒸留所",
+        "name_fr": null
+      },
+      "description": "Straight American Rye elaborado con una maceración de 95% de centeno y 5% de malta de cebada, destilado en Lawrenceburg, Indiana, y añejado un mínimo de cuatro años en barricas nuevas de roble blanco americano carbonizadas a char #4. En nariz, especias de centeno, hierbabuena, pino y cítricos; en boca, vainilla, miel, canela y especias cálidas con un toque de pimienta; final largo, limpio y seco con roble marcado. Embotellado al 45% ABV.",
+      "image": "/data/images/bulleit-95-rye.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 45,
+      "cask": "New charred American oak",
+      "distillery_id": "bulleit",
+      "insertion_order": 406,
+      "featured": false,
+      "name_pt": "Bulleit 95 Rye",
+      "description_pt": "Straight American Rye elaborado com um mash de 95% de centeio e 5% de cevada maltada, destilado em Lawrenceburg, Indiana, e envelhecido no mínimo quatro anos em barris novos de carvalho branco americano carbonizados (char #4). No nariz, especiarias de centeio, hortelã, pinho e citrinos; na boca, baunilha, mel, canela e especiarias quentes com um toque de pimenta; final longo, limpo e seco com carvalho marcado. Engarrafado a 45% ABV.",
+      "name_en": "Bulleit 95 Rye",
+      "description_en": "Straight American Rye made from a 95% rye / 5% malted barley mash bill, distilled in Lawrenceburg, Indiana, and aged a minimum of four years in new white American oak barrels with a #4 char. The nose shows rye spice, mint, pine and citrus; the palate brings vanilla, honey, cinnamon and warm baking spice with a peppery kick; the finish is long, clean and dry with pronounced oak. Bottled at 45% ABV.",
+      "name_ja": "バレット 95 ライ",
+      "description_ja": "ライ麦95%・モルテッド大麦5%のマッシュビルで造られ、インディアナ州ローレンスバーグで蒸留され、#4チャーのアメリカンホワイトオーク新樽で最低4年間熟成されるストレート・アメリカン・ライ。香りはライ麦スパイス、ミント、松、シトラス。味わいはバニラ、ハチミツ、シナモン、黒胡椒の効いた温かいスパイス。フィニッシュは長く、クリーンでドライ、オークが際立つ。45%ABVで瓶詰め。",
+      "name_fr": "Bulleit 95 Rye",
+      "description_fr": "Un Rye américain légitime élaboré à partir d'une macération à 95 % de seigle et 5 % d'orge maltée, distillé à Lawrenceburg, dans l'Indiana, et vieilli au moins quatre ans en fûts neufs de chêne blanc américain carbonisés (char #4). Au nez, épices de seigle, menthe verte, pin et agrumes ; en bouche, vanille, miel, cannelle et épices chaudes avec une pointe de poivre ; finale longue, propre et sèche, boisée. Embouteillé à 45 % ABV.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=32pxzO21MAM",
+          "label": "Whiskey is a Journey — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QubVlEpTDZM",
+          "label": "Whisky.com — Bulleit 95 Rye review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fHLcYLTkM1s",
+          "label": "Whisky Shared — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vetdqfAgOjU",
+          "label": "The Last Call — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=durmCn2M7Ho",
+          "label": "Bourboneros — Bulleit Rye whiskey"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vnFcpPV_ZEs",
+          "label": "ジョージア州に住んでるよ — 晩酌"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=xKvYPU75Gak",
+          "label": "ひとくちウイスキー — テイスティング"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1AXuHc0-YqU",
+          "label": "Tierri Whisky — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ka5w-cv0OYM",
+          "label": "Whisky com Gringo — o que é"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=P_WW57Rou4w",
+          "label": "WhiskyBrasil — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_wCJlooDQcA",
+          "label": "Além do Rótulo — degustação"
         }
       ]
     },
@@ -16905,6 +17006,77 @@
       ]
     },
     {
+      "id": "high-west-double-rye",
+      "slug": "high-west-double-rye",
+      "name": "High West Double Rye!",
+      "distillery": {
+        "id": "high-west",
+        "name": "High West",
+        "name_es": "High West",
+        "name_pt": "High West",
+        "name_en": "High West",
+        "name_ja": "ハイ・ウエスト",
+        "name_fr": "High West"
+      },
+      "description": "Blend de dos centenos straight de High West: uno joven de columna (95% centeno, 5% malta de cebada, estilo MGP) y otro de olla de cobre destilado por la propia casa (80% centeno, 20% centeno malteado), ambos añejados al menos dos años en barricas nuevas de roble blanco americano. En nariz, menta, clavo, canela, piñones y chocolate oscuro; en boca, especias de centeno, mentol, eucalipto y miel de flores silvestres con pimienta de Jamaica; final de canela y menta que se dulcifica con un toque de anís. Embotellado al 46% ABV.",
+      "image": "/data/images/high-west-double-rye.webp",
+      "origin": "usa",
+      "region": "Utah",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 46,
+      "cask": "New charred American oak",
+      "distillery_id": "high-west",
+      "insertion_order": 408,
+      "featured": false,
+      "name_pt": "High West Double Rye!",
+      "description_pt": "Blend de dois centeios straight da High West: um jovem de coluna (95% centeio, 5% cevada maltada, estilo MGP) e outro de alambique de cobre destilado pela própria casa (80% centeio, 20% centeio maltado), ambos envelhecidos pelo menos dois anos em barris novos de carvalho branco americano. No nariz, hortelã, cravo, canela, pinhões e chocolate escuro; na boca, especiarias de centeio, mentol, eucalipto e mel de flores silvestres com pimenta-da-jamaica; final de canela e hortelã que adocica com um toque de anis. Engarrafado a 46% ABV.",
+      "name_en": "High West Double Rye!",
+      "description_en": "A blend of two straight ryes from High West: a young column-still rye (95% rye, 5% malted barley) and the distillery's own copper-pot rye (80% rye, 20% malted rye), both aged at least two years in new white American oak barrels. The nose shows mint, clove, cinnamon, pine nuts and dark chocolate; the palate brings rye spice, menthol, eucalyptus and wildflower honey with allspice; the finish turns sweet on cinnamon and mint with a hint of anise. Bottled at 46% ABV.",
+      "name_ja": "ハイ・ウエスト ダブル・ライ!",
+      "description_ja": "ハイ・ウエストによる2つのストレート・ライのブレンド。コラムスチルで蒸留した若いライ(ライ95%・大麦麦芽5%)と、自社の銅製ポットスチルで蒸留したライ(ライ80%・モルテッドライ20%)を、どちらもアメリカンホワイトオーク新樽で最低2年間熟成。香りはミント、クローブ、シナモン、松の実、ダークチョコレート。味わいはライ麦スパイス、メントール、ユーカリ、ワイルドフラワーのはちみつ、オールスパイス。フィニッシュはシナモンとミントが甘やかに、アニスの香り。46%ABVで瓶詰め。",
+      "name_fr": "High West Double Rye!",
+      "description_fr": "Un blend de deux seigles légitimes de High West : un seigle jeune distillé en colonne (95 % seigle, 5 % orge maltée) et un seigle de la maison distillé en alambic en cuivre (80 % seigle, 20 % seigle malté), tous deux vieillis au moins deux ans en fûts neufs de chêne blanc américain. Au nez, menthe, clou de girofle, cannelle, pignons et chocolat noir ; en bouche, épices de seigle, menthol, eucalyptus et miel de fleurs sauvages avec du piment de la Jamaïque ; finale de cannelle et de menthe qui s'adoucit avec une pointe d'anis. Embouteillé à 46 % ABV.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BxGfpyOinRg",
+          "label": "Whiskey is a Journey — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DWPnw4sFRCQ",
+          "label": "My Bourbon Journey — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZLqwy9Aw8b4",
+          "label": "thewhiskybothy — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=lH9Mxc8-T20",
+          "label": "The Bourbon Hutch — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KQrvLbUlEXY",
+          "label": "Bourboneros — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BhD95VLBX1E",
+          "label": "Jornada do Whisky — desafio"
+        }
+      ]
+    },
+    {
       "id": "highland-park-12-year-old",
       "slug": "highland-park-12-year-old",
       "name": "Highland Park 12 Year Old",
@@ -24882,6 +25054,101 @@
       ]
     },
     {
+      "id": "michters-us-1-single-barrel-rye",
+      "slug": "michters-us-1-single-barrel-rye",
+      "name": "Michter's US*1 Single Barrel Rye",
+      "distillery": {
+        "id": "michters",
+        "name": "Michter's",
+        "name_es": "Michter's",
+        "name_pt": "Michter's",
+        "name_en": "Michter's",
+        "name_ja": "ミッチャーズ",
+        "name_fr": "Michter's"
+      },
+      "description": "Kentucky Straight Rye de barrica única destilado en Louisville con una maceración alta en centeno (no divulgada), y añejado en barricas nuevas de roble blanco americano carbonizadas a fuego. Embotellado sin filtrar a 42,4% ABV con sutileza y profundidad de estilo muyvejo... En nariz, especias con pimienta, cítricos, caramelo de mantequilla y roble; en boca, especias cálidas de cocción, caramelo y roble dulce con textura mantecosa; final seco, con jengibre, roble y una pimienta suave y persistente.",
+      "image": "/data/images/michters-us-1-single-barrel-rye.webp",
+      "origin": "usa",
+      "region": "Kentucky",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 42.4,
+      "cask": "New charred American oak",
+      "distillery_id": "michters",
+      "insertion_order": 407,
+      "featured": false,
+      "name_pt": "Michter's US*1 Single Barrel Rye",
+      "description_pt": "Kentucky Straight Rye de barril único destilado em Louisville com um mash alto em centeio (não divulgado), envelhecido em barris novos de carvalho branco americano carbonizados a fogo. No nariz, especiarias com pimenta, citrinos, caramelo amanteigado e carvalho; na boca, especiarias de cozedura, caramelo e carvalho doce com textura manteigosa; final seco, com gengibre, carvalho e uma pimenta suave e persistente. Engarrafado a 42,4% ABV.",
+      "name_en": "Michter's US*1 Single Barrel Rye",
+      "description_en": "Kentucky Straight Rye made one barrel at a time in Louisville from an undisclosed rye-heavy mash bill, matured in fire-charred new American white oak barrels. The nose shows pepper-forward spice, citrus, butterscotch and oak; the palate brings warm baking spice, caramel and sweet oak with a buttery mouthfeel; the finish is dry, with gingerbread, oak and a soft lingering pepper. Bottled at 42.4% ABV.",
+      "name_ja": "ミッチャーズ US*1 シングルバレル ライ",
+      "description_ja": "ルイビルでバレル単位で造られるケンタッキー・ストレート・ライ。非公開ながらライ麦中心のマッシュビルを使い、熱処理されたアメリカンホワイトオークの新樽で熟成。香りは胡椒を効かせたスパイス、シトラス、バタースコッチ、オーク。口当たりは温かいベーキングスパイス、キャラメル、甘いオーク、バターのような感触。フィニッシュはドライで、ジンジャーブレッド、オーク、柔らかな胡椒の余韻。42.4%ABVで瓶詰め。",
+      "name_fr": "Michter's US*1 Single Barrel Rye",
+      "description_fr": "Un Kentucky Straight Rye de fût unique distillé à Louisville à partir d'une macération riche en seigle (non divulguée), mûri en fûts neufs de chêne blanc américain carbonisés au feu. Au nez, épices poivrées, agrumes, caramel au beurre et chêne ; en bouche, épices de pâtisserie chaudes, caramel et chêne doux à la texture beurrée ; finale sèche, avec pain d'épices, chêne et un poivre doux et persistant. Embouteillé à 42,4 % ABV.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=M6SsCKAuMzs",
+          "label": "Whiskey is a Journey — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Uh7kybifG7o",
+          "label": "Trenny and C — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YVJW39XcejI",
+          "label": "Whisky Central — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=rWtMlHC7KFI",
+          "label": "My Bourbon Journey — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=U3inq50eERw",
+          "label": "La Whiskería — cata"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=zsjDuyq6QkI",
+          "label": "Hablando de Whisky — Michters Rye"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=i4cTVG9gxtc",
+          "label": "La Maison du Whisky — présentation"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JHV4bl_fbrs",
+          "label": "ひとくちウイスキー — テイスティング"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ebuNZdQfPIM",
+          "label": "Porção dos Anjos — review"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gC6_2cRMdAo",
+          "label": "Além do Rótulo — review"
+        }
+      ]
+    },
+    {
       "id": "michters-us-1-small-batch-bourbon",
       "slug": "michters-us-1-small-batch-bourbon",
       "name": "Michter's US*1 Small Batch Bourbon",
@@ -30554,6 +30821,71 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=j81b9hlNDbY",
           "label": "Springbank 10 Anos | Tierri Whisky (Springbank)"
+        }
+      ]
+    },
+    {
+      "id": "stranahans-colorado-whiskey",
+      "slug": "stranahans-colorado-whiskey",
+      "name": "Stranahan's Colorado Whiskey",
+      "distillery": {
+        "id": "stranahans",
+        "name": "Stranahan's",
+        "name_es": "Stranahan's",
+        "name_pt": "Stranahan's",
+        "name_en": "Stranahan's",
+        "name_ja": "ストラナハンズ",
+        "name_fr": "Stranahan's"
+      },
+      "description": "Single malt americano destilado en Denver, el «Rocky Mountain Whiskey» de la casa. Elaborado 100% con cebada malteada, doble destilación en alambiques de cobre y añejado entre 4 y 7 años en barricas nuevas de roble americano (char #3), cortado con agua de manantial de las Rocosas y sin filtración en frío. En nariz, caramelo con mantequilla, vainilla, jarabe de arce y cuero; en boca, canela fundida, chocolate, caramelo y pera especiada con un toque de cayena; final de fruta ligera, roble intenso, tabaco rico y cuero. Embotellado al 47% ABV.",
+      "image": "/data/images/stranahans-colorado-whiskey.webp",
+      "origin": "usa",
+      "region": "Colorado",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 47,
+      "cask": "New charred American oak",
+      "distillery_id": "stranahans",
+      "insertion_order": 410,
+      "featured": false,
+      "name_pt": "Stranahan's Colorado Whiskey",
+      "description_pt": "Single malt americano destilado em Denver, o «Rocky Mountain Whiskey» da casa. Elaborado 100% com cevada maltada, dupla destilação em alambiques de cobre e envelhecimento de 4 a 7 anos em barris novos de carvalho americano (char #3), cortado com água de nascente das Montanhas Rochosas e sem filtração a frio. No nariz, caramelo com manteiga, baunilha, xarope de ácer e couro; na boca, canela derretida, chocolate, caramelo e pera especiada com um toque de pimenta-caiena; final de fruta leve, carvalho intenso, tabaco rico e couro. Engarrafado a 47% ABV.",
+      "name_en": "Stranahan's Colorado Whiskey",
+      "description_en": "An American single malt distilled in Denver — the house 'Rocky Mountain Whiskey'. Made from 100% malted barley, double-distilled in copper pot stills and aged 4 to 7 years in new American oak barrels (#3 char), cut with Rocky Mountain spring water and non-chill filtered. The nose shows caramel-butterscotch, vanilla, maple syrup and leather; the palate brings melted cinnamon, chocolate, caramel and spiced pear with a hint of cayenne; the finish holds light fruit, strong oak, rich tobacco and aged leather. Bottled at 47% ABV.",
+      "name_ja": "ストラナハンズ コロラド ウイスキー",
+      "description_ja": "デンバーで蒸留されるアメリカン・シングルモルト、「ロッキーマウンテン・ウイスキー」。100%モルテッド大麦を使い、銅製ポットスチルで2回蒸留し、#3チャーのアメリカンオーク新樽で4〜7年熟成、ロッキー山脈の湧水で加水しノンチルフィルター。香りはバタースコッチ・キャラメル、バニラ、メープルシロップ、レザー。味わいは溶けたシナモン、チョコレート、キャラメル、スパイスの効いた洋梨、ほのかなカイエンペッパー。フィニッシュは軽やかなフルーツ、強いオーク、豊かなタバコ、熟成レザー。47%ABVで瓶詰め。",
+      "name_fr": "Stranahan's Colorado Whiskey",
+      "description_fr": "Un single malt américain distillé à Denver — le « Rocky Mountain Whiskey » de la maison. Élaboré à partir de 100 % d'orge maltée, double distillation en alambics en cuivre et vieillissement de 4 à 7 ans en fûts neufs de chêne américain (char #3), réduit à l'eau de source des Rocheuses et non filtré à froid. Au nez, caramel au beurre, vanille, sirop d'érable et cuir ; en bouche, cannelle fondue, chocolat, caramel et poire épicée avec une pointe de piment de Cayenne ; finale de fruit léger, chêne prononcé, tabac riche et cuir. Embouteillé à 47 % ABV.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7Tpuhfwk8rk",
+          "label": "Drinks And Chill — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DenoBVniXFo",
+          "label": "thewhiskybothy — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=e-rrin7xG-g",
+          "label": "Whiskey Vault — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=yCeL0rC_T24",
+          "label": "The Everyday Pour — review"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=w4Al4Bp2KJE",
+          "label": "Los Whiskochos — cata"
         }
       ]
     },
@@ -37037,6 +37369,65 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=i8MGSc8IhFE",
           "label": "【飲み比べ】ウエストコークラムカスクとシェリーカスクハイボールに合うのはどっち？ウイスキー初心者の正直レビュー"
+        }
+      ]
+    },
+    {
+      "id": "westward-american-single-malt",
+      "slug": "westward-american-single-malt",
+      "name": "Westward American Single Malt",
+      "distillery": {
+        "id": "westward",
+        "name": "Westward",
+        "name_es": "Westward",
+        "name_pt": "Westward",
+        "name_en": "Westward",
+        "name_ja": "ウエストワード",
+        "name_fr": "Westward"
+      },
+      "description": "Single malt americano elaborado 100% con cebada malteada de dos hileras del Pacífico Noroeste, que la destilería de Portland elabora primero como una cerveza artesanal y destila dos veces en alambiques de cobre. Madura en barricas nuevas de roble americano fuertemente tostadas y ligeramente carbonizadas, expuesto a los veranos calurosos y los inviernos fríos y húmedos de Oregón. En nariz, piel de naranja, caramelo y frutos secos tostados; en boca, frutas de hueso, vainilla, miel y coco; final de toffee, roble ligero y fruta asada. Embotellado al 45% ABV, sin filtración en frío.",
+      "image": "/data/images/westward-american-single-malt.webp",
+      "origin": "usa",
+      "region": "Oregon",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 45,
+      "cask": "New charred American oak",
+      "distillery_id": "westward",
+      "insertion_order": 409,
+      "featured": false,
+      "name_pt": "Westward American Single Malt",
+      "description_pt": "Single malt americano elaborado a 100% com cevada malteada de duas fileiras do Noroeste Pacífico, que a destilaria de Portland elabora primeiro como uma cerveja artesanal e destila duas vezes em alambiques de cobre. Amadurece em barris novos de carvalho americano fortemente tostados e ligeiramente carbonizados, exposto aos verões quentes e aos invernos frios e húmidos do Oregon. No nariz, casca de laranja, caramelo e frutos secos torrados; na boca, frutos de caroço, baunilha, mel e coco; final de toffee, carvalho leve e fruta assada. Engarrafado a 45% ABV, sem filtração a frio.",
+      "name_en": "Westward American Single Malt",
+      "description_en": "An American single malt made from 100% Pacific Northwest two-row malted barley, brewed by the Portland distillery as an artisanal ale first, then double-distilled in copper stills. It matures in heavily toasted, lightly charred new American oak barrels, exposed to Oregon's hot summers and cool, wet winters. The nose shows orange peel, caramel and toasted nuts; the palate brings stone fruit, vanilla, honey and coconut; the finish holds toffee, light oak and roasted fruit. Bottled at 45% ABV, non-chill filtered.",
+      "name_ja": "ウエストワード アメリカン シングルモルト",
+      "description_ja": "太平洋岸北西部産の二条モルト大麦を100%使用したアメリカン・シングルモルト。ポートランドの蒸留所がまずクラフトビールとして醸造し、銅製スチルで2回蒸留。強くトーストし軽く焦がしたアメリカンオークの新樽で、夏は暑く冬は冷涼多湿なオレゴンの気候の中で熟成。香りはオレンジピール、キャラメル、トーストナッツ。味わいはストーンフルーツ、バニラ、ハチミツ、ココナッツ。フィニッシュはトフィー、軽やかなオーク、ローストフルーツ。ノンチルフィルター、45%ABV。",
+      "name_fr": "Westward American Single Malt",
+      "description_fr": "Un single malt américain produit à 100 % d'orge maltée à deux rangs du Nord-Ouest Pacifique, que la distillerie de Portland brasse d'abord comme une bière artisanale puis distille deux fois en alambics en cuivre. Il mûrit en fûts neufs de chêne américain fortement toastés et légèrement carbonisés, exposé aux étés chauds et aux hivers froids et humides de l'Oregon. Au nez, zeste d'orange, caramel et fruits secs grillés ; en bouche, fruits à noyau, vanille, miel et noix de coco ; finale de toffee, chêne léger et fruit rôti. Embouteillé à 45 % ABV, non filtré à froid.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=0H4NnB5CON8",
+          "label": "Manhattan Project Whiskey — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BtT6Fyxh09o",
+          "label": "Barrel Proof Baseball — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=CLaZWa8PN6E",
+          "label": "Whiskey is a Journey — review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VmU9k2HlD9w",
+          "label": "Whisky.com — review"
         }
       ]
     },

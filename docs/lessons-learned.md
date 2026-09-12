@@ -1,6 +1,15 @@
 # Lessons learned (errors and corrections)
 
-## 2026-09-12 — Batch of 5 US whiskies (Barrell Bourbon, Jack Daniel's Old No. 7, Gentleman Jack, George Dickel Barrel Select, Uncle Nearest 1884)
+## 2026-09-12 — Batch of 5 USA rye & craft whiskies (Bulleit 95 Rye, Michter's Single Barrel Rye, High West Double Rye!, Westward American Single Malt, Stranahan's Colorado Whiskey)
+
+- **Rye is a style region AND a geography.** `usa-rye` holds WhistlePig; the three ryes in this batch went USA-geographic instead (Bulleit/Michter's → Kentucky, High West → Utah) because each distillery maps to its real location. First time a batch auto-created three US regions at once (usa-utah, usa-oregon, usa-colorado) — regions remain 100% product-derived, zero ORIGIN_META work.
+- **Official brand sites don't always ship a clean packshot.** Bulleit delivered a 2160px transparent PNG from Diageo's Contentful CDN and High West/Westward served transparent Shopify PNGs, but Stranahan's official renders were dark/lifestyle (OG-1 corner RGB ~8-76, one yellow-bg angle) — the usable white 1000×1000 came from a retailer's Shopify `files/` store. RULE: check corner pixels before using; retailer CDNs via the Shopify `search/suggest.json` API are a fast, 403-free image source.
+- **`distilled-in` label matters for sourced product grouping.** Bulleit 95 Rye is distilled at MGP Lawrenceburg, IN but carries the Louisville bottling address; kept it under Kentucky to match the Bulleit distillery record rather than inventing an Indiana bucket.
+- **Michter's niche rye coverage is enough to be multilingual:** en4/es2/pt2/ja1/fr1 — the French slot is a LMDW retailer presentation (French narration, exact SKU), acceptable under the in-language rule.
+- **Exact-expression discipline held under thin coverage:** Westward (en-only), Stranahan's (en4/es1) — agents correctly rejected distillery tours, roundups and other expressions; honest zeros beat padded slots.
+- **db:sync counts:** distilleries 176→179 (+3), products 402→407 (+5), videos 4085→4121 (+36 = Bulleit 11, Michter's 10, High West 6, Westward 4, Stranahan's 5). All 36 re-verified via `yt-verify.mjs` in one pass.
+
+## 2026-09-12 — Batch of 5 US whiskies (Barrell Bourbon, Jack Daniel's Old No. 7, Gentleman Jack, George Dickel Barrel Select, Uncle Nearest 1884), Jack Daniel's Old No. 7, Gentleman Jack, George Dickel Barrel Select, Uncle Nearest 1884)
 
 - **Tennessee is the first USA region beyond Kentucky** — `usa-tennessee` auto-created from the products' `region` field during db:sync; no ORIGIN_META change needed (usa origin already existed).
 - **Mainstream Tennessees get full es/pt/ja coverage; niche ones don't.** JD Old No. 7 shipped en/es/pt/ja 4/4/4/4 and Gentleman Jack 4/4/3/3 — these are globally reviewed whiskies. George Dickel Barrel Select and Uncle Nearest 1884 are niche: en 4 each, plus a lone Japanese Dickel explainer; es/pt/fr are honest zeros. Never pad — English tops up at runtime.

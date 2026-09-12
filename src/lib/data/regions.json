@@ -216,9 +216,27 @@
     "sort_order": 24
   },
   {
+    "id": "usa-colorado",
+    "origin_id": "usa",
+    "name": "Colorado",
+    "sort_order": 32
+  },
+  {
+    "id": "usa-oregon",
+    "origin_id": "usa",
+    "name": "Oregon",
+    "sort_order": 34
+  },
+  {
     "id": "usa-tennessee",
     "origin_id": "usa",
     "name": "Tennessee",
     "sort_order": 34
+  },
+  {
+    "id": "usa-utah",
+    "origin_id": "usa",
+    "name": "Utah",
+    "sort_order": 37
   }
 ]

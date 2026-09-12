@@ -1,5 +1,12 @@
-# Learnings
+## 2026-09-12 — Batch: 5 USA rye & craft whiskies (Bulleit 95 Rye, Michter's SB Rye, High West Double Rye!, Westward, Stranahan's)
 
+- **Retailer Shopify `search/suggest.json` is the anti-block image source.** theliquorbarn, internetwines, whiskyandwhiskey respond to `/search/suggest.json?q=<brand>` with product image URLs — a clean 1000×1000 white Stranahan's and verified CDN candidates without touching bot-protected Drizly/TotalWine/MoM.
+- **Blended/sourced whiskey region = follow the distillery record.** Even when the liquid is MGP Indiana, grouping to the brand's Kentucky distillery keeps `/map` coherent and avoids one-off regions.
+- **Niche craft single malts (Westward, Stranahan's) have English-only or es-1 coverage after exhaustive multi-source search** — the same honest-zero pattern as Dickel/Uncle Nearest. The catalog's runtime en top-up makes these pages correct, not sparse.
+- **Japanese titles with English oEmbed names are a red flag** (recurring). This batch didn't need rejection calls, but the rule "channel + Invidious preserved title, never the auto-translated oEmbed title" was applied during shortlisting.
+- **Video counts vary wildly by product popularity even inside one batch:** flagship Bulleit → 11 videos across 4 languages; Westward → 4. Never target a uniform count; cover what exists, verify everything.
+
+# Learnings
 ## 2026-09-12 — Batch: 5 US whiskies (Barrell Bourbon, JD Old No. 7, Gentleman Jack, Dickel Barrel Select, Uncle Nearest 1884)
 
 - **A region branch new to the catalog needs zero infra work** — `usa-tennessee` appeared automatically in `regions.json` the moment products with `region: "Tennessee"` synced. Regions are 100% product-derived during db-sync.

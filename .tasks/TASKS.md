@@ -1,3 +1,4 @@
+- 082 [DONE] Add 5 USA whiskies (Bulleit 95 Rye, Michter's Single Barrel Rye, High West Double Rye!, Westward, Stranahan's)
 # Tasks
 
 Authoritative task list for this repo. One task file per task in `tasks/`, named `NNN-short-slug.md`. Task state is tracked only in the task files and this list. On every `Status:` change, update the matching line here in the same change.
