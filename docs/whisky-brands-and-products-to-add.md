@@ -283,11 +283,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ W.L. Weller Special Reserve - Buffalo Trace
 ✅ Angel's Envy Kentucky Bourbon - Angel's Envy
 ✅ Bulleit Bourbon - Bulleit
-Michter's US\*1 Small Batch Bourbon - Michter's
-Willett Pot Still Reserve - Willett
-Noah's Mill - Willett
-Kentucky Peerless Small Batch - Peerless
-Rabbit Hole Dareringer - Rabbit Hole
+✅ Michter's US\*1 Small Batch Bourbon - Michter's
+✅ Willett Pot Still Reserve - Willett
+✅ Noah's Mill - Willett
+✅ Kentucky Peerless Small Batch - Peerless
+✅ Rabbit Hole Dareringer - Rabbit Hole
 Barrell Bourbon - Barrell Craft Spirits
 Jack Daniel's Old No. 7 - Jack Daniel's
 Gentleman Jack - Jack Daniel's
