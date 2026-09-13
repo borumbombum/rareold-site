@@ -1,5 +1,12 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-13 — Batch of 5 Japan whiskies 3 (Mars Komagatake, Mars Maltage Cosmo, Akkeshi Kanro, Kanosuke, Shizuoka Pot Still K)
+
+- **"Mars Shinshu" no longer exists — the distillery was renamed Mars Komagatake in 2024.** The queue still says "Mars Shinshu"; the current official name is the one that goes on the record. Same for the blend: the shortcut would have been a fake "Hombo HQ brand" record, but Hombo's HQ is a shochu-maker office, not a whisky brand — and Maltage Cosmo is genuinely vatted at Komagatake. So both Mars products anchor to the single producing-distillery record, not an owner-HQ anchor.
+- **Akkeshi's catalog identity is "Kanro" (寒露), not a generic tiny-bottle line.** The "Foundation"/New Born experimental bottlings were 200 ml 5–30-month-old one-offs; the real iconic Akkeshi single malt is the 24-solar-terms debut Kanro (55%, 15,000 btl, WWA 2021 Best Japanese SM). Research settled it before seeding instead of after.
+- **The Shizuoka Karuizawa mix-up is a landmine: the legend is the steam-heated "K" still, NOT the wood-fired "W".** The W still is a new Forsyths build and the only operating direct-flame still in the world — the Karuizawa relic is K. An agent caught my own prompt repeating the wrong attribution. (And "Silver Leaf" is not a Shizuoka product at all.)
+- **Hombo's official product images are opaque white-studio webp (corners white, whiteFrac ~0.47–0.64) — fine on light cards, but the pixel pass decides, not the "official" label.** Meanwhile dekanta, kanosuke.com and whiskyshopusa all served transparent-corner bottles.
+
 ## 2026-09-13 — Batch of 5 Japan whiskies 2 (Nikka Coffey Malt, Nikka Days, Fuji Blended, Ichiro's Malt White Label, Chichibu On The Way)
 
 - **Subagents silently edited docs this batch; caught it with git, reverted.** Video-research subagents are instructed to be read-only but one agent "helpfully" pre-wrote `docs/lessons-learned.md` / `docs/LEARNINGS.md`. Always `git status` after agent runs and `git checkout` those files before writing docs yourself — docs updates are the main agent's job, and a partial subagent edit could clobber a structured prepend.

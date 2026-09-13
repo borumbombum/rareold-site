@@ -39960,6 +39960,386 @@
 			"created_at": "2000-01-01T00:00:00.000Z"
 		}
 	]
+},
+{
+	"featured": false,
+	"video": null,
+	"origin": "japan",
+	"region": "Honshu",
+	"volume": "700 ml",
+	"abv": 45,
+	"url": "",
+	"id": "mars-komagatake-single-malt",
+	"slug": "mars-komagatake-single-malt",
+	"name": "Mars Komagatake Single Malt",
+	"description": "El estandarte anual de la destilería más alta de Japón: la primera NAS de la casa embotellada de forma continua desde 2025. Destilada de cebada sin turbar y madurada al menos cinco años en barricas de bourbon, jerez, oporto y vino, captura el estilo 'limpio y rico' de Komagatake. Té de manzana, albaricoque y caqui maduro en nariz, textura suave y final largo y amable a 45°.",
+	"image": "/data/images/mars-komagatake-single-malt.webp",
+	"age": null,
+	"cask": "Bourbon, jerez, oporto y vino (mín. 5 años)",
+	"name_pt": "Mars Komagatake Single Malt",
+	"description_pt": "O estandarte anual da destilaria mais alta do Japão: a primeira NAS da casa engarrafada de forma contínua desde 2025. Destilada de cevada sem turfa e amadurecida pelo menos cinco anos em barricas de bourbon, xerez, porto e vinho, captura o estilo 'limpo e rico' de Komagatake. Chá de maçã, alperce e caqui maduro no aroma, textura suave e final longo e amável a 45°.",
+	"name_en": "Mars Komagatake Single Malt",
+	"description_en": "The year-round flagship of Japan's highest distillery: the house's first continuous all-year NAS bottling (from 2025). Distilled from unpeated barley and matured at least five years in bourbon, sherry, port and wine casks, it captures Komagatake's 'clean and rich' style. Apple tea, apricot and ripe persimmon on the nose, a smooth texture and a long, gentle finish at a sessionable 45%.",
+	"name_ja": "シングルモルト駒ヶ岳",
+	"description_ja": "日本一高い場所にある蒸溜所の年間供給フラッグシップ。2025年より定番化した同社初のNASボトル。無泥炭麦芽を蒸溜し、バーボン樽、シェリー樽、ポート樽、ワイン樽で最低5年熟成。駒ヶ岳の「クリーン＆リッチ」なハウススタイルを体現します。香りはアップルティー、アプリコット、熟した柿。滑らかな口当たりと、45度らしい長く穏やかな余韻。",
+	"name_fr": "Mars Komagatake Single Malt",
+	"description_fr": "Le fleuron annuel de la plus haute distillerie du Japon : la première NAS de la maison embouteillée en continu depuis 2025. Distillée d'orge non tourbée et maturée au moins cinq ans en fûts de bourbon, sherry, porto et vin, elle capte le style « clean and rich » de Komagatake. Thé de pomme, abricot et kaki mûr au nez, texture douce et longue finale tout en grâce à 45 %.",
+	"distillery_id": "mars",
+	"influencer_videos": [
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=dPN25Vg0Npk",
+			"label": "語彙力が無くなるほど旨い「シングルモルト駒ヶ岳」｜あかつきの遊び場",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=q9_OZyxozAU",
+			"label": "遂に定番品となったシングルモルト駒ヶ岳｜もっさんハイボール倶楽部",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=8a7qC6x_esQ",
+			"label": "駒ケ岳2023EDITIONを開封レビュー｜家飲み職人せるじお",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=fV63eqMVPKE",
+			"label": "14年越しで実現したシングルモルトの年間供給｜酒のつまみになるお酒ch",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=IMcNuYQhvbU",
+			"label": "Mars Komagatake Single Malt 2022 Edition | The Japanese Whisky Review",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=LOHEOBEli-U",
+			"label": "Komagatake 2021 Edition Single Malt Whisky!｜Bundaberg Whisky Club",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=8i0CcDesgRk",
+			"label": "KOMAGATAKE Single Malt Japanese Whisky | Whiskysukii",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		}
+	]
+},
+{
+	"featured": false,
+	"video": null,
+	"origin": "japan",
+	"region": "Honshu",
+	"volume": "700 ml",
+	"abv": 43,
+	"url": "",
+	"id": "mars-maltage-cosmo",
+	"slug": "mars-maltage-cosmo",
+	"name": "Mars Maltage Cosmo",
+	"description": "Un blended malt de autor vatted en la destilería Mars Komagatake, al pie del monte Kosumo, mezclando el malte del pot still con maltas escocesas importadas. Con 43° y sin indicación de edad, despliega miel y caramelo con humo remoto y fruta madura, paladar redondo y suave. El nombre recuerda a la cima (越百) que corona la montaña y la etiqueta estampa el cielo nocturno del valle.",
+	"image": "/data/images/mars-maltage-cosmo.webp",
+	"age": null,
+	"cask": "Maltas de pot still propias + maltas escocesas importadas (no declarado)",
+	"name_pt": "Mars Maltage Cosmo",
+	"description_pt": "Um blended malt de autor vatted na destilaria Mars Komagatake, ao pé do monte Kosumo, misturando o malte do pot still com maltes escoceses importados. A 43° e sem indicação de idade, desdobra mel e caramelo com fumo remoto e fruta madura, paladar redondo e suave. O nome lembra o cume (越百) que coroa a montanha e o rótulo estampa o céu nocturno do vale.",
+	"name_en": "Mars Maltage Cosmo",
+	"description_en": "A signature blended malt married at the foot of Mt Kosumo, at the Mars Komagatake distillery, combining the distillery's pot-still malt with imported Scotch malts. At 43% with no age statement it unfolds honey and caramel, faint smoke and ripe fruit, with a round, soft palate. The name honours the summit above the distillery and the label pictures the night sky seen from the valley.",
+	"name_ja": "マルスモルテージ 越百",
+	"description_ja": "駒ヶ岳蒸溜所でヴァッティングされるシグネチャー・ブレンデッドモルト。自社のポットスチルモルトに、スコットランド産モルト原酒をブレンドし、名称は蒸溜所の背後にそびえる「越百山（こすもやま）」に由来します。43度、熟成年数表記なし。香りはハチミツとキャラメルに遠く煙、熟した果実。丸く柔らかな口当たりで、ラベルには山の麓から見上げる夜空が描かれています。",
+	"name_fr": "Mars Maltage Cosmo",
+	"description_fr": "Un blended malt de signature assemblé au pied du mont Kosumo, à la distillerie Mars Komagatake, unissant le malt du pot still maison à des malts écossais importés. À 43 % sans indication d'âge, il déploie miel et caramel, un fumé lointain et des fruits mûrs, sur un palais rond et doux. Le nom honore le sommet qui domine la distillerie et l'étiquette peint le ciel nocturne vu de la vallée.",
+	"distillery_id": "mars",
+	"influencer_videos": [
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=_9RWxT-QqRc",
+			"label": "マルスウイスキー【越百】の美味しさに驚愕！｜ウイスキー同好会",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=IYUrTLn-P3Q",
+			"label": "マルスモルテージ越百 モルトセレクション 軽く一杯｜お酒の塾長",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=J3dQCW3PIDU",
+			"label": "コスモ越百 忖度無し感想レビュー｜ショウタロウの日常飲み",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=-LMZEznoPCg",
+			"label": "越百(コスモ)を飲んでみた！コスパは？｜バッカスズキ",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=AZhL4wLCwTQ",
+			"label": "Mars Maltage Cosmo | Whisky.com",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=nH4VrYX-FTg",
+			"label": "Mars Maltage 'Cosmo' | The Single Malt Review",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=TgjAzTFXPhc",
+			"label": "Mars Maltage Cosmo [Tasting] #228 | Tasting Buddies",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=ydXhcz8ZCAg",
+			"label": "Mars Maltage Cosmo | Ale Degustation",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "fr",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=W4e9hNkVdlw",
+			"label": "MARS COSMO - Le Monde des Whiskies | LMDW",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		}
+	]
+},
+{
+	"featured": false,
+	"video": null,
+	"origin": "japan",
+	"region": "Hokkaido",
+	"volume": "700 ml",
+	"abv": 55,
+	"url": "",
+	"id": "akkeshi-kanro-single-malt",
+	"slug": "akkeshi-kanro-single-malt",
+	"name": "Akkeshi Single Malt Kanro",
+	"description": "El debut que marcó el mapa: Kanro ('rocío frío', 寒露), primera botella de la serie de las veinticuatro estaciones del calendario lunar de Akkeshi, salió el 28 de octubre de 2020 con solo 15.000 ejemplares y ganó el premio al mejor single malt japonés en los WWA 2021. Cebada ligeramente turbada (~30 ppm), casks de bourbon, jerez, vino tinto y mizunara. Frescor marino, fresa y chocolate cremoso.",
+	"image": "/data/images/akkeshi-kanro-single-malt.webp",
+	"age": null,
+	"cask": "Bourbon, jerez, vino tinto y mizunara",
+	"name_pt": "Akkeshi Single Malt Kanro",
+	"description_pt": "O debut que marcou o mapa: Kanro ('orvalho frio', 寒露), primeira garrafa da série das vinte e quatro estações do calendário lunar de Akkeshi, saiu em 28 de outubro de 2020 com apenas 15.000 exemplares e ganhou o prémio de melhor single malt japonês nos WWA 2021. Cevada levemente turfada (~30 ppm), barricas de bourbon, xerez, vinho tinto e mizunara. Frescor marinho, morango e chocolate cremoso.",
+	"name_en": "Akkeshi Single Malt Kanro",
+	"description_en": "The debut that put Akkeshi on the map: Kanro ('cold dew', 寒露), the first bottle of Akkeshi's 'Twenty-Four Solar Terms' series, was released on 28 October 2020 in only 15,000 bottles and won Best Japanese Single Malt at the 2021 World Whiskies Awards. Lightly peated barley (~30 ppm), aged in bourbon, sherry, red-wine and mizunara casks. Maritime freshness, strawberry and creamy chocolate.",
+	"name_ja": "厚岸 シングルモルト 寒露",
+	"description_ja": "厚岸を世界に知らしめた記念碑的な一本。二十四節気シリーズ第一弾「寒露」は2020年10月28日にわずか15,000本限定で発売され、WWA 2021で「ベスト・ジャパニーズ・シングルモルト」に輝きました。軽くピートした麦芽（約30ppm）をバーボン樽、シェリー樽、赤ワイン樽、ミズナラ樽で熟成。潮の香り、イチゴ、クリーミーなチョコレートが特徴。",
+	"name_fr": "Akkeshi Single Malt Kanro",
+	"description_fr": "Les débuts qui ont mis Akkeshi sur la carte : Kanro (« rosée froide », 寒露), première bouteille de la série des « 24 termes solaires » d'Akkeshi, lancée le 28 octobre 2020 en 15 000 bouteilles seulement, a remporté le Best Japanese Single Malt aux WWA 2021. Orge légèrement tourbée (~30 ppm), élevée en fûts de bourbon, sherry, vin rouge et mizunara. Fraîcheur marine, fraise et chocolat crémeux.",
+	"distillery_id": "akkeshi",
+	"influencer_videos": [
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=lKFek-dLg3M",
+			"label": "厚岸ウイスキー 寒露 待望のフルボトルを飲んでみた｜CROSSROAD LAB",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=11vGVKr-rPo",
+			"label": "厚岸シリーズ第一弾ウイスキー寒露を開封＆レビュー｜ウイスキー専門TEN",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=BV0hGVKlC7U",
+			"label": "厚岸「寒露」今後に期待できるウイスキー｜サラリーマンの酒と飯",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=QQkB_kpN4aQ",
+			"label": "厚岸寒露をテイスティング！マスターが開封｜バーテンダーしずたにえん",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=Q97-A7lyRCE",
+			"label": "Single Malt KANRO, Cold Drops of Dew | JIBTV",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		}
+	]
+},
+{
+	"featured": false,
+	"video": null,
+	"origin": "japan",
+	"region": "Kyushu",
+	"volume": "700 ml",
+	"abv": 48,
+	"url": "",
+	"id": "kanosuke-single-malt",
+	"slug": "kanosuke-single-malt",
+	"name": "Kanosuke Single Malt",
+	"description": "El malte insignia de la casa (48°, reducido antes de embotellado, sin filtrado en frío), lanzado en 2023 a partir de destilados de 2018. La clave es la barrica re-carbonizada que contenía shochu 'Mellowed Kozuru', junto a bourbon, jerez y roble nuevo. Miel, plátano y té de limón; membrillo confitado, canela japonesa y jengibre, con un final de brisa marina en el balance 'mellow' de Kagoshima.",
+	"image": "/data/images/kanosuke-single-malt.webp",
+	"age": null,
+	"cask": "Re-carbonizada ex-shochu Mellowed Kozuru, bourbon, jerez y roble nuevo",
+	"name_pt": "Kanosuke Single Malt",
+	"description_pt": "O malte insignia da casa (48°, reduzido antes do engarrafamento, sem filtragem a frio), lançado em 2023 a partir de destilados de 2018. A chave é a barrica recarbonizada que continha shochu 'Mellowed Kozuru', junto a bourbon, xerez e carvalho novo. Mel, banana e chá de limão; marmelo confitado, canela japonesa e gengibre, com um final de brisa marinha no balanço 'mellow' de Kagoshima.",
+	"name_en": "Kanosuke Single Malt",
+	"description_en": "The house flagship single malt (48%, reduced pre-bottling, non-chill-filtered), launched in 2023 from 2018 distillate. The key is the re-charred cask that held 'Mellowed Kozuru' shochu, vatted with ex-bourbon, sherry and new oak. Honey, banana and lemon tea; quince candy, Japanese cinnamon and ginger, with a gentle sea-air finish — Kagoshima's trademark 'mellow' balance.",
+	"name_ja": "嘉之助 シングルモルト",
+	"description_ja": "嘉之助蒸溜所の定番フラッグシップ・シングルモルト。48%で瓶詰め、ノンチルフィルター。2018年蒸溜原酒から2023年にリリース。再チャーした「メロウドコズル」焼酎樽を核に、バーボン樽、シェリー樽、ニューオークをヴァッティング。香りはハチミツ、バナナ、レモンティー。味わいはマルメロのコンフィ、にっき、ジンジャー。海風の余韻が「メロー」な鹿児島らしさを届けます。",
+	"name_fr": "Kanosuke Single Malt",
+	"description_fr": "Le single malt pavesino de la maison (48 %, réduit avant embouteillage, non filtré à froid), lancé en 2023 à partir de distillats de 2018. La clé est le fût recarbonisé qui a contenu le shōchū « Mellowed Kozuru », assorti de bourbon, sherry et chêne neuf. Miel, banane et thé au citron ; coing confit, cannelle japonaise et gingembre, sur une finale d'air marin — l'équilibre « mellow » emblématique de Kagoshima.",
+	"distillery_id": "kanosuke",
+	"influencer_videos": [
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=Z2IFHGiz1EI",
+			"label": "嘉之助シングルモルト（ストレート）",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=JQPCZ5uYRis",
+			"label": "はちみつバナナのような…嘉之助シングルモルト",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=fl6FRi675Nc",
+			"label": "嘉之助シングルモルトを本音レビュー",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=GPHi6qzWSuk",
+			"label": "嘉之助2021セカンドエディションをテイスティング",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=p6AEL2IzZGA",
+			"label": "Kanosuke Japanese Single Malt 48% Review",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=BHXvTiox2LY",
+			"label": "Kanosuke Single Malt Tasting",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=F1li3r-Peh4",
+			"label": "Single Malt Kanosuke 2021 First Edition",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=srccL4gQ9pI",
+			"label": "Single Malt Kanosuke 2021 Second Edition",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		}
+	]
+},
+{
+	"featured": false,
+	"video": null,
+	"origin": "japan",
+	"region": "Honshu",
+	"volume": "700 ml",
+	"abv": 55.5,
+	"url": "",
+	"id": "shizuoka-pot-still-k",
+	"slug": "shizuoka-pot-still-k",
+	"name": "Shizuoka Pot Still K",
+	"description": "El heredero del legado de Karuizawa: destilado íntegramente en el alambique 'K' de vapor (adquirido a la cerrada Karuizawa en 2015) y madurado de 3 a 5 años en barricas de bourbon y vino. Cebada japonesa 100%, sin turbar, sin filtrar, a 55,5° brutales. Nariz floral y cítrica con vainilla; paladar de miel, melón maduro y acidez láctica sutil; final dulce y largo.",
+	"image": "/data/images/shizuoka-pot-still-k.webp",
+	"age": null,
+	"cask": "Bourbon y vino (3-5 años)",
+	"name_pt": "Shizuoka Pot Still K",
+	"description_pt": "O herdeiro do legado de Karuizawa: destilado inteiramente no alambique 'K' a vapor (adquirido à extinta Karuizawa em 2015) e amadurecido de 3 a 5 anos em barricas de bourbon e vinho. Cevada japonesa 100%, sem turfa, sem filtragem, a brutais 55,5°. Aroma floral e cítrico com baunilha; paladar de mel, melão maduro e acidez láctica subtil; final doce e longo.",
+	"name_en": "Shizuoka Pot Still K",
+	"description_en": "The heir to Karuizawa's legacy: distilled entirely on the steam-heated 'K' still (bought from the defunct distillery in 2015) and matured 3–5 years in ex-bourbon and wine casks. 100% Japanese barley, unpeated, non-chill-filtered, at a serious 55.5%. Floral, citrusy, vanilla nose; honey, ripe melon and subtle lactic acidity on the palate; sweet and long finish.",
+	"name_ja": "静岡 ポットスティルK",
+	"description_ja": "カルバー沢の遺産を受け継ぐ一本。2015年に閉鎖した軽井沢蒸溜所から購入した蒸気加熱のポットスチル「K」で全量蒸し、バーボン樽とワイン樽で3〜5年熟成。100%国産大麦、無泥炭、ノンチルフィルター、55.5%のフルボトリング。香りはフローラル＆シトラスにバニラ。味わいはハチミツ、熟したメロンに乳酸の爽やかさ。長く甘いフィニッシュ。",
+	"name_fr": "Shizuoka Pot Still K",
+	"description_fr": "L'héritier du legs de Karuizawa : distillé entièrement sur l'alambic à vapeur « K » (acheté à la défunte distillerie en 2015) et vieilli de 3 à 5 ans en fûts de bourbon et de vin. 100 % d'orge japonaise, non tourbé, non filtré à froid, à un costaud 55,5 %. Nez floral, citronné, vanillé ; miel, melon mûr et une acidité lactique subtile en bouche ; finale douce et longue.",
+	"distillery_id": "shizuoka",
+	"influencer_videos": [
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=ZPiNkBCl7mo",
+			"label": "静岡ポットスティルK 純日本大麦 初版 開封紹介",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=597uYE1hyb4",
+			"label": "静岡ポットスティルK 純日本大麦 初版 レビュー",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=8HeHPwrVOak",
+			"label": "プロローグK 開封＆レビュー",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=fPDIU-rHfOE",
+			"label": "静岡ポットスティルK 5年 純日本大麦 2025",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=S2B0-WR6yl8",
+			"label": "100% Japanese Barley Whisky! Pot Still K",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=dXuZnAHWmoI",
+			"label": "Shizuoka Prologue K review",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		}
+	]
 }
 	]
 }

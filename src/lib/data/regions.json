@@ -222,6 +222,12 @@
     "sort_order": 24
   },
   {
+    "id": "japan-kyushu",
+    "origin_id": "japan",
+    "name": "Kyushu",
+    "sort_order": 25
+  },
+  {
     "id": "usa-colorado",
     "origin_id": "usa",
     "name": "Colorado",

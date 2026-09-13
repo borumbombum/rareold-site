@@ -320,11 +320,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Fuji Blended Whisky - Fuji Gotemba
 ✅ Chichibu Ichiro's Malt Single Malt - Chichibu
 ✅ Chichibu On The Way - Chichibu
-Mars Komagatake Single Malt - Mars Shinshu
-Mars Maltage Cosmo - Mars Shinshu
-Akkeshi Single Malt - Akkeshi
-Kanosuke Single Malt - Kanosuke
-Shizuoka Single Malt Pot Still - Shizuoka
+✅ Mars Komagatake Single Malt - Mars Shinshu
+✅ Mars Maltage Cosmo - Mars Shinshu
+✅ Akkeshi Single Malt - Akkeshi
+✅ Kanosuke Single Malt - Kanosuke
+✅ Shizuoka Single Malt Pot Still - Shizuoka
 Hatozaki Finest Blended - Hatozaki
 Togouchi Blended Whisky - Togouchi
 

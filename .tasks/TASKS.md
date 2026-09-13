@@ -1,3 +1,4 @@
+- 085 [DONE] Add 5 Japan whiskies 3 (Mars Komagatake, Mars Maltage Cosmo, Akkeshi, Kanosuke, Shizuoka)
 - 084 [DONE] Add 5 Japan whiskies 2 (Coffey Malt, Nikka Days, Fuji Blended, Chichibu x2)
 - 083 [DONE] Add 5 Japan whiskies (Hibiki Harmony, Yoichi, Miyagikyo, Nikka From The Barrel, Coffey Grain)
 - 082 [DONE] Add 5 USA whiskies (Bulleit 95 Rye, Michter's Single Barrel Rye, High West Double Rye!, Westward, Stranahan's)

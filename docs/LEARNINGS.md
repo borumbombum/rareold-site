@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-09-13 — Batch: 5 Japan whiskies 3 (Mars Komagatake, Mars Maltage Cosmo, Akkeshi Kanro, Kanosuke, Shizuoka Pot Still K)
+
+- **Region auto-creation extends to islands:** `japan-kyushu` was born just by writing `"region": "Kyushu"` on Kanosuke — same zero-config behavior as Hokkaido and the US states. Japan now covers three islands (Honshu, Hokkaido, Kyushu).
+- **Queue names can lag reality by years, and the truth wins:** "Mars Shinshu" → officially Mars Komagatake Distillery (2024). The distillery record carries the current name with the founding year (1985) intact.
+- **Some catalog entries need a "representative bottling" decision up front:** Akkeshi → Kanro (series debut, award-winning, full-size), Shizuoka → Pot Still K Pure Japanese Barley (the successor to the sold-out Prologue K, the most-stocked Shizuoka single malt), Kanosuke → the 48% core. Naming these in research avoids a wrong generic entry.
+- **The pixel-corner pass decided image QA this batch:** three official/retail sources gave transparent-corner cutouts (dekanta, kanosuke.com, whiskyshopusa) that need no box; Hombo's two gave opaque white-studio corners that are acceptable on light cards. "Official" ≠ "clean" — measure.
+- **oEmbed stays the final gate:** all 35 video picks passed a single yt-verify pass with zero dead/blocked, and zero comparison-type contamination slipped through this time (the careful prompts on Kanro/Shizuoka series specificity helped).
+
 ## 2026-09-13 — Batch: 5 Japan whiskies 2 (Coffey Malt, Nikka Days, Fuji Blended, Ichiro's Malt White Label, Chichibu On The Way)
 
 - **The Nikka US Shopify endpoint is a full image goldmine beyond Coffey Grain.** `nikkawhiskyusa.com/search/suggest.json?q=<name>` returned official transparent 2048² product renders for Coffey Malt (Nikka_19009_..., α~0.17) and Nikka Days (Nikka_19019_..., α~0.20) in under a minute each. The brand's own site is Cloudflare-locked; the US shop CDN is not.
