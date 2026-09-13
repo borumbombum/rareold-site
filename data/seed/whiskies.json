@@ -39559,6 +39559,407 @@
 					"created_at": "2000-01-01T00:00:00.000Z"
 				}
 			]
+		},
+{
+	"featured": false,
+	"video": null,
+	"origin": "japan",
+	"region": "Honshu",
+	"volume": "700 ml",
+	"abv": 45,
+	"url": "",
+	"id": "nikka-coffey-malt",
+	"slug": "nikka-coffey-malt",
+	"name": "Nikka Coffey Malt",
+	"description": "El malteado nacido de una columna: Nikka elabora este whisky con cebada 100% malteada a través de sus alquitara continuas Coffey de Miyagikyo, gesto inusual por la complejidad del destilado. Canela, clavo y limón sobre roble rico en nariz; en boca, cereal dulce, cremosidad y un toque especiado. Un grano disfrazado de malta que firma la familia Coffey de la casa.",
+	"image": "/data/images/nikka-coffey-malt.webp",
+	"age": null,
+	"cask": "Roble blanco americano reutilizado",
+	"name_pt": "Nikka Coffey Malt",
+	"description_pt": "O maltado que nasce de uma coluna: a Nikka elabora este uísque com cevada 100% malteada através dos seus alambiques contínuos Coffey de Miyagikyo, gesto invulgar pela complexidade do destilado. Canela, cravo e limão sobre carvalho rico no aroma; no paladar, cereal doce, cremosidade e um toque especiado. Um grão disfarçado de malte que assina a família Coffey da casa.",
+	"name_en": "Nikka Coffey Malt",
+	"description_en": "The malt born from a column: Nikka distils this whisky from 100% malted barley through its continuous Coffey stills at Miyagikyo, a rare feat given the spirit's complexity. Cinnamon, clove and lemon over rich oak on the nose; sweet cereal, cream and a touch of spice on the palate. A grain dressed as a malt, signing the house's Coffey family.",
+	"name_ja": "ニッカ カフェモルト",
+	"description_ja": "コフィー式連続蒸留器ならではのモルト。宮城峡にあるコフィー蒸留器で、麦芽100%のモルトウイスキーを造るのは世界的にもまれな技術です。香りはシナモン、クローブ、レモンに豊かな樽香。味わいは甘い穀物、クリーミーさ、そしてほのかなスパイス。グレーンでありながらモルトの深みを備えた、コフィー・ファミリーの一本。",
+	"name_fr": "Nikka Coffey Malt",
+	"description_fr": "Le malt né d'une colonne : Nikka élabore ce whisky à partir d'orge 100 % maltée grâce à ses colonnes continues Coffey de Miyagikyo, une prouesse rare tant le spirit est complexe. Cannelle, clou de girofle et citron sur un chêne riche au nez ; céréale douce, crème et une pointe d'épice en bouche. Un grain habillé en malt, signature de la famille Coffey de la maison.",
+	"distillery_id": "miyagikyo",
+	"influencer_videos": [
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=FybcxzOYR3M",
+			"label": "【休売】ニッカカフェモルト飲んでみた｜酒総合ちゃんねる",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=WHNrdjKw1CM",
+			"label": "ニッカカフェモルトの味わいを改めて感じてみました｜宅飲みバーTakeo",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=Xk40Fw3a4S4",
+			"label": "カフェモルトの原料は本当にモルトなのか？｜もっさんハイボール倶楽部",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=SqIPhsSRl-w",
+			"label": "最高に美味い！カフェモルトに大興奮！｜ウイスキー同好会",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=jYeG1v361cE",
+			"label": "Nikka Coffey Malt Whisky Review | Whisky.com",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=OrsGScqk9h8",
+			"label": "Nikka Coffey Malt: The Best Japanese Whisky｜THE WHISKY COUCH",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=8IPWYplZ45k",
+			"label": "NIKKA COFFEY MALT WHISKY | Craft Whiskey Boys",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=GMx-n8Qvozw",
+			"label": "Nikka Coffey Malt | Whisky Lovers Society",
+			"created_at": "2000-01-01T00:00:00.000Z"
 		}
+	]
+},
+{
+	"featured": false,
+	"video": null,
+	"origin": "japan",
+	"region": "Honshu",
+	"volume": "700 ml",
+	"abv": 40,
+	"url": "",
+	"id": "nikka-days",
+	"slug": "nikka-days",
+	"name": "Nikka Days",
+	"description": "El blended de diario de la casa (2018): una mezcla ligera y florida de grano y malta, estructurada por el grano Coffey y los maltes sin turba de Miyagikyo, con la dulzura brillante de un toque de Yoichi. Manzana japonesa, miel y vainilla en nariz; paladar sedoso de caramelo y malta tostada. Creado para el highball y el on-the-rocks.",
+	"image": "/data/images/nikka-days.webp",
+	"age": null,
+	"cask": "Blend: grano Coffey y maltas sin turba de Miyagikyo (Miyagikyo, Yoichi Coffey)",
+	"name_pt": "Nikka Days",
+	"description_pt": "O blended de todos os dias da casa (2018): uma mistura leve e florida de grão e malte, estruturada pelo grão Coffey e pelos maltes sem turfa de Miyagikyo, com a doçura brilhante de um toque de Yoichi. Maçã japonesa, mel e baunilha no aroma; paladar sedoso de caramelo e malte tostado. Criado para o highball e o on-the-rocks.",
+	"name_en": "Nikka Days",
+	"description_en": "The house's everyday blend (2018): a light, floral mix of grain and malt — structured by Coffey Grain and the non-peated Miyagikyo malts, with the bright sweetness of a touch of Yoichi. Pink apple, honey and vanilla on the nose; a silky palate of toffee and toasted malt. Built for the highball and on-the-rocks.",
+	"name_ja": "ニッカ デイズ",
+	"description_ja": "毎日飲める日系ブレンデッド（2018年発売）。コフィーグレーンと無泥炭の宮城峡モルトで構成され、余市の原酒が明るい甘さを添える、軽やかでフローラルなブレンド。香りはピンクアップル、ハチミツ、バニラ。口当たりはシルキーで、トフィーと香ばしいモルトの味わい。ハイボールやロックのために設計された一本。",
+	"name_fr": "Nikka Days",
+	"description_fr": "Le blend du quotidien de la maison (2018) : un assemblage léger et floral de grain et de malt — structuré par le Coffey Grain et les malts non tourbés de Miyagikyo, avec la douceur éclatante d'une pointe de Yoichi. Pomme rose, miel et vanille au nez ; un palais soyeux de caramel et de malt toasté. Conçu pour le highball et le on-the-rocks.",
+	"distillery_id": "nikka",
+	"influencer_videos": [
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=CCQMLaXvhyk",
+			"label": "逆輸入ウイスキー ニッカデイズは困る｜つっちーのBar研究室",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=oFYgDmWTXa0",
+			"label": "逆輸入 ニッカデイズを味わってみました｜宅飲みバーTakeo",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=V-mfxbV-fAI",
+			"label": "ニッカウイスキーDAYS(デイズ) レビュー｜酒チューブ",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=T3YNv2FQyDA",
+			"label": "ニッカ デイズ 軽く一杯（582杯目）｜お酒の塾長",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=Yqh9FTfnQ_U",
+			"label": "Nikka Days Japanese Whisky Review | Whiskey Vault",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=YD04Mz_ohBk",
+			"label": "Nikka Days | Whisky.com",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=0XUXk3qiaCI",
+			"label": "Nikka Days Japanese Blended Whisky | Scotch Test Dummies",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=3MGV_zF-C7c",
+			"label": "Nikka Days Blended Japanese Whisky Review｜WhiskyJason",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "es",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=toiY6SRZt-k",
+			"label": "Nikka Days | HABLANDO DE WHISKY",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "es",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=rZlWnjoUJEs",
+			"label": "Nikka days - reseña | jose antonio orsiel montero",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "pt",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=HNtMcnNFTng",
+			"label": "Degustação Review Nikka Days | Jornada do Whisky",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "fr",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=tfygVQw8pas",
+			"label": "Dégustation whisky Nikka Days | La Vignery",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		}
+	]
+},
+{
+	"featured": false,
+	"video": null,
+	"origin": "japan",
+	"region": "Honshu",
+	"volume": "700 ml",
+	"abv": 43,
+	"url": "",
+	"id": "fuji-blended-whisky",
+	"slug": "fuji-blended-whisky",
+	"name": "Fuji Blended Whisky",
+	"description": "El primer blended del mundo que nace de una sola destilería: en Fuji Gotemba, maltas con y sin turba del alambique de cobre se unen al grano de las columnas para crear un whisky de doble personalidad. Melocotón, albaricoque y miel de azahar en nariz, con el agua de deshielo del monte Fuji detrás; boca sedosa de pera y miel con especias suaves. Lanzado en 2022, uno de los blends japoneses más galardonados.",
+	"image": "/data/images/fuji-blended-whisky.webp",
+	"age": null,
+	"cask": "Roble blanco americano (bourbon) con acabados en barricas de vino y cerveza",
+	"name_pt": "Fuji Blended Whisky",
+	"description_pt": "O primeiro blended do mundo nascido de uma única destilaria: em Fuji Gotemba, maltes com e sem turfa do alambique de cobre juntam-se ao grão das colunas para criar um whisky de dupla personalidade. Pêssego, damasco e mel de azahar no aroma, com a água do degelo do monte Fuji por trás; paladar sedoso de pera e mel com especiarias suaves. Lançado em 2022, um dos blends japoneses mais premiados.",
+	"name_en": "Fuji Japanese Whisky",
+	"description_en": "The world's first blend from a single distillery: at Fuji Gotemba, peated and unpeated copper-still malts join column-still grain to create a whisky of double personality. Peach, apricot and orange-blossom honey on the nose, with Mt Fuji's snowmelt water behind it; a silky palate of pear and honey with soft spice. Launched in 2022, one of the most awarded Japanese blends.",
+	"name_ja": "富士 ブレンデッド",
+	"description_ja": "単一蒸溜所から生まれた世界初のシングルブレンデッド。富士御殿場蒸溜所では、銅釜のピート麦芽と無泥炭麦芽に、コラムスチルのグレーンを合わせて二つの個性を持つウイスキーを造ります。香りはピーチ、アプリコット、オレンジブロッサムハニー。味わいは洋梨とハチミツ、ほのかなスパイスでシルキー。2022年発売。世界的に受賞多数の傑作ブレンド。",
+	"name_fr": "Fuji Blended Whisky",
+	"description_fr": "Le premier blend au monde né d'une seule distillerie : à Fuji Gotemba, les malts tourbés et non tourbés des alambics en cuivre rejoignent le grain des colonnes pour créer un whisky à double personnalité. Pêche, abricot et miel d'oranger au nez, portés par l'eau de fonte du mont Fuji ; un palais soyeux de poire et de miel, sur une épice douce. Lancé en 2022, l'un des blends japonais les plus récompensés.",
+	"distillery_id": "fuji-gotemba",
+	"influencer_videos": [
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=lg37I2ZjSyA",
+			"label": "日本初シングルブレンデッド 富士 テイスティング｜宅飲みバーTakeo",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=21urw0CNVl8",
+			"label": "富士シングルブレンデッド（ストレート）｜ひとくちウイスキー",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=7P2labHTXH0",
+			"label": "シングルブレンデッド富士を開封・紹介｜家飲み職人せるじお",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=gT73MqVTPNU",
+			"label": "稀有な存在、シングルブレンデッドとは…富士｜お酒の塾長",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=JU0chVVzEiQ",
+			"label": "Fuji Gotemba Single Blended Japanese Whisky | Mark's Whisky Ramblings",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=6jJPnhyAeaA",
+			"label": "Let's Talk Whisky: Fuji Single Blended | therenegade79",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		}
+	]
+},
+{
+	"featured": false,
+	"video": null,
+	"origin": "japan",
+	"region": "Honshu",
+	"volume": "700 ml",
+	"abv": 46,
+	"url": "",
+	"id": "ichiros-malt-white-label",
+	"slug": "ichiros-malt-white-label",
+	"name": "Ichiro's Malt & Grain White Label",
+	"description": "La botella cotidiana de Chichibu: un blended mundial que une el malte joven de Ichiro Akuto con maltas y granos de Escocia, Irlanda, EE. UU. y Canadá, soldados en una cuba de mizunara para lograr consistencia. Naranja, crema de vainilla y pera en nariz; miel, castaña tostada y jengibre en boca, con un final especiado de roble. La sabiduría de Akuto embotellada.",
+	"image": "/data/images/ichiros-malt-white-label.webp",
+	"age": null,
+	"cask": "Barricas de bourbon, jerez y vino de origen mundial, con cuba de soldadura de mizunara",
+	"name_pt": "Ichiro's Malt & Grain White Label",
+	"description_pt": "A garrafa do dia a dia de Chichibu: um blended mundial que une o malte jovem de Ichiro Akuto com maltes e grãos da Escócia, Irlanda, EUA e Canadá, soldados numa solera de mizunara para garantir consistência. Laranja, creme de baunilha e pera no aroma; mel, castanha torrada e gengibre no paladar, com final especiado de carvalho. A sabedoria de Akuto engarrafada.",
+	"name_en": "Ichiro's Malt & Grain White Label",
+	"description_en": "Chichibu's everyday bottle: a world blend uniting Ichiro Akuto's young single malt with malts and grains from Scotland, Ireland, the US and Canada, married in a mizunara solera vat for consistency. Orange, vanilla cream and pear on the nose; honey, roasted chestnut and ginger on the palate, with a spicy oak finish. Akuto's wisdom in a bottle.",
+	"name_ja": "イチローズモルト ホワイトラベル",
+	"description_ja": "秩父の日常ボトル。イチロー・アクトの若いモルトに、スコットランド・アイルランド・アメリカ・カナダのモルト＆グレーンをブレンドし、ミズナラのソレラカスクで結婚（マリッジ）させて造るワールドブレンデッドウイスキー。香りはオレンジ、バニラクリーム、洋梨。味わいはハチミツ、栗、ジンジャーで、オークのスパイシーな余韻。アク藤の知恵が詰まった一本。",
+	"name_fr": "Ichiro's Malt & Grain White Label",
+	"description_fr": "La bouteille du quotidien de Chichibu : un world blend unissant le jeune single malt d'Ichiro Akuto et des malts et grains d'Écosse, d'Irlande, des États-Unis et du Canada, mariés dans une solera de mizunara pour la constance. Orange, crème vanille et poire au nez ; miel, châtaigne rôtie et gingembre en bouche, avec une finale de chêne épicée. Le savoir-faire d'Akuto en bouteille.",
+	"distillery_id": "chichibu",
+	"influencer_videos": [
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=XDg45VBBHfc",
+			"label": "イチローズ モルト&グレーン ワールドブレンデッド（ホワイトラベル）｜ウイスキー藤村",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=JJ-OKxOLbDs",
+			"label": "イチローズモルトホワイトラベル 秩父の個性が強い！｜俺のモルト",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=6fBECxvFi7w",
+			"label": "今は買い時！？イチローズモルトホワイトラベル徹底レビュー｜We Whisky",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=s7lFlAjXy8A",
+			"label": "イチローズモルトホワイトラベルテイスティング｜ボウモア大好きIto",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=Vr3Zk030sIg",
+			"label": "Ichiro's Malt & Grain Review | Whiskey Vault",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=gx95Z8FMP3E",
+			"label": "Ichiro's Malt & Grain: The ULTIMATE Review | Kanpai Planet",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=h82uRXQj_PE",
+			"label": "Ichiro's Malt & Grain World Whisky | DrinkDrankDrunk",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=6jZ5_oKbsP0",
+			"label": "The ICHIRO'S Malt & Grain Blended | Honest Sips",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		}
+	]
+},
+{
+	"featured": false,
+	"video": null,
+	"origin": "japan",
+	"region": "Honshu",
+	"volume": "700 ml",
+	"abv": 54.5,
+	"url": "",
+	"id": "chichibu-on-the-way",
+	"slug": "chichibu-on-the-way",
+	"name": "Chichibu On The Way",
+	"description": "'On The Way' es el álbum de madurez de Chichibu: cada edición embotella el progreso de su malte en su camino hacia la madurez. La edición 2024 (Floor Malted) une 58 barricas de malte propio de 9 a 15 años —bourbon, jerez, vino, mizunara y chibidaru— sin filtrado en frío. Melocotón blanco, miel y menta en nariz; pera jugosa en boca, con un final largo y frutal.",
+	"image": "/data/images/chichibu-on-the-way.webp",
+	"age": null,
+	"cask": "58 barricas de malte propio: bourbon, jerez, vino, mizunara y chibidaru",
+	"name_pt": "Chichibu On The Way",
+	"description_pt": "A série 'On The Way' é o álbum de maturidade da Chichibu: cada edição engarrafa o progresso do seu malte no caminho para a maturidade. A edição 2024 (Floor Malted) junta 58 barricas de malte próprio de 9 a 15 anos —bourbon, xerez, vinho, mizunara e chibidaru— sem filtragem a frio. Pêssego branco, mel e hortelã no aroma; pera suculenta no paladar, com final longo e frutado.",
+	"name_en": "Chichibu On The Way",
+	"description_en": "'On The Way' is Chichibu's maturity journal: every edition bottles the progress of its own malt on the road to full maturity. The 2024 (Floor Malted) edition unites 58 casks of house malts aged 9 to 15 years — bourbon, sherry, wine, mizunara and tiny chibidaru — non-chill-filtered. White peach, honey and mint on the nose; juicy pear on the palate, with a long fruit-acid finish.",
+	"name_ja": "イチローズモルト 秩父 ON THE WAY",
+	"description_ja": "「ON THE WAY」は秩父蒸溜所が自社モルトの熟成の過程をそのまま瓶に詰めたシリーズ。2024年エディション（フロアモルテッド）は自社のモルト、9〜15年の58樽をヴァッティングし、冷却濾過せずに瓶詰め。香りは白桃、ハチミツ、ミント。味わいはみずみずしい洋梨。果実味と酸味が長く続くフィニッシュ。",
+	"name_fr": "Chichibu On The Way",
+	"description_fr": "« On The Way » est le journal de maturation de Chichibu : chaque édition embouteille les progrès de son malt sur la route de la pleine maturité. L'édition 2024 (Floor Malted) réunit 58 fûts de malts de la maison âgés de 9 à 15 ans — bourbon, sherry, vin, mizunara et petits chibidaru — non filtrés à froid. Pêche blanche, miel et menthe au nez ; poire juteuse en bouche, longue finale fruitée et vive.",
+	"distillery_id": "chichibu",
+	"influencer_videos": [
+		{
+			"language": "ja",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=Zb6GedR4P3c",
+			"label": "イチローズモルト秩父ON THE WAY 2019｜モルトヤマ",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=Gzoj6EF99zE",
+			"label": "Chichibu On the Way 2019 | Top Shelf Whisky",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "en",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=PM6iJ1onC3s",
+			"label": "Chichibu Distillery On The Way 2024 | Kanpai Planet",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		},
+		{
+			"language": "fr",
+			"platform": "youtube",
+			"url": "https://www.youtube.com/watch?v=2SwHnH6aUQY",
+			"label": "Whisky test Chichibu on the way 2015 | La voie du whisky",
+			"created_at": "2000-01-01T00:00:00.000Z"
+		}
+	]
+}
 	]
 }

@@ -315,11 +315,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Miyagikyo Single Malt - Miyagikyo
 ✅ Nikka From The Barrel - Nikka
 ✅ Nikka Coffey Grain - Nikka
-Nikka Coffey Malt - Nikka
-Nikka Days - Nikka
-Fuji Blended Whisky - Fuji Gotemba
-Chichibu Ichiro's Malt Single Malt - Chichibu
-Chichibu On The Way - Chichibu
+✅ Nikka Coffey Malt - Nikka
+✅ Nikka Days - Nikka
+✅ Fuji Blended Whisky - Fuji Gotemba
+✅ Chichibu Ichiro's Malt Single Malt - Chichibu
+✅ Chichibu On The Way - Chichibu
 Mars Komagatake Single Malt - Mars Shinshu
 Mars Maltage Cosmo - Mars Shinshu
 Akkeshi Single Malt - Akkeshi

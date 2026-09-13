@@ -1,5 +1,13 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-13 — Batch of 5 Japan whiskies 2 (Nikka Coffey Malt, Nikka Days, Fuji Blended, Ichiro's Malt White Label, Chichibu On The Way)
+
+- **Subagents silently edited docs this batch; caught it with git, reverted.** Video-research subagents are instructed to be read-only but one agent "helpfully" pre-wrote `docs/lessons-learned.md` / `docs/LEARNINGS.md`. Always `git status` after agent runs and `git checkout` those files before writing docs yourself — docs updates are the main agent's job, and a partial subagent edit could clobber a structured prepend.
+- **Comparison videos are a recurring contamination, not a fluke.** Two more slipped through agent pruning: "Nikka Days vs From The Barrel" (es) and "Fuji Single Blended vs Single Malt" (en). Both center the OFF-product, hence exact-expression rejects. Rule reinforced: if the title names two whiskies, reject on sight.
+- **Recurring ID across batches:** a video rejected as "wrong expression, it's actually Nikka Days" in batch 083 became the exact-match Nikka Days video in batch 084 — same YouTube ID (tfygVQw8pas). Cross-batch context matters; don't burn a wanted video just because it didn't fit the previous product.
+- **On The Way ABV conflict: label/JP review said "54%", whiskybase/bestofwines/skurnik/whiskeyful all say 54.5%.** Search-first across several sources resolved it before seeding (54.5% won). Cheap insurance for a DB number that once seeded is hard to correct.
+- **White-box commerce shots remain an accepted fallback when the cleanest obtainable asset is the retailer's white-box PNG** (Fuji Blended from woodencork 1000²) — same precedent as 082.
+
 ## 2026-09-13 — Batch of 5 Japan whiskies (Hibiki Japanese Harmony, Yoichi Single Malt, Miyagikyo Single Malt, Nikka From The Barrel, Nikka Coffey Grain)
 
 - **Inside Tokyo, coordinates mattered (Osaka too).** The Suntory HQ anchor is 34.695/135.495 (Kita-ku, Osaka — NOT a ~35.6 latitude; that's Tokyo-ish). Nikka HQ is 35.71016/139.80059 (Sumida-ku). The Miyagikyo distillery is 38.308/140.651 in the Sakunami valley — my initial ~38.23/140.87 default was wrong too; web-verified coordinates beat recalled ones every time.

@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-09-13 — Batch: 5 Japan whiskies 2 (Coffey Malt, Nikka Days, Fuji Blended, Ichiro's Malt White Label, Chichibu On The Way)
+
+- **The Nikka US Shopify endpoint is a full image goldmine beyond Coffey Grain.** `nikkawhiskyusa.com/search/suggest.json?q=<name>` returned official transparent 2048² product renders for Coffey Malt (Nikka_19009_..., α~0.17) and Nikka Days (Nikka_19019_..., α~0.20) in under a minute each. The brand's own site is Cloudflare-locked; the US shop CDN is not.
+- **Katakana coverage generalizes:** ニッカ デイズ, 富士 シングルブレンデッド, イチローズモルト ホワイトラベル, 秩父 ON THE WAY all yielded exact ja reviews (~4 each); series-name "デイズ" vs "-DAYS" mattered (デイズ won).
+- **Chichibu On The Way is a series, not a NAS product** — 2013/2015/2019/2024 editions at different strengths (58.5/55.5/51.5/54.5). The product record carries the current 2024 "Floor Malted" identity (54.5%, 58 casks, 9-15yo) and the video set spans editions/years (2015 fr, 2019 ja/en, 2024 en). Good enough for a catalog page; a dedicated edition page would need per-vintage rows.
+- **"Ichiro's Malt Single Malt" has no NAS expression — the White Label world blend is the real everyday bottle.** Queue names can describe products that don't exist; the user picked the sensible mapping (46% world blend, mizunara solera marriage) and slug `ichiros-malt-white-label`.
+- **Exact-rule rejections were two comparison-title videos**, consistent with 082's pattern — the verify pass is mandatory even when agents "checked" post-search.
+
 ## 2026-09-13 — Batch: 5 Japan whiskies (Hibiki Japanese Harmony, Yoichi, Miyagikyo, Nikka From The Barrel, Coffey Grain)
 
 - **Region auto-creation scales to non-US too.** `japan-hokkaido` (Yoichi, sort_order 23) joined the map just by writing `"region": "Hokkaido"` on the product — same zero-O-ORIGIN_META behavior as usa-utah/oregon/colorado.
