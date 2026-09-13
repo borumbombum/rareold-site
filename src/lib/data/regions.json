@@ -210,6 +210,12 @@
     "sort_order": 22
   },
   {
+    "id": "japan-hokkaido",
+    "origin_id": "japan",
+    "name": "Hokkaido",
+    "sort_order": 23
+  },
+  {
     "id": "usa-rye",
     "origin_id": "usa",
     "name": "Rye",

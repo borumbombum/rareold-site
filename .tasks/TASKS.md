@@ -1,3 +1,4 @@
+- 083 [DONE] Add 5 Japan whiskies (Hibiki Harmony, Yoichi, Miyagikyo, Nikka From The Barrel, Coffey Grain)
 - 082 [DONE] Add 5 USA whiskies (Bulleit 95 Rye, Michter's Single Barrel Rye, High West Double Rye!, Westward, Stranahan's)
 # Tasks
 

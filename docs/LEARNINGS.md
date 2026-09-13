@@ -1,3 +1,12 @@
+# Learnings
+
+## 2026-09-13 — Batch: 5 Japan whiskies (Hibiki Japanese Harmony, Yoichi, Miyagikyo, Nikka From The Barrel, Coffey Grain)
+
+- **Region auto-creation scales to non-US too.** `japan-hokkaido` (Yoichi, sort_order 23) joined the map just by writing `"region": "Hokkaido"` on the product — same zero-O-ORIGIN_META behavior as usa-utah/oregon/colorado.
+- **Katakana product names drive Japanese video search.** Searching カフェグレーン (the label name) found 4 exact ja reviews; romaji-derived spellings found none. For every Japan product, give the video agents the real label katakana.
+- **Blend anchoring pattern is now precedent:** brand records (suntory, nikka) at owner HQ for multi-site blends; producing-distillery records (miyagikyo) for single-site products like Coffey Grain. Map stays honest.
+- **oEmbed is still the last gate for exact-expression + language**, and for Japan products ASR captionTracks (used by the Yoichi agent) is a strong extra signal when oEmbed titles are ambiguous.
+- **Enforced honest zeros under real coverage holes:** Pt has nothing exact for Yoichi (Brazilian channels cover FTB/Nikka Days, not Yoichi SM); FR has nothing exact for Hibiki or Miyagikyo NAS. English top-up covers the runtime; no filler shipped.
 ## 2026-09-12 — Batch: 5 USA rye & craft whiskies (Bulleit 95 Rye, Michter's SB Rye, High West Double Rye!, Westward, Stranahan's)
 
 - **Retailer Shopify `search/suggest.json` is the anti-block image source.** theliquorbarn, internetwines, whiskyandwhiskey respond to `/search/suggest.json?q=<brand>` with product image URLs — a clean 1000×1000 white Stranahan's and verified CDN candidates without touching bot-protected Drizly/TotalWine/MoM.

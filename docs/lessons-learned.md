@@ -1,5 +1,17 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-13 — Batch of 5 Japan whiskies (Hibiki Japanese Harmony, Yoichi Single Malt, Miyagikyo Single Malt, Nikka From The Barrel, Nikka Coffey Grain)
+
+- **Inside Tokyo, coordinates mattered (Osaka too).** The Suntory HQ anchor is 34.695/135.495 (Kita-ku, Osaka — NOT a ~35.6 latitude; that's Tokyo-ish). Nikka HQ is 35.71016/139.80059 (Sumida-ku). The Miyagikyo distillery is 38.308/140.651 in the Sakunami valley — my initial ~38.23/140.87 default was wrong too; web-verified coordinates beat recalled ones every time.
+- **Anchor decision for blends: owner HQ, not a producing site.** Hibiki (blend of Yamazaki/Hakushu/Chita) → new `suntory` record at Osaka HQ; From The Barrel (malt Yoichi+Miyagikyo+Coffey grain, re-married at Tochigi) → new `nikka` brand record at Tokyo HQ. But Coffey Grain is distilled at one real site → linked to the `miyagikyo` producing record instead of the brand. Rule confirmed: brand records exist for multi-site blends; single-site products always point at the producing distillery.
+- **Katakana product names are the search key; romaji spelling misleads.** "Coffey Grain" is カフェグレーン in Japanese — nobody searches コフィーグレーン; the Coffey Grain agent got its 4 ja videos only once it queried the katakana the label actually wears. Same for Hibiki (響 ジャパニーズ ハーモニー).
+- **Co-expression confusion within Nikka.** Miyagikyo NAS is easily confused with the brand-new Miyagikyo 10 YO (Discovery 2026) and the Peated; Yoichi NAS vs the Non-Peated Discovery — oEmbed re-audits had to reject several wrong-expression Miyagikyo/Yoichi picks for exactly this reason.
+- **Official Nikka renders come from the US Shopify store, not nikka.com.** nikka.com serves no direct product images (SPA + Cloudflare); `nikkawhiskyusa.com/cdn/shop/files/*.png` (2048², transparent RGBA) is the reliable source. house.suntory.com serves a 1500² transparent Hibiki direct.
+- **The official Yoichi "lineup" PNG is a lifestyle render, not a cutout** — corner alpha 71 (translucent smoke), 0.78 opaque fraction; rejected for a retailer transparent cutout. Check corner alpha before trusting an "official PNG".
+- **Coverage spread inside one batch:** From The Barrel 17 videos / 5 languages (global crowd-pleaser), Hibiki 12, Yoichi 12 (incl 1 fr — Whisky et Cie), Miyagikyo 10, Coffey Grain 10 — with honest PT/FR zeros (pt/fr have no exact Yoichi/Miyagikyo/Coffey reviews; fr has no Hibiki). English top-up handles the gaps.
+- **db:sync counts:** regions 40→41 (+1 `japan-hokkaido`), distilleries 179→183 (+suntory, yoichi, miyagikyo, nikka), products 407→412 (+5), videos 4121→4182 (+61, all 61 re-verified via `yt-verify.mjs` in one pass — all live).
+# Lessons learned (errors and corrections)
+
 ## 2026-09-12 — Batch of 5 USA rye & craft whiskies (Bulleit 95 Rye, Michter's Single Barrel Rye, High West Double Rye!, Westward American Single Malt, Stranahan's Colorado Whiskey)
 
 - **Rye is a style region AND a geography.** `usa-rye` holds WhistlePig; the three ryes in this batch went USA-geographic instead (Bulleit/Michter's → Kentucky, High West → Utah) because each distillery maps to its real location. First time a batch auto-created three US regions at once (usa-utah, usa-oregon, usa-colorado) — regions remain 100% product-derived, zero ORIGIN_META work.

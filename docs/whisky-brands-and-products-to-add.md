@@ -310,11 +310,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Hakushu Distiller's Reserve - Hakushu
 ✅ Hakushu 12 YO - Hakushu
 ✅ Chita Suntory Single Grain - Chita
-Hibiki Japanese Harmony - Hibiki
-Yoichi Single Malt - Yoichi
-Miyagikyo Single Malt - Miyagikyo
-Nikka From The Barrel - Nikka
-Nikka Coffey Grain - Nikka
+✅ Hibiki Japanese Harmony - Hibiki
+✅ Yoichi Single Malt - Yoichi
+✅ Miyagikyo Single Malt - Miyagikyo
+✅ Nikka From The Barrel - Nikka
+✅ Nikka Coffey Grain - Nikka
 Nikka Coffey Malt - Nikka
 Nikka Days - Nikka
 Fuji Blended Whisky - Fuji Gotemba
