@@ -325,14 +325,14 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Akkeshi Single Malt - Akkeshi
 ✅ Kanosuke Single Malt - Kanosuke
 ✅ Shizuoka Single Malt Pot Still - Shizuoka
-Hatozaki Finest Blended - Hatozaki
-Togouchi Blended Whisky - Togouchi
+✅ Hatozaki Finest Blended - Hatozaki
+✅ Togouchi Blended Whisky - Togouchi
 
 ## Canada
 
-Crown Royal Deluxe - Crown Royal
-Crown Royal Northern Harvest Rye - Crown Royal
-Canadian Club 12 YO - Canadian Club
+✅ Crown Royal Deluxe - Crown Royal
+✅ Crown Royal Northern Harvest Rye - Crown Royal
+✅ Canadian Club 12 YO - Canadian Club
 Lot 40 Rye - Lot 40
 J.P. Wiser's 18 YO - J.P. Wiser's
 Alberta Premium Dark Horse - Alberta Distillers

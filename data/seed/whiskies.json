@@ -40340,6 +40340,464 @@
 			"created_at": "2000-01-01T00:00:00.000Z"
 		}
 	]
-}
+},
+		{
+			"featured": false,
+			"video": null,
+			"origin": "japan",
+			"region": "Honshu",
+			"volume": "700 ml",
+			"abv": 40,
+			"url": "",
+			"id": "hatozaki-finest-blended",
+			"slug": "hatozaki-finest-blended",
+			"name": "Hatozaki Finest Blended",
+			"description": "El buque insignia de la Kaikyo Distillery, la joven destilería a los pies del Puente Akashi Kaikyo: una mezcla de whiskies de malta y grano con al menos 40% de malta, sin filtrar en frío, madurada en barricas de bourbon, jerez y mizunara japonés. Nariz herbácea y cítrica con toffee; paladar de vainilla, miel y especias suaves; final corto y redondo. Embotellado a 40°, en 700 ml.",
+			"image": "/data/images/hatozaki-finest-blended.webp",
+			"age": null,
+			"cask": "Ex-bourbon, ex-jerez y mizunara",
+			"name_pt": "Hatozaki Finest Blended",
+			"description_pt": "O carro-chefe da Kaikyo Distillery, a jovem destilaria ao pé da Ponte Akashi Kaikyo: um blend de uísques de malte e grão com pelo menos 40% de malte, sem filtragem a frio, amadurecido em barricas de bourbon, xerez e mizunara japonês. Aroma herbáceo e cítrico com caramelo; paladar de baunilha, mel e especiarias suaves; final curto e redondo. 40%, 700 ml.",
+			"name_en": "Hatozaki Finest Blended",
+			"description_en": "The flagship of Kaikyo Distillery, the young producer at the foot of the Akashi Kaikyo Bridge: a blend of malt and grain whiskies with a minimum 40% malt content, non-chill-filtered, matured in ex-bourbon, sherry and Japanese mizunara casks. Herbal, citrusy nose with toffee; vanilla, honey and soft spice on the palate; short, rounded finish. Bottled at 40% in 700 ml.",
+			"name_ja": "波門崎 ブレンディッドウイスキー フィネスト",
+			"description_ja": "明石海峡大橋の麓に立つ若い蒸溜所・海峡蒸溜所の看板商品。モルト比率40%以上、ノンチルフィルターで、バーボン樽・シェリー樽・国産ミズナラ樽で熟成したモルト＆グレーンウイスキーのブレンド。ハーブと柑橘の香りにトフィー。バニラ、ハチミツ、やわらかなスパイスの味わい。40%、700ml。",
+			"name_fr": "Hatozaki Finest Blended",
+			"description_fr": "Le fer de lance de la Kaikyo Distillery, jeune distillerie au pied du pont Akashi Kaikyo : un blend de whiskies de malt et de grain, au moins 40 % de malt, non filtré à froid, vieilli en fûts de bourbon, de sherry et de mizunara japonais. Nez herbacé et citronné au caramel ; vanille, miel et épices douces en bouche ; finale courte et ronde. Embouteillé à 40 %, 700 ml.",
+			"distillery_id": "hatozaki",
+			"influencer_videos": [
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=tadRUZFQPbs",
+				"label": "アメリカで味わう波門崎ウイスキーと親父の思い出 #93",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=ZipbZTkXoaQ",
+				"label": "Hatozaki Finest Blended Whisky and being Gen X",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=VanREQpAADw",
+				"label": "Hatozaki Finest Japanese Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=f7WcCc9g8yU",
+				"label": "Hatozaki Finest Japanese Whisky - Bottled In Bond",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=anDRA_IILjg",
+				"label": "Hatozaki's Finest Japanese Whisky - Whisky Willy #4",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=nery5XzStvw",
+				"label": "Hatozaki Japanese Blended",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=_FcOqYYB_yo",
+				"label": "La Maleta Whiskera: Hatozaki Finest Blended",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+		{
+			"featured": false,
+			"video": null,
+			"origin": "japan",
+			"region": "Honshu",
+			"volume": "700 ml",
+			"abv": 40,
+			"url": "",
+			"id": "togouchi-blended-whisky",
+			"slug": "togouchi-blended-whisky",
+			"name": "Togouchi Blended Whisky",
+			"description": "El secreto está en el túnel: esta mezcla de maltas y granos madura en un antiguo túnel ferroviario excavado en la montaña, junto al río Togouchi, a unos 14 °C y 80% de humedad, donde la evaporación se reduce casi a cero. Elaborado por Chugoku Jozo — hoy Sakurao, fundada en 1918 — combina tradicionalmente whiskies escoceses y canadienses importados. Tras la regla JSLMA de 2021, el actual se destila y madura íntegramente en la propia Sakurao. 40°, 700 ml.",
+			"image": "/data/images/togouchi-blended-whisky.webp",
+			"age": null,
+			"cask": "No declarado oficialmente (tradicionalmente whiskey escocés y canadiense)",
+			"name_pt": "Togouchi Blended Whisky",
+			"description_pt": "O segredo está no túnel: este blend de maltes e grãos amadurece num antigo túnel ferroviário escavado na montanha, junto ao rio Togouchi, a cerca de 14 °C e 80% de humidade, onde a evaporação quase não existe. Elaborado pela Chugoku Jozo — hoje Sakurao, fundada em 1918 — combina tradicionalmente uísques escoceses e canadianos importados. Após a regra JSLMA de 2021, a versão atual é destilada e amadurecida integralmente na própria Sakurao. 40%, 700 ml.",
+			"name_en": "Togouchi Blended Whisky",
+			"description_en": "The secret is the tunnel: this blend of malt and grain whiskies matures in an old railway tunnel carved into the mountain by the Togouchi river, at around 14 °C and 80% humidity, where angel's share drops to nearly zero. Made by Chugoku Jozo — today Sakurao, founded in 1918 — it traditionally combined imported Scotch and Canadian whiskies. Since the 2021 JSLMA rule, the current expression is distilled and matured entirely at Sakurao itself. 40%, 700 ml.",
+			"name_ja": "戸河内 ブレンデッドウイスキー",
+			"description_ja": "秘密はトンネルにあり。戸河内の川沿いの山に掘られた旧鉄道トンネルの中で、約14℃・湿度80%の環境下でゆっくり熟成され、天使の分け前がほぼゼロになるブレンドウイスキー。中国醸造(1918年創業、現サクラオ)が手がけ、伝統的に輸入したスコッチとカナディアンをブレンド。2021年のJSLMA規則以降、現行品はサクラオ蒸溜所の自社製ウイスキーのみで構成。40%、700ml。",
+			"name_fr": "Togouchi Blended Whisky",
+			"description_fr": "Le secret est le tunnel : ce blend de whiskies de malt et de grain vieillit dans un ancien tunnel ferroviaire creusé dans la montagne près de la rivière Togouchi, à environ 14 °C et 80 % d'humidité, où la part des anges tombe presque à zéro. Produit par Chugoku Jozo — aujourd'hui Sakurao, fondée en 1918 —, il combinait traditionnellement des whiskies écossais et canadiens importés. Depuis la règle JSLMA de 2021, la version actuelle est distillée et vieillie entièrement à Sakurao. 40 %, 700 ml.",
+			"distillery_id": "sakurao",
+			"influencer_videos": [
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=Xadupy0xsq4",
+				"label": "リニューアル戸河内のコスパがヤバい",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=gtqRVYzGOLc",
+				"label": "戸河内プレミアムの正直レビュー",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=vq6iYZMMxnY",
+				"label": "新ジャパニーズブレンデッド戸河内",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=U-21ACLl7m0",
+				"label": "ブレンデッドジャパニーズウイスキー戸河内PREMIUM",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=-SoZqV9AaPY",
+				"label": "Togouchi Japanese Whisky - Nerds Drink Whiskey #243",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=mOLssT4iWYM",
+				"label": "Togouchi Japanese Blended Whisky - Talking Malts",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=m2aPTUnCIes",
+				"label": "RAR - Togouchi Blended Japanese whiskey",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=r4MtBpV0PN8",
+				"label": "Japanese Whisky HIROSHIMA Togouchi!",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "pt",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=GNNnIU2OXJo",
+				"label": "Togouchi Premium — Whiskys Japonês",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "fr",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=DvjvKowg7YM",
+				"label": "Dégustation Togouchi Blended Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+		{
+			"featured": false,
+			"video": null,
+			"origin": "canada",
+			"region": "Canadian Whisky",
+			"volume": "750 ml",
+			"abv": 40,
+			"url": "",
+			"id": "crown-royal-deluxe",
+			"slug": "crown-royal-deluxe",
+			"name": "Crown Royal Deluxe",
+			"description": "El blended canadiense creado en 1939 como homenaje a la primera gira de los reyes Jorge VI e Isabel por Canadá, y embotellado en su icónica bolsa de terciopelo púrpura. Mezcla de unos 50 whiskies — la mayoría de centeno, maíz y cebada de columna — madurados en roble nuevo carbonizado y barricas de bourbon, que se combinan y re-acaban en Gimli, Manitoba. Aroma de vainilla, maíz y roble dulce; paladar cremoso de toffee y especias; final suave y limpio. 40°, 750 ml.",
+			"image": "/data/images/crown-royal-deluxe.webp",
+			"age": null,
+			"cask": "Nuevo roble carbonizado y ex-bourbon",
+			"name_pt": "Crown Royal Deluxe",
+			"description_pt": "O blended canadiano criado em 1939 em homenagem à primeira gira dos reis Jorge VI e Isabel pelo Canadá, engarrafado na icónica bolsa de veludo roxo. Mistura de cerca de 50 uísques — maioritariamente de centeio, milho e cevada de coluna — amadurecidos em carvalho novo carbonizado e barricas de bourbon, combinados e re-acabados em Gimli, Manitoba. Aroma de baunilha, milho e carvalho doce; paladar cremoso de caramelo e especiarias; final suave e limpo. 40%, 750 ml.",
+			"name_en": "Crown Royal Deluxe",
+			"description_en": "The Canadian blend created in 1939 to honour the first royal tour of George VI and Queen Elizabeth across Canada, dressed in its iconic purple velvet bag. A marriage of around 50 whiskies — mostly column rye, corn and barley — matured in new charred oak and ex-bourbon barrels, married and re-finished in Gimli, Manitoba. Vanilla, corn and sweet oak notes on the nose; creamy toffee and spice on the palate; soft, clean finish. 40%, 750 ml.",
+			"name_ja": "クラウン・ロイヤル デラックス",
+			"description_ja": "1939年、英国王ジョージ6世夫妻のカナダ初訪問を記念して生まれたカナディアンブレンド。象徴的な紫色のベルベットバッグがトレードマーク。カラムスチルで蒸留したライ麦・コーン・大麦を主体とする約50種の原酒をニューオークとバーボン樽で熟成し、マニトバ州ギムリでブレンドします。バニラとコーン、甘いオークの香り。トフィーのようなクリーミーでスパイシーな味わい、スムースでクリーンなフィニッシュ。40%、750ml。",
+			"name_fr": "Crown Royal Deluxe",
+			"description_fr": "Le blended canadien créé en 1939 en hommage à la première tournée royale de George VI et de la reine Elizabeth au Canada, dans son iconique sac de velours pourpre. Un mariage d'une cinquantaine de whiskies — surtout du seigle, du maïs et de l'orge en colonne — vieillis en chêne neuf carbonisé et en fûts de bourbon, assemblés et reposés à Gimli, au Manitoba. Vanille, maïs et chêne doux au nez ; toffee crémeux et épices en bouche ; finale douce et nette. 40 %, 750 ml.",
+			"distillery_id": "crown-royal",
+			"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=Q2ZhL11OwBE",
+				"label": "Crown Royal Deluxe Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=Er7yPtUIduY",
+				"label": "Crown Royal Fine De Luxe Canadian Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=5IOCYB3eU_A",
+				"label": "Crown Royal Fine De Luxe Canadian Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=sWGPOV_XtPw",
+				"label": "Crown Royal Deluxe Canadian Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=v3smcan1vME",
+				"label": "クラウンローヤル（ストレート）",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=FTVr-vo8DlE",
+				"label": "カナディアンウイスキーのクラウンローヤルをオススメ",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=jE4yBx0a2UQ",
+				"label": "泥酔前にクラウンローヤルをレビュー",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=5qa1i7vGbpE",
+				"label": "全米No1ブランドの実力 クラウンローヤル",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=R5ccZ9sQryU",
+				"label": "Crown Royal Fine de Luxe. Whisky Canadiense",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=fB1DFfvddSo",
+				"label": "Probemos Crown Royal (Reseña y Cata)",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "pt",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=xn_135x0-D0",
+				"label": "Crown Royal Fine de Luxe Blended Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "pt",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=loj4ht7vnRI",
+				"label": "Crown Royal, o whisky canadense de 1939",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+		{
+			"featured": false,
+			"video": null,
+			"origin": "canada",
+			"region": "Canadian Whisky",
+			"volume": "750 ml",
+			"abv": 45,
+			"url": "",
+			"id": "crown-royal-northern-harvest-rye",
+			"slug": "crown-royal-northern-harvest-rye",
+			"name": "Crown Royal Northern Harvest Rye",
+			"description": "El primer centeno de Crown Royal (2015) y el primer canadiense nombrado 'World Whisky of the Year' en la Whisky Bible de Jim Murray 2016, con 97,5/100. Mezcla elaborada desde 90% de whisky de centeno, madurada en roble nuevo carbonizado y re-ensamblada en Gimli, Manitoba. Aroma de especias de repostería, cereales y roble claro; paladar de mantequilla de caramelo, vainilla especiada y pimienta suave; final cremoso y elegante. 45°, 750 ml.",
+			"image": "/data/images/crown-royal-northern-harvest-rye.webp",
+			"age": null,
+			"cask": "Nuevo roble carbonizado (90% centeno)",
+			"name_pt": "Crown Royal Northern Harvest Rye",
+			"description_pt": "O primeiro centeio da Crown Royal (2015) e o primeiro canadiano nomeado 'World Whisky of the Year' na Whisky Bible de Jim Murray 2016, com 97,5/100. Blend com 90% de uísque de centeio, amadurecido em carvalho novo carbonizado e re-assemblado em Gimli, Manitoba. Aroma de especiarias de pastelaria, cereais e carvalho leve; paladar de caramelo, baunilha especiada e pimenta suave; final cremoso e elegante. 45%, 750 ml.",
+			"name_en": "Crown Royal Northern Harvest Rye",
+			"description_en": "Crown Royal's first rye (2015) and the first Canadian ever named 'World Whisky of the Year' in Jim Murray's Whisky Bible 2016, with 97.5/100. A blend crafted from at least 90% rye whisky, matured in new charred oak and re-married in Gimli, Manitoba. Baking-spice, cereal and light-oak nose; butterscotch, spiced vanilla and soft pepper on the palate; creamy, refined finish. 45%, 750 ml.",
+			"name_ja": "クラウン・ロイヤル ノーザン・ハーヴェスト・ライ",
+			"description_ja": "2015年に登場したクラウンローヤル初のライウイスキーで、ジム・マレーの『Whisky Bible 2016』でカナディアン初の世界年間最優秀ウイスキーに輝いた一本(97.5/100)。90%以上のライ麦原酒を、チャーしたニューオークで熟成し、マニトバ州ギムリで再ブレンド。ベーキングスパイスと穀物、軽やかなオークの香り。バタースコッチとスパイスを効かせたバニラ、やわらかなペッパーの味わい。クリーミーで上品なフィニッシュ。45%、750ml。",
+			"name_fr": "Crown Royal Northern Harvest Rye",
+			"description_fr": "Le premier seigle de Crown Royal (2015) et le premier canadien élu « World Whisky of the Year » dans la Whisky Bible 2016 de Jim Murray, avec 97,5/100. Un blend d'au moins 90 % de whisky de seigle, vieilli en chêne neuf carbonisé et réassemblé à Gimli, au Manitoba. Nez d'épices de pâtisserie, de céréales et de chêne léger ; beurre-caramel, vanille épicée et poivre doux en bouche ; finale crémeuse et raffinée. 45 %, 750 ml.",
+			"distillery_id": "crown-royal",
+			"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=Y8-l76kwLdc",
+				"label": "Crown Royal Northern Harvest Rye - Whisky.com",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=zjGMqvWkvqU",
+				"label": "Crown Royal Northern Harvest Rye | No Nonsense #60",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=kaAMN5F--kA",
+				"label": "Crown Royal Northern Harvest Rye Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=6xL8Opeh7aM",
+				"label": "Crown Royal Northern Harvest Rye Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=IDs2201hAD8",
+				"label": "2016年世界一のクラウンローヤルNHR",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=00pVNpZnMI0",
+				"label": "Crown Royal Northern Harvest Rye",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "pt",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=3I5kZ_eOedQ",
+				"label": "O melhor whisky do mundo: Crown Royal Rye",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "pt",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=u7Lj80fin3U",
+				"label": "Crown Royal Northern Harvest Review 180",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+		{
+			"featured": false,
+			"video": null,
+			"origin": "canada",
+			"region": "Canadian Whisky",
+			"volume": "750 ml",
+			"abv": 40,
+			"url": "",
+			"id": "canadian-club-12-year-old",
+			"slug": "canadian-club-12-year-old",
+			"name": "Canadian Club 12 Year Old",
+			"description": "El 12 años clásico de Canadian Club, 'blended at birth': los whiskies de grano y malta se mezclan antes de tocar la barrica, de modo que maduran juntos. Tras 12 años en roble blanco americano carbonizado, el whisky se vuelve a mezclar en cacharras y se embotella al 40%. Aroma de caramelo, vainilla, miel y roble; paladar dulce y redondo de toffee, fruta y especias; final medio, limpio y cálido. 750 ml.",
+			"image": "/data/images/canadian-club-12-year-old.webp",
+			"age": 12,
+			"cask": "Ex-bourbon de roble blanco americano recarbonizado",
+			"name_pt": "Canadian Club 12 Year Old",
+			"description_pt": "O 12 anos clássico da Canadian Club, 'blended at birth': os uísques de grão e malte são misturados antes de tocarem as barricas, para que amadureçam juntos. Após 12 anos em carvalho branco americano carbonizado, o uísque é re-misturado em tinas e engarrafado a 40%. Aroma de caramelo, baunilha, mel e carvalho; paladar doce e redondo de toffee, fruta e especiarias; final médio, limpo e quente. 750 ml.",
+			"name_en": "Canadian Club 12 Year Old",
+			"description_en": "Canadian Club's classic 12-year-old, 'blended at birth': the grain and malt whiskies are married before they ever touch a barrel, so they mature together. After 12 years in re-charred American white oak, the whisky is re-married in vats and bottled at 40%. Caramel, vanilla, honey and oak notes on the nose; a sweet, rounded toffee, fruit and spice palate; a medium, clean and warming finish. 750 ml.",
+			"name_ja": "カナディアンクラブ 12年",
+			"description_ja": "カナディアンクラブの定番12年、『ブレンデッド・アット・バース』製法。樽詰め前にグレーンとモルトをブレンドし、一緒に熟成させるのが特徴。炭化したアメリカンホワイトオークで12年熟成後、タンクで再ブレンドして40%で瓶詰め。キャラメル、バニラ、ハチミツ、オークの香り。トフィーと果実、スパイスの甘く丸みのある味わい。ミディアムでクリーン、暖かなフィニッシュ。750ml。",
+			"name_fr": "Canadian Club 12 Year Old",
+			"description_fr": "Le 12 ans classique de Canadian Club, « blended at birth » : les whiskies de grain et de malt sont assemblés avant de toucher aux fûts, pour qu'ils vieillissent ensemble. Après 12 ans en chêne blanc américain recarbonisé, le whisky est ré-assemblé en cuves et embouteillé à 40 %. Nez de caramel, vanille, miel et chêne ; palais doux et rond de toffee, de fruits et d'épices ; finale moyenne, nette et chaleureuse. 750 ml.",
+			"distillery_id": "canadian-club",
+			"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=sPa-AabWQgc",
+				"label": "Canadian Club Classic 12 Years Old Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=5lv4H3iSlb8",
+				"label": "Canadian Club 12 yr review. Is it good?",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=-fa9EklKwg0",
+				"label": "Canadian Club 12 Year Canadian Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=w9NtiCVytqQ",
+				"label": "カナディアンクラブ12年 2000円で買える推しウイスキー",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=EZ-7hLKJjBo",
+				"label": "カナディアンクラブ12年 濃厚キャラメルの化身",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=3HBzSEWWTok",
+				"label": "最安12年！？カナディアンクラブ12年をレビュー",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=bWPyQYfB-Tk",
+				"label": "禁酒法で飛躍したカナディアンクラブ12年",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=VYKRIyb1XLs",
+				"label": "Canadian Club Classic 12 años",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
 	]
 }

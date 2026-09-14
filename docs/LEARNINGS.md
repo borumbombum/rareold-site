@@ -1,6 +1,14 @@
 # Learnings
 
-## 2026-09-13 — Batch: 5 Japan whiskies 3 (Mars Komagatake, Mars Maltage Cosmo, Akkeshi Kanro, Kanosuke, Shizuoka Pot Still K)
+## 2026-09-14 — Batch: Canada debut + Japan blend pair (Hatozaki, Togouchi, Crown Royal Deluxe, Crown Royal NHR Rye, Canadian Club 12)
+
+- **Canada needed zero config: origin `canada`, region `canadian-whisky` and the distillery anchor existed via the Legacy product.** `crown-royal` and `canadian-club` simply reused the region string "Canadian Whisky" (value `canada-canadian-whisky`, sort 3).
+- **Anchor rule refined: "brand at owner HQ" only applies when there's no producing site. Sui generis sole sites win** — Gimli and Hiram Walker are the single distillation homes of their brands, so the producing-distillery record is the right anchor. This matched the 085 Hombo precedent (producing site over HQ office).
+- **Distillery founded-year = the distillery, not the company:** Sakurao = 2017 (building; whisky from 2018) vs Chugoku Jozo = 1918. The 1918 went into the description text.
+- **A "tunnel-aged" producer is a great search win:** Togouchi's railway-tunnel maturation surfaced 4 ja + 4 en + pt + fr exact reviews (10 videos) — the highest single-product haul this batch alongside CR Deluxe (12).
+- **Videos come in as `videos` in the export**: the Turso influencer_videos join lands on the `videos` key in `src/lib/data/whiskies.json`, not the seed's `influencer_videos`.
+- **Image sourcing ranked by failure-tolerance:** official CDNs (Contentful) can 404; LCBO is JS-rendered; ReserveBar's og:image (liquidcommerce) was the reliable Canadian source.
+- **DB after 086: 193 distilleries / 427 products / 4300 influencer videos / 42 regions** (unchanged). Queue pending 37 → 32.
 
 - **Region auto-creation extends to islands:** `japan-kyushu` was born just by writing `"region": "Kyushu"` on Kanosuke — same zero-config behavior as Hokkaido and the US states. Japan now covers three islands (Honshu, Hokkaido, Kyushu).
 - **Queue names can lag reality by years, and the truth wins:** "Mars Shinshu" → officially Mars Komagatake Distillery (2024). The distillery record carries the current name with the founding year (1985) intact.
