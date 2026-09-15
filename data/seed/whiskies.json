@@ -40799,5 +40799,532 @@
 			}
 			]
 		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "canada",
+		"region": "Canadian Whisky",
+		"volume": "750 ml",
+		"abv": 43,
+		"url": "",
+		"id": "lot-40-rye",
+		"slug": "lot-40-rye",
+		"name": "Lot No. 40 Canadian Rye Whisky",
+		"description": "El rye whisky 100% de centeno de Hiram Walker, destilado en un alambique de cobre de 12.000 litros y madurado en roble blanco americano virgen muy carbonizado a la manera de las recetas canadienses de antes de la Segunda Guerra Mundial. Lanzado originalmente en 1998 y relanzado en 2012 con centeno molido en la propia destilería, devolvió el centeno puro al panorama canadiense. Aroma especiado de centeno y menta; paladar de canela, vainilla y roble dulce; final medio, seco y limpio. 43%, 750 ml.",
+		"image": "/data/images/lot-40-rye.webp",
+		"age": null,
+		"cask": "Roble blanco americano virgen muy carbonizado",
+		"name_pt": "Lot No. 40 Canadian Rye Whisky",
+		"description_pt": "O rye whisky 100% centeio da Hiram Walker, destilado em alambique de cobre de 12.000 litros e maturado em carvalho branco americano virgem bem carbonizado, no estilo das receitas canadianas anteriores à Segunda Guerra. Lançado originalmente em 1998 e relançado em 2012 com centeio moído na própria destilaria, devolveu o centeio puro ao panorama canadiano. Aroma picante de centeio e menta; paladar de canela, baunilha e carvalho doce; final médio, seco e limpo. 43%, 750 ml.",
+		"name_en": "Lot No. 40 Canadian Rye Whisky",
+		"description_en": "Hiram Walker's 100% rye whisky, distilled in a 12,000-litre copper pot still and matured in heavily charred virgin American white oak, after the pre-War Canadian recipes. First released in 1998 and relaunched in 2012 with rye ground on site, it brought pure rye back to the Canadian scene. Spicy rye and mint on the nose; cinnamon, vanilla and sweet oak on the palate; a medium, dry and clean finish. 43%, 750 ml.",
+		"name_ja": "ロットNo.40 カナディアンライウイスキー",
+		"description_ja": "ハイラム・ウォーカーが造る100%ライ麦のライウイスキー。1万2000リットルの銅製ポットスチルで蒸留し、火入れの強い未使用のアメリカンホワイトオークで熟成。戦前のカナディアンレシピに倣い、1998年に発売され、2012年に自社粉砕のライ麦で復活しました。スパイシーなライ麦とミントの香り、シナモン・バニラ・甘いオークの味わい。ミディアムでドライ、クリーンなフィニッシュ。43%、750ml。",
+		"name_fr": "Lot No. 40 Canadian Rye Whisky",
+		"description_fr": "Le rye whisky 100 % seigle de Hiram Walker, distillé dans un alambic en cuivre de 12 000 litres et vieilli en chêne blanc américain vierge fortement carbonisé, dans la lignée des recettes canadiennes d'avant-guerre. Lancé en 1998 et relancé en 2012 avec un seigle moulu sur place, il a ramené le seigle pur au premier plan canadien. Nez épicé de seigle et de menthe ; palais de cannelle, vanille et chêne doux ; finale moyenne, sèche et nette. 43 %, 750 ml.",
+		"distillery_id": "canadian-club",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=YRmqjIe_owU",
+				"label": "Whisky Review/Tasting: Lot No. 40",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=yr6sA8uPGrI",
+				"label": "Lot 40 Rye Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=f8433a21SUA",
+				"label": "Lot 40 Canadian Rye Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=wU89mOBhK0k",
+				"label": "A Canadian CLASSIC! || Lot 40 Canadian Rye Whisky REVIEW",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=3cl48LaWH7Q",
+				"label": "LOT 40 Whisky de Canada / RYE Centeno",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "canada",
+		"region": "Canadian Whisky",
+		"volume": "750 ml",
+		"abv": 40,
+		"url": "",
+		"id": "jp-wisers-18-year-old",
+		"slug": "jp-wisers-18-year-old",
+		"name": "J.P. Wiser's 18 Year Old",
+		"description": "El buque insignia añejo de J.P. Wiser's: whisky canadiense de maíz 100% destilado en doble columna y madurado al menos 18 años en barricas de Canadian whisky, en el clima del sur de Ontario. Elegido Whisky Canadiense del Año 2013 por Whisky Advocate. Aroma de roble maduro, frutas y notas florales de otoño; paladar de manzana al horno, caramelo y especias; final profundo, redondo y persistente. 40%, 750 ml.",
+		"image": "/data/images/jp-wisers-18-year-old.webp",
+		"age": 18,
+		"cask": "Barricas de Canadian whisky (ex-bourbon reutilizadas)",
+		"name_pt": "J.P. Wiser's 18 Year Old",
+		"description_pt": "O principal envelhecido da J.P. Wiser's: uísque canadiano de milho 100% destilado em coluna dupla e maturado pelo menos 18 anos em barricas de Canadian whisky, no clima do sul de Ontário. Eleito Uísque Canadiano do Ano 2013 pela Whisky Advocate. Aroma de carvalho maduro, fruta e notas florais de outono; paladar de maçã assada, caramelo e especiarias; final profundo, redondo e persistente. 40%, 750 ml.",
+		"name_en": "J.P. Wiser's 18 Year Old",
+		"description_en": "J.P. Wiser's flagship aged whisky: a 100% corn Canadian whisky distilled in a double column still and matured for at least 18 years in Canadian whisky barrels, in the climate of southern Ontario. Named Whisky Advocate's Canadian Whisky of the Year 2013. Mature oak, fruit and autumn floral notes on the nose; baked apple, caramel and spice on the palate; a deep, round and persistent finish. 40%, 750 ml.",
+		"name_ja": "J.P.ワイザーズ 18年",
+		"description_ja": "J.P.ワイザーズのフラッグシップ長期熟成。100%コーンをダブルカラムで蒸留し、オンタリオ南部の気候でカナディアンウイスキー樽に18年以上熟成。2013年『ウイスキー・アドヴォケイト』年間カナディアンウイスキー受賞。熟成オークと果実、秋のフローラルな香り。焼きリンゴ、キャラメル、スパイスの味わい。深く丸みのある長いフィニッシュ。40%、750ml。",
+		"name_fr": "J.P. Wiser's 18 Year Old",
+		"description_fr": "Le vaisseau amiral vieilli de J.P. Wiser's : un whisky canadien 100 % maïs distillé en colonne double et vieilli au moins 18 ans en fûts de Canadian whisky, dans le climat du sud de l'Ontario. Élu Whisky Canadien de l'Année 2013 par Whisky Advocate. Nez de chêne mûr, de fruits et de fleurs d'automne ; palais de pomme au four, caramel et épices ; finale profonde, ronde et persistante. 40 %, 750 ml.",
+		"distillery_id": "canadian-club",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=SYgD9sZj5Eo",
+				"label": "J.P. Wiser's 18 Year Old Canadian Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=5cRzWBidvwY",
+				"label": "Wiser's 18 year old review. Whisky in the 6 #10",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=UpOXW8d-eAE",
+				"label": "Whisky Review/Tasting: J.P. Wiser's 18 Years",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=6PtjHGJMXe8",
+				"label": "Wisers 18yo Canadian Whisky review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "canada",
+		"region": "Canadian Whisky",
+		"volume": "750 ml",
+		"abv": 45,
+		"url": "",
+		"id": "alberta-premium-dark-horse",
+		"slug": "alberta-premium-dark-horse",
+		"name": "Alberta Premium Dark Horse",
+		"description": "Blend de rye canadiense de Alberta Distillers (Calgary) lanzado en 2012 y ya legendario dentro del centeno: rye añejo de 12 años a alta graduación madurado en barricas usadas, rye de pot still de 6 años en madera nueva y una pequeña proporción de bourbon estadounidense y de jerez Oloroso. En su momento fue el centeno que la comunidad internacional redescubrió, y su receta influyó en el Cask Strength que conquistó el mundo en 2021. Discontinuado hacia 2021. 45%, 750 ml.",
+		"image": "/data/images/alberta-premium-dark-horse.webp",
+		"age": null,
+		"cask": "Barricas ex-bourbon usadas y roble blanco americano nuevo carbonizado",
+		"name_pt": "Alberta Premium Dark Horse",
+		"description_pt": "Blend de rye canadiano da Alberta Distillers (Calgary) lançado em 2012 e já lendário no mundo do centeio: rye envelhecido de 12 anos a alta graduação maturado em barricas usadas, rye de pot still de 6 anos em madeira nova e uma pequena proporção de bourbon norte-americano e xerez Oloroso. Na altura, foi o centeio que a comunidade internacional redescobriu, e a sua receita influenciou o Cask Strength que conquistou o mundo em 2021. Descontinuado por volta de 2021. 45%, 750 ml.",
+		"name_en": "Alberta Premium Dark Horse",
+		"description_en": "Alberta Distillers' (Calgary) Canadian rye blend launched in 2012 and already legendary among rye drinkers: high-proof 12-year-old rye matured in used barrels, 6-year-old pot-still rye in new oak, plus small proportions of US bourbon and Oloroso sherry. It was the rye the international community rediscovered, and its recipe shaped the Cask Strength that conquered the world in 2021. Discontinued around 2021. 45%, 750 ml.",
+		"name_ja": "アルバータ・プレミアム・ダークホース",
+		"description_ja": "アルバータ・ディスティラーズ(カルガリー)が2012年に発売した、ライ愛好家の間で伝説的となったカナディアンライのブレンド。高アルコールの12年ライを中古樽で、6年ポットスチルライを新樽で熟成し、少量のアメリカン・バーボンとオロロソ・シェリーをブレンド。世界が再発見したライウイスキーで、このレシピが2021年に世界を制したカスクストレングスへと受け継がれました。2021年頃に製造終了。45%、750ml。",
+		"name_fr": "Alberta Premium Dark Horse",
+		"description_fr": "Blend de seigle canadien d'Alberta Distillers (Calgary) lancé en 2012, déjà légendaire chez les amateurs : seigle de 12 ans haute preuve vieilli en fûts usagés, seigle d'alambic de 6 ans en chêne neuf, plus de petites parts de bourbon américain et de xérès Oloroso. Ce fut le seigle que la communauté internationale a redécouvert, et sa recette a façonné le Cask Strength qui a conquis le monde en 2021. Discontinué vers 2021. 45 %, 750 ml.",
+		"distillery_id": "alberta-distillers",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=2gyGCUMjeho",
+				"label": "Alberta Premium Dark Horse Canadian Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=qoVubEFQbt0",
+				"label": "Alberta Premium Dark Horse Canadian Whiskey Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=BVPc30H_CkI",
+				"label": "Alberta Premium Dark Horse Canadian Rye Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=cyojkPOikkE",
+				"label": "Alberta Premium Dark Horse from Distillery of the Decade Alberta Distillers",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "canada",
+		"region": "Canadian Whisky",
+		"volume": "750 ml",
+		"abv": 40,
+		"url": "",
+		"id": "forty-creek-barrel-select",
+		"slug": "forty-creek-barrel-select",
+		"name": "Forty Creek Barrel Select",
+		"description": "El emblemático blend de tres granos de Forty Creek (Grimsby, Ontario): centeno, cebada y maíz destilados por separado y madurados de forma individual antes de ensamblarse, cuando cada componente tiene entre 6 y 10 años. El corazón se cría en ex-bourbon y roble blanco americano nuevo, y el conjunto recibe un final de unos 6 meses en barricas de jerez. Aroma de caramelo, frutos secos y fruta madura; paladar suave de caramelo, toffee y especias; final cálido y envolvente. 40%, 750 ml.",
+		"image": "/data/images/forty-creek-barrel-select.webp",
+		"age": null,
+		"cask": "Ex-bourbon, roble blanco americano nuevo y final en jerez",
+		"name_pt": "Forty Creek Barrel Select",
+		"description_pt": "O emblemático blend de três cereais da Forty Creek (Grimsby, Ontário): centeio, cevada e milho destilados separadamente e maturados individualmente antes de serem misturados, quando cada componente tem entre 6 e 10 anos. O coração amadurece em ex-bourbon e carvalho branco americano novo, e o conjunto recebe um final de cerca de 6 meses em barricas de xerez. Aroma de caramelo, frutos secos e fruta madura; paladar suave de caramelo, toffee e especiarias; final quente e envolvente. 40%, 750 ml.",
+		"name_en": "Forty Creek Barrel Select",
+		"description_en": "Forty Creek's (Grimsby, Ontario) signature three-grain blend: rye, barley and corn distilled separately and aged on their own before being married, when each component is between 6 and 10 years old. The heart is matured in ex-bourbon and new American white oak, then the whole receives a ~6-month sherry finish. Caramel, dried fruit and ripe fruit on the nose; a soft caramel, toffee and spice palate; a warm, enveloping finish. 40%, 750 ml.",
+		"name_ja": "フォーティクリーク・バレルセレクト",
+		"description_ja": "フォーティクリーク(オンタリオ州グリムズビー)の看板スリーボトニック・ブレンド。ライ麦、大麦、コーンを別々に蒸留し、各6〜10年熟成させてからブレンドします。ベースはバーボン樽と新しいアメリカンホワイトオークで熟成し、全体に約6か月のシェリー樽仕上げ。キャラメル、ドライフルーツ、熟した果実の香り。滑らかなキャラメル、トフィー、スパイスの味わい。暖かく包み込むようなフィニッシュ。40%、750ml。",
+		"name_fr": "Forty Creek Barrel Select",
+		"description_fr": "Le blend signature de trois grains de Forty Creek (Grimsby, Ontario) : seigle, orge et maïs distillés séparément puis vieillis à part avant d'être assemblés, chaque composant ayant entre 6 et 10 ans. Le cœur mûrit en ex-bourbon et chêne blanc américain neuf, puis l'ensemble reçoit une finale d'environ 6 mois en fûts de xérès. Nez de caramel, de fruits secs et de fruits mûrs ; palais doux de caramel, toffee et épices ; finale chaude et enveloppante. 40 %, 750 ml.",
+		"distillery_id": "forty-creek",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=gAUiLhGfsB4",
+				"label": "Forty Creek Barrel Select Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=YhNOTgQljLk",
+				"label": "My Whiskey Journey Episode 87 Forty Creek Barrel Select",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=MJ0F0ooC8Bk",
+				"label": "Forty Creek Barrel Select Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=mhb8cIaafFw",
+				"label": "Forty Creek Barrel Select. Whisky in the 6 #50",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=YF_Og-6EAUg",
+				"label": "Whisky Canadiense - Forty Creek Barrel Select",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "canada",
+		"region": "Canadian Whisky",
+		"volume": "750 ml",
+		"abv": 43,
+		"url": "",
+		"id": "glenora-canadian-single-malt",
+		"slug": "glenora-canadian-single-malt",
+		"name": "Glen Breton Rare 10 Year Old",
+		"description": "El primer single malt de Norteamérica, destilado en la isla de Cape Breton (Nueva Escocia) por Glenora. Creado en 1990 por Bruce Jardine, se convirtió en 'North America's first single malt whisky' y su Rare 10 Year Old fue la primera expresión, salida en 2000. Dos años y medio de maduración inicial y más de 7 años de reposo en roble americano de barricas de bourbon, sin turba, capturando el clima marítimo del Atlántico. Aroma de caramelo, fruta y un toque salino; paladar de toffee, vainilla y manzana; final medio, dulce y suave. 43%, 750 ml.",
+		"image": "/data/images/glenora-canadian-single-malt.webp",
+		"age": 10,
+		"cask": "Roble blanco americano (barricas de bourbon)",
+		"name_pt": "Glen Breton Rare 10 Year Old",
+		"description_pt": "O primeiro single malt da América do Norte, destilado na ilha de Cape Breton (Nova Escócia) pela Glenora. Criado em 1990 por Bruce Jardine, tornou-se o 'primeiro single malt da América do Norte', e o Rare 10 Year Old foi a primeira expressão, lançada em 2000. Dois anos e meio de maturação inicial e mais de 7 anos de repouso em carvalho americano de barricas de bourbon, sem turfa, capturando o clima marítimo do Atlântico. Aroma de caramelo, fruta e um toque salino; paladar de toffee, baunilha e maçã; final médio, doce e suave. 43%, 750 ml.",
+		"name_en": "Glen Breton Rare 10 Year Old",
+		"description_en": "North America's first single malt, distilled on Cape Breton Island (Nova Scotia) at Glenora. Created in 1990 by Bruce Jardine, it became 'North America's first single malt whisky', and the Rare 10 Year Old was its first expression, released in 2000. About two and a half years of initial maturation plus over seven years resting in American oak bourbon casks, unpeated, in the Atlantic maritime climate. Caramel, fruit and a saline touch on the nose; toffee, vanilla and apple on the palate; a medium, sweet and soft finish. 43%, 750 ml.",
+		"name_ja": "グレンブレトン・レア 10年",
+		"description_ja": "北米初のシングルモルト。ノバスコシア州ケープブレトン島のグレノーラ蒸溜所が製造。1990年にブルース・ジャーデインが創業し、「北米初のシングルモルトウイスキー」となりました。初の商品であるレア10年は2000年発売。蒸留後2年半の一次熟成の後、バーボン樽のアメリカンオークで7年以上静かに熟成。ノンピートで大西洋の海辺の気候をとらえています。キャラメル、果実、塩気の香り。トフィー、バニラ、リンゴの味わい。ミディアムで甘く柔らかなフィニッシュ。43%、750ml。",
+		"name_fr": "Glen Breton Rare 10 Year Old",
+		"description_fr": "Le premier single malt d'Amérique du Nord, distillé sur l'île du Cap-Breton (Nouvelle-Écosse) par Glenora. Créée en 1990 par Bruce Jardine, elle est devenue « le premier single malt d'Amérique du Nord », et son Rare 10 Year Old en fut la première expression, sortie en 2000. Environ deux ans et demi de maturation initiale puis plus de sept ans de repos en chêne américain de fûts de bourbon, non tourbé, dans le climat maritime de l'Atlantique. Nez de caramel, de fruits et une touche saline ; palais de toffee, vanille et pomme ; finale moyenne, douce et souple. 43 %, 750 ml.",
+		"distillery_id": "glenora",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=5RVrTMLEchU",
+				"label": "ralfy review 1001 - Glen Breton Canadian 10yo @43%",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=DXvpMHTPqmI",
+				"label": "Whisky of the Year 2017 Glen Breton 10 Year Single Malt",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=s9cTD2qq1vs",
+				"label": "Whisky Pick: Glen Breton Rare 10",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=RfVC3yW_Re8",
+				"label": "Glen Breton Rare 10-year Single Malt Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "canada",
+		"region": "Canadian Whisky",
+		"volume": "750 ml",
+		"abv": 46,
+		"url": "",
+		"id": "shelter-point-single-malt",
+		"slug": "shelter-point-single-malt",
+		"name": "Shelter Point Classic Single Malt",
+		"description": "El single malt insignia de Shelter Point (Campbell River, isla de Vancouver, Canadá), la destilería que Patrick Evans montó junto a la granja de su familia. Cebada canadiense 100 % malteada de Columbia Británica, doble destilación en alambiques de cobre de Forsyths y maduración en barricas de bourbon de roble americano de primer uso. Sin colorante ni filtrado en frío, guarda el clima marítimo del estrecho de Georgia: aroma a manzana, cereales y un toque salino; en boca, miel, vainilla y especias suaves. 46%, 750 ml. Antes de 2022 se llamó 'Artisanal Single Malt'.",
+		"image": "/data/images/shelter-point-single-malt.webp",
+		"age": null,
+		"cask": "Barricas de bourbon de roble americano de primer uso",
+		"name_pt": "Shelter Point Classic Single Malt",
+		"description_pt": "O single malt de referência da Shelter Point (Campbell River, ilha de Vancouver, Canadá), a destilaria que Patrick Evans montou junto à quinta da sua família. Cevada canadiana 100 % maltada da Colúmbia Britânica, dupla destilação em alambiques de cobre da Forsyths e maturação em barricas de bourbon de carvalho americano de primeiro uso. Sem corante nem filtração a frio, guarda o clima marítimo do estreito da Geórgia: aroma a maçã, cereais e um toque salino; na boca, mel, baunilha e especiarias suaves. 46%, 750 ml. Antes de 2022 chamava-se 'Artisanal Single Malt'.",
+		"name_en": "Shelter Point Classic Single Malt",
+		"description_en": "Shelter Point's (Campbell River, Vancouver Island, Canada) flagship single malt, from the distillery Patrick Evans built on his family farm. 100% malted British Columbia barley, double-distilled in Forsyths copper stills and matured in first-fill American oak bourbon casks. Uncoloured and non-chill filtered, it carries the maritime climate of the Strait of Georgia: apple, grain and a saline touch on the nose; honey, vanilla and soft spice on the palate. 46%, 750 ml. Known as 'Artisanal Single Malt' before 2022.",
+		"name_ja": "シェルター・ポイント・クラシック・シングルモルト",
+		"description_ja": "シェルター・ポイント(カナダ、バンクーバー島キャンベルリバー)の看板シングルモルト。自宅農場に開いた蒸溜所で、BC州産100%モルト大麦をフォーサイス銅製蒸溜器で二回蒸留し、初回使用のアメリカンオーク・バーボン樽で熟成。無着色・ノンチルフィルターで、ジョージア海峡の潮風を感じさせる海の気候のウイスキーです。香りはリンゴ、穀物、塩気。味わいは蜂蜜、バニラ、やわらかなスパイス。46%、750ml。2022年まで「アーティザナル・シングルモルト」と呼ばれていました。",
+		"name_fr": "Shelter Point Classic Single Malt",
+		"description_fr": "Le single malt signature de Shelter Point (Campbell River, île de Vancouver, Canada), la distillerie que Patrick Evans a bâtie sur la ferme familiale. Orge canadienne 100 % maltée de Colombie-Britannique, double distillation en alambics de cuivre Forsyths et maturation en fûts de bourbon de chêne américain de premier remplissage. Non coloré et non filtré à froid, il porte le climat maritime du détroit de Géorgie : nez de pomme, de céréales et une touche saline ; palais de miel, vanille et épices douces. 46 %, 750 ml. Connu sous le nom « Artisanal Single Malt » avant 2022.",
+		"distillery_id": "shelter-point",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=7QQkgSNGtdw",
+				"label": "Shelter Point Classic",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=4UJ89BuuiAg",
+				"label": "Shelter Point Canadian Artisanal Single Malt Whisky Video Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=gCm7KBE1VkM",
+				"label": "Shelter Point 7 Year Old Classic Single Malt Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=kOsz4Za9AP8",
+				"label": "Best Canadian Single Malt Shelter Point Artisanal Single Malt Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "canada",
+		"region": "Canadian Whisky",
+		"volume": "700 ml",
+		"abv": 46,
+		"url": "",
+		"id": "macaloneys-island-single-malt",
+		"slug": "macaloneys-island-single-malt",
+		"name": "Macaloney's An Loy Canadian Island Single Malt",
+		"description": "El single malt de referencia de Macaloney's Island Distillery (Saanichton, cerca de Victoria, isla de Vancouver, Canadá). 'An Loy' significa 'la llama' en gaélico. Doble destilado sin colorante ni filtrado en frío, madura en barricas que se reparten entre ex-bourbon de primer llenado y otros usos (STR de vino tinto, Oloroso y Pedro Ximénez). Aroma a manzana, cítricos, malta y un fondo de especias; paladar cremoso de miel, pera y jengibre. Salió al mercado como 'Glenloy' en 2020 y mantiene el oro de lo mejor de Canadá en los World Whiskies Awards 2022. 46%, 700 ml.",
+		"image": "/data/images/macaloneys-island-single-malt.webp",
+		"age": null,
+		"cask": "Ex-bourbon de primer llenado, STR de vino tinto, Oloroso y Pedro Ximénez",
+		"name_pt": "Macaloney's An Loy Canadian Island Single Malt",
+		"description_pt": "O single malt de referência da Macaloney's Island Distillery (Saanichton, perto de Victoria, ilha de Vancouver, Canadá). 'An Loy' significa 'a chama' em gaélico. Dupla destilação sem corante nem filtração a frio, matura em barricas repartidas entre ex-bourbon de primeiro enchimento e outros usos (STR de vinho tinto, Oloroso e Pedro Ximénez). Aroma a maçã, citrinos, malte e um fundo de especiarias; paladar cremoso de mel, pera e gengibre. Chegou ao mercado como 'Glenloy' em 2020 e mantém o ouro de Melhor do Canadá nos World Whiskies Awards 2022. 46%, 700 ml.",
+		"name_en": "Macaloney's An Loy Canadian Island Single Malt",
+		"description_en": "Macaloney's Island Distillery's (Saanichton, near Victoria, Vancouver Island, Canada) flagship single malt. 'An Loy' means 'the flame' in Gaelic. Double-distilled, uncoloured and non-chill filtered, it matures in a cask mix of first-fill ex-bourbon and other French-oak uses (red wine STR, Oloroso and Pedro Ximénez). Apple, citrus, malt and a spicy base on the nose; a creamy honey, pear and ginger palate. Launched as 'Glenloy' in 2020, it holds gold as Best in Canada at the 2022 World Whiskies Awards. 46%, 700 ml.",
+		"name_ja": "マカロニーズ・アン・ロイ・カナディアン・アイランド・シングルモルト",
+		"description_ja": "マカロニーズ・アイランド蒸溜所(カナダ、バンクーバー島ビクトリア近郊サーニクトン)の看板シングルモルト。「アン・ロイ」はゲール語で「炎」を意味します。無着色・ノンチルフィルターで二回蒸留し、初回使用のバーボン樽を中心に、フレンチオークのSTR(赤ワイン)、オロロソ、ペドロヒメネス樽などをブレンドした多様な樽で熟成。香りはリンゴ、柑橘、麦芽、スパイス。口当たりはクリーミーで蜂蜜、梨、ジンジャー。2020年に「グレンロイ」として発売され、2022年ワールド・ウイスキー・アワードでカナダ最優秀金賞を獲得しました。46%、700ml。",
+		"name_fr": "Macaloney's An Loy Canadian Island Single Malt",
+		"description_fr": "Le single malt signature de Macaloney's Island Distillery (Saanichton, près de Victoria, île de Vancouver, Canada). « An Loy » signifie « la flamme » en gaélique. Double distillation sans coloration ni filtration à froid, il mûrit dans des fûts partagés entre ex-bourbon de premier remplissage et d'autres usages (STR de vin rouge, Oloroso et Pedro Ximénez). Nez de pomme, d'agrumes, de malt et une base épicée ; palais crémeux de miel, poire et gingembre. Lancé sous le nom « Glenloy » en 2020, il détient l'or du Meilleur du Canada aux World Whiskies Awards 2022. 46 %, 700 ml.",
+		"distillery_id": "macaloneys",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=FLVy_9m8BMk",
+				"label": "Macaloney's An Loy Single Malt, 46%",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=t94c4_1PO2M",
+				"label": "Macaloney's Caledonian Glenloy Canadian Single Malt Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=gc1TBGQcPU0",
+				"label": "Macaloney's Caledonian Glenloy",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "china",
+		"region": "China",
+		"volume": "700 ml",
+		"abv": 40,
+		"url": "",
+		"id": "the-chuan-pure-malt",
+		"slug": "the-chuan-pure-malt",
+		"name": "The Chuan Pure Malt",
+		"description": "El primer whisky chino de Pernod Ricard, destilado a los pies del monte Emei (Sichán) bajo la dirección del maestro destilador Yang Tao. 'Diechuan' — 'corriente plegada' — madura en tres maderas: roble americano de bourbon, botas de jerez español y roble chino 'Cathay' (Quercus mongolica), y combina maltas de Europa y de China. Una pure malt joven, brillante y floral: aroma a vainilla, naranja y flores blancas; en boca exclusiva de fruta amarilla, jengibre y un final seco y limpio. 40%, 700 ml.",
+		"image": "/data/images/the-chuan-pure-malt.webp",
+		"age": null,
+		"cask": "Roble americano (bourbon), jerez español y roble chino 'Cathay'",
+		"name_pt": "The Chuan Pure Malt",
+		"description_pt": "O primeiro whisky chinês da Pernod Ricard, destilado aos pés do monte Emei (Sichuan) sob a direção do mestre destilador Yang Tao. 'Diechuan' — 'corrente dobrada' — amadurece em três madeiras: carvalho americano de bourbon, botas de xerez espanhol e carvalho chinês 'Cathay' (Quercus mongolica), e combina maltes da Europa e da China. Uma pure malt jovem, brilhante e floral: aroma a baunilha, laranja e flores brancas; na boca, fruta amarela, gengibre e um final seco e limpo. 40%, 700 ml.",
+		"name_en": "The Chuan Pure Malt",
+		"description_en": "Pernod Ricard's first Chinese whisky, distilled at the foot of Mount Emei (Sichuan) under master distiller Yang Tao. 'Diechuan' — 'folded current' — matures in three woods: American oak from bourbon, Spanish sherry butts and Chinese 'Cathay' oak (Quercus mongolica), blending malt from Europe and China. A young, bright, floral vatted malt: vanilla, orange and white flowers on the nose; yellow fruit, ginger and a dry, clean finish on the palate. 40%, 700 ml.",
+		"name_ja": "ザ・チュアン・ピュアモルト",
+		"description_ja": "ペルノ・リカール初の中国ウイスキー。マスターディスティラーのヤン・タオの指揮の下、中国・峨眉山の麓で蒸留されます。「ディーチュアン=折り重なる流れ」の名の通り、バーボン由来のアメリカンオーク、スペイン産シェリー樽、中国産「キャセイオーク」(モンギシカン)の3種類の材で熟成。ヨーロッパと中国のモルトをヴァッティングした、若々しく明るいフローラルな味わい。香りはバニラ、オレンジ、白い花。口に含むと黄色い果実、ジンジャー、ドライでキレの良いフィニッシュ。40%、700ml。",
+		"name_fr": "The Chuan Pure Malt",
+		"description_fr": "Le premier whisky chinois de Pernod Ricard, distillé au pied du mont Emei (Sichuan) sous la direction du maître distillateur Yang Tao. « Diechuan » — « courant plié » — mûrit dans trois bois : chêne américain de bourbon, fûts de xérès espagnol et chêne chinois « Cathay » (Quercus mongolica), en assemblant des malts d'Europe et de Chine. Un pure malt jeune, lumineux et florale : nez de vanille, d'orange et de fleurs blanches ; palais de fruits jaunes, gingembre et une finale sèche et nette. 40 %, 700 ml.",
+		"distillery_id": "the-chuan",
+		"influencer_videos": []
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "australia",
+		"region": "Tasmania",
+		"volume": "700 ml",
+		"abv": 47.5,
+		"url": "",
+		"id": "sullivans-cove-french-oak",
+		"slug": "sullivans-cove-french-oak",
+		"name": "Sullivans Cove French Oak",
+		"description": "La expresión que llevó a Sullivans Cove (Tasmania) a la cima del mundo: en 2014, la barrica HH0525 fue nombrada World's Best Single Malt en los World Whiskies Awards. Cada botella es un solo cask con tirada pequeña y numerada, madurado en barricas francesas que antes contuvieron tawny, vino blanco o pinot noir. Sin colorante ni filtrado en frío: aroma a ciruela, pasas, miel y especias dulces; paladar de cacao, frutos secos y naranja confitada, con final largo y cálido. 47,5% aprox., 700 ml.",
+		"image": "/data/images/sullivans-cove-french-oak.webp",
+		"age": null,
+		"cask": "Solo cask de roble francés (tawny, blanco o pinot noir)",
+		"name_pt": "Sullivans Cove French Oak",
+		"description_pt": "A expressão que levou a Sullivans Cove (Tasmânia) ao topo do mundo: em 2014, a barrica HH0525 foi nomeada World's Best Single Malt nos World Whiskies Awards. Cada garrafa é um só cask com tiragem pequena e numerada, maturado em barricas francesas que antes contiveram tawny, vinho branco ou pinot noir. Sem corante nem filtração a frio: aroma a ameixa, passas, mel e especiarias doces; paladar de cacau, frutos secos e laranja cristalizada, com final longo e quente. 47,5% aprox., 700 ml.",
+		"name_en": "Sullivans Cove French Oak",
+		"description_en": "The expression that took Sullivans Cove (Tasmania) to the top of the whisky world: in 2014, cask HH0525 was named World's Best Single Malt at the World Whiskies Awards. Every bottle is a single cask with a small, numbered release, matured in French oak casks that previously held tawny, white wine or pinot noir. Uncoloured and non-chill filtered: plum, raisins, honey and sweet spice on the nose; cocoa, dried fruit and candied orange on the palate, with a long, warm finish. ~47.5%, 700 ml.",
+		"name_ja": "サリヴァンズコーヴ・フレンチオーク",
+		"description_ja": "サリヴァンズコーヴ(タスマニア)を世界の頂点に押し上げた一本。2014年、樽HH0525がワールド・ウイスキー・アワードでワールド・ベスト・シングルモルトに輝きました。一本ずつが単一樽の少量ナンバリング入りボトルで、以前タウニー、白ワイン、ピノ・ノワールを熟成したフレンチオーク樽で熟成。無着色・ノンチルフィルター。香りはプラム、レーズン、蜂蜜、甘いスパイス。味わいはカカオ、ドライフルーツ、オレンジピール、長く温かなフィニッシュ。約47.5%、700ml。",
+		"name_fr": "Sullivans Cove French Oak",
+		"description_fr": "L'expression qui a porté Sullivans Cove (Tasmanie) au sommet du monde du whisky : en 2014, le fût HH0525 a été élu World's Best Single Malt aux World Whiskies Awards. Chaque bouteille est un single cask en tirage limité et numéroté, vieilli en fût de chêne français ayant contenu tawny, vin blanc ou pinot noir. Sans coloration ni filtration à froid : nez de prune, raisins secs, miel et épices douces ; palais de cacao, fruits secs et orange confite, avec une finale longue et chaleureuse. Environ 47,5 %, 700 ml.",
+		"distillery_id": "sullivans-cove",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=_jGi-BgsK9A",
+				"label": "Sullivans Cove Single Cask HH537 review by Malt Activist",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "australia",
+		"region": "Tasmania",
+		"volume": "700 ml",
+		"abv": 47.5,
+		"url": "",
+		"id": "sullivans-cove-american-oak",
+		"slug": "sullivans-cove-american-oak",
+		"name": "Sullivans Cove American Oak",
+		"description": "El alma de Sullivans Cove (Tasmania): solo cask madurado en barricas americanas de bourbon, con tiradas pequeñas y numeradas que salen a la venta por sorteo. Fue el American Oak HH0351 el que en 2018 se llevó el premio al mejor single cask del mundo. Doble destilado a fuego lento, sin colorante ni filtrado en frío: aroma a miel, coco y vainilla; paladar suave y cremoso de toffee y fruta tropical, con un final largo y especiado. 47,5% aprox., 700 ml.",
+		"image": "/data/images/sullivans-cove-american-oak.webp",
+		"age": null,
+		"cask": "Solo cask de roble americano de bourbon",
+		"name_pt": "Sullivans Cove American Oak",
+		"description_pt": "A alma da Sullivans Cove (Tasmânia): só cask amadurecido em barricas americanas de bourbon, com tiragens pequenas e numeradas que saem à venda por sorteio. Foi o American Oak HH0351 que em 2018 ganhou o prémio de melhor single cask do mundo. Dupla destilação lenta, sem corante nem filtração a frio: aroma a mel, coco e baunilha; paladar suave e cremoso de toffee e fruta tropical, com final longo e picante. 47,5% aprox., 700 ml.",
+		"name_en": "Sullivans Cove American Oak",
+		"description_en": "The heart of Sullivans Cove (Tasmania): a single cask matured in American bourbon oak, with small numbered releases sold by ballot. It was American Oak HH0351 that took the world's Best Single Cask award in 2018. Slowly double-distilled, uncoloured and non-chill filtered: honey, coconut and vanilla on the nose; a soft, creamy toffee and tropical fruit palate, with a long, spicy finish. ~47.5%, 700 ml.",
+		"name_ja": "サリヴァンズコーヴ・アメリカンオーク",
+		"description_ja": "サリヴァンズコーヴ(タスマニア)の核となる一本。バーボン樽のアメリカンオークで熟成した単一樽で、抽選販売される少量のナンバリング入りボトルです。2018年、アメリカンオークHH0351が世界最優秀シングルカスクに選ばれました。ゆっくり二回蒸留され、無着色・ノンチルフィルター。香りは蜂蜜、ココナッツ、バニラ。口当たりは滑らかでクリーミー、トフィーとトロピカルフルーツ、長くスパイシーなフィニッシュ。約47.5%、700ml。",
+		"name_fr": "Sullivans Cove American Oak",
+		"description_fr": "L'âme de Sullivans Cove (Tasmanie) : un single cask vieilli en fûts de bourbon de chêne américain, avec de petits tirages numérotés vendus par tirage au sort. C'est l'American Oak HH0351 qui a remporté le prix du meilleur single cask du monde en 2018. Double distillation lente, sans coloration ni filtration à froid : nez de miel, de noix de coco et de vanille ; palais doux et crémeux de toffee et de fruits tropicaux, avec une finale longue et épicée. Environ 47,5 %, 700 ml.",
+		"distillery_id": "sullivans-cove",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=Deul71b1mmA",
+				"label": "Sullivans Cove American Oak Refill Cask Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=ipmEuVYBEFE",
+				"label": "Sullivans Cove American Oak Second Fill TD0062 Whisky Review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=yggGlNDWZqs",
+				"label": "Sullivans Cove American Oak - Rare Single Cask",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=eXH6KCWHxVw",
+				"label": "Whisky Review 29 Sullivans Cove American Oak",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
 	]
 }

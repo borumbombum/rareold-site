@@ -333,13 +333,13 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Crown Royal Deluxe - Crown Royal
 ✅ Crown Royal Northern Harvest Rye - Crown Royal
 ✅ Canadian Club 12 YO - Canadian Club
-Lot 40 Rye - Lot 40
-J.P. Wiser's 18 YO - J.P. Wiser's
-Alberta Premium Dark Horse - Alberta Distillers
-Forty Creek Barrel Select - Forty Creek
-Glenora Canadian Single Malt - Glenora
-Shelter Point Single Malt - Shelter Point
-Macaloney's Island Single Malt - Macaloney's
+✅ Lot 40 Rye - Lot 40 (as Lot No. 40 Canadian Rye Whisky)
+✅ J.P. Wiser's 18 YO - J.P. Wiser's (as J.P. Wiser's 18 Year Old)
+✅ Alberta Premium Dark Horse - Alberta Distillers
+✅ Forty Creek Barrel Select - Forty Creek
+✅ Glenora Canadian Single Malt - Glenora (as Glen Breton Rare 10 YO)
+✅ Shelter Point Single Malt - Shelter Point (as Shelter Point Classic Single Malt)
+✅ Macaloney's Island Single Malt - Macaloney's (as Macaloney's An Loy Canadian Island Single Malt)
 
 ## India
 
@@ -351,12 +351,12 @@ Macaloney's Island Single Malt - Macaloney's
 
 ## Taiwan
 
-The Chuan Pure Malt - The Chuan
+✅ The Chuan Pure Malt - The Chuan
 
 ## Australia
 
-Sullivans Cove French Oak - Sullivans Cove
-Sullivans Cove American Oak - Sullivans Cove
+✅ Sullivans Cove French Oak - Sullivans Cove
+✅ Sullivans Cove American Oak - Sullivans Cove
 Lark Classic Cask - Lark
 Morris Muscat Barrel - Morris
 Starward Nova - Starward

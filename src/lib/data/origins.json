@@ -130,5 +130,27 @@
     "name_fr": "Allemagne",
     "flag": "🇩🇪",
     "sort_order": 11
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "name_es": "China",
+    "name_pt": "China",
+    "name_en": null,
+    "name_ja": "中国",
+    "name_fr": "Chine",
+    "flag": "🇨🇳",
+    "sort_order": 12
+  },
+  {
+    "id": "australia",
+    "name": "Australia",
+    "name_es": "Australia",
+    "name_pt": "Austrália",
+    "name_en": null,
+    "name_ja": "オーストラリア",
+    "name_fr": "Australie",
+    "flag": "🇦🇺",
+    "sort_order": 13
   }
 ]

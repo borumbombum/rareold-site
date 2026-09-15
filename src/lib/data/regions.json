@@ -24,6 +24,12 @@
     "sort_order": 3
   },
   {
+    "id": "australia-tasmania",
+    "origin_id": "australia",
+    "name": "Tasmania",
+    "sort_order": 3
+  },
+  {
     "id": "india-bangalore",
     "origin_id": "india",
     "name": "Bangalore",
@@ -39,6 +45,12 @@
     "id": "ireland-antrim",
     "origin_id": "ireland",
     "name": "Antrim",
+    "sort_order": 5
+  },
+  {
+    "id": "china-china",
+    "origin_id": "china",
+    "name": "China",
     "sort_order": 5
   },
   {

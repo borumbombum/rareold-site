@@ -1,5 +1,23 @@
 # Learnings
 
+## 2026-09-15 — Batch: world whiskies (Shelter Point, Macaloney's An Loy, The Chuan, Sullivans Cove x2)
+
+- **The catalog now crosses four continents with zero new code.** China and Australia joined via seed-only changes: metadata in `ORIGIN_META` (display names + emoji), regions derived at db:sync, distilleries + products + videos all downstream of content. The whole localization contract (5 languages per product/distillery) held the same as every region before it.
+- **Sullivans Cove single-cask narrative from loaded research:** French Oak has the SC origin story (HH0525, World's Best Single Malt 2014) and American Oak the single-cask crown (HH0351, 2018) — the two product descriptions cross-reference each other's award, which makes the sibling pairing coherent and, more usefully, made research anchors explicit before writing copy.
+- **Macaloney's "An Loy" is the second post-facto rename this quarter, and the Glenloy→An Loy pre-rebrand videos still count.** Same spirit as Mars Shinshu→Mars Komagatake (085): the queue/brand name lags official identity; the current official name goes on the record and legacy-name videos (Glenloy) are legitimate exact matches.
+- **Representative-bottling decisions came out of individual research, not a rule:** Shelter Point → Classic Single Malt (= redesignated "Artisanal", same liquid, renamed 2022) and its 7 Year Old Classic reviews count as same-expression; Macaloney's → An Loy 46% (not the 57% cask-strength variant); Sullivans Cove → generic single-cask entries at ~47.5% representative ABV because every bottle is a numbered single cask.
+- **12-video batch, all en, all verified live, zero dead/comparison/radio contamination.** The Chuan honest zero (only zh-language tasting + architecture + news; the Tierri pt candidate never names the product) — a brand-new Chinese whisky with no in-language English/ja/es/pt/fr reviews yet. pt/fr/es slots stayed empty across all 5 rather than take near-matches.
+- **Image sourcing order of operations for non-official channels:** Shopify `products.json` (bypasses geolocation-gated storefronts) → collection JSON → `?limit=N` to shrink response; Sullivans Cove served clean 1240x1900 studio cutouts for both expressions this way.
+- **Full pipeline verified green in one pass:** 437 whiskies / 200 distilleries / 4334 videos / 44 regions exported, svelte-check 0 errors / 29 baseline warnings. Queue 341/342/354/358/359 ticked, pending 27 → 22.
+
+## 2026-09-14 — Batch: Canada rush 2 (Lot No. 40 Rye, J.P. Wiser's 18, Alberta Premium Dark Horse, Forty Creek Barrel Select, Glen Breton Rare 10)
+
+- **Multi-brand producing-site anchors work and keep the map clean.** Lot 40 + Wiser's anchor to the existing `canadian-club` record; only three truly-new sites got created (alberta-distillers 1946, forty-creek 1992, glenora 1990). The anchor rule stands: single producing site → that record, whatever the owner or brand.
+- **Mainstream Canadian whisky video supply is en-heavy:** 20 of 22 videos this batch are English; es only exists for Lot 40 and Forty Creek; ja/pt/fr returned genuine zeros (Alberta, Forty Creek, Glenora) even with label-katakana queries (フォーティクリーク, グレンブレトン). No padding — an en-only catalog slot beats a dubbed/auto-translated "review".
+- **22/22 videos verified live with zero dead links and zero comparison contamination** — the oEmbed re-audit gate keeps holding; the only drop was the ambiguous ja "Oldest 18" radio item.
+- **Trim-pass trick for prep:** a pre-resize `sharp.trim()` on transparent-corner sources zoomed bottles to fill the 500² canvas (opaqueFrac went e.g. 0.19→0.26 for a tall bottle; bbox 1.00h confirmed). One-off inline, not a script change.
+- **Seed splice discipline end-to-end:** text-splice with `,\n` separators + byte-identical json round-trip validation keeps the diff minimal and dodges the repo's duplicate-key quirk (top-level key is `whiskies`).
+
 ## 2026-09-14 — Batch: Canada debut + Japan blend pair (Hatozaki, Togouchi, Crown Royal Deluxe, Crown Royal NHR Rye, Canadian Club 12)
 
 - **Canada needed zero config: origin `canada`, region `canadian-whisky` and the distillery anchor existed via the Legacy product.** `crown-royal` and `canadian-club` simply reused the region string "Canadian Whisky" (value `canada-canadian-whisky`, sort 3).
