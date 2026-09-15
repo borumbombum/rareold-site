@@ -1,3 +1,4 @@
+- 090 [DONE] Add 5 whiskies: Northern Europe sweep (High Coast Hav, Kyrö Malt Rye, Stauning Rye, Cotswolds Single Malt, Bimber Re-Charred Oak)
 - 089 [DONE] Add 5 whiskies: Australia x3 + Sweden (Lark, Morris, Starward Nova/Two-Fold, Mackmyra Svensk Ek)
 - 088 [DONE] Add 5 whiskies: Canada BC x2 + China + Sullivans Cove x2 (Shelter Point, Macaloney's Island, The Chuan, Sullivans Cove FO/AO)
 - 087 [DONE] Add 5 Canadian whiskies: Canada rush 2 (Lot 40, J.P. Wiser's 18, Alberta Premium Dark Horse, Forty Creek Barrel Select, Glenora)

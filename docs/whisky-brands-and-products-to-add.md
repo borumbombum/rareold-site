@@ -365,20 +365,20 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ## Sweden
 
 ✅ Mackmyra Svensk Ek - Mackmyra
-High Coast Hav - High Coast
+✅ High Coast Hav - High Coast
 
 ## Finland
 
-Kyrö Malt Rye - Kyrö
+✅ Kyrö Malt Rye - Kyrö
 
 ## Denmark
 
-Stauning Rye - Stauning
+✅ Stauning Rye - Stauning
 
 ## England
+✅ Cotswolds Single Malt - Cotswolds
 
-Cotswolds Single Malt - Cotswolds
-Bimber Re-Charred Oak - Bimber
+✅ Bimber Re-Charred Oak - Bimber
 The English Whisky Co Original - The English Whisky Co
 
 ## Israel

@@ -1,5 +1,14 @@
 # Learnings
 
+## 2026-09-16 — Batch: world whiskies 3 (High Coast Hav, Kyrö Malt Rye, Stauning Rye, Cotswolds Single Malt, Bimber Re-Charred Oak)
+
+- **The catalog now spans 17 origins and 49 regions.** Two origins opened on a single seed (`finland`, `denmark`) and three regions auto-created (`Finland`, `Denmark`, `Cotswolds`) — the pipeline cost of a new country is one ORIGIN_META row + a region string. Sweden and London were simply reused.
+- **The Nordic grain belt is now covered in whisky terms**: Swedish oak (Mackmyra), then Full Swedish Pentagon (High Coast's Hungarian/Swedish 40L barrels), Finnish 100% rye (Kyrö), Danish floor-malted rye+barley (Stauning). The staggered points let the rosters read as a deliberate set rather than coincidental picks.
+- **Three producing-site regressions that would have shipped wrong titles since nobody visibly flags them**: High Coast = Ådalen/Ångermanland (coords 63.0015, 17.7985 at Box power station, NOT Gävle), Stauning = Skjern/West Jutland (55.9528, 8.4033), Bimber = Park Royal London (51.52581, -0.26518). All verified against the producing anchor.
+- **Distillery backstories are legitimately weird and can't be skimmed**: Stauning's "Noma founders investors" is false (Redzepi/Refslund were never investors — Diageo actually took a DV majority in 2025); Bimber's founder had secretly operated under a pseudonym for ~20 years; Kyrö survived ~€7M of cumulative losses off a 100%-rye bet.
+- **Video set: 22 review, exact-expression, in-language** — the strongest haul per batch so far: two ja finds (ひとくちウイスキー pattern keeps paying off), zeros where nothing genuine exists, and three reject classes exercised (distillery feature as review, auto-translated-title English videos for es/pt, long-format livestream posing as a tasting).
+- **Contents of a "killer list" product row**: Hav's cask split (66.85% accelerated small-oak + ex-bourbon | 30.84% straight ex-bourbon | 2.67% Hungarian-oak finish) reads almost like an exact quote; Bimber's Level-4 Alligator Char; Cotswolds' STR/J.Dias-bourbon split; Kyrö's 100% wholegrain claim. One-sentence distilleries, full 5-language product descriptions.
+
 ## 2026-09-15 — Batch: world whiskies 2 (Lark Classic Cask, Morris Muscat Barrel, Starward Nova/Two-Fold, Mackmyra Svensk Ek)
 
 - **Australia now has a real catalog: 5 products across three producing states** (Tasmania Lark, Victoria Morris/Starward, plus Sullivans Cove) and Sweden opened behind a single new origin key. The whole continent/language wiring was again seed-only: `sweden` metadata row, region strings auto-derived. 15 origins, 46 regions total.

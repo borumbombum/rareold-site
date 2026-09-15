@@ -1,5 +1,13 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-16 — Batch: world whiskies 3 (High Coast Hav, Kyrö Malt Rye, Stauning Rye, Cotswolds Single Malt, Bimber Re-Charred Oak)
+
+- **Build the seed facts ONLY from the current official product page, not inherited subagent memory.** Two false claims were caught at research: Cotswolds was NOT relaunched in 2023 "sherry-led" with a "foundation spirit" and "master distiller David Smith" — David Smith is CEO of *Fielden* (a different English distillery), and the Signature's recipe (70/30 STR red-wine/ex-bourbon, 46%) is unchanged. And Bimber has no bottling called *The Original* (that was a 2024 miss from a foreign retail listing); Re-Charred Oak is the unpeated flagship. Both fixes shipped before a single seed byte.
+- **The enough-is-enough rule for white-background og:images**: Kyrö's `og:image` is a white-field product render, not a transparent PNG. The pixel pass caught it (opaque 99.8%, whiteOfOpaque 86.8%, corners 255). Fix = white-bg-to-alpha (threshold ~242 with feather) then trim + fit-zoom onto a 500² canvas (final 26.1% opaque, 0.38×0.93). That "white-only-if-corners-opaque" branch in the pass now has a recipe, not just an algorithm.
+- **When a label is white/cream, the whiteOfOpaque metric does NOT mean white background.** High Coast Hav (51%) and Cotswolds Signature (52%) are transparent-corners cutouts whose *label* is white/cream — the corners=0 test disambiguates. Don't junk a good cutout on a percentage alone.
+- **"Batch 2 2020" for a batched core NAS is the SAME expression, not a limited release** — Whisky.com's Stauning Rye Batch 2 is the standard rye, so it counts as a pass (compare Stauning "Young Rye" seasonal single-cask framing which fails).
+- **A 3-hour livestream titled "#コッツウォルズ シングルモルト" is not a review** — the 甘粕おさけ live is a long-format stream, rejected for Cotswolds ja; the 3:15 ひとくちウイスキー dedicated tasting stands instead. Long-format livestream titles are the new reject class.
+
 ## 2026-09-15 — Batch: world whiskies 2 (Lark Classic Cask, Morris Muscat Barrel, Starward Nova/Two-Fold, Mackmyra Svensk Ek)
 
 - **Subagent prompts that are too permissive on "comparison" videos let roundups through; the oEmbed re-audit catches them.** Morris returned 3 "en hits" that were all comparison/roundup-framed once the real titles showed: "Morris Single Malt and Muscat Barrel", "Episode 468 World Whiskies", "Abasolo & Morris". An in-session sweep confirmed no clean review exists → honest zero, in line with The Chuan. When a product is new/small, the correct outcome is frequently "no video", not "closest video".

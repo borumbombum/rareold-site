@@ -163,5 +163,27 @@
     "name_fr": "Suède",
     "flag": "🇸🇪",
     "sort_order": 14
+  },
+  {
+    "id": "finland",
+    "name": "Finland",
+    "name_es": "Finlandia",
+    "name_pt": "Finlândia",
+    "name_en": null,
+    "name_ja": "フィンランド",
+    "name_fr": "Finlande",
+    "flag": "🇫🇮",
+    "sort_order": 15
+  },
+  {
+    "id": "denmark",
+    "name": "Denmark",
+    "name_es": "Dinamarca",
+    "name_pt": "Dinamarca",
+    "name_en": null,
+    "name_ja": "デンマーク",
+    "name_fr": "Danemark",
+    "flag": "🇩🇰",
+    "sort_order": 16
   }
 ]
