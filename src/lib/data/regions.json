@@ -42,6 +42,12 @@
     "sort_order": 4
   },
   {
+    "id": "australia-victoria",
+    "origin_id": "australia",
+    "name": "Victoria",
+    "sort_order": 4
+  },
+  {
     "id": "ireland-antrim",
     "origin_id": "ireland",
     "name": "Antrim",
@@ -256,6 +262,12 @@
     "origin_id": "usa",
     "name": "Tennessee",
     "sort_order": 34
+  },
+  {
+    "id": "sweden-sweden",
+    "origin_id": "sweden",
+    "name": "Sweden",
+    "sort_order": 36
   },
   {
     "id": "usa-utah",

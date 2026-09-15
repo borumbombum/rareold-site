@@ -21,7 +21,8 @@ const ORIGIN_META = {
 	wales: { name: 'Wales', name_es: 'Gales', name_pt: 'País de Gales', name_ja: 'ウェールズ', name_fr: 'Pays de Galles', flag: '🏴󠁧󠁢󠁷󠁬󠁳󠁿' },
 	germany: { name: 'Germany', name_es: 'Alemania', name_pt: 'Alemanha', name_ja: 'ドイツ', name_fr: 'Allemagne', flag: '🇩🇪' },
 	china: { name: 'China', name_es: 'China', name_pt: 'China', name_ja: '中国', name_fr: 'Chine', flag: '🇨🇳' },
-	australia: { name: 'Australia', name_es: 'Australia', name_pt: 'Austrália', name_ja: 'オーストラリア', name_fr: 'Australie', flag: '🇦🇺' }
+	australia: { name: 'Australia', name_es: 'Australia', name_pt: 'Austrália', name_ja: 'オーストラリア', name_fr: 'Australie', flag: '🇦🇺' },
+	sweden: { name: 'Sweden', name_es: 'Suecia', name_pt: 'Suécia', name_ja: 'スウェーデン', name_fr: 'Suède', flag: '🇸🇪' }
 };
 
 const url = process.env.TURSO_URL;

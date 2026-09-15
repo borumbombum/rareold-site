@@ -152,5 +152,16 @@
     "name_fr": "Australie",
     "flag": "🇦🇺",
     "sort_order": 13
+  },
+  {
+    "id": "sweden",
+    "name": "Sweden",
+    "name_es": "Suecia",
+    "name_pt": "Suécia",
+    "name_en": null,
+    "name_ja": "スウェーデン",
+    "name_fr": "Suède",
+    "flag": "🇸🇪",
+    "sort_order": 14
   }
 ]

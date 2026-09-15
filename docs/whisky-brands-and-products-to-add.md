@@ -357,14 +357,14 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 
 ✅ Sullivans Cove French Oak - Sullivans Cove
 ✅ Sullivans Cove American Oak - Sullivans Cove
-Lark Classic Cask - Lark
-Morris Muscat Barrel - Morris
-Starward Nova - Starward
-Starward Two-Fold - Starward
+✅ Lark Classic Cask - Lark
+✅ Morris Muscat Barrel - Morris
+✅ Starward Nova - Starward
+✅ Starward Two-Fold - Starward
 
 ## Sweden
 
-Mackmyra Svensk Ek - Mackmyra
+✅ Mackmyra Svensk Ek - Mackmyra
 High Coast Hav - High Coast
 
 ## Finland

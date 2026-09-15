@@ -1,5 +1,14 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-15 — Batch: world whiskies 2 (Lark Classic Cask, Morris Muscat Barrel, Starward Nova/Two-Fold, Mackmyra Svensk Ek)
+
+- **Subagent prompts that are too permissive on "comparison" videos let roundups through; the oEmbed re-audit catches them.** Morris returned 3 "en hits" that were all comparison/roundup-framed once the real titles showed: "Morris Single Malt and Muscat Barrel", "Episode 468 World Whiskies", "Abasolo & Morris". An in-session sweep confirmed no clean review exists → honest zero, in line with The Chuan. When a product is new/small, the correct outcome is frequently "no video", not "closest video".
+- **A comparison title by ANY feature is a reject, including vs other bottlings of the same brand** — Mackmyra "Svensk Ek vs Vinterrök" was dropped even though the reviewed whisky was Svensk Ek, and "More Mackmyra: Mack, Brukswhisky, Svensk Ek, Svensk Rök" (4-bottle roundup) was dropped the same pass.
+- **"Distilled by Manildra" ≠ "owner HQ" — no [Region/Origin] special-casing needed, but DO verify the producing plant's state before assigning region.** Morris research flagged "NSW" in my brief; the distillery is at the Mia Mia winery in Rutherglen, **Victoria**. Wrong-region data would have silently created a bogus "New South Wales" region at db:sync — regions auto-create from strings, so a typo becomes a ghost region.
+- **A scope error is preventable: the trim trick for narrow transparent bottles** — Starward cutouts were 0.27w × 0.84h in a 500² frame before a pre-resize `trim()` (tolerance 5) zoomed them to 0.32w × 1.00h. Same trick as 087, now standard operating procedure for slim bottles.
+- **Radio is still radio**: the Dram FM ja Two-Fold episode (スターワード トゥーフォールド) was rejected on the audio-only rule even though title + language were exact — same as the Wiser's and BAR岩田 drops. Audio broadcasts never go in as reviews.
+- **DB after 089: 204 distilleries / 442 products / 4352 influencer videos / 46 regions / 15 origins.** Queue pending 22 → 17. Uncommitted (087–089 + every file since; commit and bump only on explicit order).
+
 ## 2026-09-15 — Batch: world whiskies (Shelter Point, Macaloney's An Loy, The Chuan, Sullivans Cove x2)
 
 - **The Chuan is Chinese, not Taiwanese — research preempted a seeded error.** The queue hinted "Taiwan"; 叠川 (Diechuan) is Pernod Ricard's distillery at Mount Emei, Sichuan, launched Dec 2023 under master distiller Yang Tao. The task file and context shipped the correction BEFORE any seed lines instead of after. Also: its pure malt is a vatted malt that includes some bottled-from-Scotland stock; triple oak, not bourbon-only.

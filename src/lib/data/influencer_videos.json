@@ -19474,6 +19474,34 @@
     "label": "Tierri Whisky"
   },
   {
+    "product_id": "lark-classic-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=SVKXlmKvqkM",
+    "label": "Lark Classic Cask, Australian Whisky Review"
+  },
+  {
+    "product_id": "lark-classic-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=VPBfD1Ra1HY",
+    "label": "Lark Classic Cask Australian Whisky Tasting & Review"
+  },
+  {
+    "product_id": "lark-classic-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hUrNmQ_iMe0",
+    "label": "Lark Classic Cask"
+  },
+  {
+    "product_id": "lark-classic-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=m27pukP6sSE",
+    "label": "Paul Talks Whisky Lark Classic Cask"
+  },
+  {
     "product_id": "ledaig-10-year-old",
     "language": "en",
     "platform": "youtube",
@@ -19976,6 +20004,27 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=f4CqH9dG19E",
     "label": "ウイスキー大好き ミディアムチャンネル"
+  },
+  {
+    "product_id": "mackmyra-svensk-ek",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=NmJPsZqWnac",
+    "label": "Mackmyra Svensk Ek"
+  },
+  {
+    "product_id": "mackmyra-svensk-ek",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=RZX6-a7h51I",
+    "label": "Mackmyra Svensk Ek - first Swedish whisky"
+  },
+  {
+    "product_id": "mackmyra-svensk-ek",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=tSCji27u8WI",
+    "label": "Mackmyra Svensk Ek - No Nonsense Whisky"
   },
   {
     "product_id": "makers-mark",
@@ -24806,6 +24855,83 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=j81b9hlNDbY",
     "label": "Springbank 10 Anos | Tierri Whisky (Springbank)"
+  },
+  {
+    "product_id": "starward-nova",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5ZG-dcEmpIc",
+    "label": "Starward Nova Australian Single Malt Review"
+  },
+  {
+    "product_id": "starward-nova",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=E7Uxqybtmrw",
+    "label": "Starward Nova"
+  },
+  {
+    "product_id": "starward-nova",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=PZ_vbX4KqWY",
+    "label": "Starward Nova Australian Single Malt Whisky"
+  },
+  {
+    "product_id": "starward-nova",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xFg5CsrGtR8",
+    "label": "Starward Nova Single Malt Australian Whiskey Review"
+  },
+  {
+    "product_id": "starward-nova",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ErwNGbyLPpA",
+    "label": "Starward Nova"
+  },
+  {
+    "product_id": "starward-nova",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=8Npq1k-UWTo",
+    "label": "スターワード ノヴァ"
+  },
+  {
+    "product_id": "starward-two-fold",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0zeHIsQ2GVo",
+    "label": "Starward Two-Fold Australian Whisky Tasting and Review"
+  },
+  {
+    "product_id": "starward-two-fold",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=gDq1JKU0BKI",
+    "label": "Starward Two-Fold Australian Whisky Review"
+  },
+  {
+    "product_id": "starward-two-fold",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=xNhZj7Sz5sI",
+    "label": "Starward Two-Fold"
+  },
+  {
+    "product_id": "starward-two-fold",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=zU2Xzqq2mt8",
+    "label": "Starward Two Fold - Whisky Wednesday"
+  },
+  {
+    "product_id": "starward-two-fold",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=StO6n7eg0tk",
+    "label": "スターワード トゥーフォールド"
   },
   {
     "product_id": "stranahans-colorado-whiskey",

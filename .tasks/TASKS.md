@@ -1,3 +1,4 @@
+- 089 [DONE] Add 5 whiskies: Australia x3 + Sweden (Lark, Morris, Starward Nova/Two-Fold, Mackmyra Svensk Ek)
 - 088 [DONE] Add 5 whiskies: Canada BC x2 + China + Sullivans Cove x2 (Shelter Point, Macaloney's Island, The Chuan, Sullivans Cove FO/AO)
 - 087 [DONE] Add 5 Canadian whiskies: Canada rush 2 (Lot 40, J.P. Wiser's 18, Alberta Premium Dark Horse, Forty Creek Barrel Select, Glenora)
 - 086 [DONE] Add 5 whiskies: Japan blend pair + Canada trio (Hatozaki, Togouchi, Crown Royal x2, Canadian Club 12)

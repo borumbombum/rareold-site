@@ -1,5 +1,14 @@
 # Learnings
 
+## 2026-09-15 — Batch: world whiskies 2 (Lark Classic Cask, Morris Muscat Barrel, Starward Nova/Two-Fold, Mackmyra Svensk Ek)
+
+- **Australia now has a real catalog: 5 products across three producing states** (Tasmania Lark, Victoria Morris/Starward, plus Sullivans Cove) and Sweden opened behind a single new origin key. The whole continent/language wiring was again seed-only: `sweden` metadata row, region strings auto-derived. 15 origins, 46 regions total.
+- **Research untangled two naming facts before they could become bad records**: Starward "Nova" was NOT renamed to "Starward" in 2023 (that was the reverse, Wine Cask → Nova in 2016-17); Starward Two-Fold was never part-Scotch — always 60% Manildra wheat + 40% house malt, all matured in AU red-wine barrels. Both now match the official product pages.
+- **Mackmyra Svensk Ek's house style = Swedish oak as featured minority, not oak-only** — 68% ex-bourbon / 12% new Oloroso / 10% new Swedish oak (Visingsö) / 10% new American oak, 46.1%, NCF. Pinned the cask split in the description, which is exactly the kind of thing that survives a relaunch.
+- **18-video haul, all en + the honest extras**: Nova found real ja and fr (ひとくちウイスキー; La Maison du Whisky); Two-Fold found a ja VTuber tasting; Mackmyra en 3 only; Morris honest zero. Every non-en pick was verified in-language by channel + oEmbed title.
+- **The trim trick is now a repeatable two-liner**: fetch → `sharp(buffer).trim({tolerance:5}).resize(500,500,{fit:'contain'})` → saved; it's this session's go-to when a cutout is narrower than ~1/3 of the square.
+- **Origin/region bootstrap fully validated:** adding `sweden` to ORIGIN_META + `"region": "Sweden"` on the product produced the origin and its region in one `db:sync`, no code touched. Pending queue 22 → 17.
+
 ## 2026-09-15 — Batch: world whiskies (Shelter Point, Macaloney's An Loy, The Chuan, Sullivans Cove x2)
 
 - **The catalog now crosses four continents with zero new code.** China and Australia joined via seed-only changes: metadata in `ORIGIN_META` (display names + emoji), regions derived at db:sync, distilleries + products + videos all downstream of content. The whole localization contract (5 languages per product/distillery) held the same as every region before it.
