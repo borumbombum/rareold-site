@@ -1,5 +1,15 @@
 # Learnings
 
+## 2026-09-16 — Germany batch 3 complete: Cigar Malt + Elsburn×2 + Störtebeker + Elch + Stork Club + Thousand Mountains
+
+- **Germany 7/7 done**: 471 products / 226 distilleries / 62 regions / 4454 videos / 19 origins. New regions Harz, Rügen, Brandenburg, Sauerland (auto-created from `w.region`).
+- **Mismatch between official brand and catalog name is legitimately resolvable with a user check**: Willowburn Ember (official) vs queue "Elsburn The Ember" — the smoky series brand split is real. Also Elch ABV — user picked 46%/0.7L as the flagship spec.
+- **Videos per expression (exact-rule)**: Cigar Malt 2 (de), Journey 9 (en×1 + de×8), Willowburn Ember 4 (de), Störtebeker Reserve 1 (de, Klassik 3yo video closest), Elch 8 (en×2 + de×6), Stork Club 8 (en×2 + de×6), McRaven 8 (en×2 + de×6). No es/pt/fr/ja slots hit exactly again — German whiskey review coverage is EN+DE only, as predicted in batch 2.
+- **St. Kilian Cigar Malt = third core bottling**, 46%/0.7L, €69.90, GTIN 745760723614, casks Tawny Port/sweet wine/virgin oak, unveiling 2025; product photo from Shopify files URL.
+- **The Hammerschmiede/Hercynian rename story**: Glen Els → Elsburn (Sept 2019 SWA lawsuit), Willowburn = woodsmoked sub-brand, 3rd "Heartgow" name appears too — all same distillery, Harz.
+- **Rogues not ready for full records**: Spreewood story (2004 → 2016 takeover → WWA 2019 Best Rye), Sauerländer Edelbrennerei (2000, Julian Wellhausen, McRaven = Italian red wine cask year 1 + ex-bourbon years 2–3, Otmar Alt raven).
+- **Cask string for Störtebeker Reserve** = "3 Wood Types (incl. Coastal Oak)" (only Küsteneiche verifiable from official copy) — a legitimate honest product.
+
 ## 2026-09-16 — Germany batch 2: Slyrs 12/Fifty One/Bavarian Rye + St. Kilian Classic/Peated
 
 - **Germany now has 6 products / 2 distilleries** (464 prods, 221 distilleries, 4414 videos). Slyrs ships 4 expressions (Classic, 12yo, Fifty One, Bavarian Rye); St. Kilian enters with its 2 core-range single malts.

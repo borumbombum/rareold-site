@@ -1,3 +1,4 @@
+- 096 [DONE] Germany batch 3: St. Kilian Cigar Malt + Elsburn Journey/Willowburn Ember + Störtebeker Reserve + Elch + Stork Club Rye Malt + Thousand Mountains McRaven (471 products)
 - 095 [DONE] Germany batch 2: Slyrs 12/Fifty One/Bavarian Rye + St. Kilian Classic/Peated (distillery st-kilian; 464 products)
 - 094 [DONE] Slyrs Classic: first German whisky (distillery slyrs + region Bavaria; EN videos ×3)
 - 093 [DONE] Germany: research + queue first German whiskies (13 lines, 8 distilleries)

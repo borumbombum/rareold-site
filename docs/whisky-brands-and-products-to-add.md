@@ -406,10 +406,10 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Slyrs Bavarian Rye - Slyrs
 ✅ St. Kilian Classic - St. Kilian
 ✅ St. Kilian Peated - St. Kilian
-St. Kilian Cigar Malt - St. Kilian
-Elsburn The Journey - Hammerschmiede
-Elsburn The Ember - Hammerschmiede
-Störtebeker Single Malt Reserve - Störtebeker
-Elch Single Malt Whisky - Elch Whisky
-Stork Club Rye - Spreewood Distillers
-Thousand Mountains McRaven - Thousand Mountains
+✅ St. Kilian Cigar Malt - St. Kilian
+✅ Elsburn The Journey - Hammerschmiede
+✅ Elsburn The Ember - Hammerschmiede (added as Willowburn Ember)
+✅ Störtebeker Single Malt Reserve - Störtebeker
+✅ Elch Single Malt Whisky - Elch Whisky
+✅ Stork Club Rye - Spreewood Distillers (added as Stork Club Rye Malt Whiskey)
+✅ Thousand Mountains McRaven - Thousand Mountains
