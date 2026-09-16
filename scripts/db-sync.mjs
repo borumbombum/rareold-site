@@ -24,7 +24,9 @@ const ORIGIN_META = {
 	australia: { name: 'Australia', name_es: 'Australia', name_pt: 'Austrália', name_ja: 'オーストラリア', name_fr: 'Australie', flag: '🇦🇺' },
 	sweden: { name: 'Sweden', name_es: 'Suecia', name_pt: 'Suécia', name_ja: 'スウェーデン', name_fr: 'Suède', flag: '🇸🇪' },
 	finland: { name: 'Finland', name_es: 'Finlandia', name_pt: 'Finlândia', name_ja: 'フィンランド', name_fr: 'Finlande', flag: '🇫🇮' },
-	denmark: { name: 'Denmark', name_es: 'Dinamarca', name_pt: 'Dinamarca', name_ja: 'デンマーク', name_fr: 'Danemark', flag: '🇩🇰' }
+	denmark: { name: 'Denmark', name_es: 'Dinamarca', name_pt: 'Dinamarca', name_ja: 'デンマーク', name_fr: 'Danemark', flag: '🇩🇰' },
+	israel: { name: 'Israel', name_es: 'Israel', name_pt: 'Israel', name_ja: 'イスラエル', name_fr: 'Israël', flag: '🇮🇱' },
+	france: { name: 'France', name_es: 'Francia', name_pt: 'França', name_ja: 'フランス', name_fr: 'France', flag: '🇫🇷' }
 };
 
 const url = process.env.TURSO_URL;

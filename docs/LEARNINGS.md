@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-09-16 — Batch: England/Israel/France (The English Whisky Co Original, M&H Elements Red Wine Cask, Armorik Classic Bio, Brenne Estate Cask)
+
+- **A "5-product batch" compressed to 4 real products when two queue lines (Armorik Breton vs Classic Bio) proved to be one bottle** — the ~2021 relaunch folded the classic into the certified-organic Classic Bio (FR-BIO-01). The dup check now has to run against freshly-researched facts, not just the already-seeded catalog.
+- **18 new seeds came in one batch**: 4 products, 4 distilleries, 4 regions (Norfolk, Tel Aviv, Brittany, Cognac) and 2 origins (`israel`, `france`) — Israel and France both open behind single ORIGIN_META rows, same as the Nordic batch before.
+- **The catalog precedent overrode my cutout assumption**: a full sweep found hundreds of card images are 100%-opaque official studio shots (recent ones like the-chuan-pure-malt at 99%). Faced with a product whose ONLY official assets are full-bleed white/cream renders and a white label (deadly for white-removal), the right call was to treat the clean studio shot as a passing card image — no brittle hack.
+- **Coastal/terroir spread of the new roster**: Norfolk barley on England's first modern legal whisky; Tel Aviv Mediterranean-accelerated maturation (M&H Elements, 60/26/10/4 ex-bourbon/Carignan-red-wine/STR/virgin-oak split); Breton organic ex-bourbon Armorik relaunched 2021; and a Cognac-farm alembic Charentais Brenne on new Limousin oak. The steeper the eu-specific stories, the cheaper the catalog genuinely bites.
+- **Video set: 20 verified (4374 → 4394), exact-expression, in-language; one honest zero** (M&H Elements Red Wine Cask — only comparisons/visits/CZ+DE reviews exist). The English Original (en4+ja1), Armorik (en4+ja2+pt1) and Brenne (en4+es4) showcase how the multilingual haul self-balances; a pt review of a French malt from WhiskyBrasil is the kind of find that rewards rechecking the pt slot even on fr products.
+
 ## 2026-09-16 — Batch: world whiskies 3 (High Coast Hav, Kyrö Malt Rye, Stauning Rye, Cotswolds Single Malt, Bimber Re-Charred Oak)
 
 - **The catalog now spans 17 origins and 49 regions.** Two origins opened on a single seed (`finland`, `denmark`) and three regions auto-created (`Finland`, `Denmark`, `Cotswolds`) — the pipeline cost of a new country is one ORIGIN_META row + a region string. Sweden and London were simply reused.

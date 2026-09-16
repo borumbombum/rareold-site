@@ -185,5 +185,27 @@
     "name_fr": "Danemark",
     "flag": "🇩🇰",
     "sort_order": 16
+  },
+  {
+    "id": "israel",
+    "name": "Israel",
+    "name_es": "Israel",
+    "name_pt": "Israel",
+    "name_en": null,
+    "name_ja": "イスラエル",
+    "name_fr": "Israël",
+    "flag": "🇮🇱",
+    "sort_order": 17
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "name_es": "Francia",
+    "name_pt": "França",
+    "name_en": null,
+    "name_ja": "フランス",
+    "name_fr": "France",
+    "flag": "🇫🇷",
+    "sort_order": 18
   }
 ]

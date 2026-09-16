@@ -2415,6 +2415,55 @@
     "label": "ウイスキー専門TEN"
   },
   {
+    "product_id": "armorik-classic-bio",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=GgteBqFUE_w",
+    "label": "Armorik Classic French Single Malt Whisky - WhiskeyAntics"
+  },
+  {
+    "product_id": "armorik-classic-bio",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=eJuinMlQ1b8",
+    "label": "Armorik Classic - Single Malt Maniac"
+  },
+  {
+    "product_id": "armorik-classic-bio",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mhxwS7aXfak",
+    "label": "Armorik Classic French Single Malt Review - Whisky Wednesday"
+  },
+  {
+    "product_id": "armorik-classic-bio",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wmLmT89eylU",
+    "label": "Armorik Classic - Whisky.com"
+  },
+  {
+    "product_id": "armorik-classic-bio",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=5vDUNhv2SKc",
+    "label": "アルモリック クラシック"
+  },
+  {
+    "product_id": "armorik-classic-bio",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=AKP0KCjlLso",
+    "label": "アルモリック クラシック ウイスキー"
+  },
+  {
+    "product_id": "armorik-classic-bio",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=us3FqIfViDA",
+    "label": "Armorik Classic Breton Single Malt Review - WhiskyBrasil"
+  },
+  {
     "product_id": "arran-10-yo",
     "language": "en",
     "platform": "youtube",
@@ -5178,6 +5227,62 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=oCfmHOsMdeI",
     "label": "Whisky Capital — Bowmore 12 Anos"
+  },
+  {
+    "product_id": "brenne-estate-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-Ut77lC9wks",
+    "label": "Brenne Estate Cask review - Moa Nilsson"
+  },
+  {
+    "product_id": "brenne-estate-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=-zUxZwieYS8",
+    "label": "Brenne French Single Malt Whisky Review - Cult Of Whisky"
+  },
+  {
+    "product_id": "brenne-estate-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=G_jK2Eh1B5w",
+    "label": "Brenne Single Malt, Estate Cask - Cask and a Glass"
+  },
+  {
+    "product_id": "brenne-estate-cask",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=TJH0gxsal6w",
+    "label": "Brenne Single Malt Whisky Review - Whisky Wednesday"
+  },
+  {
+    "product_id": "brenne-estate-cask",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=FfpCeNcoPEs",
+    "label": "Brenne Estate Cask - Los Whiskochos"
+  },
+  {
+    "product_id": "brenne-estate-cask",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Pztrr6CKyPM",
+    "label": "Notas de cata para Brenne - La Wiskada"
+  },
+  {
+    "product_id": "brenne-estate-cask",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=YVUYWdW_r3k",
+    "label": "Brenne Single Malt Whisky Frances - Amantes Del Whisky"
+  },
+  {
+    "product_id": "brenne-estate-cask",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=yJpZW0IYWH4",
+    "label": "BRENNE FRENCH SINGLE MALT WHISKY - Hablando de Whisky"
   },
   {
     "product_id": "bruichladdich-classic-laddie",
@@ -26094,6 +26199,41 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=F_j1t3qfUJI",
     "label": "Tierri Whisky — Teeling Small Batch Irlandês"
+  },
+  {
+    "product_id": "the-english-original",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2V-PQB6IH7U",
+    "label": "English Whisky Company The Original - Whisky Critic"
+  },
+  {
+    "product_id": "the-english-original",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=K7zYZTn8DOg",
+    "label": "The English Original Single Malt Whisky Review - Whiskey Vault"
+  },
+  {
+    "product_id": "the-english-original",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=kJ1-3rpHDxY",
+    "label": "The English Single Malt Original - No Nonsense Whisky"
+  },
+  {
+    "product_id": "the-english-original",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=stK1jzDu2Pw",
+    "label": "The English Original - Whisky Review 219"
+  },
+  {
+    "product_id": "the-english-original",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=HVWKPnFXPes",
+    "label": "ザ・イングリッシュ オリジナル"
   },
   {
     "product_id": "the-glenlivet-12-yo",

@@ -379,17 +379,17 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Cotswolds Single Malt - Cotswolds
 
 ✅ Bimber Re-Charred Oak - Bimber
-The English Whisky Co Original - The English Whisky Co
+✅ The English Whisky Co Original - The English Whisky Co
 
 ## Israel
 
-M&H Elements Red Wine Cask - Milk & Honey
+✅ M&H Elements Red Wine Cask - Milk & Honey
 
 ## France
 
-Armorik Breton Single Malt - Armorik
-Armorik Classic Bio - Warenghem
-Brenne French Single Malt - Brenne
+✅ Armorik Breton Single Malt - Armorik
+✅ Armorik Classic Bio - Warenghem
+✅ Brenne French Single Malt - Brenne
 Eddu Silver - Distillerie des Menhirs
 Vilanova Berbie - Distillerie Castan
 Domaine des Hautes Glaces Indigène - Domaine des Hautes Glaces

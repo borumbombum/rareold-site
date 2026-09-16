@@ -41895,5 +41895,260 @@
 			}
 			]
 		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "england",
+		"region": "Norfolk",
+		"volume": "700 ml",
+		"abv": 43,
+		"url": "",
+		"id": "the-english-original",
+		"slug": "the-english-original",
+		"name": "The English Original",
+		"description": "El single malt insignia de The English Whisky Co y el whisky que reabrió la historia de Inglaterra: un NAS de 43% sin filtrar en frío, elaborado con cebada de Norfolk y alambiques de cobre, y madurado íntegramente en barricas de ex-bourbon de primer llenado. De carácter fácil y cremoso: nariz de vainilla, toques tropicales y nata montada; paladar equilibrado de frutos secos, chocolate y cítricos que se funde en boca; final largo y limpio, de malta tostada y un deje salino. 43%, 700 ml.",
+		"image": "/data/images/the-english-original.webp",
+		"age": null,
+		"cask": "Ex-bourbon de primer llenado",
+		"name_pt": "The English Original",
+		"description_pt": "O single malt de referência da The English Whisky Co e o whisky que reabriu a história de Inglaterra: um NAS de 43% sem filtragem a frio, feito com cevada de Norfolk e alambiques de cobre, e amadurecido integralmente em barricas de ex-bourbon de primeira utilização. De carácter fácil e cremoso: nariz de baunilha, tons tropicais e nata batida; paladar equilibrado de frutos secos, chocolate e citrinos que se funde na boca; final longo e limpo, de malte tostado e um toque salino. 43%, 700 ml.",
+		"name_en": "The English Original",
+		"description_en": "The English Whisky Co's flagship single malt and the whisky that reopened England's whisky history: a 43% unchill-filtered NAS made with Norfolk barley and copper stills, matured entirely in first-fill ex-bourbon barrels. Easy and creamy: vanilla, soft tropical notes and whipped cream on the nose; a balanced palate of nuts, chocolate and zesty citrus that melts in the mouth; a long, clean finish of toasted malt and a faint saltiness. 43%, 700 ml.",
+		"name_ja": "ザ・イングリッシュ・オリジナル",
+		"description_ja": "イングランドのウイスキー史を再び開いた、ジ・イングリッシュ・ウイスキー社の看板シングルモルト。ノーフォーク産大麦と銅製スチルで造り、ファーストフィル・バーボン樽のみで熟成したノンチルフィルターの43%。親しみやすいクリーミーな味わいで、バニラ、柔らかなトロピカル感、ホイップクリームの香り。味わいはナッツ、チョコレート、柑橘のバランスが口の中で溶け、トーストした麦芽とほのかな塩気の長くすっきりしたフィニッシュ。43%、700ml。",
+		"name_fr": "The English Original",
+		"description_fr": "Le single malt phare de The English Whisky Co et le whisky qui a rouvert l'histoire du whisky anglais : un NAS non filtré à froid de 43 %, élaboré avec de l'orge du Norfolk et des alambics en cuivre, entièrement vieilli en fûts de premier remplissage d'ex-bourbon. Facile et crémeux : vanille, touche tropicale et chantilly au nez ; palais équilibré de fruits secs, chocolat et agrumes qui fond en bouche ; finale longue et nette, de malt toasté et une pointe salée. 43 %, 700 ml.",
+		"distillery_id": "the-english-whisky-co",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=2V-PQB6IH7U",
+				"label": "English Whisky Company The Original - Whisky Critic",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=kJ1-3rpHDxY",
+				"label": "The English Single Malt Original - No Nonsense Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=stK1jzDu2Pw",
+				"label": "The English Original - Whisky Review 219",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=K7zYZTn8DOg",
+				"label": "The English Original Single Malt Whisky Review - Whiskey Vault",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=HVWKPnFXPes",
+				"label": "ザ・イングリッシュ オリジナル",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "israel",
+		"region": "Tel Aviv",
+		"volume": "700 ml",
+		"abv": 46,
+		"url": "",
+		"id": "mh-elements-red-wine",
+		"slug": "mh-elements-red-wine",
+		"name": "M&H Elements Red Wine Cask",
+		"description": "El buque insignia de la serie Elements de Milk & Honey y su single malt más personal: un NAS de 46% que parte de la Classic, madurada en ex-bourbon, y termina en barricas de vino tinto carignan de viñedos israelíes, con un toque de barricas STR y de roble virgen. Sin filtrar en frío ni colorear. Nariz de frutas rojas desecadas, jengibre y roble con una delicada mineralidad; paladar ligero de vino tinto rico, roble seco y vainilla en flor; final suave y rico, con fruta desecada y pasas oscuras. 46%, 700 ml.",
+		"image": "/data/images/mh-elements-red-wine.webp",
+		"age": null,
+		"cask": "Ex-bourbon con final en barricas de vino tinto carignan",
+		"name_pt": "M&H Elements Red Wine Cask",
+		"description_pt": "O carro-chefe da série Elements da Milk & Honey e o seu single malt mais pessoal: um NAS de 46% que parte da Classic, amadurecida em ex-bourbon, e termina em barricas de vinho tinto carignan de vinhas israelitas, com um toque de barricas STR e de carvalho virgem. Sem filtragem a frio nem corante. Nariz de frutos vermelhos secos, gengibre e carvalho com uma delicada mineralidade; paladar leve de vinho tinto rico, carvalho seco e baunilha em flor; final suave e rico, com fruta seca e passas escuras. 46%, 700 ml.",
+		"name_en": "M&H Elements Red Wine Cask",
+		"description_en": "The flagship of Milk & Honey's Elements series and its most personal single malt: a 46% NAS built from the Classic, matured in ex-bourbon, then finished in red-wine casks of Carignan from Israeli vineyards, with a touch of STR and virgin oak. Unchill-filtered and uncoloured. A nose of dried red fruits, ginger and oak wrapped in a gentle minerality; a light-bodied palate of rich red wine, dry oak and vanilla blossom; a soft but rich finish with dried fruits and dark raisins lingering. 46%, 700 ml.",
+		"name_ja": "M&H エレメンツ・レッドワインカスク",
+		"description_ja": "M&Hエレメンツシリーズの旗艦であり、蒸溜所を最も象徴するシングルモルト。バーボン樽熟成のクラシックをベースに、イスラエル産キャリニャン赤ワイン樽でフィニッシュし、STR樽とバージンオークを少量使用したノンチルフィルター・無着色の46%。香りはドライな赤い果実、ジンジャー、オークを優しいミネラル感が包みます。味わいはライトボディで、濃厚な赤ワイン、ドライなオーク、バニラの花。フィニッシュは穏やかでコクがあり、ドライフルーツとダークレーズンが長く続きます。46%、700ml。",
+		"name_fr": "M&H Elements Red Wine Cask",
+		"description_fr": "Le vaisseau amiral de la série Elements de Milk & Honey et son single malt le plus personnel : un NAS à 46 % bâti sur la Classic, vieillie en ex-bourbon, puis fini en fûts de vin rouge carignan de vignobles israéliens, avec une touche de STR et de chêne vierge. Non filtré à froid et non coloré. Nez de fruits rouges séchés, gingembre et chêne dans une délicate minéralité ; palais léger de vin rouge riche, chêne sec et vanille en fleur ; finale douce mais riche, fruits séchés et raisins secs sombres qui persistent. 46 %, 700 ml.",
+		"distillery_id": "milk-and-honey",
+		"influencer_videos": []
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "france",
+		"region": "Brittany",
+		"volume": "700 ml",
+		"abv": 46,
+		"url": "",
+		"id": "armorik-classic-bio",
+		"slug": "armorik-classic-bio",
+		"name": "Armorik Classic Bio",
+		"description": "El single malt orgánico de referencia de Warenghem, la joya de la corona bretona: un NAS de 46% elaborado con cebada local 100% orgánica certificada, doble destilado en alambiques de cobre y madurado únicamente en barricas de ex-bourbon de primer llenado, sin filtrar en frío ni colorear. Nariz intensa de cereales ligeramente especiados y un deje de fruta exótica; paladar de fruta fresca al ataque, melocotón, albaricoque y un dulzor a vainilla; final largo, cálido y vivo, con un deje de yodo. 46%, 700 ml.",
+		"image": "/data/images/armorik-classic-bio.webp",
+		"age": null,
+		"cask": "Ex-bourbon de primer llenado de distintas edades",
+		"name_pt": "Armorik Classic Bio",
+		"description_pt": "O single malt orgânico de referência da Warenghem, a joia da coroa bretã: um NAS de 46% feito com cevada local 100% orgânica certificada, dupla destilado em alambiques de cobre e amadurecido apenas em barricas de ex-bourbon de primeira utilização, sem filtragem a frio nem corante. Nariz intensa de cereais ligeiramente picantes e um toque de fruta exótica; paladar de fruta fresca no ataque, pêssego, alperce e um dulçor de baunilha; final longo, quente e vivo, com um toque de iodo. 46%, 700 ml.",
+		"name_en": "Armorik Classic Bio",
+		"description_en": "Warenghem's organic benchmark single malt, the jewel of the Breton crown: a 46% NAS made with 100% certified-organic local barley, double distilled in copper pot stills and matured solely in first-fill ex-bourbon casks, unchill-filtered and uncoloured. An intense nose of lightly spiced cereals with a hint of exotic fruit; a palate that attacks with fresh fruit — peach and apricot — then soft vanilla sweetness; a long, lively, warming finish with a hint of iodine. 46%, 700 ml.",
+		"name_ja": "アルモリック・クラシック・ビオ",
+		"description_ja": "ブルターニュの至宝、ワランガムのオーガニック基準となるシングルモルト。認証済み100%オーガニックの地元大麦を使い、銅製ポットスチルで二回蒸留。ファーストフィル・バーボン樽のみで熟成したノンチルフィルター・無着色の46%。軽くスパイスの効いた穀物にトロピカルな果実をほんのり添えたしっかりした香り。味わいはフレッシュなフルーツ、桃、アプリコットから柔らかなバニラの甘さへ。長く温かく活き活きとしたフィニッシュにヨードのニュアンス。46%、700ml。",
+		"name_fr": "Armorik Classic Bio",
+		"description_fr": "Le single malt bio de référence de Warenghem, joyau de la couronne bretonne : un NAS à 46 % élaboré avec une orge locale 100 % certifiée bio, double distillation en alambics de cuivre et mûri uniquement en fûts de premier remplissage d'ex-bourbon, non filtré à froid et non coloré. Nez intense de céréales légèrement épicées avec une pointe de fruit exotique ; palais qui attaque fruit frais, pêche, abricot, puis douceur vanillée ; finale longue, vive et chaude, avec une pointe d'iode. 46 %, 700 ml.",
+		"distillery_id": "warenghem",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=wmLmT89eylU",
+				"label": "Armorik Classic - Whisky.com",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=GgteBqFUE_w",
+				"label": "Armorik Classic French Single Malt Whisky - WhiskeyAntics",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=mhxwS7aXfak",
+				"label": "Armorik Classic French Single Malt Review - Whisky Wednesday",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=eJuinMlQ1b8",
+				"label": "Armorik Classic - Single Malt Maniac",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=AKP0KCjlLso",
+				"label": "アルモリック クラシック ウイスキー",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=5vDUNhv2SKc",
+				"label": "アルモリック クラシック",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "pt",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=us3FqIfViDA",
+				"label": "Armorik Classic Breton Single Malt Review - WhiskyBrasil",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "france",
+		"region": "Cognac",
+		"volume": "700 ml",
+		"abv": 40,
+		"url": "",
+		"id": "brenne-estate-cask",
+		"slug": "brenne-estate-cask",
+		"name": "Brenne Estate Cask",
+		"description": "El whisky insignia de Brenne, la marca francesa fundada por Allison Parc: un single malt 100% orgánico, destilado en alambique Charentais en una destilería familiar de la región de Cognac y envejecido al menos seis años en barricas nuevas de roble Limousin francés y en antiguas barricas de Cognac, al 40%. Fruta tropical y repostería francesa: nariz de plátano, pera de gota, mango y vainilla con crema quemada; paladar cremoso de piña, coco, vainilla y chocolate; final corto, con roble suave y dulzura. 40%, 700 ml.",
+		"image": "/data/images/brenne-estate-cask.webp",
+		"age": null,
+		"cask": "Nuevo roble Limousin francés y antiguas barricas de Cognac",
+		"name_pt": "Brenne Estate Cask",
+		"description_pt": "O whisky de referência da Brenne, a marca francesa fundada por Allison Parc: um single malt 100% orgânico, destilado em alambique Charentais numa destilaria familiar da região de Cognac e envelhecido pelo menos seis anos em barricas novas de carvalho Limousin francês e em antigas barricas de Cognac, a 40%. Fruta tropical e pastelaria francesa: nariz de banana, pêra, manga e baunilha com creme queimado; paladar cremoso de ananás, coco, baunilha e chocolate; final curto, com carvalho suave e doçura. 40%, 700 ml.",
+		"name_en": "Brenne Estate Cask",
+		"description_en": "The flagship whisky of Brenne, the French brand founded by Allison Parc: a 100% organic single malt, distilled in a Charentais alembic at a family distillery in the Cognac region and aged at least six years in new French Limousin oak and ex-Cognac casks, at 40%. Tropical fruit and French patisserie: banana, pear drop, mango and vanilla with crème brûlée on the nose; a creamy palate of pineapple, coconut, vanilla and chocolate; a short finish of gentle oak and residual sweetness. 40%, 700 ml.",
+		"name_ja": "ブレンヌ・エステートカスク",
+		"description_ja": "アリソン・パークが創業したフランスのブランド、ブレンヌの看板ウイスキー。コニャック地方の家族経営蒸留所でシャラント型アラミックで蒸留したオーガニック100%のシングルモルトで、新品のフレンチ・リモーザンオーク樽とコニャック古樽で6年以上熟成。トロピカルフルーツとフランス菓子のような味わいで、バナナ、ペアドロップ、マンゴー、バニラ、クレームブリュレの香り。味わいはパイナップル、ココナッツ、バニラ、チョコレートのクリーミー。ソフトなオークと甘さの残る短いフィニッシュ。40%、700ml。",
+		"name_fr": "Brenne Estate Cask",
+		"description_fr": "Le whisky phare de Brenne, la marque française fondée par Allison Parc : un single malt 100 % bio, distillé dans un alambic charentais dans une distillerie familiale de la région de Cognac et vieilli au moins six ans en fûts neufs de chêne du Limousin et en anciens fûts de Cognac, à 40 %. Fruits tropicaux et pâtisserie française : banane, poire, mangue et vanille avec crème brûlée au nez ; palais crémeux d'ananas, noix de coco, vanille et chocolat ; finale courte, de chêne doux et de douceur résiduelle. 40 %, 700 ml.",
+		"distillery_id": "brenne",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=-zUxZwieYS8",
+				"label": "Brenne French Single Malt Whisky Review - Cult Of Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=G_jK2Eh1B5w",
+				"label": "Brenne Single Malt, Estate Cask - Cask and a Glass",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=TJH0gxsal6w",
+				"label": "Brenne Single Malt Whisky Review - Whisky Wednesday",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=-Ut77lC9wks",
+				"label": "Brenne Estate Cask review - Moa Nilsson",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=FfpCeNcoPEs",
+				"label": "Brenne Estate Cask - Los Whiskochos",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=yJpZW0IYWH4",
+				"label": "BRENNE FRENCH SINGLE MALT WHISKY - Hablando de Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=YVUYWdW_r3k",
+				"label": "Brenne Single Malt Whisky Frances - Amantes Del Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=Pztrr6CKyPM",
+				"label": "Notas de cata para Brenne - La Wiskada",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
 	]
 }

@@ -138,10 +138,22 @@
     "sort_order": 10
   },
   {
+    "id": "england-norfolk",
+    "origin_id": "england",
+    "name": "Norfolk",
+    "sort_order": 10
+  },
+  {
     "id": "ireland-clare",
     "origin_id": "ireland",
     "name": "Clare",
     "sort_order": 11
+  },
+  {
+    "id": "france-brittany",
+    "origin_id": "france",
+    "name": "Brittany",
+    "sort_order": 12
   },
   {
     "id": "ireland-donegal",
@@ -153,6 +165,12 @@
     "id": "scotland-blended-scotch",
     "origin_id": "scotland",
     "name": "Blended Scotch",
+    "sort_order": 13
+  },
+  {
+    "id": "france-cognac",
+    "origin_id": "france",
+    "name": "Cognac",
     "sort_order": 13
   },
   {
@@ -267,6 +285,12 @@
     "id": "usa-colorado",
     "origin_id": "usa",
     "name": "Colorado",
+    "sort_order": 32
+  },
+  {
+    "id": "israel-tel-aviv",
+    "origin_id": "israel",
+    "name": "Tel Aviv",
     "sort_order": 32
   },
   {
