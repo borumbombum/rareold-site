@@ -1,5 +1,12 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-16 — First German whisky: Slyrs Classic
+
+- **German whiskies get their English reviews from a handful of "German-category" channels — but only as exact bottlings, and the German-language reviews are useless to us.** Exact Slyrs Classic EN reviews exist (Whisky.com, Whisky Nerd/The Dram Whisky, The Whisky Rogues); everything German-speaking (Whisky.de, Die Taster, Literatur und Whisky, Ash's WhiskEy) is `de` — not a UI locale, so it can't sit in any slot. `es/pt/fr/ja` had no exact Classic review on YouTube at all (the Spanish channel HABLANDO DE WHISKY only covered the 12yo). Don't mistake "lots of German videos" for coverage in our locales.
+- **Distillery coordinates source matters**: whisky.com listed Slyrs at 47.7618/11.8304, but Nominatim (and Wikipedia) agree on 47.7027/11.8854 for Bayrischzeller Str 13 (whisky.com stores lon/lat and was still off). Geocode via Nominatim for town-level truth.
+- **Slyrs' official shop is BeMakers-hosted with predictable image URLs** discoverable from the europe.slyrs.com HTML (ucr.io proxy → bemakers S3); the main slyrs.com pages return a 134-byte JS shell to curl — scrape the regional subdomain instead.
+- **Slyrs Classic is a "new American white oak" whisky, not a bourbon-cask** whisky — freed it from the Bourbon/Sherry/Mixed taxonomy (`cask: null`) despite Whisky.com calling it "American white oak casks … similar to Bourbon".
+
 ## 2026-09-16 — Batch: France complete (7 whiskies: Eddu Silver, Vilanova Berbie, Hautes Glaces Indigène, Glann ar Mor, Kornog, Lehmann, Rozelieures)
 
 - **French whiskies genuinely lack isolated in-language tastings on YouTube — don't mistake that for a bad search.** Eddu Silver has fr (LWF #01, LCDW Ep6), Rozelieures Origine has fr (LWF #14), but Glann ar Mor/Kornog/Vilanova/Hautes Glaces/Lehmann are covered only as multi-bottle formats (Wu Dram Clan "Glann ar Mor & Kornog", "Comparatif n°9 whiskies Vilanova", distillery visits, masterclasses, news). ~20 query angles across yt + 6 Invidious instances and channel enumeration (Les Whiskies Français numbered series) confirmed it. Exact-expression policy stands (user confirmed); those products ship honest zero videos.

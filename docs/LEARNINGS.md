@@ -1,5 +1,11 @@
 # Learnings
 
+## 2026-09-16 — First German whisky: Slyrs Classic
+
+- **Germany opened in the catalog**: 1 product / 1 distillery / 1 region (`Bavaria`) — 19 origins / 58 regions / 220 distilleries / 459 products / 4406 videos. Slyrs was the anchor (largest German distillery, best international distribution — the realistic source of non-German reviews).
+- **Slyrs Classic facts**: NAS successor to the 3yo (blend of ~3–6yo malts), 43%/70cl, non-chill-filtered, matured in fresh 225-litre American white oak, Bavarian summer barley + Schliersee mountain spring water; distillery founded 1999 (first sold 2002), own plant built 2007 in Neuhaus am Schliersee, high-altitude warehouse at Stümpfling 1,501 m, PX Edition = WWA Europe 2014.
+- **The review coverage gradient is steep**: flagship Classic has EN reviews; regional bottles (50cl MALT 40%, FC Bayern Champions, Sauternes) and aged editions may not. Between Slyrs and St. Kilian, German whisky reviews concentrate on the two big exporters — expect thin slots elsewhere in the Germany queue.
+
 ## 2026-09-16 — Batch: France complete (7 whiskies: Eddu Silver, Vilanova Berbie, Hautes Glaces Indigène, Glann ar Mor, Kornog, Lehmann, Rozelieures)
 
 - **Biggest haul of distilleries + second 7-product batch**: 7 products, 6 distilleries, 4 new regions (Occitanie, French Alps, Alsace, Lorraine) — 19 origins / 57 regions / 219 distilleries / 458 products / 4403 videos.

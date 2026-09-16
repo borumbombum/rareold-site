@@ -258,6 +258,12 @@
     "sort_order": 17
   },
   {
+    "id": "germany-bavaria",
+    "origin_id": "germany",
+    "name": "Bavaria",
+    "sort_order": 18
+  },
+  {
     "id": "scotland-speyside",
     "origin_id": "scotland",
     "name": "Speyside",

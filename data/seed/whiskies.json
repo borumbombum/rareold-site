@@ -42412,6 +42412,54 @@
 				"created_at": "2000-01-01T00:00:00.000Z"
 			}
 			]
+		},
+		{
+			"id": "slyrs-classic",
+			"slug": "slyrs-classic",
+			"name": "Slyrs Classic",
+			"description": "Single malt estrella de Baviera, sin declaración de edad. Perfil afrutado y dulce: albaricoque, piel de naranja, jengibre fresco y caramelo en nariz; una dulzura elegante de mazapán y nueces en boca y un final largo y especiado a canela. Elaborado con cebada de verano bávara y agua de montaña del Schliersee, se cría durante unos 3 a 6 años en barriles nuevos de roble blanco americano y se embotella sin filtración en frío.",
+			"image": "/data/images/slyrs-classic.webp",
+			"origin": "germany",
+			"region": "Bavaria",
+			"age": null,
+			"volume": "700 ml",
+			"abv": 43,
+			"cask": null,
+			"resellers_uy": [],
+			"resellers_br": [],
+			"resellers_usa": [],
+			"distillery_id": "slyrs",
+			"name_pt": "Slyrs Classic",
+			"description_pt": "Single malt carro-chefe da Baviera, sem declaração de idade. Perfil frutado e doce: damasco, casca de laranja, gengibre fresco e caramelo no nariz; doçura elegante de maçapão e nozes na boca e final longo e picante de canela. Produzido com cevada bávara de verão e água de montanha do lago Schliersee, envelhecido por cerca de 3 a 6 anos em barris novos de carvalho branco americano e engarrafado sem filtração a frio.",
+			"name_en": "Slyrs Classic",
+			"description_en": "Bavaria's flagship single malt, a no-age-statement whisky with a bright, sweet profile: apricot, orange peel, fresh ginger and caramel on the nose; an elegant marzipan-and-walnut sweetness on the palate; and a long, cinnamon-spiced finish. Made with Bavarian summer barley and Schliersee mountain spring water, matured around 3–6 years in new American white oak casks and bottled non-chill-filtered.",
+			"name_ja": "スライアース クラシック",
+			"description_ja": "バイエルンの看板シングルモルト。ノンエイジながらフルーティで甘やかな味わい。アプリコット、オレンジピール、フレッシュジンジャー、キャラメルの香りに、口当たりは上品なマジパンとくるみの甘み、シナモンの長いスパイシーな余韻。バイエルンの夏大麦とシュリースの山の湧き水を使用し、新品のアメリカン・ホワイトオーク樽で約3〜6年熟成。ノンチルフィルターで瓶詰め。",
+			"name_fr": "Slyrs Classic",
+			"description_fr": "Le single malt emblématique de Bavière, sans indication d'âge, au profil fruité et doux : abricot, zeste d'orange, gingembre frais et caramel au nez ; une douceur élégante de massepain et de noix en bouche ; une finale longue et épicée à la cannelle. Élaboré avec de l'orge bavaroise d'été et l'eau de source du lac de Schliersee, vieilli environ 3 à 6 ans en fûts neufs de chêne blanc américain et embouteillé non filtré à froid.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=haOnucEOi7E",
+					"label": "Whisky Review/Tasting: Slyrs Classic - Whisky.com",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=g40VCouKPWA",
+					"label": "Slyrs Classic Single Malt Whisky 43% - Whisky Nerd",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=hTQiz_3BYQU",
+					"label": "Whisky Review 1 of 2020: Slyrs Single Malt Whisky Classic - The Whisky Rogues",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			]
 		}
 	]
 }
