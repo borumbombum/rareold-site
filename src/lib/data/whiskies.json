@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-16T00:52:58.225Z",
+  "generatedAt": "2026-09-16T02:31:36.057Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -32815,6 +32815,86 @@
       ]
     },
     {
+      "id": "slyrs-12-years",
+      "slug": "slyrs-12-years",
+      "name": "Slyrs 12 Years Old",
+      "distillery": {
+        "id": "slyrs",
+        "name": "Slyrs",
+        "name_es": "Slyrs",
+        "name_pt": "Slyrs",
+        "name_en": "Slyrs",
+        "name_ja": "スライアース",
+        "name_fr": "Slyrs"
+      },
+      "description": "La edición veterana de la casa bávara, estrenada en 2015 con solo 2.000 botellas. Doce años de crianza en barriles de roble blanco americano ya usados —segundo llenado, los mismos que antes contuvieron el Classic— dan un perfil suave y sumamente equilibrado: vainilla, caramelo, miel y canela en nariz con pera, albaricoque y un lejano humo; naranjas confitadas y caramelo salado en boca, con un final largo y complejo de fruta madura.",
+      "image": "/data/images/slyrs-12-years.webp",
+      "origin": "germany",
+      "region": "Bavaria",
+      "age": 12,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Refill American oak",
+      "distillery_id": "slyrs",
+      "insertion_order": 463,
+      "featured": false,
+      "name_pt": "Slyrs 12 Years Old",
+      "description_pt": "A edição veterana da casa bávara, lançada em 2015 com apenas 2.000 garrafas. Doze anos de maturação em barris de carvalho branco americano já usados — segundo reenchimento, os mesmos que antes guardaram o Classic — dão um perfil suave e extremamente equilibrado: baunilha, caramelo, mel e canela no nariz com pêra, damasco e um leve fumo; laranjas cristalizadas e caramelo salgado na boca, com final longo e complexo de fruta madura.",
+      "name_en": "Slyrs 12 Years Old",
+      "description_en": "The veteran bottling of the Bavarian house, launched in 2015 with just 2,000 bottles. Twelve years of maturation in reused American white oak casks — second-fill, the same barrels that previously held the Classic — give a soft, supremely balanced profile: vanilla, caramel, honey and cinnamon on the nose with pear, apricot and a distant hint of smoke; candied oranges and salted caramel on the palate; a long, complex finish of ripe fruit.",
+      "name_ja": "スライアース 12年",
+      "description_ja": "2015年にわずか2000本で登場した名門バイエルンのベテラン・エディション。クラシックを熟成した後のアメリカン・ホワイトオーク樽（セカンドフィル）で12年熟成された、やわらかく完璧なバランスの味わい。バニラ、キャラメル、はちみつ、シナモンに、洋梨、アプリコット、ほのかなスモークの香り。オレンジピールと塩キャラメルの風味に、熟した果実の長く複雑な余韻。",
+      "name_fr": "Slyrs 12 ans",
+      "description_fr": "L'édition vétéran de la maison bavaroise, lancée en 2015 en seulement 2 000 bouteilles. Douze ans de vieillissement en fûts de chêne blanc américain déjà utilisés — deuxième remplissage, les mêmes fûts qui abritaient la Classic — donnent un profil doux et extrêmement équilibré : vanille, caramel, miel et cannelle au nez, avec poire, abricot et un lointain fumé ; oranges confites et caramel salé en bouche, longue finale complexe de fruits mûrs.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YxEjFivkaWo",
+          "label": "Whisky Review/Tasting: Slyrs 12 years - Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=O8UKJuNynFM",
+          "label": "Slyrs 12 Single Malt, whisky alemán - Hablando de Whisky"
+        }
+      ]
+    },
+    {
+      "id": "slyrs-bavarian-rye",
+      "slug": "slyrs-bavarian-rye",
+      "name": "Slyrs Bavarian Rye",
+      "distillery": {
+        "id": "slyrs",
+        "name": "Slyrs",
+        "name_es": "Slyrs",
+        "name_pt": "Slyrs",
+        "name_en": "Slyrs",
+        "name_ja": "スライアース",
+        "name_fr": "Slyrs"
+      },
+      "description": "El rye bávaro nace de una masilla de tres granos en la que domina el centeno autóctono 'Urkorn', acompañado de cebada y trigo. El maestro destilador Hans Kemenater estudió las cunas del rye americano antes de crear este whisky a 41 grados de un carácter muy afrutado: fruta madura y canela en nariz; dulce y especiado, con regaliz, canela y pimienta de Jamaica en boca, y un final largo, sutilmente seco y pimentado de gran equilibrio. Un estilo muy diferente al single malt de la casa, imprescindible para entender el rye alemán.",
+      "image": "/data/images/slyrs-bavarian-rye.webp",
+      "origin": "germany",
+      "region": "Bavaria",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 41,
+      "cask": "American oak",
+      "distillery_id": "slyrs",
+      "insertion_order": 465,
+      "featured": false,
+      "name_pt": "Slyrs Bavarian Rye",
+      "description_pt": "O rye bávaro nasce de uma massa de três grãos dominada pelo centeio autóctone 'Urkorn', acompanhado de cevada e trigo. O mestre destilador Hans Kemenater estudou os berços do rye americano antes de criar este whisky a 41 graus de caráter muito frutado: fruta madura e canela no nariz; doce e picante, com alcaçuz, canela e pimenta da Jamaica na boca, e final longo, sutilmente seco e apimentado de grande equilíbrio. Um estilo muito diferente do single malt da casa, indispensável para entender o rye alemão.",
+      "name_en": "Slyrs Bavarian Rye",
+      "description_en": "The Bavarian rye is born from a three-grain mash dominated by the heritage 'Urkorn' rye, backed by barley and wheat. Master distiller Hans Kemenater studied the homelands of American rye before creating this 41-proof whisky with a very fruity character: ripe fruit and cinnamon on the nose; sweet and spicy, with liquorice, cinnamon and allspice on the palate, and a long, subtly dry, peppery finish of great balance. A style very different from the house single malt — essential to understand German rye.",
+      "name_ja": "スライアース バイエリッシュ・ライ",
+      "description_ja": "バイエルン原産の伝統麦「ウアコーン」のライ麦を主体に、大麦と小麦を加えた3種のグレーンで造られるライ・ウイスキー。ハンス・ケメナター専務がアメリカのライ・ウイスキーを現地で研究して完成させた41度の原酒。フルーティで熟した果実とシナモンの香り、甘草やオールスパイスの甘くスパイシーな味わい、長く微妙にドライで胡椒の効いた、バランスの良い余韻。同社のシングルモルトとは一線を画すスタイルです。",
+      "name_fr": "Slyrs Bavarian Rye",
+      "description_fr": "Le rye bavarois naît d'une purée de trois grains dominée par le seigle ancestral « Urkorn », accompagné d'orge et de blé. Le maître distillateur Hans Kemenater a étudié les terres d'origine du rye américain avant de créer ce whisky à 41 degrés au caractère très fruité : fruits mûrs et cannelle au nez ; doux et épicé, avec réglisse, cannelle et quatre-épices en bouche, et une finale longue, subtilement sèche et poivrée, d'un grand équilibre. Un style très différent du single malt de la maison — indispensable pour comprendre le rye allemand."
+    },
+    {
       "id": "slyrs-classic",
       "slug": "slyrs-classic",
       "name": "Slyrs Classic",
@@ -32864,6 +32944,59 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=haOnucEOi7E",
           "label": "Whisky Review/Tasting: Slyrs Classic - Whisky.com"
+        }
+      ]
+    },
+    {
+      "id": "slyrs-fifty-one",
+      "slug": "slyrs-fifty-one",
+      "name": "Slyrs Fifty One",
+      "distillery": {
+        "id": "slyrs",
+        "name": "Slyrs",
+        "name_es": "Slyrs",
+        "name_pt": "Slyrs",
+        "name_en": "Slyrs",
+        "name_ja": "スライアース",
+        "name_fr": "Slyrs"
+      },
+      "description": "Cuvée a 51 grados de la casa bávara, criada en barricas nuevas de roble blanco americano y en barricas que antes contuvieron oporto, jerez y Sauternes. De oro amarillo oscuro, despliega ciruelas pasas y castañas asadas con musgo, abeto y un punto de chocolate en nariz; hierbas amargas, clavo y frutos secos en boca, con una textura fresca y un final largo, intenso y ligeramente seco. Mejor disfrutarlo solo y a temperatura ambiente, con calma.",
+      "image": "/data/images/slyrs-fifty-one.webp",
+      "origin": "germany",
+      "region": "Bavaria",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 51,
+      "cask": "Mixed",
+      "distillery_id": "slyrs",
+      "insertion_order": 464,
+      "featured": false,
+      "name_pt": "Slyrs Fifty One",
+      "description_pt": "Cuvée a 51 graus da casa bávara, maturada em barris novos de carvalho branco americano e em barris que antes guardaram porto, xerez e Sauternes. De dourado amarelo escuro, revela ameixas secas e castanhas assadas com musgo, abeto e um toque de chocolate no nariz; ervas amargas, cravo e frutos secos na boca, com textura fresca e final longo, intenso e levemente seco. Melhor apreciado puro e em temperatura ambiente, com calma.",
+      "name_en": "Slyrs Fifty One",
+      "description_en": "A 51-proof cuvée from the Bavarian house, matured in new American white oak casks and in casks that previously held port, sherry and Sauternes. Dark golden yellow, it unfolds prunes and roasted chestnuts with moss, spruce and a hint of chocolate on the nose; tart herbs, cloves and nuts on the palate, with a fresh texture and a long, intense, mildly dry finish. Best enjoyed neat at room temperature, unhurried.",
+      "name_ja": "スライアース フィフティ・ワン",
+      "description_ja": "新樽アメリカン・ホワイトオークに加え、ポート、シェリー、ソーテルヌの樽を使用した51度のキュヴェ。濃い黄金色。プルーンとロースト栗、苔、モミの木、ほのかなチョコレートの香り。苦味のあるハーブ、クローブ、ナッツの風味に新鮮な口当たり、長く強烈でややドライな余韻。室温でストレートでじっくり楽しむのがおすすめ。",
+      "name_fr": "Slyrs Fifty One",
+      "description_fr": "Cuvée à 51 degrés de la maison bavaroise, élevée en fûts neufs de chêne blanc américain et dans des fûts ayant contenu du porto, du sherry et du Sauternes. Or jaune foncé, elle déploie pruneaux et châtaignes rôties avec mousse, épicéa et une pointe de chocolat au nez ; herbes amères, clous de girofle et fruits secs en bouche, avec une texture fraîche et une finale longue, intense et légèrement sèche. À déguster nature à température ambiante, sans se presser.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BHb4wRdXKEw",
+          "label": "Whisky Review 113: Slyrs Fifty One 51% ABV - Booze Reviews"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=JfbZwDmO1Ok",
+          "label": "Slyrs Single Malt Whiskey Fifty One Review - Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZGXV0AwIeK4",
+          "label": "Whisky Review/Tasting: Slyrs Fifty One - Whisky.com"
         }
       ]
     },
@@ -33711,6 +33844,94 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=j81b9hlNDbY",
           "label": "Springbank 10 Anos | Tierri Whisky (Springbank)"
+        }
+      ]
+    },
+    {
+      "id": "st-kilian-classic",
+      "slug": "st-kilian-classic",
+      "name": "St. Kilian Classic",
+      "distillery": {
+        "id": "st-kilian",
+        "name": "St. Kilian Distillers",
+        "name_es": "St. Kilian Distillers",
+        "name_pt": "St. Kilian Distillers",
+        "name_en": "St. Kilian Distillers",
+        "name_ja": "セント・キリアン ディスティラーズ",
+        "name_fr": "St. Kilian Distillers"
+      },
+      "description": "El single malt sin humo de la gama básica de St. Kilian, al 46%. Maltas suaves criadas un 70% en barricas de bourbon y un 30% en jerez Pedro Ximénez y Oloroso. Oro brillante; albaricoques, melocotones, ciruelas amarillas y plátanos con vainilla cremosa, roble especiado, menta y una pizca de salvia en nariz; dulce y cálido a la vez, con toffee cremoso y una pizca de pimienta blanca en boca; final de caramelo cremoso, crujiente seco y hierbas finas. Color natural, sin filtración en frío, en la icónica botella pot still.",
+      "image": "/data/images/st-kilian-classic.webp",
+      "origin": "germany",
+      "region": "Bavaria",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon & Sherry",
+      "distillery_id": "st-kilian",
+      "insertion_order": 466,
+      "featured": false,
+      "name_pt": "St. Kilian Classic",
+      "description_pt": "O single malt sem fumaça da gama básica da St. Kilian, a 46%. Maltes suaves envelhecidos 70% em barris de bourbon e 30% em xerez Pedro Ximénez e Oloroso. Dourado brilhante; damascos, pêssegos, ameixas amarelas e bananas com baunilha cremosa, carvalho picante, hortelã e uma pitada de sálvia no nariz; doce e quente ao mesmo tempo, com toffee cremoso e uma pitada de pimenta branca na boca; final de caramelo cremoso, crocante seco e ervas finas. Cor natural, sem filtração a frio, na icônica garrafa pot still.",
+      "name_en": "St. Kilian Classic",
+      "description_en": "The unpeated single malt of St. Kilian's core range, at 46%. Soft malts matured 70% in bourbon casks and 30% in Pedro Ximénez and Oloroso sherry. Bright gold; apricots, peaches, yellow plums and bananas with creamy vanilla, spiced oak, mint and a pinch of sage on the nose; sweet and warming at once, with creamy toffee and a pinch of white pepper on the palate; a finish of creamy caramel, dry brittle and fine herbs. Natural colour, non-chill-filtered, in the iconic pot-still bottle.",
+      "name_ja": "セント・キリアン クラシック",
+      "description_ja": "セント・キリアンのスタンダードラインのノンピート・シングルモルト、46%。バーボン樽70%、ペドロ・ヒメネス＆オロロソ・シェリー樽30%で熟成。明るいゴールド。アプリコット、ピーチ、黄プラム、バナナにクリーミーなバニラ、スパイシーなオーク、ミント、セージの香り。甘くて温かみのある口当たり、クリーミーなトフィーと白胡椒の風味。キャラメルのクリーミーな余韻とドライなブリトル、ハーブ。自然な色、ノンチルフィルター、アイコニックなポットスチル型ボトル。",
+      "name_fr": "St. Kilian Classic",
+      "description_fr": "Le single malt non fumé de la gamme principale de St. Kilian, à 46 %. Des malts doux élevés à 70 % en fûts de bourbon et à 30 % en fûts de sherry Pedro Ximénez et Oloroso. Or brillant ; abricots, pêches, prunes jaunes et bananes avec vanille crémeuse, chêne épicé, menthe et une pincée de sauge au nez ; doux et chaleureux à la fois, avec toffee crémeux et une pincée de poivre blanc en bouche ; une finale de caramel crémeux, de praliné sec et de fines herbes. Couleur naturelle, non filtré à froid, dans l'embouteillage pot still emblématique.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=S6zBkL30GXo",
+          "label": "We try the CLASSIC St. Kilian - Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wo6mRLvRgQk",
+          "label": "St. Kilian Classic Mild & Fruity review - WhiskyJason"
+        }
+      ]
+    },
+    {
+      "id": "st-kilian-peated",
+      "slug": "st-kilian-peated",
+      "name": "St. Kilian Peated",
+      "distillery": {
+        "id": "st-kilian",
+        "name": "St. Kilian Distillers",
+        "name_es": "St. Kilian Distillers",
+        "name_pt": "St. Kilian Distillers",
+        "name_en": "St. Kilian Distillers",
+        "name_ja": "セント・キリアン ディスティラーズ",
+        "name_fr": "St. Kilian Distillers"
+      },
+      "description": "La versión fumada de la gama básica de St. Kilian, al 46%, con maltas fuertemente turbadas (54 ppm). Misma receta de barricas que la Classic —70% bourbon y 30% Pedro Ximénez y Oloroso— al servicio de un perfil ahumado y afrutado: albaricoques a la brasa, peras jugosas y plátanos maduros con vainilla, un chorrito de lima y humo de turba suave con ceniza seca y menta fresca; en boca, cuerpo pleno, dulce y afrutado con toffee cremoso y turba delicada; final cálido y envolvente de compota de frutas, toffee oscuro y ceniza con roble seco. Color natural, sin filtración en frío.",
+      "image": "/data/images/st-kilian-peated.webp",
+      "origin": "germany",
+      "region": "Bavaria",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Bourbon & Sherry",
+      "distillery_id": "st-kilian",
+      "insertion_order": 467,
+      "featured": false,
+      "name_pt": "St. Kilian Peated",
+      "description_pt": "A versão defumada da gama básica da St. Kilian, a 46%, com maltes fortemente turfados (54 ppm). Mesma receita de barris da Classic — 70% bourbon e 30% Pedro Ximénez e Oloroso — a serviço de um perfil defumado e frutado: damascos na brasa, pêras suculentas e bananas maduras com baunilha, um toque de lima e fumaça de turfa suave com cinza seca e hortelã fresca; na boca, corpo pleno, doce e frutado com toffee cremoso e turfa delicada; final quente e envolvente de compota de frutas, toffee escuro e cinza com carvalho seco. Cor natural, sem filtração a frio.",
+      "name_en": "St. Kilian Peated",
+      "description_en": "The smoky edition of St. Kilian's core range, at 46%, from heavily peated malts (54 ppm). The same cask recipe as the Classic — 70% bourbon and 30% Pedro Ximénez and Oloroso — at the service of a peated, fruity profile: grilled apricots, juicy pears and ripe bananas with vanilla, a squeeze of lime and gentle peat smoke with dry ash and cooling mint; full-bodied, sweet and fruity on the palate, with creamy toffee and delicate peat; a soothingly warm finish of fruit compote, dark toffee and ash over dry oak. Natural colour, non-chill-filtered.",
+      "name_ja": "セント・キリアン ピーテッド",
+      "description_ja": "セント・キリアンのスタンダードラインのスモーキー・エディション、46%。強くピートした麦芽（54ppm）を使用。クラシックと同じ樽構成（バーボン70%、ペドロ・ヒメネス＆オロロソ・シェリー30%）で、炭火焼きアプリコット、ジューシーな洋梨、熟したバナナにバニラ、ライム、穏やかなピートスモーク、ドライな灰とミントの香り。フルボディで甘くフルーティな口当たり、クリーミーなトフィーと繊細なピート。温かく包み込むような果実コンポートとダークトフィー、オークのドライさを伴う灰の余韻。ノンチルフィルター。",
+      "name_fr": "St. Kilian Peated",
+      "description_fr": "L'édition fumée de la gamme principale de St. Kilian, à 46 %, issue de malts fortement tourbés (54 ppm). Même recette de fûts que la Classic — 70 % de bourbon et 30 % de Pedro Ximénez et Oloroso — au service d'un profil tourbé et fruité : abricots grillés, poires juteuses et bananes mûres avec vanille, un zeste de citron vert et une fumée de tourbe douce à la cendre sèche et à la menthe fraîche ; corsé, doux et fruité en bouche, avec du toffee crémeux et une tourbe délicate ; une finale chaleureuse de compote de fruits, de toffee foncé et de cendre sur un chêne sec. Couleur naturelle, non filtré à froid.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IngDgB5ZPIs",
+          "label": "We try a STRONGLY SMOKY St. Kilian - Whisky.com"
         }
       ]
     },

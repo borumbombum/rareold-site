@@ -1,5 +1,14 @@
 # Learnings
 
+## 2026-09-16 — Germany batch 2: Slyrs 12/Fifty One/Bavarian Rye + St. Kilian Classic/Peated
+
+- **Germany now has 6 products / 2 distilleries** (464 prods, 221 distilleries, 4414 videos). Slyrs ships 4 expressions (Classic, 12yo, Fifty One, Bavarian Rye); St. Kilian enters with its 2 core-range single malts.
+- **Video supply by expression** (EN-focus, de-spoken excluded): Classic 3, 12yo 1 (whisky.com) + 1 es (HABLANDO DE WHISKY — the only non-EN exact German-whisky review found), Fifty One 3, Classic St. Kilian 2, Peated 1, Bavarian Rye 0 (honest zero). ER: German whisky review coverage is EN + DE heavy; Spanish/Portuguese/French/Japanese slots will mostly stay empty.
+- **WhiskyJason runs TWO channels** — the EN channel ("WhiskyJason") and a German channel ("Whisky aus der Sicht eines Amerikaners"): same thumbnails/format, different narration language. oEmbed channel name decides the slot, never the native-search title.
+- **St. Kilian's core range is a 70/30 bourbon/sherry recipe twice over** — Classic (unpeated, 46%) and Peated (54 ppm, 46%) share casks; product differentiation = peat only. €49.90 each.
+- **BeMakers (Slyrs) + Shopify (St. Kilian) were both scraped without JS**: europe.slyrs.com is a static Storefront site with real product HTML; stkiliandistillers.com exposes full JSON-LD. German distillery official shops are scrapable, and no retailer fallback was needed for any of the 5 images.
+- **Ready-known German brands to expect in the remaining 7 queue lines** (Cigar Malt, Elsburn×2, Störtebeker, Elch, Stork Club, Thousand Mountains): mid-size craft; Cigar Malt is St. Kilian's 69,90€ third core bottling.
+
 ## 2026-09-16 — First German whisky: Slyrs Classic
 
 - **Germany opened in the catalog**: 1 product / 1 distillery / 1 region (`Bavaria`) — 19 origins / 58 regions / 220 distilleries / 459 products / 4406 videos. Slyrs was the anchor (largest German distillery, best international distribution — the realistic source of non-German reviews).

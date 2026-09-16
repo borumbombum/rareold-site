@@ -401,11 +401,11 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ## Germany
 
 ✅ Slyrs Classic - Slyrs
-Slyrs 12 Years Old - Slyrs
-Slyrs Fifty One - Slyrs
-Slyrs Bavarian Rye - Slyrs
-St. Kilian Classic - St. Kilian
-St. Kilian Peated - St. Kilian
+✅ Slyrs 12 Years Old - Slyrs
+✅ Slyrs Fifty One - Slyrs
+✅ Slyrs Bavarian Rye - Slyrs
+✅ St. Kilian Classic - St. Kilian
+✅ St. Kilian Peated - St. Kilian
 St. Kilian Cigar Malt - St. Kilian
 Elsburn The Journey - Hammerschmiede
 Elsburn The Ember - Hammerschmiede

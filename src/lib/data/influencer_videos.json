@@ -24612,6 +24612,20 @@
     "label": "The Whiskey Nerd — Slane Triple Cask REVIEW"
   },
   {
+    "product_id": "slyrs-12-years",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=YxEjFivkaWo",
+    "label": "Whisky Review/Tasting: Slyrs 12 years - Whisky.com"
+  },
+  {
+    "product_id": "slyrs-12-years",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=O8UKJuNynFM",
+    "label": "Slyrs 12 Single Malt, whisky alemán - Hablando de Whisky"
+  },
+  {
     "product_id": "slyrs-classic",
     "language": "en",
     "platform": "youtube",
@@ -24631,6 +24645,27 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=haOnucEOi7E",
     "label": "Whisky Review/Tasting: Slyrs Classic - Whisky.com"
+  },
+  {
+    "product_id": "slyrs-fifty-one",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=BHb4wRdXKEw",
+    "label": "Whisky Review 113: Slyrs Fifty One 51% ABV - Booze Reviews"
+  },
+  {
+    "product_id": "slyrs-fifty-one",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=JfbZwDmO1Ok",
+    "label": "Slyrs Single Malt Whiskey Fifty One Review - Whiskey Vault"
+  },
+  {
+    "product_id": "slyrs-fifty-one",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ZGXV0AwIeK4",
+    "label": "Whisky Review/Tasting: Slyrs Fifty One - Whisky.com"
   },
   {
     "product_id": "smokehead-design",
@@ -25170,6 +25205,27 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=j81b9hlNDbY",
     "label": "Springbank 10 Anos | Tierri Whisky (Springbank)"
+  },
+  {
+    "product_id": "st-kilian-classic",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=S6zBkL30GXo",
+    "label": "We try the CLASSIC St. Kilian - Whisky.com"
+  },
+  {
+    "product_id": "st-kilian-classic",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=wo6mRLvRgQk",
+    "label": "St. Kilian Classic Mild & Fruity review - WhiskyJason"
+  },
+  {
+    "product_id": "st-kilian-peated",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=IngDgB5ZPIs",
+    "label": "We try a STRONGLY SMOKY St. Kilian - Whisky.com"
   },
   {
     "product_id": "starward-nova",

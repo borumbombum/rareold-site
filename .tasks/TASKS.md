@@ -1,3 +1,4 @@
+- 095 [DONE] Germany batch 2: Slyrs 12/Fifty One/Bavarian Rye + St. Kilian Classic/Peated (distillery st-kilian; 464 products)
 - 094 [DONE] Slyrs Classic: first German whisky (distillery slyrs + region Bavaria; EN videos ×3)
 - 093 [DONE] Germany: research + queue first German whiskies (13 lines, 8 distilleries)
 - 092 [DONE] France complete: 7 whiskies (Eddu Silver, Vilanova Berbie, Domaine des Hautes Glaces Indigène, Glann ar Mor, Kornog, Lehmann, Rozelieures)
