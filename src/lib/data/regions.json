@@ -150,6 +150,12 @@
     "sort_order": 11
   },
   {
+    "id": "france-alsace",
+    "origin_id": "france",
+    "name": "Alsace",
+    "sort_order": 12
+  },
+  {
     "id": "france-brittany",
     "origin_id": "france",
     "name": "Brittany",
@@ -198,6 +204,12 @@
     "sort_order": 14
   },
   {
+    "id": "france-french-alps",
+    "origin_id": "france",
+    "name": "French Alps",
+    "sort_order": 15
+  },
+  {
     "id": "scotland-islands",
     "origin_id": "scotland",
     "name": "Islands",
@@ -216,6 +228,12 @@
     "sort_order": 16
   },
   {
+    "id": "france-lorraine",
+    "origin_id": "france",
+    "name": "Lorraine",
+    "sort_order": 16
+  },
+  {
     "id": "ireland-westmeath",
     "origin_id": "ireland",
     "name": "Westmeath",
@@ -231,6 +249,12 @@
     "id": "scotland-lowlands",
     "origin_id": "scotland",
     "name": "Lowlands",
+    "sort_order": 17
+  },
+  {
+    "id": "france-occitanie",
+    "origin_id": "france",
+    "name": "Occitanie",
     "sort_order": 17
   },
   {

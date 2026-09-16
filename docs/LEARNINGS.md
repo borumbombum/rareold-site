@@ -1,5 +1,13 @@
 # Learnings
 
+## 2026-09-16 — Batch: France complete (7 whiskies: Eddu Silver, Vilanova Berbie, Hautes Glaces Indigène, Glann ar Mor, Kornog, Lehmann, Rozelieures)
+
+- **Biggest haul of distilleries + second 7-product batch**: 7 products, 6 distilleries, 4 new regions (Occitanie, French Alps, Alsace, Lorraine) — 19 origins / 57 regions / 219 distilleries / 458 products / 4403 videos.
+- **France has IGPs for whisky** (supervised origin labels like Whisky de Bretagne, Whisky d'Alsace, IGP mentions) and a distinct modern history: first French single malt 1987 (Warenghem's Armorik debut), but the real wave is family artisanal distilleries (Eddu/Menhirs 1986, Celtic Whisky 1997, Castan 2007, Hautes Glaces 2009). Peat is rare and light; the notable exception is Kornog at 50ppm (European Whisky of the Year 2016).
+- **Quirky grain/cask bill in French malts**: Eddu is 100% buckwheat ("pur blé noir", first in the world); Hautes Glaces uses regeneratively-farmed barley + new French oak; Rozelieures blends ~40% ex-fino sherry + ~60% ex-Cognac.
+- **French whisky YouTube reality**: Les Whiskies Français (numbered series), La Chaîne du Whisky, Greg's Whisky Guide (the EDDU multi-version parts), Le Bar de l'Ours (Rozelieures-ish), Les Alambics du Coq (Hautes Glaces features), Wu Dram Clan (Celtic pairing). Isolated single-expression tastings are the minority format — most French coverage is roundups, comparisons, and distillery features.
+- **Full-bleed official packshots are the norm** for these French releases too (Glann/Kornog/Indigène/Lehmann kept their studio shots; only Eddu/Vilanova/Rozelieures came as transparent cutouts) — consistent with the catalog precedent set in 091.
+
 ## 2026-09-16 — Batch: England/Israel/France (The English Whisky Co Original, M&H Elements Red Wine Cask, Armorik Classic Bio, Brenne Estate Cask)
 
 - **A "5-product batch" compressed to 4 real products when two queue lines (Armorik Breton vs Classic Bio) proved to be one bottle** — the ~2021 relaunch folded the classic into the certified-organic Classic Bio (FR-BIO-01). The dup check now has to run against freshly-researched facts, not just the already-seeded catalog.

@@ -42150,5 +42150,268 @@
 			}
 			]
 		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "france",
+		"region": "Brittany",
+		"volume": "700 ml",
+		"abv": 43,
+		"url": "",
+		"id": "eddu-silver",
+		"slug": "eddu-silver",
+		"name": "EDDU Silver",
+		"description": "El primer whisky de alforfón del mundo, nacido en la Bretaña de la familia Le Lay y reposado cinco años en barricas de roble francés que antes guardaron coñac. 43% vol.: en nariz es intenso, con cítricos, avellana tostada y flores de brezo; en boca, fruta original de manzana, ralladura de naranja y albaricoque confitado con una punta de canela y nuez moscada; final fresco, afrutado y cremoso, a manzana y miel de la tierra.",
+		"image": "/data/images/eddu-silver.webp",
+		"age": null,
+		"cask": "Roble francés ex-Cognac",
+		"name_pt": "EDDU Silver",
+		"description_pt": "O primeiro whisky de trigo-sarraceno do mundo, nascido na Bretanha da família Le Lay e repousado cinco anos em barricas de carvalho francês que antes guardaram conhaque. 43% vol.: nariz intensa, com citrinos, avelã tostada e flores de urze; boca de fruta original — maçã, casca de laranja e alperce confitado com um toque de canela e noz-moscada; final fresco, frutado e cremoso, de maçã e mel da terra.",
+		"name_en": "EDDU Silver",
+		"description_en": "The world's first buckwheat whisky, born in Brittany at the hands of the Le Lay family and rested for five years in French oak casks that once held Cognac. A 43% dram: an intense, fruity nose of citrus, roasted hazelnut and heather; a palate of apple, orange peel and candied apricot with cinnamon and nutmeg; a fresh, fruity, creamy finish with apple and honeyed earth.",
+		"name_ja": "エデュー・シルバー",
+		"description_ja": "ブルターニュのル・レイ家が生んだ世界初のそば粉ウイスキー。かつてコニャックを熟成していたフレンチオーク樽で5年間熟成。43%。香りはシトラス、ローストヘーゼルナッツ、ヒースの花など、力強くフルーティー。味わいはリンゴ、オレンジピール、砂糖漬けアプリコットにシナモンとナツメグ。フィニッシュはフレッシュで果実味豊か、クリーミーで蜂蜜のような土の味わいが続きます。",
+		"name_fr": "EDDU Silver",
+		"description_fr": "Le premier whisky de sarrasin au monde, né en Bretagne chez les Le Lay et reposé cinq ans en fûts de chêne français ayant contenu du cognac. Un 43 % : nez intense de fruits — agrumes, noisette toastée et bruyère — ; bouche originale de pomme, zeste d'orange et abricot confit relevée de cannelle et de muscade ; finale fraîche, fruitée et crémeuse, sur la pomme et un miel de terre.",
+		"distillery_id": "menhirs",
+		"influencer_videos": [
+			{
+				"language": "fr",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=uUGWS03qQ1w",
+				"label": "Dégustation du whisky Eddu Silver - Les Whiskies Français",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "fr",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=qt7Vd76H3eg",
+				"label": "La Chaîne du Whisky - Episode 6 - Eddu Silver",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "es",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=cHYCg1GnPc8",
+				"label": "Probamos el EDDU Silver de Francia - Piojo Whisky",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=96fYD7SIVqs",
+				"label": "Sample Sunday: Eddu Silver Buckwheat Whisky - foodquig",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "ja",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=0UEEhDoih18",
+				"label": "エデュー シルバー（ストレート）",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "france",
+		"region": "Occitanie",
+		"volume": "700 ml",
+		"abv": 43,
+		"url": "",
+		"id": "vilanova-berbie",
+		"slug": "vilanova-berbie",
+		"name": "Vilanova Berbie",
+		"description": "La primera edición del whisky de granja de la familia Castan, en el Tarn: un single malt de cebada orgánica de la casa, destilado en alambiques de cobre y madurado, barrica a barrica, en roble francés que antes contuvo vino blanco dulce y seco, al 43% sin filtrar en frío. Embotellado desde 2013, cada lote es único, de viejo roble y luz dorada: nariz golosa de vainilla, miel, cera y caramelo; boca rica y untuosa, con albaricoque confitado, ciruela, chocolate negro y frutos secos; final cálido, fresco y amaderado.",
+		"image": "/data/images/vilanova-berbie.webp",
+		"age": null,
+		"cask": "Roble francés ex-vino blanco",
+		"name_pt": "Vilanova Berbie",
+		"description_pt": "A primeira edição do whisky de quinta da família Castan, no Tarn: um single malt de cevada orgânica da casa, destilado em alambiques de cobre e amadurecido, barril a barril, em carvalho francês que antes conteve vinho branco doce e seco, a 43% sem filtragem a frio. Engarrafado desde 2013, cada lote é único: nariz gulosa de baunilha, mel, cera e caramelo; boca rica e untuosa, com alperce confitado, ameixa, chocolate negro e frutos secos; final quente, fresco e amadeirado.",
+		"name_en": "Vilanova Berbie",
+		"description_en": "The first bottling from the Castan family's farm whisky, in the Tarn: a single malt from the house's own organic barley, distilled in copper stills and matured, cask by cask, in French oak that once held sweet and dry white wine, at 43% unchill-filtered. Bottled since 2013, each batch is unique: a greedy nose of vanilla, honey, wax and caramel; a rich, unctuous palate of candied apricot, plum, dark chocolate and nuts; a warm, fresh, woody finish.",
+		"name_ja": "ヴィラノヴァ・ベルビー",
+		"description_ja": "タルヌ地方のキャスタン家が手掛けるファーム・ウイスキーの第一弾。自家栽培のオーガニック大麦を銅製スチルで蒸留し、かつて甘口・辛口の白ワインを熟成していたフレンチオークで樽ごとに分けて熟成。2013年以来ロットごとに瓶詰めされ、すべて一点物です。香りはバニラ、ハチミツ、ワックス、キャラメルがたっぷり。味わいは砂糖漬けアプリコット、プラム、ダークチョコレート、ナッツのコク。温かくフレッシュな木香のフィニッシュが続きます。",
+		"name_fr": "Vilanova Berbie",
+		"description_fr": "La première édition du whisky de ferme de la famille Castan, dans le Tarn : un single malt d'orge bio de la maison, distillé en alambics de cuivre et mûri, fût par fût, en chêne français ayant contenu du vin blanc sec et liquoreux, à 43 % non filtré à froid. Embouteillé depuis 2013, chaque lot est unique : nez gourmand de vanille, miel, cire et caramel ; bouche riche et onctueuse, abricot confit, prune, chocolat noir et fruits secs ; finale chaude, fraîche et boisée.",
+		"distillery_id": "castan",
+		"influencer_videos": []
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "france",
+		"region": "French Alps",
+		"volume": "500 ml",
+		"abv": 44,
+		"url": "",
+		"id": "hautes-glaces-indigene",
+		"slug": "hautes-glaces-indigene",
+		"name": "Domaine des Hautes Glaces Indigène",
+		"description": "El single malt insignia del Domaine des Hautes Glaces, la primera destilería agrícola regenerativa del mundo: un ensamblaje de más de cien aguardientes de parcelas de los años 2012-2019, hecho solo con cebada orgánica cultivada en los Alpes franceses y al 44%, sin filtrar en frío ni colorear. Envejece entre roble francés nuevo y barricas de Cognac, Armagnac y vino. En nariz, fruta confitada, melocotón blanco y almendra; en boca, viveza alpina y dulzor de cereal; final largo con una salinidad de alta montaña.",
+		"image": "/data/images/hautes-glaces-indigene.webp",
+		"age": null,
+		"cask": "Roble francés nuevo, ex-Cognac, ex-Armagnac y ex-vino",
+		"name_pt": "Domaine des Hautes Glaces Indigène",
+		"description_pt": "O single malt de referência do Domaine des Hautes Glaces, a primeira destilaria agrícola regenerativa do mundo: um assemblage de mais de cem aguardentes de parcelas de 2012-2019, feito apenas com cevada orgânica cultivada nos Alpes franceses e a 44%, sem filtragem a frio nem corante. Envelhece entre carvalho francês novo e barricas de Cognac, Armagnac e vinho. No nariz, fruta confitada, pêssego branco e amêndoa; na boca, vivacidade alpina e doçura de cereais; final longo com uma salinidade de alta montanha.",
+		"name_en": "Domaine des Hautes Glaces Indigène",
+		"description_en": "The flagship single malt of the Domaine des Hautes Glaces, the world's first regenerative farm distillery: an assemblage of more than a hundred parcel eaux-de-vie from the 2012-2019 vintages, made only from organic barley grown in the French Alps and bottled at 44%, unchill-filtered and uncoloured. It matures among new French oak and ex-Cognac, ex-Armagnac and ex-wine casks. Candied fruit, white peach and almond in the nose; an alpine freshness and cereal sweetness in the mouth; a long finish laced with high-mountain salinity.",
+		"name_ja": "ドメーヌ・デ・オート・グラス エンディジェーヌ",
+		"description_ja": "世界初の再生型ファーム蒸留所、ドメーヌ・デ・オート・グラスの看板シングルモルト。2012〜2019年の区画別原酒100以上をブレンドし、フレンチアルプス産オーガニック大麦だけで造られた44%、ノンチルフィルター・無着色。新品フレンチオークにコニャック、アルマニャック、ワイン樽で熟成。香りは砂糖漬けの果実、白桃、アーモンド。味わいはアルプスの清々しさと穀物の甘みが広がり、高山のミネラル感が長く続くフィニッシュです。",
+		"name_fr": "Domaine des Hautes Glaces Indigène",
+		"description_fr": "Le single malt phare du Domaine des Hautes Glaces, première ferme-distillerie régénératrice au monde : un assemblage de plus de cent eaux-de-vie de parcelles des millésimes 2012-2019, fait uniquement d'orge bio cultivée dans les Alpes françaises et embouteillé à 44 %, non filtré à froid et non coloré. Il mûrit entre chêne français neuf et fûts de Cognac, d'Armagnac et de vin. Fruits confits, pêche blanche et amande au nez ; fraîcheur alpine et douceur céréalière en bouche ; finale longue portée par une salinité de haute montagne.",
+		"distillery_id": "hautes-glaces",
+		"influencer_videos": []
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "france",
+		"region": "Brittany",
+		"volume": "700 ml",
+		"abv": 46,
+		"url": "",
+		"id": "glann-ar-mor",
+		"slug": "glann-ar-mor",
+		"name": "Glann Ar Mor",
+		"description": "La expresión clásica y sin turba de Celtic Whisky Distillery, la destilería bretona de los Donnay: un single malt de cebada Maris Otter, doble destilado a fuego abierto en alambiques de cobre, criado únicamente en barricas de ex-bourbon y embotellado al 46% sin filtrar en frío ni colorear, tras madurar en bodegas húmedas a dos pasos del mar. Nariz salina y yodada, con miel y caramelo de fondo; boca donde el yodo se vuelve albaricoque y especias dulces; final largo, fresco y goloso.",
+		"image": "/data/images/glann-ar-mor.webp",
+		"age": null,
+		"cask": "Ex-bourbon de primer llenado",
+		"name_pt": "Glann Ar Mor",
+		"description_pt": "A expressão clássica e sem turfa da Celtic Whisky Distillery, a destilaria bretã dos Donnay: um single malt de cevada Maris Otter, dupla destilado a fogo aberto em alambiques de cobre, criado apenas em barricas de ex-bourbon e engarrafado a 46% sem filtragem a frio nem corante, após amadurecer em caves húmidas a dois passos do mar. Nariz salina e iodada, com mel e caramelo de fundo; boca onde o iodo se torna alperce e especiarias doces; final longo, fresco e guloso.",
+		"name_en": "Glann Ar Mor",
+		"description_en": "The clean, unpeated flagship of Celtic Whisky Distillery, the Donnays' Breton distillery: a single malt of Maris Otter barley, double distilled over open fire in copper stills, matured solely in ex-bourbon casks and bottled at 46% unchill-filtered and uncoloured after ageing in damp cellars just steps from the sea. A saline, iodine nose with honey and toffee behind it; on the palate the iodine turns to apricot and sweet spices; a long, fresh, indulgent finish.",
+		"name_ja": "グラン・アル・モール",
+		"description_ja": "ブルターニュのケルティック・ウイスキー蒸留所の定番・無煙シングルモルト。マリスオッター大麦を直火の銅製スチルで二回蒸留し、バーボン樽だけで熟成。海のすぐそばの湿ったセラーで熟成後、ノンチルフィルター・無着色の46%で瓶詰めされます。香りは海塩とヨード、その奥にハチミツとトフィー。味わいはヨードがアプリコットと甘いスパイスへと変わり、長くフレッシュで豊かなフィニッシュ。",
+		"name_fr": "Glann Ar Mor",
+		"description_fr": "L'expression classique et non tourbée de la Celtic Whisky Distillery, la distillerie bretonne des Donnay : un single malt d'orge Maris Otter, double distillation au feu ouvert dans des alambics en cuivre, élevé uniquement en fûts d'ex-bourbon et embouteillé à 46 % non filtré à froid et non coloré, après avoir mûri dans des caves humides à deux pas de la mer. Nez salin et iodé, miel et caramel en fond ; en bouche l'iode cède la place à l'abricot et aux épices douces ; finale longue, fraîche et gourmande.",
+		"distillery_id": "celtic-whisky",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=nFk4TyeFxGk",
+				"label": "A Dram A Day #331 - Glann Ar Mor - review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "france",
+		"region": "Brittany",
+		"volume": "700 ml",
+		"abv": 46,
+		"url": "",
+		"id": "kornog",
+		"slug": "kornog",
+		"name": "Kornog",
+		"description": "El hermano pequeño ahumado de Glann ar Mor: un single malt fuertemente turbado a 50 ppm, criado en barricas de ex-bourbon de primer llenado en la misma destilería bretona junto al mar, y embotellado al 46% sin filtrar en frío ni colorear. En nariz, la sal marina y el yodo abren un ramillete de limón y cera de abejas con un velo de vainilla; en boca, humo y turba en equilibrio con notas afrutadas de jengibre y pimienta blanca; final ahumado, marino y largo. Nombrado European Whisky of the Year por la Whisky Bible 2016.",
+		"image": "/data/images/kornog.webp",
+		"age": null,
+		"cask": "Ex-bourbon de primer llenado, 50 ppm de turba",
+		"name_pt": "Kornog",
+		"description_pt": "O irmão mais novo fumado do Glann ar Mor: um single malt fortemente turfado a 50 ppm, criado em barricas de ex-bourbon de primeira utilização na mesma destilaria bretã junto ao mar, e engarrafado a 46% sem filtragem a frio nem corante. No nariz, o sal marinho e o iodo abrem caminho a um ramalhete de limão e cera de abelhas com um véu de baunilha; na boca, fumo e turfa em equilíbrio com notas frutadas de gengibre e pimenta branca; final fumado, marinho e longo. Nomeado European Whisky of the Year pela Whisky Bible 2016.",
+		"name_en": "Kornog",
+		"description_en": "Glann ar Mor's smoky younger sibling: a single malt heavily peated to 50 ppm, matured in first-fill ex-bourbon casks at the same sea-side Breton distillery and bottled at 46% unchill-filtered and uncoloured. Sea salt and iodine open the nose into a bouquet of lemon peel and beeswax veiled in vanilla; smoke and peat balance the fruity ginger and white-pepper notes on the palate; a smoky, maritime, long finish. Named European Whisky of the Year by the 2016 Whisky Bible.",
+		"name_ja": "コーネグ",
+		"description_ja": "グラン・アル・モールのスモーキーな弟分。海辺のブルターニュの蒸留所でファーストフィル・バーボン樽のみで熟成し、50ppmのヘビーピート麦芽から造られたノンチルフィルター・無着色の46%。香りは海塩とヨードが開き、レモンピールと蜜蝋、そしてヴァニラのヴェールへ。味わいはスモークとピートが、ジンジャーや白胡椒のフルーティーなノートとバランス。フィニッシュはスモーキーで海の印象、長く続きます。2016年ウィスキーバイブルで欧州ウイスキー・オブ・ザ・イヤーに選出されました。",
+		"name_fr": "Kornog",
+		"description_fr": "Le petit frère fumé du Glann ar Mor : un single malt fortement tourbé à 50 ppm, élevé en fûts de premier remplissage d'ex-bourbon dans la même distillerie bretonne face à la mer, embouteillé à 46 % non filtré à froid et non coloré. Sel marin et iode ouvrent le nez sur un bouquet de zeste de citron et de cire d'abeille voilé de vanille ; fumée et tourbe équilibrent les notes fruitées de gingembre et de poivre blanc en bouche ; finale fumée, marine et longue. Élu European Whisky of the Year par la Whisky Bible 2016.",
+		"distillery_id": "celtic-whisky",
+		"influencer_videos": [
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=PM2fTQBQ24Y",
+				"label": "Kornog Peated Single Malt Whiskey - Whiskey Colin",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			},
+			{
+				"language": "en",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=ot4PDH-89kY",
+				"label": "A Dram A Day #332 - Kornog - review",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "france",
+		"region": "Alsace",
+		"volume": "700 ml",
+		"abv": 40,
+		"url": "",
+		"id": "lehmann-elsass-origine",
+		"slug": "lehmann-elsass-origine",
+		"name": "Elsass Whisky Origine",
+		"description": "El single malt fundacional de la destilería más antigua de Alsacia, elaborado con cebada alsaciana y criado unos siete años en barricas de vino blanco de Burdeos, a menudo con un toque de Sauternes, al 40% sin filtrar en frío ni colorear. Nariz poderosa de cereal tostado, roble, vainilla y fruta confitada con pera y mirabel; boca rica y mantecosa, con pastelería de vainilla y un cuerpo redondo y aceitoso; final largo, amaderado y goloso. Certificado con el sello Entreprise du Patrimoine Vivant.",
+		"image": "/data/images/lehmann-elsass-origine.webp",
+		"age": null,
+		"cask": "Ex-vino blanco de Burdeos y Sauternes",
+		"name_pt": "Elsass Whisky Origine",
+		"description_pt": "O single malt fundacional da destilaria mais antiga da Alsácia, elaborado com cevada alsaciana e criado cerca de sete anos em barricas de vinho branco de Bordéus, muitas vezes com um toque de Sauternes, a 40% sem filtragem a frio nem corante. Nariz poderosa de cereal tostado, carvalho, baunilha e fruta confitada com pera e mirabela; boca rica e amanteigada, com pastelaria de baunilha e um corpo redondo e oleoso; final longo, amadeirado e guloso. Certificado com o selo Entreprise du Patrimoine Vivant.",
+		"name_en": "Elsass Whisky Origine",
+		"description_en": "The founding single malt of Alsace's oldest distillery, made from Alsatian barley and matured around seven years in white-wine casks from Bordeaux, often with a touch of Sauternes, at 40% unchill-filtered and uncoloured. A powerful nose of toasted malt, oak, vanilla and confited fruit with pear and mirabelle; a rich, buttery mouth led by vanilla pastries, round and oily; a long, woody, indulgent finish. Certified with the Entreprise du Patrimoine Vivant seal.",
+		"name_ja": "エルザス・ウイスキー・オリジーヌ",
+		"description_ja": "アルザス最古の蒸留所が生み落とした第一号のシングルモルト。アルザス産大麦を使い、ボルドーの白ワイン樽で約7年、しばしばソーテルヌ樽を加えて熟成。ノンチルフィルター・無着色の40%。香りはトーストしたモルト、オーク、ヴァニラ、洋梨とミラベルを添えた果実のコンフィ。味わいはバター豊かなヴァニラ菓子を思わせ、まろやかで油分のあるボディ。長く木質的で豊かなフィニッシュ。フランスの生きた文化遺産企業（EPV）認証を受けています。",
+		"name_fr": "Elsass Whisky Origine",
+		"description_fr": "Le single malt fondateur de la plus ancienne distillerie d'Alsace, élaboré avec de l'orge alsacienne et élevé environ sept ans en fûts de vin blanc de Bordeaux, souvent avec une touche de Sauternes, à 40 % non filtré à froid et non coloré. Nez puissant de malt toasté, de chêne, de vanille et de fruits confits avec poire et mirabelle ; bouche riche et beurrée, pâtisserie à la vanille, corps rond et huileux ; finale longue, boisée et gourmande. Distingué du label Entreprise du Patrimoine Vivant.",
+		"distillery_id": "lehmann",
+		"influencer_videos": []
+		}
+,
+
+	{
+		"featured": false,
+		"video": null,
+		"origin": "france",
+		"region": "Lorraine",
+		"volume": "700 ml",
+		"abv": 40,
+		"url": "",
+		"id": "rozelieures-origine",
+		"slug": "rozelieures-origine",
+		"name": "Rozelieures Origine Collection",
+		"description": "El primer single malt de Lorena y el buque insignia de la destilería agrícola de la familia Grallet: un whisky de cebada cultivada en la casa, doble destilado en alambiques Charentais en el pueblo de Rozelieures y criado en un ensamblaje de fino de Jerez y coñac, ligeramente turbado. Embotellado al 40%: nariz de pera madura que se abre a nuez, cuero y mantequilla; boca rica y aceitosa; final largo, especiado y con un humo suave.",
+		"image": "/data/images/rozelieures-origine.webp",
+		"age": null,
+		"cask": "Ex-fino de Jerez y ex-Cognac, light peat",
+		"name_pt": "Rozelieures Origine Collection",
+		"description_pt": "O primeiro single malt da Lorena e o carro-chefe da destilaria agrícola da família Grallet: um whisky de cevada cultivada na casa, dupla destilado em alambiques Charentais na aldeia de Rozelieures e criado num ensaio de fino de Xerez e conhaque, levemente turfado. Engarrafado a 40%: nariz de pera madura que se abre para noz, couro e manteiga; boca rica e oleosa; final longo, picante e com um fumo suave.",
+		"name_en": "Rozelieures Origine Collection",
+		"description_en": "Lorraine's first single malt and the flagship of the Grallet family's farm distillery: a whisky from barley grown on the estate, double distilled in Charentais stills in the village of Rozelieures and matured in a blend of fino sherry and Cognac casks, lightly peated. Bottled at 40%: ripe pear opens into walnut, leather and butter on the nose; a rich, oily palate; a long spicy finish with a gentle smoke.",
+		"name_ja": "ロズリウール・オリジーヌ・コレクション",
+		"description_ja": "ロレーヌ初のシングルモルトであり、グラレ家のファーム蒸留所の看板。自社畑の大麦を使い、ロズリウール村でシャラント型スチルにより二回蒸留。フィノ・シェリーとコニャック樽のブレンドで熟成され、ほのかなピート香があります。40%。香りは熟した洋梨からクルミ、レザー、バターへ。味わいはコクがあり油分たっぷり。長くスパイシーで優しいスモークのフィニッシュ。",
+		"name_fr": "Rozelieures Origine Collection",
+		"description_fr": "Le premier single malt de Lorraine et le vaisseau amiral de la distillerie fermière des Grallet : un whisky d'orge cultivée sur le domaine, double distillée en alambics charentais dans le village de Rozelieures et élevé dans un assemblage de fino de Xérès et de cognac, légèrement tourbé. Embouteillé à 40 % : poire mûre qui s'ouvre sur la noix, le cuir et le beurre au nez ; bouche riche et huileuse ; finale longue, épicée et d'une fumée douce.",
+		"distillery_id": "rozelieures",
+		"influencer_videos": [
+			{
+				"language": "fr",
+				"platform": "youtube",
+				"url": "https://www.youtube.com/watch?v=jgVCSr4dsII",
+				"label": "Dégustation Rozelieures Origine - Les Whiskies Français",
+				"created_at": "2000-01-01T00:00:00.000Z"
+			}
+			]
+		}
 	]
 }

@@ -390,10 +390,10 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Armorik Breton Single Malt - Armorik
 ✅ Armorik Classic Bio - Warenghem
 ✅ Brenne French Single Malt - Brenne
-Eddu Silver - Distillerie des Menhirs
-Vilanova Berbie - Distillerie Castan
-Domaine des Hautes Glaces Indigène - Domaine des Hautes Glaces
-Glann ar Mor - Celtic Whisky Distillery
-Kornog - Celtic Whisky Distillery
-Lehmann Single Malt - Lehmann
-Rozelieures Single Malt - Rozelieures
+✅ Eddu Silver - Distillerie des Menhirs
+✅ Vilanova Berbie - Distillerie Castan
+✅ Domaine des Hautes Glaces Indigène - Domaine des Hautes Glaces
+✅ Glann ar Mor - Celtic Whisky Distillery
+✅ Kornog - Celtic Whisky Distillery
+✅ Lehmann Single Malt - Lehmann
+✅ Rozelieures Single Malt - Rozelieures

@@ -1,3 +1,4 @@
+- 092 [DONE] France complete: 7 whiskies (Eddu Silver, Vilanova Berbie, Domaine des Hautes Glaces Indigène, Glann ar Mor, Kornog, Lehmann, Rozelieures)
 - 091 [DONE] Add 5 whiskies: England/Israel/France (The English Whisky Co Original, M&H Elements Red Wine Cask, Armorik Classic Bio, Brenne Estate Cask)
 - 090 [DONE] Add 5 whiskies: Northern Europe sweep (High Coast Hav, Kyrö Malt Rye, Stauning Rye, Cotswolds Single Malt, Bimber Re-Charred Oak)
 - 089 [DONE] Add 5 whiskies: Australia x3 + Sweden (Lark, Morris, Starward Nova/Two-Fold, Mackmyra Svensk Ek)

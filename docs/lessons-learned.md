@@ -1,5 +1,14 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-16 — Batch: France complete (7 whiskies: Eddu Silver, Vilanova Berbie, Hautes Glaces Indigène, Glann ar Mor, Kornog, Lehmann, Rozelieures)
+
+- **French whiskies genuinely lack isolated in-language tastings on YouTube — don't mistake that for a bad search.** Eddu Silver has fr (LWF #01, LCDW Ep6), Rozelieures Origine has fr (LWF #14), but Glann ar Mor/Kornog/Vilanova/Hautes Glaces/Lehmann are covered only as multi-bottle formats (Wu Dram Clan "Glann ar Mor & Kornog", "Comparatif n°9 whiskies Vilanova", distillery visits, masterclasses, news). ~20 query angles across yt + 6 Invidious instances and channel enumeration (Les Whiskies Français numbered series) confirmed it. Exact-expression policy stands (user confirmed); those products ship honest zero videos.
+- **Online listing clues can be wrong — always cross-check against the distillery's own page/spec sheet.** Eddu Silver kept showing 50%; official is 43%. Hautes Glaces Indigène kept showing 48%/70cl; official is 44%/50cl (50cl hurts per-bottle header display pricing). A "5y" claim for Eddu is marketing age, not a stated NAS.
+- **Invidious search results can have a REAL title that contradicts the oEmbed/listing title** — `pjFzMo_XVY0` listed as a Kornog review was actually "Two Malts from Brittany: Armorik 15yo + Kornog" (comparison). Always fetch the real title via oEmbed before whitelisting.
+- **Search disambiguation matters for the peated Breton whisky**: "Kornog" is also a famous Breton folk band — searching "Kornog" alone returns music. Must query "Kornog whisky"/"Kornog dégustation".
+- **The named-series trick is useful but fragile**: "Les Whiskies Français" has a numbered episode series (#01 Eddu Silver, #02 Castan Vilanova ROJA, #14 Rozelieures Origine) but the channel's other episodes for our products don't exist — prepending the channel name as a query word bloats results with other channels; enumerate the series directly instead.
+- **Two more Armorik-pattern resolutions**: queue "Lehmann Single Malt" and "Rozelieures Single Malt" don't name real expressions — they resolve to flagships `Elsass Whisky Origine` and `Rozelieures Origine Collection`.
+
 ## 2026-09-16 — Batch: England/Israel/France (The English Whisky Co Original, M&H Elements Red Wine Cask, Armorik Classic Bio, Brenne Estate Cask)
 
 - **Two different retailer lines are occasionally the SAME bottle — the dup check must run against research, not just the catalog.** Armorik Breton Single Malt (queue 390) and Armorik Classic Bio (391) looked like two products, but since the ~2021 relaunch the core Armorik *Classic* IS the *Classic Bio* (46%, ex-bourbon, FR-BIO-01). The resolved form is ONE product `armorik-classic-bio` and BOTH lines get ticked.

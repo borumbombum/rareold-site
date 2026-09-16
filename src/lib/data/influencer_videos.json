@@ -8701,6 +8701,41 @@
     "label": "Bebendo Whisky com Eng. Milton Salgado"
   },
   {
+    "product_id": "eddu-silver",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=96fYD7SIVqs",
+    "label": "Sample Sunday: Eddu Silver Buckwheat Whisky - foodquig"
+  },
+  {
+    "product_id": "eddu-silver",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cHYCg1GnPc8",
+    "label": "Probamos el EDDU Silver de Francia - Piojo Whisky"
+  },
+  {
+    "product_id": "eddu-silver",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=qt7Vd76H3eg",
+    "label": "La Chaîne du Whisky - Episode 6 - Eddu Silver"
+  },
+  {
+    "product_id": "eddu-silver",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=uUGWS03qQ1w",
+    "label": "Dégustation du whisky Eddu Silver - Les Whiskies Français"
+  },
+  {
+    "product_id": "eddu-silver",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0UEEhDoih18",
+    "label": "エデュー シルバー（ストレート）"
+  },
+  {
     "product_id": "edradour-10-yo",
     "language": "en",
     "platform": "youtube",
@@ -10099,6 +10134,13 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=Qja6QIB9skc",
     "label": "Whisky.com"
+  },
+  {
+    "product_id": "glann-ar-mor",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=nFk4TyeFxGk",
+    "label": "A Dram A Day #331 - Glann Ar Mor - review"
   },
   {
     "product_id": "glen-deveron-10-yo",
@@ -18998,6 +19040,20 @@
     "label": "宅飲みバーTakeo — review"
   },
   {
+    "product_id": "kornog",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=PM2fTQBQ24Y",
+    "label": "Kornog Peated Single Malt Whiskey - Whiskey Colin"
+  },
+  {
+    "product_id": "kornog",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=ot4PDH-89kY",
+    "label": "A Dram A Day #332 - Kornog - review"
+  },
+  {
     "product_id": "kyro-malt-rye",
     "language": "en",
     "platform": "youtube",
@@ -23952,6 +24008,13 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=wHfz-IXBCg4",
     "label": "Royal Salute 25 Year Old"
+  },
+  {
+    "product_id": "rozelieures-origine",
+    "language": "fr",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=jgVCSr4dsII",
+    "label": "Dégustation Rozelieures Origine - Les Whiskies Français"
   },
   {
     "product_id": "russells-reserve-10-yo",
