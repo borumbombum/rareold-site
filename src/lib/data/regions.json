@@ -370,5 +370,17 @@
     "origin_id": "usa",
     "name": "Utah",
     "sort_order": 37
+  },
+  {
+    "id": "israel-golan-heights",
+    "origin_id": "israel",
+    "name": "Golan Heights",
+    "sort_order": 41
+  },
+  {
+    "id": "israel-pardes-hanna",
+    "origin_id": "israel",
+    "name": "Pardes Hanna",
+    "sort_order": 42
   }
 ]

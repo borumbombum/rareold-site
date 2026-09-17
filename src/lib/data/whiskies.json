@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-17T20:22:02.565Z",
+  "generatedAt": "2026-09-17T21:20:44.808Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -17881,6 +17881,42 @@
       ]
     },
     {
+      "id": "golani-10-years-old",
+      "slug": "golani-10-years-old",
+      "name": "Golani 10 Years Old",
+      "distillery": {
+        "id": "golani",
+        "name": "Golani Distillery",
+        "name_es": "Golani Distillery",
+        "name_pt": "Golani Distillery",
+        "name_en": "Golani Distillery",
+        "name_ja": "ゴラニ蒸溜所",
+        "name_fr": "Golani Distillery"
+      },
+      "description": "Malteado en 2013 y embotellado en 2023 por el décimo aniversario de la destilería, el primer single malt embotellado de la destilería de los Altos del Golán: 5 años en barrica de primer llenado de vino tinto israelí (roble americano) y otros 5 en roble francés de segundo llenado, embotellado sin filtrar a 55%. Solo 192 botellas numeradas. Nariz de intenso corazón de fruta roja madura, cera, especias dulces y roble; paladar generoso de frambuesas, cerezas y caramelo con un matiz vinoso; final cálido y largo, con la intensidad fenólica del roble. 55%, 700 ml.",
+      "image": "/data/images/golani-10-years-old.webp",
+      "images": [
+        "/data/images/golani-10-years-old.webp"
+      ],
+      "origin": "israel",
+      "region": "Golan Heights",
+      "age": 10,
+      "volume": "700 ml",
+      "abv": 55,
+      "cask": "5 años en primer llenado ex-vino tinto (roble americano) y 5 años en segundo llenado ex-vino tinto (roble francés)",
+      "distillery_id": "golani",
+      "insertion_order": 478,
+      "featured": false,
+      "name_pt": "Golani 10 Years Old",
+      "description_pt": null,
+      "name_en": "Golani 10 Years Old",
+      "description_en": null,
+      "name_ja": "Golani 10 Years Old",
+      "description_ja": null,
+      "name_fr": "Golani 10 Years Old",
+      "description_fr": null
+    },
+    {
       "id": "grants-triple-wood",
       "slug": "grants-triple-wood",
       "name": "Grant's Triple Wood",
@@ -27333,6 +27369,124 @@
       ]
     },
     {
+      "id": "mh-classic",
+      "slug": "mh-classic",
+      "name": "M&H Classic",
+      "distillery": {
+        "id": "milk-and-honey",
+        "name": "Milk & Honey Distillery",
+        "name_es": "Milk & Honey Distillery",
+        "name_pt": "Milk & Honey Distillery",
+        "name_en": "Milk & Honey Distillery",
+        "name_ja": "ミルク・アンド・ハニー蒸溜所",
+        "name_fr": "Milk & Honey Distillery"
+      },
+      "description": "El primer single malt de la primera destilería de whisky de Israel, elaborado a partir de mitades casi iguales de ex-bourbon y barricas STR reutilizadas de vino tinto israelí; sin filtrar en frío ni colorear. Nariz delicada de cera de abejas, manzana roja, melocotón y tilo con un toque de roble; paladar medio con especias cálidas como nuez moscada y clavo, miel, corteza de naranja y tabaco; final fresco, dulce, limpio y de duración media. 46%, 700 ml.",
+      "image": "/data/images/mh-classic.webp",
+      "images": [
+        "/data/images/mh-classic.webp"
+      ],
+      "origin": "israel",
+      "region": "Tel Aviv",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Ex-bourbon con acento de barricas STR de vino tinto",
+      "distillery_id": "milk-and-honey",
+      "insertion_order": 475,
+      "featured": false,
+      "name_pt": "M&H Classic",
+      "description_pt": null,
+      "name_en": "M&H Classic",
+      "description_en": null,
+      "name_ja": "M&H Classic",
+      "description_ja": null,
+      "name_fr": "M&H Classic",
+      "description_fr": null,
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5sLLvIAg7fo",
+          "label": "Whiskey Vault review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=83ZAk9og6Go",
+          "label": "Whisky Mad ZA review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AoGetw1p4pI",
+          "label": "The Whisky Nest tasting"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=G84d-2TTkbU",
+          "label": "Whisky.com review"
+        }
+      ]
+    },
+    {
+      "id": "mh-elements-peat",
+      "slug": "mh-elements-peat",
+      "name": "M&H Elements Peated",
+      "distillery": {
+        "id": "milk-and-honey",
+        "name": "Milk & Honey Distillery",
+        "name_es": "Milk & Honey Distillery",
+        "name_pt": "Milk & Honey Distillery",
+        "name_en": "Milk & Honey Distillery",
+        "name_ja": "ミルク・アンド・ハニー蒸溜所",
+        "name_fr": "Milk & Honey Distillery"
+      },
+      "description": "El peated de la serie Elements de M&H: la unión entre espíritu turbado madurado en barricas de ex-bourbon y espíritu no turbado reposado en icónicas barricas salobres de ex-Islay, de donde saca su fuma. Sin filtrar en frío ni colorear. Nariz de ahumado terroso y de jardín, vainilla, roble y limón; paladar medio de vainilla, un delicado toque de turba, jengibre y limón; final largo en el que la turba recubre la boca con roble y cítricos. 46%, 700 ml.",
+      "image": "/data/images/mh-elements-peat.webp",
+      "images": [
+        "/data/images/mh-elements-peat.webp"
+      ],
+      "origin": "israel",
+      "region": "Tel Aviv",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Espíritu turbado en ex-bourbon y espíritu no turbado en barricas salobres de ex-Islay",
+      "distillery_id": "milk-and-honey",
+      "insertion_order": 477,
+      "featured": false,
+      "name_pt": "M&H Elements Peated",
+      "description_pt": null,
+      "name_en": "M&H Elements Peated",
+      "description_en": null,
+      "name_ja": "M&H Elements Peated",
+      "description_ja": null,
+      "name_fr": "M&H Elements Peated",
+      "description_fr": null,
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RT3qcslbjN0",
+          "label": "Cult Of Whisky review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nvoLwUr3OOk",
+          "label": "The Whisky Nest tasting"
+        },
+        {
+          "language": "fr",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZcXiRUgq374",
+          "label": "Le Whisky Brunch - cata"
+        }
+      ]
+    },
+    {
       "id": "mh-elements-red-wine",
       "slug": "mh-elements-red-wine",
       "name": "M&H Elements Red Wine Cask",
@@ -27367,6 +27521,68 @@
       "description_ja": "M&Hエレメンツシリーズの旗艦であり、蒸溜所を最も象徴するシングルモルト。バーボン樽熟成のクラシックをベースに、イスラエル産キャリニャン赤ワイン樽でフィニッシュし、STR樽とバージンオークを少量使用したノンチルフィルター・無着色の46%。香りはドライな赤い果実、ジンジャー、オークを優しいミネラル感が包みます。味わいはライトボディで、濃厚な赤ワイン、ドライなオーク、バニラの花。フィニッシュは穏やかでコクがあり、ドライフルーツとダークレーズンが長く続きます。46%、700ml。",
       "name_fr": "M&H Elements Red Wine Cask",
       "description_fr": "Le vaisseau amiral de la série Elements de Milk & Honey et son single malt le plus personnel : un NAS à 46 % bâti sur la Classic, vieillie en ex-bourbon, puis fini en fûts de vin rouge carignan de vignobles israéliens, avec une touche de STR et de chêne vierge. Non filtré à froid et non coloré. Nez de fruits rouges séchés, gingembre et chêne dans une délicate minéralité ; palais léger de vin rouge riche, chêne sec et vanille en fleur ; finale douce mais riche, fruits séchés et raisins secs sombres qui persistent. 46 %, 700 ml."
+    },
+    {
+      "id": "mh-elements-sherry",
+      "slug": "mh-elements-sherry",
+      "name": "M&H Elements Sherry Cask",
+      "distillery": {
+        "id": "milk-and-honey",
+        "name": "Milk & Honey Distillery",
+        "name_es": "Milk & Honey Distillery",
+        "name_pt": "Milk & Honey Distillery",
+        "name_en": "Milk & Honey Distillery",
+        "name_ja": "ミルク・アンド・ハニー蒸溜所",
+        "name_fr": "Milk & Honey Distillery"
+      },
+      "description": "El primer y único single malt del mundo madurado íntegramente en barricas de jerez kosher, encargadas a medida a la tonelería de Jerez para la destilería; sin filtrar en frío ni colorear. La cata que lo dio a conocer: frutos rojos intensos y roble suave en nariz, con caramelo cálido y limón fresco; paladar medio lleno de dulzor de jerez afrutado, cerezas, chocolate negro y roble; final persistente de chocolate, tabaco y roble. Elegido World's Best Single Malt en los World Whiskies Awards 2023. 46%, 700 ml.",
+      "image": "/data/images/mh-elements-sherry.webp",
+      "images": [
+        "/data/images/mh-elements-sherry.webp"
+      ],
+      "origin": "israel",
+      "region": "Tel Aviv",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Barricas kosher de Oloroso y Pedro Ximénez encargadas a medida en Jerez",
+      "distillery_id": "milk-and-honey",
+      "insertion_order": 476,
+      "featured": false,
+      "name_pt": "M&H Elements Sherry Cask",
+      "description_pt": null,
+      "name_en": "M&H Elements Sherry Cask",
+      "description_en": null,
+      "name_ja": "M&H Elements Sherry Cask",
+      "description_ja": null,
+      "name_fr": "M&H Elements Sherry Cask",
+      "description_fr": null,
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=AM5gwy6FKAU",
+          "label": "Cult Of Whisky review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=NADENEk0G6Y",
+          "label": "Whisky.com review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZMlpH-LsGdc",
+          "label": "WhiskyJason review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ZnJ9JFb41a8",
+          "label": "Malt Activist - WWA 2023"
+        }
+      ]
     },
     {
       "id": "macaloneys-island-single-malt",
@@ -33203,6 +33419,42 @@
           "label": "Dégustation Rozelieures Origine - Les Whiskies Français"
         }
       ]
+    },
+    {
+      "id": "ruach-ascent",
+      "slug": "ruach-ascent",
+      "name": "Ruach Ascent",
+      "distillery": {
+        "id": "ruach",
+        "name": "Ruach Distillery",
+        "name_es": "Ruach Distillery",
+        "name_pt": "Ruach Distillery",
+        "name_en": "Ruach Distillery",
+        "name_ja": "ルアチ蒸溜所",
+        "name_fr": "Ruach Distillery"
+      },
+      "description": "El primer single malt de la Destilería Ruach ('espíritu'), elaborado con cebada europea sin turbar, doble destilación en alambique de cobre y una hidratación lenta conocida como 'slow proofing'. Madurado en barricas de ex-bourbon, roble americano virgen y un toque de Oloroso, con un final en barricas de coñac XO kosher que le da una profundidad extra. Nariz frutal de nectarina, fresa, piña y plátano caramelizado, con caramelo y crema; paladar suave y generoso; final elegante de cuero y caja de puros. Elegido Mejor Single Malt de Israel 2024 en los World Whiskies Awards. 47,7%, 700 ml.",
+      "image": "/data/images/ruach-ascent.webp",
+      "images": [
+        "/data/images/ruach-ascent.webp"
+      ],
+      "origin": "israel",
+      "region": "Pardes Hanna",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 47.7,
+      "cask": "65% ex-bourbon, 30% roble americano virgen y 5% Oloroso, con final en coñac XO",
+      "distillery_id": "ruach",
+      "insertion_order": 479,
+      "featured": false,
+      "name_pt": "Ruach Ascent",
+      "description_pt": null,
+      "name_en": "Ruach Ascent",
+      "description_en": null,
+      "name_ja": "Ruach Ascent",
+      "description_ja": null,
+      "name_fr": "Ruach Ascent",
+      "description_fr": null
     },
     {
       "id": "russells-reserve-10-yo",

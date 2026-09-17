@@ -41,6 +41,24 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Royal Salute 30 YO Key To The Kingdom - Chivas Brothers
 ✅ Royal Salute 62 Gun Salute - Chivas Brothers
 
+## Israel
+
+✅ M&H Elements Red Wine Cask - Milk & Honey
+✅ M&H Classic Single Malt - Milk & Honey
+✅ M&H Elements Sherry Cask - Milk & Honey
+✅ M&H Elements Peated - Milk & Honey
+✅ Golani 10 Years Old - Golani Distillery (NEW distillery; was listed as "Galil", corrected)
+✅ Ruach Ascent - Ruach Distillery (NEW distillery; Pardes Hanna — was listed as "PEKA", corrected)
+
+## Taiwan
+
+- Kavalan Oloroso Sherry Oak - Kavalan
+- Kavalan Ex-Bourbon Oak - Kavalan
+- Kavalan Distillery Select No. 1 - Kavalan
+- Kavalan Solist Fino Sherry - Kavalan
+- OMar Single Malt 46% - OMar / Nantou (NEW distillery)
+- OMar Cask Strength Single Malt - OMar / Nantou (NEW distillery)
+
 ## Scotland — Islay
 
 ✅ Arran Barrel Reserve - Arran Distillers, source image: <https://static.whiskybase.com/storage/whiskies/1/3/8215/233765-big.jpg>, info here: <https://www.whiskybase.com/whiskies/whisky/138215/arran-barrel-reserve> - Add this spanish influencer review: <https://www.youtube.com/watch?v=0WYfqONQ60k>
@@ -349,9 +367,10 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Indri-Trini Single Malt - Indri
 ✅ Kamet Indian Single Malt - Kamet
 
-## Taiwan
+## China
 
 ✅ The Chuan Pure Malt - The Chuan
+<!-- China: The Chuan (Pernod Ricard, Emeishan) is the only trailable prestige Chinese single malt; craft distilleries are too obscure for now. Revisit later. -->
 
 ## Australia
 
@@ -370,10 +389,18 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ## Finland
 
 ✅ Kyrö Malt Rye - Kyrö
+- Kyrö Vapaa - Kyrö
+- Kyrö Peat Smoke - Kyrö
+- Teerenpeli Single Malt - Teerenpeli (NEW distillery)
 
 ## Denmark
 
 ✅ Stauning Rye - Stauning
+- Stauning Smoke - Stauning
+- Stauning KAOS Triple Malt - Stauning
+- Stauning Høst - Stauning
+- Braunstein B-No 1 - Braunstein (NEW distillery)
+- Fary Lochan Season - Fary Lochan (NEW distillery)
 
 ## England
 ✅ Cotswolds Single Malt - Cotswolds
@@ -381,9 +408,12 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Bimber Re-Charred Oak - Bimber
 ✅ The English Whisky Co Original - The English Whisky Co
 
-## Israel
+## Wales
 
-✅ M&H Elements Red Wine Cask - Milk & Honey
+- Aber Falls Single Malt - Aber Falls (NEW distillery; PGI-listed, exported to 40 countries)
+- Penderyn Legend - Penderyn
+- Penderyn Myth - Penderyn (Llandudno)
+- Da Mhile Single Malt - Da Mhile (NEW distillery)
 
 ## France
 

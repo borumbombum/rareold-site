@@ -43053,6 +43053,196 @@
                 }
             ],
             "description": "El whisky insignia de la Sauerländer Edelbrennerei — 46,2%, destilado artesanalmente en Rüthen, Sauerland. Madura 1 año en barricas de vino tinto italiano y 2 años en bourbon. Diseñado por el artista gráfico Otmar Alt. El proceso completo ocurre en el sitio: molienda, maceración, fermentación y destilación."
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "israel",
+            "url": "",
+            "id": "mh-classic",
+            "slug": "mh-classic",
+            "name": "M&H Classic",
+            "description": "El primer single malt de la primera destilería de whisky de Israel, elaborado a partir de mitades casi iguales de ex-bourbon y barricas STR reutilizadas de vino tinto israelí; sin filtrar en frío ni colorear. Nariz delicada de cera de abejas, manzana roja, melocotón y tilo con un toque de roble; paladar medio con especias cálidas como nuez moscada y clavo, miel, corteza de naranja y tabaco; final fresco, dulce, limpio y de duración media. 46%, 700 ml.",
+            "image": "/data/images/mh-classic.webp",
+            "age": null,
+            "cask": "Ex-bourbon con acento de barricas STR de vino tinto",
+            "name_pt": "M&H Classic",
+            "name_en": "M&H Classic",
+            "name_ja": "M&H Classic",
+            "name_fr": "M&H Classic",
+            "distillery_id": "milk-and-honey",
+            "influencer_videos": [
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=5sLLvIAg7fo",
+                    "label": "Whiskey Vault review",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=G84d-2TTkbU",
+                    "label": "Whisky.com review",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=AoGetw1p4pI",
+                    "label": "The Whisky Nest tasting",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=83ZAk9og6Go",
+                    "label": "Whisky Mad ZA review",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                }
+            ],
+            "region": "Tel Aviv",
+            "volume": "700 ml",
+            "abv": 46
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "israel",
+            "url": "",
+            "id": "mh-elements-sherry",
+            "slug": "mh-elements-sherry",
+            "name": "M&H Elements Sherry Cask",
+            "description": "El primer y único single malt del mundo madurado íntegramente en barricas de jerez kosher, encargadas a medida a la tonelería de Jerez para la destilería; sin filtrar en frío ni colorear. La cata que lo dio a conocer: frutos rojos intensos y roble suave en nariz, con caramelo cálido y limón fresco; paladar medio lleno de dulzor de jerez afrutado, cerezas, chocolate negro y roble; final persistente de chocolate, tabaco y roble. Elegido World's Best Single Malt en los World Whiskies Awards 2023. 46%, 700 ml.",
+            "image": "/data/images/mh-elements-sherry.webp",
+            "age": null,
+            "cask": "Barricas kosher de Oloroso y Pedro Ximénez encargadas a medida en Jerez",
+            "name_pt": "M&H Elements Sherry Cask",
+            "name_en": "M&H Elements Sherry Cask",
+            "name_ja": "M&H Elements Sherry Cask",
+            "name_fr": "M&H Elements Sherry Cask",
+            "distillery_id": "milk-and-honey",
+            "influencer_videos": [
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=NADENEk0G6Y",
+                    "label": "Whisky.com review",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=ZMlpH-LsGdc",
+                    "label": "WhiskyJason review",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=AM5gwy6FKAU",
+                    "label": "Cult Of Whisky review",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=ZnJ9JFb41a8",
+                    "label": "Malt Activist - WWA 2023",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                }
+            ],
+            "region": "Tel Aviv",
+            "volume": "700 ml",
+            "abv": 46
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "israel",
+            "url": "",
+            "id": "mh-elements-peat",
+            "slug": "mh-elements-peat",
+            "name": "M&H Elements Peated",
+            "description": "El peated de la serie Elements de M&H: la unión entre espíritu turbado madurado en barricas de ex-bourbon y espíritu no turbado reposado en icónicas barricas salobres de ex-Islay, de donde saca su fuma. Sin filtrar en frío ni colorear. Nariz de ahumado terroso y de jardín, vainilla, roble y limón; paladar medio de vainilla, un delicado toque de turba, jengibre y limón; final largo en el que la turba recubre la boca con roble y cítricos. 46%, 700 ml.",
+            "image": "/data/images/mh-elements-peat.webp",
+            "age": null,
+            "cask": "Espíritu turbado en ex-bourbon y espíritu no turbado en barricas salobres de ex-Islay",
+            "name_pt": "M&H Elements Peated",
+            "name_en": "M&H Elements Peated",
+            "name_ja": "M&H Elements Peated",
+            "name_fr": "M&H Elements Peated",
+            "distillery_id": "milk-and-honey",
+            "influencer_videos": [
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=RT3qcslbjN0",
+                    "label": "Cult Of Whisky review",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=nvoLwUr3OOk",
+                    "label": "The Whisky Nest tasting",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "fr",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=ZcXiRUgq374",
+                    "label": "Le Whisky Brunch - cata",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                }
+            ],
+            "region": "Tel Aviv",
+            "volume": "700 ml",
+            "abv": 46
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "israel",
+            "url": "",
+            "id": "golani-10-years-old",
+            "slug": "golani-10-years-old",
+            "name": "Golani 10 Years Old",
+            "description": "Malteado en 2013 y embotellado en 2023 por el décimo aniversario de la destilería, el primer single malt embotellado de la destilería de los Altos del Golán: 5 años en barrica de primer llenado de vino tinto israelí (roble americano) y otros 5 en roble francés de segundo llenado, embotellado sin filtrar a 55%. Solo 192 botellas numeradas. Nariz de intenso corazón de fruta roja madura, cera, especias dulces y roble; paladar generoso de frambuesas, cerezas y caramelo con un matiz vinoso; final cálido y largo, con la intensidad fenólica del roble. 55%, 700 ml.",
+            "image": "/data/images/golani-10-years-old.webp",
+            "age": 10,
+            "cask": "5 años en primer llenado ex-vino tinto (roble americano) y 5 años en segundo llenado ex-vino tinto (roble francés)",
+            "name_pt": "Golani 10 Years Old",
+            "name_en": "Golani 10 Years Old",
+            "name_ja": "Golani 10 Years Old",
+            "name_fr": "Golani 10 Years Old",
+            "distillery_id": "golani",
+            "influencer_videos": [],
+            "region": "Golan Heights",
+            "volume": "700 ml",
+            "abv": 55
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "israel",
+            "url": "",
+            "id": "ruach-ascent",
+            "slug": "ruach-ascent",
+            "name": "Ruach Ascent",
+            "description": "El primer single malt de la Destilería Ruach ('espíritu'), elaborado con cebada europea sin turbar, doble destilación en alambique de cobre y una hidratación lenta conocida como 'slow proofing'. Madurado en barricas de ex-bourbon, roble americano virgen y un toque de Oloroso, con un final en barricas de coñac XO kosher que le da una profundidad extra. Nariz frutal de nectarina, fresa, piña y plátano caramelizado, con caramelo y crema; paladar suave y generoso; final elegante de cuero y caja de puros. Elegido Mejor Single Malt de Israel 2024 en los World Whiskies Awards. 47,7%, 700 ml.",
+            "image": "/data/images/ruach-ascent.webp",
+            "age": null,
+            "cask": "65% ex-bourbon, 30% roble americano virgen y 5% Oloroso, con final en coñac XO",
+            "name_pt": "Ruach Ascent",
+            "name_en": "Ruach Ascent",
+            "name_ja": "Ruach Ascent",
+            "name_fr": "Ruach Ascent",
+            "distillery_id": "ruach",
+            "influencer_videos": [],
+            "region": "Pardes Hanna",
+            "volume": "700 ml",
+            "abv": 47.7
         }
     ]
 }
