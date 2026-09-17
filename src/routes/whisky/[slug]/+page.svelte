@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { ArrowLeft, ChevronLeft, ChevronRight, Share2, Star } from '@lucide/svelte';
+	import { fade } from 'svelte/transition';
 	import { getLocale, localizeHref, getUrlOrigin } from '$lib/paraglide/runtime';
 	import { buildHreflangAlternates } from '$lib/utils/seo';
 	import SEO from '$lib/components/SEO.svelte';
@@ -114,7 +115,14 @@
 			<InfluencerVideos {videos} />
 			<div class="relative grid aspect-square place-items-center overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50 dark:border-zinc-200 dark:bg-white">
 				{#if images.length > 0}
-					<img src={images[activeImg]} alt={name} class="h-full w-full object-contain" />
+					{#key activeImg}
+						<img
+							src={images[activeImg]}
+							alt={name}
+							transition:fade={{ duration: 250 }}
+							class="absolute inset-0 h-full w-full object-contain"
+						/>
+					{/key}
 				{:else}
 					<span class="text-8xl opacity-60">🥃</span>
 				{/if}

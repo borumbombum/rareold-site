@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-17T20:03:57.877Z",
+  "generatedAt": "2026-09-17T20:22:02.565Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -35152,10 +35152,10 @@
         "name_fr": "St. Kilian Distillers"
       },
       "description": "El whisky más complejo de St. Kilian, nacido de la experiencia de Tours of Discovery en mercados latinoamericanos. Un corte de maltas de tradición española y portuguesa (Touriga Nacional, Arinto, Macabeo, Albariño) destilado en cobre doble y triple destilado, madurado en antiguos barriles de Oporto Tawny, vino dulce y roble virgen. Debut 2025 en botella de coleccionista.",
-      "image": "/data/images/st-kilian-cigar-malt.webp",
+      "image": "/data/images/st-kilian-cigar-malt-1.webp",
       "images": [
-        "/data/images/st-kilian-cigar-malt.webp",
-        "/data/images/st-kilian-cigar-malt-1.webp"
+        "/data/images/st-kilian-cigar-malt-1.webp",
+        "/data/images/st-kilian-cigar-malt-2.webp"
       ],
       "origin": "germany",
       "region": "Bavaria",
