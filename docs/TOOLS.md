@@ -2,6 +2,17 @@
 
 This project's own helper scripts (beyond the `scripts/*.mjs` added by earlier tasks) live in `scripts/`.
 
+## `scripts/db-backup.mjs`
+
+Full Turso database dump to a timestamped `.sql` file (schema DDL + every table's rows), for restore points before/after risky changes. Backups live in `db/backup/` which is **git-ignored**.
+
+```bash
+node --env-file-if-exists=.env scripts/db-backup.mjs                 # dump -> db/backup/backup-<ts>.sql
+node --env-file-if-exists=.env scripts/db-backup.mjs --restore <file> # apply a dump back into Turso
+```
+
+Dump prints a per-table row count; restore replays statements (idempotent-friendly: failures are reported, not fatal). Protects live-only tables (`users`, `votes`, `karma`, `favorites`, `reviews`, `download_requests`, `product_stores`); the catalog itself is already reproducible from seed + `db:sync`.
+
 ## `scripts/yt-search.mjs`
 
 YouTube search scraper — no API key needed. Fetches the public results page and dumps matching videos.

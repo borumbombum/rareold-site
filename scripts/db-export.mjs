@@ -56,6 +56,22 @@ try {
 } catch { /* influencer_videos table may not exist yet */ }
 
 
+// Product galleries: group URL rows per product, ordered by position, so the
+// export can emit images[] with images[0] = primary. Products with no gallery
+// rows fall back to their single image in the map below.
+const productImages = new Map();
+try {
+	const galleryRes = await client.execute(
+		'SELECT product_id, url FROM product_images ORDER BY product_id, position'
+	);
+	for (const r of galleryRes.rows) {
+		const pid = String(r.product_id);
+		if (!productImages.has(pid)) productImages.set(pid, []);
+		productImages.get(pid).push(String(r.url));
+	}
+} catch { /* product_images table may not exist yet */ }
+
+
 const whiskies = productsRes.rows.map((row) => {
 	return {
 		id: row.id,
@@ -74,6 +90,11 @@ const whiskies = productsRes.rows.map((row) => {
 			: null,
 		description: row.description ?? null,
 		image: row.image ?? null,
+		...(productImages.has(row.id)
+			? { images: productImages.get(row.id) }
+			: row.image
+				? { images: [row.image] }
+				: {}),
 		origin: row.origin_id,
 		region: row.region_name ?? null,
 		age: row.age ?? null,

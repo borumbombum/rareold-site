@@ -96,6 +96,7 @@ export interface Whisky {
 	distillery: DistilleryRef | null;
 	description: string | null;
 	image: string | null;
+	images?: string[];
 	origin: string;
 	region: string | null;
 	age: number | null;

@@ -1,5 +1,10 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-17 — Product galleries (task 097)
+
+- **`INSERT OR IGNORE` is a no-op without a UNIQUE constraint.** Backfilling `product_images` with a plain index produced 2 rows per product (942 for 471 products). Fix: unique index on `(product_id, position)` — and the migration must create it, not just the live DB.
+- **`products` has no `created_at` column.** The migration bootstrap `SELECT ..., created_at FROM products` failed with `SQL_INPUT_ERROR: no such column: created_at`. Use a literal `datetime('now')` instead of referencing a source column.
+
 ## 2026-09-16 — Germany batch 3: Cigar Malt + Elsburn Journey/Willowburn Ember + Störtebeker + Elch + Stork Club + Thousand Mountains
 
 - **The base `description` column IS the Spanish; there is no `description_es`.** For products the seed shape is `name`/`description` (Spanish base) + `name_pt`/`name_en`/`name_ja`/`name_fr` overrides. I first spliced `description: <missing>` + `description_es: <text>`; `db-sync` died with libsql `TypeError: Unsupported type of value` (passing `undefined` for the required base column). Fix = move the Spanish text to base `description`, drop `description_es`/`name_es`. Distilleries DO have a `name_es`/`description_es` column (nullable), products do NOT.

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ArrowLeft, Share2, Star } from '@lucide/svelte';
+	import { ArrowLeft, ChevronLeft, ChevronRight, Share2, Star } from '@lucide/svelte';
 	import { getLocale, localizeHref, getUrlOrigin } from '$lib/paraglide/runtime';
 	import { buildHreflangAlternates } from '$lib/utils/seo';
 	import SEO from '$lib/components/SEO.svelte';
@@ -40,6 +40,20 @@
 	const hasHalf = $derived(avgRating - fullStars >= 0.3);
 
 	const schemaJson = $derived(data.schemaJson);
+
+	// Gallery: any number of images (product.images), falling back to the single
+	// image. prev/next only renders when there is more than one. Wraps around.
+	const images = $derived(
+		product.images && product.images.length > 0 ? product.images : product.image ? [product.image] : []
+	);
+	const hasGallery = $derived(images.length > 1);
+	let activeImg = $state(0);
+	function prev() {
+		activeImg = (activeImg - 1 + images.length) % images.length;
+	}
+	function next() {
+		activeImg = (activeImg + 1) % images.length;
+	}
 
 	async function share() {
 		const url = window.location.origin + localizeHref(`/whisky/${slug}`);
@@ -99,10 +113,28 @@
 		<div class="min-w-0 lg:sticky lg:top-24 lg:self-start">
 			<InfluencerVideos {videos} />
 			<div class="relative grid aspect-square place-items-center overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50 dark:border-zinc-200 dark:bg-white">
-				{#if product.image}
-					<img src={product.image} alt={name} class="h-full w-full object-contain" />
+				{#if images.length > 0}
+					<img src={images[activeImg]} alt={name} class="h-full w-full object-contain" />
 				{:else}
 					<span class="text-8xl opacity-60">🥃</span>
+				{/if}
+				{#if hasGallery}
+					<button
+						onclick={prev}
+						class="absolute left-3 top-1/2 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full bg-white/90 text-zinc-700 shadow-sm backdrop-blur transition hover:bg-white hover:text-zinc-900 dark:bg-zinc-900/90 dark:text-zinc-300 dark:hover:bg-zinc-900 dark:hover:text-white"
+						aria-label={m.detail_image_prev()}
+						title={m.detail_image_prev()}
+					>
+						<ChevronLeft size={20} />
+					</button>
+					<button
+						onclick={next}
+						class="absolute right-3 top-1/2 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full bg-white/90 text-zinc-700 shadow-sm backdrop-blur transition hover:bg-white hover:text-zinc-900 dark:bg-zinc-900/90 dark:text-zinc-300 dark:hover:bg-zinc-900 dark:hover:text-white"
+						aria-label={m.detail_image_next()}
+						title={m.detail_image_next()}
+					>
+						<ChevronRight size={20} />
+					</button>
 				{/if}
 				<button
 					onclick={share}

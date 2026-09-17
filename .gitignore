@@ -25,3 +25,6 @@ vite.config.ts.timestamp-*
 # Build artifacts
 /tools
 /data/images/raw
+
+# Database backups (local restore points, never committed)
+/db/backup

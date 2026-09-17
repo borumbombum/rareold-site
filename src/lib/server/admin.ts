@@ -16,6 +16,7 @@ export interface ProductInput {
 	name: string;
 	description: string | null;
 	image: string | null;
+	images?: string[];
 	origin_id: string | null;
 	region_id: string | null;
 	age: number | null;
@@ -103,8 +104,20 @@ export async function listProducts(db: Client = turso): Promise<AdminProduct[]> 
 		 LEFT JOIN product_ratings pr ON pr.product_id = p.id
 		 ORDER BY p.name COLLATE NOCASE`
 	);
+	const imagesByProduct = new Map<string, string[]>();
+	try {
+		const imgRes = await db.execute(
+			'SELECT product_id, url FROM product_images ORDER BY product_id, position'
+		);
+		for (const row of imgRes.rows) {
+			const pid = String(row.product_id);
+			if (!imagesByProduct.has(pid)) imagesByProduct.set(pid, []);
+			imagesByProduct.get(pid)?.push(String(row.url));
+		}
+	} catch { /* product_images table may not exist yet */ }
 	return res.rows.map((row) => ({
 		...rowToProductInput(row),
+		images: imagesByProduct.get(String(row.id)) ?? (row.image ? [String(row.image)] : []),
 		origin_name: row.origin_name == null ? null : String(row.origin_name),
 		distillery_name: row.distillery_name == null ? null : String(row.distillery_name),
 		avg_rating: Number(row.avg_rating ?? 0),
@@ -154,6 +167,24 @@ export async function createProduct(input: ProductInput, db: Client = turso): Pr
 		 ON CONFLICT(id) DO UPDATE SET ${onConflict}`,
 		productValues(input)
 	);
+	await replaceProductImages(input.id, input.images ?? [], db);
+}
+
+function sqlValue(v: unknown): string {
+	if (v === null || v === undefined) return 'NULL';
+	if (typeof v === 'number') return String(v);
+	return `'${String(v).replace(/'/g, "''")}'`;
+}
+
+async function replaceProductImages(productId: string, images: string[], db: Client): Promise<void> {
+	await db.execute('DELETE FROM product_images WHERE product_id = ?', [productId]);
+	const rows = images
+		.map((url, position) => (url && url.trim() ? `(${sqlValue(productId)}, ${position}, ${sqlValue(url.trim())}, '', datetime('now'))` : null))
+		.filter((r): r is string => r !== null);
+	if (rows.length === 0) return;
+	await db.execute(
+		`INSERT INTO product_images (product_id, position, url, alt, created_at) VALUES ${rows.join(', ')}`
+	);
 }
 
 export async function updateProduct(id: string, input: ProductInput, db: Client = turso): Promise<void> {
@@ -181,9 +212,11 @@ export async function updateProduct(id: string, input: ProductInput, db: Client 
 		input.description_fr
 	];
 	await db.execute(`UPDATE products SET ${setClauses} WHERE id = ?`, [...values, id]);
+	await replaceProductImages(id, input.images ?? [], db);
 }
 
 export async function deleteProduct(id: string, db: Client = turso): Promise<void> {
+	await db.execute('DELETE FROM product_images WHERE product_id = ?', [id]);
 	await db.execute('DELETE FROM products WHERE id = ?', [id]);
 	await db.execute('DELETE FROM karma WHERE entity_id = ?', [id]);
 	await db.execute('DELETE FROM votes WHERE entity_id = ?', [id]);

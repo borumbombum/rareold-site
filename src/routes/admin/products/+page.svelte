@@ -44,7 +44,7 @@
 	]);
 
 	let query = $state('');
-	let form = $state<Partial<ProductForm> | null>(null);
+	let form = $state<ProductForm | null>(null);
 	let editingId = $state<string | null>(null);
 	let busy = $state(false);
 	let error = $state('');
@@ -154,6 +154,7 @@
 		name: string;
 		description: string | null;
 		image: string | null;
+		images: string[];
 		origin_id: string | null;
 		region_id: string | null;
 		age: number | null;
@@ -255,6 +256,14 @@
 	const regionsFor = (originId: string | null | undefined) =>
 		REGIONS.filter((r) => r.origin_id === originId).sort((a, b) => a.name.localeCompare(b.name));
 
+	function addImage() {
+		if (form) form.images.push('');
+	}
+
+	function removeImage(i: number) {
+		if (form) form.images.splice(i, 1);
+	}
+
 	function openNew() {
 		error = '';
 		editingId = null;
@@ -263,6 +272,7 @@
 			name: '',
 			description: null,
 			image: null,
+			images: [],
 			origin_id: null,
 			region_id: null,
 			age: null,
@@ -294,6 +304,7 @@
 			name: p.name,
 			description: p.description,
 			image: p.image,
+			images: (p.images ?? []).length > 0 ? (p.images ?? []) : p.image ? [p.image] : [],
 			origin_id: p.origin_id,
 			region_id: p.region_id,
 			age: p.age,
@@ -328,6 +339,7 @@
 		}
 		busy = true;
 		try {
+			const images = (form.images ?? []).filter((u) => u && u.trim() !== '');
 			const res = await fetch(
 				isNew ? '/api/admin/products' : `/api/admin/products?id=${editingId}`,
 				{
@@ -335,6 +347,8 @@
 					headers: { 'Content-Type': 'application/json' },
 					body: JSON.stringify({
 						...form,
+						image: images[0] ?? form.image ?? null,
+						images,
 						id: (form.id ?? '').trim() || undefined,
 						name: form.name.trim()
 					})
@@ -434,8 +448,35 @@
 				<input bind:value={form.name} placeholder={m.admin_products_name()} class={inputClass} />
 			</label>
 			<label class="block text-sm">
-				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_image_url()}</span>
-				<input bind:value={form.image} placeholder="https://…" class={inputClass} />
+				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_images()}</span>
+				<div class="space-y-2">
+					{#each form.images as img, i (i)}
+						<div class="flex items-center gap-2">
+							<input bind:value={form.images[i]} placeholder="https://…" class={inputClass} />
+							<button
+								onclick={() => removeImage(i)}
+								class="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-zinc-100 text-zinc-500 transition hover:bg-red-50 hover:text-red-600 dark:bg-zinc-800 dark:hover:bg-zinc-700"
+								aria-label={m.admin_products_remove_image()}
+								title={m.admin_products_remove_image()}
+							>
+								<X size={15} />
+							</button>
+						</div>
+					{/each}
+					{#if form.images.length === 0 && form.image}
+						<div class="flex items-center gap-2">
+							<input bind:value={form.image} placeholder="https://…" class={inputClass} />
+							<span class="w-9 shrink-0"> </span>
+						</div>
+					{/if}
+					<button
+						onclick={addImage}
+						class="inline-flex items-center gap-1.5 rounded-lg border border-zinc-200 px-3 py-1.5 text-sm text-zinc-600 transition hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
+					>
+						<Plus size={14} />
+						{m.admin_products_add_image()}
+					</button>
+				</div>
 			</label>
 			<label class="block text-sm">
 				<span class="mb-1 block font-medium text-zinc-600 dark:text-zinc-300">{m.admin_products_origin()}</span>

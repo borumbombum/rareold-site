@@ -1,5 +1,12 @@
 # Learnings
 
+## 2026-09-17 — Product galleries shipped (task 097)
+
+- **Migrating to multi-image without touching any files**: new `product_images` table + copy each product's existing `image` path in as position 0. No downloads, no sharp, no new webp files — the user pushed back hard on the over-engineered original plan (download/curl + resize per product). The right move is a pure DB refactor.
+- **Bootstrap-only galleries**: `db-sync` `INSERT OR IGNORE`s from seed `images[]` (fallback `[image]`), Turso stays the source of truth after seeding; `db-export` emits an ordered `images` array; `image === images[0]` for all 471 products, so cards/SEO/schemas stay untouched.
+- **Detail page stays pixel-identical for single-image products**: gallery renders floating prev/next chevrons (wrap-around) ONLY when `images.length > 1`. Zero new DOM otherwise. Localized `detail_image_prev/next` messages in all 5 locales.
+- **Admin handles an unbounded URL list** (add/remove), save does delete+reinsert by position through `createProduct`/`updateProduct`; `listProducts` returns `images` so the form repopulates. `DELETE ON CASCADE` also covered explicitly in `deleteProduct`.
+
 ## 2026-09-16 — Germany batch 3 complete: Cigar Malt + Elsburn×2 + Störtebeker + Elch + Stork Club + Thousand Mountains
 
 - **Germany 7/7 done**: 471 products / 226 distilleries / 62 regions / 4454 videos / 19 origins. New regions Harz, Rügen, Brandenburg, Sauerland (auto-created from `w.region`).

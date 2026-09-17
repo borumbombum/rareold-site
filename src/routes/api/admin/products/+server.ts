@@ -18,11 +18,15 @@ function parseProduct(body: Record<string, unknown>): ProductInput | null {
 		const n = Number(v);
 		return Number.isFinite(n) ? n : null;
 	};
+	const images = Array.isArray(body.images)
+		? (body.images as unknown[]).filter((u): u is string => typeof u === 'string' && u.trim() !== '')
+		: [];
 	return {
 		id,
 		name,
 		description: str(body.description),
-		image: str(body.image),
+		image: str(body.image) ?? (images[0] ?? null),
+		images,
 		origin_id: str(body.origin_id),
 		region_id: str(body.region_id),
 		age: num(body.age),

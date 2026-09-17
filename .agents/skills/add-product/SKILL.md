@@ -164,6 +164,7 @@ Add a new entry to the `whiskies` array. Follow this exact structure:
     "name": "<Product name>",
     "description": "<Description in Spanish (base locale)>",
     "image": "/data/images/<slug>.webp",
+    "images": ["/data/images/<slug>.webp"],
     "origin": "<origin-key>",
     "region": "<Region>",
     "age": null,
@@ -196,6 +197,7 @@ Add a new entry to the `whiskies` array. Follow this exact structure:
 - `abv` = number (e.g. `43`), not a string; `volume` = string (e.g. `"700 ml"`); `age` = number or null; `cask` = string or null
 - Do NOT add `brand` or `video` fields — both were removed from the schema (brand lives on the distillery now)
 - `resellers_*` = empty arrays (populated later via Turso admin)
+- `images` = **optional** ordered array of image URLs; `images[0]` must equal `image` (the primary). `db-sync` inserts one `product_images` row per URL (position = index); if `images` is absent it falls back to `[image]`. Only include it when the product genuinely ships with multiple official shots — otherwise omit. Rows are `INSERT OR IGNORE` on `(product_id, position)`, so a rebuild never duplicates.
 
 ## Step 5: Influencer videos — 4 per language
 

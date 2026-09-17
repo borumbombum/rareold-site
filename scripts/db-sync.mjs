@@ -253,6 +253,21 @@ const insertInfluencerVideos = whiskies.flatMap((w) =>
 	)
 );
 
+// Product galleries are bootstrap-only (INSERT OR IGNORE): the seed supplies
+// images[0] = primary, any number of extra images follow. Existing products
+// without an images array fall back to their single image so every product
+// gets at least one row. Turso (admin UI / SQL) is the source of truth after
+// seeding.
+const insertProductImages = whiskies.flatMap((w) => {
+	const images = Array.isArray(w.images) && w.images.length > 0 ? w.images : w.image ? [w.image] : [];
+	return images.map((url, position) =>
+		stmt(
+			'INSERT OR IGNORE INTO product_images (product_id, position, url, alt, created_at) VALUES (?, ?, ?, ?, ?)',
+			[w.slug, position, url, '', new Date().toISOString()]
+		)
+	);
+});
+
 const insertStoreCountries = storeCountries.map((s) =>
 	stmt(
 		'INSERT INTO store_countries (code, name, currency, sort_order, active) VALUES (?, ?, ?, ?, ?) ON CONFLICT(code) DO NOTHING',
@@ -286,7 +301,7 @@ try {
 	);
 } catch { /* no pages seed file */ }
 
-await tx.batch([...insertOrigins, ...insertRegions, ...insertDistilleries, ...insertProducts, ...insertInfluencerVideos, ...insertStoreCountries, ...insertStores, ...insertPages]);
+await tx.batch([...insertOrigins, ...insertRegions, ...insertDistilleries, ...insertProducts, ...insertInfluencerVideos, ...insertProductImages, ...insertStoreCountries, ...insertStores, ...insertPages]);
 
 // Locale columns on existing rows are backfilled (ON CONFLICT DO UPDATE for
 // _pt, _en, _ja fields) so new translations in the seed propagate. Other edits
