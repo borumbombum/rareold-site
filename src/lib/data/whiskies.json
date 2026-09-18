@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-18T18:18:30.726Z",
+  "generatedAt": "2026-09-18T19:08:20.144Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -361,6 +361,74 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=x9MwJpnVKBo",
           "label": "Dram FM - オリジナル"
+        }
+      ]
+    },
+    {
+      "id": "aber-falls-single-malt",
+      "slug": "aber-falls-single-malt",
+      "name": "Aber Falls Single Malt",
+      "distillery": {
+        "id": "aber-falls",
+        "name": "Aber Falls Distillery",
+        "name_es": "Aber Falls Distillery",
+        "name_pt": "Aber Falls Distillery",
+        "name_en": "Aber Falls Distillery",
+        "name_ja": "アバー・フォールズ蒸溜所",
+        "name_fr": null
+      },
+      "description": "El single malt insignia de la primera destilería del norte de Gales en más de cien años: cebada 100 % galesa y agua de pozo de la propia cascada Rhaeadr Fawr, destilado en alambique de cobre y madurado en la destilería junto a la costa. Envejece en una combinación de barricas de jerez (PX y Oloroso), bourbon americano y roble blanco nuevo: vainilla y caramelo, cítricos confitados, higo y pasa, con clavo y especias suaves; en boca jerez dulce, fruta seca, frutos del bosque, malta cremosa, frutos secos, chocolate negro y un toque de café. Final largo de fruta seca y especias. 47%, 700 ml.",
+      "image": "/data/images/aber-falls-single-malt.webp",
+      "images": [
+        "/data/images/aber-falls-single-malt.webp"
+      ],
+      "origin": "wales",
+      "region": "Wales",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 47,
+      "cask": "Barricas de jerez (PX y Oloroso), bourbon americano y roble blanco nuevo",
+      "distillery_id": "aber-falls",
+      "insertion_order": 493,
+      "featured": false,
+      "name_pt": "Aber Falls Single Malt",
+      "description_pt": "O single malt insignia da primeira destilaria do norte do País de Gales em mais de cem anos: cevada 100 % galesa e água de poço da própria cascata Rhaeadr Fawr, destilado em alambique de cobre e amadurecido na destilaria junto à costa. Envelhece numa combinação de barris de xerez (PX e Oloroso), bourbon americano e carvalho branco novo: baunilha e caramelo, citrinos cristalizados, figo e passa, com cravo e especiarias suaves; na boca xerez doce, fruta seca, frutos do bosque, malte cremoso, frutos secos, chocolate negro e um toque de café. Final longo de fruta seca e especiarias. 47%, 700 ml.",
+      "name_en": "Aber Falls Single Malt",
+      "description_en": "The flagship single malt of the first whisky distillery in North Wales in over a hundred years: 100% Welsh barley and borehole water drawn from the Rhaeadr Fawr waterfall itself, distilled in copper pot stills and matured at the distillery beside the coast. It ages in a blend of sherry (PX and Oloroso), American bourbon and virgin oak casks: vanilla and toffee, candied citrus, fig and sultana, gentle clove and spice; on the palate sweet sherry, dried fruit, forest berries, creamy malt, nuts, dark chocolate and a hint of espresso. A long finish of dried fruit and subtle spice. 47%, 700 ml.",
+      "name_ja": "アバー・フォールズ・シングルモルト",
+      "description_ja": "北ウェールズで100年ぶりに誕生した蒸溜所のフラッグシップ・シングルモルト。100%ウェールズ産大麦と、ラエアドル・ファウル滝から引いた井戸水を使い、銅製ポットスチルで蒸溜し、海岸沿いの蒸溜所で熟成します。シェリー樽（PX＆オロロソ）、アメリカン・バーボン樽、新品のオーク樽を組み合わせて熟成：バニラとトフィー、砂糖漬けのシトラス、いちじく、サルタナ、ほのかなクローブやスパイス。口に含むと甘いシェリー、ドライフルーツ、ベリー、クリーミーなモルト、ナッツ、ダークチョコレート、エスプレッソのニュアンスが続きます。ドライフルーツとスパイスの長い余韻。47%、700ml。",
+      "name_fr": "Aber Falls Single Malt",
+      "description_fr": "Le single malt phare de la première distillerie du nord du Pays de Galles depuis plus de cent ans : 100 % d'orge galloise et de l'eau de forage tirée de la cascade Rhaeadr Fawr, distillés dans des alambics en cuivre et vieillis à la distillerie, près de la côte. Il mûrit dans un mélange de fûts de xérès (PX et Oloroso), de bourbon américain et de chêne neuf : vanille et caramel, agrumes confits, figue et raisin sec, clou de girofle et épices douces ; en bouche, xérès sucré, fruits secs, fruits rouges, malt crémeux, noix, chocolat noir et une pointe d'espresso. Une longue finale de fruits secs et d'épices. 47 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=9pN-gHI75nk",
+          "label": "#16 ABER FALLS Single Malt Welsh Whisky 40% - Whisky MaltContent Reviews"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ar8-B5LWK9Y",
+          "label": "Aber Falls Single Malt Welsh Whisky | Whisky Review - Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IdyWo0sDCXs",
+          "label": "Malt Box Whisky Review 165 - Aber Falls Welsh Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=YYhVTsaNITg",
+          "label": "Aber Falls Single Malt Welsh Whisky - Aaron Telford"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mm_mK1EmLA8",
+          "label": "Aber Falls. Maratona de Natal 2025 - Porção dos Anjos Whisky"
         }
       ]
     },
@@ -11389,6 +11457,50 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=DNKm6OPMN-c",
           "label": "Non solo whisky — Dunville's Three Crowns Peated Blended Irish Whiskey 43.5%"
+        }
+      ]
+    },
+    {
+      "id": "da-mhile-single-malt",
+      "slug": "da-mhile-single-malt",
+      "name": "Dà Mhìle Single Malt",
+      "distillery": {
+        "id": "da-mhile",
+        "name": "Dà Mhìle Distillery",
+        "name_es": "Dà Mhìle Distillery",
+        "name_pt": "Dà Mhìle Distillery",
+        "name_en": "Dà Mhìle Distillery",
+        "name_ja": "ダ・ヴィレ蒸溜所",
+        "name_fr": null
+      },
+      "description": "El single malt orgánico de la destilería familiar Dà Mhìle (pronunciado 'da-vee-lei'), en Ffostrasol (Ceredigion): cebada ecológica del Reino Unido destilada en su alambique de cobre alimentado con leña, sin filtrar en frío ni colorear. Esta edición maduró casi nueve años en una barrica individual de primer llenado de jerez: nariz dulce de malta y tabaco de cereza, con vainilla, plátano pasado y arce; en boca dulzor frutal y calidez que abren paso a malta clásica y manzana verde; final sedoso con vainilla, roble y taninos equilibrados. 46%, 700 ml.",
+      "image": "/data/images/da-mhile-single-malt.webp",
+      "images": [
+        "/data/images/da-mhile-single-malt.webp"
+      ],
+      "origin": "wales",
+      "region": "Wales",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Barrica única (single cask) de primer llenado de jerez",
+      "distillery_id": "da-mhile",
+      "insertion_order": 496,
+      "featured": false,
+      "name_pt": "Dà Mhìle Single Malt",
+      "description_pt": "O single malt orgânico da destilaria familiar Dà Mhìle (pronuncia-se 'da-vee-lei'), em Ffostrasol (Ceredigion): cevada orgânica do Reino Unido destilada no seu alambique de cobre alimentado a lenha, sem filtração a frio nem corantes. Esta edição amadureceu quase nove anos num barril individual de primeiro enchimento de xerez: nariz doce de malte e tabaco de cereja, com baunilha, banana madura e bordo; na boca, doçura frutada e calor que abrem caminho a malte clássico e maçã verde; final sedoso com baunilha, carvalho e taninos equilibrados. 46%, 700 ml.",
+      "name_en": "Dà Mhìle Single Malt",
+      "description_en": "The organic single malt of the family distillery Dà Mhìle (pronounced 'da-vee-lay') in Ffostrasol (Ceredigion): UK organic barley distilled on its wood-fired copper pot still, non-chill-filtered and uncoloured. This edition matured for almost nine years in a single first-fill sherry hogshead: a sweet nose of malt and cherry tobacco, with vanilla, sundried banana and maple; on the palate, initial fruity sweetness and warmth give way to classic malt and green apple; a silky finish with vanilla, oak and balanced tannins. 46%, 700 ml.",
+      "name_ja": "ダ・ヴィレ・シングルモルト",
+      "description_ja": "ケレディジオンのフォストラソルの家族経営蒸溜所ダ・ヴィレ（読み：ダ・ヴィレイ）によるオーガニック・シングルモルト。英国産オーガニック大麦を薪火式の銅製ポットスチルで蒸溜し、ノンチルフィルター・ノンカラーで瓶詰めしています。このエディションはファーストフィルのシェリー・ホグスヘッド樽単独で約9年熟成。甘いモルト香とチェリータバコ、バニラ、干しバナナ、メープルの香り。口に含むとまずフルーティーな甘さと温かさ、そしてクラシックなモルトと青リンゴ。バニラ、オーク、バランスの取れたタンニンのシルキーな余韻。46%、700ml。",
+      "name_fr": "Dà Mhìle Single Malt",
+      "description_fr": "Le single malt biologique de la distillerie familiale Dà Mhìle (prononcé « da-vee-lay ») à Ffostrasol (Ceredigion) : de l'orge biologique du Royaume-Uni distillée sur son alambic en cuivre chauffé au bois, non filtré à froid et non coloré. Cette édition a vieilli pendant près de neuf ans dans un unique fût de premier remplissage de xérès : un nez sucré de malt et de tabac à cerise, avec vanille, banane séchée et érable ; en bouche, une douceur fruitée et une chaleur initiales cèdent la place à un malt classique et à la pomme verte ; une finale soyeuse avec vanille, chêne et tanins équilibrés. 46 %, 700 ml.",
+      "videos": [
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=KM5Y99AQ4Ao",
+          "label": "ダヴィーレ ダミレ蒸溜所のウェルシュウイスキー - ショウタロウの日常飲み"
         }
       ]
     },
@@ -31961,6 +32073,74 @@
       ]
     },
     {
+      "id": "penderyn-legend",
+      "slug": "penderyn-legend",
+      "name": "Penderyn Legend",
+      "distillery": {
+        "id": "penderyn",
+        "name": "Penderyn Distillery",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "El clásico más conocido de la gama Dragon de Penderyn, la destilería del valle de Brecon: un single malt destilado en su característico alambique de columna de cobre y madurado en barricas de bourbon americano con un final en barricas de Madeira. Fresco y limpio en nariz, con manzana, cítricos, caramelo cremoso y pasas; en boca es increíblemente suave y rico en fruta seca, con un dulzor delicado y un punto de amargor que refresca. Final largo de bizcocho de Madeira y pasas. 40%, 700 ml.",
+      "image": "/data/images/penderyn-legend.webp",
+      "images": [
+        "/data/images/penderyn-legend.webp"
+      ],
+      "origin": "wales",
+      "region": "Wales",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Barricas de bourbon americano con final en Madeira",
+      "distillery_id": "penderyn",
+      "insertion_order": 494,
+      "featured": false,
+      "name_pt": "Penderyn Legend",
+      "description_pt": "O clássico mais conhecido da gama Dragon da Penderyn, a destilaria do vale de Brecon: um single malt destilado no seu característico alambique de coluna de cobre e amadurecido em barris de bourbon americano com um final em barris de Madeira. Fresco e limpo no nariz, com maçã, citrinos, caramelo cremoso e passas; na boca é incrivelmente suave e rico em fruta seca, com uma doçura delicada e um toque de amargor refrescante. Final longo de bolo de Madeira e passas. 40%, 700 ml.",
+      "name_en": "Penderyn Legend",
+      "description_en": "The best-known classic of Penderyn's Dragon range, the distillery in the Brecon valley: a single malt distilled in its signature copper column still and matured in American bourbon barrels with a finish in Madeira wine casks. Fresh and clean on the nose, with apples, citrus, creamy fudge and sultanas; on the palate it is incredibly smooth and rich in dried fruit, with a delicate sweetness and a refreshing hint of bitterness. A long finish of Madeira cake and sultanas. 40%, 700 ml.",
+      "name_ja": "ペンダリン・レジェンド",
+      "description_ja": "ブレコン渓谷の蒸溜所ペンダリン『ドラゴン』シリーズで最もよく知られる定番。代名詞である銅製コラムスチルで蒸溜し、アメリカン・バーボン樽で熟成した後、マデイラ樽でフィニッシュしています。香りはフレッシュでクリーン、リンゴ、シトラス、クリーミーなファッジ、サルタナ。口に含むと信じられないほど滑らかで、ドライフルーツと繊細な甘さ、リフレッシュさせるほのかな苦み。マデイラケーキとサルタナの長い余韻。40%、700ml。",
+      "name_fr": "Penderyn Legend",
+      "description_fr": "Le grand classique de la gamme Dragon de Penderyn, la distillerie de la vallée de Brecon : un single malt distillé dans son célèbre alambic à colonne en cuivre et vieilli en fûts de bourbon américain avec une finition en fûts de Madère. Frais et net au nez, avec de la pomme, des agrumes, du caramel fondant et des raisins secs ; en bouche, il est incroyablement souple et riche en fruits secs, avec une douceur délicate et une pointe d'amertume rafraîchissante. Une longue finale de gâteau de Madère et de raisins secs. 40 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4FiP_TUny9I",
+          "label": "Welsh Whisky? Penderyn Legend review - It Was All A Dram"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=WTu3wbE4-L4",
+          "label": "Penderyn Legend - Scotch Sunday Whisky Reviews"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dtt9gftqcoM",
+          "label": "Penderyn 'Legend': The Single Malt Review Episode 83"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=jHIzfHRLxb4",
+          "label": "Whisky Review/Tasting: Penderyn Legend - Whisky.com"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=C3LUNZ4Jdg0",
+          "label": "Penderyn Legend: El Whisky de Gales que Tenés que Probar - Piojo Whisky"
+        }
+      ]
+    },
+    {
       "id": "penderyn-madeira",
       "slug": "penderyn-madeira",
       "name": "Penderyn Madeira",
@@ -32073,6 +32253,68 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=jsmbeorzTdg",
           "label": "Porcao dos Anjos Whisky"
+        }
+      ]
+    },
+    {
+      "id": "penderyn-myth",
+      "slug": "penderyn-myth",
+      "name": "Penderyn Myth",
+      "distillery": {
+        "id": "penderyn",
+        "name": "Penderyn Distillery",
+        "name_es": null,
+        "name_pt": null,
+        "name_en": null,
+        "name_ja": null,
+        "name_fr": null
+      },
+      "description": "El otro gran clásico de la gama Dragon de Penderyn: un single malt fresco y ligero, destilado en el alambique de columna de cobre de la destilería del valle de Brecon y madurado en barricas de bourbon americano con barricas de roble rejuvenecido especialmente seleccionadas. Vivaz y frutal en nariz, con cítricos variados, manzana, un punto de pera y un toque tropical; en boca domina la dulzura, luego aflora un amargor refrescante mientras la fruta sigue al frente. Final que se desvanece poco a poco dejando un recuerdo ligero y fácil de beber. 40%, 700 ml.",
+      "image": "/data/images/penderyn-myth.webp",
+      "images": [
+        "/data/images/penderyn-myth.webp"
+      ],
+      "origin": "wales",
+      "region": "Wales",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Barricas de bourbon americano y roble rejuvenecido",
+      "distillery_id": "penderyn",
+      "insertion_order": 495,
+      "featured": false,
+      "name_pt": "Penderyn Myth",
+      "description_pt": "O outro grande clássico da gama Dragon da Penderyn: um single malt fresco e leve, destilado no alambique de coluna de cobre da destilaria do vale de Brecon e amadurecido em barris de bourbon americano com barris de carvalho rejuvenescido especialmente selecionados. Vivaz e frutado no nariz, com citrinos variados, maçã, um toque de pera e um toque tropical; na boca domina a doçura, depois aflora um amargor refrescante enquanto a fruta continua na frente. Final que se desvanece aos poucos deixando uma lembrança leve e fácil de beber. 40%, 700 ml.",
+      "name_en": "Penderyn Myth",
+      "description_en": "The other great classic of Penderyn's Dragon range: a fresh, light single malt, distilled in the copper column still at the Brecon valley distillery and matured in American bourbon barrels with specially selected rejuvenated oak casks. Lively and fruity on the nose, with mixed citrus, apple, a hint of pear and a tropical touch; sweetness dominates on the palate, then a refreshing bitterness emerges while the fruit keeps leading. A finish that fades slowly, leaving a light, easy-drinking impression. 40%, 700 ml.",
+      "name_ja": "ペンダリン・ミス",
+      "description_ja": "ペンダリン『ドラゴン』シリーズのもう一つの定番。ブレコン渓谷の蒸溜所の銅製コラムスチルで蒸溜し、アメリカン・バーボン樽と特別に選んだ再生オーク樽で熟成した、フレッシュでライトなシングルモルトです。香りは生き生きとしてフルーティー、ミックスシトラス、リンゴ、洋梨、トロピカルなニュアンス。口に含むと甘さが主体となり、その後リフレッシュする苦みが現れ、フルーツの風味が続きます。ゆっくりと消えゆく余韻は軽やかで、飲みやすい一杯です。40%、700ml。",
+      "name_fr": "Penderyn Myth",
+      "description_fr": "L'autre grand classique de la gamme Dragon de Penderyn : un single malt frais et léger, distillé au travers de l'alambic à colonne en cuivre de la distillerie de la vallée de Brecon et vieilli dans des fûts de bourbon américain complétés de fûts de chêne régénéré spécialement sélectionnés. Vif et fruité au nez, avec des agrumes variés, de la pomme, une pointe de poire et une touche tropicale ; en bouche, la douceur domine, puis une amertume rafraîchissante émerge tandis que le fruit reste en avant. Une finale qui s'efface peu à peu, laissant un souvenir léger et facile à boire. 40 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=RwwVInBTPxo",
+          "label": "Whisky Review/Tasting: Penderyn Myth - Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=gbMHi6mWBic",
+          "label": "PENDERYN - MYTH || Review #4 - Highland Taster"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iKuZ6cPxnRc",
+          "label": "Penderyn Single Malt Welsh Whisky Myth - Chasing Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=mFw7lBCQC5Q",
+          "label": "Penderyn 'Myth': The Single Malt Review Episode 84"
         }
       ]
     },

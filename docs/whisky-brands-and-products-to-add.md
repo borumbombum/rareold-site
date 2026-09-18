@@ -410,10 +410,10 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 
 ## Wales
 
-- Aber Falls Single Malt - Aber Falls (NEW distillery; PGI-listed, exported to 40 countries)
-- Penderyn Legend - Penderyn
-- Penderyn Myth - Penderyn (Llandudno)
-- Da Mhile Single Malt - Da Mhile (NEW distillery)
+✅ Aber Falls Single Malt - Aber Falls (NEW distillery; PGI-listed, exported to 40 countries)
+✅ Penderyn Legend - Penderyn
+✅ Penderyn Myth - Penderyn (made at Brecon, NOT Llandudno — Llandudno only makes peated expressions)
+✅ Da Mhile Single Malt - Da Mhile (NEW distillery) — official spelling "Dà Mhìle", Ffostrasol/Ceredigion (not Whitland)
 
 ## France
 

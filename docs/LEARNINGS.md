@@ -1,5 +1,15 @@
 # Learnings
 
+## 2026-09-18 — Wales batch: Aber Falls Single Malt, Penderyn Legend + Myth, Dà Mhìle Single Malt
+
+- **Queue lines are hints, not facts — every unverifiable claim needs a primary source.** Two premise damages corrected this batch: "Penderyn Myth (Llandudno)" is wrong (the whole Dragon range including Myth is made at Brecon; Penderyn's Llandudno distillery only makes peated expressions), and "Da Mhile" is officially **Dà Mhìle** at **Glynhynod Farm, Ffostrasol, Ceredigion** — not Whitland. The queue note told me nothing I could trust; the product pages did.
+- **ABV-vs-range trap:** Penderyn Legend/Myth are **40%** Gold-vs-Dragon distinction — the Dragon range (Legend, Myth, Celt) sits at 40/41/43% across batches while the Gold range (Madeira, Rich Oak, Portwood) is 46%. A stale guess of "46%" was wrong twice; official Penderyn pages settle it.
+- **The "honest single-video product" is a valid outcome** — Dà Mhìle has exactly one relevant review in the whole corpus: ショウタロウの日常飲み (ja, real tasting). No English exact tasting exists; the only hits were distillery-visit/history docs (ZQBNRhQ-OeE, ZO_OGtdTckM, iUJN0vNhYd4) — rejected on the =tasting rule even though they name the distillery.
+- **Aber Falls' official shop is Shopify but the flagship only ships as a two-bottle "duo" transparent hero** (Madeira/Sherry editions) — the single-bottle render doesn't exist publicly; the duo is the honest official asset. Dà Mhìle's shop is Squarespace with only countryside/table lifestyle shots (no clean studio file) — photo backgrounds remain acceptable per catalog precedent.
+- **Penderyn's shop is WordPress (penderyn.wales), not Shopify anymore** — white/light "Store" PNG bottle shots from wp-content/uploads were the accepted white-box fallback.
+- **Video yield: Legend 4 en + 1 es (Piojo Whisky, genuine Argentine), Myth 4 en, Aber Falls 4 en + 1 pt (Porção dos Anjos Christmas marathon — a single-bottle review slot within a named series, accepted), Dà Mhìle 1 ja.** Welsh distillery coverage is EN-heavy with scattered es/pt — matching the Denmark experience for niche regions.
+- **Pipeline: 234 distilleries / 493 products / 4521 videos; `npm run check` 0 errors, 29 pre-existing warnings.**
+
 ## 2026-09-18 — Denmark-2 batch: Stauning HØST, Braunstein Danica Non-Peated, Fary Lochan SÆSON 1
 
 - **Queue lines that don't match reality get a user-checked substitution, and the queue line records it**: "Braunstein B-No 1" never existed (full 111-product Shopify `products.json` on `shop.braunstein.dk` proven the ultimate authority — no match; also Whiskybase, whisky.dk, scotchwhisky.com) → user chose **Danica Non-Peated** (42%, 50cl, premium Oloroso). "Fary Lochan Season" maps to **SÆSON 1** per user (the 47%/70cl unpeated flagship; its smoke sibling is also called SÆSON 2, so "Season" alone meant the flagship).
