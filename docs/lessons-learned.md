@@ -694,3 +694,13 @@
 - **Video yield honest:** en×4 (Classic), en×4 (Sherry), en 2 + fr 1 — Le Whisky Brunch `ZcXiRUgq374` — (Peated); Golani and Ruach shipped with NO videos (only official-channel promos + a "new make" review exist; rejected). Point worth repeating: 2nd/3rd-tier distilleries often have zero exact reviews — don't pad.
 - **Invidious title→ID instability hit again at scale** (same ID showed different titles across consecutive calls). Decided everything off `yt-verify.mjs` oEmbed only.
 - **Pipeline counts:** db:sync 228 distilleries / 476 products / 4465 videos; data:export matched; `npm run check` 0 errors / 29 pre-existing warnings.
+
+## 2026-09-18 — Batch: 5 Taiwanese whiskies (Kavalan Oloroso Sherry Oak, ex-Bourbon Oak, Solist Fino, OMar 46, OMar Cask Strength)
+
+- **New distillery `omar` (Nantou, TTL) + 5-locale backfill of `kavalan` distillery record.** kavalan pre-existed (founded 2005) but with null `name_*`/`description*`; db:sync inserts distilleries with `ON CONFLICT DO NOTHING`, so locale backfill on an existing row requires the two-step (seed rewrite + direct Turso `UPDATE`) — as noted in seed, never in db:sync conventions.
+- **"Kavalan Distillery Select No. 1" was an existing product** (`kavalan-select-1`, description literally says "expresión n.º 1") → ticked the queue line as duplicate instead of adding it.
+- **Image sourcing, all Shopify/retail:** thebarreltap.com (oloroso), thewhiskyshop.com.sg (ex-Bourbon, Solist Fino box-shot, both OMar). Khanya: `thewhiskyshop.com.sg/search?q=` exposes full product URLs with ABV in the slug (Omar CS Bourbon = 55.7%) — the cleanest way to confirm exact retail specs.
+- **OMar 46% decision — Bourbon variant** (not Sherry): Whisky.com "Omar Bourbon Cask", Gwhisky "Nantou Omar Bourbon", plus JA ひとくちウイスキー/宅飲みバーTakeo give exact-coverage; Sherry variant has similar coverage but Bourbon is the exported one.
+- **ES/PT/FR yield:** ES strong for 2 Kavalan core SKUs (Whisky o Muerte, Los Whiskochos, El Whisky Bar, Hablando de Whisky); PT only ex-Bourbon (Tierri); FR exact-coverage zero for every product this batch — skipped, EN tops up at runtime.
+- **JA via Invidious was productive:** はっちばっちチャンネル series covers the core lineup (Oloroso Sherry Oak + Bourbon Oak); ひとくちウイスキー + 宅飲みバーTakeo cover Omar Bourbon Type. But several invidious titles (e.g. "カバラン フィノ シェリー #668") were the SAME ID as unrelated videos — oEmbed-only decision kept.
+- **Pipeline counts:** db:sync 229 distilleries / 481 products / 4484 videos; data:export matched; `npm run check` 0 errors / 29 pre-existing warnings.

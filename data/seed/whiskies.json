@@ -43243,6 +43243,273 @@
             "region": "Pardes Hanna",
             "volume": "700 ml",
             "abv": 47.7
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "taiwan",
+            "region": "Yilan",
+            "volume": "700 ml",
+            "abv": 46,
+            "url": "",
+            "id": "kavalan-oloroso-sherry-oak",
+            "slug": "kavalan-oloroso-sherry-oak",
+            "name": "Kavalan Oloroso Sherry Oak",
+            "description": "El oloroso de la serie Core de Kavalan: madurado en pequeñas barricas de jerez oloroso, sin colorantes ni filtración en frío. Nariz de pasas oscuras, higo, ciruela estofada, cacao y frutos secos tostados; paladar audaz y aterciopelado de frutos secos, toffee, especias de repostería, chocolate negro y roble; final largo y elegante con la dulzura del jerez y un toque de roble seco. 46%, 700 ml.",
+            "image": "/data/images/kavalan-oloroso-sherry-oak.webp",
+            "age": null,
+            "cask": "Barricas pequeñas de jerez Oloroso",
+            "name_pt": "Kavalan Oloroso Sherry Oak",
+            "description_pt": "O oloroso da gama Core da Kavalan, amadurecido em pequenas barricas de xerez oloroso e engarrafado sem corante nem filtragem a frio. Nariz de passas escuras, figo, ameixa estufada, cacau e frutos secos torrados; paladar arrojado e aveludado de frutos secos, toffee, especiarias de pastelaria, chocolate negro e carvalho; final longo e elegante, com a doçura do xerez e um toque de carvalho seco. 46%, 700 ml.",
+            "name_en": "Kavalan Oloroso Sherry Oak",
+            "description_en": "The oloroso of Kavalan's core range, matured in small Oloroso sherry casks and bottled uncoloured and unchill-filtered. A nose of dark raisins, fig, stewed plum, cocoa and roasted nuts; a bold, velvety palate of dried fruit, toffee, baking spices, dark chocolate and oak; a long, elegant finish carrying sherry sweetness and dry oak. 46%, 700 ml.",
+            "name_ja": "Kavalan Oloroso Sherry Oak",
+            "description_ja": "カバラン・コアシリーズのオロロソ。オロロソ・シェリーの小樽で熟成し、無着色・ノンチルフィルターで瓶詰。香りはダークレーズン、イチジク、煮詰めたプラム、ココア、ローストナッツ。味わいは大胆でビロードのようなドライフルーツ、トフィー、ベーキングスパイス、ダークチョコレート、オーク。フィニッシュは長くエレガントで、シェリーの甘みとドライなオークが続きます。46%、700ml。",
+            "name_fr": "Kavalan Oloroso Sherry Oak",
+            "description_fr": "L'oloroso de la gamme Core de Kavalan, vieilli en petits fûts d'oloroso et mis en bouteille non coloré et non filtré à froid. Nez de raisins secs sombres, figue, prune compotée, cacao et fruits à coque torréfiés ; palais audacieux et velouté de fruits secs, toffee, épices de pâtisserie, chocolat noir et chêne ; finale longue et élégante, douceur du xérès et chêne sec. 46 %, 700 ml.",
+            "distillery_id": "kavalan",
+            "influencer_videos": [
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=enMmdIUhDnU",
+                    "label": "Oloroso Sherry Oak — Darryl Lim",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=cBet33G55ks",
+                    "label": "Oloroso Sherry Oak vs Yushan — Whisky Whistle",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "es",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=QDiW-KEbGTQ",
+                    "label": "Oloroso Sherry Oak (cata y opinión) — Whisky o Muerte",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "ja",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=mhy_o5_0zaI",
+                    "label": "カバラン オロロソシェリーオーク — はっちばっちちゃんねる",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "taiwan",
+            "region": "Yilan",
+            "volume": "700 ml",
+            "abv": 46,
+            "url": "",
+            "id": "kavalan-ex-bourbon-oak",
+            "slug": "kavalan-ex-bourbon-oak",
+            "name": "Kavalan ex-Bourbon Oak",
+            "description": "El ex-Bourbon de la serie Core de Kavalan: single malt madurado en barricas americanas de bourbon, rebajado de la Solist ex-Bourbon con agua de manantial local hasta 46%, sin filtrar en frío. Nariz de vainilla, nuez moscada y plátano; paladar fresco y dulce de cebada cremosa, coco y roble suave; final con especias exóticas y un deje de fruta tropical. 46%, 700 ml.",
+            "image": "/data/images/kavalan-ex-bourbon-oak.webp",
+            "age": null,
+            "cask": "Ex-bourbon (rebaja del Solist ex-Bourbon con agua de manantial)",
+            "name_pt": "Kavalan ex-Bourbon Oak",
+            "description_pt": "O ex-Bourbon da gama Core da Kavalan: single malt amadurecido em barricas americanas de bourbon e reduzido da Solist ex-Bourbon com água de nascente local até 46%, sem filtragem a frio. Nariz de baunilha, noz-moscada e banana; paladar fresco e doce de cevada cremosa, coco e carvalho suave; final com especiarias exóticas e um toque de fruta tropical. 46%, 700 ml.",
+            "name_en": "Kavalan ex-Bourbon Oak",
+            "description_en": "The ex-Bourbon of Kavalan's core range: a single malt matured in American bourbon casks and cut down from Solist strength with local spring water to 46%, unchill-filtered. A nose of vanilla, nutmeg and banana; a fresh, sweet palate of creamy barley, coconut and soft oak; a finish of exotic spices with a hint of tropical fruit. 46%, 700 ml.",
+            "name_ja": "Kavalan ex-Bourbon Oak",
+            "description_ja": "カバラン・コアシリーズのエクスバーボン。アメリカン・バーボン樽で熟成したシングルモルトで、ソリスト・エクスバーボンの原液を地元の涌き水で46%に加水、ノンチルフィルター。香りはバニラ、ナツメグ、バナナ。味わいはフレッシュで甘く、クリーミーな麦、ココナッツ、ソフトなオーク。フィニッシュはエキゾチックなスパイスとトロピカルフルーツのニュアンス。46%、700ml。",
+            "name_fr": "Kavalan ex-Bourbon Oak",
+            "description_fr": "L'ex-bourbon de la gamme Core de Kavalan : un single malt vieilli en fûts américains de bourbon et réduit de la force Solist avec l'eau de source locale à 46 %, non filtré à froid. Nez de vanille, muscade et banane ; palais frais et doux d'orge crémeuse, coco et chêne tendre ; finale aux épices exotiques et une pointe de fruit tropical. 46 %, 700 ml.",
+            "distillery_id": "kavalan",
+            "influencer_videos": [
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=hEuTjFIFGfc",
+                    "label": "Kavalan ex-Bourbon Oak — Whiskey Vault",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=GQI56W3Bn08",
+                    "label": "Kavalan ex-Bourbon — Top Shelf Whisky",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=GD2i3HT5jNk",
+                    "label": "Kavalan Ex-Bourbon Oak — Exploring Whiskey",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "es",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=vvYtwwzcacI",
+                    "label": "Kavalan Ex-Bourbon Oak — Los Whiskochos",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "es",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=vTOOyv1D-x0",
+                    "label": "Kavalan Ex-Bourbon Oak — El Whisky Bar",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "es",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=po36y5Gum0k",
+                    "label": "Kavalan Ex Bourbon Cask — Hablando de Whisky",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "pt",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=WzJ19rVGmiw",
+                    "label": "Kavalan Bourbon Oak — Tierri Whisky",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "ja",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=Aw05wudz7GI",
+                    "label": "カバラン バーボンオーク — はっちばっちちゃんねる",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "taiwan",
+            "region": "Yilan",
+            "volume": "700 ml",
+            "abv": 57.8,
+            "url": "",
+            "id": "kavalan-solist-fino",
+            "slug": "kavalan-solist-fino",
+            "name": "Kavalan Solist Fino Sherry",
+            "description": "El Solist de jerez fino, elegido Whisky of the Year en el IWC 2025 con 97,04 puntos. Un single cask madurado íntegramente en barricas de fino de Jerez, embotellado a plena fuerza de barrica sin filtrar en frío ni colorear. Nariz de mango, albaricoque y piña a la parrilla, con almendras, higos secos y especias de roble; paladar rico de ciruela, cerezas al brandy, chocolate negro y la sequedad fina del fino; final largo de café, sándalo y cítricos secos. 57,8%, 700 ml.",
+            "image": "/data/images/kavalan-solist-fino.webp",
+            "age": null,
+            "cask": "Barricas de Fino de Jerez (single cask, a plena fuerza de barrica)",
+            "name_pt": "Kavalan Solist Fino Sherry",
+            "description_pt": "O Solist de xerez fino, eleito Whisky of the Year no IWC 2025 com 97,04 pontos. Um single cask amadurecido inteiramente em barricas de fino de Jerez, engarrafado a força de barril, sem filtragem a frio e sem corante. Nariz de manga, damasco e ananás grelhado, com amêndoas, figos secos e especiarias de carvalho; paladar rico de ameixa, cerejas ao conhaque, chocolate negro e a secura fina do fino; final longo de café, sândalo e citrinos secos. 57,8%, 700 ml.",
+            "name_en": "Kavalan Solist Fino Sherry",
+            "description_en": "The signature sherry Solist, crowned Whisky of the Year at the IWC 2025 with 97.04 points. A single cask matured entirely in Fino sherry casks, bottled at full cask strength, unchill-filtered and uncoloured. A nose of mango, apricot and grilled pineapple, layered with almonds, dried figs and oak spice; a rich palate of plum, brandied cherries, dark chocolate and the dry finesse of fino; a long finish of coffee, sandalwood and dried citrus. 57.8%, 700 ml.",
+            "name_ja": "Kavalan Solist Fino Sherry",
+            "description_ja": "ソリスト・フィノ・シェリー。IWC 2025で97.04点を獲得し「ウイスキー・オブ・ザ・イヤー」に輝いた逸品。フィノ・シェリー樽で全期間熟成したシングルカスクを、カスクストレングス、無着色・ノンチルフィルターで瓶詰め。香りはマンゴー、アプリコット、グリルパイン、アーモンド、ドライフィグ、オークのスパイス。味わいはプラム、ブランデーチェリー、ダークチョコレート、そしてフィノらしいドライな繊細さ。フィニッシュは長く、コーヒー、サンダルウッド、ドライシトラス。57.8%、700ml。",
+            "name_fr": "Kavalan Solist Fino Sherry",
+            "description_fr": "Le sherry signature de la série Solist, élu Whisky of the Year à l'IWC 2025 avec 97,04 points. Un single cask vieilli entièrement en fûts de fino de Jerez, mis en bouteille à pleine force de fût, non filtré à froid et non coloré. Nez de mangue, abricot et ananas grillé, parsemé d'amandes, de figues séchées et d'épices de chêne ; palais riche de prune, cerises au cognac, chocolat noir et la finesse sèche du fino ; finale longue de café, santal et agrumes séchés. 57,8 %, 700 ml.",
+            "distillery_id": "kavalan",
+            "influencer_videos": [
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=1_XxdpRTC1g",
+                    "label": "Solist Fino Sherry Cask — Malt Reviews",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=FyfAQB6G7nE",
+                    "label": "Kavalan Fino Sherry — Top Shelf Whisky",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=HJSeygLapy8",
+                    "label": "Solist Fino Sherry Cask — JasonWhiskyWise",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "taiwan",
+            "region": "Nantou",
+            "volume": "700 ml",
+            "abv": 46,
+            "url": "",
+            "id": "omar-single-malt-46",
+            "slug": "omar-single-malt-46",
+            "name": "OMar Single Malt Whisky 46%",
+            "description": "El single malt de entrada de la destilería OMar (Nantou), dominado por espíritu madurado en ex-bourbon con unas gotas de jerez y embotellado a 46% sin filtrar en frío. Nariz floral y afrutada con vainilla y cítricos; paladar medio de cebada cremosa, manzana, piña y especias suaves; final limpio y fresco con un leve dulzor de miel y coco. 46%, 700 ml.",
+            "image": "/data/images/omar-single-malt-46.webp",
+            "age": null,
+            "cask": "Ex-bourbon con un toque de jerez (línea 46%)",
+            "name_pt": "OMar Single Malt Whisky 46%",
+            "description_pt": "O single malt de entrada da destilaria OMar (Nantou), dominado por espírito amadurecido em ex-bourbon com umas gotas de xerez e engarrafado a 46% sem filtragem a frio. Nariz floral e frutada com baunilha e citrinos; paladar médio de cevada cremosa, maçã, ananás e especiarias suaves; final limpo e fresco com um leve dulçor de mel e coco. 46%, 700 ml.",
+            "name_en": "OMar Single Malt Whisky 46%",
+            "description_en": "The entry-level single malt from OMar distillery (Nantou), dominated by spirit matured in ex-bourbon with a few drops of sherry, bottled at 46% and unchill-filtered. A floral, fruity nose with vanilla and citrus; a medium palate of creamy barley, apple, pineapple and gentle spices; a clean, fresh finish with a light honey-and-coconut sweetness. 46%, 700 ml.",
+            "name_ja": "OMar Single Malt Whisky 46%",
+            "description_ja": "オマール蒸溜所（南投）のエントリー・シングルモルト。エクスバーボン樽熟成が主体で、少量のシェリーをブレンドし、46%、ノンチルフィルターで瓶詰め。香りはフローラルでフルーティー、バニラと柑橘。味わいはミディアムボディで、クリーミーな麦、リンゴ、パイナップル、穏やかなスパイス。フィニッシュはクリーンでフレッシュ、ハチミツとココナッツの軽い甘み。46%、700ml。",
+            "name_fr": "OMar Single Malt Whisky 46%",
+            "description_fr": "Le single malt d'entrée de gamme de la distillerie OMar (Nantou), dominé par un esprit vieilli en ex-bourbon relevé de quelques gouttes de xérès, mis en bouteille à 46 % et non filtré à froid. Nez floral et fruité avec vanille et agrumes ; palais moyen d'orge crémeuse, pomme, ananas et épices douces ; finale nette et fraîche avec une légère douceur de miel et de coco. 46 %, 700 ml.",
+            "distillery_id": "omar",
+            "influencer_videos": [
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=0bZazDctlJU",
+                    "label": "Omar Bourbon Cask — Whisky.com",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=lyEPDaoIexk",
+                    "label": "Nantou Omar Bourbon — Gwhisky",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "ja",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=2DbVDiyBJO4",
+                    "label": "オマー バーボンタイプ — ひとくちウイスキー",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "ja",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=y4eOAt8d2a4",
+                    "label": "オマー バーボンタイプ — 宅飲みバーTakeo",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "taiwan",
+            "region": "Nantou",
+            "volume": "700 ml",
+            "abv": 55.7,
+            "url": "",
+            "id": "omar-cask-strength",
+            "slug": "omar-cask-strength",
+            "name": "OMar Cask Strength Single Malt",
+            "description": "El single malt a plena fuerza de barrica de OMar, elegido de cientos de barricas por el panel de cata de la destilería y embotellado sin filtrar en frío ni colorear. Madurado en barricas de bourbon en el clima montañoso de Nantou, muestra la fruta tropical característica de Taiwán: mango, melocotón y plátano caramelizado sobre vainilla y roble especiado. Nariz intensa y afrutada; paladar robusto y aceitoso con un dulzor meloso; final largo y cálido. 55,7%, 700 ml.",
+            "image": "/data/images/omar-cask-strength.webp",
+            "age": null,
+            "cask": "Single cask ex-bourbon a plena fuerza de barrica",
+            "name_pt": "OMar Cask Strength Single Malt",
+            "description_pt": "O single malt a força de barril da OMar, escolhido de centenas de barricas pelo painel de prova da destilaria e engarrafado sem filtragem a frio nem corante. Amadurecido em barricas de bourbon no clima montanhoso de Nantou, mostra o fruto tropical característico de Taiwan: manga, pêssego e banana caramelizada sobre baunilha e carvalho especiado. Nariz intensa e frutada; paladar robusto e oleoso com um dulçor meloso; final longo e quente. 55,7%, 700 ml.",
+            "name_en": "OMar Cask Strength Single Malt",
+            "description_en": "The cask-strength single malt from OMar, picked from hundreds of casks by the distillery's tasting panel and bottled unchill-filtered and uncoloured. Matured in bourbon casks in the mountain climate of Nantou, it showcases Taiwan's signature tropical fruit: mango, peach and caramelised banana over vanilla and spiced oak. An intense, fruity nose; a robust, oily palate with a honeyed sweetness; a long, warm finish. 55.7%, 700 ml.",
+            "name_ja": "OMar Cask Strength Single Malt",
+            "description_ja": "オマールのカスクストレングス・シングルモルト。蒸溜所のテイスティングパネルが何百本もの樽から選び抜き、無着色・ノンチルフィルターで瓶詰め。南投の山岳気候でバーボン樽熟成され、台湾らしいトロピカルフルーツ（マンゴー、ピーチ、キャラメリゼしたバナナ）とバニラ、スパイスの効いたオークのハーモニー。香りは濃厚でフルーティー。味わいは力強くオイリーで、ハチミツのような甘み。フィニッシュは長く温かい。55.7%、700ml。",
+            "name_fr": "OMar Cask Strength Single Malt",
+            "description_fr": "Le single malt à pleine force de fût d'OMar, choisi parmi des centaines de fûts par le comité de dégustation de la distillerie, mis en bouteille non filtré à froid et non coloré. Vieilli en fûts de bourbon dans le climat montagnard de Nantou, il dévoile le fruit tropical signature de Taïwan : mangue, pêche et banane caramélisée sur vanille et chêne épicé. Nez intense et fruité ; palais robuste et huileux à la douceur mielleuse ; finale longue et chaleureuse. 55,7 %, 700 ml.",
+            "distillery_id": "omar",
+            "influencer_videos": []
         }
     ]
 }

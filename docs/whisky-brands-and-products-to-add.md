@@ -52,12 +52,12 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 
 ## Taiwan
 
-- Kavalan Oloroso Sherry Oak - Kavalan
-- Kavalan Ex-Bourbon Oak - Kavalan
-- Kavalan Distillery Select No. 1 - Kavalan
-- Kavalan Solist Fino Sherry - Kavalan
-- OMar Single Malt 46% - OMar / Nantou (NEW distillery)
-- OMar Cask Strength Single Malt - OMar / Nantou (NEW distillery)
+✅ Kavalan Oloroso Sherry Oak - Kavalan
+✅ Kavalan Ex-Bourbon Oak - Kavalan
+✅ Kavalan Distillery Select No. 1 - Kavalan (duplicate of existing kavalan-select-1; no new entry created)
+✅ Kavalan Solist Fino Sherry - Kavalan
+✅ OMar Single Malt 46% - OMar / Nantou (NEW distillery)
+✅ OMar Cask Strength Single Malt - OMar / Nantou (NEW distillery)
 
 ## Scotland — Islay
 

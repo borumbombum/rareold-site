@@ -17794,6 +17794,90 @@
     "label": "Destilados Brasil"
   },
   {
+    "product_id": "kavalan-ex-bourbon-oak",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=GD2i3HT5jNk",
+    "label": "Kavalan Ex-Bourbon Oak — Exploring Whiskey"
+  },
+  {
+    "product_id": "kavalan-ex-bourbon-oak",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=GQI56W3Bn08",
+    "label": "Kavalan ex-Bourbon — Top Shelf Whisky"
+  },
+  {
+    "product_id": "kavalan-ex-bourbon-oak",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=hEuTjFIFGfc",
+    "label": "Kavalan ex-Bourbon Oak — Whiskey Vault"
+  },
+  {
+    "product_id": "kavalan-ex-bourbon-oak",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=po36y5Gum0k",
+    "label": "Kavalan Ex Bourbon Cask — Hablando de Whisky"
+  },
+  {
+    "product_id": "kavalan-ex-bourbon-oak",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vTOOyv1D-x0",
+    "label": "Kavalan Ex-Bourbon Oak — El Whisky Bar"
+  },
+  {
+    "product_id": "kavalan-ex-bourbon-oak",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=vvYtwwzcacI",
+    "label": "Kavalan Ex-Bourbon Oak — Los Whiskochos"
+  },
+  {
+    "product_id": "kavalan-ex-bourbon-oak",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=Aw05wudz7GI",
+    "label": "カバラン バーボンオーク — はっちばっちちゃんねる"
+  },
+  {
+    "product_id": "kavalan-ex-bourbon-oak",
+    "language": "pt",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WzJ19rVGmiw",
+    "label": "Kavalan Bourbon Oak — Tierri Whisky"
+  },
+  {
+    "product_id": "kavalan-oloroso-sherry-oak",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=cBet33G55ks",
+    "label": "Oloroso Sherry Oak vs Yushan — Whisky Whistle"
+  },
+  {
+    "product_id": "kavalan-oloroso-sherry-oak",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=enMmdIUhDnU",
+    "label": "Oloroso Sherry Oak — Darryl Lim"
+  },
+  {
+    "product_id": "kavalan-oloroso-sherry-oak",
+    "language": "es",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=QDiW-KEbGTQ",
+    "label": "Oloroso Sherry Oak (cata y opinión) — Whisky o Muerte"
+  },
+  {
+    "product_id": "kavalan-oloroso-sherry-oak",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=mhy_o5_0zaI",
+    "label": "カバラン オロロソシェリーオーク — はっちばっちちゃんねる"
+  },
+  {
     "product_id": "kavalan-select-1",
     "language": "en",
     "platform": "youtube",
@@ -17974,6 +18058,27 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=bCO_6Dyrk-s",
     "label": "Porção dos Anjos Whisky"
+  },
+  {
+    "product_id": "kavalan-solist-fino",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=1_XxdpRTC1g",
+    "label": "Solist Fino Sherry Cask — Malt Reviews"
+  },
+  {
+    "product_id": "kavalan-solist-fino",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=FyfAQB6G7nE",
+    "label": "Kavalan Fino Sherry — Top Shelf Whisky"
+  },
+  {
+    "product_id": "kavalan-solist-fino",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=HJSeygLapy8",
+    "label": "Solist Fino Sherry Cask — JasonWhiskyWise"
   },
   {
     "product_id": "kavalan-solist-port",
@@ -22951,6 +23056,34 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=uxWT5PliICI",
     "label": "Sanson Single Malt"
+  },
+  {
+    "product_id": "omar-single-malt-46",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0bZazDctlJU",
+    "label": "Omar Bourbon Cask — Whisky.com"
+  },
+  {
+    "product_id": "omar-single-malt-46",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=lyEPDaoIexk",
+    "label": "Nantou Omar Bourbon — Gwhisky"
+  },
+  {
+    "product_id": "omar-single-malt-46",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=2DbVDiyBJO4",
+    "label": "オマー バーボンタイプ — ひとくちウイスキー"
+  },
+  {
+    "product_id": "omar-single-malt-46",
+    "language": "ja",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=y4eOAt8d2a4",
+    "label": "オマー バーボンタイプ — 宅飲みバーTakeo"
   },
   {
     "product_id": "paul-john-classic-select-casks",
