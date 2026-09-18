@@ -5229,6 +5229,27 @@
     "label": "Whisky Capital — Bowmore 12 Anos"
   },
   {
+    "product_id": "braunstein-danica-non-peat",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=226OeFxAyRY",
+    "label": "Braunstein Danica Danish Single Malt Whisky - Uncensored Whiskey Reviews"
+  },
+  {
+    "product_id": "braunstein-danica-non-peat",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=G54HLFwm5Xg",
+    "label": "The Three Whiskateers try- Danica Whisky"
+  },
+  {
+    "product_id": "braunstein-danica-non-peat",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=qWq_SxEU5ks",
+    "label": "Mark's Whisky Ramblings 141: Braunstein Danica Whisky 14:1 Library Collection"
+  },
+  {
     "product_id": "brenne-estate-cask",
     "language": "en",
     "platform": "youtube",
@@ -9763,6 +9784,13 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=rK5EIBYU3wY",
     "label": "Famous Grouse 2020"
+  },
+  {
+    "product_id": "fary-lochan-season-1",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=WBcLkulOANk",
+    "label": "Fary Lochan Season 1 Batch #01 Whisky Review - Whisky Shared"
   },
   {
     "product_id": "fettercairn-12-yo",
@@ -25667,6 +25695,20 @@
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=StO6n7eg0tk",
     "label": "スターワード トゥーフォールド"
+  },
+  {
+    "product_id": "stauning-host",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=8fBtpF8qbwM",
+    "label": "Danish Double Malt! Stauning Høst Honest Whisky Review - Whisky Shared"
+  },
+  {
+    "product_id": "stauning-host",
+    "language": "en",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=GRikCxQ5jnc",
+    "label": "Stauning HØST 2024 | Whisky Review - Whisky.com"
   },
   {
     "product_id": "stauning-kaos",

@@ -1,5 +1,14 @@
 # Learnings
 
+## 2026-09-18 — Denmark-2 batch: Stauning HØST, Braunstein Danica Non-Peated, Fary Lochan SÆSON 1
+
+- **Queue lines that don't match reality get a user-checked substitution, and the queue line records it**: "Braunstein B-No 1" never existed (full 111-product Shopify `products.json` on `shop.braunstein.dk` proven the ultimate authority — no match; also Whiskybase, whisky.dk, scotchwhisky.com) → user chose **Danica Non-Peated** (42%, 50cl, premium Oloroso). "Fary Lochan Season" maps to **SÆSON 1** per user (the 47%/70cl unpeated flagship; its smoke sibling is also called SÆSON 2, so "Season" alone meant the flagship).
+- **Distillery locale metadata pattern of record**: new distilleries `braunstein` (2005, Køge, hybrid 800L still, first bottling Mar 2010, Library/Cask/Danica lines) and `fary-lochan` (2009, Farre, Forsyths stills, nettle-smoked signature) entered via a precise 2-space-indent targeted edit with full 5-locale `name`/`description`/`name_*` — a write-once-complete record, since db:sync inserts `ON CONFLICT DO NOTHING`.
+- **Danish craft whisky review coverage is EN-only**: 6 exact videos total across the three (Whisky.com, Whisky Shared ×2, Uncensored Whiskey Reviews, Three Whiskateers, Mark's Whisky Ramblings). No es/pt/ja/fr exact reviews exist; runtime EN top-up fills the gap. "Danica 14:1 Library Collection" accepted as the same unpeated Danica expression.
+- **Images**: HØST webp from Shopify CDN png, Danica from Shopify CDN png (both direct `image.src`), SÆSON 1 from the farylochan.dk WP-uploads png. All downscaled/padded by `prepare-image.mjs` to data/images (21.0 / 20.0 / 16.4 KB).
+- **Single-edit seeding works**: drafting all three product blocks in ONE anchored edit (replacing the tail of the last product through the file's closing `]`) keeps JSON parse + duplicate-key scan green on the first pass.
+- **Pipeline**: 232 distilleries / 489 products / 4506 videos (db:sync and data:export identical); `npm run check` 0 errors, 29 pre-existing warnings.
+
 ## 2026-09-18 — Finland/Denmark craft batch
 
 - **Shopify `/products.json?limit=250` is the fastest research+image endpoint for Shopify stores**: `stauningwhisky.dk/products.json` gave all 41 products with title, `body_html` (ABV + cask details: Smoke 70cl-47%, KAOS 70cl-46%) and the CDN `image.src` — 1 request replaced 5 page scrapes. Failure case: `kyrodistillery.com/products.json` returned empty (blocked host); the fallback was the homepage nav (which lists the whole whisk(e)y range → proved "Kyrö Vapaa" absent) plus grep of the product page HTML for `cdn/shop/files/*.png` (consistent `kyro_*` naming).

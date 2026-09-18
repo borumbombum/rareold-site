@@ -43756,6 +43756,129 @@
                     "created_at": "2000-01-01T00:00:00.000Z"
                 }
             ]
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "denmark",
+            "region": "Denmark",
+            "volume": "700 ml",
+            "abv": 40.5,
+            "url": "",
+            "id": "stauning-host",
+            "slug": "stauning-host",
+            "name": "Stauning HØST",
+            "description": "Un whisky double malt danés que celebra la cosecha («høst») de la costa oeste de Dinamarca: la unión de single malt y centeno, con cebada y centeno 100 % malteados en el suelo de la propia destilería. Madurado en barricas de roble americano con un toque de madera de Oporto. Suave, afrutado y floral: recuerda al sol del final del verano y a las flores silvestres entre los campos. Una introducción ligera y equilibrada a la casa Stauning, ideal solo, con hielo o en cóctel. 40,5%, 700 ml.",
+            "image": "/data/images/stauning-host.webp",
+            "age": null,
+            "cask": "Barricas de roble americano con un toque de madera de Oporto",
+            "name_pt": "Stauning HØST",
+            "description_pt": "Um whisky double malt dinamarquês que celebra a colheita («høst») da costa ocidental da Dinamarca: a união de single malt e centeio, com cevada e centeio 100 % maltados no chão da própria destilaria. Amadurecido em barris de carvalho americano com um toque de madeira de Porto. Suave, frutado e floral: lembra o sol do fim do verão e as flores silvestres entre os campos. Uma introdução leve e equilibrada à casa Stauning, ideal puro, com gelo ou em cocktail. 40,5%, 700 ml.",
+            "name_en": "Stauning HØST",
+            "description_en": "A Danish double malt whisky celebrating the harvest ('høst') of Denmark's West Coast: the marriage of single malt and rye, with barley and rye 100% floor-malted at the distillery. Matured in American oak casks with a touch of Port wood. Smooth, fruit-forward and floral — recalling late-summer sun and wildflowers among the fields. A light, balanced introduction to Stauning, great neat, on ice or in a cocktail. 40.5%, 700 ml.",
+            "name_ja": "スタウニング・ヘスト",
+            "description_ja": "デンマーク西海岸の収穫（デンマーク語で「HØST」）を讃えるダブルモルト・ウイスキー。蒸溜所内で床式麦芽製造した大麦とライ麦を100%使い、シングルモルトとライ麦のマリアージュを実現しました。アメリカンオーク樽にポルト樽のニュアンスを加えて熟成。滑らかでフルーティー、フローラルな味わいは、夏の終わりの日差しと畑に咲く野花を思わせます。ライトでバランスの取れたスタウニングの入門ウイスキー。ストレート、オンザロック、カクテルでどうぞ。40.5%、700ml。",
+            "name_fr": "Stauning HØST",
+            "description_fr": "Un double malt danois en hommage à la moisson (« høst ») de la côte ouest du Danemark : le mariage d'un single malt et d'un whisky de seigle, à base d'orge et de seigle 100 % maltés sur sol à la distillerie. Vieilli en fûts de chêne américain avec une touche de fûts de Porto. Souple, fruité et floral — il évoque le soleil de fin d'été et les fleurs sauvages au milieu des champs. Une introduction légère et équilibrée à la maison Stauning, idéal pur, avec des glaçons ou en cocktail. 40,5 %, 700 ml.",
+            "distillery_id": "stauning",
+            "influencer_videos": [
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=GRikCxQ5jnc",
+                    "label": "Stauning HØST 2024 | Whisky Review - Whisky.com",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=8fBtpF8qbwM",
+                    "label": "Danish Double Malt! Stauning Høst Honest Whisky Review - Whisky Shared",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "denmark",
+            "region": "Denmark",
+            "volume": "500 ml",
+            "abv": 42,
+            "url": "",
+            "id": "braunstein-danica-non-peat",
+            "slug": "braunstein-danica-non-peat",
+            "name": "Danica Non-Peated Whisky",
+            "description": "El whisky insignia sin turbar del Braunstein Destilleri de Køge, un homenaje a la dulzura del jerez: single malt danés sin filtrar y sin colorantes, madurado en barricas premium de Oloroso combinando fudres grandes y barricas pequeñas. De textura sedosa, ofrece capas ricas de chocolate, fruta confitada, pasas y frutos secos con la elegancia cálida del Oloroso. Un tributo al nombre clásico de Dinamarca («Danica»), para disfrutar solo o con un punto de agua. 42%, 500 ml.",
+            "image": "/data/images/braunstein-danica-non-peat.webp",
+            "age": null,
+            "cask": "Barricas de Oloroso (fudres grandes y barricas pequeñas)",
+            "name_pt": "Danica Non-Peated Whisky",
+            "description_pt": "O whisky insignia sem turfa do Braunstein Destilleri de Copenhaga, uma homenagem à doçura do xerez: single malt dinamarquês sem filtração e sem corantes, amadurecido em barris premium de Oloroso combinando grandes foudres e barris pequenos. De textura sedosa, oferece camadas ricas de chocolate, fruta cristalizada, passas e frutos secos com a elegância quente do Oloroso. Um tributo ao nome clássico da Dinamarca («Danica»), para saborear puro ou com um pouco de água. 42%, 500 ml.",
+            "name_en": "Danica Non-Peated Whisky",
+            "description_en": "The unpeated flagship of Køge's Braunstein Destilleri, a tribute to the sweetness of sherry: an unfiltered, uncoloured Danish single malt matured in premium Oloroso casks, combining large butts and smaller hogsheads. Silky in texture, it delivers rich layers of chocolate, candied fruit, raisins and nuts with the warm elegance of Oloroso. A homage to Denmark's classical name ('Danica'), best enjoyed neat or with a drop of water. 42%, 500 ml.",
+            "name_ja": "ダニカ・ノンピーテッド・ウイスキー",
+            "description_ja": "ケーエのブラウンシュタイン蒸溜所が手掛ける非ピートの旗艦ウイスキーで、シェリーの甘みを讃えた一本。無濾過・無着色のデンマーク産シングルモルトを、大型のバットと小型のホグスヘッドを組み合わせた上質なオロロソ樽で熟成しました。絹のような舌触りで、チョコレート、砂糖漬けの果実、レーズン、ナッツの豊かな層と、オロロソの温かくエレガントな味わいが広がります。デンマークの古典的な呼び名「Danica」に捧げる一杯。ストレートか、ほんの一滴の水でどうぞ。42%、500ml。",
+            "name_fr": "Danica Non-Peated Whisky",
+            "description_fr": "Le fer de lance non tourbé du Braunstein Destilleri de Køge, un hommage à la douceur du xérès : un single malt danois non filtré et non coloré, élevé en fûts d'Oloroso premium mariant grands foudres et petits fûts. D'une texture soyeuse, il déploie de riches couches de chocolat, de fruits confits, de raisins secs et de fruits à coque avec l'élégance chaleureuse de l'Oloroso. Un clin d'œil au nom classique du Danemark (« Danica »), à savourer pur ou avec une goutte d'eau. 42 %, 500 ml.",
+            "distillery_id": "braunstein",
+            "influencer_videos": [
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=226OeFxAyRY",
+                    "label": "Braunstein Danica Danish Single Malt Whisky - Uncensored Whiskey Reviews",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=G54HLFwm5Xg",
+                    "label": "The Three Whiskateers try- Danica Whisky",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                },
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=qWq_SxEU5ks",
+                    "label": "Mark's Whisky Ramblings 141: Braunstein Danica Whisky 14:1 Library Collection",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "featured": false,
+            "video": null,
+            "origin": "denmark",
+            "region": "Denmark",
+            "volume": "700 ml",
+            "abv": 47,
+            "url": "",
+            "id": "fary-lochan-season-1",
+            "slug": "fary-lochan-season-1",
+            "name": "Fary Lochan SÆSON 1",
+            "description": "El single malt de entrada de la serie SÆSON de Fary Lochan, la destilería danesa que ahúma su malta con ortigas. Ligero y suave pero a la vez audaz y untuoso, se ensambla a partir de 3-5 barricas para garantizar siempre el mismo perfil: miel, fruta madura y malta limpia, con un cuerpo amable, dulce y persistente. Aprobado por catadores de whisky y querido por los barman, brilla en un Old Fashioned, un Manhattan o un Whisky Sour, y también se disfruta solo. 47%, 700 ml.",
+            "image": "/data/images/fary-lochan-season-1.webp",
+            "age": null,
+            "cask": "Combinación de 3-5 barricas (bourbon con un toque de jerez)",
+            "name_pt": "Fary Lochan SÆSON 1",
+            "description_pt": "O single malt de entrada da série SÆSON da Fary Lochan, a destilaria dinamarquesa que defuma o seu malte com urtigas. Leve e suave mas ao mesmo tempo audaz e untuoso, é montado a partir de 3-5 barris para garantir sempre o mesmo perfil: mel, fruta madura e malte limpo, com um corpo amável, doce e persistente. Aprovado por provadores de whisky e querido pelos barmen, brilha num Old Fashioned, num Manhattan ou num Whisky Sour, e também se aprecia puro. 47%, 700 ml.",
+            "name_en": "Fary Lochan SÆSON 1",
+            "description_en": "The entry single malt of Fary Lochan's SÆSON series — the Danish distillery that kilns its malt over nettles. Light and mild yet bold and oily in character, it is assembled from 3-5 casks to always guarantee the same profile: honey, ripe fruit and clean malt, with an approachable, sweet and persistent body. Approved by whisky connoisseurs and loved by bartenders, it shines in an Old Fashioned, a Manhattan or a Whisky Sour — and is just as good neat. 47%, 700 ml.",
+            "name_ja": "ファリー・ロッカン・セゾン1",
+            "description_ja": "イラクサの上で麦芽を燻すデンマークの蒸溜所ファリー・ロッカンによる、SÆSONシリーズの入門シングルモルト。ライトでマイルド、それでいて大胆でオイリーな個性。同じ味わいを守るため3〜5樽からブレンドされ、ハチミツ、熟した果実、クリーンなモルトの香り、素直で甘く余韻のあるボディが特徴です。ウイスキー通も認め、バーテンダーにも愛される一本。オールドファッションド、マンハッタン、ウイスキーサワーでも、もちろんストレートでも。47%、700ml。",
+            "name_fr": "Fary Lochan SÆSON 1",
+            "description_fr": "Le single malt d'entrée de la série SÆSON de Fary Lochan, la distillerie danoise qui sèche son malt sur des orties. Léger et doux mais à la fois audacieux et onctueux, il est assemblé à partir de 3 à 5 fûts pour garantir toujours le même profil : miel, fruits mûrs et malt franc, avec un corps aimable, sucré et persistant. Adoubé par les connaisseurs et prisé des barmen, il brille dans un Old Fashioned, un Manhattan ou un Whisky Sour, et se savoure aussi pur. 47 %, 700 ml.",
+            "distillery_id": "fary-lochan",
+            "influencer_videos": [
+                {
+                    "language": "en",
+                    "platform": "youtube",
+                    "url": "https://www.youtube.com/watch?v=WBcLkulOANk",
+                    "label": "Fary Lochan Season 1 Batch #01 Whisky Review - Whisky Shared",
+                    "created_at": "2000-01-01T00:00:00.000Z"
+                }
+            ]
         }
     ]
 }

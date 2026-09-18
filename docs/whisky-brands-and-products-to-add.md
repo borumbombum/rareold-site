@@ -398,9 +398,9 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Stauning Rye - Stauning
 ✅ Stauning Smoke - Stauning
 ✅ Stauning KAOS Triple Malt - Stauning
-- Stauning Høst - Stauning
-- Braunstein B-No 1 - Braunstein (NEW distillery)
-- Fary Lochan Season - Fary Lochan (NEW distillery)
+✅ Stauning Høst - Stauning
+✅ Braunstein B-No 1 - Braunstein (NEW distillery) → shipped as Danica Non-Peated (B-No 1 does not exist; user-approved substitute)
+✅ Fary Lochan Season - Fary Lochan (NEW distillery) → shipped as SÆSON 1 (user-approved substitute)
 
 ## England
 ✅ Cotswolds Single Malt - Cotswolds
