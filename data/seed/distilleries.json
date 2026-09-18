@@ -5120,6 +5120,29 @@
       "website": "https://omarwhisky.ttl.com.tw",
       "latitude": 23.9096,
       "longitude": 120.6847
+    },
+    {
+      "id": "teerenpeli",
+      "slug": "teerenpeli",
+      "name": "Teerenpeli Distillery",
+      "name_es": "Teerenpeli Distillery",
+      "name_pt": "Teerenpeli Distillery",
+      "name_en": "Teerenpeli Distillery",
+      "name_ja": "テーレンペリ蒸溜所",
+      "name_fr": "Teerenpeli Distillery",
+      "description": "Destilería familiar finlandesa fundada en 2002 en Lahti, en el sur de Finlandia, y pionera del whisky finlandés: fue la primera destilería del país en producir whisky de malta en sus propios alambiques de cobre. Elabora single malts con malta finlandesa no turbada de una maltería local y agua del acuífero de Salpausselkä, con métodos tradicionales escoceses. La destilería original vive en el restaurante Taivaanranta del centro de Lahti, y desde 2015 cuenta con una nueva destilería dedicada en el barrio de Lotila. Nombrada Productor Mundial de Whisky del Año por la IWSC en 2020.",
+      "description_es": null,
+      "description_pt": "Destilaria familiar finlandesa fundada em 2002 em Lahti, no sul da Finlândia, e pioneira do whisky finlandês: foi a primeira destilaria do país a produzir whisky de malte nos próprios alambiques de cobre. Elabora single malts com malte finlandês não turfado de uma maltaria local e água do aquífero de Salpausselkä, com métodos tradicionais escoceses. A destilaria original fica no restaurante Taivaanranta, no centro de Lahti, e desde 2015 conta com uma nova destilaria dedicada no bairro de Lotila. Eleita Produtor Mundial de Whisky do Ano pela IWSC em 2020.",
+      "description_en": "Finnish family distillery founded in 2002 in Lahti, southern Finland, and a pioneer of Finnish whisky: it was the first distillery in the country to produce malt whisky in its own copper pot stills. It crafts single malts from non-peated Finnish malt from a local malting house and Salpausselkä groundwater, using traditional Scottish methods. The original distillery lives in the Taivaanranta restaurant in Lahti city centre, joined since 2015 by a dedicated new distillery in the Lotila quarter. Named World Wide Whisky Producer of the Year by the IWSC in 2020.",
+      "description_ja": "2002年にフィンランド南部のラハティで創業した家族経営の蒸溜所で、フィンランド・ウイスキーの先駆け。独自の銅製ポットスチルでモルトウイスキーを造り始めたフィンランド最初の蒸溜所です。地元の麦芽製造所のノンピーテッド・フィンランド産モルトと、サルパウセルカ地下水を使い、伝統的なスコットランド方式でシングルモルトを生産。創業蒸溜所はラハティ中心部のレストラン「タイバランタ」にあり、2015年からはロティーラ地区に専用の新蒸溜所を構えています。2020年にはIWSCより「今年の世界ウイスキー生産者」に選ばれました。",
+      "description_fr": "Distillerie familiale finlandaise fondée en 2002 à Lahti, dans le sud de la Finlande, et pionnière du whisky finlandais : ce fut la première distillerie du pays à produire du whisky de malt dans ses propres alambics en cuivre. Elle élabore des single malts à partir de malt finlandais non tourbé d'une malterie locale et de l'eau de l'aquifère de Salpausselkä, selon des méthodes traditionnelles écossaises. La distillerie d'origine se trouve dans le restaurant Taivaanranta au centre de Lahti, rejointe depuis 2015 par une nouvelle distillerie dédiée dans le quartier de Lotila. Élue Producteur mondial de whisky de l'année par l'IWSC en 2020.",
+      "country": "finland",
+      "region": "Finland",
+      "founded": 2002,
+      "image": null,
+      "website": "https://teerenpelidistillery.com",
+      "latitude": 60.9827,
+      "longitude": 25.6612
     }
   ]
 }

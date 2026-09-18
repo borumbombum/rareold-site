@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-18T02:09:59.365Z",
+  "generatedAt": "2026-09-18T17:02:30.022Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -25763,6 +25763,62 @@
       ]
     },
     {
+      "id": "kyro-malt-oloroso",
+      "slug": "kyro-malt-oloroso",
+      "name": "Kyrö Malt Oloroso",
+      "distillery": {
+        "id": "kyro",
+        "name": "Kyrö Distillery Company",
+        "name_es": "Kyrö Distillery Company",
+        "name_pt": "Kyrö Distillery Company",
+        "name_en": "Kyrö Distillery Company",
+        "name_ja": "キューロ蒸溜所",
+        "name_fr": "Kyrö Distillery Company"
+      },
+      "description": "Un whisky de centeno integral finlandés 100 % malteado que demuestra la alianza perfecta entre centeno y jerez: madurado en una combinación de barricas de roble blanco americano nuevo, ex-bourbon y ex-oloroso. El carácter pimentoso del centeno se envuelve en capas aterciopeladas de fruta seca dulce y frutos secos garrapiñados — dátiles, pasas, ciruelas y nueces tostadas con caramelo — sobre pan de centeno con miel y roble especiado. Final largo, pimentoso y especiado, con una suave dulzura amaderada. 47,2%, 700 ml.",
+      "image": "/data/images/kyro-malt-oloroso.webp",
+      "images": [
+        "/data/images/kyro-malt-oloroso.webp"
+      ],
+      "origin": "finland",
+      "region": "Finland",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 47.2,
+      "cask": "Barricas de oloroso, roble blanco americano nuevo y ex-bourbon",
+      "distillery_id": "kyro",
+      "insertion_order": 485,
+      "featured": false,
+      "name_pt": "Kyrö Malt Oloroso",
+      "description_pt": "Um whisky de centeio inteiro finlandês 100% malteado que demonstra a aliança perfeita entre centeio e xerez: amadurecido numa combinação de barricas novas de carvalho branco americano, ex-bourbon e ex-oloroso. O carácter apimentado do centeio envolve-se em camadas aveludadas de fruta seca doce e frutos secos açucarados — tâmaras, passas, ameixas e nozes tostadas com caramelo — sobre pão de centeio com mel e carvalho especiado. Final longo, apimentado e especiado, com uma suave doçura amadeirada. 47,2%, 700 ml.",
+      "name_en": "Kyrö Malt Oloroso",
+      "description_en": "A rye whisky made from 100% malted Finnish wholegrain rye that proves the perfect marriage of rye and sherry: matured in a combination of new American white oak, ex-bourbon and ex-oloroso sherry casks. The peppery rye is wrapped in velvety layers of sweet dried fruit and candied nuts — dates, sultanas, prunes and toasted nuts with caramel — over honeyed rye bread and spice-laden oak. A long, peppery, spicy finish with a gentle oaky sweetness. 47.2%, 700 ml.",
+      "name_ja": "キューロ・モルト・オロロソ",
+      "description_ja": "フィンランド産全粒ライ麦100%で造った、ライ麦とシェリーの完璧な融合を示すライ・ウイスキー。新品アメリカン・ホワイトオーク樽、バーボン樽、オロロソ・シェリー樽を組み合わせて熟成。ペッパー感のあるライ麦は、甘いドライフルーツとキャンディ状のナッツ（デーツ、サルタナ、プルーン、キャラメル入りトーストナッツ）のビロードのような層に包まれ、はちみつをまとったライ麦パンとスパイスの効いたオークへ続きます。長くペッパーとスパイスの効いたフィニッシュに、やさしいオークの甘さが残ります。47.2%、700ml。",
+      "name_fr": "Kyrö Malt Oloroso",
+      "description_fr": "Un whisky de seigle entier finlandais 100 % malté qui prouve la parfaite alchimie entre seigle et xérès : élevé dans une combinaison de fûts neufs de chêne blanc américain, d'ex-bourbon et d'ex-oloroso. Le seigle poivré s'enveloppe de couches veloutées de fruits secs sucrés et de fruits confits — dattes, raisins de Smyrne, pruneaux et noix toastées au caramel — sur un pain de seigle mielleux et un chêne épicé. Finale longue, poivrée et épicée, avec une douceur boisée délicate. 47,2 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_AZsZm1if_U",
+          "label": "Kyrö Malt Rye Oloroso | Whisky Review - Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=fclNUFIq-lM",
+          "label": "Tasting Kyrö Oloroso - The Sauna Drammer"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=BLa3Iyq9jHc",
+          "label": "WHISKY REVIEW - KYRO MALT OLOROSO, SURPREENDEU! - Tierri Whisky"
+        }
+      ]
+    },
+    {
       "id": "kyro-malt-rye",
       "slug": "kyro-malt-rye",
       "name": "Kyrö Malt Rye",
@@ -25829,6 +25885,42 @@
           "label": "キュロ モルトライウイスキー"
         }
       ]
+    },
+    {
+      "id": "kyro-peat-smoke",
+      "slug": "kyro-peat-smoke",
+      "name": "Kyrö Peat Smoke Malt Rye",
+      "distillery": {
+        "id": "kyro",
+        "name": "Kyrö Distillery Company",
+        "name_es": "Kyrö Distillery Company",
+        "name_pt": "Kyrö Distillery Company",
+        "name_en": "Kyrö Distillery Company",
+        "name_ja": "キューロ蒸溜所",
+        "name_fr": "Kyrö Distillery Company"
+      },
+      "description": "La creación más turbada de Kyrö: un centeno integral 100 % malteado cuyo grano se ahúma durante 24 horas con turba finlandesa de agua dulce en un granero tradicional antes de la doble destilación. El resultado es un whisky de profundo carácter vegetal y humo de turba suave que realza la especia cálida del centeno y sus notas cerosas y cítricas: musgo, hojas secas, manzanas acarameladas y pimienta negra, con un paladar dulce de pan de centeno, naranjas confitadas y tostados. Final de ceniza húmeda, dulce y persistente. 47,2%, 700 ml.",
+      "image": "/data/images/kyro-peat-smoke.webp",
+      "images": [
+        "/data/images/kyro-peat-smoke.webp"
+      ],
+      "origin": "finland",
+      "region": "Finland",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 47.2,
+      "cask": "Barricas de roble blanco americano nuevo y ex-bourbon",
+      "distillery_id": "kyro",
+      "insertion_order": 486,
+      "featured": false,
+      "name_pt": "Kyrö Peat Smoke Malt Rye",
+      "description_pt": "A criação mais turfada da Kyrö: um centeio inteiro 100% malteado cujo grão é fumado durante 24 horas com turfa finlandesa de água doce num celeiro tradicional antes da dupla destilação. O resultado é um whisky de profundo carácter vegetal e fumo de turfa suave que realça a especiaria quente do centeio e as suas notas cerosas e cítricas: musgo, folhas secas, maçãs caramelizadas e pimenta preta, com um paladar doce de pão de centeio, laranjas cristalizadas e tostados. Final de cinza húmida, doce e persistente. 47,2%, 700 ml.",
+      "name_en": "Kyrö Peat Smoke Malt Rye",
+      "description_en": "Kyrö's most peated creation: a 100% malted wholegrain rye whose grain is peat-smoked for 24 hours with Finnish freshwater peat in a traditional barn before double distillation. The result is a whisky of deep vegetal character and soft peaty smoke that lifts the warming rye spice and waxy, citrussy notes: moss, dried leaves, toffee apples and black pepper, with a sweet palate of honeyed pumpernickel, candied oranges and toasted spice. A sweet, lingering finish of damp bonfire ash. 47.2%, 700 ml.",
+      "name_ja": "キューロ・ピートスモーク・モルトライ",
+      "description_ja": "キューロで最もピーティーな一本。100%発芽させた全粒ライ麦を、伝統的な納屋で24時間かけてフィンランド産淡水ピートで燻してから二度蒸留します。植物性の深みと柔らかなピートのスモークが、ライ麦の温かいスパイス感とロウ質の柑橘ノートを引き立てます。コケ、枯れ葉、タフィーアップル、ブラックペッパーの香り。味わいははちみつをまとったライ麦パン、オレンジピール、スパイスのローストの甘み。濡れた焚き火の灰のようなどっしりとした甘い余韻。47.2%、700ml。",
+      "name_fr": "Kyrö Peat Smoke Malt Rye",
+      "description_fr": "La création la plus tourbée de Kyrö : un seigle entier 100 % malté dont le grain est fumé pendant 24 heures à la tourbe finlandaise d'eau douce dans une grange traditionnelle avant la double distillation. Le résultat est un whisky au caractère végétal profond et à la fumée tourbée douce qui rehausse l'épice chaleureuse du seigle et ses notes cireuses et citronnées : mousse, feuilles séchées, pommes au caramel et poivre noir, avec un palais doux de pain de seigle mielleux, d'oranges confites et d'épices toastées. Finale douce et persistante de cendre de feu de camp humide. 47,2 %, 700 ml."
     },
     {
       "id": "la-alazana-classic",
@@ -35980,6 +36072,86 @@
       ]
     },
     {
+      "id": "stauning-kaos",
+      "slug": "stauning-kaos",
+      "name": "Stauning KAOS Triple Malt",
+      "distillery": {
+        "id": "stauning",
+        "name": "Stauning Whisky",
+        "name_es": "Stauning Whisky",
+        "name_pt": "Stauning Whisky",
+        "name_en": "Stauning Whisky",
+        "name_ja": "スタウニング・ウイスキー",
+        "name_fr": "Stauning Whisky"
+      },
+      "description": "Un triple malt que desafía las normas: la unión de las tres expresiones insígnia de Stauning — su centeno insignia, su single malt y su single malt ahumado con brezo y turba. Madurado en barricas nuevas de roble blanco americano y primeras llenadas de vino fortificado y destilados, ofrece un sabor complejo y a la vez suave, con capas de humo, especias dulces y cítricos frescos sobre una malta rica y redonda. Complejo, armónico y sorprendentemente equilibrado para su nombre. 46%, 700 ml.",
+      "image": "/data/images/stauning-kaos.webp",
+      "images": [
+        "/data/images/stauning-kaos.webp"
+      ],
+      "origin": "denmark",
+      "region": "Denmark",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46,
+      "cask": "Barricas nuevas de roble blanco americano y primeras llenadas de vino fortificado",
+      "distillery_id": "stauning",
+      "insertion_order": 489,
+      "featured": false,
+      "name_pt": "Stauning KAOS Triple Malt",
+      "description_pt": "Um triple malt que desafia as regras: a união das três expressões emblemáticas da Stauning — o seu centeio principal, o seu single malt e o seu single malt fumado com urze e turfa. Amadurecido em barricas novas de carvalho branco americano e primeiros enchimentos de vinho fortificado e destilados, oferece um sabor complexo e ao mesmo tempo suave, com camadas de fumo, especiarias doces e citrinos frescos sobre um malte rico e redondo. Complexo, harmonioso e surpreendentemente equilibrado para o seu nome. 46%, 700 ml.",
+      "name_en": "Stauning KAOS Triple Malt",
+      "description_en": "A triple malt that breaks the rules: the marriage of Stauning's three signature expressions — its flagship rye, its single malt and its heather-and-peat smoked single malt. Matured in virgin American white oak and first-fill fortified wine & spirits casks, it offers a complex yet smooth taste with layers of smoke, sweet spice and fresh citrus over a rich, rounded malt. Complex, harmonious and surprisingly balanced for its name. 46%, 700 ml.",
+      "name_ja": "スタウニング・カオス・トリプルモルト",
+      "description_ja": "ルールにとらわれないトリプルモルト。スタウニングの看板スタイル3つ——看板ライ麦、シングルモルト、ヒースとピートで燻したシングルモルト——を掛け合わせました。新品アメリカン・ホワイトオーク樽とファーストフィルの酒精強化ワイン・スピリッツ樽で熟成。スモーク、甘いスパイス、フレッシュなシトラスの層を重ねた、複雑でありながら滑らかな味わい。豊かで丸みのあるモルト。その名に反して驚くほど調和が取れています。46%、700ml。",
+      "name_fr": "Stauning KAOS Triple Malt",
+      "description_fr": "Un triple malt qui défie les règles : le mariage des trois expressions signature de Stauning — son seigle emblématique, son single malt et son single malt fumé à la bruyère et à la tourbe. Élevé en fûts neufs de chêne blanc américain et en fûts de première utilisation de vin fortifié et de spiritueux, il offre un goût complexe mais souple, mêlant fumée, épices douces et agrumes frais sur un malt riche et rond. Complexe, harmonieux et étonnamment équilibré pour son nom. 46 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6rmSFcpBczk",
+          "label": "Stauning Kaos Triple Malted Whisky - A Whiskey Adventure"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ou_hjyVMfd0",
+          "label": "Stauning KAOS - Whisky Review #76 - Whisky & Vinyl"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=QFRhEEYdv1U",
+          "label": "Stauning Kaos Triple Malt Whisky - foodquig"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=sx_kU0PTAoU",
+          "label": "Stauning Kaos 2020 | Whisky Review - Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wyrgSgKZswA",
+          "label": "Stauning Danish Whisky - KAOS Triple Malt [Batch 1 2021] - Whiskey Vault"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4lghUchyqsQ",
+          "label": "Probemos Stauning Kaos (Whisky Danés) - Los Whiskochos"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=MuAqCfB_Mxo",
+          "label": "Catando Kaos de Stauning, el whisky danés de triple malta - El Whisky Bar"
+        }
+      ]
+    },
+    {
       "id": "stauning-rye",
       "slug": "stauning-rye",
       "name": "Stauning Rye",
@@ -36038,6 +36210,68 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=hdSy7y3jV_c",
           "label": "Stauning Rye Whisky Review 106"
+        }
+      ]
+    },
+    {
+      "id": "stauning-smoke",
+      "slug": "stauning-smoke",
+      "name": "Stauning Smoke Single Malt",
+      "distillery": {
+        "id": "stauning",
+        "name": "Stauning Whisky",
+        "name_es": "Stauning Whisky",
+        "name_pt": "Stauning Whisky",
+        "name_en": "Stauning Whisky",
+        "name_ja": "スタウニング・ウイスキー",
+        "name_fr": "Stauning Whisky"
+      },
+      "description": "La quintaesencia de la filosofía New Nordic de Stauning: un single malt de cebada danesa 100 % malteada en el suelo de la destilería, con el grano secado en el horno con brezo y turba locales, y doblemente destilado en alambiques de cobre de fuego directo. Un humo suave y marítimo envuelve un paladar de vainilla, malta dulce y una pizca de sal del oeste de Jutlandia. Final ahumado, limpio y equilibrado, que muestra por qué la destilería danesa se hizo célebre. 47%, 700 ml.",
+      "image": "/data/images/stauning-smoke.webp",
+      "images": [
+        "/data/images/stauning-smoke.webp"
+      ],
+      "origin": "denmark",
+      "region": "Denmark",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 47,
+      "cask": null,
+      "distillery_id": "stauning",
+      "insertion_order": 488,
+      "featured": false,
+      "name_pt": "Stauning Smoke Single Malt",
+      "description_pt": "A quintessência da filosofia New Nordic de whisky da Stauning: um single malt de cevada dinamarquesa, 100% malteada no chão da destilaria, com o grão seco no forno com urze e turfa locais, e duplamente destilado em alambiques de cobre a fogo direto. Um fumo suave e marítimo envolve um paladar de baunilha, malte doce e uma pitada de sal do oeste da Jutlândia. Final fumado, limpo e equilibrado, que mostra porque a destilaria dinamarquesa se tornou célebre. 47%, 700 ml.",
+      "name_en": "Stauning Smoke Single Malt",
+      "description_en": "The quintessence of Stauning's New Nordic whisky philosophy: a single malt of Danish barley, 100% floor-malted at the distillery, the grain kiln-dried with local heather and peat, then double-distilled in traditional direct-fired copper pot stills. Soft maritime smoke wraps a palate of vanilla, sweet malt and a pinch of West Jutland salt. A smoky, clean, balanced finish that shows why the Danish distillery became famous. 47%, 700 ml.",
+      "name_ja": "スタウニング・スモーク・シングルモルト",
+      "description_ja": "スタウニングの「ニューノルディック」ウイスキー哲学の真髄。蒸溜所内でジョロモルティングしたデンマーク産大麦100%を使用し、地元のヒースとピートでキルン乾燥した後、伝統的な直火式銅製ポットスチルで二度蒸留。柔らかな潮風のスモークが、バニラ、甘いモルト、西ユトランドらしいほのかな塩気を包み込みます。スモーキーでクリーン、バランスの良いフィニッシュ。デンマークの蒸溜所が名声を博した理由がわかる一本。47%、700ml。",
+      "name_fr": "Stauning Smoke Single Malt",
+      "description_fr": "La quintessence de la philosophie whisky New Nordic de Stauning : un single malt d'orge danoise, 100 % maltée sur sol à la distillerie, le grain séché au four avec de la bruyère et de la tourbe locales, puis doublement distillé en alambics de cuivre à feu direct. Une fumée marine douce enveloppe un palais de vanille, de malt sucré et d'une pincée de sel de l'ouest du Jutland. Finale fumée, nette et équilibrée, qui montre pourquoi la distillerie danoise est devenue célèbre. 47 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=OQiJAtCFMBI",
+          "label": "Stauning Smoke - Batch 1 2021 | Whisky Review - Whisky.com"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=Ty2hWtAIIAQ",
+          "label": "Stauning Smoke Floor Malted Single Malt - Whiskey Vault"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=UuqD84vXO7k",
+          "label": "Stauning SMOKE | Summerton Exclusive - No Nonsense Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=hYZMixUOr0w",
+          "label": "Danish Whisky Stauning Smoke Review - Chris Jensen Studios"
         }
       ]
     },
@@ -37602,6 +37836,56 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=F_j1t3qfUJI",
           "label": "Tierri Whisky — Teeling Small Batch Irlandês"
+        }
+      ]
+    },
+    {
+      "id": "teerenpeli-10-years",
+      "slug": "teerenpeli-10-years",
+      "name": "Teerenpeli Single Malt Aged 10 Years",
+      "distillery": {
+        "id": "teerenpeli",
+        "name": "Teerenpeli Distillery",
+        "name_es": "Teerenpeli Distillery",
+        "name_pt": "Teerenpeli Distillery",
+        "name_en": "Teerenpeli Distillery",
+        "name_ja": "テーレンペリ蒸溜所",
+        "name_fr": "Teerenpeli Distillery"
+      },
+      "description": "El primer whisky finlandés de diez años, de la destilería pionera Teerenpeli en Lahti. Un single malt elaborado con malta finlandesa no turbada de una maltería local y agua del acuífero de Salpausselkä, madurado principalmente en barricas de bourbon con un toque de jerez. Nariz fresca y dulce de vainilla, miel y fruta amarilla; paladar cremoso de caramelo suave y especias dulces, con un cuerpo delicado que baja suavemente; final elegante, limpio y equilibrado, con medalista en la IWSC 2020. 43%, 500 ml.",
+      "image": "/data/images/teerenpeli-10-years.webp",
+      "images": [
+        "/data/images/teerenpeli-10-years.webp"
+      ],
+      "origin": "finland",
+      "region": "Finland",
+      "age": 10,
+      "volume": "500 ml",
+      "abv": 43,
+      "cask": "Barricas de bourbon con un toque de jerez",
+      "distillery_id": "teerenpeli",
+      "insertion_order": 487,
+      "featured": false,
+      "name_pt": "Teerenpeli Single Malt Aged 10 Years",
+      "description_pt": "O primeiro whisky finlandês de dez anos, da destilaria pioneira Teerenpeli em Lahti. Um single malt feito com malte finlandês não turfado de uma maltaria local e água do aquífero de Salpausselkä, amadurecido principalmente em barricas de bourbon com um toque de xerez. Nariz fresco e doce de baunilha, mel e fruta amarela; paladar cremoso de caramelo suave e especiarias doces, com um corpo delicado; final elegante, limpo e equilibrado, medalhado na IWSC 2020. 43%, 500 ml.",
+      "name_en": "Teerenpeli Single Malt Aged 10 Years",
+      "description_en": "The first Finnish ten-year-old whisky, from pioneering distillery Teerenpeli in Lahti. A single malt made from non-peated Finnish malt from a local malting house and Salpausselkä groundwater, matured mostly in bourbon casks with a touch of sherry. A fresh, sweet nose of vanilla, honey and yellow fruit; a creamy palate of soft caramel and gentle spice with a delicate body; an elegant, clean, balanced finish, medal-winner at the IWSC 2020. 43%, 500 ml.",
+      "name_ja": "テーレンペリ・シングルモルト・10年",
+      "description_ja": "フィンランド初の熟成10年ウイスキー。先駆者テーレンペリがラハティで造り上げました。地元の麦芽製造所で作られたノンピーテッドのフィンランド産モルトとサルパウセルカ地下水を使用し、主にバーボン樽、一部シェリー樽で熟成。フレッシュで甘いバニラ、はちみつ、黄色いフルーツの香り。クリーミーな口当たりにソフトなキャラメルとやさしいスパイス、繊細なボディ感。エレガントでクリーン、バランスの取れたフィニッシュ。2020年IWSCでメダル受賞。43%、500ml。",
+      "name_fr": "Teerenpeli Single Malt Aged 10 Years",
+      "description_fr": "Le premier whisky finlandais de dix ans d'âge, signé par la distillerie pionnière Teerenpeli à Lahti. Un single malt élaboré à partir de malt finlandais non tourbé d'une malterie locale et de l'eau de l'aquifère de Salpausselkä, mûri principalement en fûts de bourbon avec une touche de xérès. Un nez frais et doux de vanille, miel et fruits jaunes ; un palais crémeux de caramel tendre et d'épices douces au corps délicat ; une finale élégante, nette et équilibrée, médaillée à l'IWSC 2020. 43 %, 500 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=2TIJJ39wyEw",
+          "label": "Teerenpeli Virtual Tasting: Aged 10 Years Single Malt Whisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=ECG29BVH5bg",
+          "label": "Whiskey Review - Teerenpeli Single Malt 10 - Whiskey Vault"
         }
       ]
     },

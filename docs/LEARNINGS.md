@@ -1,6 +1,13 @@
 # Learnings
 
-## 2026-09-17 — Product galleries shipped (task 097)
+## 2026-09-18 — Finland/Denmark craft batch
+
+- **Shopify `/products.json?limit=250` is the fastest research+image endpoint for Shopify stores**: `stauningwhisky.dk/products.json` gave all 41 products with title, `body_html` (ABV + cask details: Smoke 70cl-47%, KAOS 70cl-46%) and the CDN `image.src` — 1 request replaced 5 page scrapes. Failure case: `kyrodistillery.com/products.json` returned empty (blocked host); the fallback was the homepage nav (which lists the whole whisk(e)y range → proved "Kyrö Vapaa" absent) plus grep of the product page HTML for `cdn/shop/files/*.png` (consistent `kyro_*` naming).
+- **oEmbed is the sole authority for BOTH identity and language, again**: native-search auto-translation made a Brazilian PT review (Tierri Whisky "…SURPREENDEU!") look English; invidious paired the wrong ID ("Stauning Smoke - Batch 1 2021") with `gjVl8j327Zg` and translated EN-channel titles into Japanese. Every slot decision came from `yt-verify.mjs`.
+- **Same-expression edge cases to accept vs reject**: "Summerton Exclusive" Stauning Smoke = the same SKU (accept); Whisky Roundup 「1月の新入荷ウイスキー！」monthly haul containing KAOS = not an exact review (reject); distillery multi-expression tastings (The Good Dram Show, Whisky Sisters, The Whisky Nest "kyrö Tasting") = reject for an individual product page.
+- **Zero-video shipping stays a valid outcome**: Kyrö Peat Smoke has no exact review in any of the 5 languages (only Czech, a RU comparison, a 57-min "Sisu & Peat Smoke" tangent, and a Peat-Smoke-PX Kyrö's Choice). Fourth consecutive batch with a videoless SKU.
+- **Unverifiable queue lines → ask the user, then substitute**: "Kyrö Vapaa" never existed; user picked Kyrö Malt Oloroso as the 5th card. Also, "Teerenpeli Single Malt" mapped to the flagship "Aged 10 Years" (the one expression literally named "Teerenpeli Single Malt" on the site).
+- **JSON multi-edit hazard**: after surgical edits of one seed block, validate with a duplicate-key scanner (Python `json.load` drops duplicate keys silently and only errors on the syntax problems).
 
 - **Migrating to multi-image without touching any files**: new `product_images` table + copy each product's existing `image` path in as position 0. No downloads, no sharp, no new webp files — the user pushed back hard on the over-engineered original plan (download/curl + resize per product). The right move is a pure DB refactor.
 - **Bootstrap-only galleries**: `db-sync` `INSERT OR IGNORE`s from seed `images[]` (fallback `[image]`), Turso stays the source of truth after seeding; `db-export` emits an ordered `images` array; `image === images[0]` for all 471 products, so cards/SEO/schemas stay untouched.

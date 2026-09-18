@@ -389,15 +389,15 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ## Finland
 
 ✅ Kyrö Malt Rye - Kyrö
-- Kyrö Vapaa - Kyrö
-- Kyrö Peat Smoke - Kyrö
-- Teerenpeli Single Malt - Teerenpeli (NEW distillery)
+✅ Kyrö Vapaa - Kyrö → substituted: product doesn't exist, added Kyrö Malt Oloroso instead
+✅ Kyrö Peat Smoke - Kyrö
+✅ Teerenpeli Single Malt - Teerenpeli (NEW distillery) → added as Teerenpeli Single Malt Aged 10 Years
 
 ## Denmark
 
 ✅ Stauning Rye - Stauning
-- Stauning Smoke - Stauning
-- Stauning KAOS Triple Malt - Stauning
+✅ Stauning Smoke - Stauning
+✅ Stauning KAOS Triple Malt - Stauning
 - Stauning Høst - Stauning
 - Braunstein B-No 1 - Braunstein (NEW distillery)
 - Fary Lochan Season - Fary Lochan (NEW distillery)
