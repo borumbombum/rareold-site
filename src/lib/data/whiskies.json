@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-18T19:08:20.144Z",
+  "generatedAt": "2026-09-19T12:44:05.009Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -1191,6 +1191,50 @@
       ]
     },
     {
+      "id": "agitator-the-swedish-malt",
+      "slug": "agitator-the-swedish-malt",
+      "name": "Agitator The Swedish Malt",
+      "distillery": {
+        "id": "agitator",
+        "name": "Agitator Destillery",
+        "name_es": "Agitator Destillery",
+        "name_pt": "Agitator Destillery",
+        "name_en": "Agitator Distillery",
+        "name_ja": "アジテーター蒸溜所",
+        "name_fr": null
+      },
+      "description": "El single malt insignia de Agitator, el primer destilador sueco que usa el roble de castaño (prohibido en Escocia) y la destilación al vacío: al bajar la presión (0,3 bares) el alcohol hierve a menor temperatura y produce un destilado más ligero y floral. Madura en una combinación cuádruple de barricas nuevas de roble americano, bourbon, jerez y castaño. Nariz frutal y cítrica con manzana roja, piña, fruta seca, vainilla y un toque de humo; en boca suave y dulce, chocolate con leche, sal marina y fruta confitada; final medio con roble especiado. 43 %, 500 ml.",
+      "image": "/data/images/agitator-the-swedish-malt.webp",
+      "images": [
+        "/data/images/agitator-the-swedish-malt.webp"
+      ],
+      "origin": "sweden",
+      "region": "Sweden",
+      "age": null,
+      "volume": "500 ml",
+      "abv": 43,
+      "cask": "Roble americano nuevo, bourbon, jerez y barricas de castaño",
+      "distillery_id": "agitator",
+      "insertion_order": 497,
+      "featured": false,
+      "name_pt": "Agitator The Swedish Malt",
+      "description_pt": "O single malt insígnia da Agitator, o primeiro destilador sueco a usar carvalho de castanheiro (proibido na Escócia) e destilação a vácuo: ao baixar a pressão (0,3 bar) o álcool ferve a uma temperatura mais baixa e produz um destilado mais leve e floral. Amadurece numa combinação quádrupla de barris novos de carvalho americano, bourbon, xerez e castanho. Nariz frutado e cítrico com maçã vermelha, ananás, fruta seca, baunilha e um toque de fumo; na boca suave e doce, chocolate de leite, sal marinho e fruta cristalizada; final médio com carvalho especiado. 43 %, 500 ml.",
+      "name_en": "Agitator The Swedish Malt",
+      "description_en": "The flagship single malt of Agitator, the first Swedish distiller to use chestnut oak (a wood banned in Scotland) and vacuum distillation: at lower pressure (0.3 bar) the alcohol boils at a lower temperature and yields a lighter, more floral spirit. It matures in a four-way combination of new American oak, bourbon, sherry and chestnut casks. A fruity, citrus nose with red apple, pineapple, dried fruit, vanilla and a hint of smoke; soft and sweet on the palate with milk chocolate, sea salt and candied fruit; a medium finish with spiced oak. 43%, 500 ml.",
+      "name_ja": "アジテーター・スウェディッシュ・モルト",
+      "description_ja": "スコッチでは禁じられている栗材樽と真空蒸溜を初めて導入したスウェーデンの蒸溜所アジテーターのフラッグシップ・シングルモルト。圧力を下げる（0.3気圧）とアルコールの沸点が下がり、より軽やかで花のような香味が生まれます。新品アメリカンオーク、バーボン、シェリー、栗材の4種の樽を組み合わせて熟成。赤りんご、パイナップル、ドライフルーツ、バニラ、ほのかなスモーク香のフルーティーでシトラス感のある香り。口に含むと柔らかく甘く、ミルクチョコレート、海塩、砂糖漬けの果実。スパイスの効いたオークのミディアムな余韻。43%、500ml。",
+      "name_fr": "Agitator The Swedish Malt",
+      "description_fr": "Le single malt phare d'Agitator, le premier distillateur suédois à utiliser le chêne châtaignier (un bois interdit en Écosse) et la distillation sous vide : en abaissant la pression (0,3 bar), l'alcool bout à plus basse température et produit un distillat plus léger et floral. Il mûrit dans une combinaison de quatre types de fûts : chêne américain neuf, bourbon, xérès et châtaignier. Un nez fruité et citronné avec pomme rouge, ananas, fruits secs, vanille et une pointe de fumée ; souple et sucré en bouche, avec chocolat au lait, sel marin et fruits confits ; une finale moyenne au chêne épicé. 43 %, 500 ml.",
+      "videos": [
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VdsCCqn-XK8",
+          "label": "Conociendo Agitator Single Malt. - La Whiskería"
+        }
+      ]
+    },
+    {
       "id": "akashi-blue-blended",
       "slug": "akashi-blue-blended",
       "name": "Akashi Blue Blended",
@@ -2109,6 +2153,80 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=lKFek-dLg3M",
           "label": "厚岸ウイスキー 寒露 待望のフルボトルを飲んでみた｜CROSSROAD LAB"
+        }
+      ]
+    },
+    {
+      "id": "alberta-premium-cask-strength",
+      "slug": "alberta-premium-cask-strength",
+      "name": "Alberta Premium Cask Strength Rye",
+      "distillery": {
+        "id": "alberta-distillers",
+        "name": "Alberta Distillers Ltd",
+        "name_es": "Alberta Distillers Ltd",
+        "name_pt": "Alberta Distillers Ltd",
+        "name_en": "Alberta Distillers Ltd",
+        "name_ja": "アルバータ・ディスティラーズ",
+        "name_fr": "Alberta Distillers Ltd"
+      },
+      "description": "El carismático rye canadiense de Alberta Distillers (Calgary), elaborado 100 % con centeno canadiense y embotellado a fuerza de barrica ('cask strength') desde barricas nuevas de roble blanco americano. La edición de 2020, a 65,1%, fue nombrada Mejor Whisky del Mundo en la Whisky Bible 2021 de Jim Murray con 97,5 puntos, la puntuación más alta jamás otorgada. Dulzor intenso de caramelo, toffee y chocolate con leche, con madera, grosella negra y especias de centeno en nariz y boca; final potente, cálido y muy especiado. 65,1%, 750 ml.",
+      "image": "/data/images/alberta-premium-cask-strength.webp",
+      "images": [
+        "/data/images/alberta-premium-cask-strength.webp"
+      ],
+      "origin": "canada",
+      "region": "Canada",
+      "age": null,
+      "volume": "750 ml",
+      "abv": 65.1,
+      "cask": "Centeno 100 %, barricas nuevas de roble blanco americano, a fuerza de barrica",
+      "distillery_id": "alberta-distillers",
+      "insertion_order": 501,
+      "featured": false,
+      "name_pt": "Alberta Premium Cask Strength Rye",
+      "description_pt": "O carismático rye canadiano da Alberta Distillers (Calgary), elaborado 100 % com centeio canadiano e engarrafado à força de barril ('cask strength') desde barris novos de carvalho branco americano. A edição de 2020, a 65,1%, foi nomeada Melhor Whisky do Mundo na Whisky Bible 2021 de Jim Murray com 97,5 pontos, a pontuação mais alta alguma vez atribuída. Doçura intensa de caramelo, toffee e chocolate de leite, com madeira, groselha negra e especiarias de centeio no nariz e na boca; final potente, quente e muito especiado. 65,1%, 750 ml.",
+      "name_en": "Alberta Premium Cask Strength Rye",
+      "description_en": "The charismatic Canadian rye of Alberta Distillers (Calgary), made from 100% Canadian rye and bottled at cask strength straight from new American white oak barrels. The 2020 edition, at 65.1%, was named World Whisky of the Year in Jim Murray's Whisky Bible 2021 with 97.5 points, the highest score ever awarded. Intense sweetness of caramel, toffee and milk chocolate, with wood, blackcurrant and rye spice on nose and palate; a powerful, warm and very spicy finish. 65.1%, 750 ml.",
+      "name_ja": "アルバータ・プレミアム・カスクストレングス",
+      "description_ja": "アルバータ・ディスティラーズ（カルガリー）のカリスマ的なカナディアン・ライ。カナダ産ライ麦100%で造り、新品のアメリカンホワイトオーク樽から樽出し強度のまま瓶詰め。2020年瓶は65.1%で、ジム・マレーの『ウイスキー教典2021』において史上最高の97.5点で年間世界一ウイスキーに輝きました。キャラメル、トフィー、ミルクチョコレート、ウッド、カシス、ライのスパイスの強い甘み。力強く温かく、スパイス香の立つ余韻。65.1%、750ml。",
+      "name_fr": "Alberta Premium Cask Strength Rye",
+      "description_fr": "Le charismatique rye canadien de chez Alberta Distillers (Calgary), élaboré à 100 % de seigle canadien et embouteillé à la force du fût ('cask strength') directement depuis des fûts neufs de chêne blanc américain. L'édition 2020, à 65,1 %, a été élue Meilleur Whisky du Monde dans la Whisky Bible 2021 de Jim Murray avec 97,5 points, la meilleure note jamais décernée. Une douceur intense de caramel, de toffee et de chocolat au lait, avec du bois, du cassis et les épices du seigle au nez et en bouche ; une finale puissante, chaleureuse et très épicée. 65,1 %, 750 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6ZQzMCFI3rA",
+          "label": "Alberta Premium Cask Strength Rye Whiskey Review. Jim Murray's #1 whiskey in the world. BTS EP#116 - Bourbon Junkies"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=_dgfq4lVVO0",
+          "label": "Whisky Review: Alberta Premium 'Cask Strength Rye' - Jason Debly"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=dDQpeEzT8FI",
+          "label": "Alberta Premium Cask Strength Rye Review - World Whisky of the Year?! - Drums & Drams"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=k_-jwoP836g",
+          "label": "Alberta Premium Cask Strength Rye review - Whiskey Vault"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=VBqAikhWTt8",
+          "label": "El MEJOR whisky de centeno canadiense? - Alberta Premium Cask Strength - Amantes Del Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=DAjkSmQCkIE",
+          "label": "Alberta Premium Cask Strength Rye - Melhor Whisky 2020 - Whisky Bible - Destilados Brasil"
         }
       ]
     },
@@ -5271,6 +5389,80 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=oBF1274qaDI",
           "label": "Whisky Capital"
+        }
+      ]
+    },
+    {
+      "id": "bastille-1789",
+      "slug": "bastille-1789",
+      "name": "Bastille 1789 Whisky",
+      "distillery": {
+        "id": "bastille",
+        "name": "Maison Daucourt (Bastille 1789)",
+        "name_es": "Maison Daucourt (Bastille 1789)",
+        "name_pt": "Maison Daucourt (Bastille 1789)",
+        "name_en": "Maison Daucourt (Bastille 1789)",
+        "name_ja": "メゾン・ドクール（バスティーユ1789）",
+        "name_fr": null
+      },
+      "description": "El whisky pionero de la maison familiar Daucourt, en Angulema (Charente), lanzado en 2010: un blend que fusiona alrededor de un 50 % de cebada malteada y un 50 % de trigo crudo, doblemente destilado en los tipicos alambiques de cobre de cuello de cisne de la región y redondeado con un acabado de triple barrica en bourbon, Sauternes y coñac. Nariz de vainilla, albaricoque, pera y cereal dulce con un toque de uva; en boca suave y redondo, con miel, fruta de hueso, corteza de pan y especias dulces; final afrutado con un recuerdo vinoso y una pizca de roble y chocolate. 40%, 700 ml.",
+      "image": "/data/images/bastille-1789.webp",
+      "images": [
+        "/data/images/bastille-1789.webp"
+      ],
+      "origin": "france",
+      "region": "France",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 40,
+      "cask": "Acabado en triple barrica: ex-bourbon, ex-Sauternes y ex-coñac",
+      "distillery_id": "bastille",
+      "insertion_order": 502,
+      "featured": false,
+      "name_pt": "Bastille 1789 Whisky",
+      "description_pt": "O whisky pioneiro da maison familiar Daucourt, em Angoulême (Charente), lançado em 2010: um blend que funde cerca de 50 % de cevada malteada e 50 % de trigo cru, duplamente destilado nos típicos alambiques de cobre de pescoço de cisne da região e arredondado com um acabamento de tripla barrica em bourbon, Sauternes e cognac. Nariz de baunilha, alperce, pêra e cereal doce com um toque de uva; na boca suave e redondo, com mel, fruta de caroço, casco de pão e especiarias doces; final frutado com uma lembrança vinosa e uma pitada de carvalho e chocolate. 40%, 700 ml.",
+      "name_en": "Bastille 1789 Whisky",
+      "description_en": "The pioneering whisky of the family-owned Maison Daucourt, in Angoulême (Charente), launched in 2010: a blend fusing around 50% malted barley and 50% raw wheat, double-distilled in the region's typical Charente gooseneck copper pot stills and rounded with a triple cask finish in bourbon, Sauternes and cognac. A nose of vanilla, apricot, pear and sweet cereal with a hint of grape; soft and rounded on the palate, with honey, stone fruit, bread crust and sweet spice; a fruity finish with a vinous aftertaste and a whisper of oak and chocolate. 40%, 700 ml.",
+      "name_ja": "バスティーユ1789",
+      "description_ja": "フランス・シャラント地方アングレームの家族経営メゾン、ドクールが2010年に発売したパイオニア的ウイスキー。大麦麦芽約50%と生小麦約50%のブレンドを、同地方独特の「シャラント式」背の高い銅製ポットスチルで二度蒸溜し、バーボン、ソーテルヌ、コニャックの3種樽でフィニッシュ。バニラ、アプリコット、洋梨、甘い穀物とほのかな葡萄の香り。口に含むと柔らかで丸みがあり、ハチミツ、核果、パンクラスト、甘いスパイス。フルーティーでヴィニーな余韻の後に、オークとチョコレートのささやき。40%、700ml。",
+      "name_fr": "Bastille 1789 Whisky",
+      "description_fr": "Le whisky pionnier de la maison familiale Daucourt, à Angoulême (Charente), lancé en 2010 : un blend qui marie environ 50 % d'orge maltée et 50 % de blé brut, doublement distillé dans les alambics charentais en cuivre à col de cygne typiques de la région et arrondi par une finition en triple fût de bourbon, de Sauternes et de cognac. Un nez de vanille, d'abricot, de poire et de céréale sucrée avec une pointe de raisin ; souple et rond en bouche, avec du miel, des fruits à noyau, de la croûte de pain et des épices douces ; une finale fruitée avec un souvenir vineux et un soupçon de chêne et de chocolat. 40 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=7vzTK1oetOE",
+          "label": "Bastille French Blended Whisky Review - The Rotgut Review"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PfqFvt073Jo",
+          "label": "Bastille 1789 Blended Whisky Review! - The Last Call"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=iMUvckC3RUM",
+          "label": "フレンチウイスキー バスティーユ1789 珍しいウイスキーです - HAYA CHANNEL"
+        },
+        {
+          "language": "ja",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=wYrlfEU3B3w",
+          "label": "BASTILLE 1789(バスティーユ1789)を飲んでみた その１１９ - まるなひと"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=4r2-tcLPn-c",
+          "label": "Review Bastille 1789: Um whisky da terra de Napoleão - Porção dos Anjos Whisky"
+        },
+        {
+          "language": "pt",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vOfhrJbK-r4",
+          "label": "Bastille 1789 - Review 278 - Destilados Brasil"
         }
       ]
     },
@@ -12989,6 +13181,50 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=WBcLkulOANk",
           "label": "Fary Lochan Season 1 Batch #01 Whisky Review - Whisky Shared"
+        }
+      ]
+    },
+    {
+      "id": "fary-lochan-season-2",
+      "slug": "fary-lochan-season-2",
+      "name": "Fary Lochan SÆSON 2",
+      "distillery": {
+        "id": "fary-lochan",
+        "name": "Fary Lochan Destilleri",
+        "name_es": "Fary Lochan Destilleri",
+        "name_pt": "Fary Lochan Destilleri",
+        "name_en": "Fary Lochan Destilleri",
+        "name_ja": "ファリー・ロッカン蒸溜所",
+        "name_fr": "Fary Lochan Destilleri"
+      },
+      "description": "Segundo lanzamiento estacional de la joven destilería danesa Fary Lochan y el primero de su serie SÆSON ahumado con ortigas en lugar de turba: ortigas secas recogidas en Dinamarca y quemadas como combustible. Con 48%, este SÆSON 2 maduró en una combinación de dos barricas de bourbon de primer llenado (200 l) y un hogshead de oloroso de segundo llenado (250 l): nariz de cereal y malta, miel de brezo, manzana asada y un humo vegetal sutil; en boca cremoso, con vainilla, frutos del bosque y dulzura de jerez; final medio con hierba seca y un toque ahumado. Primera tirada de 1014 botellas, abril de 2025. 48%, 700 ml.",
+      "image": "/data/images/fary-lochan-season-2.webp",
+      "images": [
+        "/data/images/fary-lochan-season-2.webp"
+      ],
+      "origin": "denmark",
+      "region": "Denmark",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 48,
+      "cask": "2 barricas de bourbon de primer llenado (200 l) y 1 hogshead de oloroso de segundo llenado (250 l). Malta ahumada con ortigas",
+      "distillery_id": "fary-lochan",
+      "insertion_order": 498,
+      "featured": false,
+      "name_pt": "Fary Lochan SÆSON 2",
+      "description_pt": "Segundo lançamento sazonal da jovem destilaria dinamarquesa Fary Lochan e o primeiro da sua série SÆSON fumado com urtigas em vez de turfa: urtigas secas colhidas na Dinamarca e queimadas como combustível. Com 48%, este SÆSON 2 amadureceu numa combinação de dois barris de bourbon de primeiro enchimento (200 l) e um hogshead de oloroso de segundo enchimento (250 l): nariz de cereal e malte, mel de urze, maçã assada e um fumo vegetal subtil; na boca cremoso, com baunilha, frutos do bosque e doçura de xerez; final médio com erva seca e um toque fumado. Primeira tirada de 1014 garrafas, abril de 2025. 48%, 700 ml.",
+      "name_en": "Fary Lochan SÆSON 2",
+      "description_en": "The second seasonal release from young Danish distillery Fary Lochan and the first in its SÆSON series smoked with stinging nettles instead of peat: dried nettles gathered in Denmark and burned as fuel. At 48%, this SÆSON 2 matured in a combination of two first-fill bourbon barrels (200 l) and one second-fill oloroso hogshead (250 l): a nose of grain and malt, heather honey, baked apple and a subtle vegetal smoke; creamy on the palate, with vanilla, forest berries and sherry sweetness; a medium finish with dried grass and a hint of smoke. First batch of 1014 bottles, April 2025. 48%, 700 ml.",
+      "name_ja": "ファリー・ロハン・シーズン2",
+      "description_ja": "デンマークの若手蒸溜所ファリー・ロハンによる季節限定リリース第2弾。ピートの代わりに、デンマークで収穫した乾燥イラクサを燃料として燻蒸した同シリーズ初のモルト。48%に瓶詰めし、ファーストフィルのバーボン樽2本（200L）とセカンドフィルのオロロソ・ホグスヘッド1本（250L）を組み合わせて熟成しました。穀物とモルト、ヘザー・ハニー、焼きリンゴ、ほのかな植物性スモーク香。口に含むとクリーミーで、バニラ、ベリー、シェリーの甘み。乾いた草とスモークのニュアンスが残るミディアムな余韻。初回ロットは2025年4月、1014本。48%、700ml。",
+      "name_fr": "Fary Lochan SÆSON 2",
+      "description_fr": "Deuxième sortie saisonnière de la jeune distillerie danoise Fary Lochan et la première de sa série SÆSON fumée aux orties au lieu de la tourbe : des orties séchées récoltées au Danemark et brûlées comme combustible. À 48 %, ce SÆSON 2 a mûri dans une combinaison de deux fûts de bourbon de premier remplissage (200 l) et d'un fût de 250 litres d'oloroso de second remplissage : un nez de céréale et de malt, de miel de bruyère, de pomme cuite et une fumée végétale subtile ; crémeux en bouche, avec vanille, fruits des bois et douceur de xérès ; une finale moyenne d'herbe sèche et une pointe fumée. Première fournée de 1014 bouteilles, avril 2025. 48 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=N_mA_tRWSoc",
+          "label": "Fary Lochan Distillery Edition #08 Whisky Review - Whisky Shared"
         }
       ]
     },
@@ -36346,6 +36582,80 @@
       ]
     },
     {
+      "id": "starward-solera",
+      "slug": "starward-solera",
+      "name": "Starward Solera",
+      "distillery": {
+        "id": "starward",
+        "name": "Starward Distillery",
+        "name_es": "Starward Distillery",
+        "name_pt": "Starward Distillery",
+        "name_en": "Starward Distillery",
+        "name_ja": "スターワード蒸溜所",
+        "name_fr": "Starward Distillery"
+      },
+      "description": "El primer whisky que creó Starward (Melbourne) y uno de los favoritos de su fundador: un single malt madurado según el tradicional sistema de solera español en barricas de Apera, el jerez australiano. El proceso garantiza que cada botella conserva una parte del primer Solera embotellado, logrando un perfil constantemente rico. Doble oro en San Francisco World Spirits 2022. Caramelos, crema catalana, plátano maduro, higos y turrón en nariz y boca, con manzana y fruta de huerta al principio; final jugoso con pasas, vainilla y un toque de roble. 43%, 700 ml.",
+      "image": "/data/images/starward-solera.webp",
+      "images": [
+        "/data/images/starward-solera.webp"
+      ],
+      "origin": "australia",
+      "region": "Australia",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 43,
+      "cask": "Barricas de Apera (jerez australiano), método de solera tradicional español",
+      "distillery_id": "starward",
+      "insertion_order": 499,
+      "featured": false,
+      "name_pt": "Starward Solera",
+      "description_pt": "O primeiro whisky criado pela Starward (Melbourne) e um dos favoritos do seu fundador: um single malt amadurecido segundo o tradicional sistema de solera espanhol em barris de Apera, o xerez australiano. O processo garante que cada garrafa conserva uma parte do primeiro Solera engarrafado, conseguindo um perfil consistentemente rico. Caramelos, creme catalão, banana madura, figos e nogado no nariz e na boca, com maçã e fruta de pomar no início; final suculento com passas, baunilha e um toque de carvalho. 43%, 700 ml.",
+      "name_en": "Starward Solera",
+      "description_en": "The first whisky Starward (Melbourne) ever made and one of its founder's favourites: a single malt matured using the traditional Spanish solera system in Apera casks, the Australian sherry. The process keeps a portion of the very first Solera bottled in every bottle, for a consistently rich profile. Double Gold at the 2022 San Francisco World Spirits Awards. Caramel chews, crème brûlée, ripe banana, figs and nougat on the nose and palate, with orchard fruit at the start; a juicy finish of raisins, vanilla and a touch of oak. 43%, 700 ml.",
+      "name_ja": "スターワード・ソレラ",
+      "description_ja": "スターワード（メルボルン）が初めて生み出し、創業者も愛するウイスキー。オーストラリアのシェリーにあたるアペラ樽を使い、伝統的なスペイン式ソレラ製法で熟成させたシングルモルトです。初代ソレラの一部が今もすべてのボトルに受け継がれ、常にリッチで安定した味わいに。2022年サンフランシスコ・ワールド・スピリッツ・コンペティションでダブルゴールド受賞。香りはキャラメルチュー、クレームブリュレ、完熟バナナ、いちじく、ヌガー。果樹園の果実から始まり、レーズン、バニラ、ほのかなオークのジューシーな余韻。43%、700ml。",
+      "name_fr": "Starward Solera",
+      "description_fr": "Le premier whisky créé par Starward (Melbourne) et l'un des préférés de son fondateur : un single malt vieilli selon le système traditionnel espagnol de solera dans des fûts d'Apera, le xérès australien. Le procédé conserve dans chaque bouteille une part du tout premier Solera embouteillé, pour un profil constamment riche. Double or au San Francisco World Spirits 2022. Caramels, crème brûlée, banane mûre, figues et nougat au nez et en bouche, avec des fruits de verger au départ ; une finale juteuse de raisins secs, vanille et une touche de chêne. 43 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=1MJFnUQMiKA",
+          "label": "Let's Talk Whisky: Starward Solera - therenegade79"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5xO2p35CXNs",
+          "label": "Starward Solera Whisky Review - TopWhiskies"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=6yUbCdDGLB4",
+          "label": "Starward Solera Whiskey Review - Was It Worth It Whisky (Best Whisky 2020) - WAS IT WORTH IT WHISKY"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=FpOvHMYEVNs",
+          "label": "Starward Solera Australian Single Malt - Whisky Review 234 - Ash Parmar"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=XemPnvfkIXk",
+          "label": "Starward Solera review #111 with The Whiskey Novice"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nVakZ7yB4KM",
+          "label": "Starward Solera Single Malt Whisky Tasting | Whisky Wednesday | Muazo - Nitin Sood"
+        }
+      ]
+    },
+    {
       "id": "starward-two-fold",
       "slug": "starward-two-fold",
       "name": "Starward Two-Fold",
@@ -39888,6 +40198,56 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=yS898QM-Tdg",
           "label": "聴くウイスキー #181 — ザ・ヒーラック オロロソカスク (Dram FM)"
+        }
+      ]
+    },
+    {
+      "id": "the-lakes-whiskymakers-reserve",
+      "slug": "the-lakes-whiskymakers-reserve",
+      "name": "The Lakes Whiskymaker's Reserve No. 7",
+      "distillery": {
+        "id": "lakes",
+        "name": "The Lakes Distillery",
+        "name_es": "The Lakes Distillery",
+        "name_pt": "The Lakes Distillery",
+        "name_en": "The Lakes Distillery",
+        "name_ja": "ザ・レイクス蒸溜所",
+        "name_fr": null
+      },
+      "description": "La séptima y última edición de The Whiskymaker's Reserve, la serie insignia de la destilería inglesa The Lakes (Cumbria) en la que el whiskymaker Dhavall Gandhi lleva la maduración en jerez al límite: Oloroso, Pedro Ximénez y vino tinto combinados sobre roble español y americano, sin filtrado en frío ni colorear y embotellado a 52%. Nariz densa de pastel navideño, naranja amarga, chocolate negro y almendra tostada; en boca ciruela, higo, grosella negra, caramelo y especias, con textura aceitosa; final largo de vino rancio, roble y chocolate. 52%, 700 ml.",
+      "image": "/data/images/the-lakes-whiskymakers-reserve.webp",
+      "images": [
+        "/data/images/the-lakes-whiskymakers-reserve.webp"
+      ],
+      "origin": "england",
+      "region": "England",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 52,
+      "cask": "Barricas de Oloroso, Pedro Ximénez y vino tinto, sobre roble español y americano",
+      "distillery_id": "lakes",
+      "insertion_order": 500,
+      "featured": false,
+      "name_pt": "The Lakes Whiskymaker's Reserve No. 7",
+      "description_pt": "A sétima e última edição da The Whiskymaker's Reserve, a série insígnia da destilaria inglesa The Lakes (Cumbria) na qual o whiskymaker Dhavall Gandhi leva a maturação em xerez ao limite: Oloroso, Pedro Ximénez e vinho tinto combinados sobre carvalho espanhol e americano, sem filtração a frio nem corante e engarrafado a 52%. Nariz denso de bolo de Natal, laranja amarga, chocolate negro e amêndoa tostada; na boca ameixa, figo, groselha negra, caramelo e especiarias, com textura oleosa; final longo de vinho rançoso, carvalho e chocolate. 52%, 700 ml.",
+      "name_en": "The Lakes Whiskymaker's Reserve No. 7",
+      "description_en": "The seventh and final edition of The Whiskymaker's Reserve, the flagship series of the English distillery The Lakes (Cumbria), in which whiskymaker Dhavall Gandhi pushes sherry maturation to its limit: Oloroso, Pedro Ximénez and red wine combined over Spanish and American oak, non-chill-filtered and uncoloured, bottled at 52%. A dense nose of Christmas cake, Seville orange, dark chocolate and toasted almond; plums, fig, blackcurrant, caramel and spice on the palate, with an oily texture; a long finish of rancio, oak and chocolate. 52%, 700 ml.",
+      "name_ja": "ザ・レイクス・ウィスキーメイカーズ・リザーブ No.7",
+      "description_ja": "イングランドのザ・レイクス蒸溜所（カンブリア）の看板シリーズ「ウィスキーメイカーズ・リザーブ」の第7弾にして最終作。ウィスキーメイカーのダヴァル・ガンジーがシェリー熟成を極限まで追求した一本。オロロソ、ペドロヒメネス、赤ワイン樽をスペイン産・アメリカンオークで組み合わせ、ノンチルフィルター・ノンカラーで52%に瓶詰め。クリスマスケーキ、ネーブルオレンジ、ダークチョコレート、ローストアーモンドの濃厚な香り。プルーン、いちじく、カシス、キャラメル、スパイスに、オイリーな質感。ランチョ、オーク、チョコレートの長い余韻。52%、700ml。",
+      "name_fr": "The Lakes Whiskymaker's Reserve No. 7",
+      "description_fr": "La septième et dernière édition de The Whiskymaker's Reserve, la série phare de la distillerie anglaise The Lakes (Cumbria), dans laquelle le whiskymaker Dhavall Gandhi pousse le vieillissement au xérès à son extrême : Oloroso, Pedro Ximénez et vin rouge combinés sur chêne espagnol et américain, non filtré à froid et non coloré, embouteillé à 52 %. Un nez dense de gâteau de Noël, d'orange amère, de chocolat noir et d'amande torréfiée ; prune, figue, cassis, caramel et épices en bouche, avec une texture huileuse ; une longue finale de rancio, de chêne et de chocolat. 52 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=URyuYWiEfC8",
+          "label": "The Lakes The Whiskymaker's Reserve No. 7 - Whisky Lovers Society"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=vUY_gzZe_yk",
+          "label": "The Finale - The Lakes Whiskymaker's Reserve No7 Review - The Whisky Enthusiast"
         }
       ]
     },

@@ -354,6 +354,7 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Lot 40 Rye - Lot 40 (as Lot No. 40 Canadian Rye Whisky)
 ✅ J.P. Wiser's 18 YO - J.P. Wiser's (as J.P. Wiser's 18 Year Old)
 ✅ Alberta Premium Dark Horse - Alberta Distillers
+✅ Alberta Premium Cask Strength - Alberta Distillers (gap-fill) → 65.1% 2020 WOTY edition, 750 ml
 ✅ Forty Creek Barrel Select - Forty Creek
 ✅ Glenora Canadian Single Malt - Glenora (as Glen Breton Rare 10 YO)
 ✅ Shelter Point Single Malt - Shelter Point (as Shelter Point Classic Single Malt)
@@ -380,11 +381,13 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Morris Muscat Barrel - Morris
 ✅ Starward Nova - Starward
 ✅ Starward Two-Fold - Starward
+✅ Starward Solera - Starward (gap-fill) → shipped as Starward Solera (Dolce discontinued, no usable image; user-approved substitute)
 
 ## Sweden
 
 ✅ Mackmyra Svensk Ek - Mackmyra
 ✅ High Coast Hav - High Coast
+✅ Agitator The Swedish Malt - Agitator (NEW distillery, gap-fill) → 500 ml current official spec
 
 ## Finland
 
@@ -401,9 +404,12 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Stauning Høst - Stauning
 ✅ Braunstein B-No 1 - Braunstein (NEW distillery) → shipped as Danica Non-Peated (B-No 1 does not exist; user-approved substitute)
 ✅ Fary Lochan Season - Fary Lochan (NEW distillery) → shipped as SÆSON 1 (user-approved substitute)
+✅ Fary Lochan SÆSON 2 - Fary Lochan (gap-fill) → 48%, nettle-smoked (not peated); no genuine review video exists, ships with distillery-context video (user-approved)
 
 ## England
 ✅ Cotswolds Single Malt - Cotswolds
+
+✅ The Lakes Whiskymaker's Reserve No. 7 - The Lakes (NEW distillery, gap-fill) → final edition of the series, 52%
 
 ✅ Bimber Re-Charred Oak - Bimber
 ✅ The English Whisky Co Original - The English Whisky Co
@@ -427,6 +433,7 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Kornog - Celtic Whisky Distillery
 ✅ Lehmann Single Malt - Lehmann
 ✅ Rozelieures Single Malt - Rozelieures
+✅ Bastille 1789 Whisky - Maison Daucourt (NEW brand, gap-fill) → the blend Nº1, 40%
 
 ## Germany
 

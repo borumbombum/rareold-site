@@ -18,6 +18,12 @@
     "sort_order": 2
   },
   {
+    "id": "australia-australia",
+    "origin_id": "australia",
+    "name": "Australia",
+    "sort_order": 3
+  },
+  {
     "id": "canada-canadian-whisky",
     "origin_id": "canada",
     "name": "Canadian Whisky",
@@ -64,6 +70,12 @@
     "origin_id": "ireland",
     "name": "Cork",
     "sort_order": 5
+  },
+  {
+    "id": "canada-canada",
+    "origin_id": "canada",
+    "name": "Canada",
+    "sort_order": 6
   },
   {
     "id": "ireland-dublin",
@@ -147,6 +159,12 @@
     "id": "ireland-clare",
     "origin_id": "ireland",
     "name": "Clare",
+    "sort_order": 11
+  },
+  {
+    "id": "england-england",
+    "origin_id": "england",
+    "name": "England",
     "sort_order": 11
   },
   {
@@ -261,6 +279,12 @@
     "id": "germany-bavaria",
     "origin_id": "germany",
     "name": "Bavaria",
+    "sort_order": 18
+  },
+  {
+    "id": "france-france",
+    "origin_id": "france",
+    "name": "France",
     "sort_order": 18
   },
   {
