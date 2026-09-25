@@ -16,7 +16,8 @@
 		{ href: '/admin/store-countries', label: m.admin_nav_store_countries() },
 		{ href: '/admin/stores', label: m.admin_nav_stores() },
 		{ href: '/admin/pages', label: m.admin_nav_pages() },
-		{ href: '/admin/downloads', label: m.admin_nav_downloads() }
+		{ href: '/admin/downloads', label: m.admin_nav_downloads() },
+		{ href: '/admin/api', label: m.admin_nav_api() }
 	]);
 
 	const isActive = (href: string) =>

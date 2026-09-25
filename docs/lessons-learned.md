@@ -1,5 +1,18 @@
 # Lessons learned (errors and corrections)
 
+## 2026-09-23 — Full API reference in docs/api.md, linked from AGENTS.md
+
+- **"The API" meant relative path, not a deployed URL** — the user asked for URLs three times before I gave the routes without a host/port. Lesson: when asked "give me the URL of the API", default to the **relative path** (`/api/v1/whiskies`); the base domain is env-dependent (prod, preview, tailnet IP:5173).
+- docs/api.md now documents **every** API route as a relative path — public `/api/v1/*`, site `/api/*` (auth, community, reviews, prices/stores, download paywall), and `/api/admin/*` — with methods captured from each `+server.ts` (`grep GET|POST|PUT|DELETE`). AGENTS.md got a `## Documentation` section linking it. Capturing per-route methods (auth `login` is GET, `logout`/`mock` are POST, `nostr` POST, `favorites` GET+POST, `data/download` GET, admin `stats` GET-only) prevents hand-remembering wrong verbs.
+
+## 2026-09-23 — "Remove the paywall" meant only the pending API paywall (064 open API built)
+
+- **There were two paywalls; "remove the paywall" misidentified the live one.** The SQLite download paywall (044, `/download`, email gate → admin grant → signed single-use token) was `[DONE]` and shipping; the *pending* "paywall thing" was 065 (per-consumer Basic Auth API, $19/yr vs $99 lifetime) + 066 (plans page). First plan stripped 044 too — rejected once the two were explained side by side. 044 kept untouched; 065/066 deleted.
+- **API decision (owner): open + free + rate-limited + admin-controlled, never paid.** Spec revision absorbed "admin control of its usage" into 064: live stats, block/unblock IP (403), per-IP limit override — replacing the cancelled paywall's credential management.
+- **Serverless-safe controls:** in-memory sliding-window limiter (default 60 req/min) + Turso `api_ip_controls` (migration `0030`) cached ~60s. Blocks survive cold starts; normal requests do one async cache check per window. `invalidateControlsCache()` on admin writes; `resetRateLimits()` for tests.
+- **`.svelte` must not leak into node tests:** `vitest` runs `environment: 'node'` with no Svelte plugin — importing `utils/origins.ts` (→ `stores/pinned-origins.svelte`) from `api-v1.ts` would break the new tests. Inlined `originKey()` instead; `api-v1.ts` imports pure TS + data JSON only.
+- **`/api/v1/*` never queries Turso** — only build-time JSON (`src/lib/data/*.json`). Rate/block state is the sole Turso touchpoint.
+
 ## 2026-09-17 — Product galleries (task 097)
 
 - **`INSERT OR IGNORE` is a no-op without a UNIQUE constraint.** Backfilling `product_images` with a plain index produced 2 rows per product (942 for 471 products). Fix: unique index on `(product_id, position)` — and the migration must create it, not just the live DB.
@@ -747,3 +760,34 @@
 - **Supported-slot limitation:** several verified videos are in languages outside the modeled set (sv Agitator, ko Lakes No.7, de, da) — they can't be seeded even though the reviews are genuine; only en/es/pt/ja/fr map onto the locale model.
 - **Queue-file edit slip:** my Canada section edit accidentally deleted the adjacent Canadian Club line and duplicated another — the pre-commit dup-scan (`grep ✅ | sort | uniq -d`) caught it. Rule reinforced: always re-scan the whole ticked list after any queue edit.
 - **Pipeline counts:** db:sync 237 distilleries / 499 products / 4543 videos; data:export matched; `npm run check` 0 errors / 29 pre-existing warnings. Not committed/pushed — awaiting explicit request (version stays 0.2.59).
+
+## 2026-09-23 — Task-state drift fix (078) + "Add your store" (061)
+
+- **A task can be DONE in code with the status never flipped.** 078 (Stores system) was fully implemented in a prior session — `/api/stores`, `store_countries`/`stores`/`product_stores` (migrations 0027/0028), admin CRUD, `StoreList.svelte` client fetch, `db-sync` reporting store_countries: 5 / stores: 6 — yet the task file and `.tasks/TASKS.md` still said `[IN_PROGRESS] HIGH PRIORITY`. Verified against the acceptance criteria in code, then marked DONE. Rule: when told "this is already done", search the code for the acceptance criteria before trusting either the status or the doubt.
+- **`.tasks/TASKS.md` had two overlapping blocks** (097→082 at top, then a vestigial `# Tasks` header repeating 081→000). Merged into one latest-first list without renumbering/renaming anything. The tasks skill's "fix drift immediately" rule applied.
+- **Pre-execution decision workflows work:** 061 mandated documenting placement + destination (with 2+ alternatives) BEFORE code. Chosen: "Add your store" link inside `StoreList.svelte` (only public stores surface; on every whisky page) → new localized `/add-store` page prefilled with `detectUserCountry()`; submit composes a `mailto:` to `configuration.stores.requestEmail`, or copies to clipboard when unset. The "62 wait, iterate 2+ alternatives" framing made the footer/nav/mailto-direct options easy to reject explicitly.
+- **No fabricated contact addresses.** The repo has no owner inbox (only PUBLIC_INSTAGRAM_URL + Google/secret envs), so the mailto target is a real config flag (`configuration.stores.requestEmail`, empty by default) with a clipboard fallback rather than an invented email or Google Form URL.
+- **Static-public env vars are build-tight:** importing a new `$env/static/public` variable that isn't set in `.env` fails the build; routing the config through `src/lib/configuration.ts` avoided that deploy fragility entirely.
+- `npm run build` (db:sync → data:export → vite) regenerates Paraglide messages; `npm run check` then sees the new keys. 0 errors / 29 warnings after both.
+
+## 2026-09-23 — API namespace split + API docs page
+
+- Moved public product API from `/api/v1/*` → `/api/v1/public/*` (separates external consumers from frontend/admin). Updated handlers, rate-limit labels, tests, docs. No redirect added — the new namespace is the stable external contract.
+- Added public API docs page at `/api` (static CMS page `pages.json`, slug `api`) following project page style (`[slug]/+page.svelte`), and a footer link using `m.nav_api()` (added message key in all locales).
+- Rewrote `docs/api.md` into three clear tiers (public `/api/v1/public`, frontend `/api`, admin `/api/admin`) with correct auth notes per route.
+
+## 2026-09-24 — Add-product run: 5 gap-fill whiskies (P1 Mackmyra Svensk Rök)
+
+- **whisky.com returns HTTP 403 to the fetch tool** — don't rely on it for bottle images. Use the distillery's own site: Mackmyra is on Squarespace, so the product page `og:image` gives a usable URL. Keep the exact host `static1.squarespace.com/...?format=1500w`; rewriting it to `images.squarespace-cdn.com` fails with HTTP 400.
+- **Official spec beats aggregator on volume.** whiskybase lists the 2013 default bottling of Svensk Rök as 500 ml, but Mackmyra's current official page states 70 cl / 46.1%. Seeded 700 ml per the distillery.
+- **Language coverage is genuinely sparse for niche Swedish bottlings.** Multi-source yt-search (native + Invidious) found 6+ exact-expression English reviews but zero es/pt/fr/ja exact-expression reviews for Svensk Rök. Ship English only and let the runtime top-up cover the rest — never pad with a different expression or an English video in a foreign slot.
+- **Videos export to `src/lib/data/influencer_videos.json` keyed by `product_id`**, not embedded in `whiskies.json`. Verify a new product's videos there, not in the whiskies file.
+- Pipeline: db:sync 237 distilleries / 500 products / 4547 videos; `npm run check` 0 errors / 29 pre-existing warnings.
+
+- **2026-09-25 — User rejected 2 of the 4 batch whiskies; full removal executed.** Smögen Primör and The Lakes WR No.1 were deleted entirely (user: "remove this whisky"). Lessons:
+  - **Full removal ≠ deleting the seed entry.** Turso is the source of truth and `db-sync` is INSERT-only (`ON CONFLICT DO NOTHING`); removing rows from `data/seed/` does NOT propagate. Deletes require a one-off direct SQL script against Turso (`influencer_videos` → `products` → orphan `distilleries`), then re-export. Always `db-backup` first.
+  - **Distillery orphan check is mandatory before a whisky delete.** Smögen was created fresh for Primör; after the product delete it had zero referencing products, so the distillery row (`id=smogen`, all 6 locale names + description + coords) also had to be deleted to avoid a dead `/origen/smogen` page. The Lakes distillery survived because WR Reserve still references it.
+  - **False-confidence trap: a "zero-video/honest-null" product can still be rejected.** The user would rather a product not exist than render a pour/lifestyle image or empty video slot. When a product can't meet the image/video bar with *clean* assets, consider not shipping it at all rather than shipping honest-but-ugly.
+  - **`npm run db:query` is a real npm script in this repo... no it is NOT** — `npm run db:query "sql"` fails (`npm query` parses it as the npm query command). To run ad-hoc SQL use the direct node pattern: a tiny `.mjs` using `@libsql/client` + `node --env-file-if-exists=.env`, or reuse `scripts/db-export.mjs`'s client.
+  - Delete script pattern (reusable): `DELETE FROM influencer_videos WHERE product_id IN (...)` → `DELETE FROM products WHERE id IN (...)` → `DELETE FROM distilleries WHERE id IN (orphans identified by `NOT EXISTS (SELECT 1 FROM products WHERE distillery_id = ...)`)`, printing `rowsAffected` each step.
+  - After removal: `npm run data:export` refreshed `src/lib/data` to 502 whiskies / 237 distilleries / 4552 videos, and `npm run check` stayed clean (0 errors, 29 warnings). Queue file lines annotated `— REMOVED from site per request`.

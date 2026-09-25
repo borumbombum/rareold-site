@@ -2,6 +2,7 @@
 	import { PUBLIC_INSTAGRAM_URL } from '$env/static/public';
 	import InstagramIcon from './InstagramIcon.svelte';
 	import { m } from '$lib/paraglide/messages';
+	import { localizeHref } from '$lib/paraglide/runtime';
 
 	const year = new Date().getFullYear();
 </script>
@@ -19,6 +20,7 @@
 			<InstagramIcon size={16} />
 			{m.nav_instagram()}
 		</a>
+		<a href={localizeHref('/api')} class="text-sm text-zinc-500 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">{m.nav_api()}</a>
 		<p class="text-xs text-zinc-400 dark:text-zinc-600">© {year} {m.site_name()}</p>
 	</div>
 </footer>

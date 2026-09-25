@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Store, ExternalLink } from '@lucide/svelte';
-	import { getLocale } from '$lib/paraglide/runtime';
+	import { Store, ExternalLink, Plus } from '@lucide/svelte';
+	import { getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { m } from '$lib/paraglide/messages';
 	import { formatPrice } from '$lib/utils/format';
 	import { countryFlag, detectUserCountry } from '$lib/utils/geo-client';
@@ -60,6 +60,13 @@
 		{#if flag}<span aria-hidden="true">{flag}</span>{/if}
 	</h2>
 	<p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">{m.stores_note()}</p>
+	<a
+		href={localizeHref('/add-store')}
+		class="mt-1 inline-flex items-center gap-1 text-xs font-medium text-accent hover:underline"
+	>
+		<Plus size={12} class="shrink-0" />
+		{m.stores_add_link()}
+	</a>
 
 	{#if loading}
 		<div class="mt-4 flex flex-col gap-3" aria-hidden="true">

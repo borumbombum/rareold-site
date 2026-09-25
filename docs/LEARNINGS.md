@@ -1,6 +1,22 @@
 # Learnings
 
-## 2026-09-19 — "Obvious 6-pack" gap-fill: Agitator, Fary Lochan SÆSON 2, Starward Solera, The Lakes WR No.7, Alberta Premium CS, Bastille 1789
+## 2026-09-23 — Full API reference (docs/api.md) linked from AGENTS.md
+
+- When asked for "the API URL", the person wanted the **relative route**, not a host. The public v1 surface (`/api/v1/{whiskies,whiskies/:slug,origins,distilleries}`) is the only stable external contract; the site's `/api/*` needs session cookies and `/api/admin/*` needs admin login — none are consumer-facing.
+- Grepping each `+server.ts` for `export … GET|POST|PUT|DELETE` gave the accurate per-route methods for the doc in one line; several routes are single-method (auth `login` GET, `logout`/`mock` POST, admin `stats` GET-only).
+
+## 2026-09-23 — Open API (064) with admin usage control; API paywall cancelled
+
+- **"Paywall" was ambiguous:** the live SQLite `/download` paywall (044) and the never-built API paywall (065) are different products. Reading 044's Progress + the shipping code settled it; the user kept 044 and killed 065/066.
+- The API shipped as the open/free/rate-limited design: `/api/v1/{whiskies,whiskies/:slug,origins,distilleries}` served from build-time JSON, sliding-window 60 req/min per IP, with `api_ip_controls` (Turso) for blocks + per-IP overrides and a live `/admin/api` usage page — the "control of usage" the owner wanted, without credentials or payment.
+- Patterns worth copying: guard-returns-Response (403/429) so handlers stay thin; Turso controls cached 60s and invalidated on admin write; tests hit server modules (not HTTP handlers) per repo convention.
+
+## 2026-09-23 — Task-state drift + "Add your store" (061)
+
+- **Trust the code, not the marker.** 078 was "IN_PROGRESS HIGH PRIORITY" but fully shipped — endpoint, migrations, admin, StoreList fetch all live. Gold pattern for answering "isn't that already done?": map each acceptance criterion to a concrete file/query before changing any status.
+- **The tasks skill's one-line-per-task list is the first thing to reconcile when a session starts** — two overlapping blocks in `.tasks/TASKS.md` hid the true state at a glance.
+- **061's "decide from the code, 2+ alternatives, then code" structure promoted a better design**: the chosen route (`/add-store`, country prefilled from `detectUserCountry()`, mailto→clipboard fallback) beat the three easy options (footer link, nav entry, direct mailto) once they were written down.
+- **Configuration > invented integration**: with no inbox or Google Form in the repo, the capture target is an explicit `configuration.stores.requestEmail` flag — empty currently, so users copy the request to clipboard and send it over Instagram (the brand's only real public contact).
 
 - **Queue lines were all ticked, so the gap-fill batch came straight from per-origin product counts** (scotland 259 → sweden 2, denmark 6, australia 6, england 4, canada 11, france 9). Six "obvious" candidates approved via question; the process still ran the full add-product pipeline.
 - **Check product currentness in the live Shopify catalog before committing:** Starward Dolce is a delisted 2020 limited release (4,800 bottles) whose CDN image 404s (purged after deletion). Minimal lesson: `GET {domain}/products.json` (and products.yml) reflects only live inventory — a delisted product looks "missing" and its image is already dead. Substituted the still-current Apera-cask **Solera** (43%, 700 ml AU / 750 ml US, Double Gold SFWSC 2022) — user-approved.
@@ -675,3 +691,23 @@ While searching, the *same* video ID showed different titles and the *same* Span
 - **Sifting trick that saved time:** fetch the watch page HTML and `grep -oE '"dateText":\{"simpleText":"[^"]*"'` to get publish dates fast — kills candidates that predate the release window (Apr 2025) without transcription.
 - **Pour & Sip database (pourandsipdatabase.co.uk) is a per-month box contents index** — useful to map a live-tasting reference back to the exact expression inside a subscription box (their Sept 2026 freshest "orphan" tiles the SÆSON title-trap).
 - Fourth consecutive batch with a videoless SKU (Golani, Ruach, OMar CS, now Fary Lochan SÆSON 2). Niche Danish microreleases routinely have zero influencer video coverage; the product still ships with no influencer_videos for this expression.
+
+## 2026-09-23 — Namespace split /api/v1/public + API docs page
+
+- Correct separation: external data API moved to `/api/v1/public/*` (rate-limited, build-time JSON). Frontend app routes stay at `/api/*`; admin at `/api/admin/*`. This removes the "mixed purposes" confusion.
+- Added `/api` static page (seeded) and footer link for discoverability.
+
+## 2026-09-24 — Gap-fill whiskies: P1 Mackmyra Svensk Rök
+
+- Distillery sites (Squarespace og:image) are the reliable image source; whisky.com blocks fetching (403). `static1.squarespace.com/...?format=1500w` works as-is.
+- Official distillery spec wins over whiskybase/aggregators (Svensk Rök = 70cl on mackmyra.se vs 500ml default on whiskybase).
+- For niche non-Scottish bottlings, exact-expression non-English review videos often don't exist; English-only seeding with runtime top-up is the correct outcome.
+- Influencer videos live in `src/lib/data/influencer_videos.json` keyed by product_id after export.
+
+- **2026-09-25 — User rejected 2 of the 4 batch whiskies; full removal executed.** Smögen Primör and The Lakes WR No.1 were deleted entirely (user: "remove this whisky"). Lessons:
+  - **Full removal ≠ deleting the seed entry.** Turso is the source of truth and `db-sync` is INSERT-only (`ON CONFLICT DO NOTHING`); removing rows from `data/seed/` does NOT propagate. Deletes require a one-off direct SQL script against Turso (`influencer_videos` → `products` → orphan `distilleries`), then re-export. Always `db-backup` first.
+  - **Distillery orphan check is mandatory before a whisky delete.** Smögen was created fresh for Primör; after the product delete it had zero referencing products, so the distillery row (`id=smogen`, all 6 locale names + description + coords) also had to be deleted to avoid a dead `/origen/smogen` page. The Lakes distillery survived because WR Reserve still references it.
+  - **False-confidence trap: a "zero-video/honest-null" product can still be rejected.** The user would rather a product not exist than render a pour/lifestyle image or empty video slot. When a product can't meet the image/video bar with *clean* assets, consider not shipping it at all rather than shipping honest-but-ugly.
+  - **`npm run db:query` is a real npm script in this repo... no it is NOT** — `npm run db:query "sql"` fails (`npm query` parses it as the npm query command). To run ad-hoc SQL use the direct node pattern: a tiny `.mjs` using `@libsql/client` + `node --env-file-if-exists=.env`, or reuse `scripts/db-export.mjs`'s client.
+  - Delete script pattern (reusable): `DELETE FROM influencer_videos WHERE product_id IN (...)` → `DELETE FROM products WHERE id IN (...)` → `DELETE FROM distilleries WHERE id IN (orphans identified by `NOT EXISTS (SELECT 1 FROM products WHERE distillery_id = ...)`)`, printing `rowsAffected` each step.
+  - After removal: `npm run data:export` refreshed `src/lib/data` to 502 whiskies / 237 distilleries / 4552 videos, and `npm run check` stayed clean (0 errors, 29 warnings). Queue file lines annotated `— REMOVED from site per request`.

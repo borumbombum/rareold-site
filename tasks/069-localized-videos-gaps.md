@@ -12,7 +12,7 @@ Sources of truth: `src/lib/data/influencer_videos.json` (export) + `data/seed/wh
 - For the largest remaining gaps, re-run the `youtube-search` skill (yt-search.mjs + yt-invidious + oEmbed verify) to catch newly-uploaded in-language, exact-expression reviews.
 - Inject any newly-found verified videos into `data/seed/whiskies.json` `influencer_videos`, then `npm run db:sync`, `npm run data:export`.
 - Never pad a slot with wrong-language or wrong-expression content (honest-dry rule).
-- Verify full seed↔export parity (0 orphans/missing/dups/label-mismatch) and `npm run check` (0 errors / 25 baseline warnings).
+- Verify full seed↔export parity (0 orphans/missing/dups/label-mismatch) and `npm run check` (0 errors / 29 baseline warnings).
 
 ## Acceptance criteria
 

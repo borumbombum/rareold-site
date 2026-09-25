@@ -450,3 +450,53 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ Elch Single Malt Whisky - Elch Whisky
 ✅ Stork Club Rye - Spreewood Distillers (added as Stork Club Rye Malt Whiskey)
 ✅ Thousand Mountains McRaven - Thousand Mountains
+
+## Gap-fill queue — thin origins (appended 2026-09-24)
+
+## Sweden
+
+✅ Mackmyra Svensk Rök - Mackmyra
+✅ Mackmyra Brukswhisky - Mackmyra
+✅ Smögen Primör Single Cask - Smögen (NEW distillery) — REMOVED from site per request (image/video couldn't meet standard; did not ship)
+
+## Finland
+
+Teerenpeli Savu - Teerenpeli (officially "Smoke", Finnish "Savu")
+
+## England
+
+✅ The Lakes Whiskymaker's Reserve No. 1 - The Lakes — REMOVED from site per request (would only ship a pour/lifestyle image, not a bottle shot)
+Cotswolds Peated Cask - Cotswolds
+Whitepeak Single Malt - Whitepeak (NEW distillery; the Peak District, Derbyshire)
+Filey Bay First Release - Spirit of Yorkshire (NEW distillery)
+Dartmoor Single Malt - Dartmoor (NEW distillery)
+Chase English Single Malt - Chase (NEW distillery)
+The Oxford Rye - The Oxford Artisan Distillery (NEW distillery)
+
+## Wales
+
+Penderyn Sherrywood - Penderyn
+In the Welsh Wind Single Malt - In the Welsh Wind (NEW distillery)
+Aber Falls Orange Marmalade - Aber Falls
+
+## Australia
+
+Hellyers Road Peated Single Malt - Hellyers Road (NEW distillery; Tasmania)
+Overeem Sherry Cask - Overeem (NEW distillery; Tasmania)
+Starward Rogue Cask Strength - Starward
+
+## India
+
+Amrut Fusion - Amrut
+Paul John Nirvana - Paul John
+Rampur ASAVA - Rampur
+
+## Israel
+
+M&H Apex - Milk & Honey
+M&H Apex Peated - Milk & Honey
+
+## Argentina / Denmark / China
+
+Casanegra Smoky - Casanegra Andes
+Stauning Bastard - Stauning

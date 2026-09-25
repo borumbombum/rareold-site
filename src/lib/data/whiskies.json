@@ -1,6 +1,6 @@
 {
   "source": "libsql://whiskys-borumbombum.aws-us-west-2.turso.io",
-  "generatedAt": "2026-09-19T12:44:05.009Z",
+  "generatedAt": "2026-09-25T13:55:22.294Z",
   "whiskies": [
     {
       "id": "1770-glasgow-peated",
@@ -28453,6 +28453,74 @@
       ]
     },
     {
+      "id": "mackmyra-brukswhisky",
+      "slug": "mackmyra-brukswhisky",
+      "name": "Mackmyra Brukswhisky",
+      "distillery": {
+        "id": "mackmyra",
+        "name": "Mackmyra Svensk Whisky",
+        "name_es": "Mackmyra Svensk Whisky",
+        "name_pt": "Mackmyra Svensk Whisky",
+        "name_en": "Mackmyra Svensk Whisky",
+        "name_ja": "マックミラ・スヴェンスク・ウイスキー",
+        "name_fr": "Mackmyra Svensk Whisky"
+      },
+      "description": "El single malt de entrada de la joven destilería sueca Mackmyra, un NAS ligero, frutal y fácil de beber, elaborado con cebada sueca y madurado en una combinación de barricas de ex-bourbon con una parte de roble sueco y americano, embotellado a 41,4 %, sin filtrar en frío, sin colorear y sin declaración de edad. Nariz de pera verde, miel, cítricos y malta dulce. En boca, suave y redondo con vainilla, caramelo, fruta fresca y un toque de enebro. Final medio, limpio, maltoso y ligeramente herbáceo. 41,4 %, 700 ml.",
+      "image": "/data/images/mackmyra-brukswhisky.webp",
+      "images": [
+        "/data/images/mackmyra-brukswhisky.webp"
+      ],
+      "origin": "sweden",
+      "region": "Suecia (Gävleborg)",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 41.4,
+      "cask": "Ex-bourbon; roble sueco y americano",
+      "distillery_id": "mackmyra",
+      "insertion_order": 504,
+      "featured": false,
+      "name_pt": "Mackmyra Brukswhisky",
+      "description_pt": "O single malt de entrada da destilaria sueca Mackmyra, um NAS leve, frutado e fácil de beber, feito com cevada sueca e amadurecido numa combinação de barricas de ex-bourbon com parte de carvalho sueco e americano, engarrafado a 41,4%, sem filtração a frio, sem coloração e sem declaração de idade. Nariz de pera verde, mel, citrinos e malte doce. Paladar suave e redondo com baunilha, caramelo, fruta fresca e um toque de zimbro. Final médio, limpo, maltado e ligeiramente herbáceo. 41,4%, 700 ml.",
+      "name_en": "Mackmyra Brukswhisky",
+      "description_en": "The entry-level single malt from the young Swedish distillery Mackmyra, a light, fruity and easy-drinking NAS distilled from Swedish barley, matured in a combination of ex-bourbon casks with a portion of Swedish and American oak, bottled at 41.4%, unchill-filtered, uncoloured and without age statement. Nose of green pear, honey, citrus and sweet malt. Soft, rounded palate with vanilla, caramel, fresh fruit and a hint of juniper. Medium, clean, malty, slightly herbaceous finish. 41.4%, 700 ml.",
+      "name_ja": "マックミラ・ブルクスウイスキー",
+      "description_ja": "スウェーデンの若い蒸溜所マックミラのエントリー・シングルモルト。スウェーデン産大麦を使い、バーボン樽を主体にスウェーデンオークとアメリカンオークを組み合わせて熟成した、軽やかでフルーティーな飲みやすいNAS。41.4%、ノンチルフィルター・無着色・年数表記なし。青い洋ナシ、ハチミツ、柑橘、甘いモルトの香り。バニラ、キャラメル、フレッシュな果実、ほのかなジュニパーのやわらかで丸みのある味わい。ミディアムでクリーン、モルティでわずかにハービーなフィニッシュ。41.4%、700ml。",
+      "name_fr": "Mackmyra Brukswhisky",
+      "description_fr": "Le single malt d'entrée de gamme de la jeune distillerie suédoise Mackmyra, un NAS léger, fruité et facile à boire, élaboré avec de l'orge suédoise et élevé dans une combinaison de fûts d'ex-bourbon avec une part de chêne suédois et américain, embouteillé à 41,4 %, sans filtration à froid, sans coloration et sans mention d'âge. Nez de poire verte, miel, agrumes et malt doux. Palais souple et rond avec vanille, caramel, fruits frais et une pointe de genévrier. Finale moyenne, propre, maltée et légèrement herbacée. 41,4 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=PUVmcJYbWBU",
+          "label": "ralfy review 989 - Mackmyra Brukswhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=SzckPBgnHvg",
+          "label": "Whisky Time - Mackmyra Brukswhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=pQE62zSofXM",
+          "label": "Daniel's Whisky & Cigars - Mackmyra Brukswhisky"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=qM4If5R7w8c",
+          "label": "The Whisky Vault - Mackmyra Brukswhisky"
+        },
+        {
+          "language": "es",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=IwDH_uW4PG8",
+          "label": "Tito Whisky - Mackmyra Brukswhisky cata y reseña"
+        }
+      ]
+    },
+    {
       "id": "mackmyra-svensk-ek",
       "slug": "mackmyra-svensk-ek",
       "name": "Mackmyra Svensk Ek",
@@ -28505,6 +28573,68 @@
           "platform": "youtube",
           "url": "https://www.youtube.com/watch?v=tSCji27u8WI",
           "label": "Mackmyra Svensk Ek - No Nonsense Whisky"
+        }
+      ]
+    },
+    {
+      "id": "mackmyra-svensk-rok",
+      "slug": "mackmyra-svensk-rok",
+      "name": "Mackmyra Svensk Rök",
+      "distillery": {
+        "id": "mackmyra",
+        "name": "Mackmyra Svensk Whisky",
+        "name_es": "Mackmyra Svensk Whisky",
+        "name_pt": "Mackmyra Svensk Whisky",
+        "name_en": "Mackmyra Svensk Whisky",
+        "name_ja": "マックミラ・スヴェンスク・ウイスキー",
+        "name_fr": "Mackmyra Svensk Whisky"
+      },
+      "description": "El single malt ahumado insignia de Mackmyra, con malta secada sobre fuego de turba sueca y ramitas de enebro. Madurado en un 81% en barriles ex-bourbon ahumados, con roble americano, roble sueco y Oloroso como complemento, al 46,1%, sin filtrar en frío ni colorante. Nariz de hoguera con bayas de enebro, cítricos y caramelo; paladar ahumado con malta, hierbas, frutas verdes y vainilla; final largo y seco con roble y hierbas. 46,1%, 700 ml.",
+      "image": "/data/images/mackmyra-svensk-rok.webp",
+      "images": [
+        "/data/images/mackmyra-svensk-rok.webp"
+      ],
+      "origin": "sweden",
+      "region": "Sweden",
+      "age": null,
+      "volume": "700 ml",
+      "abv": 46.1,
+      "cask": "Ex-bourbon, roble americano, roble sueco y Oloroso (81/17/1/1)",
+      "distillery_id": "mackmyra",
+      "insertion_order": 503,
+      "featured": false,
+      "name_pt": "Mackmyra Svensk Rök",
+      "description_pt": "O single malt defumado de assinatura da Mackmyra, com malte seco sobre fogo de turfa sueca e ramos de zimbro. Maturado em 81% de barris ex-bourbon defumados, com carvalho americano, carvalho sueco e Oloroso como complemento, a 46,1%, sem filtração a frio nem corante. Nariz de fogueira com bagas de zimbro, citrinos e caramelo; paladar defumado com malte, ervas, frutos verdes e baunilha; final longo e seco com carvalho e ervas. 46,1%, 700 ml.",
+      "name_en": "Mackmyra Svensk Rök",
+      "description_en": "The flagship smoky single malt from Mackmyra, with barley dried over a fire of Swedish peat and juniper twigs. Matured in 81% smoked ex-bourbon barrels, with American oak, Swedish oak and Oloroso to complete the blend, at 46.1%, non-chill filtered and uncoloured. Campfire aromas of juniper berries, citrus and vanilla fudge; a smoke-forward palate of bready malt, herbs, green fruits and vanilla; a long, dry finish of oak and herbs. 46.1%, 700 ml.",
+      "name_ja": "マックミラ・スヴェンスク・ローク",
+      "description_ja": "スウェーデンのピートとジュニパーの小枝で乾燥させた大麦を使う、マックミラの看板スモーキー・シングルモルト。スモークしたバーボン樽81%に、アメリカンオーク、スウェーデンオーク、オロロソを加えて熟成し、46.1%・ノンチルフィルター・無着色。焚き火とジュニパーベリー、柑橘、バニラファッジの香り。スモーキーな味わいに麦芽、ハーブ、青い果実、バニラ。オークとハーブの長くドライなフィニッシュ。46.1%、700ml。",
+      "name_fr": "Mackmyra Svensk Rök",
+      "description_fr": "Le single malt fumé phare de Mackmyra, son malt séché sur un feu de tourbe suédoise et de brindilles de genévrier. Maturé à 81 % en fûts ex-bourbon fumés, complétés par du chêne américain, du chêne suédois et de l'Oloroso, à 46,1 %, non filtré à froid et non coloré. Nez de feu de camp aux baies de genévrier, d'agrumes et de crème caramel ; palais fumé de malt, d'herbes, de fruits verts et de vanille ; finale longue et sèche de chêne et d'herbes. 46,1 %, 700 ml.",
+      "videos": [
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=5EIx5Xi3ko4",
+          "label": "No Nonsense Whisky #282 - Mackmyra Svensk Rök"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=GEQJO1ZpIt0",
+          "label": "Whisky.com review - Mackmyra Svensk Rök"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=btbPLQ9vlHM",
+          "label": "Booze Reviews 107 - Mackmyra Svensk Rok"
+        },
+        {
+          "language": "en",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=nNU93tmscqc",
+          "label": "ralfy review 989 - Mackmyra Svensk Rok"
         }
       ]
     },
@@ -38540,6 +38670,42 @@
           "label": "Tierri Whisky — Teeling Small Batch Irlandês"
         }
       ]
+    },
+    {
+      "id": "teerenpeli-savu",
+      "slug": "teerenpeli-savu",
+      "name": "Teerenpeli Savu",
+      "distillery": {
+        "id": "teerenpeli",
+        "name": "Teerenpeli Distillery",
+        "name_es": "Teerenpeli Distillery",
+        "name_pt": "Teerenpeli Distillery",
+        "name_en": "Teerenpeli Distillery",
+        "name_ja": "テーレンペリ蒸溜所",
+        "name_fr": "Teerenpeli Distillery"
+      },
+      "description": "El single malt ahumado (savu = 'humo' en finés) de la destilería finlandesa Teerenpeli (Lahti), un NAS de malta ligeramente turbada, madurado sin declaración de edad y embotellado a 43 % en 500 ml, sin filtrar en frío ni colorear. Nariz delicada de turba con vainilla, miel y malta dulce. En boca, suave y redondo, con humo elegante, manzana asada, caramelo y especias suaves. Final medio, limpio, con humo fino y limpieza maltosa. 43 %, 500 ml, Finlandia.",
+      "image": "/data/images/teerenpeli-savu.webp",
+      "images": [
+        "/data/images/teerenpeli-savu.webp"
+      ],
+      "origin": "finland",
+      "region": "Finlandia (Päijät-Häme)",
+      "age": null,
+      "volume": "500 ml",
+      "abv": 43,
+      "cask": null,
+      "distillery_id": "teerenpeli",
+      "insertion_order": 506,
+      "featured": false,
+      "name_pt": "Teerenpeli Savu",
+      "description_pt": "O single malt fumado (savu = 'fumo' em finlandês) da destilaria finlandesa Teerenpeli (Lahti), um NAS de malte ligeiramente turbado, amadurecido sem declaração de idade e engarrafado a 43% em 500 ml, sem filtração a frio nem coloração. Nariz delicado de turfa com baunilha, mel e malte doce. Paladar suave e redondo, com fumo elegante, maçã assada, caramelo e especiarias suaves. Final médio, limpo, com fumo fino e limpeza maltada. 43%, 500 ml, Finlândia.",
+      "name_en": "Teerenpeli Savu",
+      "description_en": "The peated single malt ('savu' = 'smoke' in Finnish) from Finnish distillery Teerenpeli (Lahti), a NAS of lightly peated malt, matured without age statement and bottled at 43% in 500 ml, unchill-filtered and uncoloured. Delicate nose of peat with vanilla, honey and sweet malt. Soft, rounded palate with elegant smoke, baked apple, caramel and soft spice. Medium, clean finish with fine smoke and malty clarity. 43%, 500 ml, Finland.",
+      "name_ja": "テーレンペリ・サヴ",
+      "description_ja": "フィンランド、テーレンペリ蒸溜所（ラハティ）のピーテッド・シングルモルト（savu＝フィンランド語で「煙」）。軽くピートした麦芽のNASで、年数表記なし、43%、500ml、ノンチルフィルター・無着色。バニラ、ハチミツ、甘いモルトの上に繊細なピートの香り。エレガントなスモーク、焼きリンゴ、キャラメル、やわらかなスパイスのなめらかで丸みのある味わい。繊細な煙とモルトの清らかさを残すミディアムでクリーンなフィニッシュ。43%、500ml、フィンランド。",
+      "name_fr": "Teerenpeli Savu",
+      "description_fr": "Le single malt fumé (« savu » = « fumée » en finnois) de la distillerie finlandaise Teerenpeli (Lahti), un NAS de malt légèrement tourbé, élevé sans mention d'âge et embouteillé à 43 % en 500 ml, sans filtration à froid ni coloration. Nez délicat de tourbe avec vanille, miel et malt doux. Palais souple et rond, avec une fumée élégante, pomme rôtie, caramel et épices douces. Finale moyenne, propre, avec une fumée fine et une netteté maltée. 43 %, 500 ml, Finlande."
     },
     {
       "id": "teerenpeli-10-years",

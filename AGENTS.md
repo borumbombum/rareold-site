@@ -75,6 +75,10 @@ Use `ui.showToast()` from `$lib/stores/ui.svelte` to show temporary user feedbac
 
 Already used in VoteButton, FavoriteButton, AuthButton, LanguageSwitcher, ShareButton, etc. Always prefer `showToast` over alerts or console.log for user-facing feedback.
 
+## Documentation
+
+- API routes (public `/api/v1/public`, frontend `/api`, admin `/api/admin` — relative URLs): `docs/api.md`
+
 ## Tasks
 
 Authoritative task list, state, and workflow: see `.tasks/TASKS.md`.

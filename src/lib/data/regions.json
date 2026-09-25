@@ -186,6 +186,12 @@
     "sort_order": 12
   },
   {
+    "id": "england-inglaterra-cumbria",
+    "origin_id": "england",
+    "name": "Inglaterra (Cumbria)",
+    "sort_order": 12
+  },
+  {
     "id": "scotland-blended-scotch",
     "origin_id": "scotland",
     "name": "Blended Scotch",
@@ -238,6 +244,12 @@
     "origin_id": "ireland",
     "name": "Louth",
     "sort_order": 15
+  },
+  {
+    "id": "finland-finlandia-paijat-hame",
+    "origin_id": "finland",
+    "name": "Finlandia (Päijät-Häme)",
+    "sort_order": 16
   },
   {
     "id": "scotland-islay",
@@ -412,5 +424,17 @@
     "origin_id": "taiwan",
     "name": "Nantou",
     "sort_order": 55
+  },
+  {
+    "id": "sweden-suecia-bohuslan",
+    "origin_id": "sweden",
+    "name": "Suecia (Bohuslän)",
+    "sort_order": 60
+  },
+  {
+    "id": "sweden-suecia-gavleborg",
+    "origin_id": "sweden",
+    "name": "Suecia (Gävleborg)",
+    "sort_order": 61
   }
 ]
