@@ -44551,6 +44551,47 @@
 			"influencer_videos": [],
 			"video": null,
 			"url": ""
+		},
+		{
+			"featured": false,
+			"id": "friar-john-cor-ch3",
+			"slug": "friar-john-cor-ch3",
+			"name": "Friar John Cor Chapter 3",
+			"description": "Tercer capítulo anual de la serie Cask Strength Congregation de Lindores Abbey, embotellado a 60,2% ABV sin filtrado en frío ni color añadido. Madurado en barricas de ex-bourbon, Amontillado y Pedro Ximénez, y aunado en botas de jerez. En nariz ofrece fruta de huerta madura, vainilla, miel y melaza; en boca, caramelo, frutos secos, pasas y especias dulces, con un final largo de roble y chocolate.",
+			"image": "/data/images/friar-john-cor-ch3.webp",
+			"origin": "scotland",
+			"region": "Lowlands",
+			"age": null,
+			"volume": "700 ml",
+			"abv": 60.2,
+			"cask": "Bourbon + Amontillado + PX",
+			"distillery_id": "lindores-abbey",
+			"name_pt": "Friar John Cor Chapter 3",
+			"description_pt": "Terceiro capítulo anual da série Cask Strength Congregation da Lindores Abbey, engarrafado a 60,2% ABV sem filtração a frio nem corantes. Estagiado em barris de ex-bourbon, Amontillado e Pedro Ximénez, e casado em cascos de xerez. No nariz oferece fruta de pomar madura, baunilha, mel e melaço; na boca, caramelo, frutos secos, passas e especiarias doces, com um final longo de carvalho e chocolate.",
+			"name_en": "Friar John Cor Chapter 3",
+			"description_en": "The third annual chapter of Lindores Abbey's Cask Strength Congregation series, bottled at 60.2% ABV with no chill filtration or added colour. Matured in ex-bourbon, Amontillado and Pedro Ximénez casks, then married in sherry butts. The nose offers ripe orchard fruit, vanilla, honey and treacle; the palate brings caramel, dried fruit, raisins and sweet spice, with a long oaky, chocolatey finish.",
+			"name_ja": "リンドーズ・アビー フライアー・ジョン・コア チャプター3",
+			"description_ja": "リンドーズ・アビーのカスクストレングス・コングリゲーション・シリーズの第3弾。60.2% ABVでノンチルフィルター・無着色で瓶詰め。元バーボン樽、アモンティリャード樽、ペドロヒメネス樽で熟成し、シェリー樽でマリッジ。ノーズは熟した果樹園のフルーツ、バニラ、ハチミツ、糖蜜。パレットはキャラメル、ドライフルーツ、レーズン、甘いスパイス。オークとチョコレートの長く続くフィニッシュ。",
+			"name_fr": "Friar John Cor Chapter 3",
+			"description_fr": "Troisième chapitre annuel de la série Cask Strength Congregation de Lindores Abbey, embouteillé à 60,2 % ABV, sans filtration à froid ni colorant. Vieilli en fûts de bourbon, d'Amontillado et de Pedro Ximénez, puis assemblé en fûts de xérès. Au nez, fruits du verger mûrs, vanille, miel et mélasse ; en bouche, caramel, fruits secs, raisins secs et épices douces, avec une longue finale boisée et chocolatée.",
+			"influencer_videos": [
+				{
+					"language": "en",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=wTcYs4r-Tic",
+					"label": "ralfy",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "ja",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=RPQ5W8dvQMw",
+					"label": "Dram FM【ウイスキーラジオ】",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			],
+			"video": null,
+			"url": ""
 		}
 	]
 }

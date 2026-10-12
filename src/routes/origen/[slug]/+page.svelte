@@ -41,6 +41,7 @@
 		argentina: 'https://turismo.buenosaires.gob.ar/sites/turismo/files/obelisco-baverde-noche-luces1500x610.jpg',
 		uruguay: 'https://images.unsplash.com/photo-1774279117387-a669e6cc3f9c?w=1600&h=900&fit=crop',
 		germany: 'https://images.unsplash.com/photo-1534313314376-a72289b6181e?w=1600&h=900&fit=crop',
+		finland: 'https://images.unsplash.com/photo-1770329772164-076b3567e2ea?w=1600&h=900&fit=crop',
 		england: 'https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=1600&h=900&fit=crop',
 		taiwan: 'https://images.unsplash.com/photo-1748104433499-3d492d0337cb?w=1600&h=900&fit=crop',
 		wales: 'https://unsplash.com/photos/6f0XhPKz6CA/download?force=true&w=1600'

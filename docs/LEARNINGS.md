@@ -711,3 +711,9 @@ While searching, the *same* video ID showed different titles and the *same* Span
   - **`npm run db:query` is a real npm script in this repo... no it is NOT** — `npm run db:query "sql"` fails (`npm query` parses it as the npm query command). To run ad-hoc SQL use the direct node pattern: a tiny `.mjs` using `@libsql/client` + `node --env-file-if-exists=.env`, or reuse `scripts/db-export.mjs`'s client.
   - Delete script pattern (reusable): `DELETE FROM influencer_videos WHERE product_id IN (...)` → `DELETE FROM products WHERE id IN (...)` → `DELETE FROM distilleries WHERE id IN (orphans identified by `NOT EXISTS (SELECT 1 FROM products WHERE distillery_id = ...)`)`, printing `rowsAffected` each step.
   - After removal: `npm run data:export` refreshed `src/lib/data` to 502 whiskies / 237 distilleries / 4552 videos, and `npm run check` stayed clean (0 errors, 29 warnings). Queue file lines annotated `— REMOVED from site per request`.
+## 2026-09-25 — Task 062: YouTube influencer contact list
+
+- Scrubbed HTML emails need an alphabetic-TLD regex (`\.[A-Za-z]{2,}`): a loose `[\w.+-]+@[\w-]+\.[\w.-]+` matched Google-Fonts variable-font ranges (`wght@0..100`) on every page, giving 730/730 junk "contacts" that passed a naive count check. Sample the actual extracted strings, not just the hit count.
+- About-page scraping should prefer mailto → bare email → external site → channel-URL fallback, with youtube/google/schema/w3/gstatic/ggpht/font/tracking prefixes filtered before trusting any URL. Real-world artifacts to strip: trailing `...`, punctuation, mid-string `http` jams.
+- oEmbed `author_url` is a legit dedupe key and 4552 rows collapsed to 730 channels; but it can be odd (e.g. `@itwasalladram...5657` is the genuine handle).
+- Cache the expensive oEmbed pass to a JSON file so scraper iterations re-run in ~2 min instead of ~27.

@@ -38,7 +38,7 @@ Current status of `tasks/` (authoritative — kept in sync with every task file 
 - 067 [TODO] Local SQLite Migration (homepage infinite scroll done 2026-09-03; still covers origin-page pagination + SQLite backing)
 - 064 [DONE] Public Api Rate Limiting
 - 063 [DONE] Video Language Flag On Product Page
-- 062 [TODO] Youtube Influencer Contact List
+- 062 [DONE] Youtube Influencer Contact List
 - 061 [DONE] Store Owners Add Store Button
 - 060 [DONE] Add 10 Speyside Whiskies Backfill Distillery Descriptions
 - 059 [DONE] Catalog Counts Ranking Snapshot Metadata (superseded by 067)

@@ -94,3 +94,23 @@ One-off helpers used during influencer-video research batches:
 - `finalverify.mjs` → read `/tmp/opencode/research/ids.txt` (one ID per token), oEmbed all, write `/tmp/opencode/research/verified.json` + one `id<TAB>code<TAB>author<TAB>title` line per video. Run once at the end.
 - `capsall.mjs` → read `ids.txt`, fetch each watch page WITH cookie jar `-b cj3.txt` + desktop UA, brace-balance the real `"captionTracks":[...]`, print `id<TAB>lang1/asr,lang2`. This is the caption ground-truth pass (same gotcha as Balblair wave: naive `languageCode` grep false-positives on the huge translate-target array; always parse the array).
 - Single-file deliverable: `/tmp/opencode/research/wave2-b2.json`.
+
+## `scripts/youtube-influencers.mjs`
+
+Builds the outreach contact list of every YouTube influencer whose videos are embedded on the site — no API key. Reads `src/lib/data/influencer_videos.json`, resolves each unique video ID via oEmbed to its channel name/URL, dedupes by normalized channel URL, scrapes each channel's `/about` page (best effort) for an email or website, and writes the CSV + markdown. Re-runnable: oEmbed results are cached at `/tmp/rareold-batch/influencers-oembed.json`.
+
+```bash
+node scripts/youtube-influencers.mjs    # -> docs/youtube-influencers.csv + .md
+```
+
+Output (`docs/youtube-influencers.csv`, RFC-4180):
+
+```
+channel,contact,video_count,whiskies
+"Whisky.com","https://www.whisky.com/","241","1770 Glasgow Peated;1770 Glasgow Single Malt;..."
+```
+
+Contact precedence: `mailto:` link → bare email in payload → external website link → channel URL (fallback). Two gotchas worth knowing:
+
+- **The email regex broke on CSS.** A naive `[\w.+-]+@[\w-]+\.[\w.-]+` matched Google-Fonts variable-font ranges (`wght@0..100`) embedded in *every* about page, silently "finding" a bogus contact for all 730 channels. The regex now requires an alphabetic TLD of ≥2 chars (`...\.[A-Za-z]{2,}`), which can never match a numeric range.
+- **YouTube about pages are JS-heavy.** The raw HTML is full of tracking/static URLs (`youtubei-att.googleapis.com`, `yt3.ggpht.com`, `apis.google.com`, JSON config). The website fallback filters out youtube/google/schema/w3/gstatic/ggpht/font/tracking domains and strips trailing `...`, punctuation, and mid-string `http` jams. Even so, expect ~60% of channels to have a real contact and the rest to fall back to the channel URL.

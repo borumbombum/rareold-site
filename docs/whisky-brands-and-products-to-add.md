@@ -211,6 +211,10 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 ✅ RyeLaw - InchDairnie
 ✅ Lochlea Our Barley - Lochlea
 
+## Scotland — Lowlands (gap-fill, user-requested 2026-10-12)
+
+✅ Friar John Cor Chapter 3 - Lindores Abbey
+
 ## Scotland — Grains & Blends
 
 ✅ Johnnie Walker Black Label 12 YO - Johnnie Walker
