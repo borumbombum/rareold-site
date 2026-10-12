@@ -80,6 +80,21 @@ OZGyHU--Lt0   Royal Salute   Royal Salute 25 Year Old Treasured Blend
 - `DEAD` (404) or `BLOCK` (401) → discard.
 - `ERR` = unreachable/transient; retry.
 
+## `scripts/store-logos.mjs`
+
+One-off favicon backfill for the `stores` table — no API key. For every store with `logo_url IS NULL`, fetches its homepage HTML server-side, picks the best icon (apple-touch-icon → largest `rel="icon"` by `sizes` → `og:image` → `/favicon.ico` convention), HEAD-validates it is really an image, and `UPDATE`s Turso. Re-runnable/idempotent (skips stores that already have a logo; `--force` re-resolves all).
+
+```bash
+node --env-file-if-exists=.env scripts/store-logos.mjs          # backfill missing only
+node --env-file-if-exists=.env scripts/store-logos.mjs --force  # re-resolve all
+```
+
+Why this exists: `StoreList.svelte` already rendered `store.logo_url` when present (and `/admin/stores` already had a logo field) — all 6 values were just `NULL`. Client-side favicon discovery is not viable (store homepages don't send CORS-permissive headers), and `db:sync` uses `ON CONFLICT DO NOTHING`, so backfilled logos survive future syncs.
+
+Gotchas:
+- HEAD validation can false-negative on bot-protected hosts (Mercado Libre 403s HEAD but serves GET to browsers). The script sends a browser UA, which was enough here — but if a logo 404s/403s in production, the component's `onerror` hides the `<img>` and the row degrades to text-only.
+- `StoreList` falls back to Google's favicon service (`s2/favicons?domain=<host>&sz=64`) when `logo_url` is null, so new stores show something before anyone runs this script.
+
 ## Research scratch helpers (in `/tmp/opencode/research/`, not repo-maintained)
 
 One-off helpers used during influencer-video research batches:

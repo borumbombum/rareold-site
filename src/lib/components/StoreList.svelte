@@ -18,6 +18,16 @@
 	const flag = $derived(countryFlag(flagCountry));
 	const locale = $derived(getLocale());
 
+	/** Favicon for a store: persisted logo_url first, Google's favicon service as fallback. */
+	function storeFavicon(store: StoreItem): string {
+		if (store.logo_url) return store.logo_url;
+		try {
+			return `https://www.google.com/s2/favicons?domain=${new URL(store.url).hostname}&sz=64`;
+		} catch {
+			return '';
+		}
+	}
+
 	$effect(() => {
 		detectUserCountry().then((c) => (flagCountry = c));
 	});
@@ -96,12 +106,13 @@
 					class="group flex items-center justify-between gap-3 rounded-2xl border border-zinc-200 px-4 py-3.5 transition hover:border-zinc-300 hover:shadow-md dark:border-zinc-800 dark:hover:border-zinc-700"
 				>
 					<span class="flex min-w-0 items-center gap-3">
-						{#if store.logo_url}
+						{#if storeFavicon(store)}
 							<img
-								src={store.logo_url}
+								src={storeFavicon(store)}
 								alt=""
 								loading="lazy"
-								class="h-8 w-8 shrink-0 rounded-md object-contain"
+								onerror={(e) => ((e.currentTarget as HTMLImageElement).style.display = 'none')}
+								class="h-8 w-8 shrink-0 rounded-full bg-white object-contain"
 							/>
 						{/if}
 						<span class="truncate font-medium text-zinc-900 dark:text-white">{store.name}</span>

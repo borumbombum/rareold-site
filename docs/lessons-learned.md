@@ -807,3 +807,10 @@
 - **Bottle label says "CHAPTER III", display name uses "Chapter 3"** per repo convention (cf. `torabhaig-legacy-series-ch1` / "Chapter 1") and the user's chosen wording. Slug `friar-john-cor-ch3`.
 - **CaskCartel Shopify CDN og:image worked well** (528x1022 portrait bottle on white, 47KB jpg). Distillery page had only lifestyle shots; HTFW 403s; whisky.com 403s (known).
 - Queue file is user-owned (agents only tick) — but a direct chat request like this is equivalent to the user adding the line: added `Friar John Cor Chapter 3 - Lindores Abbey` already ticked, under a dated user-requested note, and reported it.
+
+## 2026-10-12 — Store favicons in StoreList (persist + Google fallback, circular)
+
+- **The plumbing already existed.** `stores.logo_url`, admin logo field with preview, API passthrough, and the `{#if store.logo_url}` render branch were all in place — all 6 values were just NULL. Check for existing schema/UI support before building new machinery.
+- **Favicon precedence that works:** apple-touch-icon (180px, crisp at 32px display) → largest `rel="icon"` by `sizes` → `og:image` → `/favicon.ico` convention. HEAD-validate `content-type: image/*` before persisting, and send a browser UA (Mercado Libre 403s HEAD without one, serves GET fine).
+- **`pkill -f` / `pgrep -f` match your own shell** when the pattern appears in your command string (e.g. `pkill -f "vite dev"` kills the shell running it). Always use the bracket trick (`[v]ite dev`) for patterns that overlap your own command.
+- **GEO stubbing doesn't beat isPrivateIp.** `resolveCountry` returns null for loopback before consulting the endpoint, so a stub `GEO_IP_ENDPOINT` can't fake a country from localhost. Verified the UY store path through a temporary `_debug-stores` route calling `getStoresForProduct` directly, then deleted it.
