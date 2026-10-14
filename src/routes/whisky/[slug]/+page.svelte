@@ -100,6 +100,12 @@
 	{#if schemaJson}
 		{@html `<script type="application/ld+json">${JSON.stringify(schemaJson)}</script>`}
 	{/if}
+	<link
+		rel="alternate"
+		type="application/json"
+		title="Product API (all languages)"
+		href={getUrlOrigin() + `/api/v1/public/whiskies/${slug}?lang=all`}
+	/>
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6">

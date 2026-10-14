@@ -70,6 +70,8 @@ Response: `{ "data": [ Whisky, ... ] }` where `Whisky` is:
 
 Slug or product id. `?lang=` as above, plus `?lang=all` for all five locales at once. Unknown id → `404` `{ "error": "not_found" }`. Same shape as one item above.
 
+Discovery: every product page embeds `<link rel="alternate" type="application/json" href="…/api/v1/public/whiskies/{slug}?lang=all">` in its `<head>`, and shows a copy/view API card below the reviews.
+
 ### `GET /api/v1/public/origins` — origins list
 
 `?lang=` supported. Response: `{ "data": [{ "id": "scotland", "name": "Scotland", "flag": "🏴" }, …] }`.
