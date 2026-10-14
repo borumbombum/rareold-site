@@ -18,7 +18,7 @@ The only stable external contract. Serves from the site's build-time JSON export
 
 - **Rate limit:** default **60 requests per minute per IP**. Over the limit → `429` `{ "error": "rate_limited" }`, with a `Retry-After` header.
 - **Abuse control:** admins can block an IP (→ `403` `{ "error": "blocked" }`) or override its limit in the admin panel (`/admin/api`). Controls apply within ~60s.
-- **Localization:** `?lang=` — `en` (default), `es`, `pt`, `ja`, `fr`. Unknown values fall back to `en`. `name`, `description`, `origin.name` and distillery `name`/`description` resolve to the selected language and fall back to the base field.
+- **Localization:** `?lang=` — `en` (default), `es`, `pt`, `ja`, `fr`, or `all`. Unknown values fall back to `en`. `name`, `description`, `origin.name` and distillery `name`/`description` resolve to the selected language and fall back to the base field. `?lang=all` returns the same shape serialized once per locale: `{ "data": { "es": Whisky, "en": Whisky, "pt": Whisky, "ja": Whisky, "fr": Whisky } }` (single-whisky endpoint only).
 
 ### `GET /api/v1/public/whiskies` — catalog list
 
@@ -68,7 +68,7 @@ Response: `{ "data": [ Whisky, ... ] }` where `Whisky` is:
 
 ### `GET /api/v1/public/whiskies/{slug}` — single whisky
 
-Slug or product id. `?lang=` as above. Unknown id → `404` `{ "error": "not_found" }`. Same shape as one item above.
+Slug or product id. `?lang=` as above, plus `?lang=all` for all five locales at once. Unknown id → `404` `{ "error": "not_found" }`. Same shape as one item above.
 
 ### `GET /api/v1/public/origins` — origins list
 

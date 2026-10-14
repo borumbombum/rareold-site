@@ -160,6 +160,16 @@ export function findWhisky(slug: string, lang: ApiLocale): ApiWhisky | null {
 	return w ? serializeWhisky(w, lang) : null;
 }
 
+/** All-locale variant for `?lang=all`: same shape serialized once per locale. */
+export function findWhiskyAll(slug: string): Record<ApiLocale, ApiWhisky> | null {
+	const w = WHISKIES.find((x) => x.slug === slug || x.id === slug);
+	if (!w) return null;
+	return Object.fromEntries(LOCALES.map((l) => [l, serializeWhisky(w, l)])) as Record<
+		ApiLocale,
+		ApiWhisky
+	>;
+}
+
 export function listOrigins(lang: ApiLocale) {
 	return ORIGINS.map((o) => serializeOrigin(o, lang));
 }

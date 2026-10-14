@@ -44592,6 +44592,73 @@
 			],
 			"video": null,
 			"url": ""
+		},
+		{
+			"featured": false,
+			"id": "port-ellen-200th-anniversary-42",
+			"slug": "port-ellen-200th-anniversary-42",
+			"name": "Port Ellen 200th Anniversary 42 YO",
+			"description": "Primera edición limitada desde la reapertura de Port Ellen en 2024: un single malt de 42 años destilado en 1983, poco antes del cierre, y madurado en barricas de roble europeo. Solo 150 botellas a £7.500, embotellado al 56,4%. Humo intenso con arándanos, grosellas, azúcares morenos y manzana roja, y un final largo de humo, pimienta negra y zarzamora.",
+			"image": "/data/images/port-ellen-200th-anniversary-42.webp",
+			"origin": "scotland",
+			"region": "Islay",
+			"age": 42,
+			"volume": "700 ml",
+			"abv": 56.4,
+			"cask": "European oak",
+			"distillery_id": "port-ellen",
+			"name_pt": "Port Ellen 200th Anniversary 42 YO",
+			"description_pt": "Primeira edição limitada desde a reabertura de Port Ellen em 2024: um single malt de 42 anos destilado em 1983, pouco antes do encerramento, e amadurecido em barris de carvalho europeu. Apenas 150 garrafas a £7.500, engarrafado a 56,4%. Fumo intenso com mirtilos, groselhas, açúcares mascavados e maçã vermelha, e um final longo de fumo, pimenta preta e amora.",
+			"name_en": "Port Ellen 200th Anniversary 42 YO",
+			"description_en": "The first limited release since Port Ellen's 2024 reopening: a 42-year-old single malt distilled in 1983, shortly before the closure, and matured in European oak casks. Only 150 bottles at £7,500, bottled at 56.4%. Intense smoke with cranberries, redcurrants, brown sugars and red apple, and a long finish of smoke, black pepper and bramble.",
+			"name_ja": "ポートエレン 200周年記念 42年",
+			"description_ja": "2024年の再開以来初の限定リリース。閉鎖直前の1983年に蒸溜され、ヨーロピアンオーク樽で42年熟成。150本限定・7,500ポンド、56.4%で瓶詰め。力強いスモークにクランベリー、レッドカラント、ブラウンシュガー、赤リンゴ。スモーク、黒胡椒、ブラックベリーの長いフィニッシュ。",
+			"name_fr": "Port Ellen 200th Anniversary 42 YO",
+			"description_fr": "Première édition limitée depuis la réouverture de Port Ellen en 2024 : un single malt de 42 ans distillé en 1983, peu avant la fermeture, et vieilli en fûts de chêne européen. Seulement 150 bouteilles à 7 500 £, embouteillé à 56,4 %. Fumée intense avec canneberges, groseilles, sucres bruns et pomme rouge, et une longue finale de fumée, poivre noir et mûre.",
+			"influencer_videos": [],
+			"video": null,
+			"url": ""
+		},
+		{
+			"featured": false,
+			"id": "larnaudie-single-malt",
+			"slug": "larnaudie-single-malt",
+			"name": "Whisky LARNAUDIE Single Malt",
+			"description": "Single malt artesanal de Punta Colorada, Maldonado: el primer whisky single malt registrado en Uruguay (Ancap 491/2660, 2021), obra de Enrique Larnaudie. Destilado en alambique de cobre y añejado en barricas de roble americano, embotellado al 40% en 750 ml. Pequeños lotes de unas 30 botellas, a la venta en Devoto.",
+			"image": "/data/images/larnaudie-single-malt.webp",
+			"origin": "uruguay",
+			"region": "Maldonado",
+			"age": null,
+			"volume": "750 ml",
+			"abv": 40,
+			"cask": "American oak",
+			"distillery_id": "larnaudie",
+			"name_pt": "Whisky LARNAUDIE Single Malt",
+			"description_pt": "Single malt artesanal de Punta Colorada, Maldonado: o primeiro whisky single malt registado no Uruguai (Ancap 491/2660, 2021), obra de Enrique Larnaudie. Destilado em alambique de cobre e estagiado em barris de carvalho americano, engarrafado a 40% em 750 ml. Pequenos lotes de cerca de 30 garrafas, à venda no Devoto.",
+			"name_en": "Whisky LARNAUDIE Single Malt",
+			"description_en": "An artisanal single malt from Punta Colorada, Maldonado: the first single malt whisky registered in Uruguay (Ancap 491/2660, 2021), made by Enrique Larnaudie. Distilled in a copper pot still and aged in American oak barrels, bottled at 40% in 750 ml. Small batches of about 30 bottles, sold at Devoto.",
+			"name_ja": "ラルナウディ シングルモルト",
+			"description_ja": "マルドナド県プンタ・コロラダの職人的シングルモルト。ウルグアイで初めて登録されたシングルモルトウイスキー（Ancap 491/2660、2021年）。エンリケ・ラルナウディが銅製ポットスチルで蒸溜し、アメリカンオーク樽で熟成。40%、750ml。約30本の少量ロットでDevotoにて販売。",
+			"name_fr": "Whisky LARNAUDIE Single Malt",
+			"description_fr": "Single malt artisanal de Punta Colorada (Maldonado) : le premier single malt enregistré en Uruguay (Ancap 491/2660, 2021), œuvre d'Enrique Larnaudie. Distillé en alambic de cuivre et vieilli en fûts de chêne américain, embouteillé à 40 % en 750 ml. Petits lots d'une trentaine de bouteilles, en vente chez Devoto.",
+			"influencer_videos": [
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=k6gvQOlFbtQ",
+					"label": "Desayunos Informales",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				},
+				{
+					"language": "es",
+					"platform": "youtube",
+					"url": "https://www.youtube.com/watch?v=pwWXQXp4VMM",
+					"label": "la diaria",
+					"created_at": "2000-01-01T00:00:00.000Z"
+				}
+			],
+			"video": null,
+			"url": ""
 		}
 	]
 }

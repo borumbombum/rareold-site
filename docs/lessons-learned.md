@@ -814,3 +814,30 @@
 - **Favicon precedence that works:** apple-touch-icon (180px, crisp at 32px display) → largest `rel="icon"` by `sizes` → `og:image` → `/favicon.ico` convention. HEAD-validate `content-type: image/*` before persisting, and send a browser UA (Mercado Libre 403s HEAD without one, serves GET fine).
 - **`pkill -f` / `pgrep -f` match your own shell** when the pattern appears in your command string (e.g. `pkill -f "vite dev"` kills the shell running it). Always use the bracket trick (`[v]ite dev`) for patterns that overlap your own command.
 - **GEO stubbing doesn't beat isPrivateIp.** `resolveCountry` returns null for loopback before consulting the endpoint, so a stub `GEO_IP_ENDPOINT` can't fake a country from localhost. Verified the UY store path through a temporary `_debug-stores` route calling `getStoresForProduct` directly, then deleted it.
+
+## 2026-10-12 — Add-product run: Port Ellen 200th Anniversary 42 YO (NEW distillery)
+
+- **ABV conflict resolved editorial-beats-retailer.** CNA Luxury (full tasting article from Diageo press kit) says 56.4%; CaskCartel says 58.4% but its own spec block says "Age: 21 Year" for a 42YO — demonstrably sloppy data entry. Seeded 56.4 per the official-spec-beats-aggregator rule (Mackmyra precedent). No third source exists; label crop (DISTILLED 1983 / BOTTLED 2025 / 001/150 confirmed) was too small to read ABV.
+- **Wrong-expression image trap:** Justerini & Brooks' anniversary page og-gallery first yields the Prism 46 YO sculpture decanter, not the 42YO bottle. Always view the candidate image — filename alone ("port-ellen-bottle-square") misleads. Correct bottle shot came from CaskCartel's Shopify CDN og:image (724x1024, white bg, coffret + bottle, label legible).
+- **Zero-video ship is legitimate** when honest multi-source search (native + Invidious + web, en/es/pt/ja/fr queries) finds no exact-expression review. 150 bottles at £7,500, on sale Oct 2025 — nobody has opened one on camera. Teerenpeli Savu precedent holds.
+- **Distillery facts (Wikipedia):** founded 1825 (malt mill; distillery from 1833), Islay, Diageo, closed 1930–1966/67 and 1983–2024, reopened 19 Mar 2024, coords 55.6334/-6.1969. Official web presence is Diageo's malts.com page (no standalone site found).
+
+## 2026-10-14 — Add-product run: Whisky LARNAUDIE Single Malt (NEW distillery, first Uruguay whisky)
+
+- **Label photos beat press for specs.** No article stated ABV/cask; the AloHaus label shots gave everything: 40% ABV, 750 ml, "Añejado en barricas de roble americano", Ancap 491/2660, producer Bruno Enrique Malacrida Centurión (San Carlos). When specs are missing from press, go straight to label imagery.
+- **Region fit without new region:** press places the operation in Punta Colorada, Maldonado → existing `uruguay-maldonado` region. (Label's San Carlos address is also Maldonado — consistent either way.)
+- **User-mandated video honored as-is:** `k6gvQOlFbtQ` (Desayunos Informales TV interview, ES) seeded as the es slot per explicit order, even though it's interview-format rather than a tasting. User override wins; noted here for transparency.
+- First product for the `uruguay` origin (previously 0 whiskies).
+
+## 2026-10-14 — Larnaudie 2nd video + china hero + larnaudie distillery background
+
+- **Distillery `image` needs dual write.** `db-sync` is `ON CONFLICT DO NOTHING` for distilleries, so a seed-only `image` change never reaches Turso on existing rows. Pattern: set seed (source of truth for fresh bootstraps) + direct `UPDATE distilleries SET image` + `data:export`. Same applies to any future distillery field fix on existing rows.
+- **`db-backup.mjs` needs `--env-file-if-exists=.env` explicitly** — without the flag it warns and writes nothing. Always pass the flag; verify the backup file exists before destructive SQL.
+- China origin hero: Simatai Great Wall `photo-1555085634-265dff003dc5` (free license, 200-verified at hero crop). Larnaudie background reuses Uruguay's hero URL per user call.
+
+## 2026-10-14 — Per-product API link card + `lang=all`
+
+- **New `ApiLinkCard.svelte`** after `<ReviewSection/>`: tiny muted card with truncated mono URL, Copy (clipboard + existing `share_copied` toast) + View (`_blank`). URL is `origin + /api/v1/public/whiskies/{slug}?lang=all`.
+- **`lang=all` implementation:** new `findWhiskyAll()` in `api-v1.ts` maps `LOCALES` over existing `serializeWhisky` — no serializer duplication. Route branches before `resolveLang`. Single-lang + 404 behavior untouched (verified by curl).
+- **i18n cost of 2 keys is 10 edits** (5 files) — appended via node script, diffs verified clean (additions only). Reused `m.view()` + `m.share_copied()` to avoid extra keys.
+- `docs/api.md` lines 21 + 71 updated for `lang=all`.

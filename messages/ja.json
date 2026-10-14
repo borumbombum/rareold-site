@@ -388,5 +388,9 @@
   "map_distilleries": "{count} 蒸留所",
   "map_showing_only": "のみ",
   "map_clear_selection": "選択をクリア",
-  "nav_api": "API"
+  "nav_api": "API",
+  "api_card_title": "商品API",
+  "api_copy_link": "APIリンクをコピー",
+  "api_copied": "コピー済み",
+  "api_copy_failed": "コピーできませんでした"
 }

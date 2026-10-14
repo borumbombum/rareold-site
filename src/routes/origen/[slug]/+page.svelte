@@ -44,7 +44,8 @@
 		finland: 'https://images.unsplash.com/photo-1770329772164-076b3567e2ea?w=1600&h=900&fit=crop',
 		england: 'https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=1600&h=900&fit=crop',
 		taiwan: 'https://images.unsplash.com/photo-1748104433499-3d492d0337cb?w=1600&h=900&fit=crop',
-		wales: 'https://unsplash.com/photos/6f0XhPKz6CA/download?force=true&w=1600'
+		wales: 'https://unsplash.com/photos/6f0XhPKz6CA/download?force=true&w=1600',
+		china: 'https://images.unsplash.com/photo-1555085634-265dff003dc5?w=1600&h=900&fit=crop'
 	};
 
 	const heroImageUrl = $derived(ORIGIN_HERO_IMAGES[data.slug] ?? '/images/whisky.webp');

@@ -215,6 +215,14 @@ Curated world-wide candidates (researched 2026-08, excluding everything already 
 
 ✅ Friar John Cor Chapter 3 - Lindores Abbey
 
+## Scotland — Islay (gap-fill, user-requested 2026-10-12)
+
+✅ Port Ellen 200th Anniversary 42 YO - Port Ellen (NEW distillery)
+
+## Uruguay (gap-fill, user-requested 2026-10-14)
+
+✅ Whisky LARNAUDIE Single Malt - Larnaudie (NEW distillery; first Uruguay whisky)
+
 ## Scotland — Grains & Blends
 
 ✅ Johnnie Walker Black Label 12 YO - Johnnie Walker

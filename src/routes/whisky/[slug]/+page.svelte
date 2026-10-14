@@ -13,6 +13,7 @@
 	import InfluencerVideos from '$lib/components/InfluencerVideos.svelte';
 	import ReviewSection from '$lib/components/ReviewSection.svelte';
 	import StoreList from '$lib/components/StoreList.svelte';
+	import ApiLinkCard from '$lib/components/ApiLinkCard.svelte';
 	import type { CountryCode } from '$lib/types';
 	import type { PageData } from './$types';
 
@@ -230,6 +231,8 @@
 			<StoreList productSlug={product.slug} />
 
 		<ReviewSection productId={product.id} countryCode={country} initial={data.reviews} />
+
+		<ApiLinkCard slug={product.slug} />
 	</div>
 	</div>
 </div>

@@ -387,5 +387,9 @@
   "map_distilleries": "{count} destilarias",
   "map_showing_only": "Somente",
   "map_clear_selection": "Limpar seleção",
-  "nav_api": "API"
+  "nav_api": "API",
+  "api_card_title": "API do produto",
+  "api_copy_link": "Copiar link da API",
+  "api_copied": "Copiado!",
+  "api_copy_failed": "Não foi possível copiar"
 }
